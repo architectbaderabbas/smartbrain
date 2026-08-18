@@ -1,0 +1,19 @@
+{
+  "account": 10225,
+  "balance": 506.13,
+  "books": [
+    {
+      "loss_streak": 0,
+      "name": "SHOCK",
+      "net": 0.31,
+      "trades": 1,
+      "wins": 1
+    }
+  ],
+  "brain_mode": "CAUTION",
+  "day_pl": 0,
+  "equity": 506.13,
+  "positions": [],
+  "ts": 1787023430,
+  "week_pl": 0
+}
