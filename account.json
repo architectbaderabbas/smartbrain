@@ -4,39 +4,25 @@
   "books": [
     {
       "loss_streak": 1,
-      "name": "INTRADAY",
-      "net": -4.42,
-      "trades": 1,
-      "wins": 0
-    },
-    {
-      "loss_streak": 1,
       "name": "SWING",
       "net": -0.88,
       "trades": 2,
       "wins": 1
-    },
-    {
-      "loss_streak": 2,
-      "name": "SHOCK",
-      "net": -7.23,
-      "trades": 3,
-      "wins": 1
     }
   ],
   "brain_mode": "CAUTION",
-  "day_pl": -6.55,
-  "equity": 493.01,
+  "day_pl": -0.02,
+  "equity": 492.97,
   "positions": [
     {
       "book": "SWING",
       "lots": 0.01,
       "opened": 1787083200,
-      "pl": 0.66,
+      "pl": 0.62,
       "symbol": "AUDUSD",
       "type": "SELL"
     }
   ],
-  "ts": 1787089507,
-  "week_pl": -6.55
+  "ts": 1787089787,
+  "week_pl": -0.02
 }

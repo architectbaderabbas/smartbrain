@@ -1,5 +1,5 @@
 {
- "ts": 1787089516,
+ "ts": 1787089785,
  "council_ts": 1787089516,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": -0.4,
   "bias_GER40": -0.4,
   "allow_books": "INTRADAY,SWING,POSITION,REVERT",
-  "news_block": "AUD:194:254;GBP:484:554;EUR:554:614;EUR:739:799;USD:1187:1277;AUD:1654:1724",
+  "news_block": "AUD:190:250;GBP:480:550;EUR:550:610;EUR:735:795;USD:1183:1273;AUD:1650:1720",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDJPY",
@@ -33,6 +33,7 @@
   "summary_ar": "انهيار السندات مستمر (30Y 5.33%، العوائد تنخفض قليلاً)؛ الجيوسياسة تتلاشى (البنتاغون يشير لانسحاب من الخليج)؛ الين قوي على مسار BoJ؛ الجنيه ضعيف قبل CPI الساخن (8.5س)؛ تراجع النفط مستمر؛ وضع حذر، محضر"
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,
