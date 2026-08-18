@@ -1,50 +1,28 @@
 {
   "account": 10225,
-  "balance": 493.28,
+  "balance": 492.35,
   "books": [
     {
       "loss_streak": 1,
-      "name": "INTRADAY",
-      "net": -4.42,
-      "trades": 1,
-      "wins": 0
-    },
-    {
-      "loss_streak": 0,
       "name": "SWING",
-      "net": 0.05,
-      "trades": 1,
-      "wins": 1
-    },
-    {
-      "loss_streak": 2,
-      "name": "SHOCK",
-      "net": -7.23,
-      "trades": 3,
+      "net": -0.88,
+      "trades": 2,
       "wins": 1
     }
   ],
   "brain_mode": "CAUTION",
-  "day_pl": -3.73,
-  "equity": 495.83,
+  "day_pl": -0.02,
+  "equity": 492.69,
   "positions": [
     {
       "book": "SWING",
       "lots": 0.01,
-      "opened": 1787040000,
-      "pl": 1.93,
-      "symbol": "EURNZD",
-      "type": "BUY"
-    },
-    {
-      "book": "SWING",
-      "lots": 0.01,
       "opened": 1787083200,
-      "pl": 0.62,
+      "pl": 0.34,
       "symbol": "AUDUSD",
       "type": "SELL"
     }
   ],
-  "ts": 1787088607,
-  "week_pl": -3.73
+  "ts": 1787088946,
+  "week_pl": -0.02
 }
