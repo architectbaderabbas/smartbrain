@@ -150,3 +150,73 @@ shock=none
 prefer_symbols=USOIL,UKOIL,XAUUSD,USDJPY,AUDUSD
 summary=Iran deadline expired, oil $91 on escalation risk, US 30Y yield 19-yr high, RBA signals more hikes possible; caution holds, favor oil/gold/JPY/AUD
 summary_ar=انتهت مهلة إيران، النفط عند ٩١$ بسبب خطر التصعيد، عوائد السندات الأميركية بأعلى مستوى منذ ١٩ سنة، البنك الأسترالي يشير لرفع فائدة محتمل؛ حذر مستمر، نفضّل نفط/ذهب/ين/دولار أسترالي
+
+
+# 2026-08-18 02:35 UTC
+## Council debate
+
+**Chief Macro Economist:** US 30Y yields at 5.31% (19-year high) signal structural inflation fears or term premium expansion; AI investment boom driving long-end selling per Bloomberg. This supports USD but weighs on equities. Eurozone weathering energy shock better than expected per Capital Economics. Canadian CPI heated up in July, complicates BoC easing path. Australian consumer confidence improved post-RBA pause, but RBA Kent flagged upside inflation risk and possible further hikes.
+
+**Central-Bank Watcher:** FOMC minutes due in ~39 hours (Wed 18:00 UTC) will be key for USD direction. AllianceBernstein expects BoJ hike in September to support JPY; Japan 10Y yield hit 3-decade peak overnight, bullish for JPY. RBA's Kent explicitly warned "further hikes possible" despite pause—AUD constructive. GBP faces high-impact jobs data in 3.4 hours and CPI tomorrow; hold neutral until data. ECB's Lagarde speaks tomorrow, but no fresh policy signals expected.
+
+**Geopolitical & Crisis Analyst:** Iran ceasefire 60-day deadline has now EXPIRED (AP/Axios/Slate confirm). Trump threatening Oman bombing, casting doubt on new deal per NBC/Axios. This is NOT a sudden new shock (we've been tracking this for hours), but the deadline passage is concrete. Oil spiked to $91 Brent, $88+ WTI on Hormuz constraints per WSJ. However, NO actual military escalation reported in last 90 minutes—just rhetoric and deadline expiry. Ukraine winter campaign ongoing per Guardian but not market-moving. Risk: if actual strikes occur, oil could spike another $5-10, but for now this is priced headline risk, not kinetic action.
+
+**FX Strategist:** USD supported by high yields but capped by risk-off undertone. JPY strongest on BoJ hawkish shift and safe-haven demand; USDJPY intervention risk if it challenges 160 again per headlines. AUD resilient on RBA hawkish tilt and rising oil (Canada correlation). CAD near 2-month high on hot CPI and oil support. EUR grinding higher on narrowing US-Germany 2Y spread per VT Markets. GBP vulnerable to data misses in next 4 hours. CHF weakened vs EUR per Local Switzerland, less safe-haven demand than JPY. Rank: JPY > AUD > CAD > USD > EUR > GBP > CHF > NZD.
+
+**Gold & Oil Trader:** Oil at $91 Brent is extended on war premium; China resumed stockpiling in July per Reuters (bullish medium-term), but immediate upside needs actual supply disruption. Shale majors cutting spending despite high prices per OilPrice.com—supply discipline supports floor. Gold at $4,385 per Fortune/Yahoo, options market betting on continuation per CNBC/Susquehanna. Gold holding well despite high real yields, safe-haven bid intact. Silver production soaring but bar/coin sales rebounding per Heraeus. Prefer oil longs on dips near $88-89 WTI; gold can consolidate here but downside limited to $4,350.
+
+**Equity / Risk-Sentiment Desk:** US indices slipped Monday (Dow/S&P/Nasdaq down per Reuters/Yahoo) on rising oil and yields. ECB economists warn US tech correction likely per FT—adds to caution. VIX not spiking but risk appetite fragile. Retail earnings awaited this week. Risk-off bias persists but not panic. Favor short bias on US500/US100, neutral on GER40 (Europe resilient).
+
+**Risk Manager:** Iran deadline expiry is NOT a new shock—we've been in caution mode for this. No kinetic escalation yet, so do NOT issue shock directive. However, maintain caution mode and oil bias. GBP news block in 204 min (3.4 hours) is critical—jobs data high-impact. FOMC minutes Wednesday evening also requires news block. Thin August liquidity persists—avoid over-leveraging. Current risk_mult 0.8 appropriate; do not raise until geopolitical clarity improves. If actual Iran strikes occur, we move to danger mode immediately.
+
+**Market Historian:** PRICE CONTEXT data unavailable (encoding error), so I rely on headlines. Last Iran escalation cycles (Soleimani Jan 2020, Abqaiq Sep 2019): oil spiked 5-15% in first 24h, then faded 50-80% within 2 weeks unless supply actually disrupted. Gold spiked 1-3%, faded half within 48h. JPY rallied 1-2%, held longer. Current setup: oil already up ~$6-8 from recent lows per headlines, gold near ATH at $4,385. **Warning:** oil at $91 is pricing significant war premium; if no actual strikes in next 48h, expect $3-5 fade. Gold at ATH with strong momentum can extend, but sharp intraday spikes (>$50) usually retrace half within 24h. USDJPY intervention history: BoJ intervened when USDJPY hit 160 in 2024; headlines say it's "climbing back above 159"—we are near that threshold again, intervention risk HIGH. Recommendation: hold oil bias but reduce from 0.7 to 0.6 (extended), hold gold 0.5, raise JPY to 0.6 (intervention risk + BoJ hawkish), keep AUD 0.3 (RBA support). Do NOT chase oil here; wait for dip or actual escalation.
+
+**Chairman:** Weighing the evidence. The Iran deadline expiry is a known event, not a fresh shock—we correctly positioned for this hours ago. No new kinetic action in the last 90 min, so no shock directive warranted. Oil at $91 is extended per Historian; reduce bias from 0.7 to 0.6. JPY case is strong: BoJ hawkish, 10Y yield at 30-year high, USDJPY near intervention zone—raise to 0.6. AUD supported by RBA hawkish tilt and oil—hold 0.3. Gold at ATH, safe-haven bid intact—hold 0.5. USD supported by yields but capped by risk-off—hold 0.3. GBP faces jobs data in 3.4 hours—set news block, keep bias 0.0. Risk mode stays caution, risk_mult 0.8. Confidence 0.75 (clear themes, but geopolitical uncertainty and extended oil). Prefer symbols: USOIL (on dips), XAUUSD, USDJPY (long JPY), AUDUSD.
+
+---
+
+## Psyche
+
+**Awareness (fired=no):** Comparing with previous directives: we have held caution mode, risk_mult 0.8, and similar biases for 3 cycles (since 01:07 UTC). The Iran situation has not materially changed in the last 21 min—deadline expired as expected, no new strikes. We are adjusting oil from 0.7 to 0.6 (prudent given extension per Historian) and JPY from 0.5 to 0.6 (new evidence: BoJ 10Y yield peak, intervention risk). These are evidence-based tweaks, not flip-flopping. No stubbornness detected. Mental continuity maintained.
+
+**Greed (fired=no):** Confidence at 0.75, multiple biases in 0.3-0.6 range, risk_mult at 0.8 (below 1.0). Language is cautious ("hold," "extended," "wait for dip"). No "easy money" or overconfidence detected. The council is respecting the extended nature of oil and the uncertainty around Iran. Greed not present.
+
+**Fear (fired=no):** We are in caution mode (appropriate given geopolitical risk and high yields), not danger or halt. The council is not over-reacting to the deadline expiry (correctly noting it was expected). Biases remain constructive on oil/gold/JPY/AUD based on concrete evidence, not collapsing to zero. No panic language. Fear not present.
+
+**Prudence (fired=yes):** JPY bias raised to 0.6 based on multiple sources: BoJ 10Y yield at 30-year high (Reuters), AllianceBernstein expects Sept hike (CNBC), USDJPY near 159-160 intervention zone (investingLive), Historian confirms intervention risk. Two+ independent sources confirmed. Oil bias reduced from 0.7 to 0.6 because Historian flagged extension and lack of actual supply disruption—prudent downgrade. Gold 0.5 supported by ATH, safe-haven demand, options positioning (CNBC). All strong calls (≥0.5) have multi-source backing. Prudence satisfied.
+
+**Intuition (fired=yes):** The 30Y yield spike to 19-year highs while the Fed is expected to hold/cut is unusual—this smells like forced selling or a structural shift (AI capex, deficit fears). If this persists, it could break something in credit markets or housing within weeks, triggering a real risk-off event beyond the current Iran noise. Watch for cracks in corporate credit or EM debt. Not actionable now, but the council should monitor this as a slow-burn systemic risk that could dwarf the geopolitical headlines.
+
+---
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.8
+regime=risk_off
+bias_USD=0.3
+bias_EUR=0.2
+bias_GBP=0.0
+bias_JPY=0.6
+bias_AUD=0.3
+bias_NZD=0.1
+bias_CAD=0.3
+bias_CHF=0.1
+bias_XAU=0.5
+bias_XAG=0.4
+bias_OIL=0.6
+bias_US500=-0.4
+bias_US100=-0.4
+bias_US30=-0.4
+bias_GER40=-0.3
+conf=0.75
+allow_books=ALL
+news_block=GBP:204:264;GBP:1644:1704;AUD:1374:1434;USD:2364:2424;AUD:2814:2874
+block_symbols=none
+shock=none
+prefer_symbols=XAUUSD,USDJPY,AUDUSD,USOIL
+summary=Iran deadline expired, oil $91 extended, US 30Y yield 19-yr high, BoJ hawkish (10Y at 30-yr peak), RBA signals hikes possible; caution mode, favor gold/JPY/AUD, oil on dips
+summary_ar=انتهت مهلة إيران، النفط ٩١$ ممدود، عوائد السندات الأميركية بأعلى مستوى منذ ١٩ سنة، بنك اليابان متشدد والأسترالي يشير لرفع فائدة؛ حذر مستمر، نفضّل ذهب/ين/دولار أسترالي، نفط عند التراجعات
+mind=focused
+psyche_flags=prudence,intuition
+intuition=The 30Y yield spike to 19-year highs signals potential structural stress; watch for credit market cracks that could trigger deeper risk-off beyond current geopolitical noise
