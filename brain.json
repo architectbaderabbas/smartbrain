@@ -1,5 +1,5 @@
 {
- "ts": 1787070428,
+ "ts": 1787070535,
  "council_ts": 1787070428,
  "directives": {
   "risk_mode": "danger",
@@ -22,7 +22,7 @@
   "bias_US30": -0.4,
   "bias_GER40": -0.4,
   "allow_books": "INTRADAY,SWING,POSITION,REVERT",
-  "news_block": "AUD:542:618;GBP:812:872;EUR:882:942;USD:1532:1592;AUD:1982:2042",
+  "news_block": "AUD:541:617;GBP:811:871;EUR:881:941;USD:1531:1591;AUD:1981:2041",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDJPY,GBPUSD",
@@ -33,5 +33,6 @@
   "summary_ar": "ضربة إيران للسفينة + تهديد ترامب لعُمان (منذ 90 دقيقة) يُبقي وضع الخطر لساعتين إضافيتين؛ انهيار السندات بأعلى مستوى منذ 19 سنة؛ الين قوي، الجنيه ضعيف، النفط يتراجع؛ محضر الفيدرالي (25.5 ساعة) حاسم"
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": []
 }
