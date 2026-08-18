@@ -1,5 +1,6 @@
 {
- "ts": 1787031732,
+ "ts": 1787033045,
+ "council_ts": 1787031732,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.8,
@@ -21,7 +22,7 @@
   "bias_US30": -0.4,
   "bias_GER40": -0.3,
   "allow_books": "ALL",
-  "news_block": "GBP:17:77;AUD:1187:1247;GBP:1457:1517;EUR:1527:1587;USD:2177:2237;AUD:2627:2687",
+  "news_block": "GBP:-4:56;AUD:1166:1226;GBP:1436:1496;EUR:1506:1566;USD:2156:2216;AUD:2606:2666",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDJPY,XAUUSD,AUDUSD,USOIL",
@@ -31,5 +32,6 @@
   "summary": "Iran-Hormuz tensions persist (ship attack <2h ago), oil holding $88-91, BoJ signals Sept hike (intervention threat real), US 30Y yield 5.31% (19Y high); caution mode, favor JPY/gold/AUD/oil but spikes",
   "summary_ar": "التوترات الإيرانية في هرمز مستمرة (هجوم على سفينة قبل ساعتين)، النفط ثابت ٨٨-٩١$، بنك اليابان يشير لرفع الفائدة بسبتمبر (تهديد التدخل حقيقي)، عائد السندات الأميركية ٣٠ سنة ٥.٣١٪ (أعلى مستوى منذ ١٩ سنة"
  },
- "error": null
+ "error": null,
+ "watchman": "quiet (sev0)"
 }
