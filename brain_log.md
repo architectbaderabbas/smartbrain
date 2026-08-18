@@ -568,3 +568,77 @@ summary_ar=التوترات الإيرانية مستقرة (لا هجمات ج�
 mind=focused
 psyche_flags=awareness,fear,prudence,intuition
 intuition=Bond market revolt (30Y at 19Y high) may trigger surprise risk-off in next 24-48h, driven by fiscal fears not geopolitics; watch for equities cracking harder and USD weakening
+
+
+# 2026-08-18 08:18 UTC
+## Council debate
+
+**Chief Macro Economist:** US 30Y yield at 5.31% (19-year high) signals bond vigilantes pricing fiscal stress or term premium revolt; rising yields despite Fed pause is unusual and threatens growth. Eurozone stagnant (rivers drying, ECB warns US tech correction). UK labour softening (claimant count +16.5K vs +6.7K, wages cooling to 4.0%). Australia consumer confidence improved post-RBA pause but wages flat at 0.8%. Global growth diverging: US/UK slowing, Australia resilient, Europe weak.
+
+**Central-Bank Watcher:** BoJ clearly signaling September hike (10Y JGB at 30-year peak, AllianceBernstein expects hike, former diplomat warns intervention "at any time"). Fed minutes tonight (1934 min away) may clarify dot-plot hawkishness. ECB's Lagarde speaks in 1284 min but no new policy signal expected. BoE CPI tomorrow (1301 min) forecast 2.9% vs 2.6% could support GBP if beats. RBA turned less dovish yesterday. JPY has strongest CB tailwind; USD supported by real yields not Fed.
+
+**Geopolitical & Crisis Analyst:** SEVERITY-2 ESCALATION CONFIRMED: Trump threatened Oman bombing 3h ago, Iran declared "fully offensive" military posture 4h ago, ceasefire expired, ship attacked in Hormuz 4h ago. This is NOT a spike-and-fade headline—Trump's Oman threat is a NEW escalation vector (Oman hosts US bases, controls Hormuz south shore). Oil jumped to $91 but holding not spiking further suggests market waiting for actual strike. If Trump bombs Oman or Iran hits another ship, we go severity-3. Right now: elevated but not kinetic escalation in last 60 min.
+
+**FX Strategist:** JPY strongest (BoJ hike + safe-haven + intervention threat near 160.00). USD mixed (yields support but geopolitical safe-haven split with JPY/CHF). EUR weak (economy stalling, falling below 1.16 per FXStreet). GBP vulnerable to soft labour data but CPI tomorrow could reverse. AUD holding well (RBA less dovish, consumer confidence up, commodities). CAD supported by oil but fragile per Commerzbank. CHF weakening vs EUR (Local Switzerland noted this) but still safe-haven bid vs risk. For next 4-12h: JPY > AUD > USD > CAD > CHF > EUR > GBP.
+
+**Gold & Oil Trader:** Gold slipped overnight on higher yields (Reuters) but geopolitical bid remains; $4,432 is the technical pivot per investingLive—holding above keeps bullish structure. Oil: Brent $90+, WTI $88-91 range, premium is 4-6 hours old now without fresh kinetic event. FXEmpire sees Brent toward $100 if Iran tensions persist. The premium has NOT faded (unlike typical spike-fade) because Trump's Oman threat is new and credible. But we're not in the first 15-60 min of the shock anymore—chase risk rising. Favor oil on dips to $88-89, gold above $4,430.
+
+**Equity / Risk-Sentiment Desk:** US indices slipped yesterday (oil/yields), futures down overnight per Yahoo/IBD. Rising yields + geopolitical uncertainty = risk-off. VIX not spiking (no panic) but steady risk aversion. Asia weak (India down on oil >$91). ECB economists warn US tech correction coming. This is a grind lower, not a crash. Bias: -0.4 to -0.5 on indices, but no severity-3 collapse yet.
+
+**Risk Manager:** ACCOUNT STATE: daily loss -1.4% (-$7.05 on $497 balance), SHOCK book 2-loss streak (3 trades, 1 win, -$7.23 net). EMERGENCY PROTOCOL: not triggered yet (loss <3%, not 3 straight losses in one book across the day). However, SHOCK book is bleeding—recommend removing SHOCK from allow_books until it proves itself. Current risk_mode=danger is appropriate given sev-2 event, but we've been in danger for 15 min and no new kinetic action in last 60 min. Recommend holding danger but raising risk_mult slightly to 0.65 (from 0.6) as the initial shock window has passed. News blocks: GBP CPI in 1301 min, Lagarde 1284 min, FOMC minutes 1934 min, AUD jobs 2384 min—all correct. UK labour data released 138 min ago (in the past)—remove GBP block for that window.
+
+**Market Historian:** The current setup rhymes with **Jan 2020 Soleimani strike** and **Sep 2019 Abqaiq attack**. Soleimani: oil spiked +4% in hours, gold +1.5%, faded within 48h as no supply disruption occurred. Abqaiq: Brent gapped +15% on open, gave back most within 2 weeks. Key difference NOW: Trump's Oman threat is a NEW vector (not just Iran retaliation), and the 60-day ceasefire expiry + "fully offensive" posture suggests this is a PROLONGED crisis, not a one-off strike. Oil holding $90+ for 4+ hours without fading supports this. However, we are now 4 hours past the Hormuz attack and 3 hours past Trump's Oman threat—the initial shock window (15-60 min) is long gone. **Historical rule: chase escalation only in first 60 min; after that fade risk rises.** Oil premium may persist for days (like Ukraine 2022) but the next 4-12h could see consolidation or partial retrace unless a NEW kinetic event occurs. JPY: intervention threats near 160.00 historically produce 3-5 big-figure drops within hours (2022/2024 playbook); USDJPY at 159.8 per headlines is in the danger zone. Gold at $4,432 pivot: breakouts to new highs continue ~55-60% of the time, but sharp spikes (+2-3% in an hour) retrace half within 24h unless USD also weakens—USD is NOT weakening (yields high), so gold upside may be capped near-term. **Analog verdict: favor JPY (BoJ hike + intervention threat), hold oil/gold exposure but don't chase here, expect consolidation next 4-12h unless new strike.**
+
+**Chairman:** The council is focused and disciplined. The geopolitical escalation is real (sev-2) but aging (4h since Hormuz attack, 3h since Oman threat, no new kinetic event in last 60 min). The Historian correctly warns we are past the chase window. The bond market revolt (30Y at 19Y high) is a slower-burn risk (Intuition's point) but not immediate. BoJ is the clearest CB signal (hike in Sept, intervention threat real). I will hold danger mode (sev-2 event still active, Trump could bomb Oman any time) but raise risk_mult to 0.65 (from 0.6) as the initial shock has aged. Remove SHOCK book (bleeding, 2-loss streak). Keep oil/gold biases but lower oil to 0.3 (premium aging, don't chase). Raise JPY to 0.7 (BoJ + intervention threat + safe-haven). Lower indices to -0.5 (yields + geopolitics). Remove stale GBP news block (data already released). Confidence 0.65 (geopolitical uncertainty high, but no fresh kinetic event in 60 min).
+
+---
+
+## Psyche
+
+**Awareness (fired=yes):** Comparing to previous directives: we've held danger mode for 15 min, biases stable (JPY 0.6, XAU 0.5, OIL 0.4). No flip-flopping. However, the DECISION MEMORY shows we've been in caution mode for 7+ hours with similar biases—prices have likely already moved (no PRICE CONTEXT data to confirm, but oil is reported at $88-91, stable). We risk chasing moves that already happened. The Historian warns chase window closed 3h ago. Recommend capping any bias increases and focusing on fresh setups (BoJ hike, FOMC minutes tonight).
+
+**Greed (fired=no):** Confidence is moderate (0.65-0.7 range), biases are 0.3-0.7 (not extreme), prefer_symbols has 3 names (not a long list), no "easy money" language. The council is disciplined. No greed detected.
+
+**Fear (fired=yes):** We've been in danger mode for 15 min on a sev-2 event that is now 4h old with no new kinetic action in 60 min. The Risk Manager wants to hold danger, but the Historian and Geopolitical Analyst both note the initial shock has aged. This smells like over-caution (fear of missing the next escalation). However, Trump's Oman threat IS a new vector and could go kinetic any time, so danger mode is justified. I accept danger mode but insist on raising risk_mult to 0.65 (not staying at 0.6) to avoid paralysis. Fear is present but managed.
+
+**Prudence (fired=yes):** JPY bias 0.7 is supported by BoJ hike signal (AllianceBernstein, Japan 10Y at 30Y high, former diplomat warning) AND Historian analog (intervention playbook). Oil bias 0.3 (downgraded from 0.4) is supported by Trump Oman threat + Hormuz attack + oil holding $90+ for 4h, AND Historian analog (prolonged crisis like Ukraine 2022). Gold bias 0.5 is supported by geopolitical bid + technical pivot at $4,432, AND Historian analog (breakouts continue 55-60%). All strong calls (|bias|>=0.5) have two+ sources and historical analogs. Prudence satisfied.
+
+**Intuition (fired=yes):** The bond market revolt (30Y at 19Y high) is the sleeper risk—not geopolitics but fiscal/term premium fears. If equities crack harder in next 24-48h, USD may weaken (not strengthen) as "safe-haven" narrative flips to "fiscal crisis" narrative. This would be bullish for gold, bearish for USD. The Chairman may consider lowering bias_USD from 0.3 to 0.2 (adopting intuition, capped at -0.1 change).
+
+---
+
+**Mental state: focused** (council is disciplined, evidence-based, not panicking or greedy, but managing fear of escalation).
+
+---
+
+## DIRECTIVES
+
+risk_mode=danger
+risk_mult=0.65
+regime=risk_off
+bias_USD=0.2
+bias_EUR=0.1
+bias_GBP=0.0
+bias_JPY=0.7
+bias_AUD=0.4
+bias_NZD=0.2
+bias_CAD=0.3
+bias_CHF=0.2
+bias_XAU=0.5
+bias_XAG=0.4
+bias_OIL=0.3
+bias_US500=-0.5
+bias_US100=-0.5
+bias_US30=-0.5
+bias_GER40=-0.4
+conf=0.65
+allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT
+news_block=GBP:1281:1341;EUR:1264:1324;USD:1914:1974;AUD:2364:2424
+block_symbols=none
+shock=none
+prefer_symbols=USDJPY,XAUUSD,AUDUSD
+summary=Trump Oman threat + Iran offensive posture (4h old, no new strike in 60min); oil holding $90+, BoJ signals Sept hike (JPY strong), US 30Y yield 5.31% (19Y high); danger mode, favor JPY/gold/AUD
+summary_ar=تهديد Trump لعُمان + إيران بوضع هجومي (4 ساعات، لا ضربة جديدة في 60 دقيقة)؛ النفط فوق $90، BoJ يشير لرفع أيلول (JPY قوي)، عائد أميركي 30 سنة 5.31% (أعلى في 19 سنة)؛ وضع خطر، نفضّل JPY/ذهب/AUD
+mind=focused
+psyche_flags=awareness,fear,prudence,intuition
+intuition=Bond market revolt (30Y at 19Y high) may trigger surprise risk-off in next 24-48h driven by fiscal fears not geopolitics; watch for equities cracking harder and USD weakening
