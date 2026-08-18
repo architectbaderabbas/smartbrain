@@ -1,5 +1,5 @@
 {
- "ts": 1787072487,
+ "ts": 1787073227,
  "council_ts": 1787072487,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": -0.4,
   "bias_GER40": -0.4,
   "allow_books": "INTRADAY,SWING,POSITION,REVERT",
-  "news_block": "AUD:507:583;GBP:777:847;EUR:847:907;USD:1497:1557;AUD:1947:2017",
+  "news_block": "AUD:495:571;GBP:765:835;EUR:835:895;USD:1485:1545;AUD:1935:2005",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDJPY,GBPUSD",
@@ -33,6 +33,7 @@
   "summary_ar": "تلاشى الارتفاع الجيوسياسي (ساعتان، لا تصعيد)؛ انهيار السندات عند أعلى مستوى في 19 عامًا يهيمن (العوائد 5.33% تسحق الذهب والمخاطرة)؛ الين قوي (مسار رفع BoJ)، الجنيه ضعيف (تضخم ساخن بعد 13 ساعة)، النفط "
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,

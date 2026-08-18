@@ -1,6 +1,6 @@
 {
   "account": 10225,
-  "balance": 493.33,
+  "balance": 493.23,
   "books": [
     {
       "loss_streak": 1,
@@ -17,15 +17,15 @@
       "wins": 1
     }
   ],
-  "brain_mode": "DANGER",
-  "day_pl": -3.9,
-  "equity": 495.66,
+  "brain_mode": "CAUTION",
+  "day_pl": -3.64,
+  "equity": 495.92,
   "positions": [
     {
       "book": "SWING",
       "lots": 0.01,
       "opened": 1787040000,
-      "pl": 1.8,
+      "pl": 1.76,
       "symbol": "EURNZD",
       "type": "BUY"
     },
@@ -33,11 +33,19 @@
       "book": "SWING",
       "lots": 0.01,
       "opened": 1787040000,
-      "pl": 0.53,
+      "pl": 0.69,
       "symbol": "NZDUSD",
+      "type": "SELL"
+    },
+    {
+      "book": "SWING",
+      "lots": 0.01,
+      "opened": 1787083200,
+      "pl": 0.24,
+      "symbol": "AUDUSD",
       "type": "SELL"
     }
   ],
-  "ts": 1787072318,
-  "week_pl": -3.9
+  "ts": 1787073218,
+  "week_pl": -3.64
 }
