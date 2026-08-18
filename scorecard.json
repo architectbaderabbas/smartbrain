@@ -1,0 +1,11 @@
+{
+ "decisions_scored": 4,
+ "overall_hit_rate%": {
+  "4h": null,
+  "12h": null,
+  "24h": null
+ },
+ "per_asset_hit_rate%": {},
+ "by_mind_state%": {},
+ "note": "hit = price moved in the direction of a bias with |bias|>=0.3 after the horizon; None = not enough data yet"
+}
