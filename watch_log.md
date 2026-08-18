@@ -10,3 +10,4 @@
 - 2026-08-18 07:48 UTC · FULL COUNCIL triggered: ALERT sev2: US-Iran 60-day ceasefire expired; Trump threatens Oman bombing; oil prices jump; 30Y yields hit 2007 highs
 - 2026-08-18 08:18 UTC · heartbeat · ALERT sev2: Trump threatens Oman bombing; Iran puts military on offensive footing; US-Iran ceasefire expires; oil prices jump -> protocol applied, council convening
 - 2026-08-18 08:18 UTC · FULL COUNCIL triggered: ALERT sev2: Trump threatens Oman bombing; Iran puts military on offensive footing; US-Iran ceasefire expires; oil prices jump
+- 2026-08-18 08:58 UTC · FULL COUNCIL triggered: re-assess emergency mode (danger, council 40 min ago)
