@@ -64,3 +64,4 @@
 - 2026-08-18 17:01 UTC · heartbeat · ALERT sev2: Iran fires two missiles at UAE; US-Iran peace hopes fade; Hormuz shipping incident with casualty -> protocol applied, council convening
 - 2026-08-18 17:01 UTC · FULL COUNCIL triggered: ALERT sev2: Iran fires two missiles at UAE; US-Iran peace hopes fade; Hormuz shipping incident with casualty
 - 2026-08-18 17:13 UTC · heartbeat · quiet (sev0)
+- 2026-08-18 17:28 UTC · heartbeat · quiet (sev0)
