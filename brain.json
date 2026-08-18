@@ -1,5 +1,6 @@
 {
- "ts": 1787047477,
+ "ts": 1787049801,
+ "council_ts": 1787047477,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.75,
@@ -21,7 +22,7 @@
   "bias_US30": -0.4,
   "bias_GER40": -0.3,
   "allow_books": "ALL",
-  "news_block": "GBP:1175:1255;EUR:1245:1305;USD:1895:1955;AUD:2345:2405",
+  "news_block": "GBP:1137:1217;EUR:1207:1267;USD:1857:1917;AUD:2307:2367",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDJPY,USDCAD,GBPUSD",
@@ -31,5 +32,6 @@
   "summary": "Geopolitical spike aging (Hormuz attack 6h, no follow-up); bond rout dominant (US 30Y 19Y high); BoJ signals Sept hike (JPY strong); GBP weak into CPI; caution mode",
   "summary_ar": "ارتفاع جيوسياسي يتلاشى (هجوم هرمز 6 ساعات، لا متابعة)؛ انهيار السندات مهيمن (US 30Y أعلى مستوى 19 سنة)؛ BoJ يشير لرفع أيلول (JPY قوي)؛ GBP ضعيف قبل CPI؛ وضع حذر"
  },
- "error": null
+ "error": null,
+ "watchman": "quiet (sev0)"
 }
