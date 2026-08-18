@@ -1,6 +1,6 @@
 {
- "ts": 1787088957,
- "council_ts": 1787085886,
+ "ts": 1787089516,
+ "council_ts": 1787089516,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.6,
@@ -13,7 +13,7 @@
   "bias_AUD": 0.2,
   "bias_NZD": 0.2,
   "bias_CAD": 0.3,
-  "bias_CHF": 0.3,
+  "bias_CHF": 0.2,
   "bias_XAU": 0.0,
   "bias_XAG": -0.1,
   "bias_OIL": -0.3,
@@ -22,18 +22,17 @@
   "bias_US30": -0.4,
   "bias_GER40": -0.4,
   "allow_books": "INTRADAY,SWING,POSITION,REVERT",
-  "news_block": "AUD:229:305;GBP:499:569;EUR:569:629;EUR:754:814;USD:1202:1292;AUD:1669:1739",
+  "news_block": "AUD:194:254;GBP:484:554;EUR:554:614;EUR:739:799;USD:1187:1277;AUD:1654:1724",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDJPY",
   "mind": "focused",
-  "psyche_flags": "awareness,prudence,intuition",
+  "psyche_flags": "prudence,intuition",
   "intuition": "If bond yields spike to 5.4-5.5% before Fed minutes, expect coordinated CB jawbone within 48h triggering violent bond short-squeeze and sharp USD/JPY spike",
-  "summary": "Bond rout at 19Y high (30Y 5.33%) dominates; geopolitics fading (Hormuz 3h50m old, no escalation); JPY strong on BoJ hike path; GBP weak into hot CPI (10.5h); oil fading; caution mode, Fed minutes 21h",
-  "summary_ar": "انهيار السندات عند أعلى مستوى في 19 عام (30Y 5.33%) يهيمن؛ الجيوسياسة تتلاشى (هرمز 3س50د، لا تصعيد)؛ الين قوي على مسار رفع BoJ؛ الجنيه ضعيف قبل CPI الساخن (10.5س)؛ النفط يتراجع؛ وضع حذر، محضر الفيدرال"
+  "summary": "Bond rout persists (30Y 5.33%, yields edging lower); geopolitics fading (Pentagon signals Gulf drawdown); JPY strong on BoJ path; GBP weak into hot CPI (8.5h); oil fade continues; caution mode, Fed mi",
+  "summary_ar": "انهيار السندات مستمر (30Y 5.33%، العوائد تنخفض قليلاً)؛ الجيوسياسة تتلاشى (البنتاغون يشير لانسحاب من الخليج)؛ الين قوي على مسار BoJ؛ الجنيه ضعيف قبل CPI الساخن (8.5س)؛ تراجع النفط مستمر؛ وضع حذر، محضر"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,
