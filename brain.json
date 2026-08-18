@@ -1,6 +1,5 @@
 {
- "ts": 1787067726,
- "council_ts": 1787066940,
+ "ts": 1787067842,
  "directives": {
   "risk_mode": "danger",
   "risk_mult": 0.6,
@@ -16,22 +15,21 @@
   "bias_CHF": 0.3,
   "bias_XAU": 0.0,
   "bias_XAG": -0.1,
-  "bias_OIL": -0.2,
+  "bias_OIL": -0.1,
   "bias_US500": -0.4,
   "bias_US100": -0.4,
   "bias_US30": -0.4,
   "bias_GER40": -0.4,
   "allow_books": "INTRADAY,SWING,POSITION,REVERT",
-  "news_block": "GBP:859:939;EUR:929:989;USD:1579:1639;AUD:2029:2089",
-  "block_symbols": "USOIL,UKOIL",
+  "news_block": "GBP:855:935;EUR:925:985;USD:1575:1635;AUD:585:645;AUD:2025:2085",
+  "block_symbols": "none",
   "shock": "none",
-  "prefer_symbols": "USDJPY,GBPUSD,USDCAD",
+  "prefer_symbols": "USDJPY,GBPUSD",
   "mind": "focused",
   "psyche_flags": "awareness,fear,prudence,intuition",
-  "intuition": "Bond yields screaming, geopolitics loud but not kinetic yet; Fed minutes tonight are the hinge—if they acknowledge tightening conditions, yields peak and risk assets lift; position for dovish surprise",
-  "summary": "Trump-Oman threat + Iran ship strike (<2h) keep danger mode; bond rout at 19Y high persists; JPY strong (BoJ hike + intervention threat), GBP weak (hot CPI 15h), oil fading, Fed minutes (26h) binary",
-  "summary_ar": "تهديد ترامب لعُمان + ضربة إيران للسفينة (<2 ساعة) يُبقي وضع الخطر؛ انهيار السندات بأعلى مستوى منذ 19 سنة مستمر؛ الين قوي، الجنيه ضعيف، النفط يتراجع، محضر الفيدرالي (26 ساعة) حاسم"
+  "intuition": "Fed minutes tonight are the hinge: if they acknowledge tightening conditions (yields 19Y high, geopolitics), expect dovish tilt and sharp relief rally in risk assets within 12-24h; if hawkish, deeper ",
+  "summary": "Iran ship strike + Trump-Oman threat (< 2h) keep danger mode; bond rout at 19Y high dominates; JPY strong (BoJ hike + intervention threat), GBP weak (hot CPI 14h), oil fading despite headlines; Fed mi",
+  "summary_ar": "ضربة إيران للسفينة + تهديد ترامب لعُمان (< ساعتين) يُبقي وضع الخطر؛ انهيار السندات بأعلى مستوى منذ 19 سنة؛ الين قوي، الجنيه ضعيف، النفط يتراجع رغم العناوين؛ محضر الفيدرالي (26 ساعة) حاسم"
  },
- "error": null,
- "watchman": "quiet (sev0)"
+ "error": null
 }
