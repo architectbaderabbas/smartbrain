@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SmartBrain — العقل الواعي</title>
+<style>
+  :root{--bg:#0b1020;--card:#131a2e;--card2:#0f1526;--txt:#e6ecff;--mut:#8b96b8;--acc:#4f8cff;--ok:#2ecc71;--warn:#f1c40f;--bad:#e74c3c;--halt:#8e44ad;--line:#22305a}
+  *{box-sizing:border-box}
+  body{margin:0;background:radial-gradient(1200px 600px at 80% -10%,#1b2a5a 0%,var(--bg) 60%);color:var(--txt);font-family:"Segoe UI",Tahoma,Arial,sans-serif;font-size:14px}
+  header{display:flex;align-items:center;justify-content:space-between;padding:14px 22px;border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(11,16,32,.9);backdrop-filter:blur(8px);z-index:5}
+  h1{margin:0;font-size:20px;letter-spacing:.3px}
+  h1 small{color:var(--mut);font-weight:400;font-size:12px;margin-right:8px}
+  .pill{padding:6px 12px;border-radius:999px;font-weight:700;font-size:13px;display:inline-flex;align-items:center;gap:6px}
+  .pill.normal{background:#153b2a;color:#7dffb3}.pill.caution{background:#3d3410;color:#ffe27a}.pill.danger{background:#4a1616;color:#ff9a9a}.pill.halt{background:#2d1747;color:#d7b3ff}
+  .dot{width:9px;height:9px;border-radius:50%;background:currentColor;box-shadow:0 0 10px currentColor;animation:pulse 1.6s infinite}
+  @keyframes pulse{0%{opacity:.4}50%{opacity:1}100%{opacity:.4}}
+  main{padding:18px 22px;display:grid;gap:16px;grid-template-columns:repeat(12,1fr)}
+  .card{background:linear-gradient(180deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:14px;padding:14px 16px;box-shadow:0 8px 30px rgba(0,0,0,.25)}
+  .card h2{margin:0 0 10px;font-size:14px;color:var(--mut);font-weight:600;letter-spacing:.4px}
+  .span12{grid-column:span 12}.span8{grid-column:span 8}.span6{grid-column:span 6}.span4{grid-column:span 4}.span3{grid-column:span 3}
+  @media(max-width:1000px){.span8,.span6,.span4,.span3{grid-column:span 12}}
+  .summary{font-size:17px;line-height:1.7}
+  .summary .en{color:var(--mut);font-size:13px;direction:ltr;text-align:left;margin-top:6px}
+  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+  .kpi{background:#0c1224;border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+  .kpi b{display:block;font-size:22px;margin-top:2px}
+  .kpi span{color:var(--mut);font-size:12px}
+  .experts{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+  @media(max-width:1300px){.experts{grid-template-columns:repeat(2,1fr)}}
+  .exp{background:#0c1224;border:1px solid var(--line);border-radius:12px;padding:12px;min-height:150px;position:relative;overflow:hidden;transition:transform .2s}
+  .exp:hover{transform:translateY(-2px);border-color:var(--acc)}
+  .exp .av{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;font-size:20px;background:#182350;float:left;margin-left:10px}
+  .exp .nm{font-weight:700}
+  .exp .rl{color:var(--mut);font-size:12px;margin-bottom:8px}
+  .exp .say{font-size:13px;line-height:1.6;color:#cfd8ff;direction:ltr;text-align:left;clear:both;padding-top:8px;border-top:1px dashed var(--line);white-space:pre-wrap}
+  .exp .beam{position:absolute;inset:auto 0 0 0;height:3px;background:linear-gradient(90deg,transparent,var(--acc),transparent);animation:beam 3s linear infinite}
+  @keyframes beam{0%{transform:translateX(-100%)}100%{transform:translateX(100%)}}
+  .bias{display:grid;grid-template-columns:70px 1fr 50px;align-items:center;gap:8px;margin:6px 0;font-size:13px}
+  .bar{height:10px;background:#0c1224;border:1px solid var(--line);border-radius:6px;position:relative;overflow:hidden}
+  .bar i{position:absolute;top:0;bottom:0;left:50%;width:0;border-radius:6px}
+  .bar i.pos{background:var(--ok)}.bar i.neg{background:var(--bad)}
+  .bar:after{content:"";position:absolute;left:50%;top:-2px;bottom:-2px;width:1px;background:var(--line)}
+  .tag{display:inline-block;background:#182350;border:1px solid var(--line);border-radius:8px;padding:4px 8px;margin:3px;font-size:12px}
+  .tag.warn{background:#3d3410;color:#ffe27a}.tag.bad{background:#4a1616;color:#ff9a9a}.tag.ok{background:#153b2a;color:#7dffb3}
+  .robots{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+  @media(max-width:1000px){.robots{grid-template-columns:1fr}}
+  .robot{background:#0c1224;border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:13px}
+  .robot b{display:block;margin-bottom:4px}
+  .robot .st{color:var(--mut)}
+  .log{max-height:420px;overflow:auto;font-size:12.5px;line-height:1.6;direction:ltr;text-align:left;white-space:pre-wrap;background:#0c1224;border:1px solid var(--line);border-radius:10px;padding:10px;font-family:Consolas,monospace}
+  canvas{width:100%;height:160px;background:#0c1224;border:1px solid var(--line);border-radius:10px}
+  footer{color:var(--mut);font-size:12px;padding:10px 22px 24px}
+  .err{background:#4a1616;color:#ff9a9a;padding:8px 12px;border-radius:8px;display:none}
+  a{color:var(--acc)}
+</style>
+</head>
+<body>
+<header>
+  <h1>🧠 SmartBrain — العقل الواعي <small id="gen">…</small></h1>
+  <div style="display:flex;gap:10px;align-items:center">
+    <span id="age" style="color:var(--mut);font-size:12px"></span>
+    <span id="mode" class="pill normal"><span class="dot"></span>…</span>
+  </div>
+</header>
+<main>
+  <div class="card span12"><div class="err" id="err"></div>
+    <div class="summary" id="sum_ar">جارٍ الاتصال بالدماغ…</div>
+    <div class="summary en" id="sum_en"></div>
+  </div>
+
+  <div class="card span12">
+    <h2>لوحة القرار</h2>
+    <div class="kpis">
+      <div class="kpi"><span>وضع الخطر</span><b id="k_mode">—</b></div>
+      <div class="kpi"><span>مضاعف المخاطرة</span><b id="k_mult">—</b></div>
+      <div class="kpi"><span>مزاج السوق</span><b id="k_regime">—</b></div>
+      <div class="kpi"><span>ثقة المجلس</span><b id="k_conf">—</b></div>
+    </div>
+    <div style="margin-top:10px" id="tags"></div>
+  </div>
+
+  <div class="card span12">
+    <h2>مجلس الخبراء — من يقول ماذا الآن</h2>
+    <div class="experts" id="experts"></div>
+  </div>
+
+  <div class="card span6"><h2>ميول العملات (−1 … +1)</h2><div id="bias_fx"></div></div>
+  <div class="card span6"><h2>ميول الذهب / النفط / المؤشرات</h2><div id="bias_as"></div></div>
+
+  <div class="card span12">
+    <h2>الروبوتات المرتبطة بالدماغ (SmartMulti_v12) — كيف يترجم كل كتاب التوجيهات</h2>
+    <div class="robots" id="robots"></div>
+  </div>
+
+  <div class="card span6"><h2>تاريخ الثقة ومضاعف المخاطرة</h2><canvas id="chart"></canvas></div>
+  <div class="card span6"><h2>آخر توجيهات خام (brain.txt)</h2><div class="log" id="raw"></div></div>
+
+  <div class="card span12"><h2>محضر آخر اجتماع (brain_log.md)</h2><div class="log" id="debate"></div></div>
+</main>
+<footer>يتحدّث تلقائياً كل 60 ثانية · المصدر: <a id="src" href="#" target="_blank">GitHub / smartbrain</a> · الروبوت يقرأ نفس الملف كل 5 دقائق على الـVPS</footer>
+
+<script>
+const REPO = "architectbaderabbas/smartbrain";
+const RAW  = `https://raw.githubusercontent.com/${REPO}/main/`;
+document.getElementById("src").href = `https://github.com/${REPO}`;
+
+const EXPERTS = [
+  {key:["Chief Macro","Macro Economist"], em:"📊", name:"الاقتصادي الكبير", role:"دورة النمو/التضخم/الفوائد لكل اقتصاد"},
+  {key:["Central-Bank","Central Bank","CB Watcher"], em:"🏦", name:"مراقب البنوك المركزية", role:"Fed/ECB/BoE/BoJ/RBA/RBNZ/BoC/SNB — الخطوة التالية"},
+  {key:["Geopolitical","Crisis"], em:"🌍", name:"محلل الجيوسياسة والأزمات", role:"حروب، عقوبات، كوارث — من يستفيد"},
+  {key:["FX Strategist","Strategist"], em:"💱", name:"استراتيجي العملات", role:"قوة كل عملة للـ4–24 ساعة القادمة"},
+  {key:["Gold & Oil","Gold and Oil","Oil Trader","Gold/Oil"], em:"🛢️", name:"تاجر الذهب والنفط", role:"XAU/XAG/OIL، أوبك، الملاذ الآمن"},
+  {key:["Equity","Risk-Sentiment","Sentiment"], em:"📈", name:"مكتب البورصة والمزاج", role:"risk-on / risk-off، المؤشرات"},
+  {key:["Risk Manager"], em:"🛡️", name:"مدير المخاطر", role:"حماية رأس المال، نوافذ الأخبار، متى نوقف"},
+  {key:["Chairman"], em:"⚖️", name:"رئيس المجلس", role:"يوزن الأدلة ويصدر التوجيهات النهائية"},
+];
+const CUR = ["USD","EUR","GBP","JPY","AUD","NZD","CAD","CHF"];
+const AS  = ["XAU","XAG","OIL","US500","US100","US30","GER40"];
+const ROBOTS = [
+  {n:"SWING (H4)", d:"دخول على تصحيح باتجاه الترند. الدماغ: يمنعه ضد الميل ≥0.5، يكبّره ×1.25 مع الميل، يوقفه بالـHALT."},
+  {n:"SHOCK (M1)", d:"يصطاد شمعة الصدمة (≥3×ATR) على الذهب/النفط/المؤشرات. إشارة shock من المجلس تخفّض العتبة وتقفل الاتجاه (لازم السعر يأكّد)."},
+  {n:"COUNCIL (H1)", d:"يتاجر برأي المجلس مباشرة: ثقة ≥0.6 و|الميل| ≥0.7 + شمعة ساعة مؤكِّدة. 0.5% مخاطرة، وقف 1.5ATR، 12 ساعة، يخرج إذا انقلب الرأي."},
+  {n:"INTRADAY / REVERT (الروبوتات القديمة)", d:"SmartBreakout و SmartRevert على 5 أزواج كلٌّ — مستقلة بمنطقها، لا تقرأ الدماغ (v7)."},
+  {n:"حدود الأمان", d:"يومي 5% · أسبوعي 8% · حماية عند −10% (نصف المخاطرة) · وقف تام عند −15% · أقصى 4 صفقات / 4%."},
+  {n:"إشارات الدماغ المطبّقة", d:"risk_mode · risk_mult · bias · allow_books · news_block · block/prefer_symbols · shock. ملف أقدم من 45 دقيقة = يُتجاهل (أمان)."},
+];
+
+function parseKV(txt){const o={};txt.split(/\r?\n/).forEach(l=>{const i=l.indexOf("=");if(i>0)o[l.slice(0,i).trim()]=l.slice(i+1).trim();});return o;}
+function esc(s){return (s||"").replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));}
+function fmtAge(sec){if(sec<60)return "قبل "+sec+" ث";if(sec<3600)return "قبل "+Math.floor(sec/60)+" د";return "قبل "+(sec/3600).toFixed(1)+" س";}
+
+function renderBias(el, keys, d){
+  el.innerHTML = keys.map(k=>{
+    const v=parseFloat(d["bias_"+k]||0), w=Math.min(50,Math.abs(v)*50);
+    const style = v>=0?`left:50%;width:${w}%`:`left:${50-w}%;width:${w}%`;
+    return `<div class="bias"><b>${k}</b><div class="bar"><i class="${v>=0?'pos':'neg'}" style="${style}"></i></div><span style="color:${v>0.05?'var(--ok)':v<-0.05?'var(--bad)':'var(--mut)'}">${v>0?'+':''}${v.toFixed(2)}</span></div>`;
+  }).join("");
+}
+
+function latestSection(log){
+  const parts = log.split(/^# /m).filter(Boolean);
+  return parts.length ? parts[parts.length-1] : "";
+}
+function expertSay(section, keys){
+  const lines = section.split(/\r?\n/);
+  for(const l of lines){ for(const k of keys){ if(l.toLowerCase().includes(k.toLowerCase())){ return l.replace(/^[\s\d\.\-\*#]+/,"").replace(/\*\*/g,""); } } }
+  return "";
+}
+function historyFromLog(log){
+  const out=[]; log.split(/^# /m).forEach(sec=>{
+    const m=sec.match(/^([\d\- :UTC]+)/); if(!m) return;
+    const d=parseKV(sec.split("## DIRECTIVES")[1]||"");
+    if(d.conf!==undefined) out.push({t:m[1].trim(), conf:parseFloat(d.conf)||0, mult:parseFloat(d.risk_mult)||1, mode:d.risk_mode||"normal"});
+  }); return out.slice(-48);
+}
+function drawChart(h){
+  const c=document.getElementById("chart"), ctx=c.getContext("2d");
+  const W=c.width=c.clientWidth*2, H=c.height=c.clientHeight*2; ctx.clearRect(0,0,W,H);
+  if(h.length<2){ctx.fillStyle="#8b96b8";ctx.font="24px sans-serif";ctx.fillText("ينتظر اجتماعات أكثر…",20,H/2);return;}
+  const px=i=>20+(W-40)*i/(h.length-1);
+  const line=(f,col,max)=>{ctx.beginPath();ctx.strokeStyle=col;ctx.lineWidth=3;h.forEach((p,i)=>{const y=H-20-(H-40)*(f(p)/max);i?ctx.lineTo(px(i),y):ctx.moveTo(px(i),y);});ctx.stroke();};
+  h.forEach((p,i)=>{const col=p.mode==="halt"?"#8e44ad":p.mode==="danger"?"#e74c3c":p.mode==="caution"?"#f1c40f":"#2ecc71";ctx.fillStyle=col;ctx.globalAlpha=.18;ctx.fillRect(px(i)-3,0,6,H);ctx.globalAlpha=1;});
+  line(p=>p.conf,"#4f8cff",1); line(p=>p.mult,"#2ecc71",1.5);
+  ctx.fillStyle="#8b96b8";ctx.font="20px sans-serif";ctx.fillText("● الثقة (أزرق)   ● مضاعف المخاطرة (أخضر)   الخلفية = وضع الخطر",20,28);
+}
+
+async function load(){
+  const bust="?t="+Date.now();
+  try{
+    const [txt, log] = await Promise.all([
+      fetch(RAW+"brain.txt"+bust,{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error("brain.txt "+r.status);return r.text();}),
+      fetch(RAW+"brain_log.md"+bust,{cache:"no-store"}).then(r=>r.ok?r.text():"")
+    ]);
+    document.getElementById("err").style.display="none";
+    const d=parseKV(txt);
+    const ts=parseInt(d.ts||"0"), age=Math.max(0,Math.floor(Date.now()/1000-ts));
+    document.getElementById("gen").textContent=d.generated||"";
+    document.getElementById("age").textContent=fmtAge(age)+(age>2700?" ⚠️ قديم — الروبوت يتجاهله":"");
+    const mode=(d.risk_mode||"normal");
+    const mp=document.getElementById("mode"); mp.className="pill "+mode;
+    mp.innerHTML=`<span class="dot"></span>${{normal:"عادي NORMAL",caution:"حذر CAUTION",danger:"خطر DANGER",halt:"توقّف HALT"}[mode]||mode}`;
+    document.getElementById("sum_ar").textContent=d.summary_ar||"—";
+    document.getElementById("sum_en").textContent=d.summary||"";
+    document.getElementById("k_mode").textContent=mode.toUpperCase();
+    document.getElementById("k_mult").textContent="× "+(d.risk_mult||"1.0");
+    document.getElementById("k_regime").textContent=({risk_on:"Risk-ON 🟢",risk_off:"Risk-OFF 🔴",mixed:"مختلط 🟡"})[d.regime]||d.regime||"—";
+    document.getElementById("k_conf").textContent=Math.round(parseFloat(d.conf||0)*100)+"%";
+    let tags="";
+    tags+=`<span class="tag">الكتب المسموحة: ${esc(d.allow_books||"ALL")}</span>`;
+    if(d.news_block&&d.news_block!=="none") d.news_block.split(";").forEach(n=>{const f=n.split(":");tags+=`<span class="tag warn">📰 أخبار ${f[0]}: بعد ${f[1]}→${f[2]} د</span>`;});
+    if(d.shock&&d.shock!=="none") d.shock.split(";").forEach(s=>{const f=s.split(":");tags+=`<span class="tag bad">⚡ صدمة ${f[0]} ${f[1]==="1"?"صعود":"هبوط"} (${f[2]} د) ${esc((f[3]||"").replace(/_/g," "))}</span>`;});
+    if(d.block_symbols&&d.block_symbols!=="none") tags+=`<span class="tag bad">🚫 ممنوع: ${esc(d.block_symbols)}</span>`;
+    if(d.prefer_symbols&&d.prefer_symbols!=="none") tags+=`<span class="tag ok">⭐ مفضّل: ${esc(d.prefer_symbols)}</span>`;
+    document.getElementById("tags").innerHTML=tags;
+    renderBias(document.getElementById("bias_fx"),CUR,d);
+    renderBias(document.getElementById("bias_as"),AS,d);
+    const sec=latestSection(log);
+    document.getElementById("experts").innerHTML=EXPERTS.map(e=>`<div class="exp"><div class="av">${e.em}</div><div class="nm">${e.name}</div><div class="rl">${e.role}</div><div class="say">${esc(expertSay(sec,e.key)||"(لم يتحدث في هذه الجلسة)")}</div><div class="beam"></div></div>`).join("");
+    document.getElementById("robots").innerHTML=ROBOTS.map(r=>`<div class="robot"><b>${r.n}</b><span class="st">${r.d}</span></div>`).join("");
+    document.getElementById("raw").textContent=txt;
+    document.getElementById("debate").textContent=sec?("# "+sec):"(لا يوجد محضر بعد)";
+    drawChart(historyFromLog(log));
+  }catch(e){
+    const er=document.getElementById("err"); er.style.display="block";
+    er.textContent="تعذّر الاتصال بالدماغ: "+e.message+" — تأكّد من الإنترنت أو أن الـrepo عام.";
+  }
+}
+load(); setInterval(load,60000);
+</script>
+</body>
+</html>
