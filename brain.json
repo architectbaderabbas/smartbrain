@@ -1,6 +1,6 @@
 {
- "ts": 1787079774,
- "council_ts": 1787076828,
+ "ts": 1787080430,
+ "council_ts": 1787080430,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.6,
@@ -22,18 +22,17 @@
   "bias_US30": -0.4,
   "bias_GER40": -0.4,
   "allow_books": "INTRADAY,SWING,POSITION,REVERT",
-  "news_block": "AUD:371:447;GBP:641:711;EUR:711:771;USD:1361:1421;AUD:1811:1881",
+  "news_block": "AUD:356:432;GBP:626:696;EUR:696:756;EUR:881:941;USD:1346:1406;AUD:1796:1866",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDJPY,GBPUSD",
   "mind": "focused",
-  "psyche_flags": "prudence,intuition",
-  "intuition": "The bond market is screaming louder than any headline—if 30Y breaks 5.4% before Fed minutes, expect coordinated CB jawbone within 48h to calm markets, triggering violent bond short-squeeze and USD/JPY",
-  "summary": "Bond rout at 19Y high (US 30Y 5.33%) dominates; geopolitical spike aged (2h15m, no new attacks); JPY strong (BoJ hike path + intervention threat), GBP weak (hot CPI 11h45m), oil fading; caution mode t",
-  "summary_ar": "انهيار السندات عند أعلى مستوى في 19 عامًا (30 سنة أميركي 5.33%) يهيمن؛ تلاشى الارتفاع الجيوسياسي (2 ساعة 15 دقيقة، لا هجمات جديدة)؛ الين قوي (مسار رفع BoJ + تهديد تدخل)، الجنيه ضعيف (تضخم ساخن بعد 11 "
+  "psyche_flags": "awareness,prudence,intuition",
+  "intuition": "If US 30Y yield breaks 5.4% before Fed minutes, expect coordinated CB jawbone within 48h triggering violent bond short-squeeze and sharp USD/JPY spike",
+  "summary": "Bond rout at 19Y high (US 30Y 5.33%) dominates; geopolitical spike aged 3h20m (no new attacks, Hormuz open); JPY strong (BoJ hike path + intervention threat), GBP weak (hot CPI 10h45m), oil fading; ca",
+  "summary_ar": "انهيار السندات عند أعلى مستوى في 19 عامًا (30 سنة أميركي 5.33%) يهيمن؛ تلاشى الارتفاع الجيوسياسي (3 ساعات 20 دقيقة، لا هجمات جديدة، هرمز مفتوح)؛ الين قوي (مسار رفع BoJ)، الجنيه ضعيف (تضخم ساخن بعد 10 "
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,
