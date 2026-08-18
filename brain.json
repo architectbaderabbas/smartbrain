@@ -1,6 +1,6 @@
 {
- "ts": 1787069627,
- "council_ts": 1787067842,
+ "ts": 1787070428,
+ "council_ts": 1787070428,
  "directives": {
   "risk_mode": "danger",
   "risk_mult": 0.6,
@@ -16,23 +16,22 @@
   "bias_CHF": 0.3,
   "bias_XAU": 0.0,
   "bias_XAG": -0.1,
-  "bias_OIL": -0.1,
+  "bias_OIL": -0.2,
   "bias_US500": -0.4,
   "bias_US100": -0.4,
   "bias_US30": -0.4,
   "bias_GER40": -0.4,
   "allow_books": "INTRADAY,SWING,POSITION,REVERT",
-  "news_block": "GBP:828:908;EUR:898:958;USD:1548:1608;AUD:558:618;AUD:1998:2058",
+  "news_block": "AUD:542:618;GBP:812:872;EUR:882:942;USD:1532:1592;AUD:1982:2042",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDJPY,GBPUSD",
   "mind": "focused",
   "psyche_flags": "awareness,fear,prudence,intuition",
-  "intuition": "Fed minutes tonight are the hinge: if they acknowledge tightening conditions (yields 19Y high, geopolitics), expect dovish tilt and sharp relief rally in risk assets within 12-24h; if hawkish, deeper ",
-  "summary": "Iran ship strike + Trump-Oman threat (< 2h) keep danger mode; bond rout at 19Y high dominates; JPY strong (BoJ hike + intervention threat), GBP weak (hot CPI 14h), oil fading despite headlines; Fed mi",
-  "summary_ar": "ضربة إيران للسفينة + تهديد ترامب لعُمان (< ساعتين) يُبقي وضع الخطر؛ انهيار السندات بأعلى مستوى منذ 19 سنة؛ الين قوي، الجنيه ضعيف، النفط يتراجع رغم العناوين؛ محضر الفيدرالي (26 ساعة) حاسم"
+  "intuition": "Bond market screaming fiscal crisis (30Y 19Y high) but ignored; if Fed minutes tonight dismiss yield spike, expect violent repricing (yields/USD higher, everything lower) within 48h",
+  "summary": "Iran ship strike + Trump-Oman threat (90 min old) keep danger mode for 2 more hours; bond rout at 19Y high dominates (yields crush gold/risk); JPY strong (BoJ hike + intervention threat), GBP weak (ho",
+  "summary_ar": "ضربة إيران للسفينة + تهديد ترامب لعُمان (منذ 90 دقيقة) يُبقي وضع الخطر لساعتين إضافيتين؛ انهيار السندات بأعلى مستوى منذ 19 سنة؛ الين قوي، الجنيه ضعيف، النفط يتراجع؛ محضر الفيدرالي (25.5 ساعة) حاسم"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": []
 }
