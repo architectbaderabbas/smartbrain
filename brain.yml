@@ -1,0 +1,67 @@
+name: SmartBrain council
+on:
+  schedule:
+    - cron: "*/5 * * * *"      # watchman every 5 min; full council hourly or on alert
+  repository_dispatch:
+    types: [account, trade]    # the robots post the account report / closed trades here
+  workflow_dispatch:
+    inputs:
+      full:
+        description: "Run the FULL council now (1) or just the watchman (0)"
+        default: "1"
+permissions:
+  contents: write
+concurrency:
+  group: brain
+  cancel-in-progress: false
+jobs:
+  think:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Pull latest
+        run: git pull --rebase || true
+      - name: Account report from the robots
+        if: github.event_name == 'repository_dispatch' && github.event.action == 'account'
+        env:
+          PAYLOAD: ${{ toJson(github.event.client_payload) }}
+        run: |
+          printf '%s' "$PAYLOAD" > account.json
+          python3 -c "import json;a=json.load(open('account.json'));print('account ts',a.get('ts'),'equity',a.get('equity'))"
+      - name: Closed trade from the robots (trade journal)
+        if: github.event_name == 'repository_dispatch' && github.event.action == 'trade'
+        env:
+          PAYLOAD: ${{ toJson(github.event.client_payload) }}
+        run: |
+          python3 - <<'PY'
+          import json, os
+          t = json.loads(os.environ["PAYLOAD"]); t = t.get("t", t)
+          p = "trades.json"
+          try: L = json.load(open(p))
+          except Exception: L = []
+          if not any(x.get("pos") == t.get("pos") for x in L):
+              L.append(t)
+          L = L[-200:]
+          json.dump(L, open(p, "w"), ensure_ascii=False, indent=1)
+          print("trade", t.get("symbol"), t.get("book"), t.get("pl"), "-> trades.json", len(L))
+          PY
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Watchman (every run) / council (hourly, on alert, or after a loss)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          BRAIN_MODEL: ${{ vars.BRAIN_MODEL || 'claude-sonnet-4-5' }}
+          WATCH_MODEL: ${{ vars.WATCH_MODEL || 'claude-haiku-4-5' }}
+          FULL_EVERY_MIN: ${{ vars.FULL_EVERY_MIN || '60' }}
+          FORCE_FULL: ${{ github.event.inputs.full || '0' }}
+          EVENT: ${{ github.event.action || github.event_name }}
+        run: python watchman.py
+      - name: Publish
+        run: |
+          git config user.name "smartbrain"
+          git config user.email "smartbrain@users.noreply.github.com"
+          git add -A
+          git commit -m "brain $(date -u +%Y-%m-%dT%H:%MZ)" || echo "no change"
+          git pull --rebase -X theirs || true
+          git push || (git pull --rebase -X theirs && git push)
