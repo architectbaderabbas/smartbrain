@@ -1,5 +1,5 @@
 {
- "ts": 1787067618,
+ "ts": 1787067726,
  "council_ts": 1787066940,
  "directives": {
   "risk_mode": "danger",
@@ -22,7 +22,7 @@
   "bias_US30": -0.4,
   "bias_GER40": -0.4,
   "allow_books": "INTRADAY,SWING,POSITION,REVERT",
-  "news_block": "GBP:860:940;EUR:930:990;USD:1580:1640;AUD:2030:2090",
+  "news_block": "GBP:859:939;EUR:929:989;USD:1579:1639;AUD:2029:2089",
   "block_symbols": "USOIL,UKOIL",
   "shock": "none",
   "prefer_symbols": "USDJPY,GBPUSD,USDCAD",
