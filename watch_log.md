@@ -13,3 +13,5 @@
 - 2026-08-18 08:58 UTC · FULL COUNCIL triggered: re-assess emergency mode (danger, council 40 min ago)
 - 2026-08-18 09:41 UTC · heartbeat · ALERT sev2: US-Iran ceasefire expired; Trump threatens Oman; unidentified projectile hit vessel in Hormuz; oil spiked to $91 Brent -> protocol applied, council convening
 - 2026-08-18 09:41 UTC · FULL COUNCIL triggered: ALERT sev2: US-Iran ceasefire expired; Trump threatens Oman; unidentified projectile hit vessel in Hormuz; oil spiked to $91 Brent
+- 2026-08-18 10:04 UTC · heartbeat · ALERT sev2: Trump threatens Oman strike; unidentified projectile hits Hormuz vessel; US-Iran ceasefire expired; oil spike to $91 Brent -> protocol applied, council convening
+- 2026-08-18 10:04 UTC · FULL COUNCIL triggered: ALERT sev2: Trump threatens Oman strike; unidentified projectile hits Hormuz vessel; US-Iran ceasefire expired; oil spike to $91 Brent
