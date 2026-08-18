@@ -1,5 +1,5 @@
 {
- "ts": 1787081635,
+ "ts": 1787082256,
  "council_ts": 1787081635,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": -0.4,
   "bias_GER40": -0.4,
   "allow_books": "INTRADAY,SWING,POSITION,REVERT",
-  "news_block": "AUD:334:410;GBP:604:674;EUR:674:734;EUR:859:919;USD:1314:1404;AUD:1774:1844",
+  "news_block": "AUD:324:400;GBP:594:664;EUR:664:724;EUR:849:909;USD:1304:1394;AUD:1764:1834",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDJPY",
@@ -33,6 +33,7 @@
   "summary_ar": "حادثة هرمز عمرها 3س35د، لا تصعيد، البنتاغون يشير لانسحاب؛ انهيار السندات مستمر (30Y 5.33%)؛ الين قوي على مسار رفع BoJ؛ النفط يتراجع؛ وضع حذر، محضر الفيدرالي 22.5س"
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,
