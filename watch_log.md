@@ -16,3 +16,4 @@
 - 2026-08-18 10:04 UTC · heartbeat · ALERT sev2: Trump threatens Oman strike; unidentified projectile hits Hormuz vessel; US-Iran ceasefire expired; oil spike to $91 Brent -> protocol applied, council convening
 - 2026-08-18 10:04 UTC · FULL COUNCIL triggered: ALERT sev2: Trump threatens Oman strike; unidentified projectile hits Hormuz vessel; US-Iran ceasefire expired; oil spike to $91 Brent
 - 2026-08-18 10:43 UTC · heartbeat · quiet (sev0)
+- 2026-08-18 11:08 UTC · FULL COUNCIL triggered: scheduled full council (last 63 min ago)

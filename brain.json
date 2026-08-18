@@ -1,6 +1,5 @@
 {
- "ts": 1787049801,
- "council_ts": 1787047477,
+ "ts": 1787051288,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.75,
@@ -13,25 +12,24 @@
   "bias_AUD": 0.3,
   "bias_NZD": 0.2,
   "bias_CAD": 0.4,
-  "bias_CHF": 0.3,
+  "bias_CHF": 0.4,
   "bias_XAU": 0.4,
   "bias_XAG": 0.3,
-  "bias_OIL": 0.1,
+  "bias_OIL": 0.0,
   "bias_US500": -0.4,
   "bias_US100": -0.4,
   "bias_US30": -0.4,
   "bias_GER40": -0.3,
   "allow_books": "ALL",
-  "news_block": "GBP:1137:1217;EUR:1207:1267;USD:1857:1917;AUD:2307:2367",
+  "news_block": "GBP:1123:1203;EUR:1193:1253;USD:1843:1903;AUD:2293:2353",
   "block_symbols": "none",
   "shock": "none",
-  "prefer_symbols": "USDJPY,USDCAD,GBPUSD",
+  "prefer_symbols": "USDJPY,GBPUSD,USDCAD",
   "mind": "focused",
-  "psyche_flags": "awareness,fear,prudence,intuition",
-  "intuition": "Bond stress may force CB/Treasury action or trigger sharper risk-off within 48-72h; watch credit spreads and equity acceleration—USD could weaken if flight-to-quality dominates yield support",
-  "summary": "Geopolitical spike aging (Hormuz attack 6h, no follow-up); bond rout dominant (US 30Y 19Y high); BoJ signals Sept hike (JPY strong); GBP weak into CPI; caution mode",
-  "summary_ar": "ارتفاع جيوسياسي يتلاشى (هجوم هرمز 6 ساعات، لا متابعة)؛ انهيار السندات مهيمن (US 30Y أعلى مستوى 19 سنة)؛ BoJ يشير لرفع أيلول (JPY قوي)؛ GBP ضعيف قبل CPI؛ وضع حذر"
+  "psyche_flags": "awareness,prudence,intuition",
+  "intuition": "Bond rout at 19Y highs with no CB response feels like a coiling spring; if Fed minutes show complacency or yields break 5.35-5.40%, expect sharper risk-off (equities -2-3%, USD weakening vs JPY/CHF) w",
+  "summary": "Bond rout dominant (US 30Y 19Y high), geopolitical spike aging (6h no follow-up, Saudi resumes Hormuz); JPY strong (BoJ hike path), GBP weak (CPI tomorrow), oil premium fading; caution mode, Fed minut",
+  "summary_ar": "انهيار السندات مهيمن (US 30Y أعلى مستوى 19 سنة)، الارتفاع الجيوسياسي يتلاشى (6 ساعات بدون متابعة، السعودية تستأنف هرمز)؛ JPY قوي (مسار رفع BoJ)، GBP ضعيف (CPI غداً)، علاوة النفط تتلاشى؛ وضع حذر، محضر "
  },
- "error": null,
- "watchman": "quiet (sev0)"
+ "error": null
 }
