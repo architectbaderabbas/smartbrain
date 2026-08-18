@@ -18,14 +18,14 @@
     }
   ],
   "brain_mode": "CAUTION",
-  "day_pl": -2.37,
-  "equity": 497.19,
+  "day_pl": -2.53,
+  "equity": 497.03,
   "positions": [
     {
       "book": "SWING",
       "lots": 0.01,
       "opened": 1787040000,
-      "pl": 2.06,
+      "pl": 2.04,
       "symbol": "EURNZD",
       "type": "BUY"
     },
@@ -33,7 +33,7 @@
       "book": "SWING",
       "lots": 0.01,
       "opened": 1787040000,
-      "pl": 1,
+      "pl": 0.98,
       "symbol": "NZDUSD",
       "type": "SELL"
     },
@@ -41,11 +41,11 @@
       "book": "SWING",
       "lots": 0.01,
       "opened": 1787083200,
-      "pl": 0.9,
+      "pl": 0.78,
       "symbol": "AUDUSD",
       "type": "SELL"
     }
   ],
-  "ts": 1787084977,
-  "week_pl": -2.37
+  "ts": 1787085878,
+  "week_pl": -2.53
 }

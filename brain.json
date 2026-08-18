@@ -1,6 +1,6 @@
 {
- "ts": 1787085115,
- "council_ts": 1787081635,
+ "ts": 1787085886,
+ "council_ts": 1787085886,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.6,
@@ -10,8 +10,8 @@
   "bias_EUR": 0.0,
   "bias_GBP": -0.5,
   "bias_JPY": 0.6,
-  "bias_AUD": 0.1,
-  "bias_NZD": 0.1,
+  "bias_AUD": 0.2,
+  "bias_NZD": 0.2,
   "bias_CAD": 0.3,
   "bias_CHF": 0.3,
   "bias_XAU": 0.0,
@@ -22,18 +22,17 @@
   "bias_US30": -0.4,
   "bias_GER40": -0.4,
   "allow_books": "INTRADAY,SWING,POSITION,REVERT",
-  "news_block": "AUD:278:354;GBP:548:618;EUR:618:678;EUR:803:863;USD:1258:1348;AUD:1718:1788",
+  "news_block": "AUD:278:354;GBP:548:618;EUR:618:678;EUR:803:863;USD:1251:1341;AUD:1718:1788",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDJPY",
   "mind": "focused",
-  "psyche_flags": "prudence,intuition",
-  "intuition": "If US 30Y yield breaks 5.4% before Fed minutes, expect coordinated CB jawbone within 48h triggering violent bond short-squeeze and sharp USD/JPY spike",
-  "summary": "Hormuz incident aged 3h35m, no escalation, Pentagon signals drawdown; bond rout persists (30Y 5.33%); JPY strong on BoJ hike path; oil fading; caution mode, Fed minutes 22.5h",
-  "summary_ar": "حادثة هرمز عمرها 3س35د، لا تصعيد، البنتاغون يشير لانسحاب؛ انهيار السندات مستمر (30Y 5.33%)؛ الين قوي على مسار رفع BoJ؛ النفط يتراجع؛ وضع حذر، محضر الفيدرالي 22.5س"
+  "psyche_flags": "awareness,prudence,intuition",
+  "intuition": "If bond yields spike to 5.4-5.5% before Fed minutes, expect coordinated CB jawbone within 48h triggering violent bond short-squeeze and sharp USD/JPY spike",
+  "summary": "Bond rout at 19Y high (30Y 5.33%) dominates; geopolitics fading (Hormuz 3h50m old, no escalation); JPY strong on BoJ hike path; GBP weak into hot CPI (10.5h); oil fading; caution mode, Fed minutes 21h",
+  "summary_ar": "انهيار السندات عند أعلى مستوى في 19 عام (30Y 5.33%) يهيمن؛ الجيوسياسة تتلاشى (هرمز 3س50د، لا تصعيد)؛ الين قوي على مسار رفع BoJ؛ الجنيه ضعيف قبل CPI الساخن (10.5س)؛ النفط يتراجع؛ وضع حذر، محضر الفيدرال"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,
