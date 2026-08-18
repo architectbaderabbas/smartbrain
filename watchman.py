@@ -82,7 +82,7 @@ def heartbeat(last, note):
     with open(os.path.join(OUT_DIR, "brain.txt"), "w", encoding="utf-8") as f: f.write("\n".join(txt) + "\n")
     with open(os.path.join(OUT_DIR, "brain.json"), "w", encoding="utf-8") as f:
         json.dump({"ts": NOW, "council_ts": last.get("council_ts", last.get("ts")), "directives": d,
-                   "error": last.get("error"), "watchman": note}, f, ensure_ascii=False, indent=1)
+                   "error": last.get("error"), "watchman": note, "alerts": last.get("alerts", [])[-10:]}, f, ensure_ascii=False, indent=1)
     log_watch("heartbeat · " + note)
 
 WATCH_SYSTEM = """You are the WATCHMAN of a trading brain. A full council of experts meets periodically and issues directives.
@@ -103,8 +103,10 @@ def ask_watch(last, headlines, calendar):
     if not API_KEY: return None, "no key"
     council_time = dt.datetime.utcfromtimestamp(int(last.get("council_ts", last.get("ts", NOW)))).strftime("%Y-%m-%d %H:%M UTC")
     d = last["directives"]
+    handled = "\n".join(f"- {dt.datetime.utcfromtimestamp(a['ts']).strftime('%H:%M')} UTC: {a['what']}" for a in last.get("alerts", [])[-8:]) or "none"
     user = (f"UTC now: {dt.datetime.utcfromtimestamp(NOW).strftime('%Y-%m-%d %H:%M')}\n"
-            f"Last full council: {council_time}\nIts summary: {d.get('summary')}\nIts risk_mode: {d.get('risk_mode')} shock: {d.get('shock')}\n\n"
+            f"Last full council: {council_time}\nIts summary: {d.get('summary')}\nIts risk_mode: {d.get('risk_mode')} shock: {d.get('shock')}\n"
+            f"\n## Alerts ALREADY handled today (the council already met on these; the same story again => alert=no)\n{handled}\n\n"
             "## Fast feeds now\n")
     for k, v in headlines.items(): user += f"### {k}\n" + "\n".join(v) + "\n"
     soon = [e for e in calendar if isinstance(e.get("in_min"), int) and -30 <= e["in_min"] <= 30 and e.get("impact") == "high"]
@@ -212,6 +214,16 @@ def main():
     what = kv.get("what", "none")
     shock = kv.get("shock", "none")
     print("WATCHMAN:", alert, sev, what, shock)
+    if alert and sev >= 2:
+        # dedupe: same story as a recent alert (word overlap) within 3h => already handled
+        w_new = set(re.findall(r"[a-z]{4,}", what.lower()))
+        for a in last.get("alerts", [])[-10:]:
+            if NOW - int(a.get("ts", 0)) > 3 * 3600: continue
+            w_old = set(re.findall(r"[a-z]{4,}", str(a.get("what", "")).lower()))
+            if w_new and len(w_new & w_old) / max(1, len(w_new)) >= 0.5:
+                print("WATCHMAN: same story already handled ->", a.get("what"))
+                heartbeat(last, f"quiet (repeat of handled alert: {what[:60]})"); return
+        last.setdefault("alerts", []).append({"ts": NOW, "what": what, "sev": sev})
     if alert and sev >= 2:
         # EMERGENCY PROTOCOL: act first (robots read within 5 min), then convene the council
         d = shift_windows(dict(last["directives"]), int((NOW - int(last.get("ts", NOW))) / 60))

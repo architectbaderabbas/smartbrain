@@ -479,8 +479,11 @@ def write_outputs(directives, debate, err):
     for k in ORDER:
         txt.append(f"{k}={directives.get(k,'')}")
     with open(os.path.join(OUT_DIR,"brain.txt"),"w",encoding="utf-8") as f: f.write("\n".join(txt)+"\n")
+    prev_alerts = []
+    try: prev_alerts = json.load(open(os.path.join(OUT_DIR,"brain.json"), encoding="utf-8")).get("alerts", [])[-10:]
+    except Exception: pass
     with open(os.path.join(OUT_DIR,"brain.json"),"w",encoding="utf-8") as f:
-        json.dump({"ts":NOW,"directives":directives,"error":err}, f, ensure_ascii=False, indent=1)
+        json.dump({"ts":NOW,"council_ts":NOW,"directives":directives,"error":err,"alerts":prev_alerts}, f, ensure_ascii=False, indent=1)
     p = os.path.join(OUT_DIR,"brain_log.md")
     with open(p,"a",encoding="utf-8") as f:
         f.write(f"\n\n# {dt.datetime.utcfromtimestamp(NOW).strftime('%Y-%m-%d %H:%M UTC')}\n")
