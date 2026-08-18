@@ -1,6 +1,5 @@
 {
- "ts": 1787054433,
- "council_ts": 1787051288,
+ "ts": 1787057374,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.75,
@@ -14,24 +13,23 @@
   "bias_NZD": 0.2,
   "bias_CAD": 0.4,
   "bias_CHF": 0.4,
-  "bias_XAU": 0.4,
-  "bias_XAG": 0.3,
+  "bias_XAU": 0.3,
+  "bias_XAG": 0.2,
   "bias_OIL": 0.0,
   "bias_US500": -0.4,
   "bias_US100": -0.4,
   "bias_US30": -0.4,
   "bias_GER40": -0.3,
   "allow_books": "ALL",
-  "news_block": "GBP:1072:1152;EUR:1142:1202;USD:1792:1852;AUD:2242:2302",
+  "news_block": "GBP:1012:1092;EUR:1082:1142;USD:1732:1792;AUD:2182:2242",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDJPY,GBPUSD,USDCAD",
   "mind": "focused",
-  "psyche_flags": "awareness,prudence,intuition",
-  "intuition": "Bond rout at 19Y highs with no CB response feels like a coiling spring; if Fed minutes show complacency or yields break 5.35-5.40%, expect sharper risk-off (equities -2-3%, USD weakening vs JPY/CHF) w",
-  "summary": "Bond rout dominant (US 30Y 19Y high), geopolitical spike aging (6h no follow-up, Saudi resumes Hormuz); JPY strong (BoJ hike path), GBP weak (CPI tomorrow), oil premium fading; caution mode, Fed minut",
-  "summary_ar": "انهيار السندات مهيمن (US 30Y أعلى مستوى 19 سنة)، الارتفاع الجيوسياسي يتلاشى (6 ساعات بدون متابعة، السعودية تستأنف هرمز)؛ JPY قوي (مسار رفع BoJ)، GBP ضعيف (CPI غداً)، علاوة النفط تتلاشى؛ وضع حذر، محضر "
+  "psyche_flags": "prudence,intuition",
+  "intuition": "Bond yields at 19Y high with Fed minutes 29h away feel like a coiling spring; if Fed shows complacency or 30Y breaks 5.40%, expect sharper risk-off flush (equities -2-3%, USD weak vs JPY/CHF)",
+  "summary": "Bond rout at 19Y high (US 30Y 5.31%), geopolitical spike aging (7h no new attacks, tankers U-turn but stable), JPY strong (BoJ Sept hike path), GBP weak (hot CPI tomorrow), oil/gold fading on yields",
+  "summary_ar": "انهيار السندات عند أعلى مستوى 19 سنة (US 30Y 5.31%)، الارتفاع الجيوسياسي يتلاشى (7 ساعات بدون هجمات جديدة، ناقلات تعود لكن مستقر)، JPY قوي (مسار رفع BoJ سبتمبر)، GBP ضعيف (CPI ساخن غداً)، النفط/الذهب "
  },
- "error": null,
- "watchman": "quiet (sev0)"
+ "error": null
 }
