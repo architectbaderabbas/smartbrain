@@ -1,5 +1,5 @@
 {
- "ts": 1787076828,
+ "ts": 1787077350,
  "council_ts": 1787076828,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": -0.4,
   "bias_GER40": -0.4,
   "allow_books": "INTRADAY,SWING,POSITION,REVERT",
-  "news_block": "AUD:418:494;GBP:688:758;EUR:758:818;USD:1408:1468;AUD:1858:1928",
+  "news_block": "AUD:410:486;GBP:680:750;EUR:750:810;USD:1400:1460;AUD:1850:1920",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDJPY,GBPUSD",
@@ -33,6 +33,7 @@
   "summary_ar": "انهيار السندات عند أعلى مستوى في 19 عامًا (30 سنة أميركي 5.33%) يهيمن؛ تلاشى الارتفاع الجيوسياسي (2 ساعة 15 دقيقة، لا هجمات جديدة)؛ الين قوي (مسار رفع BoJ + تهديد تدخل)، الجنيه ضعيف (تضخم ساخن بعد 11 "
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,
