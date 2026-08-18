@@ -10,10 +10,10 @@
       "wins": 1
     }
   ],
-  "brain_mode": "CAUTION",
+  "brain_mode": "OFF",
   "day_pl": 0,
   "equity": 506.13,
   "positions": [],
-  "ts": 1787024371,
+  "ts": 1787025271,
   "week_pl": 0
 }
