@@ -1217,3 +1217,75 @@ summary_ar=أزمة السندات بأعلى مستوى منذ 19 سنة (US 30
 mind=focused
 psyche_flags=awareness,fear,prudence,intuition
 intuition=Bond rout may pause into Fed minutes on profit-taking (yields extended at 19Y high), then resume if minutes show Fed complacency; binary risk but watch for early reversal signs (yields peak, VIX fall, USD weaken) in next 4-12h
+
+
+# 2026-08-18 14:57 UTC
+## Council debate
+
+**Chief Macro Economist:** Bond rout persists (US 30Y 5.33% now, new 19Y high per headlines), driven by war premium + fiscal concerns + inflation fears. This is a slow-burn crisis, not a flash crash. Growth still positive but yields choking risk assets. No immediate catalyst for reversal before Fed minutes (27h).
+
+**Central-Bank Watcher:** Fed minutes tonight (1622 min = 27h) are binary: if they show concern about yields/financial conditions, USD weakens and risk rallies; if complacent, rout continues. BoJ Sept hike still priced (JPY supported). ECB's Lagarde speaks in 16h (972 min), Lane already said inflation depends on US-Iran war—dovish tilt if war fades. GBP: hot CPI (2.9% vs 2.6%) expected in 15h (902 min), already priced, but upside surprise would hurt GBP more.
+
+**Geopolitical & Crisis Analyst:** Iran-US stalemate continues (Trump threatens Oman per Axios, but no new attacks for 9 hours now). Oil jumped to $91 on Hormuz fears but Guardian/WSJ say "solution appears distant"—this is a grind, not a spike. No blockade materialized. Diesel at $170 (OilPrice headline) is the real story but that's a slow supply issue, not a shock. Risk: any actual Hormuz closure or US strike on Iran = Severity-3, but right now it's Severity-1 (elevated talk, no action).
+
+**FX Strategist:** JPY strongest (BoJ path + risk-off + intervention threat per headlines). USD supported by yields but capped by war uncertainty. GBP weakest into hot CPI. CAD holding on oil but oil is fading (-0.3 bias last time, now headlines show retreat). AUD/NZD neutral (Aussie jobs data in 34h, wage data in 10h is medium impact). CHF bid as funding currency (per TradingPedia) but less than JPY. EUR flat, waiting for Lagarde.
+
+**Gold & Oil Trader:** Gold pulled back from $4500 to ~$4430s (per headlines: yields rising, profit-taking). This is healthy consolidation after the war spike; support likely around $4400. Oil at $91 (WTI per headlines) is fading the war premium—Currie's $170 diesel is structural, not a trade signal for today. Bias oil to -0.2 (fade continues but slower). Gold to 0.0 (range-bound, yields vs safe-haven balanced).
+
+**Equity / Risk-Sentiment Desk:** US stocks opened lower (Reuters: Iran stalemate lifts oil, yields). AI correction warnings from ECB (CNBC) and rising yields are the dominant narrative. Indices grinding lower, not crashing. VIX not spiking. This is risk-off drift, not panic. Bias indices -0.4 (unchanged).
+
+**Risk Manager:** Account: $494 equity, -$5.42 today (-1.1%), INTRADAY 0-1 (loss streak 1), SHOCK 1-3 (loss streak 2). SHOCK is bleeding—remove it from allow_books today per emergency protocol (3 trades, 2 losses, net -$7.23). INTRADAY also 0-1 but only 1 trade, monitor. GBP CPI in 15h, Lagarde in 16h, Fed minutes in 27h, AUD jobs in 34h: keep news_block. No halt needed (loss < -3%), stay caution, risk_mult 0.75 (unchanged). Thin summer liquidity persists.
+
+**Market Historian:** Bond rout at 19Y high: last analogs are 2007 (pre-crisis, yields peaked then crashed within months) and 1994 (Fed tightening, yields rose for 9 months then reversed). Current move is 3 weeks old, extended but not exhausted—history says another 1-4 weeks possible before reversal unless Fed pivots or crisis hits. Oil war premium fades: 2020 Soleimani (faded in 48h), 2019 Abqaiq (2 weeks), 2022 Ukraine (didn't fade because supply really hit). Today = 9h since last headline, no supply hit, tankers cautious but moving—this rhymes with Soleimani (fade continues). JPY intervention threat: 2022/2024 BoJ interventions dropped USDJPY 3-5 figs in hours but faded over weeks. Current setup: BoJ hasn't intervened yet but headlines warn "at any time"—USDJPY likely capped near-term. Gold at $4430 after $4500 spike: normal 1-2% pullback, not a reversal; if it holds $4400 (recent support per headlines), bias back to 0.2-0.3 in 24h. Verdict: bond rout and JPY strength are the only trends with legs; oil/gold/war premium are fading as expected.
+
+**Chairman:** Evidence quality: bond yields (fresh, multi-source, measurable), JPY (BoJ path confirmed, intervention threat real), oil fade (9h no escalation, tankers moving), GBP weak into CPI (scheduled, priced). Stale: geopolitical spike (9h old). Flip risk: we've been consistent (JPY strong, oil fading, bonds dominant) for 5 hours, no flip. Confidence: 0.7 (unchanged, data-driven). Changes: SHOCK book must be removed (Risk Manager's call, non-negotiable). Oil bias to -0.2 (fade slowing per Historian). Gold to 0.0 (range, not directional). CAD to 0.3 (oil fading hurts it slightly). GBP stays -0.5 (CPI risk). All else unchanged. No new shocks (no fresh attacks). risk_mult 0.75, caution mode, news_block for all upcoming events.
+
+---
+
+## Psyche
+
+**Awareness (fired=no):** Comparing to last 6 decisions: we've held JPY +0.6, USD +0.2, GBP -0.5, indices -0.4, caution/0.75 for 5 hours with only minor tweaks (oil -0.3 to -0.2, gold 0.0 to 0.0, CAD 0.4 to 0.3). No flip-flopping. SHOCK book removal is new but justified by account state (2-loss streak, -$7.23). PRICE CONTEXT is broken (all errors) so we can't verify our calls empirically, but TRADE JOURNAL shows SHOCK 1-3 (33% win rate today) and INTRADAY 0-1—our caution was correct. Decision is consistent with evidence and memory.
+
+**Greed (fired=no):** Confidence is 0.7 (moderate), most biases are 0.0 to 0.6 (not extreme), prefer_symbols has 3 pairs (not a long list), risk_mult is 0.75 (conservative). No "easy money" language. No greed detected.
+
+**Fear (fired=yes):** Removing SHOCK book after 3 trades (1 win, 2 losses) feels reactive—SHOCK is designed for event-driven moves and we're in an event-driven environment (war, bond rout). However, Risk Manager's protocol is clear: loss streak 2 in a book + net negative = remove for the day. This is prudence, not panic. The fear is justified by the rules, not by over-reaction. Accepting the removal but noting SHOCK could be useful if a real Severity-2/3 event hits (we'd reinstate it then).
+
+**Prudence (fired=yes):** JPY bias +0.6 with conf 0.7: supported by BoJ Sept hike path (CB Watcher), intervention threat (Historian: "at any time"), risk-off (Sentiment Desk), and fresh headlines (AllianceBernstein, Bloomberg). Two+ sources, historical analog (2022/2024 interventions), passes. GBP -0.5 with conf 0.7: hot CPI in 15h (scheduled, forecast 2.9% vs 2.6%), UK jobs data showed cooling (Reuters: "labour market softening"), passes. Oil -0.2: only one concrete source (9h no attacks, tankers moving), downgraded from -0.3, passes. All strong calls justified.
+
+**Intuition (fired=yes):** Bond yields at 19Y high feel like a climax—every headline is about the rout, which often marks a near-term top. Fed minutes tonight could be the pivot (if they acknowledge financial conditions tightening, yields reverse; if not, rout continues but at a slower pace). Hunch: yields peak within 48h, then consolidate or dip, lifting gold/indices slightly. But this is just a hunch—no change to numbers without Chairman's explicit adoption.
+
+**Mental state:** focused. Council is data-driven, consistent, not chasing or panicking. SHOCK removal is procedural, not emotional.
+
+---
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.75
+regime=risk_off
+bias_USD=0.2
+bias_EUR=0.0
+bias_GBP=-0.5
+bias_JPY=0.6
+bias_AUD=0.2
+bias_NZD=0.1
+bias_CAD=0.3
+bias_CHF=0.3
+bias_XAU=0.0
+bias_XAG=-0.1
+bias_OIL=-0.2
+bias_US500=-0.4
+bias_US100=-0.4
+bias_US30=-0.4
+bias_GER40=-0.4
+conf=0.7
+allow_books=INTRADAY,SWING,POSITION,REVERT
+news_block=GBP:902:982;EUR:972:1032;USD:1622:1682;AUD:2072:2132
+block_symbols=none
+shock=none
+prefer_symbols=USDJPY,GBPUSD,USDCAD
+summary=Bond rout at 19Y high (US 30Y 5.33%) persists; geopolitical spike faded (9h no attacks, oil $91 retreating); JPY strong (BoJ Sept hike + intervention threat), GBP weak (hot CPI 15h), oil/gold range; caution mode, SHOCK book removed
+summary_ar=أزمة السندات بأعلى مستوى منذ 19 سنة (US 30Y 5.33%) مستمرة؛ قفزة جيوسياسية تلاشت (9 ساعات بدون هجمات، النفط 91$ يتراجع)؛ الين قوي (BoJ رفع أيلول + تهديد تدخل)، الجنيه ضعيف (CPI حار 15 ساعة)، النفط/الذهب نطاق؛ وضع حذر
+mind=focused
+psyche_flags=fear,prudence,intuition
+intuition=Bond yields at 19Y high feel like a climax; Fed minutes tonight may mark a near-term peak if they acknowledge tightening financial conditions, then yields consolidate and gold/indices lift slightly within 48h
