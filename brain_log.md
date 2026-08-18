@@ -1636,3 +1636,73 @@ summary_ar=تلاشى الارتفاع الجيوسياسي (ساعتان، لا
 mind=focused
 psyche_flags=prudence,intuition
 intuition=If Fed minutes tonight show complacency about yields, expect violent repricing (30Y→5.5%, USD/yields spike, equities/gold crushed) within 48h; if they show concern, 10-15bp yield snapback and relief rally
+
+
+# 2026-08-18 18:13 UTC
+## Council debate
+
+**Chief Macro Economist:** US 30Y yield at 5.33% (19-year high) is the dominant force—bond vigilantes pricing fiscal risk + inflation + war premium. This crushes risk assets and gold. Growth/inflation mix still supports USD modestly. No change to macro view from 15 min ago.
+
+**Central-Bank Watcher:** BoJ September hike expectations remain firm (AllianceBernstein call, intervention threat), supporting JPY. Fed minutes in 24h are binary: if they show yield concern, relief rally; if complacent, yields could spike to 5.5%+. BoE on hold despite hot CPI tomorrow. ECB's Lane speech (10h, 13h) unlikely to move markets—defense spending talk, not rates.
+
+**Geopolitical & Crisis Analyst:** Iran ship strike + Trump-Oman threat now 2h15min old. No new attacks. Trump says Hormuz "open and operating." Saudi resuming loadings inside strait. This is aging fast—classic spike-fade pattern. Oil not rallying despite headlines (actually falling). Downgrade from danger to caution was correct. No fresh severity-2+ events.
+
+**FX Strategist:** JPY remains strongest (BoJ + intervention threat + risk-off). GBP weakest (hot CPI tomorrow 11h45m away, BoE boxed in). USD supported by yields but not surging. AUD/NZD/CAD mixed—AUD has momentum per headlines but yields are headwind. CHF safe-haven bid modest. No change from 15 min ago justified.
+
+**Gold & Oil Trader:** Gold crushed by yields (headlines say "falters," "falls," "pressured")—at $4400s, down from $4500 barrier. Yields are kryptonite. Oil fading despite geopolitics—$91 and falling per headlines. Wells Fargo revamped target (detail unknown but mentioned). Both in fade mode. No change needed.
+
+**Equity / Risk-Sentiment Desk:** Tech selloff, indices at two-week lows per Reuters. Risk-off persists. VIX likely elevated (no data but context clear). Earnings growth mentioned (Morgan Stanley) but yields dominate. Regime stays risk-off. Bias_US500/100/30/GER40 at -0.4 still appropriate.
+
+**Risk Manager:** Account at -3.06% today, SHOCK book removed (correct—2 loss streak). INTRADAY 1 loss streak, SWING has 3 open positions (small profit). No emergency triggers yet but we're close to -3% daily threshold. Risk_mult 0.6 is appropriate. News blocks set correctly for upcoming events. Caution mode correct. No changes needed.
+
+**Market Historian:** Reading PRICE CONTEXT—all feeds failed (encoding error), so I have no recent price levels. Reading DECISION MEMORY: we've held bias_JPY=0.6, bias_USD=0.2, bias_GBP=-0.5, bias_OIL=-0.3 for the last 8 decisions (since 13:42 UTC, now 18:13 UTC = 4.5 hours). Oil fade pattern matches playbook: geopolitical spike without real supply loss fades within hours to days (2020 Soleimani, 2019 Abqaiq partial fade). Bond rout at 19Y high is rare—last comparable was 2007. Then yields peaked and reversed within weeks, but equities topped 6 months later. JPY intervention threat: 2022/2024 playbook says first intervention = huge volatility, effect fades over weeks. We haven't seen intervention yet, just threat. GBP hot CPI tomorrow: 2022/2023 UK hot CPI prints led to GBP weakness for 1-3 days as BoE couldn't hike enough. Current setup rhymes. No flip-flopping detected—our view is stable and prices are confirming (oil fading, JPY strong, GBP weak per headlines). Confidence in current biases: 0.7 is appropriate given 4.5h of consistency.
+
+**Chairman:** Excellent discipline. No new facts in the last 15 minutes—geopolitical spike continues to age (now 135 min), yields still elevated, same currency dynamics. The council is correctly holding steady. I see no reason to change any bias, risk_mult, or mode. We are not flip-flopping; we are tracking a multi-hour trend. Confidence remains 0.7. Directives unchanged except time-sensitive news_block updates.
+
+---
+
+## Psyche
+
+**Awareness (self-consciousness):** fired=no. Comparing with DECISION MEMORY: we've held the same biases for 8 consecutive decisions over 4.5 hours. Prices are confirming our view (oil fading, JPY strong, GBP weak per headlines, yields elevated). No flip-flopping. No stubbornness—our calls are playing out. Mental state is stable and evidence-based.
+
+**Greed detector:** fired=no. Confidence is 0.7 (moderate), biases are mixed (JPY +0.6, GBP -0.5, others near zero), risk_mult is 0.6 (defensive), prefer_symbols has only 2 pairs. No "easy money" language. No greed detected.
+
+**Fear detector:** fired=no. We moved from danger to caution 75 minutes ago as the geopolitical spike aged—that was evidence-based, not panic. We're not collapsing biases without cause. We're holding steady with concrete reasoning. No over-reaction detected.
+
+**Prudence:** fired=yes. Checking strong calls: bias_JPY=0.6 with conf=0.7 is supported by (1) AllianceBernstein BoJ hike call, (2) intervention threat headlines, (3) risk-off regime, (4) Market Historian analog to 2022/2024 BoJ. Two+ sources, historical analog present. Bias_GBP=-0.5 supported by (1) hot CPI tomorrow per calendar, (2) BoE on hold per Reuters poll, (3) UK labor softening, (4) Historian analog to 2022/2023 UK CPI prints. Adequate. Bias_OIL=-0.3 supported by fade pattern, Saudi resuming loadings, Trump "open" comment, Historian playbook. All strong calls pass prudence test.
+
+**Intuition:** fired=yes. Hunch: The bond market is screaming louder than any headline—if 30Y breaks 5.4% before Fed minutes, expect a coordinated CB jawbone (Fed/ECB/BoE) within 48h to calm markets, which would trigger a violent short-squeeze in bonds and a USD/JPY spike down as carry unwinds accelerate.
+
+---
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.6
+regime=risk_off
+bias_USD=0.2
+bias_EUR=0.0
+bias_GBP=-0.5
+bias_JPY=0.6
+bias_AUD=0.1
+bias_NZD=0.1
+bias_CAD=0.3
+bias_CHF=0.3
+bias_XAU=0.0
+bias_XAG=-0.1
+bias_OIL=-0.3
+bias_US500=-0.4
+bias_US100=-0.4
+bias_US30=-0.4
+bias_GER40=-0.4
+conf=0.7
+allow_books=INTRADAY,SWING,POSITION,REVERT
+news_block=AUD:418:494;GBP:688:758;EUR:758:818;USD:1408:1468;AUD:1858:1928
+block_symbols=none
+shock=none
+prefer_symbols=USDJPY,GBPUSD
+summary=Bond rout at 19Y high (US 30Y 5.33%) dominates; geopolitical spike aged (2h15m, no new attacks); JPY strong (BoJ hike path + intervention threat), GBP weak (hot CPI 11h45m), oil fading; caution mode through Fed minutes (24h)
+summary_ar=انهيار السندات عند أعلى مستوى في 19 عامًا (30 سنة أميركي 5.33%) يهيمن؛ تلاشى الارتفاع الجيوسياسي (2 ساعة 15 دقيقة، لا هجمات جديدة)؛ الين قوي (مسار رفع BoJ + تهديد تدخل)، الجنيه ضعيف (تضخم ساخن بعد 11 ساعة 45 دقيقة)، النفط يتراجع؛ وضع حذر حتى محضر الفيدرالي (24 ساعة)
+mind=focused
+psyche_flags=prudence,intuition
+intuition=The bond market is screaming louder than any headline—if 30Y breaks 5.4% before Fed minutes, expect coordinated CB jawbone within 48h to calm markets, triggering violent bond short-squeeze and USD/JPY spike down as carry unwinds accelerate
