@@ -27,13 +27,16 @@
   .kpi b{display:block;font-size:22px;margin-top:2px}
   .kpi span{color:var(--mut);font-size:12px}
   .experts{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
-  @media(max-width:1300px){.experts{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:1300px){.experts{grid-template-columns:repeat(2,1fr)!important}}
   .exp{background:#0c1224;border:1px solid var(--line);border-radius:12px;padding:12px;min-height:150px;position:relative;overflow:hidden;transition:transform .2s}
   .exp:hover{transform:translateY(-2px);border-color:var(--acc)}
   .exp .av{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;font-size:20px;background:#182350;float:left;margin-left:10px}
   .exp .nm{font-weight:700}
   .exp .rl{color:var(--mut);font-size:12px;margin-bottom:8px}
   .exp .say{font-size:13px;line-height:1.6;color:#cfd8ff;direction:ltr;text-align:left;clear:both;padding-top:8px;border-top:1px dashed var(--line);white-space:pre-wrap}
+  .exp.fired{border-color:var(--warn);box-shadow:0 0 18px rgba(241,196,15,.25)}
+  .exp.fired .nm:after{content:" ● نشط";color:var(--warn);font-size:11px}
+  .pill.calm{background:#153b2a;color:#7dffb3}.pill.focused{background:#15304a;color:#8fd0ff}.pill.greedy{background:#4a2a10;color:#ffb37a}.pill.fearful{background:#2d1747;color:#d7b3ff}.pill.scattered{background:#3d3410;color:#ffe27a}
   .exp .beam{position:absolute;inset:auto 0 0 0;height:3px;background:linear-gradient(90deg,transparent,var(--acc),transparent);animation:beam 3s linear infinite}
   @keyframes beam{0%{transform:translateX(-100%)}100%{transform:translateX(100%)}}
   .bias{display:grid;grid-template-columns:70px 1fr 50px;align-items:center;gap:8px;margin:6px 0;font-size:13px}
@@ -85,6 +88,12 @@
     <div class="experts" id="experts"></div>
   </div>
 
+  <div class="card span12">
+    <h2>الطبقة النفسية — العقل يراقب نفسه <span id="mind" class="pill normal" style="margin-right:10px">…</span></h2>
+    <div class="experts" id="psyche" style="grid-template-columns:repeat(5,1fr)"></div>
+    <div id="intuition" style="margin-top:10px;color:#cfd8ff;font-size:13px"></div>
+  </div>
+
   <div class="card span6"><h2>ميول العملات (−1 … +1)</h2><div id="bias_fx"></div></div>
   <div class="card span6"><h2>ميول الذهب / النفط / المؤشرات</h2><div id="bias_as"></div></div>
 
@@ -113,7 +122,15 @@ const EXPERTS = [
   {key:["Gold & Oil","Gold and Oil","Oil Trader","Gold/Oil"], em:"🛢️", name:"تاجر الذهب والنفط", role:"XAU/XAG/OIL، أوبك، الملاذ الآمن"},
   {key:["Equity","Risk-Sentiment","Sentiment"], em:"📈", name:"مكتب البورصة والمزاج", role:"risk-on / risk-off، المؤشرات"},
   {key:["Risk Manager"], em:"🛡️", name:"مدير المخاطر", role:"حماية رأس المال، نوافذ الأخبار، متى نوقف"},
+  {key:["Market Historian","Historian"], em:"📜", name:"مؤرّخ الأسواق", role:"ذاكرة السوق: كيف تصرّف بالأحداث المشابهة + أسعار حقيقية"},
   {key:["Chairman"], em:"⚖️", name:"رئيس المجلس", role:"يوزن الأدلة ويصدر التوجيهات النهائية"},
+];
+const PSYCHE = [
+  {key:"Awareness", flag:"awareness", em:"👁️", name:"الوعي", role:"يقارن قرار اليوم بقراراتنا السابقة وبما فعله السعر — يكشف التذبذب والعناد"},
+  {key:"Greed", flag:"greed", em:"🔥", name:"الطمع", role:"ينبّه عندما تكون الثقة عالية والكل بنفس الاتجاه — يخفّض المخاطرة"},
+  {key:"Fear", flag:"fear", em:"🧊", name:"الخوف", role:"يكشف المبالغة بالحذر بعد خبر أو خسارة — يعيد التوازن"},
+  {key:"Prudence", flag:"prudence", em:"🧭", name:"الحذر المتروّي", role:"كل توجيه قوي يحتاج دليلين مستقلين + سابقة تاريخية"},
+  {key:"Intuition", flag:"intuition", em:"✨", name:"الحدس / الإلهام", role:"يرى ما وراء الأدلة — رأي فقط، لا يغيّر الأرقام إلا بتبنّي الرئيس"},
 ];
 const CUR = ["USD","EUR","GBP","JPY","AUD","NZD","CAD","CHF"];
 const AS  = ["XAU","XAG","OIL","US500","US100","US30","GER40"];
@@ -197,6 +214,14 @@ async function load(){
     renderBias(document.getElementById("bias_as"),AS,d);
     const sec=latestSection(log);
     document.getElementById("experts").innerHTML=EXPERTS.map(e=>`<div class="exp"><div class="av">${e.em}</div><div class="nm">${e.name}</div><div class="rl">${e.role}</div><div class="say">${esc(expertSay(sec,e.key)||"(لم يتحدث في هذه الجلسة)")}</div><div class="beam"></div></div>`).join("");
+    const psec = (sec.split("## Psyche")[1]||"").split("## DIRECTIVES")[0];
+    const flags=(d.psyche_flags||"none").split(",");
+    const MIND={calm:"هادئ CALM",focused:"مركّز FOCUSED",greedy:"طمع GREEDY",fearful:"خوف FEARFUL",scattered:"مشتّت SCATTERED"};
+    const mp2=document.getElementById("mind"); mp2.className="pill "+(d.mind||"calm"); mp2.textContent=MIND[d.mind]||d.mind||"—";
+    document.getElementById("psyche").innerHTML=PSYCHE.map(p=>{
+      const say=expertSay(psec,[p.key])||"(لم يتدخّل)"; const fired=flags.includes(p.flag)||/fired\s*=\s*yes/i.test(say);
+      return `<div class="exp ${fired?'fired':''}"><div class="av">${p.em}</div><div class="nm">${p.name}</div><div class="rl">${p.role}</div><div class="say">${esc(say)}</div><div class="beam"></div></div>`;}).join("");
+    document.getElementById("intuition").innerHTML = (d.intuition&&d.intuition!=="none") ? `✨ <b>حدس المجلس:</b> <span style="direction:ltr;display:inline-block">${esc(d.intuition)}</span>` : "";
     document.getElementById("robots").innerHTML=ROBOTS.map(r=>`<div class="robot"><b>${r.n}</b><span class="st">${r.d}</span></div>`).join("");
     document.getElementById("raw").textContent=txt;
     document.getElementById("debate").textContent=sec?("# "+sec):"(لا يوجد محضر بعد)";

@@ -90,6 +90,55 @@ def get_headlines():
     }
     return {k: gnews(v) for k, v in q.items()}
 
+STOOQ = {"EURUSD":"eurusd","GBPUSD":"gbpusd","USDJPY":"usdjpy","AUDUSD":"audusd","NZDUSD":"nzdusd","USDCAD":"usdcad",
+         "USDCHF":"usdchf","XAUUSD":"xauusd","XAGUSD":"xagusd","WTI":"cl.f","BRENT":"cb.f","SPX":"^spx","NDX":"^ndx","DJI":"^dji","DAX":"^dax"}
+def get_prices():
+    """Daily closes (stooq, no key) -> compact context per asset."""
+    out = {}
+    for name, sym in STOOQ.items():
+        try:
+            raw = fetch(f"https://stooq.com/q/d/l/?s={sym}&i=d", timeout=15).decode("utf-8","ignore").strip().splitlines()
+            rows = [r.split(",") for r in raw[1:] if r.count(",") >= 4]
+            closes = [float(r[4]) for r in rows[-260:] if r[4] not in ("", "N/D")]
+            if len(closes) < 30: continue
+            c = closes[-1]; hi = max(closes); lo = min(closes)
+            def chg(n): return round((c/closes[-1-n]-1)*100, 2) if len(closes) > n else None
+            rets = [closes[i]/closes[i-1]-1 for i in range(1, len(closes))]
+            vol20 = (sum(r*r for r in rets[-20:])/20) ** 0.5 * 100 * (252 ** 0.5)
+            vol1y = (sum(r*r for r in rets)/len(rets)) ** 0.5 * 100 * (252 ** 0.5)
+            out[name] = {"last": c, "chg_1d%": chg(1), "chg_5d%": chg(5), "chg_20d%": chg(20),
+                         "pos_in_1y_range%": round((c-lo)/(hi-lo)*100, 1) if hi > lo else None,
+                         "vol20_ann%": round(vol20, 1), "vol1y_ann%": round(vol1y, 1),
+                         "note": ("near 1y HIGH" if c >= hi*0.99 else "near 1y LOW" if c <= lo*1.01 else "")}
+        except Exception as ex:
+            out[name] = {"error": str(ex)[:80]}
+    return out
+
+def read_playbook():
+    p = os.path.join(OUT_DIR, "historian.md")
+    try:
+        with open(p, encoding="utf-8") as f: return f.read()[:12000]
+    except Exception: return "(no playbook file)"
+
+def decision_memory(prices):
+    """Last few decisions (from brain_log.md) so Awareness can compare words vs what happened."""
+    p = os.path.join(OUT_DIR, "brain_log.md")
+    try:
+        log = open(p, encoding="utf-8").read()
+    except Exception:
+        return "none"
+    secs = [x for x in log.split("\n# ") if "## DIRECTIVES" in x][-8:]
+    mem = []
+    for sec in secs:
+        head = sec.strip().splitlines()[0][:20]
+        d = {}
+        for line in sec.split("## DIRECTIVES",1)[1].splitlines():
+            m = re.match(r"\s*([A-Za-z0-9_]+)\s*=\s*(.*)$", line)
+            if m: d[m.group(1)] = m.group(2).strip()
+        keep = {k: d.get(k) for k in ("risk_mode","risk_mult","conf","mind","bias_USD","bias_JPY","bias_XAU","bias_OIL","bias_US500","summary") if k in d}
+        mem.append({"at": head, **keep})
+    return json.dumps(mem, ensure_ascii=False)
+
 def read_previous():
     p = os.path.join(OUT_DIR, "brain.json")
     try:
@@ -111,7 +160,28 @@ The council (debate honestly, disagree when needed, then converge):
  5. Gold & Oil Trader - XAU/XAG/OIL flow, OPEC, safe-haven demand.
  6. Equity / Risk-Sentiment Desk - risk-on/risk-off, indices, VIX-type stress.
  7. Risk Manager - protects capital: news windows, thin liquidity, whipsaw danger, when to halt.
- 8. Chairman - listens to all, weighs evidence quality (fresh > stale, facts > opinion), issues FINAL directives.
+ 8. Market Historian - carries the memory of the markets: how FX, gold, oil and indices actually behaved in past
+    analogous episodes (wars, oil shocks, CB surprises, crises, interventions, elections, disasters). Uses the
+    HISTORICAL PLAYBOOK and the PRICE CONTEXT below (real recent prices: where each asset sits vs its 1y range,
+    recent momentum, realized volatility). Says: "the last N times this happened, X did Y for Z days", warns when
+    a move is already extended vs history, and flags when the current setup rhymes with a known pattern.
+ 9. Chairman - listens to all, weighs evidence quality (fresh > stale, facts > opinion), issues FINAL directives.
+
+THE PSYCHE (self-monitoring layer). After the 9 experts speak and BEFORE the Chairman decides, five inner voices review
+the draft decision. They are not extra analysts; they audit the council's own state of mind:
+ - Awareness (self-consciousness): compares this draft with the PREVIOUS DIRECTIVES and the DECISION MEMORY (what we said
+   over the last hours vs what prices then did). Flags flip-flopping (changing view without new facts) or stubbornness
+   (holding a view that prices already refuted). If flip-flopping: freeze changes (keep previous biases) unless new hard facts.
+ - Greed detector: fires when confidence is high, most biases point the same way, prefer_symbols is long, or "easy money"
+   language appears. When it fires the risk_mult must be REDUCED, never raised, and it says so.
+ - Fear detector: fires when the council over-reacts to a single headline or to a recent loss (danger/halt without concrete
+   ongoing threat, or all biases collapsing to 0 after being confident with no new facts). It restores balance: prefer
+   caution over halt, and explains.
+ - Prudence: every strong call (|bias| >= 0.7 or shock or block) needs at least two independent sources AND a historical
+   analog from the Market Historian; otherwise it downgrades it (0.5..0.6) and says why.
+ - Intuition: the only voice allowed to see beyond the evidence. It writes one short hunch. It can NEVER change numbers by
+   itself; the Chairman may adopt it explicitly, must say "adopting intuition because ...", and cap the change at +/-0.2 bias.
+The psyche then states the council's mental state: calm | greedy | fearful | scattered | focused, and the Chairman decides.
 
 Rules for the directives:
  - Be conservative. Uncertain => 0 bias, risk_mode=normal. Only strong, fresh, multi-source evidence => |bias| >= 0.5.
@@ -125,7 +195,8 @@ Rules for the directives:
  - IMPORTANT: a COUNCIL book opens a real trade (0.5% risk, price-confirmed) whenever conf >= 0.6 AND |bias| >= 0.7 on a symbol.
    So only give |bias| >= 0.7 with conf >= 0.6 when the council is truly convinced by fresh, concrete evidence and the move is
    likely to persist for the next 4-12 hours. Prefer fewer, stronger calls over many weak ones.
-Output format: first a section "## Council debate" (short, max ~25 lines, each expert one or two lines, then Chairman).
+Output format: first a section "## Council debate" (short, max ~28 lines, each expert one or two lines, then Chairman). Name each speaker exactly, e.g. "Market Historian:".
+Then a section "## Psyche" (5 short lines: Awareness / Greed / Fear / Prudence / Intuition, each with fired=yes|no and one sentence).
 Then a section "## DIRECTIVES" containing ONLY key=value lines, no prose, exactly these keys:
 risk_mode=<normal|caution|danger|halt>
 risk_mult=<0.25..1.25>
@@ -140,9 +211,12 @@ shock=<SYMBOL:dir(1|-1):valid_minutes:short reason> or none   (multiple separate
 prefer_symbols=<comma list of symbols where the council sees the cleanest opportunity> or none
 summary=<one line in simple English, max 200 chars>
 summary_ar=<same line in simple Lebanese Arabic, max 200 chars>
+mind=<calm|greedy|fearful|scattered|focused>
+psyche_flags=<comma list of voices that fired: awareness,greed,fear,prudence,intuition or none>
+intuition=<one short sentence hunch (English), or none>
 """
 
-def council(calendar, headlines, prev):
+def council(calendar, headlines, prev, prices=None, playbook=""):
     if not API_KEY:
         return None, "no ANTHROPIC_API_KEY - rule-based fallback"
     prev_txt = json.dumps(prev.get("directives"), ensure_ascii=False) if prev else "none"
@@ -151,8 +225,11 @@ def council(calendar, headlines, prev):
             + json.dumps(calendar, ensure_ascii=False)[:6000] + "\n\n## Fresh headlines by desk\n")
     for k, v in headlines.items():
         user += f"### {k}\n" + "\n".join(v) + "\n"
-    user += "\n## Previous directives (15 min ago)\n" + prev_txt + "\n\nConvene the council now and output the two sections."
-    body = json.dumps({"model": MODEL, "max_tokens": 2500, "temperature": 0.2,
+    user += "\n## PRICE CONTEXT for the Market Historian (real daily data)\n" + json.dumps(prices or {}, ensure_ascii=False)
+    user += "\n\n## HISTORICAL PLAYBOOK (for the Market Historian)\n" + (playbook or "")
+    user += "\n\n## DECISION MEMORY (our last decisions, oldest -> newest; compare with PRICE CONTEXT chg_1d/5d)\n" + decision_memory(prices)
+    user += "\n\n## Previous directives (15 min ago)\n" + prev_txt + "\n\nConvene the council now and output the three sections."
+    body = json.dumps({"model": MODEL, "max_tokens": 3500, "temperature": 0.2,
                        "system": SYSTEM, "messages": [{"role": "user", "content": user}]}).encode()
     req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=body, method="POST",
                                  headers={"content-type": "application/json", "x-api-key": API_KEY,
@@ -187,6 +264,10 @@ def parse_directives(text):
     for k in ("news_block","block_symbols","shock","prefer_symbols"):
         v = d.get(k,"none").strip()
         out[k] = "none" if v.lower() in ("", "none", "n/a") else (v.replace(" ", "_") if k == "shock" else v.replace(" ", ""))
+    out["mind"]       = d.get("mind","calm").lower()
+    if out["mind"] not in ("calm","greedy","fearful","scattered","focused"): out["mind"] = "calm"
+    out["psyche_flags"] = d.get("psyche_flags","none").lower().replace(" ","") or "none"
+    out["intuition"]  = d.get("intuition","none")[:200].replace("\n"," ")
     out["summary"]    = d.get("summary","")[:200].replace("\n"," ")
     out["summary_ar"] = d.get("summary_ar","")[:200].replace("\n"," ")
     return out
@@ -196,7 +277,8 @@ def rule_based(calendar):
     out = {f"bias_{c}": 0.0 for c in CURRENCIES + ASSETS}
     out.update({"risk_mode":"normal","risk_mult":1.0,"regime":"mixed","conf":0.0,"allow_books":"ALL",
                 "block_symbols":"none","shock":"none","prefer_symbols":"none",
-                "summary":"council offline - calendar-only mode","summary_ar":"المجلس غير متصل - وضع التقويم فقط"})
+                "summary":"council offline - calendar-only mode","summary_ar":"المجلس غير متصل - وضع التقويم فقط",
+                "mind":"calm","psyche_flags":"none","intuition":"none"})
     nb = []
     for e in calendar:
         if e.get("impact") == "high" and -20 <= e.get("in_min", 999) <= 90:
@@ -206,7 +288,7 @@ def rule_based(calendar):
 
 # ---------- 4. WRITE ----------
 ORDER = ["risk_mode","risk_mult","regime","conf","allow_books","news_block","block_symbols","shock","prefer_symbols"] \
-        + [f"bias_{c}" for c in CURRENCIES + ASSETS] + ["summary","summary_ar"]
+        + [f"bias_{c}" for c in CURRENCIES + ASSETS] + ["summary","summary_ar","mind","psyche_flags","intuition"]
 
 def write_outputs(directives, debate, err):
     txt = [f"ts={NOW}", f"generated={dt.datetime.utcfromtimestamp(NOW).strftime('%Y-%m-%d %H:%M UTC')}", "version=1"]
@@ -229,9 +311,11 @@ def main():
     calendar  = get_calendar()
     headlines = get_headlines()
     prev      = read_previous()
+    prices    = get_prices()
+    playbook  = read_playbook()
     debate, err = None, None
     try:
-        debate, err = council(calendar, headlines, prev)
+        debate, err = council(calendar, headlines, prev, prices, playbook)
     except Exception as ex:
         err = f"council failed: {ex}"
     directives = parse_directives(debate) if debate else rule_based(calendar)
