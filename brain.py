@@ -73,6 +73,30 @@ def gnews(query, n=8):
         out.append(f"- (feed error: {ex})")
     return out
 
+def rss(url, n=6):
+    """Generic RSS/Atom titles (official sources)."""
+    out = []
+    try:
+        root = ET.fromstring(fetch(url, timeout=15))
+        items = list(root.iter("item")) or [e for e in root.iter() if e.tag.endswith("entry")]
+        for it in items[:n]:
+            t = it.findtext("title") or next((c.text for c in it if c.tag.endswith("title")), "")
+            d = it.findtext("pubDate") or next((c.text for c in it if c.tag.endswith("updated") or c.tag.endswith("published")), "")
+            out.append(f"- {html.unescape((t or '').strip())} ({(d or '').strip()[:25]})")
+    except Exception as ex:
+        out.append(f"- (feed error: {str(ex)[:60]})")
+    return out
+
+def get_official():
+    return {
+      "FED official":  rss("https://www.federalreserve.gov/feeds/press_all.xml"),
+      "ECB official":  rss("https://www.ecb.europa.eu/rss/press.html"),
+      "BoE official":  rss("https://www.bankofengland.co.uk/rss/news"),
+      "BIS/central banks speeches": rss("https://www.bis.org/doclist/cbspeeches.rss"),
+      "OPEC":          rss("https://www.opec.org/opec_web/en/press_room/rss.xml", 4),
+      "Reuters-style wire (Google News: Reuters)": gnews('site:reuters.com markets when:6h', 8),
+    }
+
 def get_headlines():
     q = {
       "MACRO":       'forex market OR "central bank" OR inflation OR "rate decision" when:1d',
@@ -91,7 +115,8 @@ def get_headlines():
     return {k: gnews(v) for k, v in q.items()}
 
 STOOQ = {"EURUSD":"eurusd","GBPUSD":"gbpusd","USDJPY":"usdjpy","AUDUSD":"audusd","NZDUSD":"nzdusd","USDCAD":"usdcad",
-         "USDCHF":"usdchf","XAUUSD":"xauusd","XAGUSD":"xagusd","WTI":"cl.f","BRENT":"cb.f","SPX":"^spx","NDX":"^ndx","DJI":"^dji","DAX":"^dax"}
+         "USDCHF":"usdchf","XAUUSD":"xauusd","XAGUSD":"xagusd","WTI":"cl.f","BRENT":"cb.f","SPX":"^spx","NDX":"^ndx","DJI":"^dji","DAX":"^dax",
+         "VIX":"^vix","DXY":"dx.f","US10Y":"10usy.b","NIKKEI":"^nkx"}
 def get_prices():
     """Daily closes (stooq, no key) -> compact context per asset."""
     out = {}
@@ -113,6 +138,75 @@ def get_prices():
         except Exception as ex:
             out[name] = {"error": str(ex)[:80]}
     return out
+
+SNAP_FILE = "price_snapshots.json"
+def save_snapshot(prices):
+    """Keep a rolling 7-day list of {ts, last prices} so we can score past calls at 4h/12h/24h."""
+    p = os.path.join(OUT_DIR, SNAP_FILE)
+    try: hist = json.load(open(p, encoding="utf-8"))
+    except Exception: hist = []
+    hist.append({"ts": NOW, "px": {k: v.get("last") for k, v in prices.items() if isinstance(v, dict) and v.get("last")}})
+    hist = [h for h in hist if NOW - h["ts"] <= 7 * 86400]
+    json.dump(hist, open(p, "w", encoding="utf-8"))
+    return hist
+
+ASSET_PX = {"XAU":"XAUUSD","XAG":"XAGUSD","OIL":"WTI","US500":"SPX","US100":"NDX","US30":"DJI","GER40":"DAX",
+            "EUR":"EURUSD","GBP":"GBPUSD","AUD":"AUDUSD","NZD":"NZDUSD","JPY":"USDJPY","CAD":"USDCAD","CHF":"USDCHF"}
+INVERTED = {"JPY","CAD","CHF"}   # USDxxx quote: currency up = pair down
+
+def px_at(hist, ts):
+    best = None
+    for h in hist:
+        if best is None or abs(h["ts"] - ts) < abs(best["ts"] - ts): best = h
+    return best["px"] if best and abs(best["ts"] - ts) <= 3 * 3600 else None
+
+def build_scorecard(hist):
+    """Score each past directive: did the asset move in the direction of the bias after 4h/12h/24h?"""
+    p = os.path.join(OUT_DIR, "brain_log.md")
+    try: log = open(p, encoding="utf-8").read()
+    except Exception: return {}
+    decisions = []
+    for sec in log.split("\n# "):
+        if "## DIRECTIVES" not in sec: continue
+        head = sec.strip().splitlines()[0][:16]
+        try: ts = int(dt.datetime.strptime(head, "%Y-%m-%d %H:%M").replace(tzinfo=dt.timezone.utc).timestamp())
+        except Exception: continue
+        d = {}
+        for line in sec.split("## DIRECTIVES",1)[1].splitlines():
+            m = re.match(r"\s*([A-Za-z0-9_]+)\s*=\s*(.*)$", line)
+            if m: d[m.group(1)] = m.group(2).strip()
+        decisions.append((ts, d))
+    per_asset = {}; overall = {"4h":[0,0],"12h":[0,0],"24h":[0,0]}; by_mind = {}
+    for ts, d in decisions:
+        p0 = px_at(hist, ts)
+        if not p0: continue
+        for hz, secs in (("4h",4*3600),("12h",12*3600),("24h",24*3600)):
+            if NOW - ts < secs: continue
+            p1 = px_at(hist, ts + secs)
+            if not p1: continue
+            for cur, sym in ASSET_PX.items():
+                b = float(d.get("bias_"+cur, 0) or 0)
+                if abs(b) < 0.3 or sym not in p0 or sym not in p1 or not p0[sym]: continue
+                move = (p1[sym]/p0[sym]-1) * (-1 if cur in INVERTED else 1)
+                hit = 1 if (move > 0) == (b > 0) else 0
+                a = per_asset.setdefault(cur, {"4h":[0,0],"12h":[0,0],"24h":[0,0]})
+                a[hz][0] += hit; a[hz][1] += 1
+                overall[hz][0] += hit; overall[hz][1] += 1
+                mm = by_mind.setdefault(d.get("mind","?"), [0,0]); mm[0] += hit; mm[1] += 1
+    def pct(x): return round(100*x[0]/x[1]) if x[1] else None
+    return {"decisions_scored": sum(1 for _ in decisions),
+            "overall_hit_rate%": {k: pct(v) for k, v in overall.items()},
+            "per_asset_hit_rate%": {a: {k: pct(v) for k, v in hz.items()} for a, hz in per_asset.items()},
+            "by_mind_state%": {m: pct(v) for m, v in by_mind.items()},
+            "note": "hit = price moved in the direction of a bias with |bias|>=0.3 after the horizon; None = not enough data yet"}
+
+def read_account():
+    p = os.path.join(OUT_DIR, "account.json")
+    try:
+        a = json.load(open(p, encoding="utf-8"))
+        if NOW - int(a.get("ts", 0)) > 3 * 3600: a["stale"] = True
+        return a
+    except Exception: return None
 
 def read_playbook():
     p = os.path.join(OUT_DIR, "historian.md")
@@ -183,6 +277,18 @@ the draft decision. They are not extra analysts; they audit the council's own st
    itself; the Chairman may adopt it explicitly, must say "adopting intuition because ...", and cap the change at +/-0.2 bias.
 The psyche then states the council's mental state: calm | greedy | fearful | scattered | focused, and the Chairman decides.
 
+EMERGENCY PROTOCOL (fixed rules, not up for debate):
+ - Severity-3 event (major war escalation / attack on a nuclear or oil chokepoint / flash crash / exchange halt / surprise
+   CB emergency action): risk_mode=halt for at least the first 30 minutes (allow_books=SHOCK only), then the council may
+   move to danger (risk_mult<=0.5) once direction is clearer. Never go straight from halt to normal.
+ - Severity-2 event: risk_mode=danger, risk_mult<=0.6, block_symbols for the directly hit assets until price stabilizes.
+ - If the ACCOUNT STATE shows daily loss <= -3% or 3 losing trades in a row in one book: that book must be removed from
+   allow_books for the rest of the day; if daily loss <= -4%: risk_mode=halt.
+ - Stale or missing data (feeds failed): stay conservative (caution), never invent.
+
+SCORECARD USE: the Awareness voice must read the SCORECARD. Assets/voices with poor recent accuracy get lower |bias| and
+the Chairman lowers conf accordingly. Good accuracy does NOT allow exceeding the normal caps.
+
 Rules for the directives:
  - Be conservative. Uncertain => 0 bias, risk_mode=normal. Only strong, fresh, multi-source evidence => |bias| >= 0.5.
  - Scheduled high-impact events within the next 60 min for a currency => set news_block for that currency window.
@@ -216,7 +322,7 @@ psyche_flags=<comma list of voices that fired: awareness,greed,fear,prudence,int
 intuition=<one short sentence hunch (English), or none>
 """
 
-def council(calendar, headlines, prev, prices=None, playbook=""):
+def council(calendar, headlines, prev, prices=None, playbook="", official=None, scorecard=None, account=None):
     if not API_KEY:
         return None, "no ANTHROPIC_API_KEY - rule-based fallback"
     prev_txt = json.dumps(prev.get("directives"), ensure_ascii=False) if prev else "none"
@@ -225,8 +331,13 @@ def council(calendar, headlines, prev, prices=None, playbook=""):
             + json.dumps(calendar, ensure_ascii=False)[:6000] + "\n\n## Fresh headlines by desk\n")
     for k, v in headlines.items():
         user += f"### {k}\n" + "\n".join(v) + "\n"
+    user += "\n## OFFICIAL SOURCES (central banks / OPEC / wires)\n"
+    for k, v in (official or {}).items():
+        user += f"### {k}\n" + "\n".join(v) + "\n"
     user += "\n## PRICE CONTEXT for the Market Historian (real daily data)\n" + json.dumps(prices or {}, ensure_ascii=False)
     user += "\n\n## HISTORICAL PLAYBOOK (for the Market Historian)\n" + (playbook or "")
+    user += "\n\n## SCORECARD (how accurate our past calls were; use it to weight voices and calibrate confidence)\n" + json.dumps(scorecard or {}, ensure_ascii=False)[:4000]
+    user += "\n\n## ACCOUNT STATE (live report from the robots, if available)\n" + json.dumps(account or {}, ensure_ascii=False)[:3000]
     user += "\n\n## DECISION MEMORY (our last decisions, oldest -> newest; compare with PRICE CONTEXT chg_1d/5d)\n" + decision_memory(prices)
     user += "\n\n## Previous directives (15 min ago)\n" + prev_txt + "\n\nConvene the council now and output the three sections."
     body = json.dumps({"model": MODEL, "max_tokens": 3500, "temperature": 0.2,
@@ -313,9 +424,14 @@ def main():
     prev      = read_previous()
     prices    = get_prices()
     playbook  = read_playbook()
+    official  = get_official()
+    hist      = save_snapshot(prices)
+    scorecard = build_scorecard(hist)
+    json.dump(scorecard, open(os.path.join(OUT_DIR, "scorecard.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    account   = read_account()
     debate, err = None, None
     try:
-        debate, err = council(calendar, headlines, prev, prices, playbook)
+        debate, err = council(calendar, headlines, prev, prices, playbook, official, scorecard, account)
     except Exception as ex:
         err = f"council failed: {ex}"
     directives = parse_directives(debate) if debate else rule_based(calendar)

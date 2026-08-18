@@ -127,7 +127,14 @@ def main():
     age_min = int((NOW - council_ts) / 60)
     if age_min >= FULL_EVERY:
         run_full_council(f"scheduled full council (last {age_min} min ago)"); return
+    if last["directives"].get("risk_mode") in ("halt", "danger") and age_min >= 30:
+        run_full_council(f"re-assess emergency mode ({last['directives'].get('risk_mode')}, council {age_min} min ago)"); return
 
+    # price snapshot every 5 min (no LLM cost) so the scorecard can judge past calls
+    try:
+        prices = brain.get_prices(); brain.NOW = NOW; brain.save_snapshot(prices)
+    except Exception as ex:
+        print("snapshot error", ex)
     headlines = {
         "BREAKING":    brain.gnews('breaking OR "just in" OR urgent market OR "flash crash" when:1h', 8),
         "GEOPOLITICS": brain.gnews('strike OR attack OR missile OR ceasefire OR escalation OR war when:2h', 8),
@@ -151,13 +158,21 @@ def main():
     shock = kv.get("shock", "none")
     print("WATCHMAN:", alert, sev, what, shock)
     if alert and sev >= 2:
-        # write the shock immediately (so robots react within 5 min), then convene the council
-        if shock and shock != "none":
-            d = shift_windows(dict(last["directives"]), int((NOW - int(last.get("ts", NOW))) / 60))
-            d["shock"] = shock.replace(" ", "_")
-            if d.get("risk_mode") == "normal": d["risk_mode"] = "caution"
-            last["directives"] = d
-            heartbeat(last, f"ALERT sev{sev}: {what} -> shock written, council convening")
+        # EMERGENCY PROTOCOL: act first (robots read within 5 min), then convene the council
+        d = shift_windows(dict(last["directives"]), int((NOW - int(last.get("ts", NOW))) / 60))
+        if shock and shock != "none": d["shock"] = shock.replace(" ", "_")
+        if sev >= 3:
+            d["risk_mode"] = "halt"; d["allow_books"] = "SHOCK"; d["risk_mult"] = "0.5"
+            d["summary"] = f"EMERGENCY (sev3): {what} - HALT new entries 30 min, SHOCK book only"
+            d["summary_ar"] = "طوارئ: " + what + " — توقّف الدخول 30 دقيقة، كتاب الصدمة فقط"
+        else:
+            if d.get("risk_mode") in ("normal", "caution"): d["risk_mode"] = "danger"
+            try: d["risk_mult"] = str(min(float(d.get("risk_mult", 1.0)), 0.6))
+            except Exception: d["risk_mult"] = "0.6"
+            d["summary"] = f"ALERT (sev2): {what} - danger mode until the council decides"
+            d["summary_ar"] = "إنذار: " + what + " — وضع خطر حتى يقرّر المجلس"
+        last["directives"] = d
+        heartbeat(last, f"ALERT sev{sev}: {what} -> protocol applied, council convening")
         run_full_council(f"ALERT sev{sev}: {what}")
     else:
         heartbeat(last, f"quiet (sev{sev}) {what if what!='none' else ''}".strip())
