@@ -77,3 +77,5 @@
 - 2026-08-18 19:02 UTC · heartbeat · quiet (sev0)
 - 2026-08-18 19:13 UTC · FULL COUNCIL triggered: scheduled full council (last 60 min ago)
 - 2026-08-18 19:28 UTC · heartbeat · quiet (sev0)
+- 2026-08-18 19:33 UTC · heartbeat · ALERT sev2: Brent crude tops $91 after unidentified projectile hits vessel in Hormuz; new shipping incident escalates -> protocol applied, council convening
+- 2026-08-18 19:33 UTC · FULL COUNCIL triggered: ALERT sev2: Brent crude tops $91 after unidentified projectile hits vessel in Hormuz; new shipping incident escalates
