@@ -1,9 +1,8 @@
 {
- "ts": 1787059725,
- "council_ts": 1787059356,
+ "ts": 1787060537,
  "directives": {
   "risk_mode": "caution",
-  "risk_mult": 0.75,
+  "risk_mult": 0.8,
   "regime": "risk_off",
   "conf": 0.7,
   "bias_USD": 0.2,
@@ -14,24 +13,23 @@
   "bias_NZD": 0.2,
   "bias_CAD": 0.4,
   "bias_CHF": 0.3,
-  "bias_XAU": 0.2,
-  "bias_XAG": 0.1,
-  "bias_OIL": -0.1,
+  "bias_XAU": 0.1,
+  "bias_XAG": 0.0,
+  "bias_OIL": -0.2,
   "bias_US500": -0.5,
   "bias_US100": -0.5,
   "bias_US30": -0.4,
-  "bias_GER40": -0.3,
+  "bias_GER40": -0.4,
   "allow_books": "ALL",
-  "news_block": "GBP:989:1069;EUR:1059:1119;USD:1709:1769;AUD:2159:2219",
+  "news_block": "GBP:963:1043;EUR:1033:1093;USD:1683:1743;AUD:2133:2193",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDJPY,GBPUSD,USDCAD",
   "mind": "focused",
   "psyche_flags": "awareness,prudence,intuition",
-  "intuition": "Bond rout may pause into Fed minutes (28h) on profit-taking, then resume if minutes show Fed complacency; binary risk high, positioned for continued risk-off but watch for reversal if Fed acknowledges",
-  "summary": "Bond rout persists (US 30Y 5.31%, 19Y high), geopolitical spike aging (8h no new attacks, tankers cautious but stable), JPY strong (BoJ Sept hike), GBP weak into hot CPI (16h), oil/gold fade on yields",
-  "summary_ar": "استمرار انهيار السندات (US 30Y 5.31%، أعلى مستوى 19 سنة)، تلاشي الارتفاع الجيوسياسي (8 ساعات بدون هجمات، ناقلات حذرة لكن مستقرة)، JPY قوي (رفع BoJ سبتمبر)، GBP ضعيف قبل CPI ساخن (16 ساعة)، النفط/الذهب"
+  "intuition": "Bond rout may pause into Fed minutes (28h) on profit-taking, then resume if minutes show Fed complacency; binary risk high, watch for early reversal signs (yields peak, VIX fall, USD weaken)",
+  "summary": "Bond rout at 19Y high (US 30Y 5.31%) dominates; geopolitical spike aged (8h, no new attacks); JPY strong (BoJ Sept hike), GBP weak (hot CPI 16h), oil/gold fade on yields; Fed minutes (28h) binary risk",
+  "summary_ar": "ارتفاع السندات لأعلى مستوى في 19 عام (30Y أميركي 5.31%)؛ الصدمة الجيوسياسية تلاشت (8 ساعات، لا هجمات جديدة)؛ الين قوي (BoJ رفع أيلول)، الجنيه ضعيف (CPI حار 16 ساعة)، الذهب والنفط يتراجعان؛ محاضر الفيد"
  },
- "error": null,
- "watchman": "quiet (sev0)"
+ "error": null
 }
