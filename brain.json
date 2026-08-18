@@ -1,5 +1,5 @@
 {
- "ts": 1787089945,
+ "ts": 1787090133,
  "council_ts": 1787089945,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": -0.3,
   "bias_GER40": -0.3,
   "allow_books": "INTRADAY,SWING,POSITION,REVERT",
-  "news_block": "AUD:188:248;GBP:478:548;EUR:548:608;EUR:733:793;USD:1181:1271;AUD:1648:1718",
+  "news_block": "AUD:185:245;GBP:475:545;EUR:545:605;EUR:730:790;USD:1178:1268;AUD:1645:1715",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDJPY,GBPUSD",
@@ -33,6 +33,7 @@
   "summary_ar": "الجيوسياسة تراجعت (البنتاغون يشير لتقليص الخليج)؛ عوائد السندات تنخفض من أعلى مستوى بـ19 سنة؛ تحيّز الين مخفّض (الحركة ممتدة)؛ الجنيه ضعيف قبل CPI الساخن (8 ساعات)؛ وضع حذر قبل البيانات"
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,

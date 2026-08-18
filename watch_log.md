@@ -99,3 +99,4 @@
 - 2026-08-18 21:50 UTC · heartbeat · quiet (sev0)
 - 2026-08-18 21:52 UTC · heartbeat · ALERT sev2: Trump threatens to bomb Oman over Iran deal; UAE halts all trade with Iran post-missile attack; escalation signals -> protocol applied, council convening
 - 2026-08-18 21:52 UTC · FULL COUNCIL triggered: ALERT sev2: Trump threatens to bomb Oman over Iran deal; UAE halts all trade with Iran post-missile attack; escalation signals
+- 2026-08-18 21:55 UTC · heartbeat · quiet (sev0)
