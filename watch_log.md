@@ -50,3 +50,4 @@
 - 2026-08-18 15:42 UTC · heartbeat · quiet (sev0)
 - 2026-08-18 15:43 UTC · heartbeat · ALERT sev2: UAE issues missile threat alert; Iran doubles down on Strait closure threat -> protocol applied, council convening
 - 2026-08-18 15:43 UTC · FULL COUNCIL triggered: ALERT sev2: UAE issues missile threat alert; Iran doubles down on Strait closure threat
+- 2026-08-18 15:57 UTC · heartbeat · quiet (sev0)

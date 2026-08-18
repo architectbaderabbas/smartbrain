@@ -1,5 +1,6 @@
 {
- "ts": 1787067842,
+ "ts": 1787068628,
+ "council_ts": 1787067842,
  "directives": {
   "risk_mode": "danger",
   "risk_mult": 0.6,
@@ -21,7 +22,7 @@
   "bias_US30": -0.4,
   "bias_GER40": -0.4,
   "allow_books": "INTRADAY,SWING,POSITION,REVERT",
-  "news_block": "GBP:855:935;EUR:925:985;USD:1575:1635;AUD:585:645;AUD:2025:2085",
+  "news_block": "GBP:842:922;EUR:912:972;USD:1562:1622;AUD:572:632;AUD:2012:2072",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDJPY,GBPUSD",
@@ -31,5 +32,7 @@
   "summary": "Iran ship strike + Trump-Oman threat (< 2h) keep danger mode; bond rout at 19Y high dominates; JPY strong (BoJ hike + intervention threat), GBP weak (hot CPI 14h), oil fading despite headlines; Fed mi",
   "summary_ar": "ضربة إيران للسفينة + تهديد ترامب لعُمان (< ساعتين) يُبقي وضع الخطر؛ انهيار السندات بأعلى مستوى منذ 19 سنة؛ الين قوي، الجنيه ضعيف، النفط يتراجع رغم العناوين؛ محضر الفيدرالي (26 ساعة) حاسم"
  },
- "error": null
+ "error": null,
+ "watchman": "quiet (sev0)",
+ "alerts": []
 }
