@@ -428,3 +428,73 @@ summary_ar=التوترات الإيرانية في هرمز مستمرة (هج�
 mind=focused
 psyche_flags=prudence
 intuition=none
+
+
+# 2026-08-18 07:00 UTC
+## Council debate
+
+**Chief Macro Economist:** US 30Y yield at 5.31% (19-year high) signals bond vigilantes pushing back on fiscal concerns and sticky inflation expectations. Rising yields globally (Japan 10Y at 30-year peak) tightening financial conditions. Growth still resilient but cost of capital rising fast. This supports USD modestly but weighs on risk assets.
+
+**Central-Bank Watcher:** BoJ clearly signaling September hike per AllianceBernstein/CNBC (2h old); Japan 10Y at 3-decade high confirms market pricing it in. Intervention threat remains live per former diplomat warning. Fed FOMC minutes tonight (21h away) unlikely to shift dovish trajectory but could clarify pace. RBA holding but not dovish (consumer confidence improved). ECB's Lagarde speaks in 24h. No immediate surprises but BoJ is the active story.
+
+**Geopolitical & Crisis Analyst:** Hormuz ship attack now 3 hours old (04:01 UTC headline). Iran ceasefire expired 6+ hours ago. Trump threatening bombing per Axios (3h old), Iran planning escalation per WSJ (11h old). This is Severity-2 territory: active but not yet Severity-3. Oil spiked to $91 yesterday, now holding $88-91 range per headlines. The initial shock is 6-12 hours aged; we're in the "wait for next move" phase. Risk of further attacks high but immediate panic fading.
+
+**FX Strategist:** JPY strength justified by BoJ hawkishness + safe-haven + intervention threat, but USDJPY spike down may be partially done (need to see current levels, data missing). USD mixed: yields support it but risk-off and Fed dovishness cap it. AUD holding well on RBA/commodities but vulnerable if equities crack. CAD supported by oil at $88-91. EUR/GBP range-bound, no strong catalyst. CHF underperforming as a safe-haven (headlines show weakness vs EUR). Prefer JPY > AUD > CAD > USD > others.
+
+**Gold & Oil Trader:** Oil at $88-91, up from mid-$80s last week; war premium is real but 12+ hours into the story. Historical playbook: oil spikes on Mideast escalation fade 30-50% within a week unless supply truly disrupted. Hormuz attack is significant (chokepoint risk) but one ship ≠ closure. Bias still long but reduce from 0.7 to 0.5; the easy money was 0-6 hours post-deadline. Gold holding gains, Treasury yields rising should cap it but safe-haven demand persists. Gold at highs can trend but needs USD weakness; with yields up, capping at 0.5 is right.
+
+**Equity / Risk-Sentiment Desk:** US indices slipped yesterday (Reuters: "edge further from record"), futures down overnight per Yahoo. Oil >$90 is a tax on growth, yields at 5.3% tighten conditions, Iran risk is live. VIX likely elevated (data missing). This is risk-off but not panic. Bias -0.4 on indices is appropriate; no reason to deepen unless we see -2% moves.
+
+**Risk Manager:** Account at $500, down -5.74 today (-1.15%), SHOCK book on 2-loss streak (3 trades, 1 win). EMERGENCY PROTOCOL: not triggered yet (daily loss -1.15% < -3% threshold) but we're cautious. GBP jobs data released 1h ago (actual missing), no shock evident. Next risk: GBP CPI in 23h, AUD wages in 18.5h, FOMC minutes in 21h. News_block is correctly set. Hormuz attack is 3h old, not fresh enough for a new shock directive (validity would be near zero). Maintain caution mode, risk_mult 0.8. Do NOT raise biases without new information.
+
+**Market Historian:** Hormuz ship attack: analogous to 2019 Tanker attacks (May-June) and 1988 Praying Mantis. Pattern: oil spikes 5-10% on first attack, holds elevated for days if attacks continue, fades if isolated. Current: oil +$5-6 from last week, holding 12h+ after deadline expiry and 3h after ship attack. This resembles 2019: initial spike done, now we wait for escalation or fade. Typical fade starts day 2-3 if no follow-up. Gold: safe-haven spikes (+2-3% in hours) retrace half within 24h unless USD weakens; USD is NOT weakening (yields up), so gold's 0.5 bias is max. JPY: intervention threats in 2022/2024 caused 3-5 big figure drops in hours; if BoJ intervenes (not yet), USDJPY could fall fast, but without intervention the BoJ hike story is a slow grind. Current setup: spikes are aging (6-12h old), no fresh catalyst in last 3h. Prudence says hold biases, don't chase.
+
+**Chairman:** The council is converging well. Key facts: (1) Hormuz attack 3h old, Iran tensions live but no new escalation in last 3h. (2) Oil holding $88-91, gold holding gains, both spikes aging per Historian. (3) BoJ September hike signaled, JPY supported. (4) US 30Y yield 5.31%, tightening conditions. (5) No fresh catalyst since last directive 78 min ago. (6) Account down -1.15% today, SHOCK book struggling. Decision: HOLD current biases unchanged (no new facts justify changes), maintain caution/0.8 risk_mult, keep news_blocks. Remove shock directive (Hormuz attack now 3h old, too stale). Prefer_symbols: keep USDJPY, XAUUSD, AUDUSD; replace USOIL with USDCAD (oil play via CAD, less whipsaw). Confidence 0.7 (unchanged).
+
+---
+
+## Psyche
+
+**Awareness (fired=yes):** Comparing to last directive 78 min ago: all biases unchanged, risk_mode/risk_mult unchanged, summary nearly identical. This is CORRECT because no new facts emerged in last 78 min (Hormuz attack was already 1h old then, now 3h old). We are NOT flip-flopping, we are appropriately stable. DECISION MEMORY shows we've held caution/0.8/JPY 0.6/oil 0.6-0.7/gold 0.5 for 5+ hours as the Iran story unfolded; prices likely moved in our favor (oil up, JPY up, gold up per headlines) so holding is validated. No correction needed.
+
+**Greed (fired=no):** Confidence 0.7 is moderate, biases are 0.3-0.6 (none extreme), risk_mult 0.8 (cautious), prefer_symbols has 3-4 items (not overloaded). Language is sober ("spikes aging", "hold biases"). No greed detected.
+
+**Fear (fired=no):** We are in caution mode for 6+ hours due to a real ongoing geopolitical event (Iran-Hormuz), not a phantom. Risk_mult 0.8 is prudent, not panicked. No biases collapsed to zero. We are not over-reacting; the Historian confirmed the threat is real and ongoing. No fear detected.
+
+**Prudence (fired=yes):** All biases >=0.5 (JPY 0.6, XAU 0.5, OIL 0.6) have multiple sources: BoJ hike (CNBC, Japan 10Y data, AllianceBernstein), Hormuz attack (CNBC, Axios, WSJ, Reuters), oil at $88-91 (Reuters, NBC, oilprice.com). Historian provided analogs (2019 tanker attacks, 1988 Praying Mantis). Prudence is SATISFIED. However, Prudence notes: oil bias 0.6 with spike 12h old is at the edge; Historian said "fade starts day 2-3". Recommend capping oil at 0.5 (done by Oil Trader already). Approved.
+
+**Intuition (fired=yes):** Hunch: BoJ intervention could come within 24-48h if USDJPY spikes above 152-153 (former diplomat said "at any time"). If it happens, USDJPY will drop 300-500 pips in minutes. The council should be ready to issue a shock directive on USDJPY (direction -1) the moment credible intervention headlines appear. This is not actionable now (no intervention yet), but stay alert.
+
+---
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.8
+regime=risk_off
+bias_USD=0.3
+bias_EUR=0.2
+bias_GBP=0.0
+bias_JPY=0.6
+bias_AUD=0.4
+bias_NZD=0.2
+bias_CAD=0.3
+bias_CHF=0.1
+bias_XAU=0.5
+bias_XAG=0.4
+bias_OIL=0.5
+bias_US500=-0.4
+bias_US100=-0.4
+bias_US30=-0.4
+bias_GER40=-0.3
+conf=0.7
+allow_books=ALL
+news_block=GBP:1376:1436;AUD:1106:1166;EUR:1446:1506;USD:2096:2156;AUD:2546:2606
+block_symbols=none
+shock=none
+prefer_symbols=USDJPY,XAUUSD,AUDUSD,USDCAD
+summary=Iran-Hormuz tensions ongoing (ship attack 3h ago), oil stable $88-91, BoJ signals Sept hike (JPY supported), US 30Y yield 5.31% (19Y high); caution mode holds, favor JPY/gold/AUD/CAD
+summary_ar=التوترات الإيرانية في هرمز مستمرة (هجوم قبل ٣ ساعات)، النفط مستقر ٨٨-٩١$، بنك اليابان يشير لرفع سبتمبر (الين مدعوم)، عائد السندات ٣٠ سنة ٥.٣١٪ (أعلى منذ ١٩ سنة)؛ وضع الحذر مستمر
+mind=focused
+psyche_flags=awareness,prudence,intuition
+intuition=BoJ intervention could strike within 24-48h if USDJPY spikes above 152-153; be ready for sudden 300-500 pip drop and shock directive
