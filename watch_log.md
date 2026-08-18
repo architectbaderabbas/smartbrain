@@ -81,3 +81,4 @@
 - 2026-08-18 19:33 UTC · FULL COUNCIL triggered: ALERT sev2: Brent crude tops $91 after unidentified projectile hits vessel in Hormuz; new shipping incident escalates
 - 2026-08-18 19:44 UTC · heartbeat · quiet (sev0)
 - 2026-08-18 19:51 UTC · heartbeat · quiet (sev0)
+- 2026-08-18 19:59 UTC · heartbeat · quiet (sev0)
