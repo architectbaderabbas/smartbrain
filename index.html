@@ -198,7 +198,7 @@ async function load(){
     const mp=document.getElementById("mode"); mp.className="pill "+mode;
     mp.innerHTML=`<span class="dot"></span>${{normal:"عادي NORMAL",caution:"حذر CAUTION",danger:"خطر DANGER",halt:"توقّف HALT"}[mode]||mode}`;
     document.getElementById("sum_ar").textContent=d.summary_ar||"—";
-    document.getElementById("sum_en").textContent=d.summary||"";
+    document.getElementById("sum_en").textContent=(d.summary||"") + (d.watchman ? "  ·  🛡️ الحارس (كل 5 د): " + d.watchman : "");
     document.getElementById("k_mode").textContent=mode.toUpperCase();
     document.getElementById("k_mult").textContent="× "+(d.risk_mult||"1.0");
     document.getElementById("k_regime").textContent=({risk_on:"Risk-ON 🟢",risk_off:"Risk-OFF 🔴",mixed:"مختلط 🟡"})[d.regime]||d.regime||"—";
