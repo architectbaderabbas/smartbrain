@@ -1,24 +1,24 @@
 {
   "account": 10225,
-  "balance": 505.83,
+  "balance": 499.03,
   "books": [
     {
-      "loss_streak": 0,
+      "loss_streak": 1,
       "name": "SHOCK",
-      "net": 0.31,
-      "trades": 1,
+      "net": -6.49,
+      "trades": 2,
       "wins": 1
     }
   ],
   "brain_mode": "CAUTION",
-  "day_pl": -4.13,
-  "equity": 502,
+  "day_pl": -6,
+  "equity": 500.13,
   "positions": [
     {
       "book": "SWING",
       "lots": 0.01,
       "opened": 1787040000,
-      "pl": 0.36,
+      "pl": 0.74,
       "symbol": "EURNZD",
       "type": "BUY"
     },
@@ -26,19 +26,11 @@
       "book": "SWING",
       "lots": 0.01,
       "opened": 1787040000,
-      "pl": 0.26,
+      "pl": 0.36,
       "symbol": "NZDUSD",
-      "type": "SELL"
-    },
-    {
-      "book": "SHOCK",
-      "lots": 0.01,
-      "opened": 1787041860,
-      "pl": -4.45,
-      "symbol": "XAGUSD",
       "type": "SELL"
     }
   ],
-  "ts": 1787031571,
-  "week_pl": -4.13
+  "ts": 1787032471,
+  "week_pl": -6
 }
