@@ -1,6 +1,6 @@
 {
- "ts": 1787097026,
- "council_ts": 1787093616,
+ "ts": 1787097414,
+ "council_ts": 1787097414,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.6,
@@ -9,11 +9,11 @@
   "bias_USD": 0.2,
   "bias_EUR": 0.0,
   "bias_GBP": -0.5,
-  "bias_JPY": 0.4,
+  "bias_JPY": 0.3,
   "bias_AUD": 0.2,
   "bias_NZD": 0.2,
   "bias_CAD": 0.3,
-  "bias_CHF": 0.3,
+  "bias_CHF": 0.4,
   "bias_XAU": 0.0,
   "bias_XAG": -0.1,
   "bias_OIL": -0.3,
@@ -22,18 +22,17 @@
   "bias_US30": -0.3,
   "bias_GER40": -0.3,
   "allow_books": "INTRADAY,SWING,POSITION,REVERT,SHOCK",
-  "news_block": "AUD:72:142;GBP:362:432;EUR:432:492;EUR:617:677;USD:1065:1155;AUD:1532:1602",
+  "news_block": "AUD:57:127;GBP:347:417;EUR:417:477;EUR:602:662;USD:1047:1137;AUD:1517:1587",
   "block_symbols": "none",
   "shock": "none",
-  "prefer_symbols": "GBPUSD,USDJPY",
+  "prefer_symbols": "GBPUSD,USDCHF",
   "mind": "focused",
-  "psyche_flags": "awareness,fear,prudence",
-  "intuition": "none",
-  "summary": "Geopolitics fading (Pentagon signals Gulf drawdown); bond yields easing from 19Y peak; JPY bias trimmed (extended move, no fresh catalyst); GBP weak into CPI (7h); caution mode into data cluster",
-  "summary_ar": "الجيوسياسة تتلاشى (البنتاغون يشير لتقليص الخليج)؛ عوائد السندات تنخفض من ذروة 19 سنة؛ تحيّز الين مخفّض (حركة ممتدة، لا محفز جديد)؛ الجنيه ضعيف قبل CPI (7 ساعات)؛ وضع حذر قبل البيانات"
+  "psyche_flags": "awareness,prudence,intuition",
+  "intuition": "CHF is the quiet mover tonight as funding currency shift from JPY accelerates; if risk-off persists and JPY intervention fears rise, CHF could outperform both USD and JPY in crosses over next 12 hours",
+  "summary": "Bond yields easing from 19Y peak; geopolitics fading (Pentagon signals drawdown); JPY trimmed (extended 4h move, intervention risk); GBP weak into CPI (6h); CHF rising as new funding currency; caution",
+  "summary_ar": "عوائد السندات تنخفض من ذروة 19 سنة؛ الجيوسياسة تتلاشى (البنتاغون يشير للانسحاب)؛ الين مخفّض (حركة 4 ساعات ممتدة، خطر تدخل)؛ الجنيه ضعيف قبل CPI (6 ساعات)؛ الفرنك يرتفع كعملة تمويل جديدة؛ وضع حذر قبل ا"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,
