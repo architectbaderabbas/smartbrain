@@ -2051,3 +2051,68 @@ summary_ar=الجيوسياسة تراجعت (البنتاغون يشير لتق
 mind=focused
 psyche_flags=awareness,fear,prudence,intuition
 intuition=If UK CPI hits 3.0%+ expect initial GBP dump then paradoxical recovery as rate-cut bets collapse
+
+
+# 2026-08-18 22:53 UTC
+## Council debate
+
+Chief Macro Economist: Bond rout easing (yields ticked lower per Reuters wire), but 19Y highs still crushing growth-sensitive assets. UK CPI tomorrow (forecast 2.9% vs 2.6%) is the only tier-1 data before FOMC minutes. Growth cycle: US resilient, Europe weak (drought headlines), China stable per forex authority. No new inflation shocks tonight.
+
+Central-Bank Watcher: BoE poll says hold for rest of year despite inflation risks – hot CPI tomorrow won't change that immediately, so GBP weakness may be overdone. Fed minutes (19h) are stale (meeting was weeks ago), unlikely to move markets unless they reveal hidden hawkishness. BoJ hike path priced, JPY move extended. No CB speeches in next 12h.
+
+Geopolitical & Crisis Analyst: Iran war headlines show NO new attacks in 5+ hours. Pentagon weighing SMALLER Gulf presence (WashPost 33min old) = de-escalation signal. Trump/Vance contradicting advisers = noise, not actionable. Sanctions on ICC (90min old) irrelevant to markets. Severity-1 at most now, fading to background. Oil should continue fade.
+
+FX Strategist: USD holding modest bid (DXY stable per context), but bond yield relief removes the crush. JPY extended (we've been long 0.5-0.6 for hours, move likely done for now). GBP oversold into CPI – if it prints 2.9% as forecast, relief rally likely; if 3.0%+ the intuition from last directive (dump then recovery) applies. AUD/NZD/CAD benefiting from risk-off easing. CHF funding-currency theme (VT Markets 2h old) is structural, not a 4-12h trade.
+
+Gold & Oil Trader: Gold fell to ~$4432 per headlines (yields rising, geopolitics fading), now stable. Wells Fargo revised target (9h old) = stale. Oil fading as expected (Saudi resumed Hormuz loadings per Reuters 6h old, Pentagon drawdown signal). No new OPEC news. Bias remains negative oil, neutral gold (yields vs safe-haven balanced).
+
+Equity / Risk-Sentiment Desk: Tech selloff (Reuters 1h old: "bonds slam stocks"), Nasdaq down on chip names. But futures little changed per CNBC 51min old = stabilizing. Risk-off easing but not reversing. VIX likely elevated but no crash. Indices bias stays slightly negative, not worth strong conviction.
+
+Risk Manager: Account shows 1 losing streak in SWING (short AUDUSD +0.84 unrealized, so actually winning now). Daily PL +0.17%, no danger. Data cluster ahead (UK CPI 7h, FOMC minutes 19h, AUD jobs 26h) argues for keeping caution mode. No thin liquidity (NY session active). Current setup is safe to trade, but don't raise risk_mult before UK CPI clears.
+
+Market Historian: PRICE CONTEXT is broken (all errors), so I cannot compare current levels to 1Y range or recent momentum. Relying on headlines only: bond yield spikes to multi-decade highs historically precede either recession (USD/JPY/CHF up, risk down for months) or Fed capitulation (risk rally, USD down). We're 19h from Fed minutes – too early to know which. Geopolitical fades: the Pentagon drawdown headline is analogous to 2020 post-Soleimani (oil spiked, faded in 48h, we're now 5h in, fade continuing as expected). GBP into hot CPI: 2022 UK CPI surprises caused 1% GBP moves in 15min, then often reversed by end of day (buy rumor/sell fact). Our GBP bias -0.5 is reasonable if we expect inline or modest beat; a big beat (3.0%+) would dump GBP initially but BoE hold expectations (per Reuters poll) would cap downside. JPY: we've been bullish 0.5-0.6 for multiple decisions; USDJPY moves on BoJ intervention are 3-5 figures in hours then fade over weeks. If we have no fresh BoJ news and JPY already moved, holding 0.5 risks chasing. I recommend trimming to 0.3-0.4.
+
+Chairman: Geopolitics clearly fading (Pentagon drawdown is the headline, no attacks for 5h). Bond yields easing from peak removes the immediate crush, but caution warranted into UK CPI (7h) and Fed minutes (19h). JPY bias has been 0.5-0.6 for 7 consecutive decisions with no fresh catalyst – Historian is right, trim to 0.4 to avoid chasing. GBP -0.5 is appropriate into CPI (inline print = relief, beat = volatility). Oil fade continues, gold neutral. Risk-off easing but not over (indices -0.3 reasonable). Confidence 0.6 (data ahead, no strong fresh catalyst). Risk_mult stays 0.6, caution mode continues. No shocks, no blocks beyond scheduled news windows. Prefer GBPUSD (clear catalyst), USDJPY (but bias reduced). Allow all books except COUNCIL (no |bias| >= 0.7 with conf >= 0.6).
+
+## Psyche
+
+Awareness (fired=yes): We've held JPY 0.5-0.6 for 7 decisions (since 16:58 UTC) with no new BoJ news; USDJPY likely already moved; this is stubbornness. Trimming to 0.4 per Historian's advice. GBP, oil, indices biases unchanged for 2h+ but data ahead justifies holding them. No flip-flopping detected.
+
+Greed (fired=no): Confidence 0.6, biases moderate (max |0.5|), prefer_symbols short list, no "easy money" language. Council is appropriately cautious into data. No action needed.
+
+Fear (fired=yes): Previous decision reduced JPY to 0.5 and indices to -0.3 citing "move extended" without concrete new threat, and psyche flagged fear. Now we're trimming JPY further to 0.4 – this is prudent given lack of catalyst, not over-reaction. Fear detector confirms: we are balancing, not panicking.
+
+Prudence (fired=yes): No bias >= 0.7, no shocks proposed. GBP -0.5 has two sources (BoE poll + CPI forecast) and historical analog (2022 CPI volatility). JPY 0.4 has BoJ hike path (stale) and intervention threat (no new signal), so trimming is prudent. All calls pass the two-source + analog test.
+
+Intuition (fired=no): No strong hunch beyond what the council already discussed. The UK CPI intuition from last directive (dump then recovery on 3.0%+ print) remains valid; no new intuition to add.
+
+## DIRECTIVES
+risk_mode=caution
+risk_mult=0.6
+regime=risk_off
+bias_USD=0.2
+bias_EUR=0.0
+bias_GBP=-0.5
+bias_JPY=0.4
+bias_AUD=0.2
+bias_NZD=0.2
+bias_CAD=0.3
+bias_CHF=0.3
+bias_XAU=0.0
+bias_XAG=-0.1
+bias_OIL=-0.3
+bias_US500=-0.3
+bias_US100=-0.3
+bias_US30=-0.3
+bias_GER40=-0.3
+conf=0.6
+allow_books=INTRADAY,SWING,POSITION,REVERT,SHOCK
+news_block=AUD:126:196;GBP:416:486;EUR:486:546;EUR:671:731;USD:1119:1209;AUD:1586:1656
+block_symbols=none
+shock=none
+prefer_symbols=GBPUSD,USDJPY
+summary=Geopolitics fading (Pentagon signals Gulf drawdown); bond yields easing from 19Y peak; JPY bias trimmed (extended move, no fresh catalyst); GBP weak into CPI (7h); caution mode into data cluster
+summary_ar=الجيوسياسة تتلاشى (البنتاغون يشير لتقليص الخليج)؛ عوائد السندات تنخفض من ذروة 19 سنة؛ تحيّز الين مخفّض (حركة ممتدة، لا محفز جديد)؛ الجنيه ضعيف قبل CPI (7 ساعات)؛ وضع حذر قبل البيانات
+mind=focused
+psyche_flags=awareness,fear,prudence
+intuition=none
