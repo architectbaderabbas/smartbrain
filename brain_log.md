@@ -50,3 +50,53 @@ shock=none
 prefer_symbols=USDJPY,XAUUSD,USOIL,UKOIL,EURJPY,GBPJPY
 summary=Iran ceasefire deadline expiring, oil spiking to $91, US 30Y yields at 19-year high; caution mode, favor safe-havens JPY/gold, watch for escalation
 summary_ar=مهلة وقف إطلاق النار مع إيران تنتهي، النفط يقفز لـ٩١$، عوائد السندات الأميركية بأعلى مستوى منذ ١٩ سنة؛ حذر، نفضّل الملاذات الآمنة ين/ذهب
+
+
+# 2026-08-18 01:59 UTC
+## Council debate
+
+**Chief Macro Economist**: US 30Y yields hitting 5.31% (highest since 2007) signals bond market stress and inflation fears persisting. This is a major macro shift—higher long-term rates will pressure equities and support USD. UK CPI tomorrow forecast 2.9% vs 2.6% suggests BoE may hold rates longer. AUD wage data and employment Thursday could be pivotal but forecasts are neutral. Overall: stagflation vibes building.
+
+**Central-Bank Watcher**: Fed minutes Wednesday (1780 min out) will be critical—markets pricing in potential hikes given sticky inflation and rising yields. ECB's Lagarde speaks tomorrow (1750 min)—EUR has rallied 4 weeks on narrowing US-Germany yield gap, but this could reverse if Fed turns more hawkish. BoJ intervention headlines from 23 hours ago are stale; Japan 10Y at 3-decade high supports JPY structurally but no fresh action. RBA paused, Aussie consumer confidence improved overnight—mildly AUD-positive but not strong.
+
+**Geopolitical & Crisis Analyst**: Iran ceasefire 60-day deadline expiring NOW (multiple headlines <2 hours old). Iran threatens new offensive, Trump casts doubt on deal extension, Dems pushing war powers resolution. This is NOT resolved—it's escalating. Oil spiked to $91 Brent, $88+ WTI on Hormuz constraints. If talks collapse in next 12-24 hours, we see oil to $95+ and safe-haven surge (JPY/CHF/gold). Ukraine "weaponizing winter" is secondary. This is the dominant risk.
+
+**FX Strategist**: USD: supported by soaring yields but geopolitical risk caps it at +0.3. EUR: technical rally but vulnerable to Fed hawkishness, hold +0.2. GBP: big data 240 min out (jobs) and 1680 min (CPI)—neutral until then, 0.0. JPY: intervention talk stale but yields and risk-off support it, +0.5 holds. AUD: consumer confidence bump minor, +0.1. NZD: BofA sees gains but no fresh catalyst, +0.1. CAD: hot CPI yesterday supports it vs USD but oil correlation weakening per headlines, +0.2. CHF: safe-haven but weakening vs EUR per 12-hour-old headline, +0.2 (less than JPY).
+
+**Gold & Oil Trader**: Gold at $4,385, options market betting on continuation per <1-hour CNBC headline. Iran risk premium building—if ceasefire collapses, gold to $4,500+. Bias +0.5 (up from +0.4). Silver follows, +0.4. Oil: Brent $90+, WTI $88+, Hormuz constrained, China stockpiling again. Iran escalation = $95+ Brent. Bias +0.7 (up from +0.6). This is a STRONG directional call for next 12-24 hours.
+
+**Equity / Risk-Sentiment Desk**: US indices slipped Monday on rising yields and Iran pessimism. VIX rising. ECB warns of AI stock correction risk. 30Y yields at 19-year high are poison for equities. Risk-off intensifying. Bias US500/US100/US30 at -0.4 (down from -0.3). GER40 -0.3. If Iran blows up, indices drop 2-3% quickly.
+
+**Risk Manager**: Iran deadline is THE risk. We're 2 hours into Tuesday UTC; talks could collapse any moment in next 24 hours. Oil and gold are moving on this. I want caution mode to continue, risk_mult 0.8 (tighter than 0.85). GBP news block at 240 min (jobs) and 1680 min (CPI) stands. USD FOMC minutes at 2400 min—add block 2370:2430. No shock directive yet—we need confirmation of actual collapse or military action, not just threats. If we see "Iran launches strikes" or "US bombs Iran" in next cycle, THEN shock on oil/gold. For now, prefer_symbols: USOIL, XAUUSD, USDJPY, CHFJPY (add CHF crosses for safe-haven). allow_books: ALL but watch COUNCIL book—only trigger if we get hard escalation news.
+
+**Chairman**: Consensus is clear. The Iran ceasefire deadline expiring is NOT a stale story—it's live and escalating per <2-hour headlines. Oil and gold are reacting in real-time. US bond yields at generational highs add macro stress. We stay in **caution** mode, tighten risk_mult to 0.8. Biases: USD +0.3 (yields), EUR +0.2 (technical but vulnerable), GBP 0.0 (data pending), JPY +0.5 (safe-haven + yields), AUD/NZD +0.1 (minor positives), CAD +0.2 (hot CPI), CHF +0.2 (safe-haven but less than JPY). Gold +0.5, silver +0.4, oil +0.7 (this is our highest-conviction call—fresh, multi-source, directional). Equities -0.4 (US), -0.3 (EU). Confidence 0.75—we have strong evidence on oil/gold/risk-off, less on FX nuances. News blocks: GBP 240 min and 1680 min, USD 2370 min. No shock yet—waiting for actual military action, not threats. Prefer oil, gold, JPY crosses. COUNCIL book: do NOT trigger on oil/gold yet (conf 0.75 < 0.6 threshold is wrong—conf IS 0.75 but bias oil 0.7 is borderline; let's wait one more cycle for |bias| >= 0.75 on a clear breakout). Summary: Iran deadline expiring, oil $91+, yields at 19Y high, risk-off intensifying—favor oil longs, gold, JPY; caution mode.
+
+---
+
+## DIRECTIVES
+risk_mode=caution
+risk_mult=0.8
+regime=risk_off
+bias_USD=0.3
+bias_EUR=0.2
+bias_GBP=0.0
+bias_JPY=0.5
+bias_AUD=0.1
+bias_NZD=0.1
+bias_CAD=0.2
+bias_CHF=0.2
+bias_XAU=0.5
+bias_XAG=0.4
+bias_OIL=0.7
+bias_US500=-0.4
+bias_US100=-0.4
+bias_US30=-0.4
+bias_GER40=-0.3
+conf=0.75
+allow_books=ALL
+news_block=GBP:238:290;GBP:1678:1738;USD:2368:2428
+block_symbols=none
+shock=none
+prefer_symbols=USOIL,UKOIL,XAUUSD,USDJPY,CHFJPY,EURJPY
+summary=Iran ceasefire deadline expiring now, oil surges to $91 on escalation risk, US 30Y yields hit 19-year high; caution mode, favor oil longs/gold/JPY safe-havens
+summary_ar=مهلة وقف النار مع إيران تنتهي الآن، النفط يقفز لـ٩١$ بسبب خطر التصعيد، عوائد السندات الأميركية بأعلى مستوى منذ ١٩ سنة؛ وضع حذر، نفضّل شراء النفط/الذهب/الين كملاذات آمنة
