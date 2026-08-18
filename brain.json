@@ -1,5 +1,5 @@
 {
- "ts": 1787018390,
+ "ts": 1787019245,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.8,
@@ -9,10 +9,10 @@
   "bias_EUR": 0.2,
   "bias_GBP": 0.0,
   "bias_JPY": 0.5,
-  "bias_AUD": 0.1,
+  "bias_AUD": 0.3,
   "bias_NZD": 0.1,
-  "bias_CAD": 0.2,
-  "bias_CHF": 0.2,
+  "bias_CAD": 0.3,
+  "bias_CHF": 0.1,
   "bias_XAU": 0.5,
   "bias_XAG": 0.4,
   "bias_OIL": 0.7,
@@ -21,12 +21,12 @@
   "bias_US30": -0.4,
   "bias_GER40": -0.3,
   "allow_books": "ALL",
-  "news_block": "GBP:238:290;GBP:1678:1738;USD:2368:2428",
+  "news_block": "GBP:210:265;GBP:1663:1723;USD:2353:2413;AUD:1380:1440;AUD:2820:2880",
   "block_symbols": "none",
   "shock": "none",
-  "prefer_symbols": "USOIL,UKOIL,XAUUSD,USDJPY,CHFJPY,EURJPY",
-  "summary": "Iran ceasefire deadline expiring now, oil surges to $91 on escalation risk, US 30Y yields hit 19-year high; caution mode, favor oil longs/gold/JPY safe-havens",
-  "summary_ar": "مهلة وقف النار مع إيران تنتهي الآن، النفط يقفز لـ٩١$ بسبب خطر التصعيد، عوائد السندات الأميركية بأعلى مستوى منذ ١٩ سنة؛ وضع حذر، نفضّل شراء النفط/الذهب/الين كملاذات آمنة"
+  "prefer_symbols": "USOIL,UKOIL,XAUUSD,USDJPY,AUDUSD",
+  "summary": "Iran deadline expired, oil $91 on escalation risk, US 30Y yield 19-yr high, RBA signals more hikes possible; caution holds, favor oil/gold/JPY/AUD",
+  "summary_ar": "انتهت مهلة إيران، النفط عند ٩١$ بسبب خطر التصعيد، عوائد السندات الأميركية بأعلى مستوى منذ ١٩ سنة، البنك الأسترالي يشير لرفع فائدة محتمل؛ حذر مستمر، نفضّل نفط/ذهب/ين/دولار أسترالي"
  },
  "error": null
 }

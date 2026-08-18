@@ -100,3 +100,53 @@ shock=none
 prefer_symbols=USOIL,UKOIL,XAUUSD,USDJPY,CHFJPY,EURJPY
 summary=Iran ceasefire deadline expiring now, oil surges to $91 on escalation risk, US 30Y yields hit 19-year high; caution mode, favor oil longs/gold/JPY safe-havens
 summary_ar=مهلة وقف النار مع إيران تنتهي الآن، النفط يقفز لـ٩١$ بسبب خطر التصعيد، عوائد السندات الأميركية بأعلى مستوى منذ ١٩ سنة؛ وضع حذر، نفضّل شراء النفط/الذهب/الين كملاذات آمنة
+
+
+# 2026-08-18 02:14 UTC
+## Council debate
+
+**Chief Macro Economist**: US 30Y yields at 5.31% (highest since 2007) signal bond market stress despite Fed pause signals – inflation/deficit concerns persist. Canadian CPI heated up in July, supporting CAD. Australian consumer confidence improved post-RBA pause. Eurozone edging ahead Q2 but rivers drying up threatens economy. Overall: stagflation fears building, especially US.
+
+**Central-Bank Watcher**: Fed minutes due in ~39 hours will be critical. RBA's Kent just flagged upside inflation risk and possible further hikes (fresh, <2h ago) – bullish AUD. BoE data in 3.75 hours (claimant count, earnings) could move GBP significantly. ECB's Lagarde speaks in ~29 hours. No immediate surprises but RBA hawkish tilt is new information.
+
+**Geopolitical & Crisis Analyst**: Iran 60-day peace deadline expiring NOW (multiple fresh headlines <2h). Trump threatening Oman bombing, Iran ruling out interim deal extension, threatening escalation. This is the genuine crisis we flagged 15 min ago – still active, not resolved. Oil jumped to $91 Brent, Hormuz shipping constrained. Safe-haven demand for JPY/CHF/gold remains valid. Ukraine winter weaponization ongoing but secondary to Iran.
+
+**FX Strategist**: USD supported by rising yields but geopolitical risk caps gains. JPY strongest safe-haven (intervention talk, 10Y JGB at 3-decade high). CHF weakened vs EUR per Local Switzerland article but still safe-haven. CAD firm on hot CPI + oil rally, near 2-month high. AUD getting RBA hawkish support (fresh). GBP vulnerable into data (3.75h). EUR modest strength vs USD on yield convergence. Rank: JPY > CHF > CAD > AUD > USD > EUR > GBP.
+
+**Gold & Oil Trader**: Oil rally to $91 Brent/$88+ WTI on Iran escalation is the dominant story – Hormuz constraints real, China resumed stockpiling (fresh Reuters). This supports our previous OIL bias 0.7, possibly higher. Gold at $4,385, ticking up on safe-haven demand and geopolitical risk – options market betting on trend continuation per CNBC (fresh, 51 min ago). Silver production soaring but bar/coin sales rebounding. XAU 0.5-0.6 bias justified, XAG 0.3-0.4.
+
+**Equity / Risk-Sentiment Desk**: Wall Street slipped Monday on oil price rise, awaiting retail earnings. VIX-type stress building: ECB warns AI stock boom could end in sharp correction, 30Y yield spike spooking bonds. Indices modestly negative (US500/US100/US30 down, GER40 less so). Risk-off persists but not panic. Maintain negative equity bias: -0.3 to -0.4 range.
+
+**Risk Manager**: Iran deadline expiring is NOT a new shock (we already called it 15 min ago), it's ongoing. Don't re-issue shock directive unless there's a sudden attack/strike (none reported yet). GBP news block in 225 min (3.75h) is critical – keep it. FOMC minutes in 2385 min (39.75h) – add USD block. Thin liquidity overnight Asia session now (02:14 UTC) – caution appropriate. Risk_mult 0.8 still right. If Iran situation explodes (actual strikes), we move to danger mode, but not yet.
+
+**Chairman**: Weighing evidence: (1) Iran crisis is ongoing, not new – oil/gold/JPY biases remain valid from 15 min ago. (2) Fresh RBA hawkish tilt (Kent comments <2h) is concrete new info – raise AUD bias from 0.1 to 0.3. (3) CAD strength on hot CPI + oil is confirmed – raise CAD from 0.2 to 0.3. (4) GBP data in 225 min is high-impact – maintain news block. (5) USD supported by yields but capped by risk-off – keep 0.3. (6) JPY remains top safe-haven – keep 0.5. (7) EUR modest – keep 0.2. (8) CHF weakened slightly but still safe – reduce from 0.2 to 0.1. (9) Oil bias 0.7 is appropriate, gold 0.5, silver 0.4. (10) Equities -0.4 justified. Confidence 0.75 (same – strong evidence on oil/Iran, RBA fresh, but no new shocks). Risk mode: caution (unchanged). No COUNCIL-level conviction (no |bias|≥0.7 with conf≥0.6 on a single symbol where we're certain of 4-12h persistence – oil is strong but already running, prefer robots handle it). Prefer_symbols: USOIL, XAUUSD, USDJPY, AUDUSD (RBA hawkish), USDCAD (inverse for CAD strength).
+
+---
+
+## DIRECTIVES
+risk_mode=caution
+risk_mult=0.8
+regime=risk_off
+bias_USD=0.3
+bias_EUR=0.2
+bias_GBP=0.0
+bias_JPY=0.5
+bias_AUD=0.3
+bias_NZD=0.1
+bias_CAD=0.3
+bias_CHF=0.1
+bias_XAU=0.5
+bias_XAG=0.4
+bias_OIL=0.7
+bias_US500=-0.4
+bias_US100=-0.4
+bias_US30=-0.4
+bias_GER40=-0.3
+conf=0.75
+allow_books=ALL
+news_block=GBP:210:265;GBP:1663:1723;USD:2353:2413;AUD:1380:1440;AUD:2820:2880
+block_symbols=none
+shock=none
+prefer_symbols=USOIL,UKOIL,XAUUSD,USDJPY,AUDUSD
+summary=Iran deadline expired, oil $91 on escalation risk, US 30Y yield 19-yr high, RBA signals more hikes possible; caution holds, favor oil/gold/JPY/AUD
+summary_ar=انتهت مهلة إيران، النفط عند ٩١$ بسبب خطر التصعيد، عوائد السندات الأميركية بأعلى مستوى منذ ١٩ سنة، البنك الأسترالي يشير لرفع فائدة محتمل؛ حذر مستمر، نفضّل نفط/ذهب/ين/دولار أسترالي
