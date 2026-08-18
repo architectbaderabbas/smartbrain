@@ -26,3 +26,5 @@
 - 2026-08-18 13:28 UTC · heartbeat · quiet (sev0)
 - 2026-08-18 13:42 UTC · heartbeat · ALERT sev2: Iran ceasefire agreement expires; Israeli airstrikes on Syria; Trump criticism of allies; ship attacked in Strait of Hormuz -> protocol applied, council convening
 - 2026-08-18 13:42 UTC · FULL COUNCIL triggered: ALERT sev2: Iran ceasefire agreement expires; Israeli airstrikes on Syria; Trump criticism of allies; ship attacked in Strait of Hormuz
+- 2026-08-18 13:43 UTC · heartbeat · ALERT sev2: Iran ceasefire expires; Israeli airstrikes on Syria; oil jumps 7% to $100+ on Hormuz blockade threat -> protocol applied, council convening
+- 2026-08-18 13:43 UTC · FULL COUNCIL triggered: ALERT sev2: Iran ceasefire expires; Israeli airstrikes on Syria; oil jumps 7% to $100+ on Hormuz blockade threat
