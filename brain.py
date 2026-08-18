@@ -121,7 +121,10 @@ Rules for the directives:
    validity <= 120 min. Never invent shocks from routine volatility.
  - risk_mode: normal | caution (moderate uncertainty, big data day) | danger (active crisis, extreme volatility) | halt (do not open anything).
  - risk_mult: 0.25..1.25 global multiplier for the robots' risk (1.0 = unchanged).
- - allow_books: subset of INTRADAY,SWING,POSITION,SHOCK,REVERT that should be allowed now (default ALL).
+ - allow_books: subset of INTRADAY,SWING,POSITION,SHOCK,COUNCIL,REVERT that should be allowed now (default ALL).
+ - IMPORTANT: a COUNCIL book opens a real trade (0.5% risk, price-confirmed) whenever conf >= 0.6 AND |bias| >= 0.7 on a symbol.
+   So only give |bias| >= 0.7 with conf >= 0.6 when the council is truly convinced by fresh, concrete evidence and the move is
+   likely to persist for the next 4-12 hours. Prefer fewer, stronger calls over many weak ones.
 Output format: first a section "## Council debate" (short, max ~25 lines, each expert one or two lines, then Chairman).
 Then a section "## DIRECTIVES" containing ONLY key=value lines, no prose, exactly these keys:
 risk_mode=<normal|caution|danger|halt>
