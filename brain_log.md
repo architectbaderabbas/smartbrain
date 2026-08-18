@@ -498,3 +498,73 @@ summary_ar=التوترات الإيرانية في هرمز مستمرة (هج�
 mind=focused
 psyche_flags=awareness,prudence,intuition
 intuition=BoJ intervention could strike within 24-48h if USDJPY spikes above 152-153; be ready for sudden 300-500 pip drop and shock directive
+
+
+# 2026-08-18 07:48 UTC
+## Council debate
+
+**Chief Macro Economist:** US 30Y yield at 19-year high (5.31%) signals bond vigilantes revolting against fiscal trajectory; UK wages cooling (4.0% vs 4.3%) but claimant count rising (16.5K vs 6.7K forecast) = stagflation risk; China FX stable but irrelevant to our pairs; global growth slowing into rising rates = headwind for risk.
+
+**Central-Bank Watcher:** BoJ hawkish drumbeat continues (10Y at 30-year peak, AllianceBernstein expects Sept hike); intervention threat real if USDJPY spikes above 152-153. Fed minutes tonight (2002 UTC) = volatility window. ECB Lagarde speaks tomorrow (1352 UTC). RBA pause but hawkish (consumer confidence improved). BoE CPI tomorrow (1282 UTC) expected hot (2.9% vs 2.6%) = GBP support if confirmed. No fresh CB surprises in last hour.
+
+**Geopolitical & Crisis Analyst:** Severity-2 event ongoing but NOT escalating in the last 90 minutes. Hormuz ship attack was 3h48min ago; no new strikes since. Trump threatens Oman bombing but this is rhetoric, not action. Iran ceasefire expired 6+ hours ago; oil holding $88-91 (not spiking further) = market pricing in premium but not panic. Reuters: "oil market starts pricing in prolonged Hormuz crisis" = this is now known, not a shock. Risk: further attacks, but right now we are in a holding pattern, not active escalation.
+
+**FX Strategist:** JPY strongest (BoJ hawkish + safe-haven + intervention threat); USD supported by yields but not surging; AUD holding up (RBA hawkish, consumer confidence); CAD supported by oil; EUR/GBP neutral (waiting for CPI data); CHF lagging (SNB dovish relative to others); NZD weakest (China soft, RBNZ pause bets rising per TradingPedia). USDJPY near 160 per FXStreet = intervention zone. Favor JPY, AUD, CAD; neutral USD/EUR/GBP; fade NZD.
+
+**Gold & Oil Trader:** Gold slipped overnight on higher yields (Reuters) but holding ~$4400s (no price context but headlines say "slips" = minor pullback from recent highs). Oil $88-91 Brent, $85-88 WTI; FXEmpire: "Iran tensions push Brent toward $100" but it's NOT there yet. OilPrice.com: diesel margins at records = refining stress. Oil spike is 18+ hours old; per playbook, war premiums decay unless supply is actually hit. No confirmed supply disruption yet. Oil bias should be lowered from 0.7 to 0.5 (hold the premium, don't chase). Gold: safe-haven bid vs yields = neutral to slight positive.
+
+**Equity / Risk-Sentiment Desk:** US stocks slipped Monday (Reuters, Bloomberg: "stocks fall, oil gains on Middle East uncertainty"); indices down but not crashing. VIX not spiking (no headline of panic). Risk-off but orderly. ECB warns AI stock boom could correct (FT) = structural caution. Bias: mild risk-off, indices -0.3 to -0.4 (unchanged from previous).
+
+**Risk Manager:** ACCOUNT STATE: daily loss -6.02 (-1.2%), SHOCK book 2-loss streak (3 trades, 1 win). EMERGENCY PROTOCOL: not triggered (loss < -3%). However, SHOCK book performance is poor; consider removing SHOCK from allow_books today. We are in DANGER mode (previous directive) but the situation has NOT worsened in the last 90 minutes; no new sev-2 event. Recommend downgrade to CAUTION (risk_mult 0.8). News windows: GBP CPI in 1282 min (21h), AUD jobs in 2452 min (40h), Fed minutes in 2002 min (33h) = block GBP/AUD/USD around those times. Current time 07:48 UTC; no imminent (< 60 min) events.
+
+**Market Historian:** PRICE CONTEXT is broken (all errors), so I cannot compare current levels to 1Y range or recent momentum. Relying on headlines: oil "jumps past $91" (NBC), "climbs" (Reuters), "exceeds $90" (Belga) = oil is elevated but not at $100+ panic levels. Playbook: Iran escalation (Soleimani 2020) spiked oil/gold, faded in 48h because no real supply hit. Ukraine 2022 trended for weeks because supply changed. Current situation: 1 ship attacked, no confirmed supply loss, oil holding elevated for 18+ hours = this looks more like Soleimani (fade after 48h) than Ukraine. USDJPY near 160: BoJ intervened in 2022 at 145-150, effect faded over weeks; intervention threat is real but USDJPY hasn't spiked above 160 yet. Gold at highs: playbook says breakouts to new highs continue 55-60% of the time, but sharp spikes (+2-3% in an hour) retrace half within 24h. No fresh spike in last 90 min = gold bias 0.5 is appropriate. Recommendation: fade oil from 0.6 to 0.4 (premium aging), keep JPY 0.6 (intervention threat + BoJ hawkish), keep gold 0.5, keep risk-off mild.
+
+**Chairman:** Weighing the evidence. Geopolitical situation is STABLE (not escalating) for the last 4 hours; oil/gold spikes are aging (18+ hours old). BoJ/RBA hawkish = JPY/AUD support is fresh and concrete. Risk Manager is right: we are in DANGER mode without a fresh sev-2 trigger; downgrade to CAUTION. SHOCK book underperforming (2-loss streak); remove SHOCK from allow_books today per protocol (protect capital). Oil bias: Historian and Oil Trader both say lower it to 0.4-0.5; I adopt 0.4 (premium persists but don't chase). JPY 0.6 (strong consensus). AUD 0.4 (RBA + oil support). Gold 0.5 (safe-haven vs yields = balanced). USD 0.3 (yields high but not surging). Risk_mult 0.8 (caution, not danger). Conf 0.7 (good evidence quality, but price context missing and situation is evolving). No new shocks (oil spike is stale). News blocks: GBP/AUD/EUR/USD per calendar. Prefer_symbols: USDJPY (cleanest trend), XAUUSD (safe-haven), AUDUSD (RBA support). Summary: Iran tensions stable, oil premium aging, BoJ hawkish, yields elevated; caution mode.
+
+---
+
+## Psyche
+
+**Awareness (fired=yes):** Comparing to DECISION MEMORY: we have held caution mode, risk_mult 0.8, JPY 0.6, XAU 0.5, OIL 0.5-0.7, US500 -0.4 for the last 6 hours (since 01:07 UTC). Previous directive (15 min ago) was DANGER mode, risk_mult 0.6, OIL 0.5. The council now wants to downgrade to CAUTION (0.8) and lower OIL to 0.4. This is NOT flip-flopping; it is a rational response to the situation stabilizing (no new escalation in 4 hours). The DANGER mode 15 min ago was likely a brief over-reaction (the "ALERT sev2" language in the previous summary suggests Fear fired then). Downgrading to CAUTION now is appropriate. SCORECARD is empty (not enough data), so no accuracy weighting needed. Awareness approves the change.
+
+**Greed (fired=no):** Confidence is 0.7 (moderate), most biases are 0.3-0.6 (not extreme), prefer_symbols has 3 items (reasonable), no "easy money" language. Risk_mult is being LOWERED (0.6 -> 0.8 is less restrictive, but we are moving from danger to caution, which is appropriate). No greed detected.
+
+**Fear (fired=yes):** The previous directive (15 min ago) was DANGER mode with "ALERT (sev2)" language, but the Geopolitical Analyst now says the situation is "holding pattern, not active escalation" and the last attack was 3h48min ago. The previous directive may have over-reacted to stale news (the ceasefire expiry and Trump rhetoric were already known 6+ hours ago). The council is now correctly restoring balance by downgrading to CAUTION. Fear approves this correction and warns: do not swing back to DANGER without a fresh concrete event.
+
+**Prudence (fired=yes):** The council wants OIL bias 0.4 (down from 0.5 in previous). This is based on two independent sources (Historian: "premium aging, fade after 48h"; Oil Trader: "spike is 18+ hours old, no supply hit") AND a historical analog (Soleimani 2020). Prudence approves. JPY 0.6: based on BoJ hawkish (CB Watcher), intervention threat (FX Strategist, Historian), safe-haven (Geopolitical). Multiple sources, historical analog (2022 intervention). Prudence approves. No strong calls (|bias| >= 0.7) are being made, so no downgrades needed.
+
+**Intuition (fired=yes):** Hunch: the bond market revolt (30Y at 19-year high) is the bigger story than Iran right now; if yields keep rising, equities will crack harder and USD will eventually weaken (fiscal crisis scenario). Watch for a surprise risk-off move driven by bonds, not geopolitics, in the next 24-48 hours. (Chairman: noted but not adopting; insufficient evidence to change numbers.)
+
+---
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.8
+regime=risk_off
+bias_USD=0.3
+bias_EUR=0.2
+bias_GBP=0.0
+bias_JPY=0.6
+bias_AUD=0.4
+bias_NZD=0.2
+bias_CAD=0.3
+bias_CHF=0.1
+bias_XAU=0.5
+bias_XAG=0.4
+bias_OIL=0.4
+bias_US500=-0.4
+bias_US100=-0.4
+bias_US30=-0.4
+bias_GER40=-0.3
+conf=0.7
+allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT
+news_block=GBP:1274:1334;AUD:1004:1064;EUR:1344:1404;USD:1994:2054;AUD:2444:2504
+block_symbols=none
+shock=none
+prefer_symbols=USDJPY,XAUUSD,AUDUSD
+summary=Iran tensions stable (no new attacks 4h), oil premium aging, BoJ signals Sept hike (JPY strong), US 30Y yield 5.31% (19Y high); caution mode, favor JPY/gold/AUD
+summary_ar=التوترات الإيرانية مستقرة (لا هجمات جديدة 4 ساعات)، علاوة النفط تتقادم، BoJ يشير لرفع أيلول (الين قوي)، عائد أميركا 30 سنة 5.31% (أعلى 19 سنة)؛ وضع حذر، نفضّل الين/الذهب/الدولار الأسترالي
+mind=focused
+psyche_flags=awareness,fear,prudence,intuition
+intuition=Bond market revolt (30Y at 19Y high) may trigger surprise risk-off in next 24-48h, driven by fiscal fears not geopolitics; watch for equities cracking harder and USD weakening

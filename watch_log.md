@@ -6,3 +6,5 @@
 - 2026-08-18 05:42 UTC · FULL COUNCIL triggered: scheduled full council (last 69 min ago)
 - 2026-08-18 06:04 UTC · heartbeat · quiet (sev0)
 - 2026-08-18 07:00 UTC · FULL COUNCIL triggered: scheduled full council (last 78 min ago)
+- 2026-08-18 07:48 UTC · heartbeat · ALERT sev2: US-Iran 60-day ceasefire expired; Trump threatens Oman bombing; oil prices jump; 30Y yields hit 2007 highs -> protocol applied, council convening
+- 2026-08-18 07:48 UTC · FULL COUNCIL triggered: ALERT sev2: US-Iran 60-day ceasefire expired; Trump threatens Oman bombing; oil prices jump; 30Y yields hit 2007 highs
