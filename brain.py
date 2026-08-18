@@ -214,6 +214,73 @@ def read_playbook():
         with open(p, encoding="utf-8") as f: return f.read()[:12000]
     except Exception: return "(no playbook file)"
 
+
+# ---------- TRADE JOURNAL / LESSONS (learning loop on real trades) ----------
+def read_trades(n=25):
+    p = os.path.join(OUT_DIR, "trades.json")
+    try: return json.load(open(p, encoding="utf-8"))[-n:]
+    except Exception: return []
+
+def trade_stats(trades):
+    """Per-book stats over the journal: trades, wins, net, avg minutes, against-bias count."""
+    st = {}
+    for t in trades:
+        b = t.get("book", "?"); s = st.setdefault(b, {"trades": 0, "wins": 0, "net": 0.0, "against_bias": 0, "sl_hits": 0, "time_exits": 0})
+        s["trades"] += 1; pl = float(t.get("pl", 0) or 0); s["net"] = round(s["net"] + pl, 2)
+        if pl >= 0: s["wins"] += 1
+        d = 1 if t.get("dir") == "BUY" else -1
+        if float(t.get("brain_bias", 0) or 0) * d <= -0.3: s["against_bias"] += 1
+        if t.get("reason") == "SL": s["sl_hits"] += 1
+        if t.get("reason") == "EA" and pl < 0: s["time_exits"] += 1
+    return st
+
+def read_lessons():
+    p = os.path.join(OUT_DIR, "lessons.md")
+    try: return open(p, encoding="utf-8").read()[-6000:]
+    except Exception: return "(no lessons yet)"
+
+def add_lesson(text):
+    p = os.path.join(OUT_DIR, "lessons.md")
+    old = ""
+    try: old = open(p, encoding="utf-8").read()
+    except Exception: pass
+    entry = f"### {dt.datetime.utcfromtimestamp(NOW).strftime('%Y-%m-%d %H:%M UTC')}\n{text.strip()}\n\n"
+    blocks = [b for b in (old.split("### ") if old else []) if b.strip()]
+    blocks = blocks[-19:]  # keep the last 20 lessons
+    new = "# SmartBrain lessons (post-mortems on real trades, newest last)\n\n" + "".join("### " + b for b in blocks) + entry
+    open(p, "w", encoding="utf-8").write(new)
+
+PM_SYSTEM = """You are the POST-MORTEM desk of a trading brain (a council of experts advising MetaTrader robots).
+A real trade just closed. Analyse it honestly in <= 8 short lines:
+1) What the robot did (book, symbol, direction, hold time, exit reason).
+2) Was it aligned with or against the council's bias at the time? Was the council's bias itself right (use PRICE CONTEXT)?
+3) Root cause of the loss/win: entry logic (e.g. shock in a choppy no-event market), stop placement, time stop, news, council error, or plain variance.
+4) One concrete LESSON the council should apply from now on (rule-like, e.g. "in caution mode with no fresh event, do not let SHOCK trade indices").
+5) Any directive change recommended NOW (allow_books / risk_mult / bias) or "no change".
+End with a line: LESSON=<one sentence>  and a line: ACTION=<allow_books=...;risk_mult=...  or none>
+Be specific, no fluff. If it was a win, say what worked and whether it was luck."""
+
+def post_mortem(trade, prev, prices=None):
+    """Called by the watchman when a closed trade arrives. Writes a lesson; may adjust directives (conservative only)."""
+    if not API_KEY: return None
+    recent = read_trades(15)
+    user = (f"UTC now: {dt.datetime.utcfromtimestamp(NOW).strftime('%Y-%m-%d %H:%M')}\n\n## CLOSED TRADE\n" + json.dumps(trade, ensure_ascii=False) +
+            "\n\n## RECENT TRADES (journal, oldest -> newest)\n" + json.dumps(recent, ensure_ascii=False)[:5000] +
+            "\n\n## PER-BOOK STATS\n" + json.dumps(trade_stats(recent), ensure_ascii=False) +
+            "\n\n## COUNCIL DIRECTIVES IN FORCE\n" + json.dumps((prev or {}).get("directives", {}), ensure_ascii=False)[:3000] +
+            "\n\n## PRICE CONTEXT\n" + json.dumps(prices or {}, ensure_ascii=False)[:4000] +
+            "\n\n## PREVIOUS LESSONS\n" + read_lessons() + "\n\nWrite the post-mortem.")
+    body = json.dumps({"model": MODEL, "max_tokens": 700, "temperature": 0.2,
+                       "system": PM_SYSTEM, "messages": [{"role": "user", "content": user}]}).encode()
+    req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=body, method="POST",
+                                 headers={"content-type": "application/json", "x-api-key": API_KEY, "anthropic-version": "2023-06-01"})
+    with urllib.request.urlopen(req, timeout=90) as r:
+        res = json.loads(r.read())
+    text = "".join(p.get("text", "") for p in res.get("content", []))
+    head = f"**{trade.get('symbol')} {trade.get('book')} {trade.get('dir')} {trade.get('lots')} lots · {trade.get('mins')} min · exit {trade.get('reason')} · P/L {trade.get('pl')}$ · council bias {trade.get('brain_bias')} ({trade.get('brain_mode')})**\n"
+    add_lesson(head + text)
+    return text
+
 def decision_memory(prices):
     """Last few decisions (from brain_log.md) so Awareness can compare words vs what happened."""
     p = os.path.join(OUT_DIR, "brain_log.md")
@@ -286,6 +353,10 @@ EMERGENCY PROTOCOL (fixed rules, not up for debate):
    allow_books for the rest of the day; if daily loss <= -4%: risk_mode=halt.
  - Stale or missing data (feeds failed): stay conservative (caution), never invent.
 
+LEARNING LOOP: the TRADE JOURNAL shows the robots' real closed trades and the LESSONS are post-mortems written after each one.
+The Awareness voice must read them. Repeated losses of one book in the current regime => remove it from allow_books or lower
+risk_mult; a book trading against our bias and losing => keep biases honest; a lesson that applies now MUST be applied.
+
 SCORECARD USE: the Awareness voice must read the SCORECARD. Assets/voices with poor recent accuracy get lower |bias| and
 the Chairman lowers conf accordingly. Good accuracy does NOT allow exceeding the normal caps.
 
@@ -322,7 +393,7 @@ psyche_flags=<comma list of voices that fired: awareness,greed,fear,prudence,int
 intuition=<one short sentence hunch (English), or none>
 """
 
-def council(calendar, headlines, prev, prices=None, playbook="", official=None, scorecard=None, account=None):
+def council(calendar, headlines, prev, prices=None, playbook="", official=None, scorecard=None, account=None, trades=None, lessons=""):
     if not API_KEY:
         return None, "no ANTHROPIC_API_KEY - rule-based fallback"
     prev_txt = json.dumps(prev.get("directives"), ensure_ascii=False) if prev else "none"
@@ -338,6 +409,8 @@ def council(calendar, headlines, prev, prices=None, playbook="", official=None, 
     user += "\n\n## HISTORICAL PLAYBOOK (for the Market Historian)\n" + (playbook or "")
     user += "\n\n## SCORECARD (how accurate our past calls were; use it to weight voices and calibrate confidence)\n" + json.dumps(scorecard or {}, ensure_ascii=False)[:4000]
     user += "\n\n## ACCOUNT STATE (live report from the robots, if available)\n" + json.dumps(account or {}, ensure_ascii=False)[:3000]
+    user += "\n\n## TRADE JOURNAL (last real closed trades, oldest -> newest) + PER-BOOK STATS\n" + json.dumps(trades or [], ensure_ascii=False)[:5000] + "\n" + json.dumps(trade_stats(trades or []), ensure_ascii=False)
+    user += "\n\n## LESSONS (post-mortems on our real trades; apply the ones relevant now)\n" + (lessons or "")
     user += "\n\n## DECISION MEMORY (our last decisions, oldest -> newest; compare with PRICE CONTEXT chg_1d/5d)\n" + decision_memory(prices)
     user += "\n\n## Previous directives (15 min ago)\n" + prev_txt + "\n\nConvene the council now and output the three sections."
     body = json.dumps({"model": MODEL, "max_tokens": 3500, "temperature": 0.2,
@@ -429,9 +502,11 @@ def main():
     scorecard = build_scorecard(hist)
     json.dump(scorecard, open(os.path.join(OUT_DIR, "scorecard.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     account   = read_account()
+    trades    = read_trades(20)
+    lessons   = read_lessons()
     debate, err = None, None
     try:
-        debate, err = council(calendar, headlines, prev, prices, playbook, official, scorecard, account)
+        debate, err = council(calendar, headlines, prev, prices, playbook, official, scorecard, account, trades, lessons)
     except Exception as ex:
         err = f"council failed: {ex}"
     directives = parse_directives(debate) if debate else rule_based(calendar)

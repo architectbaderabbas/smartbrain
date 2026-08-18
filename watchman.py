@@ -117,12 +117,67 @@ def ask_watch(last, headlines, calendar):
         res = json.loads(r.read())
     return "".join(p.get("text", "") for p in res.get("content", [])), None
 
+
+def handle_trade(last):
+    """A closed trade just arrived (EVENT=trade). Run the post-mortem desk, write the lesson,
+    apply only CONSERVATIVE actions (restrict books / lower risk), then heartbeat."""
+    trades = brain.read_trades(30)
+    if not trades: return False
+    t = trades[-1]
+    print("WATCHMAN trade:", t.get("symbol"), t.get("book"), t.get("pl"))
+    try:
+        prices = brain.get_prices(); brain.NOW = NOW; brain.save_snapshot(prices)
+    except Exception as ex:
+        prices = None; print("snapshot error", ex)
+    text = None
+    try:
+        text = brain.post_mortem(t, last, prices)
+    except Exception as ex:
+        print("post-mortem error", ex); log_watch(f"post-mortem error: {ex}")
+    d = shift_windows(dict(last["directives"]), int((NOW - int(last.get("ts", NOW))) / 60))
+    note = f"trade {t.get('symbol')} {t.get('book')} {t.get('pl')}$ -> post-mortem written"
+    # 1) protocol: 3 losses in a row in one book today => book off for the rest of the day
+    book = t.get("book", "?"); streak = 0
+    day0 = NOW - (NOW % 86400)
+    for x in reversed([x for x in trades if x.get("book") == book and int(x.get("t_out", 0)) >= day0]):
+        if float(x.get("pl", 0) or 0) < 0: streak += 1
+        else: break
+    if streak >= 3 and book != "?":
+        ab = d.get("allow_books", "ALL").upper()
+        books = ["INTRADAY","SWING","POSITION","SHOCK","COUNCIL","REVERT"] if ab in ("ALL", "") else ab.split(",")
+        books = [b for b in books if b and b != book]
+        d["allow_books"] = ",".join(books) if books else "SWING"
+        note += f"; {book} 3 losses in a row -> removed from allow_books"
+    # 2) the post-mortem desk may ask for a conservative action
+    if text:
+        m = re.search(r"ACTION\s*=\s*(.+)", text)
+        if m and m.group(1).strip().lower() != "none":
+            for part in m.group(1).split(";"):
+                kv = part.strip().split("=", 1)
+                if len(kv) != 2: continue
+                k, v = kv[0].strip().lower(), kv[1].strip().upper()
+                if k == "allow_books" and v and v != "ALL":
+                    cur = d.get("allow_books", "ALL").upper()
+                    if cur in ("ALL", ""): d["allow_books"] = v
+                    else: d["allow_books"] = ",".join([b for b in cur.split(",") if b in v.split(",")]) or v
+                    note += f"; allow_books={d['allow_books']} (post-mortem)"
+                elif k == "risk_mult":
+                    try:
+                        nv = float(v); cv = float(d.get("risk_mult", 1.0))
+                        if nv < cv: d["risk_mult"] = str(round(max(0.25, nv), 2)); note += f"; risk_mult={d['risk_mult']} (post-mortem)"
+                    except Exception: pass
+    last["directives"] = d
+    heartbeat(last, note)
+    return True
+
 def main():
     last = load_last()
     if os.environ.get("FORCE_FULL") == "1":
         run_full_council("manual run"); return
     if not last or "directives" not in last:
         run_full_council("no previous council"); return
+    if os.environ.get("EVENT") == "trade":
+        if handle_trade(last): return
     council_ts = int(last.get("council_ts", last.get("ts", 0)))
     age_min = int((NOW - council_ts) / 60)
     if age_min >= FULL_EVERY:

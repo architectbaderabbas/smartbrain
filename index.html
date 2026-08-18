@@ -103,6 +103,9 @@
     <b>مصادر معطّلة</b>: حذر تلقائي، لا اختراع.<br>
     <span style="color:var(--mut)">الحارس يطبّق البروتوكول فوراً (خلال 5 د) ثم يستدعي المجلس؛ المجلس يعيد التقييم كل 30 د أثناء الطوارئ.</span></div></div>
 
+  <div class="card span6"><h2>📒 دفتر الصفقات الحقيقية (آخر ما أقفلته الروبوتات)</h2><div id="trades" style="font-size:12.5px;line-height:1.7">…</div></div>
+  <div class="card span6"><h2>🎓 الدروس — تشريح كل صفقة وتعلّم العقل</h2><div id="lessons" class="log" style="max-height:320px">…</div></div>
+
   <div class="card span6"><h2>ميول العملات (−1 … +1)</h2><div id="bias_fx"></div></div>
   <div class="card span6"><h2>ميول الذهب / النفط / المؤشرات</h2><div id="bias_as"></div></div>
 
@@ -200,6 +203,22 @@ function renderScore(sc){
   const bm=sc["by_mind_state%"]||{}; const mrows=Object.keys(bm).map(m=>`<span class="tag">${m}: ${fmt(bm[m])}</span>`).join("");
   el.innerHTML=h+`<div style="margin-top:6px">${rows||"<span style='color:var(--mut)'>لا بيانات كافية بعد</span>"}</div><div style="margin-top:4px;color:var(--mut)">حسب الحالة النفسية: ${mrows||"—"}</div><div style="color:var(--mut);font-size:11px">قرارات مقيَّمة: ${sc.decisions_scored||0} · هذه النتائج تُغذّى للمجلس (الوعي) ليعيد وزن الأصوات.</div>`;
 }
+function renderTrades(tr){
+  const el=document.getElementById("trades");
+  if(!tr||!tr.length){el.innerHTML="<span style='color:var(--mut)'>لم تصل صفقات مقفلة بعد (SmartMulti v12.20 يرسلها عند الإغلاق).</span>";return;}
+  const rows=tr.slice(-12).reverse().map(t=>{const d=t.dir==="BUY"?1:-1; const ag=(parseFloat(t.brain_bias||0)*d)<=-0.3?" <span class='tag bad'>ضد المجلس</span>":"";
+    const tm=new Date((t.t_out||t.ts||0)*1000); const hh=tm.toISOString().slice(5,16).replace("T"," ");
+    return `<div style="display:flex;gap:6px;flex-wrap:wrap;align-items:center;border-bottom:1px solid #1e2748;padding:3px 0"><span style="color:var(--mut);font-size:11px">${hh}</span><b>${esc(t.symbol||"")}</b><span class="tag">${esc(t.book||"")}</span><span>${t.dir==="BUY"?"شراء":"بيع"} ${t.lots}</span><span style="color:var(--mut)">${t.mins} د · ${esc(t.reason||"")}</span><b style="color:${(t.pl||0)>=0?'var(--ok)':'var(--bad)'}">${(t.pl||0)>=0?"+":""}${t.pl}$</b><span style="color:var(--mut);font-size:11px">ميل المجلس ${t.brain_bias} (${esc(t.brain_mode||"")})</span>${ag}</div>`;}).join("");
+  const st={}; tr.forEach(t=>{const b=t.book||"?"; st[b]=st[b]||{n:0,w:0,net:0}; st[b].n++; if((t.pl||0)>=0)st[b].w++; st[b].net+=parseFloat(t.pl||0);});
+  const tags=Object.keys(st).map(b=>`<span class="tag ${st[b].net>=0?'ok':'bad'}">${b}: ${st[b].n}ص ${st[b].w}ر ${st[b].net>=0?"+":""}${st[b].net.toFixed(2)}$</span>`).join("");
+  el.innerHTML=`<div style="margin-bottom:6px">${tags}</div>`+rows;
+}
+function renderLessons(md){
+  const el=document.getElementById("lessons");
+  if(!md){el.innerHTML="<span style='color:var(--mut)'>لا دروس بعد — يُكتب درس بعد كل صفقة تُقفل.</span>";return;}
+  const parts=md.split("### ").filter(x=>x.trim()&&!x.startsWith("# ")).slice(-6).reverse();
+  el.innerHTML=parts.map(p=>{const i=p.indexOf("\n"); return `<div style="margin-bottom:10px"><div style="color:var(--acc);font-weight:600">🕒 ${esc(p.slice(0,i))}</div><div>${esc(p.slice(i+1)).replace(/\*\*(.+?)\*\*/g,"<b>$1</b>").replace(/\n/g,"<br>")}</div></div>`;}).join("");
+}
 function renderAccount(a){
   const el=document.getElementById("account");
   if(!a){el.innerHTML="<span style='color:var(--mut)'>لم يصل تقرير من الروبوتات بعد (يُفعَّل من إعدادات SmartMulti على شارت واحد).</span>";return;}
@@ -212,13 +231,15 @@ function renderAccount(a){
 async function load(){
   const bust="?t="+Date.now();
   try{
-    const [txt, log, score, acct] = await Promise.all([
+    const [txt, log, score, acct, trades, lessons] = await Promise.all([
       fetch(RAW+"brain.txt"+bust,{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error("brain.txt "+r.status);return r.text();}),
       fetch(RAW+"brain_log.md"+bust,{cache:"no-store"}).then(r=>r.ok?r.text():""),
       fetch(RAW+"scorecard.json"+bust,{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null),
-      fetch(RAW+"account.json"+bust,{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null)
+      fetch(RAW+"account.json"+bust,{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null),
+      fetch(RAW+"trades.json"+bust,{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null),
+      fetch(RAW+"lessons.md"+bust,{cache:"no-store"}).then(r=>r.ok?r.text():"").catch(()=>"")
     ]);
-    renderScore(score); renderAccount(acct);
+    renderScore(score); renderAccount(acct); renderTrades(trades); renderLessons(lessons);
     document.getElementById("err").style.display="none";
     const d=parseKV(txt);
     const ts=parseInt(d.ts||"0"), age=Math.max(0,Math.floor(Date.now()/1000-ts));
