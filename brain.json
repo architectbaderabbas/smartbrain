@@ -1,5 +1,6 @@
 {
- "ts": 1787065028,
+ "ts": 1787065134,
+ "council_ts": 1787065028,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.75,
@@ -21,7 +22,7 @@
   "bias_US30": -0.4,
   "bias_GER40": -0.4,
   "allow_books": "INTRADAY,SWING,POSITION,REVERT",
-  "news_block": "GBP:902:982;EUR:972:1032;USD:1622:1682;AUD:2072:2132",
+  "news_block": "GBP:901:981;EUR:971:1031;USD:1621:1681;AUD:2071:2131",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDJPY,GBPUSD,USDCAD",
@@ -31,5 +32,6 @@
   "summary": "Bond rout at 19Y high (US 30Y 5.33%) persists; geopolitical spike faded (9h no attacks, oil $91 retreating); JPY strong (BoJ Sept hike + intervention threat), GBP weak (hot CPI 15h), oil/gold range; c",
   "summary_ar": "أزمة السندات بأعلى مستوى منذ 19 سنة (US 30Y 5.33%) مستمرة؛ قفزة جيوسياسية تلاشت (9 ساعات بدون هجمات، النفط 91$ يتراجع)؛ الين قوي (BoJ رفع أيلول + تهديد تدخل)، الجنيه ضعيف (CPI حار 15 ساعة)، النفط/الذه"
  },
- "error": null
+ "error": null,
+ "watchman": "quiet (sev0)"
 }
