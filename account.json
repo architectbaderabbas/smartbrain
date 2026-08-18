@@ -11,18 +11,18 @@
     }
   ],
   "brain_mode": "CAUTION",
-  "day_pl": 0.03,
-  "equity": 492.99,
+  "day_pl": 0.02,
+  "equity": 493.04,
   "positions": [
     {
       "book": "SWING",
       "lots": 0.01,
       "opened": 1787083200,
-      "pl": 0.64,
+      "pl": 0.69,
       "symbol": "AUDUSD",
       "type": "SELL"
     }
   ],
-  "ts": 1787091035,
-  "week_pl": 0.03
+  "ts": 1787091105,
+  "week_pl": 0.02
 }
