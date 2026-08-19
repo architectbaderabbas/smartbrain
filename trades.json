@@ -38,5 +38,25 @@
   "t_out": 1787118360,
   "tp": 0.70448,
   "ts": 1787107560
+ },
+ {
+  "balance": 487.54,
+  "book": "BREAKOUT",
+  "brain_bias": -0.1,
+  "brain_mode": "CAUTION",
+  "dir": "SELL",
+  "in": 112.538,
+  "lots": 0.04,
+  "mins": 65,
+  "out": 112.721,
+  "pl": -4.6,
+  "pos": 29288302,
+  "reason": "SL",
+  "sl": 112.72,
+  "symbol": "AUDJPY",
+  "t_in": 1787137200,
+  "t_out": 1787141119,
+  "tp": 112.276,
+  "ts": 1787130319
  }
 ]
