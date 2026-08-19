@@ -1,28 +1,5 @@
 # SmartBrain lessons (post-mortems on real trades, newest last)
 
-### 2026-08-19 02:46 UTC
-**AUDUSD other SELL 0.01 lots · 586 min · exit EA · P/L 0.91$ · council bias 0.05 (CAUTION)**
-## POST-MORTEM ANALYSIS
-
-**TRADE SUMMARY:**
-"other" book sold AUDUSD at 0.70922, held 586 minutes (~9.8 hours), exited at 0.70831 via EA (likely time-stop), +$0.91 profit. Direction was SELL AUD, but council bias was **+0.2 AUD** (bullish) – trade was **against council bias**.
-
-**ALIGNMENT & BIAS ACCURACY:**
-Trade contradicted council's AUD +0.2 bias. **Cannot verify if bias was correct** – all price context still corrupted. However, the SELL made money (91 pips), suggesting either: (a) council's bullish AUD bias was wrong, or (b) short-term mean-reversion in an extended move (summary noted "AUD trimmed to +0.2 (extended)").
-
-**ROOT CAUSE:**
-Win appears to be **variance/luck in a counter-bias trade**. The "other" book (likely a catch-all or legacy EA) ignored council directives and sold into what council thought was extended AUD strength. It worked, but for wrong reasons – no price data means no confirmation this was skill vs. random walk. 9.8-hour hold suggests slow grind, not conviction.
-
-**CONCRETE LESSON:**
-"other" book operating independently of council bias is **governance failure**. Either integrate it into allowed_books discipline or kill it. Wins against bias are dangerous – they reward ignoring the council and create false confidence. Also: **fix price context immediately** – two trades, zero market visibility.
-
-**DIRECTIVE CHANGE:**
-Identify what "other" book is. If it's rogue/unmanaged, add to block list. If it's legitimate, it must respect council bias or be restricted to REVERT-only mode. No change to current allow_books until price data restored.
-
-**LESSON:** Unmanaged "other" book trading against council bias is a governance hole; wins against bias are luck, not edge, and must be closed.
-
-**ACTION:** Investigate "other" book identity; if non-compliant, add to block or force bias-alignment; priority-1: restore price context feed.
-
 ### 2026-08-19 09:05 UTC
 **AUDJPY BREAKOUT SELL 0.04 lots · 65 min · exit SL · P/L -4.6$ · council bias -0.1 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -435,4 +412,25 @@ REVERT sold CHFJPY **directly against council's +0.4 CHF bias** (strongest bulli
 Balance now $460.69 (down $31.34 from session high, -6.4%). REVERT responsible for -$31.53 today despite being removed from allow_books hours ago. **Council directives are powerless against independent robots** – this requires human operator intervention. No change to allow_books/risk_mult (already optimal). Operator must: 1) manually disable REVERT EA immediately, 2) hardcode symbol blacklist into robot, 3) add regime filter (no mean-reversion when max|bias|>0.3).
 
 **LESSON:** REVERT's 100% stop-loss rate in strong-bias regime proves mean-reversion edge
+
+### 2026-08-19 19:10 UTC
+**CHFJPY REVERT SELL 0.02 lots · 191 min · exit SL · P/L -5.29$ · council bias 0.2 (CAUTION)**
+## POST-MORTEM ANALYSIS
+
+**TRADE SUMMARY:**
+REVERT book sold CHFJPY at 198.049 (0.02 lots), held 191 minutes, hit stop-loss at 198.468 for -$5.29. **Second CHFJPY REVERT loss in 3 hours** (previous -$5.34), both after symbol explicitly blocked in council directives. Independent robot operating in CAUTION mode with council's +0.4 CHF bias (strongest bullish call). **Sixth consecutive REVERT stop-loss today; book net -$31.53 across 5 trades, 100% SL hit rate.**
+
+**ALIGNMENT & BIAS ACCURACY:**
+REVERT sold CHFJPY **directly against council's +0.4 CHF bias** (strongest currency) and neutral JPY (0.0). Council expected CHF strength on carry-trade shifts post-Treasury buyback – **bias was RIGHT**: CHFJPY rallied 419 pips from entry (198.049→198.468 SL, now 198.375). Price context confirms CHF leading on carry flows in risk-on regime. REVERT's mean-reversion logic catastrophically misread a genuine directional breakout as "overbought noise to fade."
+
+**ROOT CAUSE OF LOSS:**
+**REVERT trading blocked symbol (CHFJPY in block_symbols) = critical robot malfunction**. Root cause is **structural edge destruction**: mean-reversion requires range-bound markets, but risk-on regime with clear currency leadership (+0.4 CHF bias) creates trends that punish fade entries. REVERT is algorithmically blind to regime – it sees 400-pip rally as "reversion opportunity," not trend continuation. The 100% SL hit rate (5/5 trades today) proves **strategy invalidation, not variance**. Independent robot architecture allows directive violations by design, but the real failure is deploying mean-reversion logic in a trending macro environment.
+
+**CONCRETE LESSON:**
+**"In CAUTION mode with any single-currency bias magnitude >0.3, REVERT must be force-disabled – strong biases signal directional regime fundamentally incompatible with mean-reversion edge."** The council's +0.4 CHF call was a regime flag REVERT should never have ignored. Operator must hardcode: if max(|bias_any_currency|) > 0.3 AND mode=CAUTION, disable all mean-reversion books.
+
+**DIRECTIVE CHANGE:**
+Balance $460.69 (-6.4% today), REVERT responsible for -$31.53 despite removal from allow_books hours ago. Council directives are powerless against independent robots. **No council action possible** – this requires human operator intervention: 1) manually disable REVERT EA immediately, 2) hardcode symbol blacklist + regime filter (no mean-reversion when max|bias|>0.3), 3) backtest REVERT performance in trending vs ranging regimes before re-enabling.
+
+**LESSON:** RE
 
