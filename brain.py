@@ -345,6 +345,17 @@ def decision_memory(prices):
         mem.append({"at": head, **keep})
     return json.dumps(mem, ensure_ascii=False)
 
+
+def news_events_line(calendar, horizon_min=240):
+    """news_events=CUR:epoch:Title;...  (high-impact releases within the next horizon; for the robots' news-breakout)"""
+    out = []
+    for e in calendar or []:
+        if e.get("impact") != "high" or not isinstance(e.get("in_min"), int): continue
+        if -10 <= e["in_min"] <= horizon_min:
+            t = re.sub(r"[^A-Za-z0-9 ._-]", "", str(e.get("title") or ""))[:40].replace(" ", "_")
+            out.append(f"{e.get('cur')}:{e.get('ts')}:{t}")
+    return ";".join(out[:12]) if out else "none"
+
 def read_previous():
     p = os.path.join(OUT_DIR, "brain.json")
     try:
@@ -523,7 +534,7 @@ def rule_based(calendar):
 
 # ---------- 4. WRITE ----------
 ORDER = ["risk_mode","risk_mult","regime","conf","allow_books","news_block","block_symbols","shock","prefer_symbols"] \
-        + [f"bias_{c}" for c in CURRENCIES + ASSETS] + ["summary","summary_ar","mind","psyche_flags","intuition"]
+        + [f"bias_{c}" for c in CURRENCIES + ASSETS] + ["summary","summary_ar","mind","psyche_flags","intuition","news_events"]
 
 def write_outputs(directives, debate, err):
     txt = [f"ts={NOW}", f"generated={dt.datetime.utcfromtimestamp(NOW).strftime('%Y-%m-%d %H:%M UTC')}", "version=1"]
@@ -564,6 +575,7 @@ def main():
     except Exception as ex:
         err = f"council failed: {ex}"
     directives = parse_directives(debate) if debate else rule_based(calendar)
+    directives["news_events"] = news_events_line(calendar)
     write_outputs(directives, debate, err)
     print("OK", directives.get("risk_mode"), directives.get("risk_mult"), directives.get("summary"))
     if err: print("WARN", err, file=sys.stderr)

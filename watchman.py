@@ -71,10 +71,14 @@ def shift_windows(d, elapsed_min):
         d["shock"] = ";".join(keep) if keep else "none"
     return d
 
-def heartbeat(last, note):
+def heartbeat(last, note, calendar=None):
     d = dict(last["directives"])
     elapsed = int((NOW - int(last.get("ts", NOW))) / 60)
     d = shift_windows(d, elapsed)
+    try:
+        if calendar is None: calendar = brain.get_calendar()
+        d["news_events"] = brain.news_events_line(calendar)
+    except Exception: pass
     # write brain.txt with the NEW ts but the SAME decision; keep brain.json's council time in 'council_ts'
     txt = [f"ts={NOW}", f"generated={dt.datetime.utcfromtimestamp(NOW).strftime('%Y-%m-%d %H:%M UTC')} (watchman heartbeat; council {elapsed} min ago)", "version=1"]
     for k in brain.ORDER: txt.append(f"{k}={d.get(k,'')}")
@@ -205,7 +209,7 @@ def main():
     except Exception as ex:
         ans, err = None, str(ex)
     if not ans:
-        heartbeat(last, f"watch error: {err}"); return
+        heartbeat(last, f"watch error: {err}", calendar); return
     kv = {}
     for line in ans.splitlines():
         m = re.match(r"\s*([a-z_]+)\s*=\s*(.*)$", line.strip())
@@ -223,7 +227,7 @@ def main():
             w_old = set(re.findall(r"[a-z]{4,}", str(a.get("what", "")).lower()))
             if w_new and len(w_new & w_old) / max(1, len(w_new)) >= 0.5:
                 print("WATCHMAN: same story already handled ->", a.get("what"))
-                heartbeat(last, f"quiet (repeat of handled alert: {what[:60]})"); return
+                heartbeat(last, f"quiet (repeat of handled alert: {what[:60]})", calendar); return
         last.setdefault("alerts", []).append({"ts": NOW, "what": what, "sev": sev})
     if alert and sev >= 2:
         # EMERGENCY PROTOCOL: act first (robots read within 5 min), then convene the council
@@ -240,10 +244,10 @@ def main():
             d["summary"] = f"ALERT (sev2): {what} - danger mode until the council decides"
             d["summary_ar"] = "إنذار: " + what + " — وضع خطر حتى يقرّر المجلس"
         last["directives"] = d
-        heartbeat(last, f"ALERT sev{sev}: {what} -> protocol applied, council convening")
+        heartbeat(last, f"ALERT sev{sev}: {what} -> protocol applied, council convening", calendar)
         run_full_council(f"ALERT sev{sev}: {what}")
     else:
-        heartbeat(last, f"quiet (sev{sev}) {what if what!='none' else ''}".strip())
+        heartbeat(last, f"quiet (sev{sev}) {what if what!='none' else ''}".strip(), calendar)
 
 if __name__ == "__main__":
     main()
