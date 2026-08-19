@@ -417,3 +417,26 @@ Balance now $465.30 (down $27.64 from session high), REVERT responsible for -$26
 
 **LESSON:** Independent robots ignoring block_symbols directive =
 
+### 2026-08-19 18:01 UTC
+**USOIL other:0 BUY 0.01 lots · 1 min · exit EA · P/L 0.43$ · council bias 0.1 (CAUTION)**
+## POST-MORTEM ANALYSIS
+
+**TRADE SUMMARY:**
+Independent robot "other:0" bought USOIL at 85.808 (0.01 lots), held 1 minute, closed by EA at 85.851 for +$0.43. Council bias mildly bullish OIL (+0.1), mode CAUTION, allows SHOCK/COUNCIL only. Trade occurred 41 minutes AFTER FOMC Minutes release, during ongoing 10+ hour price context outage.
+
+**ALIGNMENT & BIAS ACCURACY:**
+BUY USOIL **aligned with council's +0.1 bullish OIL bias** (risk-on regime, Treasury buyback support). Price moved 43 pips in direction, EA closed for quick profit. **Council bias directionally correct** – WTI now 85.711, consolidating near entry after initial spike. The +0.1 bias was appropriate given risk-on backdrop and post-FOMC dollar softness. Win validates council's OIL stance.
+
+**ROOT CAUSE OF WIN:**
+**Scalp win on post-FOMC volatility spike = good timing, not sustainable edge**. "other:0" is unidentified magic number (possibly manual trade or orphaned EA) that captured 43-pip momentum burst in 60 seconds. Root cause: **FOMC-driven volatility expansion + aligned directional bias + tight profit-taking = variance win**. This is the second "other:0" win today (XAGUSD +$6.75 earlier), both sub-15 minute scalps during event windows. Pattern suggests human discretionary trading or a scalper EA exploiting news spikes.
+
+**CONCRETE LESSON:**
+**"other:0" magic number = unidentified system operating outside council framework, yet achieving 100% win rate (2/2, +$7.18) while council-approved robots bleed**. SHOCK fired 6 trades for -$2.71, REVERT bled -$26.24 before removal, but mystery "other:0" scalps events profitably. Lesson: **"When systematic robots fail during data outages, human discretionary trading on tier-1 events outperforms – council should explicitly allow manual intervention during context blackouts rather than letting blind algos churn"**.
+
+**DIRECTIVE CHANGE:**
+Balance recovering ($465.53, up $0.23 from EURGBP disaster), but account still down $26.50 from session high. "other:0" wins are band-aids on hemorrhaging account. **No change to allow_books/risk_mult** – this robot operates outside council control by design. Recommend operator identify "other:0" source: if human discretionary, formalize it; if rogue EA, audit magic number registry.
+
+**LESSON:** Unidentified "other:0" scalper outperforms all council-approved systems during data blackout – discretionary event trading beats blind systematic execution when context is unavailable.
+
+**ACTION:** none
+
