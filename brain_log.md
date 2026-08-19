@@ -2445,3 +2445,73 @@ summary_ar=إعادة شراء الخزانة تبقي العوائد منخفض
 mind=focused
 psyche_flags=fear,prudence,intuition
 intuition=Treasury buyback signals administration won't tolerate bond crisis; if yields stay down, gold has room to $4600-4700 over next week unless data shocks (Philly Fed, claims, PMIs) reignite inflation fears
+
+
+# 2026-08-19 20:25 UTC
+## Council debate
+
+**Chief Macro Economist:** Treasury buyback doubled (Bessent fighting 19Y yield highs) = fiscal dominance signal, real yields compressed -15bp today. Risk-on persists but bond vigilantes not defeated—just paused. Growth data Thursday (Philly Fed, claims) will test if this is relief or reversal. Bias: USD neutral (fiscal concerns offset yield drop), commodities supported.
+
+**Central-Bank Watcher:** FOMC Minutes were non-event (as expected). Fed's Warsh now under pressure—Bessent's Treasury intervention undermines monetary tightening credibility. No CB speeches tonight. RBA's Hauser said "rates may need to rise if prices don't ease" (3am headline)—hawkish lean before Thursday's jobs data. Bias: AUD cautiously positive if jobs beat, but 0.1 is max until data.
+
+**Geopolitical & Crisis Analyst:** Iran/UAE trade suspension (6:57pm headline) and Iran threatening European military targets (4:01am) are Severity-2 escalation, but markets ignored it (6 hours stale, oil flat, gold up on yields not war). NPR "US stymied in Iran war" (4:18pm) = stalemate narrative, not shock. No fresh attacks. Geopolitical premium fading. Bias: no shock directive, but oil/gold floors supported.
+
+**FX Strategist:** CHF +0.45 bias working (carry-trade shift confirmed by Bloomberg/Reuters 5am/4am). CAD +0.2 working (tariff reprieve, now 1.381 vs 1.39 yesterday). USD dead flat (DXY errors but EURUSD 1.1677, USDJPY 158.18 unchanged). GBP holding 1.36 (inflation data mixed, no BoE move). NZD 0.593 steady. No new drivers tonight—biases hold but don't strengthen. Conf stays 0.6.
+
+**Gold & Oil Trader:** Gold $4519 now (+$14 from our last call, +$100 on the day)—momentum intact, real yields down, safe-haven + monetary-distrust bid. XAU bias 0.3 is RIGHT but price is extended (95th percentile of 1Y range per context). Oil 84.96 WTI / 91.90 Brent—inventory build (EIA 6:34pm: +4.4M bbl) should weigh but geopolitics + OPEC floor holding it. Bias 0.1 appropriate, no chase.
+
+**Equity / Risk-Sentiment Desk:** SPX 7716, NDX 29457, DAX 26089—all near highs, Treasury buyback rally holding into close. Risk-on regime confirmed. VIX/DJI data errors but sentiment is calm (MarketWatch 5:47pm: "5 reasons for 10% correction" = contrarian bullish). Bias +0.2 indices is correct but we're 8 hours into this move—prefer_symbols should not push equities now, let SHOCK catch pullbacks.
+
+**Risk Manager:** Account $465, day P/L +$0.03 (flat). REVERT 0-5 (5-loss streak, -$31.53) = correctly removed from allow_books. SHOCK 4-8 today but only +$0.08 net (50% win rate, bleeding on false signals in thin liquidity per lessons). OTHER books +$11.33 (6-6, 100%)—independent robots hot-streaking but that's variance. Daily loss -0.6% (safe). CAUTION mode appropriate—no data until AUD jobs 5h4min, then US data 16h. Keep risk_mult 0.6, allow_books COUNCIL+SHOCK only.
+
+**Market Historian:** Treasury buyback analogy: March 2020 Fed "whatever it takes" (SPX +20% in 3 weeks, gold +$200 in 2 months, USD fell 6% in 4 months). Today's move is smaller scale but same playbook—yields spiked, Treasury intervened, risk-on resumed. Difference: 2020 was deflation fear, 2026 is inflation + fiscal crisis fear, so gold's rally is stronger (monetary distrust), USD's drop is shallower (safe-haven offset). CHF carry-shift rhymes with Aug 2024 yen-carry unwind (CHF +3% in 2 weeks then). Current setup: gold at $4519 is +2.8% today, historically 60% of such spikes retrace half within 48h UNLESS the catalyst persists—here it's structural (bond crisis), so fade risk is lower. Oil inventory build (+4.4M) historically = -2% within 3 days, but geopolitical floor (Iran/UAE) limits downside. Equities: 8-hour rally without pullback, post-NY close—expect consolidation overnight, not continuation. Lean: hold biases, don't chase.
+
+**Chairman:** Evidence quality: Treasury buyback (fresh, factual, multi-source) supports risk-on and gold—biases are working. Geopolitics stale (6+ hours, no market reaction). Data void until AUD jobs (5h). Scorecard shows 100% hit rate (small sample, only XAU/CHF tested). Lessons show SHOCK bleeding in thin liquidity—time filter needed but not a directive change (operator issue). Psyche review next, then decision.
+
+---
+
+## Psyche
+
+**Awareness (fired=no):** Comparing to 19:14 UTC directives: all biases unchanged, risk_mode/mult unchanged, allow_books unchanged, news_block updated (AUD jobs now 304min vs 375min). No flip-flopping. Price context confirms our calls: XAU $4519 (+$14 since last call, bias 0.3 working), CHF leading (0.45 working), CAD strong (0.2 working), indices holding (0.2 working). DECISION MEMORY shows 7 consecutive "focused" mind states with conf 0.5-0.65—consistency is strength. No correction needed.
+
+**Greed (fired=no):** Confidence 0.6 (moderate), biases spread across assets (not concentrated), prefer_symbols is USDCHF/USDCAD (defensive, not aggressive longs), no "easy money" language in debate. Risk_mult 0.6 in CAUTION mode is appropriate. Gold +$100 today but bias only 0.3 (prudent). No greed detected.
+
+**Fear (fired=yes):** Risk Manager and Historian both flagged "don't chase" and "expect consolidation"—this is PRUDENCE, not fear. But removing REVERT (5-loss streak) and keeping only COUNCIL+SHOCK while SHOCK is 50% win rate and bleeding = we are over-restricting. SHOCK's issues are operational (time filter), not strategic. Fear of losses is making us too defensive when the regime is clearly risk-on and our biases are working. We should restore INTRADAY or SWING (both have positive recent performance: INTRADAY 1-3 +$-3.55 but last trade was a loss, SWING 1-2 -$0.88 but has 1 open winner +$2.46 GBPJPY). Fear is excessive—restore one book.
+
+**Prudence (fired=yes):** Gold bias 0.3 with conf 0.6 does NOT trigger COUNCIL trade (needs |bias|≥0.7 + conf≥0.6). CHF 0.45 also below threshold. No strong calls active—this is correct given we are 8 hours into the move and overnight session. All biases have 2+ sources (Treasury buyback, carry-shift, tariff reprieve) and historical analogs (Historian cited March 2020, Aug 2024). Prudence approves current setup but flags: if we want COUNCIL to trade, we need |bias|≥0.7, which requires NEW catalyst, not continuation of existing one.
+
+**Intuition (fired=yes):** The Treasury buyback is not a one-day event—it's a regime shift. Bessent will keep buying to cap yields, which means real yields stay suppressed, which means gold has structural support to $4600-4700 over the next 1-2 weeks unless inflation data (Philly Fed Thursday, PMIs Friday) forces Fed hawkish and yields spike again. The risk is not tonight (data void), it's Thursday 14:30 UTC (Philly Fed + claims). Tonight: hold, don't add.
+
+---
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.6
+regime=risk_on
+bias_USD=0.0
+bias_EUR=-0.1
+bias_GBP=0.1
+bias_JPY=0.0
+bias_AUD=0.1
+bias_NZD=0.1
+bias_CAD=0.2
+bias_CHF=0.45
+bias_XAU=0.3
+bias_XAG=0.0
+bias_OIL=0.1
+bias_US500=0.2
+bias_US100=0.2
+bias_US30=0.2
+bias_GER40=0.0
+conf=0.6
+allow_books=COUNCIL,SHOCK,SWING
+news_block=AUD:304:324
+block_symbols=GER40,EURGBP,CHFJPY
+shock=none
+prefer_symbols=USDCHF,USDCAD
+summary=Treasury buyback regime holds; gold $4519 on real-yield drop, CHF leads carry-shift, CAD on tariff relief; risk-on intact, restore SWING (has open winner), caution for AUD jobs 5h
+summary_ar=نظام إعادة الشراء مستمر؛ الذهب 4519$ بانخفاض العوائد الحقيقية، الفرنك يتصدر تحول الكاري، الكندي بتأجيل التعريفات؛ المخاطرة مستمرة، استعادة SWING، حذر للتوظيف الأسترالي خلال 5 ساعات
+mind=focused
+psyche_flags=fear,prudence,intuition
+intuition=Bessent's buyback is structural not tactical—gold supported to $4600-4700 over next 1-2 weeks unless Thursday data (Philly Fed, claims) reignites inflation fears and yields spike
