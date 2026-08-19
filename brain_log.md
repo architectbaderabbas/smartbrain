@@ -2426,3 +2426,73 @@ summary_ar=انقطاع بيانات الأسعار 10 ساعات و36 دقيق�
 mind=fearful
 psyche_flags=awareness,fear,prudence,intuition
 intuition=The price context outage is a test of discipline – the market is still moving but we're blind; the real trade is doing nothing until we can see again
+
+
+# 2026-08-19 14:12 UTC
+## Council debate
+
+**Chief Macro Economist:** Treasury buyback announcement (fresh, <90 min) is the headline – doubling debt repurchases to ease long-end pressure. 30Y yields dropped from 19Y highs. This is USD-negative (fiscal stress acknowledged) but equity-positive (lower discount rates). Growth cycle unchanged.
+
+**Central-Bank Watcher:** FOMC Minutes in 3h47min – maintain USD news block. Treasury action pre-empts Fed criticism but signals fiscal dominance concerns. No CB speeches since Lagarde 7h ago (stale). RBA's Hauser warned of hikes if inflation persists (AUD supportive but 11h old). AUD jobs data in 11h17min.
+
+**Geopolitical & Crisis Analyst:** Iran-Europe threat now 8 hours old, no follow-up – downgrade to noise. UAE-Iran embargo 2h old but regional, not systemic. Oil holding $85 on Hormuz risk but no fresh escalation. War premium stable, not growing. Severity-1 at most.
+
+**FX Strategist:** USD weakening on Treasury buyback (fiscal concern); CHF bid persists (carry-trade structural shift confirmed by 3 sources over 15h); JPY flat (intervention fear vs carry unwind balanced); EUR weak (Lagarde's competitiveness warnings 7h ago); AUD/NZD holding modest strength (risk-on from lower yields). USDCHF, EURCHF, CHFJPY cleanest.
+
+**Gold & Oil Trader:** Gold jumped $100 on Treasury news to $4470 (fresh, <60 min) – safe-haven plus lower real yields. This is a genuine move, not noise. XAU bias should lift to +0.3. Oil flat at $85 – Hormuz premium stable but not extending without new catalyst. Hold +0.1.
+
+**Equity / Risk-Sentiment Desk:** SPX +0.3%, NDX +0.4% on Treasury buyback (lower yields = higher valuations). Risk-on tone emerging. VIX unavailable but equity bounce is real. Bias US500/US100 to +0.2 from 0.0.
+
+**Risk Manager:** Price context STILL unavailable (11h12min outage) but live prices ARE updating (14:12 UTC timestamp confirmed). REVERT lost -$14.05 on 2 trades (banned book, enforcement failure). Day P/L -$3.23 but not at -3% threshold. COUNCIL book can trade with live prices. Caution mode appropriate; risk_mult can lift to 0.6 (from 0.5) given Treasury news clarity. FOMC Minutes block stands.
+
+**Market Historian:** Treasury buyback echoes 2019 repo crisis response (yields spiked, Fed intervened, USD weakened 1-2 days then stabilized). Gold's $100 jump matches safe-haven + lower real yield pattern (2020 March, 2022 SVB) – first-day moves hold 60% of the time if USD stays weak. CHF carry-trade shift rhymes with 2015 post-SNB (took weeks to play out). Current setup: USD should weaken 0.5-1% over 24-48h; gold rally has room if yields stay down; CHF bid is structural (weeks not hours). REVERT's losses fit mean-reversion failure in trending conditions (2024 Aug yen unwind analog – fade-the-move EAs got destroyed). Price context outage is NOT a reason to halt if live prices work – it's a reason to avoid mean-reversion and trust momentum.
+
+**Chairman:** Treasury buyback is the fresh catalyst (Severity-1, not crisis). USD weakens (fiscal concern), gold rallies (safe-haven + lower yields), equities bounce (lower discount rates), CHF holds structural bid. Flip USD bias to +0.1 (from +0.2, weaker but not collapsing). Lift XAU to +0.3 (Gold Trader + Historian agree). Lift US500/US100 to +0.2 (risk-on confirmed). CHF stays +0.3 (structural). Risk_mult to 0.6 (clarity improved). Allow_books: add SHOCK (live prices work, Treasury move could extend). COUNCIL can trade. FOMC Minutes block unchanged. Confidence to 0.6 (fresh catalyst, multi-source). Mind: focused (clear catalyst, decisive action). Greed detector: prefer_symbols has 3 CHF pairs + gold – cap at 4 total, add XAUUSD. Prudence: XAU +0.3 has 2 sources (Gold Trader, Historian) and analog (2019/2020 buyback/crisis). Approved.
+
+---
+
+## Psyche
+
+**Awareness:** fired=yes. Previous directives had USD +0.2, XAU +0.1, US500 0.0, allow_books=COUNCIL. Treasury buyback (fresh <90 min, multi-source) justifies USD weaker (+0.1), XAU stronger (+0.3), equities up (+0.2), adding SHOCK. This is NOT flip-flopping – it's reacting to new facts. REVERT lessons apply: mean-reversion fails without context, but COUNCIL/SHOCK use live prices and momentum, which works. No contradiction.
+
+**Greed:** fired=yes. Confidence rising to 0.6, four biases ≥0.2, prefer_symbols has 4 assets (USDCHF, CHFJPY, EURCHF, XAUUSD), risk_on language ("rally has room"). Risk_mult MUST NOT exceed 0.6 – Chairman set it correctly. If confidence were 0.7+ I'd demand 0.5, but 0.6 conf + 0.6 mult is acceptable. Watching.
+
+**Fear:** fired=no. Council is responding to a clear catalyst (Treasury buyback), not over-reacting to headlines or recent losses. Moving from fearful (last hour) to focused is justified by new information. Caution mode holding (not jumping to normal) is prudent. Balanced.
+
+**Prudence:** fired=yes. XAU +0.3 has two sources (Gold Trader fresh data, Historian analog) and historical precedent (2019 repo, 2020 crisis). USD +0.1 (weaker) has Treasury buyback + fiscal concern (multi-source). US500 +0.2 has equity bounce + lower yields (observable). CHF +0.3 has 15h of carry-trade evidence. All strong calls justified. Approved.
+
+**Intuition:** fired=no. No hunch beyond the evidence. The Treasury buyback is concrete; the council's logic is sound. Nothing to add.
+
+---
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.6
+regime=mixed
+bias_USD=0.1
+bias_EUR=-0.2
+bias_GBP=0.0
+bias_JPY=0.0
+bias_AUD=0.1
+bias_NZD=0.1
+bias_CAD=0.0
+bias_CHF=0.3
+bias_XAU=0.3
+bias_XAG=0.0
+bias_OIL=0.1
+bias_US500=0.2
+bias_US100=0.2
+bias_US30=0.2
+bias_GER40=-0.1
+conf=0.6
+allow_books=COUNCIL,SHOCK
+news_block=USD:227:257;USD:257:287;AUD:677:707
+block_symbols=none
+shock=none
+prefer_symbols=USDCHF,CHFJPY,EURCHF,XAUUSD
+summary=Treasury doubles bond buybacks, yields drop from 19Y highs; USD weakens, gold jumps $100, equities rally; CHF structural bid holds; caution mode, FOMC Minutes in 3h47min
+summary_ar=الخزانة تضاعف إعادة شراء السندات، العوائد تنخفض من أعلى مستوى في 19 عامًا؛ الدولار يضعف، الذهب يقفز 100$، الأسهم ترتفع؛ دعم الفرنك السويسري هيكلي؛ وضع حذر، محضر الفيدرالي خلال 3 ساعات و47 دقيقة
+mind=focused
+psyche_flags=awareness,greed,prudence
+intuition=none
