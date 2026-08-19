@@ -78,5 +78,25 @@
   "t_out": 1787141576,
   "tp": 93.171,
   "ts": 1787130776
+ },
+ {
+  "balance": 484.47,
+  "book": "other",
+  "brain_bias": -0.1,
+  "brain_mode": "CAUTION",
+  "dir": "SELL",
+  "in": 0.85617,
+  "lots": 0.08,
+  "mins": 96,
+  "out": 0.85594,
+  "pl": 2.5,
+  "pos": 29301689,
+  "reason": "EA",
+  "sl": 0.85677,
+  "symbol": "EURGBP",
+  "t_in": 1787148000,
+  "t_out": 1787153764,
+  "tp": 0.85545,
+  "ts": 1787142964
  }
 ]

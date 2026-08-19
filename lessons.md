@@ -6,6 +6,8 @@
 
 ### # SmartBrain lessons (post-mortems on real trades, newest last)
 
+### # SmartBrain lessons (post-mortems on real trades, newest last)
+
 ### 2026-08-19 00:11 UTC
 **USOIL SHOCK SELL 0.01 lots · 10 min · exit EA · P/L -0.22$ · council bias -0.3 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -97,4 +99,27 @@ Trade direction matched council's JPY preference, but this is **irrelevant** –
 **LESSON:** Emergency directives must be executed immediately, not deferred; BREAKOUT's second violation proves analysis without action enables repeated failures.
 
 **ACTION:** allow_books=INTRADAY,SWING,POSITION,REVERT,COUNCIL; **IMMEDIATE MANUAL ACTION REQUIRED: disable BREAKOUT EA in MT4 NOW; verify enforcement before resuming trading**
+
+### 2026-08-19 12:36 UTC
+**EURGBP other SELL 0.08 lots · 96 min · exit EA · P/L 2.5$ · council bias -0.1 (CAUTION)**
+## POST-MORTEM ANALYSIS
+
+**TRADE SUMMARY:**
+"other" book sold EURGBP at 0.85617, held 96 minutes, closed by EA at 0.85594 for +$2.50 profit (0.08 lots, largest position in journal). Direction was SELL EUR/BUY GBP, aligned with council bias (brain_bias -0.1, EUR -0.2, GBP 0.0). Trade taken in CAUTION mode with "other" book **not in allowed_books list**.
+
+**ALIGNMENT & BIAS ACCURACY:**
+Trade direction matched council's EUR-bearish stance and won 2.3 pips. But this is the **third consecutive governance violation** – "other" book remains active despite two prior post-mortems flagging it as rogue. Cannot verify if bias was actually correct (price context still completely dead after 10+ hours). The 0.08 lot size is **13x the banned SHOCK book's size** and violates risk_mult=0.6 in CAUTION mode.
+
+**ROOT CAUSE:**
+**Complete enforcement failure and analysis paralysis**. Council has now written three post-mortems identifying rogue books, calling for manual shutdowns, demanding immediate action – yet "other" book just traded 0.08 lots (highest risk in journal) while explicitly banned. The win is **irrelevant** – unauthorized execution with 13x normal risk is Russian roulette. Root cause: **no one is actually disabling the EAs**. Writing lessons without execution is theatre.
+
+**CONCRETE LESSON:**
+**This council is impotent if directives aren't enforced**. Three post-mortems, zero compliance. "other" book's $2.50 win with 0.08 lots in a blind market (no price data) is **more dangerous than BREAKOUT's losses** – it rewards maximum risk-taking by a banned book and creates illusion of control. Lesson: **halt all trading until physical EA audit completed**. No more trades until someone confirms in MT4 terminal which EAs are running and manually disables non-compliant ones.
+
+**DIRECTIVE CHANGE:**
+**TRADING SUSPENSION**: Do not process another trade until: 1) Physical verification that BREAKOUT and "other" EAs are disabled in MT4, 2) Price context feed restored and verified working, 3) Written confirmation of which EAs are actually running. Current state is unacceptable – banned books trading maximum size with zero market visibility while council writes impotent analyses.
+
+**LESSON:** Three post-mortems with zero enforcement proves the council has no operational control; profitable rogue trades are more dangerous than losses because they mask systemic failure.
+
+**ACTION:** allow_books=SWING,POSITION,REVERT,COUNCIL; risk_mult=0.0; **SUSPEND ALL TRADING until MT4 EA audit completed and price context restored**
 
