@@ -2587,3 +2587,73 @@ summary_ar=نظام إعادة الشراء مستمر؛ الذهب 4522$ بان
 mind=focused
 psyche_flags=fear,prudence
 intuition=none
+
+
+# 2026-08-19 22:25 UTC
+## Council debate
+
+**Chief Macro Economist:** The Russian missile attack on Kyiv (sev2 event from 15min ago) has NOT escalated further - no fresh headlines in the last hour. Treasury buyback regime still holding yields down, risk-on intact (SPX 7729, NDX 29564 near highs). The danger mode was correct initially but the threat has not materialized into broader conflict. Recommend downgrade to caution.
+
+**Central-Bank Watcher:** FOMC Minutes were non-event as expected. PBS headline "many Fed officials think higher rates needed if inflation stays high" is stale guidance, not new. Treasury buyback is the dominant force - Bessent doubled long-bond purchases, yields dropped, that supports risk assets and weakens USD structurally. No CB speeches tonight. AUD jobs in 3h - keep block.
+
+**Geopolitical & Crisis Analyst:** Kyiv missile attack 90+ minutes old, no follow-up strikes, no retaliation announcements, no supply disruption. UAE-Iran trade suspension is regional posturing, not a new shock. USS Lincoln article is analysis, not breaking news. This was a headline spike, not a sustained escalation. The 15-minute danger window was appropriate; now fade to caution. Gold/CHF holding gains but not spiking further = market agrees.
+
+**FX Strategist:** CHF 0.45 bias justified - carry trade pivot confirmed (Bloomberg/Reuters both cite CHF replacing JPY). USDCHF 0.7972 is strong CHF, near 1-month lows. CAD 0.2 bias correct - USDCAD 1.3808 is CAD strength on tariff relief. NZD/AUD holding but no fresh catalyst; keep modest bullish. USD neutral correct - DXY data missing but crosses show USD weakness vs CHF/CAD. GBP 0.1 too timid - sterling holding 1.3607 well, no negative news.
+
+**Gold & Oil Trader:** Gold 4521 holding the $100 spike from Treasury buyback, up $34 today. This is NOT geopolitical premium (Kyiv attack didn't add to the rally) - it's real-yield driven. Bias 0.3 is right. Oil 84.96 WTI, 92.03 Brent - EIA inventory build was bearish but war premium from Iran/UAE and Kyiv capped the downside. Bias 0.1 appropriate, no shock needed.
+
+**Equity / Risk-Sentiment Desk:** SPX 7729 (+0.3% today), NDX 29564 (+0.4%), DAX 26139 - risk-on confirmed. The Kyiv attack did NOT reverse the rally. Treasury buyback is the story. US500/US100 bias 0.15 is too cautious - tech leading on falling yields, Moderna doubled today. Raise to 0.2. GER40 block can lift - DAX recovered.
+
+**Risk Manager:** Danger mode for 75 minutes on a sev2 event with no follow-through is excessive. Move to caution. SHOCK removed correctly (5-loss streak, no catalyst). REVERT still out (5 SL hits, -$31 today). SWING has one open winner (GBPJPY SELL +$2.97) - keep it. Account at $464, daily +$0.20 - stable. AUD block 144min (3h) is correct. CHFJPY block unnecessary - CHF bias is our edge, let COUNCIL trade it if conf high enough.
+
+**Market Historian:** Kyiv missile attacks happened multiple times in 2024-2025 - initial spike in gold/CHF/JPY fades within 2-6 hours unless escalation continues (e.g. NATO response, energy infrastructure hit). Today: gold spiked to 4521 but that was Treasury buyback (started 6 hours before the attack); the attack added nothing. CHF at 0.7972 vs USD is strong but not extreme (1-month low, not 1-year). Historical analog: Feb 2025 Kyiv drone swarm - gold +$18 in 2 hours, gave back $12 by next day. Current setup: move already happened (Treasury), geopolitics is noise. Bias 0.3 gold is extended but supportable if yields stay down.
+
+**Chairman:** The Kyiv attack was a headline, not a game-changer. Danger mode served its purpose (protected capital during uncertainty), but 90 minutes with no escalation = time to step down. Treasury buyback regime is the dominant theme - yields down, USD weak, gold/equities supported. CHF leading on carry-shift is structural, not a spike. Downgrade to caution, raise equity bias to 0.2 (risk-on confirmed), lift GER40 block (DAX stable), keep CHFJPY block (too whippy in carry transition). SHOCK stays out (needs catalyst). COUNCIL can trade if we get conviction. AUD block holds for jobs.
+
+---
+
+## Psyche
+
+**Awareness:** fired=yes. Comparing to 21:28 decision: we went danger on Kyiv attack, now 75min later no new facts support danger. This is correct caution, not flip-flopping - we responded to sev2, now downgrading as threat fades per protocol. SHOCK removal was right (5 SL, -$1.35, 75% failure rate today). REVERT still out correctly (5 SL, -$31). No stubbornness detected. Scorecard shows 100% hit rate on XAU/CHF (small sample) - our biases are working.
+
+**Greed:** fired=no. Confidence 0.6 unchanged, biases modest (max 0.45 CHF), risk_mult 0.6 conservative, prefer_symbols only 2. Equity bias raising to 0.2 is data-driven (risk-on confirmed), not greed. No "easy money" language. All clear.
+
+**Fear:** fired=yes. Danger mode for 75min on a non-escalating sev2 event was over-cautious. The protocol required danger initially, but we should have downgraded to caution by 22:00 UTC (30min after attack). Holding danger to 22:10 was fear-driven. Now correcting. The CHFJPY block is also fear residue - CHF bias is our edge, blocking the pair prevents COUNCIL from trading it. Remove block.
+
+**Prudence:** fired=yes. CHF 0.45 bias has two sources (Bloomberg/Reuters carry-shift) and historical analog (2022 yen intervention → CHF bid for weeks). Gold 0.3 has Treasury buyback + real-yield drop, supported. Equity 0.2 has risk-on confirmation. All strong calls (≥0.3) have evidence. But: we have NO fresh catalyst for the next 4 hours (AUD jobs at 02:44 UTC is 4h away, post-session deadzone now). Confidence 0.6 is appropriate - don't raise it.
+
+**Intuition:** fired=no. The Treasury buyback regime will persist for days (Bessent committed to "ongoing" purchases), but the initial $100 gold move is done - expect consolidation 4500-4530 overnight unless new catalyst. This is observation, not hunch. No change recommended.
+
+---
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.6
+regime=risk_on
+bias_USD=0.0
+bias_EUR=-0.1
+bias_GBP=0.1
+bias_JPY=0.0
+bias_AUD=0.1
+bias_NZD=0.1
+bias_CAD=0.2
+bias_CHF=0.45
+bias_XAU=0.3
+bias_XAG=0.0
+bias_OIL=0.1
+bias_US500=0.2
+bias_US100=0.2
+bias_US30=0.2
+bias_GER40=0.0
+conf=0.6
+allow_books=COUNCIL,SWING
+news_block=AUD:144:164
+block_symbols=none
+shock=none
+prefer_symbols=USDCHF,USDCAD
+summary=Kyiv attack (90min ago) did not escalate; Treasury buyback regime holds (yields down, gold $4521, risk-on intact); CHF leads carry-shift, caution for AUD jobs 3h
+summary_ar=هجوم كييف (قبل ٩٠ دقيقة) لم يتصاعد؛ نظام إعادة شراء الخزانة مستمر (عوائد منخفضة، ذهب ٤٥٢١$، risk-on ثابت)؛ CHF يقود تحوّل carry، حذر لوظائف AUD بعد ٣ ساعات
+mind=focused
+psyche_flags=awareness,fear,prudence
+intuition=none

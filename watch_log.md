@@ -298,3 +298,5 @@
 - 2026-08-19 21:58 UTC · heartbeat · quiet (sev0)
 - 2026-08-19 22:10 UTC · heartbeat · quiet (sev0)
 - 2026-08-19 22:13 UTC · heartbeat · quiet (sev0)
+- 2026-08-19 22:25 UTC · heartbeat · ALERT sev2: Russian ballistic missile attack on Kyiv; escalation in Ukraine conflict -> protocol applied, council convening
+- 2026-08-19 22:25 UTC · FULL COUNCIL triggered: ALERT sev2: Russian ballistic missile attack on Kyiv; escalation in Ukraine conflict
