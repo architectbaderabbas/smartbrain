@@ -295,3 +295,26 @@ Council cannot control REVERT, but **balance has dropped $16.78 in 4 hours (492.
 
 **ACTION:** none (council directives correct; REVERT shutdown is operator's responsibility, but balance protection now critical)
 
+### 2026-08-19 15:45 UTC
+**GER40 SHOCK SELL 0.02 lots · 10 min · exit EA · P/L -0.13$ · council bias 0 (CAUTION)**
+## POST-MORTEM ANALYSIS
+
+**TRADE SUMMARY:**
+SHOCK book sold GER40 at 26103.36, held 10 minutes, time-stopped at 26108.74 for -$0.13 (0.02 lots). Independent robot operating during 10+ hour price context outage. Council bias neutral (0.0) for GER40, mode CAUTION, allows only COUNCIL/SHOCK books – SHOCK permitted but questionable in current conditions.
+
+**ALIGNMENT & BIAS ACCURACY:**
+SHOCK sold with council's neutral GER40 bias (0.0) in CAUTION mode 3h32min before FOMC Minutes. Price context shows DAX at 26107.46 (live) – market moved +5.38 points against the trade, tiny noise. Council bias was appropriately neutral (no directional edge). **Not a bias error – council correctly identified no strong GER40 view**. SHOCK's "shock detection" logic found no real edge either (time-exit = no conviction).
+
+**ROOT CAUSE OF LOSS:**
+**SHOCK trading indices in CAUTION mode with no fresh catalyst during data blackout**. The -$0.13 loss is trivial (variance), but the *pattern* matters: SHOCK's second time-exit in 11 recent trades, both losses, both during CAUTION with no event. Earlier USOIL SHOCK also time-exited (-$0.22). **SHOCK's edge comes from volatility spikes around news/events** – in a quiet pre-FOMC holding pattern with no price context, it's coin-flipping. The 10-minute exit proves the "shock" wasn't real.
+
+**CONCRETE LESSON:**
+**In CAUTION mode with no fresh event and prefer_symbols defined, SHOCK should only trade the preferred list** (currently USDCHF, XAUUSD, CHFJPY). GER40 isn't preferred, council bias is neutral, and we're 3.5 hours from a known risk event. SHOCK's edge is event-driven volatility, not grinding indices in limbo. Lesson: **"allow_books=SHOCK" should be conditional – restrict SHOCK to prefer_symbols when mind=focused and no shock flagged**.
+
+**DIRECTIVE CHANGE:**
+SHOCK is allowed but misapplied. Tighten: **allow_books should specify "SHOCK:prefer_only" in CAUTION mode** to prevent random index trades. However, -$0.13 doesn't justify panic. The real issue is REVERT bleeding -$19.39 (operator problem). For SHOCK: **add prefer_symbols enforcement to SHOCK's entry filter** – if council says "focused" and lists 3 symbols, SHOCK shouldn't wander to GER40.
+
+**LESSON:** SHOCK's edge is event-driven volatility – in CAUTION mode pre-event with no catalyst, restrict it to council's preferred symbols only, not random indices.
+
+**ACTION:** allow_books=COUNCIL,SHOCK:prefer_only; risk_
+
