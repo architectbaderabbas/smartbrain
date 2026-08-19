@@ -1,6 +1,6 @@
 {
- "ts": 1787158689,
- "council_ts": 1787155383,
+ "ts": 1787159435,
+ "council_ts": 1787159435,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.6,
@@ -22,19 +22,18 @@
   "bias_US30": 0.2,
   "bias_GER40": 0.0,
   "allow_books": "COUNCIL,SHOCK",
-  "news_block": "USD:41:96;AUD:524:554",
-  "block_symbols": "GER40,US500,US100,US30",
+  "news_block": "USD:41:96",
+  "block_symbols": "GER40,US500,US100,US30,EURGBP,CHFJPY",
   "shock": "none",
   "prefer_symbols": "USDCHF,CHFJPY,USDCAD",
   "mind": "focused",
-  "psyche_flags": "awareness,greed,prudence",
+  "psyche_flags": "awareness,prudence",
   "intuition": "none",
-  "summary": "Treasury buyback eases yields, USD weak, gold consolidates $4492 spike; CHF leads on carry-shift, CAD rallies on tariff reprieve; caution for FOMC Minutes in 2h",
-  "summary_ar": "إعادة شراء الخزانة تخفف العوائد، الدولار ضعيف، الذهب يستقر بعد قفزة 4492$؛ الفرنك السويسري يتصدر بتحول الكاري، الدولار الكندي يرتفع بتأجيل التعريفات؛ حذر لمحضر الفيدرالي خلال ساعتين",
+  "summary": "Treasury buyback supports risk-on; CHF leads on carry-shift, CAD on tariff relief, gold consolidates $4494; REVERT removed (3-loss streak); caution for FOMC Minutes in 41min",
+  "summary_ar": "إعادة شراء الخزانة تدعم المخاطرة؛ الفرنك يتصدر بتحول الكاري، الكندي بتأجيل التعريفات، الذهب يستقر عند 4494$؛ إزالة REVERT (3 خسائر متتالية)؛ حذر لمحضر الفيدرالي خلال 41 دقيقة",
   "news_events": "USD:1787162400:FOMC_Meeting_Minutes"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,
