@@ -2369,3 +2369,73 @@ summary_ar=إيران تهدد أهداف عسكرية أوروبية، الإم
 mind=focused
 psyche_flags=awareness,fear,prudence
 intuition=none
+
+
+# 2026-08-19 07:56 UTC
+## Council debate
+
+**Chief Macro Economist:** Bond yields stabilizing after the 19Y spike; Treasury selloff narrative is 12-24h stale now. Growth/inflation cycle unchanged: US resilient, Europe weak, Asia mixed. No new macro catalyst since yesterday's rout eased. Neutral.
+
+**Central-Bank Watcher:** FOMC Minutes in 10 hours (18:00 UTC) will be the next real catalyst; Lagarde spoke 46 min ago (routine WEF remarks, no policy shift). BoE expected to hold rates rest of year per headlines. RBA's Hauser warning (5h old) already priced into AUD. No surprises brewing. Neutral stance until Minutes.
+
+**Geopolitical & Crisis Analyst:** Iran-Europe threat headline is 1 hour old, but it's conditional ("if Trump escalates") and non-specific. UAE cutting Iran trade (4.5h old) is real but backward-looking (yesterday's missile attack). No new strikes, no immediate escalation. This is a 24-48h story, not a breaking crisis. Downgrade from danger to caution. Safe-havens (CHF/JPY/gold) holding gains but not extending. Oil's Hormuz premium is 4 days old and consolidating, not spiking.
+
+**FX Strategist:** USD holding modest bid (+0.2 fair). EUR weakness from geopolitics is stale (1-4h old headlines, no fresh catalyst). GBP neutral after in-line CPI. JPY/CHF safe-haven demand real but not accelerating. AUD/NZD/CAD range-bound. No clear directional edge beyond what we already have. Biases should stay flat unless new facts emerge.
+
+**Gold & Oil Trader:** Gold at $4400s, consolidating yesterday's safe-haven rally; no fresh catalyst to push toward $4500. Oil holding $85 on Hormuz uncertainty but 4-day rally is mature; needs new supply disruption to extend. Both assets in "wait and see" mode. Neutral to slight fade risk if geopolitics calm further.
+
+**Equity / Risk-Sentiment Desk:** Asian stocks down modestly on bond jitters (stale story). Tech selloff yesterday was bond-yield driven, not panic. VIX not spiking. Risk-off is mild, not accelerating. Indices bias -0.2 is appropriate but no reason to deepen it. Mixed regime, not full risk-off.
+
+**Risk Manager:** Account at $492.94, -0.08% today, SHOCK book on 1-loss streak (removed per lesson). No emergency triggers. Danger mode was justified 15 min ago for the Iran headline, but that headline is now 1h old with no follow-through. Downgrade to caution. Keep risk_mult 0.5 (conservative) until FOMC Minutes pass. EUR block can lift (geopolitics not escalating). Restore allow_books to include COUNCIL (we have conf 0.55, some biases near 0.7 threshold).
+
+**Market Historian:** Iran threatening Europe: analogous to 2020 Soleimani aftermath (threats, no immediate action; gold/oil spiked then faded within 48h). UAE cutting Iran trade is real but not a market-moving event (bilateral trade flow, not supply shock). Oil's 4-day rally on Hormuz risk rhymes with 2019 tanker attacks (oil held elevated 1-2 weeks then faded as traffic resumed). Current setup: safe-havens extended but not parabolic; fade risk rising if no new escalation by end of day. CHF/JPY gains likely to consolidate rather than extend without fresh catalyst. Price context still dead (all data corrupted), so cannot confirm if moves are extended vs range—major blind spot.
+
+**Chairman:** Geopolitics headline is 1h old, no escalation since. Danger mode was correct initially but now over-cautious. Downgrade to caution, raise risk_mult to 0.6 (from 0.5). Lift EUR block (no fresh EUR-specific catalyst). Keep safe-haven biases (CHF/JPY/gold) but do not raise them (no new evidence). Oil bias stays +0.2 (Hormuz risk real but rally mature). Restore COUNCIL to allow_books (conf 0.55, CHF bias 0.4 approaching threshold). FOMC Minutes in 10h: set news_block USD 580-640 min. No shocks, no prefer_symbols (no clean edge). Confidence 0.55 (unchanged; stale headlines, no price data).
+
+---
+
+## Psyche
+
+**Awareness (fired=yes):** Comparing to 15min-ago directives: we were in danger mode for a 1h-old Iran headline with no follow-through. That's over-reaction (Fear detector should have caught it). Decision memory shows we've been in caution 0.6 conf for 7+ hours with minor tweaks; no major flip-flopping, but danger->caution now is correcting an over-reach. Lessons applied: SHOCK removed (correct), "other" book still unaddressed (governance hole remains). Scorecard empty (no accuracy data to weight voices). Mental note: we're flying blind without price context for 8+ hours.
+
+**Greed (fired=no):** Confidence 0.55, biases modest (max |0.4|), risk_mult lowering not raising, no "easy money" language. Council is cautious, not greedy. No action needed.
+
+**Fear (fired=yes):** Danger mode 15min ago was over-reaction to a conditional threat headline (Iran "if Trump escalates"). We froze in danger, blocked EUR pairs, cut risk_mult to 0.5 based on one 1h-old headline with no follow-through. Classic fear response. Chairman correctly downgrading to caution now. Restoring balance: caution is appropriate, danger was not. EUR block lift is correct (no ongoing EUR-specific threat).
+
+**Prudence (fired=yes):** CHF bias 0.4 and JPY 0.2 are based on 1-4h old safe-haven flow headlines (funding-currency shift, geopolitics). No second independent source for CHF extending beyond 0.4, and Market Historian warns fade risk rising. Gold 0.2 is reasonable (consolidating, not extending). No bias >= 0.7, so no strong calls to audit. Prudence approves current levels but warns: do not raise safe-havens without fresh catalyst.
+
+**Intuition (fired=no):** No strong hunch beyond the evidence. Markets are in a holding pattern ahead of FOMC Minutes. If forced to guess: geopolitics premium will fade by end of week if no new escalation, and bond yields will stay elevated (structural, not cyclical). But this is not actionable now. No intuition override needed.
+
+---
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.6
+regime=mixed
+bias_USD=0.2
+bias_EUR=-0.2
+bias_GBP=0.0
+bias_JPY=0.2
+bias_AUD=0.0
+bias_NZD=0.1
+bias_CAD=0.0
+bias_CHF=0.4
+bias_XAU=0.2
+bias_XAG=0.0
+bias_OIL=0.2
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=-0.2
+conf=0.55
+allow_books=INTRADAY,SWING,POSITION,REVERT,COUNCIL
+news_block=EUR:132:162;USD:580:640;USD:627:657;AUD:1047:1077
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=Iran-Europe threat 1h old, no escalation; safe-havens (CHF/JPY/gold) holding but not extending; oil consolidating Hormuz premium; caution mode, FOMC Minutes in 10h
+summary_ar=تهديد إيران لأوروبا منذ ساعة، لا تصعيد؛ الملاذات الآمنة (فرنك، ين، ذهب) تصمد لكن لا تمتد؛ النفط يتماسك على علاوة هرمز؛ وضع حذر، محضر الفيدرالي بعد 10 ساعات
+mind=focused
+psyche_flags=awareness,fear,prudence
+intuition=none
