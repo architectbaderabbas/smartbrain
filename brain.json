@@ -1,5 +1,5 @@
 {
- "ts": 1787166566,
+ "ts": 1787166603,
  "council_ts": 1787163191,
  "directives": {
   "risk_mode": "caution",
@@ -34,7 +34,7 @@
   "news_events": "none"
  },
  "error": null,
- "watchman": "trade CHFJPY REVERT -5.29$ -> post-mortem written; REVERT 3 losses in a row -> removed from allow_books",
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,
