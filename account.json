@@ -1,12 +1,12 @@
 {
   "account": 10225,
-  "balance": 487.54,
+  "balance": 483.07,
   "books": [
     {
-      "loss_streak": 1,
+      "loss_streak": 2,
       "name": "INTRADAY",
-      "net": -4.6,
-      "trades": 1,
+      "net": -9.07,
+      "trades": 2,
       "wins": 0
     },
     {
@@ -32,18 +32,9 @@
     }
   ],
   "brain_mode": "CAUTION",
-  "day_pl": -9.47,
-  "equity": 483.55,
-  "positions": [
-    {
-      "book": "BREAKOUT",
-      "lots": 0.04,
-      "opened": 1787137200,
-      "pl": -3.99,
-      "symbol": "NZDJPY",
-      "type": "SELL"
-    }
-  ],
-  "ts": 1787130705,
-  "week_pl": -9.47
+  "day_pl": -9.95,
+  "equity": 483.07,
+  "positions": [],
+  "ts": 1787131605,
+  "week_pl": -9.95
 }
