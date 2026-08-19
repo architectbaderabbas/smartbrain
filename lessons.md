@@ -339,3 +339,22 @@ Balance dropped $2.26 in 2 hours on SHOCK alone (475.10→472.99), following $19
 
 **ACTION:** allow_
 
+### 2026-08-19 16:09 UTC
+**GER40 SHOCK BUY 0.09 lots · 7 min · exit SL · P/L 0.9$ · council bias 0 (CAUTION)**
+## POST-MORTEM ANALYSIS
+
+**TRADE SUMMARY:**
+SHOCK book bought GER40 at 26131.74 (0.09 lots), held 7 minutes, hit stop-loss at 26140.26 for +$0.9. Independent robot operating during 10+ hour price context outage. Council bias neutral (0.0) for GER40, mode CAUTION, allows SHOCK – permitted but **fourth SHOCK trade in 2 hours, now showing 2 SL hits, 2 time-exits, net -$1.17**.
+
+**ALIGNMENT & BIAS ACCURACY:**
+SHOCK bought with council's neutral GER40 bias (0.0) in CAUTION mode, 1h43min before FOMC Minutes. Price rallied 8.5 points then reversed through stop – **council's neutral stance was correct** (DAX now 26137, essentially flat from entry). No directional edge either way. But neutrality in CAUTION mode means "don't trade unless you see something we don't" – **SHOCK saw nothing; it's firing randomly**.
+
+**ROOT CAUSE OF LOSS (WIN):**
+**Luck, not edge**. This is a **scratch win (+$0.9) that masks systemic failure**: SHOCK has now taken 4 trades in 2 hours (GER40 SELL -$0.13, USOIL SELL -$1.72, GER40 BUY +$0.9, plus earlier USOIL -$0.22). Net: **-$1.17 across 4 trades, 50% SL hit rate, zero time-exits that worked**. The +$0.9 came from price briefly spiking 8 points before reversing – pure variance in a 7-minute window with no catalyst. **SHOCK is coin-flipping in a data blackout**, and this win doesn't change that diagnosis.
+
+**CONCRETE LESSON:**
+**A small win after three failures doesn't validate a broken strategy – SHOCK's 4-trade sequence shows no edge, just noise-trading during context outage**. The robot is "independent" by design, but **independence doesn't mean immunity from suspension when it's bleeding capital**. Lesson: **"Council cannot control SHOCK" is a design excuse, not a trading rule – when any book (independent or not) shows 0% edge over 4+ trades in 2 hours, the human operator must intervene, not wait for the council to 'allow' it."**
+
+**DIRECTIVE CHANGE:**
+Balance recovered $0.9 but **SHOCK's 2-hour performance is -$1.17 net, 50% SL rate, zero conviction**. Combined with REVERT's -$19.39 bleed earlier, account is down $20.56 in 4 hours (492.03→473.89 after this trade). **Immediate recommendation: operator must disable SHOCK EA manually** – council's allow_books cannot control it, but **human override is mandatory when a book shows systematic
+

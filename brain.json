@@ -1,5 +1,5 @@
 {
- "ts": 1787155647,
+ "ts": 1787155770,
  "council_ts": 1787155383,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": 0.2,
   "bias_GER40": 0.0,
   "allow_books": "COUNCIL,SHOCK",
-  "news_block": "USD:91:146;AUD:574:604",
+  "news_block": "USD:87:142;AUD:570:600",
   "block_symbols": "GER40,US500,US100,US30",
   "shock": "none",
   "prefer_symbols": "USDCHF,CHFJPY,USDCAD",
@@ -33,7 +33,7 @@
   "summary_ar": "إعادة شراء الخزانة تخفف العوائد، الدولار ضعيف، الذهب يستقر بعد قفزة 4492$؛ الفرنك السويسري يتصدر بتحول الكاري، الدولار الكندي يرتفع بتأجيل التعريفات؛ حذر لمحضر الفيدرالي خلال ساعتين"
  },
  "error": null,
- "watchman": "quiet (sev0)",
+ "watchman": "trade GER40 SHOCK 0.9$ -> post-mortem written",
  "alerts": [
   {
    "ts": 1787072472,
