@@ -202,3 +202,4 @@
 - 2026-08-19 13:07 UTC · heartbeat · quiet (sev0)
 - 2026-08-19 13:10 UTC · heartbeat · trade NZDUSD REVERT -6.9$ -> post-mortem written
 - 2026-08-19 13:11 UTC · heartbeat · trade NZDUSD REVERT -6.9$ -> post-mortem written
+- 2026-08-19 13:12 UTC · FULL COUNCIL triggered: scheduled full council (last 60 min ago)

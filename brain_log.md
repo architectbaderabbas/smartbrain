@@ -2360,3 +2360,69 @@ summary_ar=الفرنك السويسري مدعوم هيكلياً (تحول ت�
 mind=scattered
 psyche_flags=awareness,fear,prudence,intuition
 intuition=The 10-hour price context outage is the real crisis; robots losing on whipsaw not wrong bias; trust CHF structural story as only clear signal
+
+
+# 2026-08-19 13:12 UTC
+## Council debate
+
+**Chief Macro Economist:** US debt hits $40T early, bond yields at 19-year highs creating financial stress globally. Growth still positive but debt dynamics worsening. EUR zone competitiveness eroding per Lagarde. Mixed macro picture, no clear directional edge.
+
+**Central-Bank Watcher:** FOMC Minutes in 4h47min is the key event. Bond yield pullback suggests market pricing less hawkish Fed. Lagarde warned on competitiveness but no policy signal. RBA's Hauser said rates may need to rise if inflation persists – AUD employment data in 12h17min critical. No surprises today.
+
+**Geopolitical & Crisis Analyst:** Iran-Europe military threat now 3h56min old with zero follow-up – classic headline fade. UAE-Iran embargo is real but localized. War rhetoric stale, no new escalation. Safe-haven premium decaying naturally. Oil Hormuz risk priced, not extending.
+
+**FX Strategist:** CHF structural bid from carry-trade shift (yen intervention aftermath) is the only clean multi-day story – 4 sources, 9+ hours persistent. USD modest support from yields. EUR weak on Lagarde competitiveness warnings. GBP/JPY/AUD/NZD all neutral, no fresh catalysts. Prefer CHF crosses.
+
+**Gold & Oil Trader:** Gold at $4,370, headlines say "upside momentum fading" – consolidating after safe-haven spike. Oil holding Hormuz premium but not extending, Venezuela deals and supply uncertainty balanced. Both assets in wait-and-see mode pre-FOMC. Bias trimmed to +0.1 each.
+
+**Equity / Risk-Sentiment Desk:** Tech selloff yesterday, futures flat today. Bond yield stabilization helping. VIX not spiking. Risk sentiment mixed, not risk-on or risk-off. Indices neutral pre-FOMC. No directional edge.
+
+**Risk Manager:** Day P/L -$13.48 (-2.79%), approaching -3% emergency threshold. REVERT just took largest loss (-$6.90) trading blind. Price context outage now 10h36min – FIVE trades taken with zero market visibility. BREAKOUT still active despite ban (won +$5.52 4h ago). Emergency: must halt robot trading until data restored and banned EAs confirmed disabled. Only COUNCIL (human discretion) should operate.
+
+**Market Historian:** **Price context is completely dead – cannot provide historical analog without knowing where assets sit vs range/momentum/volatility.** Last 5 trades all blind. The REVERT loss mirrors classic mean-reversion failure: fading momentum without knowing if price is extended. Historically, trading systematic strategies without market data produces random results regardless of bias accuracy. CHF carry-trade shift analog: 2015 SNB floor removal saw CHF bid persist for weeks, but current move is smaller and driven by yen intervention spillover, not SNB action – less conviction. **Cannot validate any bias without price data.**
+
+**Chairman:** We have a **data crisis masquerading as a trading problem**. Five consecutive trades taken blind, -$13.48 today, approaching emergency halt threshold. Risk Manager is correct: robots cannot trade systematically without price context. REVERT's -$6.90 loss proves mean-reversion without support/resistance data is suicide. BREAKOUT still active despite explicit ban 6+ hours ago – directives are being ignored. **Immediate action required:** Suspend all robot trading (risk_mult=0.0), allow only COUNCIL book (human discretion), demand MT4 operator restore data feed and confirm EA disablement. On fundamentals: CHF structural bid is real (carry-trade shift, multiple sources, 9+ hours), but confidence capped at 0.5 due to zero price visibility. All other biases stay modest. FOMC Minutes in <5h, AUD jobs in 12h – news blocks set. **This is a systems failure, not a market call.**
+
+## Psyche
+
+**Awareness:** fired=yes. Comparing last 8 decisions: we've held CHF +0.4..+0.7 for 8 hours (good consistency), but trimmed other biases 5 times in 6 hours without new facts – classic scattered behavior. The TRADE JOURNAL shows BREAKOUT won +$5.52 at 12:11 UTC (4h ago) AFTER we banned it at 09:56 UTC – **our directives are being ignored, making post-mortems theater**. REVERT loss was directionally aligned with bias but strategy failed due to data outage we've complained about for 10 hours without fixing. We're flip-flopping on confidence (0.65→0.5→0.55→0.6→0.6→0.5→0.55) while the real problem (no data, non-compliance) persists.
+
+**Greed:** fired=no. Confidence 0.5-0.6 range, biases modest, no "easy money" language. Council is appropriately cautious.
+
+**Fear:** fired=yes. We've been in caution/danger mode for 8+ hours, removed two books from allow_books, and are now proposing risk_mult=0.0 (full halt) when the account is at -2.79% (below -3% threshold but not -4%). The fear is **justified** (data outage + non-compliance is real danger), but we're over-reacting by halting when the root cause is operational (fix the feed, disable EAs) not market risk. Restore balance: keep caution mode, risk_mult=0.5 (danger-level risk), allow_books=COUNCIL only, but don't full-halt – let human discretion trade if opportunity arises.
+
+**Prudence:** fired=yes. CHF +0.4 bias has two sources (carry-trade shift articles, yen intervention spillover) and a weak historical analog (2015 SNB, but different trigger). Downgrade to +0.3 until price context confirms the move is real. All other biases are already ≤0.2, meeting prudence standard. The proposal to halt robots is prudent given data outage.
+
+**Intuition:** The price context outage is a **test of discipline** – the market is still there, moving, creating opportunities, but we're blind. The real trade is doing nothing until we can see again. CHF bid is probably real, but trading it blind risks catching a reversal at the worst time. Trust the process: fix the systems first, trade second.
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.5
+regime=mixed
+bias_USD=0.2
+bias_EUR=-0.2
+bias_GBP=0.0
+bias_JPY=0.0
+bias_AUD=0.1
+bias_NZD=0.1
+bias_CAD=0.0
+bias_CHF=0.3
+bias_XAU=0.1
+bias_XAG=0.0
+bias_OIL=0.1
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=-0.1
+conf=0.5
+allow_books=COUNCIL
+news_block=USD:282:312;USD:312:342;AUD:732:762
+block_symbols=none
+shock=none
+prefer_symbols=USDCHF,CHFJPY,EURCHF
+summary=Price context outage 10h36min forces robot suspension; only COUNCIL (human) trades; CHF structural bid trimmed to +0.3; demand data restoration and EA compliance before resuming
+summary_ar=انقطاع بيانات الأسعار 10 ساعات و36 دقيقة يفرض تعليق الروبوتات؛ فقط COUNCIL (بشري) يتداول؛ دعم الفرنك السويسري مخفض إلى +0.3؛ نطالب باستعادة البيانات والامتثال قبل الاستئناف
+mind=fearful
+psyche_flags=awareness,fear,prudence,intuition
+intuition=The price context outage is a test of discipline – the market is still moving but we're blind; the real trade is doing nothing until we can see again
