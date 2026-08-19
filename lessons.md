@@ -303,18 +303,16 @@ Council cannot control REVERT, but **balance has dropped $16.78 in 4 hours (492.
 SHOCK book sold GER40 at 26103.36, held 10 minutes, time-stopped at 26108.74 for -$0.13 (0.02 lots). Independent robot operating during 10+ hour price context outage. Council bias neutral (0.0) for GER40, mode CAUTION, allows only COUNCIL/SHOCK books – SHOCK permitted but questionable in current conditions.
 
 **ALIGNMENT & BIAS ACCURACY:**
-SHOCK sold with council's neutral GER40 bias (0.0) in CAUTION mode 3h32min before FOMC Minutes. Price context shows DAX at 26107.46 (live) – market moved +5.38 points against the trade, tiny noise. Council bias was appropriately neutral (no directional edge). **Not a bias error – council correctly identified no strong GER40 view**. SHOCK's "shock detection" logic found no real edge either (time-exit = no conviction).
+SHOCK sold with council's neutral GER40 bias (0.0) in CAUTION mode. Price drifted up 5 points (+0.02%) then time-stopped – **no directional conviction either way**. Council bias was appropriately neutral (no strong view), but neutrality ≠ tradeable edge. DAX at 26107 is near current levels, no obvious shock/event. SHOCK's premise is to catch violent moves around news/events; **in a dead-calm CAUTION mode with FOMC Minutes 3h32min away, there was no shock to trade**.
 
 **ROOT CAUSE OF LOSS:**
-**SHOCK trading indices in CAUTION mode with no fresh catalyst during data blackout**. The -$0.13 loss is trivial (variance), but the *pattern* matters: SHOCK's second time-exit in 11 recent trades, both losses, both during CAUTION with no event. Earlier USOIL SHOCK also time-exited (-$0.22). **SHOCK's edge comes from volatility spikes around news/events** – in a quiet pre-FOMC holding pattern with no price context, it's coin-flipping. The 10-minute exit proves the "shock" wasn't real.
+**SHOCK robot trading in a non-shock environment during data blackout**. Loss is tiny (-$0.13), but the *logic failure* is significant: SHOCK fired on GER40 with no fresh catalyst, no volatility spike, no event – just chopping 10 minutes before timing out. This is the **second SHOCK time-exit in 11 trades** (USOIL earlier, also -$0.22). Pattern: SHOCK hunting for moves that don't exist in CAUTION mode between events. Not a council error (bias was correct), but **book selection error: SHOCK shouldn't trade indices in low-conviction windows**.
 
 **CONCRETE LESSON:**
-**In CAUTION mode with no fresh event and prefer_symbols defined, SHOCK should only trade the preferred list** (currently USDCHF, XAUUSD, CHFJPY). GER40 isn't preferred, council bias is neutral, and we're 3.5 hours from a known risk event. SHOCK's edge is event-driven volatility, not grinding indices in limbo. Lesson: **"allow_books=SHOCK" should be conditional – restrict SHOCK to prefer_symbols when mind=focused and no shock flagged**.
+**In CAUTION mode with no active shock/event and price context offline, SHOCK book should be restricted to FX pairs or disabled on indices**. GER40/US indices need clear catalysts (data, headlines, breakouts) to justify SHOCK's aggressive entry logic. Trading them in a 3.5-hour news vacuum = fishing for variance. Lesson: **"allow_books=SHOCK" should be conditional: SHOCK on FX only when regime=mixed + no imminent tier-1 event; indices require active catalyst or regime=trending**.
 
 **DIRECTIVE CHANGE:**
-SHOCK is allowed but misapplied. Tighten: **allow_books should specify "SHOCK:prefer_only" in CAUTION mode** to prevent random index trades. However, -$0.13 doesn't justify panic. The real issue is REVERT bleeding -$19.39 (operator problem). For SHOCK: **add prefer_symbols enforcement to SHOCK's entry filter** – if council says "focused" and lists 3 symbols, SHOCK shouldn't wander to GER40.
+Council currently allows SHOCK, but **two time-exits in calm conditions suggest edge erosion**. Recommend tightening: **allow_books=COUNCIL only** until FOMC Minutes pass (18:17 UTC) or price context restored. If operator insists on keeping SHOCK active, **add directive: block_symbols=GER40,US500,US100,US30** (restrict SHOCK to FX where it has better time-exit ratio). Risk_mult at 0.6 is appropriate for CAUTION.
 
-**LESSON:** SHOCK's edge is event-driven volatility – in CAUTION mode pre-event with no catalyst, restrict it to council's preferred symbols only, not random indices.
-
-**ACTION:** allow_books=COUNCIL,SHOCK:prefer_only; risk_
+**LESSON:** SHOCK book trading indices in CAUTION mode with no catalyst produces time-exits, not edge – restrict to FX or disable until event/volat
 
