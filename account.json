@@ -1,6 +1,6 @@
 {
   "account": 10225,
-  "balance": 489.99,
+  "balance": 489.39,
   "books": [
     {
       "loss_streak": 0,
@@ -32,9 +32,26 @@
     }
   ],
   "brain_mode": "CAUTION",
-  "day_pl": -3.03,
-  "equity": 489.99,
-  "positions": [],
-  "ts": 1787144205,
-  "week_pl": -3.03
+  "day_pl": -6.25,
+  "equity": 483.74,
+  "positions": [
+    {
+      "book": "SWING",
+      "lots": 0.01,
+      "opened": 1787155200,
+      "pl": -4.25,
+      "symbol": "XAGUSD",
+      "type": "BUY"
+    },
+    {
+      "book": "REVERT",
+      "lots": 0.05,
+      "opened": 1787155200,
+      "pl": -1.4,
+      "symbol": "NZDUSD",
+      "type": "SELL"
+    }
+  ],
+  "ts": 1787144467,
+  "week_pl": -6.25
 }
