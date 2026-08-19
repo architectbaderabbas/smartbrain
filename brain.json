@@ -1,5 +1,5 @@
 {
- "ts": 1787112728,
+ "ts": 1787113612,
  "council_ts": 1787112728,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": -0.2,
   "bias_GER40": -0.2,
   "allow_books": "INTRADAY,SWING,POSITION,REVERT",
-  "news_block": "GBP:101:131;EUR:171:201;EUR:356:386;USD:801:831;USD:841:871;AUD:1261:1291",
+  "news_block": "GBP:87:117;EUR:157:187;EUR:342:372;USD:787:817;USD:827:857;AUD:1247:1277",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "GBPUSD,USDCHF",
@@ -33,6 +33,7 @@
   "summary_ar": "صدمة التعرفة انتهت (3 ساعات)، التوترات تتلاشى، عائدات السندات تهدأ؛ الجنيه ضعيف قبل CPI (1.8 ساعة)، الفرنك مدعوم، الدولار الأسترالي يرتفع على RBA المتشدد؛ وضع حذر، لا بيانات أسعار"
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,
