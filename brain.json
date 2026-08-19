@@ -1,5 +1,5 @@
 {
- "ts": 1787145216,
+ "ts": 1787145255,
  "council_ts": 1787145130,
  "directives": {
   "risk_mode": "caution",
@@ -33,7 +33,7 @@
   "summary_ar": "انقطاع بيانات الأسعار 10 ساعات و36 دقيقة يفرض تعليق الروبوتات؛ فقط COUNCIL (بشري) يتداول؛ دعم الفرنك السويسري مخفض إلى +0.3؛ نطالب باستعادة البيانات والامتثال قبل الاستئناف"
  },
  "error": null,
- "watchman": "quiet (sev0)",
+ "watchman": "trade XAGUSD other:0 6.75$ -> post-mortem written",
  "alerts": [
   {
    "ts": 1787072472,

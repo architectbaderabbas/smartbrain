@@ -138,5 +138,25 @@
   "t_out": 1787155838,
   "tp": 0.58749,
   "ts": 1787145038
+ },
+ {
+  "balance": 489.24,
+  "book": "other:0",
+  "brain_bias": 0,
+  "brain_mode": "CAUTION",
+  "dir": "BUY",
+  "in": 64.935,
+  "lots": 0.01,
+  "mins": 14,
+  "out": 65.07,
+  "pl": 6.75,
+  "pos": 29327410,
+  "reason": "MANUAL",
+  "sl": 63.389,
+  "symbol": "XAGUSD",
+  "t_in": 1787155200,
+  "t_out": 1787156044,
+  "tp": 68.032,
+  "ts": 1787145256
  }
 ]

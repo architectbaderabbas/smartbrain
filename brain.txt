@@ -1,5 +1,5 @@
-ts=1787145216
-generated=2026-08-19 13:13 UTC (watchman heartbeat; council 1 min ago)
+ts=1787145255
+generated=2026-08-19 13:14 UTC (watchman heartbeat; council 0 min ago)
 version=1
 risk_mode=caution
 risk_mult=0.5
@@ -30,4 +30,4 @@ summary_ar=انقطاع بيانات الأسعار 10 ساعات و36 دقيق�
 mind=fearful
 psyche_flags=awareness,fear,prudence,intuition
 intuition=The price context outage is a test of discipline – the market is still moving but we're blind; the real trade is doing nothing until we can see again
-watchman=quiet (sev0)
+watchman=trade XAGUSD other:0 6.75$ -> post-mortem written
