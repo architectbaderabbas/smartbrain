@@ -1,5 +1,5 @@
 {
- "ts": 1787107568,
+ "ts": 1787108212,
  "council_ts": 1787107312,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": -0.2,
   "bias_GER40": -0.2,
   "allow_books": "INTRADAY,SWING,POSITION,REVERT",
-  "news_block": "GBP:175:245;EUR:255:325;EUR:440:510;USD:895:985;AUD:1355:1435",
+  "news_block": "GBP:165:235;EUR:245:315;EUR:430:500;USD:885:975;AUD:1345:1425",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "GBPUSD,USDCHF",
@@ -33,7 +33,7 @@
   "summary_ar": "ارتفاع الين استُنفد (+0.1)؛ الفرنك السويسري مرتفع على تحول عملة التمويل (+0.5)؛ الجنيه ضعيف قبل CPI بـ3.3 ساعات (-0.4)؛ الدولار الأسترالي مُخفّض (+0.2)؛ تلاشي النفط مستمر؛ وضع حذر"
  },
  "error": null,
- "watchman": "trade AUDUSD other 0.91$ -> post-mortem written",
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,

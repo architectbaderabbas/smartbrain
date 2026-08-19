@@ -1,6 +1,6 @@
 {
   "account": 10225,
-  "balance": 492.03,
+  "balance": 492.94,
   "books": [
     {
       "loss_streak": 1,
@@ -15,21 +15,19 @@
       "net": -0.22,
       "trades": 1,
       "wins": 0
+    },
+    {
+      "loss_streak": 0,
+      "name": "OTHER",
+      "net": 0.91,
+      "trades": 1,
+      "wins": 1
     }
   ],
   "brain_mode": "CAUTION",
-  "day_pl": 0.47,
-  "equity": 493.49,
-  "positions": [
-    {
-      "book": "SWING",
-      "lots": 0.01,
-      "opened": 1787083200,
-      "pl": 1.46,
-      "symbol": "AUDUSD",
-      "type": "SELL"
-    }
-  ],
-  "ts": 1787107305,
-  "week_pl": 0.47
+  "day_pl": -0.08,
+  "equity": 492.94,
+  "positions": [],
+  "ts": 1787108205,
+  "week_pl": -0.08
 }
