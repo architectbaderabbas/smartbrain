@@ -1,5 +1,5 @@
 {
- "ts": 1787148730,
+ "ts": 1787148821,
  "council_ts": 1787148730,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": 0.2,
   "bias_GER40": -0.1,
   "allow_books": "COUNCIL,SHOCK",
-  "news_block": "USD:227:257;USD:257:287;AUD:677:707",
+  "news_block": "USD:226:256;USD:256:286;AUD:676:706",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDCHF,CHFJPY,EURCHF,XAUUSD",
@@ -33,6 +33,7 @@
   "summary_ar": "الخزانة تضاعف إعادة شراء السندات، العوائد تنخفض من أعلى مستوى في 19 عامًا؛ الدولار يضعف، الذهب يقفز 100$، الأسهم ترتفع؛ دعم الفرنك السويسري هيكلي؛ وضع حذر، محضر الفيدرالي خلال 3 ساعات و47 دقيقة"
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,
