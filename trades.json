@@ -338,5 +338,25 @@
   "t_out": 1787173265,
   "tp": 92.895,
   "ts": 1787162466
+ },
+ {
+  "balance": 460.69,
+  "book": "REVERT",
+  "brain_bias": 0.2,
+  "brain_mode": "CAUTION",
+  "dir": "SELL",
+  "in": 198.049,
+  "lots": 0.02,
+  "mins": 191,
+  "out": 198.468,
+  "pl": -5.29,
+  "pos": 29369550,
+  "reason": "SL",
+  "sl": 198.471,
+  "symbol": "CHFJPY",
+  "t_in": 1787165854,
+  "t_out": 1787177358,
+  "tp": 196.5,
+  "ts": 1787166558
  }
 ]

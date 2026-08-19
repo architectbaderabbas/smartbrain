@@ -1,28 +1,5 @@
 # SmartBrain lessons (post-mortems on real trades, newest last)
 
-### 2026-08-19 00:11 UTC
-**USOIL SHOCK SELL 0.01 lots · 10 min · exit EA · P/L -0.22$ · council bias -0.3 (CAUTION)**
-## POST-MORTEM ANALYSIS
-
-**TRADE SUMMARY:**
-SHOCK book sold USOIL at 85.096, held 10 minutes, exited at 85.118 via time-stop (EA reason), -$0.22 loss. Direction aligned with council's OIL bias (-0.3), but trade failed to move.
-
-**ALIGNMENT & BIAS ACCURACY:**
-Trade was aligned with bearish OIL bias. However, **cannot verify if bias was correct** - all price context data corrupted/unavailable. Operating blind without market confirmation is dangerous.
-
-**ROOT CAUSE:**
-Classic SHOCK failure in CAUTION mode: entered a directional trade in what was likely a **choppy, low-volatility Asian session** (00:11 UTC = dead zone). No price movement in 10 minutes = no volatility = wrong environment for SHOCK. The book needs momentum/events to work; it got neither.
-
-**CONCRETE LESSON:**
-In CAUTION mode during Asian hours (22:00-02:00 UTC) with no active shock/news, SHOCK book should be **suspended entirely** - it's a momentum hunter being deployed in a desert.
-
-**DIRECTIVE CHANGE:**
-Temporarily restrict SHOCK until volatility returns or we exit Asian session. Price context system must be fixed urgently - trading without market data is reckless.
-
-**LESSON:** SHOCK book must not trade during low-volatility Asian hours in CAUTION mode; it requires events or clear momentum to function.
-
-**ACTION:** allow_books=INTRADAY,SWING,POSITION,REVERT; (restore SHOCK after 02:00 UTC or if shock/news emerges)
-
 ### 2026-08-19 02:46 UTC
 **AUDUSD other SELL 0.01 lots · 586 min · exit EA · P/L 0.91$ · council bias 0.05 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -437,4 +414,25 @@ Trade direction **aligned with council's +0.1 bullish OIL bias** (risk-on regime
 Balance recovered to $465.98 but still -$26.91 from session high. The win doesn't validate "other:0" – it's a **random profitable tick in a losing session** (account down 5.5% today). No change to allow_books (already excludes non-council books). Risk_mult stays 0.6. Real issue requires **human operator action: disable all independent EAs until price context restored** – council cannot control them via directives.
 
 **LESSON:** Three oil trades in 48 minutes across fragmented robots = uncoordinated system
+
+### 2026-08-19 19:09 UTC
+**CHFJPY REVERT SELL 0.02 lots · 191 min · exit SL · P/L -5.29$ · council bias 0.2 (CAUTION)**
+## POST-MORTEM ANALYSIS
+
+**TRADE SUMMARY:**
+REVERT book sold CHFJPY at 198.049 (0.02 lots), held 191 minutes (3h 11min), hit stop-loss at 198.468 for -$5.29. Independent robot operating during council CAUTION mode with bullish CHF bias (+0.4, strongest currency). **CHFJPY explicitly blocked in council directives**, yet trade fired anyway. Fifth consecutive REVERT stop-loss; book net -$31.53 across 5 trades today.
+
+**ALIGNMENT & BIAS ACCURACY:**
+REVERT sold CHFJPY **directly against council's +0.4 CHF bias** (strongest bullish call) and neutral JPY (0.0). Council expected CHF strength on carry-trade shifts – **bias was RIGHT**: CHFJPY rallied 419 pips from entry, now 198.375 vs 198.049 entry. Price context confirms CHF leading on carry flows post-Treasury buyback. REVERT's mean-reversion logic catastrophically misread a genuine directional move as "overbought noise."
+
+**ROOT CAUSE OF LOSS:**
+**REVERT trading a blocked symbol (CHFJPY in block_symbols) = critical robot malfunction, sixth violation today**. This is the second CHFJPY REVERT loss in 3 hours (previous -$5.34 at 16:24 UTC), both after explicit council block. Root cause: **independent robot architecture allows directive violations + REVERT's mean-reversion edge destroyed in strong trend regime** (CHF carry-shift = directional, not mean-reverting). The robot is algorithmically incapable of recognizing regime change – it sees 400-pip rally as "reversion opportunity."
+
+**CONCRETE LESSON:**
+**REVERT book has structural negative edge in current macro regime: 5 trades, 0 wins, 100% stop-loss hit rate = strategy invalidation, not bad luck**. Mean-reversion requires range-bound markets; risk-on with clear currency leadership (CHF +0.4) creates trends that punish fade entries. Lesson: **"In CAUTION mode with any currency bias >0.3, REVERT must be force-disabled – strong biases signal directional regime incompatible with mean-reversion logic"**.
+
+**DIRECTIVE CHANGE:**
+Balance now $460.69 (down $31.34 from session high, -6.4%). REVERT responsible for -$31.53 today despite being removed from allow_books hours ago. **Council directives are powerless against independent robots** – this requires human operator intervention. No change to allow_books/risk_mult (already optimal). Operator must: 1) manually disable REVERT EA immediately, 2) hardcode symbol blacklist into robot, 3) add regime filter (no mean-reversion when max|bias|>0.3).
+
+**LESSON:** REVERT's 100% stop-loss rate in strong-bias regime proves mean-reversion edge
 

@@ -1,5 +1,5 @@
 {
- "ts": 1787165891,
+ "ts": 1787166566,
  "council_ts": 1787163191,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": 0.2,
   "bias_GER40": 0.0,
   "allow_books": "COUNCIL,SHOCK",
-  "news_block": "USD:-40:10",
+  "news_block": "none",
   "block_symbols": "GER40,US500,US100,US30,EURGBP,CHFJPY",
   "shock": "none",
   "prefer_symbols": "USDCHF,USDCAD",
@@ -34,7 +34,7 @@
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
+ "watchman": "trade CHFJPY REVERT -5.29$ -> post-mortem written; REVERT 3 losses in a row -> removed from allow_books",
  "alerts": [
   {
    "ts": 1787072472,
