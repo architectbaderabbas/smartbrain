@@ -1,5 +1,5 @@
 {
- "ts": 1787102816,
+ "ts": 1787103479,
  "council_ts": 1787102816,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": -0.2,
   "bias_GER40": -0.2,
   "allow_books": "INTRADAY,SWING,POSITION,REVERT",
-  "news_block": "AUD:-23:47;GBP:267:337;EUR:337:397;EUR:522:582;USD:967:1057;AUD:1437:1507",
+  "news_block": "AUD:-34:36;GBP:256:326;EUR:326:386;EUR:511:571;USD:956:1046;AUD:1426:1496",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "GBPUSD,USDCHF",
@@ -33,6 +33,7 @@
   "summary_ar": "هدوء بيع السندات من أعلى مستوى بـ19 سنة؛ الجيوسياسة تلاشت؛ ارتفاع الين استُنفد؛ الدولار الأسترالي يرتفع على زخم إعادة تسعير الفيدرالي؛ الجنيه ضعيف قبل CPI؛ وضع حذر"
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,
