@@ -1,6 +1,6 @@
 {
- "ts": 1787132512,
- "council_ts": 1787129816,
+ "ts": 1787133417,
+ "council_ts": 1787133417,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.6,
@@ -9,12 +9,12 @@
   "bias_USD": 0.2,
   "bias_EUR": -0.2,
   "bias_GBP": 0.0,
-  "bias_JPY": 0.2,
+  "bias_JPY": 0.1,
   "bias_AUD": 0.0,
   "bias_NZD": 0.1,
   "bias_CAD": 0.0,
   "bias_CHF": 0.5,
-  "bias_XAU": 0.3,
+  "bias_XAU": 0.2,
   "bias_XAG": 0.0,
   "bias_OIL": 0.2,
   "bias_US500": 0.0,
@@ -22,18 +22,17 @@
   "bias_US30": 0.0,
   "bias_GER40": -0.2,
   "allow_books": "INTRADAY,SWING,POSITION,REVERT,COUNCIL",
-  "news_block": "EUR:19:49;USD:484:514;USD:514:544;AUD:934:964",
+  "news_block": "EUR:8:38;USD:473:503;USD:503:533;AUD:923:953",
   "block_symbols": "none",
   "shock": "none",
-  "prefer_symbols": "USDCHF,CHFJPY,EURCHF,XAUUSD",
-  "mind": "focused",
-  "psyche_flags": "awareness,fear,prudence,intuition",
+  "prefer_symbols": "USDCHF,CHFJPY,EURCHF",
+  "mind": "scattered",
+  "psyche_flags": "awareness,fear,prudence",
   "intuition": "Bond yield reversal from multi-decade high is the real story; if it continues through NY session, risk assets will try to bounce despite geopolitical simmer",
-  "summary": "Bond yields pull back from 19Y highs easing equity stress; Iran-Europe threat 2h old with no follow-up; CHF bid on structural carry-trade shift; gold momentum intact; caution holds through FOMC Minute",
-  "summary_ar": "عائدات السندات تتراجع من أعلى مستوى في 19 عام مما يخفف ضغط الأسهم؛ تهديد إيران لأوروبا منذ ساعتين بلا متابعة؛ الفرنك مدعوم بتحول هيكلي في تجارة الفائدة؛ زخم الذهب مستمر؛ الحذر يستمر حتى محضر الفيدرالي"
+  "summary": "Bond yield pullback easing financial stress; geopolitics fading (Iran-Europe 3h stale); CHF structural bid holds; gold/oil consolidating premiums; BREAKOUT EA must be disabled manually NOW",
+  "summary_ar": "تراجع عائدات السندات يخفف الضغط المالي؛ التوترات الجيوسياسية تتلاشى (إيران-أوروبا قديم 3 ساعات)؛ الفرنك السويسري مدعوم هيكلياً؛ الذهب والنفط يدمجان المكاسب؛ يجب تعطيل BREAKOUT يدوياً فوراً"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,
