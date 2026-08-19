@@ -250,4 +250,4 @@
 - 2026-08-19 17:10 UTC · FULL COUNCIL triggered: scheduled full council (last 67 min ago)
 - 2026-08-19 17:13 UTC · heartbeat · quiet (sev0)
 - 2026-08-19 17:14 UTC · heartbeat · trade USOIL SHOCK 0.18$ -> post-mortem written
-- 2026-08-19 17:27 UTC · heartbeat · trade EURGBP REVERT -6.85$ -> post-mortem written; REVERT 3 losses in a row -> removed from allow_books
+- 2026-08-19 17:28 UTC · heartbeat · quiet (sev0)
