@@ -1,6 +1,6 @@
 {
   "account": 10225,
-  "balance": 492.94,
+  "balance": 492.14,
   "books": [
     {
       "loss_streak": 1,
@@ -24,10 +24,27 @@
       "wins": 1
     }
   ],
-  "brain_mode": "DANGER",
-  "day_pl": -0.08,
-  "equity": 492.94,
-  "positions": [],
-  "ts": 1787126205,
-  "week_pl": -0.08
+  "brain_mode": "CAUTION",
+  "day_pl": -5.05,
+  "equity": 487.97,
+  "positions": [
+    {
+      "book": "BREAKOUT",
+      "lots": 0.04,
+      "opened": 1787137200,
+      "pl": -2.46,
+      "symbol": "AUDJPY",
+      "type": "SELL"
+    },
+    {
+      "book": "BREAKOUT",
+      "lots": 0.04,
+      "opened": 1787137200,
+      "pl": -1.71,
+      "symbol": "NZDJPY",
+      "type": "SELL"
+    }
+  ],
+  "ts": 1787127105,
+  "week_pl": -5.05
 }
