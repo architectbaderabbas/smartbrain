@@ -1,6 +1,6 @@
 {
   "account": 10225,
-  "balance": 472.99,
+  "balance": 473.89,
   "books": [
     {
       "loss_streak": 0,
@@ -17,11 +17,11 @@
       "wins": 1
     },
     {
-      "loss_streak": 3,
+      "loss_streak": 0,
       "name": "SHOCK",
-      "net": -2.07,
-      "trades": 3,
-      "wins": 0
+      "net": -1.17,
+      "trades": 4,
+      "wins": 1
     },
     {
       "loss_streak": 3,
@@ -39,14 +39,14 @@
     }
   ],
   "brain_mode": "CAUTION",
-  "day_pl": -3.62,
-  "equity": 469.42,
+  "day_pl": -6.15,
+  "equity": 466.77,
   "positions": [
     {
       "book": "SWING",
       "lots": 0.01,
       "opened": 1787156045,
-      "pl": -0.38,
+      "pl": -0.32,
       "symbol": "GBPJPY",
       "type": "SELL"
     },
@@ -54,7 +54,7 @@
       "book": "REVERT",
       "lots": 0.07,
       "opened": 1787162400,
-      "pl": -3.43,
+      "pl": -4.29,
       "symbol": "EURGBP",
       "type": "SELL"
     },
@@ -62,42 +62,34 @@
       "book": "REVERT",
       "lots": 0.02,
       "opened": 1787165854,
-      "pl": -0.35,
+      "pl": -2.51,
       "symbol": "CHFJPY",
       "type": "SELL"
-    },
-    {
-      "book": "SHOCK",
-      "lots": 0.09,
-      "opened": 1787166139,
-      "pl": 0.59,
-      "symbol": "GER40",
-      "type": "BUY"
     }
   ],
   "prices": {
-    "AUDJPY": 112.894,
-    "AUDUSD": 0.71228,
-    "CHFJPY": 198.064,
-    "EURGBP": 0.85738,
-    "EURJPY": 184.874,
-    "EURNZD": 1.96718,
-    "EURUSD": 1.16644,
-    "GBPJPY": 215.622,
-    "GBPUSD": 1.36045,
-    "GER40": 26137.46,
-    "NZDJPY": 93.971,
-    "NZDUSD": 0.59292,
-    "UKOIL": 92.933,
-    "US100": 29569.17,
-    "US500": 7740.98,
-    "USDCAD": 1.3819,
-    "USDCHF": 0.80018,
-    "USDJPY": 158.493,
-    "USOIL": 86.179,
-    "XAGUSD": 65.99,
-    "XAUUSD": 4493.36
+    "AUDJPY": 112.904,
+    "AUDUSD": 0.7127,
+    "CHFJPY": 198.235,
+    "EURGBP": 0.85747,
+    "EURJPY": 184.883,
+    "EURNZD": 1.96666,
+    "EURUSD": 1.16709,
+    "GBPJPY": 215.613,
+    "GBPUSD": 1.36106,
+    "GER40": 26140.46,
+    "NZDJPY": 94.007,
+    "NZDUSD": 0.59341,
+    "UKOIL": 92.839,
+    "US100": 29575.55,
+    "US500": 7744.98,
+    "USDCAD": 1.38137,
+    "USDCHF": 0.79909,
+    "USDJPY": 158.416,
+    "USOIL": 86.111,
+    "XAGUSD": 65.918,
+    "XAUUSD": 4497.66
   },
-  "ts": 1787155648,
-  "week_pl": -3.62
+  "ts": 1787155982,
+  "week_pl": -6.15
 }
