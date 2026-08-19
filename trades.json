@@ -278,5 +278,25 @@
   "t_out": 1787170360,
   "tp": 93.435,
   "ts": 1787159560
+ },
+ {
+  "balance": 472.15,
+  "book": "SHOCK",
+  "brain_bias": 0.1,
+  "brain_mode": "CAUTION",
+  "dir": "SELL",
+  "in": 86.336,
+  "lots": 0.01,
+  "mins": 1,
+  "out": 86.318,
+  "pl": 0.18,
+  "pos": 29378368,
+  "reason": "SL",
+  "sl": 86.466,
+  "symbol": "USOIL",
+  "t_in": 1787170367,
+  "t_out": 1787170433,
+  "tp": 86.141,
+  "ts": 1787159633
  }
 ]

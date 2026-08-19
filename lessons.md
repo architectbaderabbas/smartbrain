@@ -377,3 +377,22 @@ SHOCK bought Brent **aligned with council's +0.1 bullish OIL bias** (summary not
 **DIRECTIVE CHANGE:**
 Balance bled $17.82 since session start (489.89→472.07), **SHOCK responsible for -$2.89, REVERT for -$19.39 before removal**. Account now at **critical threshold** (started ~$492, down 4%). **Immediate action: allow_books=COUNCIL** (remove SHOCK entirely until price context restored AND 24 hours
 
+### 2026-08-19 17:14 UTC
+**USOIL SHOCK SELL 0.01 lots · 1 min · exit SL · P/L 0.18$ · council bias 0.1 (CAUTION)**
+## POST-MORTEM ANALYSIS
+
+**TRADE SUMMARY:**
+SHOCK book sold USOIL at 86.336 (0.01 lots), held 1 minute, hit stop-loss at 86.318 for +$0.18. Independent robot operating during 10+ hour price context outage, 41 minutes before FOMC Minutes release. Council bias mildly bullish OIL (+0.1), mode CAUTION, allows SHOCK – **sixth SHOCK trade in 3 hours, fifth stop-loss hit, second USOIL trade in 4 minutes**.
+
+**ALIGNMENT & BIAS ACCURACY:**
+SHOCK sold USOIL **against council's +0.1 bullish OIL bias** (risk-on regime, Treasury buyback support). Price dropped 18 pips before reversing – **accidental scratch win, not validated edge**. Council bias was directionally sound (WTI now 86.366, up from entry) but SHOCK traded opposite direction. This contradicts nothing because **SHOCK doesn't read council biases by design** – but exposes the flaw: firing both directions into noise without context = coin-flip.
+
+**ROOT CAUSE OF WIN (LUCK, NOT EDGE):**
+**Stop-loss hit for profit = SL placed below entry on a SELL, capturing random 18-pip jitter before FOMC-driven reversal**. This is **sixth SHOCK trade in 3 hours** (GER40 -$0.13, USOIL -$1.72, GER40 +$0.9, UKOIL -$1.72, USOIL +$0.18) – **machine-gunning oil twice in 4 minutes, both stopped out for ±$1.72 net zero**. Pattern conclusive: SHOCK is broken, hunting phantom volatility in a data-blind, event-risk minefield. The +$0.18 is **noise masking strategy failure**: 6 trades, 5 SL hits, net -$2.71 = negative edge confirmed.
+
+**CONCRETE LESSON:**
+**Two opposite USOIL trades in 4 minutes (BUY -$1.72, SELL +$0.18) = SHOCK has zero directional conviction, just reacting to tick noise without context**. "Independent robot" status is now a liability – it's bleeding account death-by-a-thousand-cuts while council watches helplessly. Lesson: **"After 5 stop-loss hits in one session, SHOCK must be force-suspended regardless of magic number independence – treat as malfunctioning hardware, pull the plug"**.
+
+**DIRECTIVE CHANGE:**
+Balance effectively flat after 6 SHOCK trades ($475.10→$472.15 net, -$2.95 including this), but **psychological damage severe: account down $19.88 from session high (492.03), REVERT purged, SHOCK now demonstrably broken**. With FOMC Minutes 41 minutes away and price feeds dead, **continued
+

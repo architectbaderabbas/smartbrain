@@ -1,5 +1,5 @@
-ts=1787159591
-generated=2026-08-19 17:13 UTC (watchman heartbeat; council 2 min ago)
+ts=1787159640
+generated=2026-08-19 17:14 UTC (watchman heartbeat; council 0 min ago)
 version=1
 risk_mode=caution
 risk_mult=0.6
@@ -31,4 +31,4 @@ mind=focused
 psyche_flags=awareness,prudence
 intuition=none
 news_events=USD:1787162400:FOMC_Meeting_Minutes
-watchman=quiet (sev0)
+watchman=trade USOIL SHOCK 0.18$ -> post-mortem written

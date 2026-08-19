@@ -1,5 +1,5 @@
 {
- "ts": 1787159591,
+ "ts": 1787159640,
  "council_ts": 1787159435,
  "directives": {
   "risk_mode": "caution",
@@ -34,7 +34,7 @@
   "news_events": "USD:1787162400:FOMC_Meeting_Minutes"
  },
  "error": null,
- "watchman": "quiet (sev0)",
+ "watchman": "trade USOIL SHOCK 0.18$ -> post-mortem written",
  "alerts": [
   {
    "ts": 1787072472,
