@@ -1,5 +1,5 @@
 {
- "ts": 1787143043,
+ "ts": 1787143312,
  "council_ts": 1787141511,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": -0.1,
   "allow_books": "SWING,POSITION,REVERT,COUNCIL",
-  "news_block": "USD:314:344;USD:344:374;AUD:764:794",
+  "news_block": "USD:310:340;USD:340:370;AUD:760:790",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDCHF,CHFJPY,EURCHF",
@@ -33,7 +33,7 @@
   "summary_ar": "الفرنك السويسري مدعوم هيكلياً (تحول تجارة الفائدة)؛ التوترات تتلاشى؛ عائدات السندات مستقرة؛ تحيزات متواضعة قبل محضر الفيدرالي؛ انقطاع بيانات الأسعار 10 ساعات مشكلة حرجة"
  },
  "error": null,
- "watchman": "trade NZDUSD BREAKOUT 5.52$ -> post-mortem written",
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,

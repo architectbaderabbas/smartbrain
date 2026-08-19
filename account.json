@@ -1,13 +1,13 @@
 {
   "account": 10225,
-  "balance": 481.97,
+  "balance": 489.99,
   "books": [
     {
-      "loss_streak": 2,
+      "loss_streak": 0,
       "name": "INTRADAY",
-      "net": -9.07,
-      "trades": 2,
-      "wins": 0
+      "net": -3.55,
+      "trades": 3,
+      "wins": 1
     },
     {
       "loss_streak": 1,
@@ -26,32 +26,15 @@
     {
       "loss_streak": 0,
       "name": "OTHER",
-      "net": 0.91,
-      "trades": 1,
-      "wins": 1
+      "net": 3.41,
+      "trades": 2,
+      "wins": 2
     }
   ],
   "brain_mode": "CAUTION",
-  "day_pl": -7.73,
-  "equity": 485.29,
-  "positions": [
-    {
-      "book": "BREAKOUT",
-      "lots": 0.03,
-      "opened": 1787148000,
-      "pl": 1.26,
-      "symbol": "NZDUSD",
-      "type": "BUY"
-    },
-    {
-      "book": "REVERT",
-      "lots": 0.08,
-      "opened": 1787148000,
-      "pl": 2.06,
-      "symbol": "EURGBP",
-      "type": "SELL"
-    }
-  ],
-  "ts": 1787142405,
-  "week_pl": -7.73
+  "day_pl": -3.03,
+  "equity": 489.99,
+  "positions": [],
+  "ts": 1787143305,
+  "week_pl": -3.03
 }
