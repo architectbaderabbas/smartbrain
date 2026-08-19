@@ -1,6 +1,6 @@
 {
   "account": 10225,
-  "balance": 480.59,
+  "balance": 475.23,
   "books": [
     {
       "loss_streak": 0,
@@ -24,10 +24,10 @@
       "wins": 0
     },
     {
-      "loss_streak": 2,
+      "loss_streak": 3,
       "name": "REVERT",
-      "net": -14.05,
-      "trades": 2,
+      "net": -19.39,
+      "trades": 3,
       "wins": 0
     },
     {
@@ -39,57 +39,57 @@
     }
   ],
   "brain_mode": "CAUTION",
-  "day_pl": -14.65,
-  "equity": 476.09,
+  "day_pl": -9.46,
+  "equity": 472.81,
   "positions": [
     {
       "book": "SWING",
       "lots": 0.01,
       "opened": 1787156045,
-      "pl": -0.3,
+      "pl": -0.23,
       "symbol": "GBPJPY",
-      "type": "SELL"
-    },
-    {
-      "book": "REVERT",
-      "lots": 0.02,
-      "opened": 1787162400,
-      "pl": -3.72,
-      "symbol": "CHFJPY",
       "type": "SELL"
     },
     {
       "book": "REVERT",
       "lots": 0.07,
       "opened": 1787162400,
-      "pl": -0.48,
+      "pl": -2.19,
       "symbol": "EURGBP",
+      "type": "SELL"
+    },
+    {
+      "book": "SHOCK",
+      "lots": 0.02,
+      "opened": 1787164500,
+      "pl": 0,
+      "symbol": "GER40",
       "type": "SELL"
     }
   ],
   "prices": {
-    "AUDJPY": 112.849,
-    "AUDUSD": 0.71198,
-    "CHFJPY": 197.853,
-    "EURGBP": 0.85708,
-    "EURJPY": 184.798,
-    "EURNZD": 1.96747,
-    "EURUSD": 1.16595,
-    "GBPJPY": 215.608,
-    "GBPUSD": 1.36035,
-    "GER40": 26124.46,
-    "NZDJPY": 93.924,
-    "NZDUSD": 0.59259,
-    "UKOIL": 92.816,
-    "US100": 29533.92,
-    "US500": 7739.48,
-    "USDCAD": 1.38246,
-    "USDCHF": 0.80105,
-    "USDJPY": 158.495,
-    "USOIL": 86.065,
-    "XAGUSD": 65.536,
-    "XAUUSD": 4482.57
+    "AUDJPY": 112.865,
+    "AUDUSD": 0.71242,
+    "CHFJPY": 198.203,
+    "EURGBP": 0.85726,
+    "EURJPY": 184.821,
+    "EURNZD": 1.96691,
+    "EURUSD": 1.16662,
+    "GBPJPY": 215.592,
+    "GBPUSD": 1.36087,
+    "GER40": 26103.26,
+    "NZDJPY": 93.96,
+    "NZDUSD": 0.59308,
+    "UKOIL": 92.75,
+    "US100": 29491.17,
+    "US500": 7729.73,
+    "USDCAD": 1.38187,
+    "USDCHF": 0.79928,
+    "USDJPY": 158.424,
+    "USOIL": 85.951,
+    "XAGUSD": 65.614,
+    "XAUUSD": 4487.22
   },
-  "ts": 1787153303,
-  "week_pl": -14.65
+  "ts": 1787154156,
+  "week_pl": -9.46
 }
