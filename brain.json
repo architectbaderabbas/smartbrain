@@ -1,5 +1,5 @@
 {
- "ts": 1787155992,
+ "ts": 1787156549,
  "council_ts": 1787155383,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": 0.2,
   "bias_GER40": 0.0,
   "allow_books": "COUNCIL,SHOCK",
-  "news_block": "USD:84:139;AUD:567:597",
+  "news_block": "USD:75:130;AUD:558:588",
   "block_symbols": "GER40,US500,US100,US30",
   "shock": "none",
   "prefer_symbols": "USDCHF,CHFJPY,USDCAD",
@@ -30,7 +30,8 @@
   "psyche_flags": "awareness,greed,prudence",
   "intuition": "none",
   "summary": "Treasury buyback eases yields, USD weak, gold consolidates $4492 spike; CHF leads on carry-shift, CAD rallies on tariff reprieve; caution for FOMC Minutes in 2h",
-  "summary_ar": "إعادة شراء الخزانة تخفف العوائد، الدولار ضعيف، الذهب يستقر بعد قفزة 4492$؛ الفرنك السويسري يتصدر بتحول الكاري، الدولار الكندي يرتفع بتأجيل التعريفات؛ حذر لمحضر الفيدرالي خلال ساعتين"
+  "summary_ar": "إعادة شراء الخزانة تخفف العوائد، الدولار ضعيف، الذهب يستقر بعد قفزة 4492$؛ الفرنك السويسري يتصدر بتحول الكاري، الدولار الكندي يرتفع بتأجيل التعريفات؛ حذر لمحضر الفيدرالي خلال ساعتين",
+  "news_events": "USD:1787162400:FOMC_Meeting_Minutes"
  },
  "error": null,
  "watchman": "quiet (sev0)",
