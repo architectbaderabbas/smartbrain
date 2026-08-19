@@ -117,7 +117,46 @@ def get_headlines():
 STOOQ = {"EURUSD":"eurusd","GBPUSD":"gbpusd","USDJPY":"usdjpy","AUDUSD":"audusd","NZDUSD":"nzdusd","USDCAD":"usdcad",
          "USDCHF":"usdchf","XAUUSD":"xauusd","XAGUSD":"xagusd","WTI":"cl.f","BRENT":"cb.f","SPX":"^spx","NDX":"^ndx","DJI":"^dji","DAX":"^dax",
          "VIX":"^vix","DXY":"dx.f","US10Y":"10usy.b","NIKKEI":"^nkx"}
-def get_prices():
+PX_CACHE = "price_context.json"
+def account_prices():
+    """Live prices posted by the robots (account.json 'prices') - no rate limits, refreshed every 15 min."""
+    try:
+        a = json.load(open(os.path.join(OUT_DIR, "account.json"), encoding="utf-8"))
+        if NOW - int(a.get("ts", 0)) > 2 * 3600: return {}
+        return {k: float(v) for k, v in (a.get("prices") or {}).items()}
+    except Exception: return {}
+LIVE_MAP = {"EURUSD":"EURUSD","GBPUSD":"GBPUSD","USDJPY":"USDJPY","AUDUSD":"AUDUSD","NZDUSD":"NZDUSD","USDCAD":"USDCAD","USDCHF":"USDCHF",
+            "XAUUSD":"XAUUSD","XAGUSD":"XAGUSD","WTI":"USOIL","BRENT":"UKOIL","SPX":"US500","NDX":"US100","DJI":"US30","DAX":"GER40"}
+def get_prices(max_age_h=6):
+    """Daily context from stooq (cached, refreshed every max_age_h hours to respect their limits)
+    + live 'last' overlaid from the robots' account report."""
+    p = os.path.join(OUT_DIR, PX_CACHE)
+    out = None
+    try:
+        c = json.load(open(p, encoding="utf-8"))
+        if NOW - int(c.get("ts", 0)) <= max_age_h * 3600 and sum(1 for v in c.get("px", {}).values() if isinstance(v, dict) and v.get("last")) >= 8:
+            out = c["px"]
+    except Exception: pass
+    if out is None:
+        out = _stooq_prices()
+        ok = sum(1 for v in out.values() if isinstance(v, dict) and v.get("last"))
+        if ok >= 8:
+            json.dump({"ts": NOW, "px": out}, open(p, "w", encoding="utf-8"))
+        else:
+            try: out = json.load(open(p, encoding="utf-8"))["px"]; out["_note"] = "stooq unavailable - using cached daily context"
+            except Exception: pass
+    live = account_prices()
+    for name, sym in LIVE_MAP.items():
+        if sym in live:
+            d = out.get(name) if isinstance(out.get(name), dict) else {}
+            d = dict(d); d["last"] = live[sym]; d["live"] = True; d.pop("error", None)
+            out[name] = d
+    for sym, v in live.items():
+        if sym not in LIVE_MAP.values(): out.setdefault(sym, {"last": v, "live": True})
+    if live: out["_live_ts"] = dt.datetime.utcfromtimestamp(NOW).strftime("%H:%M UTC") + " (robots' prices)"
+    return out
+
+def _stooq_prices():
     """Daily closes (stooq, no key) -> compact context per asset."""
     out = {}
     for name, sym in STOOQ.items():
@@ -245,13 +284,19 @@ def add_lesson(text):
     try: old = open(p, encoding="utf-8").read()
     except Exception: pass
     entry = f"### {dt.datetime.utcfromtimestamp(NOW).strftime('%Y-%m-%d %H:%M UTC')}\n{text.strip()}\n\n"
-    blocks = [b for b in (old.split("### ") if old else []) if b.strip()]
+    blocks = [b for b in (old.split("### ") if old else []) if b.strip() and not b.lstrip().startswith("#")]
     blocks = blocks[-19:]  # keep the last 20 lessons
     new = "# SmartBrain lessons (post-mortems on real trades, newest last)\n\n" + "".join("### " + b for b in blocks) + entry
     open(p, "w", encoding="utf-8").write(new)
 
 PM_SYSTEM = """You are the POST-MORTEM desk of a trading brain (a council of experts advising MetaTrader robots).
-A real trade just closed. Analyse it honestly in <= 8 short lines:
+A real trade just closed. Analyse it honestly in <= 8 short lines.
+STRUCTURE (do not forget): only SmartMulti books (INTRADAY, SWING, POSITION, SHOCK, COUNCIL) obey the council's allow_books/
+risk_mult/biases. REVERT, BREAKOUT and 'other:<magic>' are older independent robots that never read the council - by design,
+not a violation. All positions are protected by the account-wide Profit Guard (BE at 0.5R, give-back close, lock half MFE).
+So: never call a trade 'rogue'/'mutiny'; for the independent robots give a verdict on THEIR edge and, if needed, a
+recommendation for the human operator (reduce risk / switch off). Your ACTION may only touch allow_books (SmartMulti books)
+and risk_mult (never below 0.4); write 'none' otherwise.
 1) What the robot did (book, symbol, direction, hold time, exit reason).
 2) Was it aligned with or against the council's bias at the time? Was the council's bias itself right (use PRICE CONTEXT)?
 3) Root cause of the loss/win: entry logic (e.g. shock in a choppy no-event market), stop placement, time stop, news, council error, or plain variance.
@@ -312,6 +357,12 @@ MetaTrader 5 trading system running 24/7 for a small retail account (~$500-5000,
 The robots trade: FX majors/crosses (mean reversion H1, session breakout H1, H4 trend pullback,
 D1 breakout) and a SHOCK engine on gold/oil/indices that catches sudden event-driven moves (1-15 min).
 The robots CANNOT read news. YOU are their eyes and judgment. They read your directives every 5 minutes.
+IMPORTANT STRUCTURE: only the SmartMulti books (INTRADAY, SWING, POSITION, SHOCK, COUNCIL) read and obey your directives
+(allow_books, risk_mult, biases, blocks). REVERT (mean-reversion H1) and BREAKOUT (session breakout H1) and any book named
+'other:<magic>' are OLDER INDEPENDENT robots that do NOT read the council by design - they are not 'rogue'; they are only
+protected by the account-wide Profit Guard (break-even at 0.5R, give-back close, lock half of MFE). When they lose, judge
+them on their own merits and, if they are net losers, RECOMMEND to the human operator (Pedro) to reduce their risk or switch
+them off - never call them insubordinate. trades.json field 'book' tells you which robot traded.
 
 The council (debate honestly, disagree when needed, then converge):
  1. Chief Macro Economist - growth/inflation/rates cycle per economy.

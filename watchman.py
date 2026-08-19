@@ -166,6 +166,7 @@ def handle_trade(last):
                 elif k == "risk_mult":
                     try:
                         nv = float(v); cv = float(d.get("risk_mult", 1.0))
+                        if nv < 0.4: nv = 0.4   # post-mortem may not starve the robots
                         if nv < cv: d["risk_mult"] = str(round(max(0.25, nv), 2)); note += f"; risk_mult={d['risk_mult']} (post-mortem)"
                     except Exception: pass
     last["directives"] = d
