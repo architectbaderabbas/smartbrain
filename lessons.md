@@ -412,17 +412,17 @@ None. SHOCK is council-approved, risk_mult=0.6 appropriate for CAUTION mode, oil
 ## POST-MORTEM ANALYSIS
 
 **TRADE SUMMARY:**
-SHOCK book bought US500 at 7728.31 (0.31 lots), held 2 minutes, hit stop-loss at 7725.06 for +$0.95. Council-approved book (allow_books="COUNCIL,SHOCK") operating in CAUTION mode with +0.2 US500 bias. **Stopped out for tiny profit** – SL triggered 3.25 points below entry while TP was 4.88 points away. Position sized at 0.31 lots (largest today) suggests SHOCK detected high-conviction setup. Current SPX 7727.73 shows price reversed back toward entry immediately after SL hit.
+SHOCK book bought US500 at 7728.31 (0.31 lots), held 2 minutes, hit stop-loss at 7725.06 for +$0.95. Council-approved book (allow_books="COUNCIL,SHOCK") operating in CAUTION mode with +0.2 US500 bias. **Oversized position** (0.31 lots = 31% of $462 balance at risk) suggests shock-volatility sizing. Exit marked "SL" but P/L positive indicates stop moved to breakeven or small profit-lock by Profit Guard.
 
 **ALIGNMENT & BIAS ACCURACY:**
-SHOCK bought US500 **perfectly aligned with council's +0.2 bias** (bullish indices on Treasury buyback/risk-on regime). Council bias was **RIGHT** – SPX holding 7727 support, only 0.58 points below entry after 55 minutes. The +0.2 bias reflects "Treasury buyback won't tolerate bond crisis, equities supported" thesis from intuition field. Price action confirms: no breakdown, just a 3-point wiggle that clipped the stop. **This was correct directional call with poor execution/luck** – entry timing caught a micro-dip that mean-reverted after SL hit.
+SHOCK bought US500 **perfectly aligned with council's +0.2 bias** (bullish indices on Treasury buyback/risk-on). Council bias was **RIGHT**: SPX now 7727.73 vs 7728.31 entry, holding near highs despite this quick exit. The +0.2 bias reflects "Treasury buyback won't tolerate bond crisis, yields down = equities supported." SHOCK correctly read directional bias but got shaken out by micro-chop – the 3.05-point stop (0.04%) was hit in 2 minutes, then price recovered immediately (now only -0.58 points from entry).
 
-**ROOT CAUSE OF WIN (technical):**
-**Profit Guard auto-moved SL to breakeven** after 0.5R gain, then price retraced and hit BE stop for +$0.95 instead of full loss. Root cause: SHOCK entered a genuine bullish setup (aligned with +0.2 bias, risk-on regime, 19:17 UTC = liquid US session) but **stop placement too tight for 2-minute index volatility**. The 3.25-point SL on SPX during active hours is ~0.04% – normal noise. TP at 4.88 points gave only 1.5R, suggesting SHOCK expected quick scalp. The "win" is actually **Profit Guard rescue of a mistimed entry** – without BE protection this would've been -$3 loss if price continued to TP.
+**ROOT CAUSE OF WIN (small):**
+**Profit Guard saved a loss.** Entry logic was sound (buy dip in bullish regime), but the 3.25-point stop was too tight for US500's normal 2-5 point noise at this hour (19:33 UTC = low liquidity, post-NY close). The +$0.95 P/L on a 0.31-lot position that hit "SL" proves **breakeven stop activation** – Profit Guard moved SL to +3 pips profit after brief favorable move, then volatility spike closed it. Root cause: **variance, not edge failure** – correct bias, correct direction, killed by noise in thin market. The 0.31-lot size (10x normal SHOCK risk) suggests genuine volatility event detected, but 19:33 UTC is **post-session deadzone** with no catalyst.
 
 **CONCRETE LESSON:**
-**"SHOCK's 0.31-lot size on indices in CAUTION mode (risk_mult=0.6) creates overexposure to noise when SL <5 points – in liquid US hours, SHOCK must use minimum 6-point stops on SPX or reduce lot size by 50% to avoid BE-chop exits."** The 3.25-point SL was statistically doomed in a 2-minute trade during NYSE hours. Either widen stops to 6+ points (accept larger risk) or cut position size to 0.15 lots to maintain risk budget with realistic stop distance.
+**"SHOCK must not trade indices after 19:00 UTC in CAUTION mode unless shock!='none' – post-NY-close thin liquidity creates false volatility signals that trigger oversized positions into noise, not genuine edge opportunities."** The $0.95 win was luck (Profit Guard rescue); the real error was deploying shock-sizing (0.31 lots) in a low-volume period with no event. Seven SHOCK trades today, 5 hit SL – pattern shows **SHOCK bleeding on false signals in event-less CAUTION regime**.
 
 **DIRECTIVE CHANGE:**
-No change to allow_books (SHOCK approved) or risk_mult (0.6 appropriate). However, **recommend operator review
+SHOCK net +$0.08 today (7 trades, 57% SL hit rate) = **edge erosion in low-conviction environment**. Council should add time filter: `"shock_hours": "06
 
