@@ -1,5 +1,5 @@
 {
- "ts": 1787174891,
+ "ts": 1787175377,
  "council_ts": 1787174891,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": 0.15,
   "bias_GER40": 0.0,
   "allow_books": "COUNCIL,SWING",
-  "news_block": "AUD:209:229",
+  "news_block": "AUD:201:221",
   "block_symbols": "GER40,EURGBP,CHFJPY",
   "shock": "none",
   "prefer_symbols": "USDCHF,USDCAD",
@@ -31,9 +31,10 @@
   "intuition": "none",
   "summary": "Treasury buyback regime holds; gold $4522 on real-yield drop, CHF leads carry-shift, CAD on tariff relief; SHOCK removed (5-loss streak, needs catalyst), caution for AUD jobs 4h",
   "summary_ar": "نظام إعادة الشراء مستمر؛ الذهب 4522$ بانخفاض العوائد الحقيقية، الفرنك يتصدر تحول الكاري، الكندي بتأجيل التعريفات؛ إزالة SHOCK (5 خسائر متتالية)، حذر للتوظيف الأسترالي خلال 4 ساعات",
-  "news_events": "none"
+  "news_events": "AUD:1787189400:Employment_Change;AUD:1787189400:Unemployment_Rate"
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,
