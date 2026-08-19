@@ -239,4 +239,4 @@
 - 2026-08-19 15:52 UTC · heartbeat · quiet (sev0)
 - 2026-08-19 15:58 UTC · heartbeat · quiet (sev0)
 - 2026-08-19 16:03 UTC · FULL COUNCIL triggered: scheduled full council (last 61 min ago)
-- 2026-08-19 16:06 UTC · heartbeat · trade USOIL SHOCK -1.72$ -> post-mortem written; SHOCK 3 losses in a row -> removed from allow_books
+- 2026-08-19 16:07 UTC · heartbeat · quiet (sev0)

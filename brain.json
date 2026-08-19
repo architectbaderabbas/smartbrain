@@ -1,5 +1,5 @@
 {
- "ts": 1787155616,
+ "ts": 1787155647,
  "council_ts": 1787155383,
  "directives": {
   "risk_mode": "caution",
@@ -21,8 +21,8 @@
   "bias_US100": 0.2,
   "bias_US30": 0.2,
   "bias_GER40": 0.0,
-  "allow_books": "COUNCIL",
-  "news_block": "USD:89:144;AUD:572:602",
+  "allow_books": "COUNCIL,SHOCK",
+  "news_block": "USD:91:146;AUD:574:604",
   "block_symbols": "GER40,US500,US100,US30",
   "shock": "none",
   "prefer_symbols": "USDCHF,CHFJPY,USDCAD",
@@ -33,7 +33,7 @@
   "summary_ar": "إعادة شراء الخزانة تخفف العوائد، الدولار ضعيف، الذهب يستقر بعد قفزة 4492$؛ الفرنك السويسري يتصدر بتحول الكاري، الدولار الكندي يرتفع بتأجيل التعريفات؛ حذر لمحضر الفيدرالي خلال ساعتين"
  },
  "error": null,
- "watchman": "trade USOIL SHOCK -1.72$ -> post-mortem written; SHOCK 3 losses in a row -> removed from allow_books",
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,
