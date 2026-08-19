@@ -1,5 +1,5 @@
 {
- "ts": 1787098325,
+ "ts": 1787099214,
  "council_ts": 1787098325,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": -0.2,
   "bias_GER40": -0.2,
   "allow_books": "INTRADAY,SWING,POSITION,REVERT",
-  "news_block": "AUD:35:105;GBP:325:395;EUR:395:455;EUR:580:640;USD:1025:1115;AUD:1495:1565",
+  "news_block": "AUD:21:91;GBP:311:381;EUR:381:441;EUR:566:626;USD:1011:1101;AUD:1481:1551",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "GBPUSD,USDCHF",
@@ -33,6 +33,7 @@
   "summary_ar": "هدوء بيع السندات من أعلى مستوى بـ19 سنة؛ صدمة KOSPI امتُصّت؛ الجيوسياسة تلاشت؛ ارتفاع الين استُنفد؛ الفرنك يرتفع كبديل تمويل؛ الجنيه ضعيف قبل CPI؛ وضع حذر"
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,
