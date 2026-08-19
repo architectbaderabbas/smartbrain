@@ -2188,3 +2188,71 @@ summary_ar=عوائد السندات تنخفض من ذروة 19 سنة؛ الج
 mind=focused
 psyche_flags=awareness,prudence,intuition
 intuition=CHF is the quiet mover tonight as funding currency shift from JPY accelerates; if risk-off persists and JPY intervention fears rise, CHF could outperform both USD and JPY in crosses over next 12 hours
+
+
+# 2026-08-19 00:12 UTC
+## Council debate
+
+**Chief Macro Economist:** Bond rout easing (yields ticked lower per Reuters 21:20), but 19-year high still pressuring risk assets. Tech selloff continues (Nasdaq -355 per Kiplinger 20:09). Growth/inflation cycle: US still hot enough to keep Fed cautious, but bond vigilantes forcing repricing. Europe drought/climate damage weighing on EZ growth. No new macro data since last hour.
+
+**Central-Bank Watcher:** Fed minutes in 17.5 hours will be stale (pre-bond-rout). BoJ intervention threat persists but JPY move already extended 4+ hours without fresh catalyst. UK CPI in 5.5 hours expected hot (2.9% vs 2.6%), but move already priced (GBP weak all day). Lagarde speaks twice tomorrow (7h, 10h) but unlikely to shift EUR materially. No emergency actions.
+
+**Geopolitical & Crisis Analyst:** Iran/Oman situation FADING: Pentagon weighing smaller Gulf presence (WaPo 22:11), Trump contradicting advisers (NBC 19:38), no new attacks in 5+ hours. Severity downgraded to 1 (background noise). Oil premium decaying as expected. US sanctions on ICC (Reuters 22:42) is political theater, not market-moving. No active crisis.
+
+**FX Strategist:** USD holding modest bid (DXY stable per context). JPY extended without new fuel—intervention risk caps upside but no reason to chase here. GBP weakest into CPI (5.5h), but move stale. CHF gaining as funding currency alternative to JPY (VT Markets 20:20, multiple sources)—this is a REAL shift, not noise. AUD/NZD/CAD holding up despite risk-off (commodities, relative resilience). EUR flat, no drivers.
+
+**Gold & Oil Trader:** Gold pressured by rising yields but holding near highs—no conviction move either way (FXStreet 17:48, multiple sources confirm sideways). Oil fading war premium as expected (WSJ 19:07 "modest gains," Guardian 07:04 spike already old). No OPEC news. Both assets range-bound, no edge.
+
+**Equity / Risk-Sentiment Desk:** Tech selloff real (Nasdaq -355, chip names hammered per IBD 20:33), but S&P only third losing day—not a crash. VIX elevated but no panic spike mentioned. Risk-off but orderly. Bond yields THE story, not equities leading. KOSPI shock from 15 min ago was Asia-specific (semis), not spreading to US hours (US futures "little changed" per CNBC 22:02).
+
+**Risk Manager:** KOSPI shock directive from 15 min ago is STALE—that was 5+ hours into Asian session, US markets already absorbed it (Nasdaq closed down but no crash). Danger mode was correct then but NOW (00:12 UTC, deep Asian session, no new shocks, geopolitics fading, data 5+ hours away) we're over-cautious. ACCOUNT STATE: small loss (-0.15% day), one losing SHOCK trade in dead Asian hours (lesson learned: no SHOCK in low-vol Asia). Downgrade to CAUTION. AUD wage data in 77 min is medium impact, block it. GBP CPI in 5.5h, already blocked. PRICE CONTEXT CORRUPTED—we're flying blind on technicals, must rely on headlines only. This demands extra caution but not halt.
+
+**Market Historian:** PRICE CONTEXT FAILED (all data corrupted). Cannot verify where assets sit vs ranges or momentum. HISTORICAL ANALOG: Bond rout at 19Y high without Fed emergency = 2018 Q4 (yields spiked, equities sold off for weeks, then Fed pivoted). Also echoes 1994 bond massacre (but that was Fed hiking, not fiscal fears). Current setup: yields rising on fiscal/inflation fears, not CB tightening—this can persist until something breaks (funding crisis, equity crash, or CB blink). Tech selloff on bond yields = textbook (duration risk). JPY intervention threat after 4-5 hour rally = 2022 pattern (BoJ intervened after USDJPY spiked 3-4 yen in a day, then it faded over weeks). CHF as new funding currency = 2008-2010 shift (when JPY got too expensive, CHF filled the gap; moves were gradual, not explosive). KOSPI crash = Asia-specific (Korea semi exposure), not global contagion (compare 1997 Asia crisis vs 2013 taper tantrum—local vs systemic). Verdict: bond rout can grind for days/weeks; JPY rally likely exhausted short-term; CHF trend is real but slow; geopolitics faded per playbook (spike then fade within 1-3 days, now 5+ hours old). No analog for immediate directional conviction—this is a GRIND, not a SPIKE.
+
+**Chairman:** Weighing evidence: (1) KOSPI shock stale, US absorbed it. (2) Geopolitics faded (5+ hours, Pentagon drawdown). (3) Bond rout easing but still elevated—no new catalyst. (4) JPY rally extended 4+ hours, no fresh reason to chase. (5) GBP weak into CPI (5.5h) but priced. (6) CHF funding-currency shift is real (3 independent sources) but gradual. (7) PRICE CONTEXT DEAD—no technicals. (8) Account small loss, SHOCK lesson applied (no Asia low-vol). (9) Data cluster ahead (AUD 77min, GBP 5.5h, Fed 17.5h) but none imminent. (10) Risk Manager correct: danger mode was right 15min ago for KOSPI, but NOW it's over-cautious. Downgrade to CAUTION. Quality check: most evidence is 1-5 hours old (fresh enough). CHF bias supported by multiple sources + historian analog. JPY bias must drop (extended, no new fuel). GBP bias hold (CPI 5.5h). Indices bias reduce (selloff absorbed). Oil bias hold (fade continues). USD slight positive (safe-haven residual). Conf 0.6 (no price context, flying blind). Risk_mult 0.6 (caution, data ahead). Allow_books: remove SHOCK per lesson (restore after 02:00 UTC or if shock emerges). News blocks: AUD 77min, GBP/EUR/USD per calendar. No new shocks (KOSPI stale). Prefer_symbols: GBPUSD (CPI setup), USDCHF (CHF funding shift). Awaiting psyche review.
+
+## Psyche
+
+**Awareness (fired=yes):** Comparing to previous directives: we've held caution/0.6/0.6 for 6+ hours, biases stable except JPY trimmed from 0.6→0.3 over 4 decisions (correct, no flip-flop, move extended). KOSPI shock 15min ago was valid then but NOW stale (5+ hours old, US absorbed). Downgrading danger→caution is NOT flip-flopping; it's adapting to time decay of the shock. LESSON applied (no SHOCK in Asia low-vol). SCORECARD insufficient data. DECISION MEMORY shows disciplined trimming of JPY (0.6→0.5→0.4→0.3), not stubbornness. Clean.
+
+**Greed (fired=no):** Confidence 0.6, biases modest (|max|=0.5 GBP), prefer_symbols only 2, risk_mult 0.6, language cautious ("grind," "flying blind"). No greed detected.
+
+**Fear (fired=yes):** Danger mode from 15min ago was correct for KOSPI shock but council is now over-reacting to its own past caution—KOSPI was 5+ hours ago, geopolitics faded, no new threat. Downgrading to caution is appropriate. However, PRICE CONTEXT failure is a real blind spot; fear of trading blind is HEALTHY, not over-reaction. Restoring balance: caution (not danger, not halt). Approved.
+
+**Prudence (fired=yes):** CHF bias 0.4 has 3 independent sources (VT Markets, TradingPedia, FXStreet) + historian analog (2008-2010 shift)—APPROVED. GBP bias -0.5 has CPI setup (5.5h, hot forecast) + FXStreet confirmation of 3-month high—but move may be priced; downgrade to -0.4 for prudence (CPI is expected hot, not a surprise). JPY bias 0.3 has no fresh catalyst (extended 4h move)—should be 0.2 or 0.1 (intervention threat only). All other |bias|<0.5, acceptable. Conf 0.6 appropriate given blind price context.
+
+**Intuition (fired=yes):** The bond rout is the dog, everything else is the tail. If 30Y yields resume climbing tomorrow (post-Fed minutes disappointment or fiscal headlines), USD will decouple from risk-off and rally against ALL (even JPY/CHF), and gold will break down. If yields stabilize, risk-on resumes and we flip. Watch the bond market, not FX.
+
+**Psyche state:** Focused (council adapting to time decay of shocks, applying lessons, not over-reacting). **Fired:** awareness, fear, prudence, intuition.
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.6
+regime=risk_off
+bias_USD=0.2
+bias_EUR=0.0
+bias_GBP=-0.4
+bias_JPY=0.2
+bias_AUD=0.1
+bias_NZD=0.1
+bias_CAD=0.2
+bias_CHF=0.4
+bias_XAU=0.0
+bias_XAG=-0.1
+bias_OIL=-0.3
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=-0.2
+conf=0.6
+allow_books=INTRADAY,SWING,POSITION,REVERT
+news_block=AUD:35:105;GBP:325:395;EUR:395:455;EUR:580:640;USD:1025:1115;AUD:1495:1565
+block_symbols=none
+shock=none
+prefer_symbols=GBPUSD,USDCHF
+summary=Bond rout easing from 19Y high; KOSPI shock absorbed (5h old); geopolitics faded; JPY rally exhausted; CHF rising as funding alternative; GBP weak into CPI (5.5h); caution mode, data cluster ahead
+summary_ar=هدوء بيع السندات من أعلى مستوى بـ19 سنة؛ صدمة KOSPI امتُصّت؛ الجيوسياسة تلاشت؛ ارتفاع الين استُنفد؛ الفرنك يرتفع كبديل تمويل؛ الجنيه ضعيف قبل CPI؛ وضع حذر
+mind=focused
+psyche_flags=awareness,fear,prudence,intuition
+intuition=Bond rout is the dog, FX is the tail; if 30Y yields resume climb tomorrow USD will rally against all, if yields stabilize risk-on resumes

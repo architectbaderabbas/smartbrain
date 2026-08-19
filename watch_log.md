@@ -118,3 +118,5 @@
 - 2026-08-18 23:56 UTC · FULL COUNCIL triggered: scheduled full council (last 63 min ago)
 - 2026-08-19 00:01 UTC · heartbeat · quiet (sev0)
 - 2026-08-19 00:11 UTC · heartbeat · trade USOIL SHOCK -0.22$ -> post-mortem written
+- 2026-08-19 00:11 UTC · heartbeat · ALERT sev2: KOSPI plunges 4.96% on US semiconductor slump; Asia tech selloff underway -> protocol applied, council convening
+- 2026-08-19 00:11 UTC · FULL COUNCIL triggered: ALERT sev2: KOSPI plunges 4.96% on US semiconductor slump; Asia tech selloff underway
