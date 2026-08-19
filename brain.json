@@ -1,5 +1,5 @@
 {
- "ts": 1787153299,
+ "ts": 1787153596,
  "council_ts": 1787151690,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": 0.2,
   "bias_GER40": 0.0,
   "allow_books": "COUNCIL,SHOCK",
-  "news_block": "USD:127:157;AUD:610:640",
+  "news_block": "USD:119:149;AUD:602:632",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDCHF,XAUUSD,CHFJPY",
@@ -33,7 +33,7 @@
   "summary_ar": "الخزانة تضاعف إعادة الشراء، الدولار يضعف، الذهب يخترق 4487$ مع انخفاض العوائد؛ الفرنك السويسري الأقوى (تحول الكاري)؛ الحذر مستمر لمحضر الفيدرالي خلال 3 ساعات و32 دقيقة"
  },
  "error": null,
- "watchman": "quiet (sev0)",
+ "watchman": "trade CHFJPY REVERT -5.34$ -> post-mortem written; REVERT 3 losses in a row -> removed from allow_books",
  "alerts": [
   {
    "ts": 1787072472,

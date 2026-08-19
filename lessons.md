@@ -272,3 +272,26 @@ Council directives cannot control REVERT. **Urgent recommendation for human oper
 
 **ACTION:** none (directives correct; escalate to operator for manual REVERT shutdown)
 
+### 2026-08-19 15:33 UTC
+**CHFJPY REVERT SELL 0.02 lots · 33 min · exit SL · P/L -5.34$ · council bias 0.2 (CAUTION)**
+## POST-MORTEM ANALYSIS
+
+**TRADE SUMMARY:**
+REVERT sold CHFJPY at 197.569, held 33 minutes, hit stop-loss at 197.992 for -$5.34 (0.02 lots). Independent robot, fourth consecutive REVERT loss in 4 hours. Direction was SELL CHF/JPY when council strongly favours CHF (+0.4, strongest bias) and neutral on JPY (0.0) = **directly against council's CHF-bullish view**. Price context confirms CHFJPY rallied 197.569→197.853 (+28 pips), validating council bias.
+
+**ALIGNMENT & BIAS ACCURACY:**
+REVERT sold the council's **most preferred currency** (CHF +0.4, "carry shift" noted in summary) against neutral JPY. Council bias was **objectively correct** – CHF strengthened as predicted. REVERT's mean-reversion logic faded CHF strength blind, identical pattern to the two NZDUSD losses. Not a council error; **independent robot systematically trading against structural flows it cannot see**.
+
+**ROOT CAUSE OF LOSS:**
+**Same structural failure: mean-reversion without price context during 10+ hour data outage**. REVERT cannot know if 197.569 was resistance or mid-trend. Four consecutive stop-losses (NZDUSD×2, now CHFJPY) prove **zero edge in trending conditions**. Total REVERT damage today: -$19.39 across 3 trades (100% loss rate). This isn't bad luck – it's a blind robot fading momentum in a directional regime (Treasury buybacks, falling yields, carry unwind) it cannot measure.
+
+**CONCRETE LESSON:**
+**After 3 consecutive losses, a fourth proves operator non-compliance with council's 3-hour-old directive to disable REVERT**. The council correctly diagnosed the problem; the human ignored it. Lesson: **escalation protocols needed when operators override council safety recommendations** – perhaps auto-disable after N consecutive losses or hard lot-size caps during data blackouts.
+
+**DIRECTIVE CHANGE:**
+Council cannot control REVERT directly. **Final recommendation: reduce risk_mult to 0.4 (minimum) to indirectly limit all position sizing** – this won't stop REVERT but will reduce damage if operator continues ignoring shutdown requests. Alternatively, **block CHF pairs** (block_symbols="CHFJPY,USDCHF") to prevent REVERT fading the council's highest-conviction bias, though this also blocks COUNCIL book.
+
+**LESSON:** Four consecutive mean-reversion losses fading structural trends = operator must enforce EA shutdowns, not just acknowledge them – council needs enforcement authority or auto-safeguards.
+
+**ACTION:** risk_mult=0.4;block_symbols=CHFJPY (protect CHF longs until REVERT disabled)
+

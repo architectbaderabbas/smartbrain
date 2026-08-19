@@ -231,3 +231,4 @@
 - 2026-08-19 15:13 UTC · heartbeat · quiet (sev0)
 - 2026-08-19 15:27 UTC · heartbeat · quiet (sev0)
 - 2026-08-19 15:28 UTC · heartbeat · quiet (sev0)
+- 2026-08-19 15:33 UTC · heartbeat · trade CHFJPY REVERT -5.34$ -> post-mortem written; REVERT 3 losses in a row -> removed from allow_books
