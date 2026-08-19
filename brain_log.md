@@ -2439,3 +2439,71 @@ summary_ar=تهديد إيران لأوروبا منذ ساعة، لا تصعي�
 mind=focused
 psyche_flags=awareness,fear,prudence
 intuition=none
+
+
+# 2026-08-19 08:56 UTC
+## Council debate
+
+**Chief Macro Economist:** Bond yields pulling back from multi-decade highs (Treasury headlines 23min fresh), easing the stress that hammered equities yesterday. Growth/inflation cycle still elevated but the panic phase is cooling. UK CPI came in-line (2.9% vs 2.9% forecast, 176min ago), no surprise. FOMC Minutes in 9h will clarify Fed path but market already repricing slightly dovish. Macro backdrop: stabilizing, not deteriorating.
+
+**Central-Bank Watcher:** RBA's Hauser (6h ago) warned rates may rise if inflation persists – hawkish but conditional, not imminent. BoE expected to hold for rest of year despite CPI uptick (fresh headlines). Lagarde speaking in 78min (medium impact) but her WEF remarks 106min ago were about AI/Europe competitiveness, not monetary policy – no signal. Fed Minutes tonight are stale (from last meeting), unlikely to move markets unless they reveal hidden hawkishness. No CB surprises brewing.
+
+**Geopolitical & Crisis Analyst:** Iran threatens military targets in Europe if Trump escalates (CNBC 2h4min ago, Financial Times 4h56min ago) – this is NEW and serious, Severity-2 event. UAE severing trade with Tehran (same timeframe) confirms regional isolation intensifying. However, NO follow-up headlines in the last 2 hours, no actual strikes, no emergency meetings announced. The threat is real but not yet kinetic. Pentagon also considering smaller Gulf presence post-war (6h45min old) – suggests de-escalation planning, not imminent explosion. Safe-havens should hold bids but not spike further without concrete action. EUR is the direct target of the threat – keep bias negative.
+
+**FX Strategist:** CHF +0.4 bias justified – carry-trade shift story confirmed by multiple sources (4h52min, 4h6min, 3h52min ago), fresh and structural. JPY intervention risk fading (headlines about yen weakness 6h ago but USDJPY in lower 159s per Moomoo 24min ago = stable). USD holding modest strength on yields but bond selloff slowing. EUR weak on geopolitical exposure and savings surge (FT 4h56min). GBP neutral after in-line CPI. AUD/CAD/NZD: no fresh drivers, keep near-zero. For next 4-24h: CHF > JPY > USD > GBP/AUD/NZD/CAD > EUR.
+
+**Gold & Oil Trader:** Gold eyeing $4,500 per multiple sources (4h40min, 1h2min ago) after strong rebound and fund inflows. Current price unknown (data dead) but headlines suggest momentum intact. XAU +0.2 bias conservative – raise to +0.3 on safe-haven demand + technical strength. Oil: Hormuz uncertainty persists (Reuters 8h17min, CME 6h12min), Venezuela deals to boost production (1h56min) are long-term irrelevant. Oil rallied 4 days on supply fears, now "modest gains" and "consolidating" per recent headlines. Bias +0.2 is fair but upside capped without new disruption.
+
+**Equity / Risk-Sentiment Desk:** Tech selloff yesterday (22h58min, 8h23min ago) on bond yields and AI pullback warnings (BofA 3h42min). Futures "painful AI losses" (5h47min). But bond selloff slowing NOW (CNBC 23min, Reuters 5h ago) removes the main pressure. Risk-off not accelerating, just digesting. Indices bias -0.2 appropriate – danger has passed but recovery not confirmed. VIX likely elevated but not spiking.
+
+**Risk Manager:** Account: $492 balance, -$5.71 today (-1.16%), two open AUDJPY/NZDJPY sells from BREAKOUT book losing -$4.83 combined. Not at emergency thresholds yet but trending wrong. SWING and SHOCK both on 1-trade loss streaks. Price data still DEAD – we are flying blind, cannot confirm any bias against actual levels. Iran threat is 2h old, no escalation = do NOT go to danger mode (Fear voice will flag this). Lagarde in 78min, FOMC Minutes in 9h = keep news_block. Current caution + 0.6 mult is correct. SHOCK should stay out (Asian lesson applies, low-vol environment). Allow COUNCIL back in – we have conviction on CHF/EUR.
+
+**Market Historian:** Price context completely unavailable – I cannot tell you where anything sits vs range or momentum. However, HISTORICAL ANALOGS: (1) Iran threats to Europe without immediate action (2019 tanker attacks, 2020 Soleimani aftermath): safe-havens bid for 24-48h then fade unless kinetic. CHF/JPY/gold rallies in those episodes lasted 2-5 days with 60-80% retracement within a week. We are ~2h into this one – too early to fade, too late to chase aggressively. (2) Carry-trade shifts (2015 SNB, 2022 BoJ): CHF moves were VIOLENT and persistent for weeks when structural. Current CHF bid (4-5 sources, fresh) rhymes with structural shift – this is not a 1-day story. (3) Bond yield pullbacks from multi-decade highs (2007, 2018): initial relief rallies in risk assets faded within days unless Fed pivoted. No Fed pivot here, so equity bounce will be shallow. RECOMMENDATION: CHF bias can go to +0.5 (structural story, early innings), gold to +0.3 (safe-haven + momentum), EUR stay -0.2 (direct threat target), do NOT raise equity biases (relief not reversal).
+
+**Chairman:** Weighing evidence quality: Iran threat is FRESH (2h) and SERIOUS (Severity-2: military threat to a major region) but NOT KINETIC and NO FOLLOW-UP. Geopolitical analyst is right – this is a hold-your-ground situation, not a spike-it situation. We moved to danger 1h30min ago, then back to caution 30min ago – that was correct (emergency protocol: danger for Severity-2, then reassess). Bond yield pullback is FRESH (23min) and removes a key risk-off driver – Equity desk and Macro are right. CHF story is MULTI-SOURCE, FRESH, and STRUCTURAL – FX Strategist and Historian agree, raise to +0.5. Gold momentum confirmed by Trader and Historian – raise to +0.3. EUR threat is real but not actionable yet – hold -0.2. Account is bleeding slowly (AUDJPY/NZDJPY sells losing) but not at emergency levels – no book bans yet. Price data failure is CRITICAL but we have enough headline flow to navigate. DECISION: hold caution/0.6, raise CHF to +0.5, gold to +0.3, allow COUNCIL (we have conviction), keep news blocks, no shocks (nothing sudden in last 2h). Confidence 0.6 (good headline flow, clear themes, but blind on price levels).
+
+## Psyche
+
+**Awareness (fired=yes):** Comparing to last 7 decisions: we've held caution/0.6 for 7 hours straight – GOOD, no flip-flopping. CHF bias climbed 0.0→0.5→0.7→0.4→0.4→0.4, now proposing 0.5 – this is HONEST evolution with fresh evidence (carry-trade shift), not stubbornness. Oil flipped -0.3→+0.2 at 06:16 and held – Hormuz risk was real, we adapted. GBP CPI call (sell the spike) was WRONG per 06:16 lesson, we reset to 0.0 – learning applied. SCORECARD shows 34 decisions but no hit-rate data yet. LESSONS: "other" book governance hole noted, SHOCK restricted per Asian-hours lesson. Mental state: CONSISTENT, evidence-driven, no major errors in last 6 hours.
+
+**Greed (fired=no):** Confidence 0.6, biases moderate (max |0.5| proposed), risk_mult 0.6, prefer_symbols=none. No "easy money" language. CHF +0.5 and gold +0.3 are supported by Historian analogs and multi-source fresh evidence. Not greedy.
+
+**Fear (fired=yes):** We went danger→caution→danger→caution in 90 minutes around the Iran headline. The second danger (07:26) was CORRECT per emergency protocol (Severity-2 event). The return to caution (07:56) was also correct (no escalation after 1h). But Risk Manager is now saying "do NOT go to danger mode" when we're already in caution – this suggests lingering fear from the headline. The Iran threat is 2h old with ZERO follow-up – holding caution is right, but we must not over-restrict. Current allow_books includes COUNCIL, risk_mult 0.6 – this is BALANCED, not fearful. Fear is present but controlled.
+
+**Prudence (fired=yes):** CHF +0.5: supported by FX Strategist (carry-trade shift, multi-source fresh) AND Historian (structural analog, early innings) – PASSES. Gold +0.3: supported by Trader (fund inflows, momentum) AND Historian (safe-haven pattern, 2-5 day window) – PASSES. EUR -0.2: only Geopolitical analyst and FX Strategist, no Historian analog for "threat without action" – but bias is modest, acceptable. No |bias| >= 0.7, no shocks proposed – all calls are prudent.
+
+**Intuition (fired=yes):** The bond yield pullback (23min fresh, multi-decade high reversing) is the REAL story today, not the Iran headline. When the primary risk-off driver (yields crushing equities) eases, risk assets will try to bounce even if geopolitics simmers. The council is focused on FX/gold but missing the equity opportunity – if yields keep falling through NY session, indices could rally 1-2%. Hunch: bias_US500/US100/US30 should go to 0.0 (neutral, allow bounce) instead of -0.2 (still bearish).
+
+**Mental state: focused.** Awareness confirms consistency, Fear is controlled, Greed absent, Prudence satisfied. One voice (Intuition) sees an equity angle but it's speculative.
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.6
+regime=mixed
+bias_USD=0.2
+bias_EUR=-0.2
+bias_GBP=0.0
+bias_JPY=0.2
+bias_AUD=0.0
+bias_NZD=0.1
+bias_CAD=0.0
+bias_CHF=0.5
+bias_XAU=0.3
+bias_XAG=0.0
+bias_OIL=0.2
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=-0.2
+conf=0.6
+allow_books=INTRADAY,SWING,POSITION,REVERT,COUNCIL
+news_block=EUR:68:98;USD:533:563;USD:563:593;AUD:983:1013
+block_symbols=none
+shock=none
+prefer_symbols=USDCHF,CHFJPY,EURCHF,XAUUSD
+summary=Bond yields pull back from 19Y highs easing equity stress; Iran-Europe threat 2h old with no follow-up; CHF bid on structural carry-trade shift; gold momentum intact; caution holds through FOMC Minutes
+summary_ar=عائدات السندات تتراجع من أعلى مستوى في 19 عام مما يخفف ضغط الأسهم؛ تهديد إيران لأوروبا منذ ساعتين بلا متابعة؛ الفرنك مدعوم بتحول هيكلي في تجارة الفائدة؛ زخم الذهب مستمر؛ الحذر يستمر حتى محضر الفيدرالي
+mind=focused
+psyche_flags=awareness,fear,prudence,intuition
+intuition=Bond yield reversal from multi-decade high is the real story; if it continues through NY session, risk assets will try to bounce despite geopolitical simmer
