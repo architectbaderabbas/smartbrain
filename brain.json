@@ -1,5 +1,5 @@
 {
- "ts": 1787145297,
+ "ts": 1787145646,
  "council_ts": 1787145130,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": -0.1,
   "allow_books": "COUNCIL",
-  "news_block": "USD:281:311;USD:311:341;AUD:731:761",
+  "news_block": "USD:276:306;USD:306:336;AUD:726:756",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDCHF,CHFJPY,EURCHF",
@@ -33,7 +33,7 @@
   "summary_ar": "انقطاع بيانات الأسعار 10 ساعات و36 دقيقة يفرض تعليق الروبوتات؛ فقط COUNCIL (بشري) يتداول؛ دعم الفرنك السويسري مخفض إلى +0.3؛ نطالب باستعادة البيانات والامتثال قبل الاستئناف"
  },
  "error": null,
- "watchman": "trade XAGUSD other:0 6.75$ -> post-mortem written",
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,
