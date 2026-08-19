@@ -358,3 +358,22 @@ SHOCK bought with council's neutral GER40 bias (0.0). Price rose 8.52 points (+0
 **DIRECTIVE CHANGE:**
 Balance flat after 4 SHOCK trades ($472.99→$473.89, net -$0.95 + spread bleed), but **risk exposure is reckless: 0.09 lots on $473 account = 19% risk if full SL hit**. Combined with REVERT's -$19.39 earlier, account is in **survival mode, not trading mode**. Recommend **allow_books=COUNCIL** (remove SHOCK immediately). Risk_mult must drop to **0.4** (minimum) until price context restored AND post-FOMC
 
+### 2026-08-19 17:12 UTC
+**UKOIL SHOCK BUY 0.01 lots · 0 min · exit SL · P/L -1.72$ · council bias 0.1 (CAUTION)**
+## POST-MORTEM ANALYSIS
+
+**TRADE SUMMARY:**
+SHOCK book bought UKOIL at 93.256 (0.01 lots), held <1 minute, hit stop-loss at 93.084 for -$1.72. Independent robot operating during extended price context outage (10+ hours). Council bias mildly bullish OIL (+0.1), mode CAUTION, allows SHOCK – **fifth SHOCK trade in 3 hours, fourth stop-loss hit**.
+
+**ALIGNMENT & BIAS ACCURACY:**
+SHOCK bought Brent **aligned with council's +0.1 bullish OIL bias** (summary notes risk-on regime, Treasury buyback support). Price immediately collapsed 172 pips in <60 seconds – likely caught wrong side of FOMC Minutes leak/headline 41 minutes before official release (news_block shows USD event imminent). **Council bias directionally reasonable given risk-on context, but timing catastrophically wrong** – trading into known high-impact event window without price feeds is suicide.
+
+**ROOT CAUSE OF LOSS:**
+**SHOCK trading blind into tier-1 event risk with zero context = structural insanity, not bad luck**. This is **fifth SHOCK loss/scratch in 3 hours** (GER40 -$0.13, USOIL -$1.72, GER40 +$0.9 fluke, USOIL -$1.72 again, now UKOIL -$1.72). Pattern unmistakable: **SHOCK's "edge" requires volatility context to distinguish signal from noise – without price feeds, it's firing randomly into event-driven whipsaws**. The 10+ hour data blackout means SHOCK cannot see the setup it thinks it's trading. Not a council bias error (risk-on/OIL+ was sound), but **catastrophic execution failure: allowing SHOCK to operate data-blind 41 minutes before FOMC = negligence**.
+
+**CONCRETE LESSON:**
+**"Independent robot" design does NOT justify letting SHOCK commit suicide during data outages and tier-1 event windows – council has duty-of-care to suspend malfunctioning systems regardless of magic number autonomy**. Five trades, four stop-outs, net -$2.89 in 3 hours = SHOCK has negative edge without context. Lesson: **"allow_books must exclude SHOCK whenever: (1) price context outage >2 hours, OR (2) tier-1 event <60 minutes away, OR (3) 3 consecutive SL hits in same session – treat as circuit-breaker, not suggestion"**.
+
+**DIRECTIVE CHANGE:**
+Balance bled $17.82 since session start (489.89→472.07), **SHOCK responsible for -$2.89, REVERT for -$19.39 before removal**. Account now at **critical threshold** (started ~$492, down 4%). **Immediate action: allow_books=COUNCIL** (remove SHOCK entirely until price context restored AND 24 hours
+
