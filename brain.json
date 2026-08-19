@@ -1,5 +1,5 @@
 {
- "ts": 1787118112,
+ "ts": 1787118449,
  "council_ts": 1787116519,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": -0.2,
   "bias_GER40": -0.2,
   "allow_books": "INTRADAY,SWING,POSITION,REVERT",
-  "news_block": "GBP:-6:24;EUR:84:114;EUR:269:299;USD:734:764;USD:764:794;AUD:1184:1214",
+  "news_block": "GBP:-11:19;EUR:79:109;EUR:264:294;USD:729:759;USD:759:789;AUD:1179:1209",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDCHF,GBPUSD",
