@@ -1,79 +1,43 @@
 {
   "account": 10225,
   "balance": 461.46,
-  "books": [
-    {
-      "loss_streak": 0,
-      "name": "INTRADAY",
-      "net": -3.55,
-      "trades": 3,
-      "wins": 1
-    },
-    {
-      "loss_streak": 1,
-      "name": "SWING",
-      "net": -0.88,
-      "trades": 2,
-      "wins": 1
-    },
-    {
-      "loss_streak": 1,
-      "name": "SHOCK",
-      "net": -1.57,
-      "trades": 9,
-      "wins": 4
-    },
-    {
-      "loss_streak": 5,
-      "name": "REVERT",
-      "net": -31.53,
-      "trades": 5,
-      "wins": 0
-    },
-    {
-      "loss_streak": 0,
-      "name": "OTHER",
-      "net": 11.33,
-      "trades": 6,
-      "wins": 6
-    }
-  ],
+  "books": [],
   "brain_mode": "CAUTION",
-  "day_pl": -9.61,
-  "equity": 463.31,
+  "day_pl": 0.07,
+  "equity": 464.3,
   "positions": [
     {
       "book": "SWING",
       "lots": 0.01,
       "opened": 1787156045,
-      "pl": 1.85,
+      "pl": 2.84,
       "symbol": "GBPJPY",
       "type": "SELL"
     }
   ],
   "prices": {
-    "AUDJPY": 112.58,
-    "AUDUSD": 0.71207,
-    "CHFJPY": 198.157,
-    "EURGBP": 0.85777,
-    "EURJPY": 184.603,
-    "EURNZD": 1.96798,
-    "EURUSD": 1.16763,
-    "GBPJPY": 215.096,
-    "GBPUSD": 1.36073,
-    "GER40": 26101.06,
-    "NZDJPY": 93.737,
-    "NZDUSD": 0.593,
+    "AUDJPY": 112.625,
+    "AUDUSD": 0.7125,
+    "CHFJPY": 198.304,
+    "EURGBP": 0.85824,
+    "EURJPY": 184.62,
+    "EURNZD": 1.96776,
+    "EURUSD": 1.16798,
+    "GBPJPY": 215.11,
+    "GBPUSD": 1.36088,
+    "GER40": 26129.04,
+    "NZDJPY": 93.815,
+    "NZDUSD": 0.59349,
     "UKOIL": 92.034,
-    "US100": 29495.61,
-    "US500": 7719.94,
-    "USDCAD": 1.38063,
-    "USDCHF": 0.79765,
-    "USDJPY": 158.12,
-    "USOIL": 85.041,
-    "XAGUSD": 66.979,
-    "XAUUSD": 4522.46
+    "US100": 29539.92,
+    "US500": 7726.71,
+    "USDCAD": 1.38066,
+    "USDCHF": 0.79707,
+    "USDJPY": 158.069,
+    "USOIL": 85.017,
+    "XAGUSD": 66.974,
+    "XAUUSD": 4520.64
   },
-  "ts": 1787176682,
-  "week_pl": -9.61
+  "ts": 1787177422,
+  "week_pl": -1.23
 }
