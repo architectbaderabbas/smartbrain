@@ -1,5 +1,5 @@
 {
- "ts": 1787141511,
+ "ts": 1787142319,
  "council_ts": 1787141511,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": -0.1,
   "allow_books": "SWING,POSITION,REVERT,COUNCIL",
-  "news_block": "USD:348:378;USD:378:408;AUD:798:828",
+  "news_block": "USD:335:365;USD:365:395;AUD:785:815",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDCHF,CHFJPY,EURCHF",
@@ -33,6 +33,7 @@
   "summary_ar": "الفرنك السويسري مدعوم هيكلياً (تحول تجارة الفائدة)؛ التوترات تتلاشى؛ عائدات السندات مستقرة؛ تحيزات متواضعة قبل محضر الفيدرالي؛ انقطاع بيانات الأسعار 10 ساعات مشكلة حرجة"
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,
