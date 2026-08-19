@@ -2158,3 +2158,73 @@ summary_ar=صدمة التعرفة انتهت (3 ساعات)، التوترات 
 mind=focused
 psyche_flags=awareness,prudence,intuition
 intuition=GBP CPI will beat and spike 0.6-0.8% then fade by NY close on recession fear; sell the spike not the dip
+
+
+# 2026-08-19 05:15 UTC
+## Council debate
+
+**Chief Macro Economist:** Bond rout easing (yields off 19Y highs per headlines), but still elevated—fiscal stress narrative intact. Europe saving not spending (FT), drought/heat hitting growth. US debt $40T sooner than expected. Growth divergence: US resilient, Europe weak, China stable. Inflation mixed: UK CPI in 44 min likely hot (forecast 2.9% vs 2.6%), supports our GBP weakness call.
+
+**Central-Bank Watcher:** UK CPI is the only live catalyst in the next hour—forecast 2.9% y/y is a jump. BoE on hold at 3.75%, but hot print could revive hike talk briefly (GBP spike then fade on growth fears, as intuition suggested last hour). Lagarde speaks twice (114 min, 299 min)—routine, no policy shift expected. RBA's Hauser overnight warned rates may rise if inflation persists—hawkish, supports AUD but move already priced (we're at +0.2). Fed minutes tonight (764 min) are stale (from late July meeting), unlikely to move markets unless they reveal hidden hawkishness.
+
+**Geopolitical & Crisis Analyst:** Iran-UAE missile strike (yesterday) and Iran threatening European targets if Trump escalates are serious, but markets have absorbed it—oil spiked, now fading (our -0.3 bias working). Pentagon signaling Gulf drawdown post-war is dovish for oil. UAE suspended Iran trade—symbolic, not supply-disrupting. No fresh escalation in last 3 hours. Severity-1 at most now (monitor, not halt). CHF and JPY safe-haven bids are fading (JPY +0.1, CHF +0.6 but that's carry-trade shift, not pure fear).
+
+**FX Strategist:** GBP into CPI (44 min): our -0.4 bias is correct—sell-the-fact setup regardless of beat/miss. CHF +0.6 is the strongest conviction (funding-currency shift confirmed by 4 sources in last 6 hours, Yahoo/TradingView/Finimize/FXStreet). USD +0.2 holds (yields easing but still elevated, DXY supported). AUD +0.2 is right but extended (RBA hawkish, but FXStreet says "declining despite hawkish tone"—momentum may be stalling). JPY +0.1 is spent (intervention risk gone, carry unwind done). EUR 0.0 correct (Lagarde speeches are noise). CAD +0.2 on oil fade is weak—trim to 0.0 (oil falling hurts CAD). NZD +0.1 is a shadow of AUD, keep it.
+
+**Gold & Oil Trader:** Gold 0.0 is right—yields easing helps, but no breakout catalyst; it's rangebound. Oil -0.3 working (CME: "supply risks linger" but prices dropping, moomoo: "4-day rise may test resistance" but that's a fade signal). Hormuz uncertainty is priced. Distillate stocks sinking (bullish) vs crude flat (neutral)—mixed, but geopolitics fading wins. Hold -0.3. Silver -0.1 is fine (follows gold, no independent driver).
+
+**Equity / Risk-Sentiment Desk:** Tech selloff (Reuters: "painful AI losses"), Nasdaq near key test, Samsung/SK Hynix hit by yields and Mideast tensions. Risk-off persists but not accelerating. Our -0.2 on indices is appropriate. No change.
+
+**Risk Manager:** GBP CPI in 44 min is the only imminent risk—news_block GBP:20:50 (30-min window, 20 min before to 6 min after, given release at in_min=44). Account state: day P/L -0.08% (tiny), 1-trade loss streak in SWING and SHOCK, but no emergency. SHOCK removed per lesson (correct—Asian dead zone). Price context still dead (all feeds errored)—this is unacceptable, we're flying blind. Stay caution, risk_mult 0.6. Lagarde (114 min, 299 min) are medium-impact but routine—no block needed, just awareness. FOMC minutes (764 min) and Trump speech (794 min) tonight—too far out, address next hour.
+
+**Market Historian:** Price data is dead, so I cannot compare current levels to 1Y range or recent momentum—this is crippling. However, I can use the playbook: (1) **UK CPI surprise ≥2σ**: GBP moves 0.5-1% in 5 min, first 15-min move is right ~60% for the day, but reversals common by London close. Our intuition last hour ("beat then fade on recession fear") rhymes with this—sell the spike. (2) **CHF as new funding currency**: analogous to 2015 post-SNB floor removal (CHF surged, then became expensive to short, carry traders adapted over weeks). Current shift is structural, not a 1-day trade—CHF +0.6 can persist. (3) **Oil fade after war premium**: playbook says premium decays quickly on de-escalation unless supply is really hit. Pentagon drawdown + no Hormuz closure = fade is correct. (4) **Bond rout easing**: when yields spike to multi-decade highs (6% per MarketWatch) then ease, USD often consolidates rather than reverses—our USD +0.2 is appropriate. (5) **AUD extended**: RBA hawkish but FXStreet says "declining despite hawkish tone"—this is classic "buy rumor, sell fact." Trim AUD to +0.1 (move is exhausted). Verdict: GBP -0.4 into CPI is solid, CHF +0.6 is structural, AUD needs trimming, oil fade holds.
+
+**Chairman:** Weighing the evidence: (1) GBP CPI in 44 min is the only fresh catalyst—our -0.4 bias and sell-the-spike intuition are well-supported (Historian: 60% first-move accuracy, but reversals common). Keep -0.4, tighten news_block to GBP:20:50. (2) CHF +0.6 is the council's highest-conviction call—four independent sources confirm funding-currency shift, Historian says it's structural. Raise to +0.7 (prefer_symbols USDCHF for shorts). (3) AUD: Historian and FX Strategist both flag exhaustion despite RBA hawkishness. Trim to +0.1. (4) CAD: FX Strategist is right—oil falling hurts CAD. Trim to 0.0. (5) Oil -0.3, gold 0.0, indices -0.2, USD +0.2, JPY +0.1, EUR 0.0, GBP -0.4: all hold. (6) Risk mode: caution (GBP CPI imminent, price data dead, bond rout easing but not resolved). Risk_mult 0.6. (7) Allow_books: keep INTRADAY,SWING,POSITION,REVERT (SHOCK stays out per lesson until volatility returns or we exit Asian session—but we're now 05:15 UTC, past Asian dead zone; however, no catalyst yet, so keep it out until after GBP CPI). (8) Prefer_symbols: USDCHF (short USD/long CHF, our +0.7 CHF bias), GBPUSD (short GBP, our -0.4 bias). Conf 0.65 (up from 0.6—CHF call is very strong, GBP setup is clear, but price data failure caps confidence).
+
+---
+
+## Psyche
+
+**Awareness (fired=yes):** Comparing to previous directives: we've held GBP -0.4 for 3 hours (consistent, CPI approaching), CHF rose from +0.5 to +0.6 last hour and now to +0.7 (justified by fresh sources, not flip-flopping). AUD trimmed from +0.2 to +0.1 (Historian + FX Strategist both flagged exhaustion, not stubbornness). CAD trimmed from +0.2 to 0.0 (oil fade hurts CAD, logical). Lessons applied: SHOCK still out (correct). Trade journal: "other" book win against bias is noted but not actionable now (investigation pending). Scorecard empty (no accuracy data yet). No flip-flopping detected. Decision quality: good.
+
+**Greed (fired=no):** Confidence rising to 0.65, CHF bias at +0.7, prefer_symbols has two entries—this is elevated but not extreme. CHF +0.7 is justified by four sources and structural shift (Historian analog). Risk_mult staying at 0.6 (not raised). No "easy money" language. Greed not firing.
+
+**Fear (fired=no):** No over-reaction detected. GBP CPI is a real event (44 min away), news_block is appropriate. Price data failure is concerning but council is adapting (using headlines and playbook). No collapse of biases without cause. Caution mode is proportional to uncertainty. Fear not firing.
+
+**Prudence (fired=yes):** CHF +0.7 (strong call) has four independent sources (Yahoo, TradingView, Finimize, FXStreet) AND Historian analog (2015 SNB, funding-currency shift is structural). Passes test. GBP -0.4 into CPI has Historian playbook (CPI surprises move GBP 0.5-1%, reversals common) and intuition from last hour. Passes test. AUD trim to +0.1 has two voices (Historian, FX Strategist). Passes test. All strong calls are justified.
+
+**Intuition (fired=yes):** GBP CPI will print hot (2.9% or higher), GBP will spike 40-60 pips in first 5 minutes, then fade 50-70% of the spike by London afternoon (10:00-12:00 UTC) as recession fears (Europe saving not spending, drought/heat) override the hawkish signal. Trade: do not chase the spike; if robots are long GBP, take profit fast; if short, wait for the spike to enter. (Chairman may adopt this as a refinement to the -0.4 bias and prefer_symbols guidance.)
+
+---
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.6
+regime=mixed
+bias_USD=0.2
+bias_EUR=0.0
+bias_GBP=-0.4
+bias_JPY=0.1
+bias_AUD=0.1
+bias_NZD=0.1
+bias_CAD=0.0
+bias_CHF=0.7
+bias_XAU=0.0
+bias_XAG=-0.1
+bias_OIL=-0.3
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=-0.2
+conf=0.65
+allow_books=INTRADAY,SWING,POSITION,REVERT
+news_block=GBP:20:50;EUR:110:140;EUR:295:325;USD:760:790;USD:790:820;AUD:1210:1240
+block_symbols=none
+shock=none
+prefer_symbols=USDCHF,GBPUSD
+summary=CHF strongest (funding shift, +0.7); GBP weak into CPI 44min (sell spike per intuition); AUD/CAD trimmed (exhaustion/oil fade); oil fade holds; caution mode, price data dead
+summary_ar=الفرنك الأقوى (تحول التمويل، +0.7)؛ الجنيه ضعيف قبل CPI 44 دقيقة (بيع الارتفاع)؛ الدولار الأسترالي/الكندي مُخفّض؛ النفط يتراجع؛ وضع حذر، لا بيانات أسعار
+mind=focused
+psyche_flags=awareness,prudence,intuition
+intuition=GBP CPI will beat and spike 40-60 pips, then fade 50-70% by London afternoon on recession fears; do not chase the spike, sell it or wait to enter shorts after
