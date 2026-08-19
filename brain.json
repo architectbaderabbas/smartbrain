@@ -1,5 +1,5 @@
 {
- "ts": 1787148128,
+ "ts": 1787148658,
  "council_ts": 1787145130,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": -0.1,
   "allow_books": "COUNCIL",
-  "news_block": "USD:239:269;USD:269:299;AUD:689:719",
+  "news_block": "USD:223:253;USD:253:283;AUD:673:703",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDCHF,CHFJPY,EURCHF",
@@ -33,7 +33,7 @@
   "summary_ar": "انقطاع بيانات الأسعار 10 ساعات و36 دقيقة يفرض تعليق الروبوتات؛ فقط COUNCIL (بشري) يتداول؛ دعم الفرنك السويسري مخفض إلى +0.3؛ نطالب باستعادة البيانات والامتثال قبل الاستئناف"
  },
  "error": null,
- "watchman": "quiet (sev0)",
+ "watchman": "trade NZDUSD REVERT -7.15$ -> post-mortem written",
  "alerts": [
   {
    "ts": 1787072472,
