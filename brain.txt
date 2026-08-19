@@ -1,5 +1,5 @@
-ts=1787171979
-generated=2026-08-19 20:39 UTC (watchman heartbeat; council 11 min ago)
+ts=1787172019
+generated=2026-08-19 20:40 UTC (watchman heartbeat; council 0 min ago)
 version=1
 risk_mode=caution
 risk_mult=0.6
@@ -31,4 +31,4 @@ mind=focused
 psyche_flags=fear,prudence,intuition
 intuition=Bessent's buyback is structural not tactical—gold supported to $4600-4700 over next 1-2 weeks unless Thursday data (Philly Fed, claims) reignites inflation fears and yields spike
 news_events=none
-watchman=trade US100 SHOCK -1.43$ -> post-mortem written
+watchman=quiet (sev0)
