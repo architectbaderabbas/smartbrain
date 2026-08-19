@@ -1,7 +1,14 @@
 {
   "account": 10225,
-  "balance": 492.14,
+  "balance": 487.54,
   "books": [
+    {
+      "loss_streak": 1,
+      "name": "INTRADAY",
+      "net": -4.6,
+      "trades": 1,
+      "wins": 0
+    },
     {
       "loss_streak": 1,
       "name": "SWING",
@@ -25,26 +32,18 @@
     }
   ],
   "brain_mode": "CAUTION",
-  "day_pl": -5.71,
-  "equity": 487.31,
+  "day_pl": -9.47,
+  "equity": 483.55,
   "positions": [
     {
       "book": "BREAKOUT",
       "lots": 0.04,
       "opened": 1787137200,
-      "pl": -2.49,
-      "symbol": "AUDJPY",
-      "type": "SELL"
-    },
-    {
-      "book": "BREAKOUT",
-      "lots": 0.04,
-      "opened": 1787137200,
-      "pl": -2.34,
+      "pl": -3.99,
       "symbol": "NZDJPY",
       "type": "SELL"
     }
   ],
-  "ts": 1787129805,
-  "week_pl": -5.71
+  "ts": 1787130705,
+  "week_pl": -9.47
 }
