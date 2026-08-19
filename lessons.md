@@ -408,21 +408,17 @@ SHOCK net +$0.08 today (7 trades, 57% SL hit rate) = **edge erosion in low-convi
 ## POST-MORTEM ANALYSIS
 
 **TRADE SUMMARY:**
-Independent robot "other:0" sold US100 at 29491.8 (0.04 lots), held 3 minutes, closed by EA logic at 29484.45 for +$0.29. Not council-governed (operates independently like REVERT/BREAKOUT). Council was in CAUTION mode with +0.2 US100 bias at time of trade.
+Independent robot "other:0" (magic 0) sold US100 at 29491.8 (0.04 lots), held 3 minutes, closed by EA logic at 29484.45 for +$0.29. Council was in CAUTION mode with +0.2 US100 bias (bullish). This is the **third "other:0" trade today, all winners** (+$6.75 silver, +$0.45 Brent, +$0.29 now) = +$7.49 net, 100% win rate. Robot operates independently of council directives by design.
 
 **ALIGNMENT & BIAS ACCURACY:**
-Robot sold US100 **against council's +0.2 bullish bias**, but this is irrelevant – "other:0" never reads council directives by design. Council bias was **CORRECT**: NDX now 29506.17 vs 29491.8 entry (+14 points), confirming the bullish call. The +0.2 bias reflects Treasury buyback/risk-on support. The robot's SELL captured a 7.35-point dip (0.025%) before price reversed – **pure scalping variance**, not directional edge.
+Robot sold US100 **against council's +0.2 bullish bias**. Council bias was **CORRECT**: NDX now 29506.17 vs 29491.8 entry = +14.37 points, confirming the bullish call (Treasury buyback supporting tech, risk-on intact). The robot's SELL captured a 7.35-point dip (25 ticks) in 3 minutes, then price reversed exactly as council predicted. **This was luck, not edge** – fading a correct bullish regime worked only because the robot caught a micro-pullback and exited before the bounce. Price is now +21 points above the exit level.
 
 **ROOT CAUSE OF WIN:**
-**Luck in noise.** The 3-minute hold with 7.35-point capture in a +0.2 bias environment shows the robot faded a micro-pullback that immediately reversed (price now +22 points from exit). Root cause: **tight profit-taking in random walk** – the 37.18-point TP was never threatened, EA closed early (likely time-based or micro profit-lock). The 25.62-point stop gave 1:1.45 R:R, but exiting at 0.2R suggests the EA has no conviction. "other:0" is 3/3 wins today (+$7.49) but all are sub-$1 scalps – **surviving on noise, not edge**.
+**Scalping variance in the right direction.** The 3-minute hold and 7.35-point capture suggest the robot trades ultra-short-term mean-reversion or momentum exhaustion – it happened to sell a local top at 29491.8 and exit the dip at 29484.45 before the bullish regime reasserted. Root cause: **tight profit-taking in thin liquidity** (19:38 UTC = post-NY close). The 25.62-point stop and 37.18-point TP show 1.45R setup, but the EA closed early (likely time-based or volatility filter). This is **not repeatable edge** – selling into a +0.2 bias regime will lose over time; today's 3/3 wins are statistical noise.
 
 **CONCRETE LESSON:**
-**"Independent robot 'other:0' shows 100% win rate but $2.50 average win over 3 trades = high-frequency scalping with no statistical edge – operator should demand 20+ trade sample before trusting, and disable if Sharpe ratio <1.0 or average R <0.5."** Three wins mean nothing; the $7.49 total barely covers one REVERT loss. This is curve-fitted scalping that will bleed in volatility.
+**"Independent scalping robots (other:0) with 100% short-term win rates in low-volume hours are curve-fit to noise, not edge – operator must review magic-0 logic for overfitting and consider disabling outside major session hours (06:00-18:00 UTC) when liquidity supports genuine scalping."** Three 1-3 minute trades, all closed by EA (not SL/TP), all in post-session deadzone = the robot is optimized for specific conditions that won't persist. The +$7.49 today masks structural risk.
 
 **DIRECTIVE CHANGE:**
-Council has no authority over "other:0" – this requires **human operator action**: 1) demand full backtest/forward-test stats (win rate, avg R, max DD, Sharpe), 2) if edge unproven, switch off before it hits a real volatility event, 3) if keeping it, reduce lot size to 0.01 (currently 0.04 = same risk as council-approved books but zero oversight). Council directives unchanged.
-
-**LESSON:** Independent robot "other:0" wins on noise-scalping with no proven edge – operator must verify statistical validity or disable before variance reverses.
-
-**ACTION:** none (council has no authority over independent robots; operator must audit "other:0
+None. "other:0" is independent (council has no authority), but **operator should audit this robot immediately**: 0.04-lot US100 position = $116 notional risk on $463 balance (25%
 
