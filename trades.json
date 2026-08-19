@@ -58,5 +58,25 @@
   "t_out": 1787141119,
   "tp": 112.276,
   "ts": 1787130319
+ },
+ {
+  "balance": 483.07,
+  "book": "BREAKOUT",
+  "brain_bias": -0.05,
+  "brain_mode": "CAUTION",
+  "dir": "SELL",
+  "in": 93.433,
+  "lots": 0.04,
+  "mins": 72,
+  "out": 93.611,
+  "pl": -4.47,
+  "pos": 29288303,
+  "reason": "SL",
+  "sl": 93.612,
+  "symbol": "NZDJPY",
+  "t_in": 1787137200,
+  "t_out": 1787141576,
+  "tp": 93.171,
+  "ts": 1787130776
  }
 ]

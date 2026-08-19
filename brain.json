@@ -1,5 +1,5 @@
 {
- "ts": 1787130713,
+ "ts": 1787130784,
  "council_ts": 1787129816,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": -0.2,
   "allow_books": "INTRADAY,SWING,POSITION,REVERT,COUNCIL",
-  "news_block": "EUR:48:78;USD:513:543;USD:543:573;AUD:963:993",
+  "news_block": "EUR:46:76;USD:511:541;USD:541:571;AUD:961:991",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDCHF,CHFJPY,EURCHF,XAUUSD",
@@ -33,7 +33,7 @@
   "summary_ar": "عائدات السندات تتراجع من أعلى مستوى في 19 عام مما يخفف ضغط الأسهم؛ تهديد إيران لأوروبا منذ ساعتين بلا متابعة؛ الفرنك مدعوم بتحول هيكلي في تجارة الفائدة؛ زخم الذهب مستمر؛ الحذر يستمر حتى محضر الفيدرالي"
  },
  "error": null,
- "watchman": "quiet (sev0)",
+ "watchman": "trade NZDJPY BREAKOUT -4.47$ -> post-mortem written",
  "alerts": [
   {
    "ts": 1787072472,

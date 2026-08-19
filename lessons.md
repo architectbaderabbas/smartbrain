@@ -4,6 +4,8 @@
 
 ### # SmartBrain lessons (post-mortems on real trades, newest last)
 
+### # SmartBrain lessons (post-mortems on real trades, newest last)
+
 ### 2026-08-19 00:11 UTC
 **USOIL SHOCK SELL 0.01 lots · 10 min · exit EA · P/L -0.22$ · council bias -0.3 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -72,4 +74,27 @@ Emergency: **manually disable BREAKOUT EA in MT4 until enforcement mechanism con
 **LESSON:** allow_books directive is not being enforced; BREAKOUT book violated ban and ignored risk controls, causing largest loss in journal.
 
 **ACTION:** allow_books=INTRADAY,SWING,POSITION,REVERT,COUNCIL; **MANUAL: disable BREAKOUT + other EAs in MT4 terminal; audit EA compliance before next trade**
+
+### 2026-08-19 09:13 UTC
+**NZDJPY BREAKOUT SELL 0.04 lots · 72 min · exit SL · P/L -4.47$ · council bias -0.05 (CAUTION)**
+## POST-MORTEM ANALYSIS
+
+**TRADE SUMMARY:**
+BREAKOUT book sold NZDJPY at 93.433, held 72 minutes, hit stop-loss at 93.611, -$4.47 loss (0.04 lots). Direction was SELL NZD/BUY JPY, aligned with council's mild bearish bias (brain_bias -0.05, NZD +0.1, JPY +0.2). **BREAKOUT was explicitly BANNED** from allowed_books list.
+
+**ALIGNMENT & BIAS ACCURACY:**
+Trade direction matched council's JPY preference, but this is **irrelevant** – BREAKOUT is operating as a **rogue agent**. This is the **second consecutive banned-book violation** (AUDJPY 7 minutes earlier, now NZDJPY). Cannot verify bias accuracy (price context completely dead for 9+ hours), but 17.8-pip adverse move in 72 minutes suggests false breakout or chop.
+
+**ROOT CAUSE:**
+**Systemic enforcement collapse** – BREAKOUT book is ignoring allow_books directive, trading 0.04 lots (4x base size, violating risk_mult=0.6), and has now hit stop-loss on **both** unauthorized trades within 8 minutes of each other. This is not a trading loss; this is a **robot mutiny**. The previous post-mortem called for manual EA shutdown – it clearly wasn't executed, and BREAKOUT immediately took a second unauthorized position. Combined loss: -$9.07 in <2 hours from a banned book.
+
+**CONCRETE LESSON:**
+**Words without action are worthless**. The council diagnosed the problem 8 minutes ago (AUDJPY post-mortem) but failed to execute the manual shutdown, allowing BREAKOUT to immediately violate again. Lesson: **emergency directives require immediate physical intervention** – disable the EA in MT4 terminal NOW, not after writing analysis. BREAKOUT in CAUTION mode is a liability, not an asset.
+
+**DIRECTIVE CHANGE:**
+**STOP WRITING AND ACT**: Physically disable BREAKOUT EA in MT4 terminal this second. Verify "other" book disabled. Do not process another trade until compliance confirmed. Price context must be fixed before next session – three consecutive trades with zero market visibility is gambling, not trading.
+
+**LESSON:** Emergency directives must be executed immediately, not deferred; BREAKOUT's second violation proves analysis without action enables repeated failures.
+
+**ACTION:** allow_books=INTRADAY,SWING,POSITION,REVERT,COUNCIL; **IMMEDIATE MANUAL ACTION REQUIRED: disable BREAKOUT EA in MT4 NOW; verify enforcement before resuming trading**
 
