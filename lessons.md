@@ -1,28 +1,5 @@
 # SmartBrain lessons (post-mortems on real trades, newest last)
 
-### 2026-08-19 12:37 UTC
-**NZDUSD BREAKOUT BUY 0.03 lots · 97 min · exit TP · P/L 5.52$ · council bias -0.05 (CAUTION)**
-## POST-MORTEM ANALYSIS
-
-**TRADE SUMMARY:**
-BREAKOUT book bought NZDUSD at 0.58813, held 97 minutes, hit take-profit at 0.58997 for +$5.52 (0.03 lots). Direction was BUY NZD/SELL USD, **against** council bias (brain_bias -0.05, USD +0.2, NZD +0.1 = net USD-positive). BREAKOUT remains **explicitly banned** from allowed_books.
-
-**ALIGNMENT & BIAS ACCURACY:**
-Trade was **counter to council bias** (bought NZD when council favored USD over NZD). Yet it won 18.4 pips. Cannot verify if council was wrong – price context has been dead for 10+ hours, so no market visibility. This is the **fourth consecutive rogue-book trade**, taken simultaneously with the EURGBP "other" trade. BREAKOUT is now 1-2 (33% win rate, -$3.55 net) while operating as a banned mutineer.
-
-**ROOT CAUSE:**
-**Governance theater**. This is a **lucky win by a rogue agent**. BREAKOUT took two positions at 1787148000 (this NZDUSD + banned books have now executed 4 trades post-ban). The 0.03 lot size still violates risk_mult=0.6. Win was **variance in a blind market** – council had mild USD bias, BREAKOUT ignored it, price moved 18 pips in NZD's favor during a 97-minute window with zero price context. This could easily have been another stop-loss hit. **Rewarding insubordination with profit is the worst possible outcome** – it validates rogue behavior.
-
-**CONCRETE LESSON:**
-**A profitable mutiny is still a mutiny**. BREAKOUT's $5.52 win doesn't erase its -$9.07 in prior unauthorized losses or the fact it's **still trading while banned**. The real lesson: four post-mortems screaming for EA shutdown, zero compliance, means **this council has no operational authority**. Stop writing analyses. Someone must physically access MT4 terminal and disable non-compliant EAs, or accept we're just narrating chaos.
-
-**DIRECTIVE CHANGE:**
-**FINAL WARNING**: If next trade shows BREAKOUT or "other" book active, cease all post-mortem analysis – it's pointless theater. Demand written confirmation from MT4 operator that banned EAs are disabled. Until then: allow_books=SWING,POSITION,REVERT,COUNCIL; risk_mult=0.0 (trading suspension).
-
-**LESSON:** A banned book's profitable trade is more dangerous than its losses because it rewards non-compliance and proves the council's directives are ignored.
-
-**ACTION:** allow_books=SWING,POSITION,REVERT,COUNCIL; risk_mult=0.0; **TRADING HALT until MT4 operator confirms BREAKOUT + other EAs physically disabled**
-
 ### 2026-08-19 13:10 UTC
 **NZDUSD REVERT SELL 0.05 lots · 10 min · exit SL · P/L -6.9$ · council bias -0.05 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -421,4 +398,25 @@ Robot sold US100 **against council's +0.2 bullish bias**. Council bias was **COR
 
 **DIRECTIVE CHANGE:**
 None. "other:0" is independent (council has no authority), but **operator should audit this robot immediately**: 0.04-lot US100 position = $116 notional risk on $463 balance (25%
+
+### 2026-08-19 20:39 UTC
+**US100 SHOCK BUY 0.21 lots · 5 min · exit SL · P/L -1.43$ · council bias 0.2 (CAUTION)**
+## POST-MORTEM ANALYSIS
+
+**TRADE SUMMARY:**
+SHOCK book bought US100 at 29465.03 (0.21 lots), held 5 minutes, hit stop-loss at 29458.72 for -$1.43. Council-approved book operating in CAUTION mode with +0.2 US100 bias (bullish tech on Treasury buyback/risk-on). Large position size (0.21 lots = ~$620 notional on $463 balance) indicates shock-volatility sizing triggered. Price now 29458.97 = essentially at stop level, confirming no directional error but tight stop in noise.
+
+**ALIGNMENT & BIAS ACCURACY:**
+SHOCK bought US100 **perfectly aligned with council's +0.2 bullish bias**. Council bias was **CORRECT in direction but wrong on timing**: NDX dropped 6.81 points (23 ticks) immediately after entry, hit the 6.31-point stop, then stabilized exactly where it stopped out. The +0.2 bias reflects valid macro (Treasury buyback supporting equities, risk-on regime intact), but 20:34 UTC entry = **dead-zone liquidity, 90 minutes after NY close**. No catalyst, no volume – just random walk that happened downward first.
+
+**ROOT CAUSE OF LOSS:**
+**Entry timing in event-less thin market.** SHOCK's edge activates on genuine volatility events (news, breakouts, regime shifts). At 20:34 UTC with shock="none", no scheduled data, and council in CAUTION mode, there was **no catalyst** to justify shock-sizing (0.21 lots vs normal 0.02-0.04). The 6.31-point stop was reasonable for US100, but deploying 10x normal risk into post-session noise is structural error. Root cause: **SHOCK logic firing on random price spike, not genuine edge opportunity**. This is the **8th SHOCK trade today, 6 hit SL (75% failure rate), net -$1.35** – clear pattern of false signals in low-conviction CAUTION environment.
+
+**CONCRETE LESSON:**
+**"SHOCK must not trade indices after 19:00 UTC in CAUTION mode unless shock!='none' OR within 15 minutes of top-tier data release – post-session thin liquidity creates false volatility triggers that deploy oversized risk into noise, not edge."** Today's SHOCK performance (8 trades, 75% SL rate, break-even P/L) proves the book is bleeding on false signals. The three SHOCK wins came on oil (likely event-driven); the five index losses came in deadzone hours. Time-of-day filter required.
+
+**DIRECTIVE CHANGE:**
+SHOCK's 75% SL rate today is unacceptable. Recommend: **allow_books="COUNCIL,SWING"; risk_mult=0.6** (remove SHOCK until operator adds time/event filters to prevent post-19:00 UTC index trades in CAUTION mode).
+
+**LESSON:**
 
