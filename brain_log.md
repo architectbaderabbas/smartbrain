@@ -2299,3 +2299,73 @@ summary_ar=بيانات التضخم البريطاني متوافقة (لا ا�
 mind=scattered
 psyche_flags=awareness,prudence
 intuition=none
+
+
+# 2026-08-19 07:26 UTC
+## Council debate
+
+**Chief Macro Economist:** Bond yields remain elevated (multi-decade highs per headlines), weighing on equities globally. Asian stocks tumbling (KOSPI mentioned), US tech sold off yesterday. Growth concerns rising as yields bite. No major data shifts since last hour—macro picture unchanged.
+
+**Central-Bank Watcher:** Lagarde speaking now (in_min=-16) and again in 168 min—routine Davos panel, unlikely to move markets. FOMC minutes tonight (633 min) are the next real catalyst. RBA's Hauser warned of rate hikes if inflation persists (fresh, 4h ago)—keeps AUD supported but not enough for a bias increase. No other CB surprises.
+
+**Geopolitical & Crisis Analyst:** SEVERITY-2 EVENT: Iran reportedly weighing attacks on European military targets (FT, 3h fresh); UAE suspended all trade with Iran after yesterday's missile attack (i24, 4h fresh). This is escalation, not de-escalation. Safe havens (CHF/JPY/XAU) should bid; EUR vulnerable if Europe is the target. Oil holding gains on Hormuz supply fears (4-day rally, fresh headlines confirm). Not Severity-3 yet (no imminent strike), but danger is rising.
+
+**FX Strategist:** CHF remains strongest on funding-currency shift theme (multiple fresh sources, 3-4h old). EUR now under pressure from Iran-Europe threat—trim EUR to -0.3. GBP neutral after in-line CPI. USD steady at +0.2 (yields, safe-haven). JPY +0.1 holds (intervention risk caps upside). AUD supported by RBA hawk but extended—hold 0.0. CAD/NZD neutral.
+
+**Gold & Oil Trader:** Gold holding steady per Reuters (1h fresh), waiting for Fed minutes tonight. No strong directional case—keep 0.0. Oil +0.2 is correct: Hormuz supply risk is real (4-day rally, fresh headlines), not fading. Silver follows gold—0.0.
+
+**Equity / Risk-Sentiment Desk:** Asian stocks down, US futures likely weak (bond yields, geopolitical risk). Tech selloff continues. Risk-off bias persists—hold indices at -0.2. VIX likely elevated. Regime stays mixed (not full risk-off, but stress rising).
+
+**Risk Manager:** Iran-Europe threat is Severity-2: danger mode warranted, risk_mult must stay ≤0.6. Block EUR pairs until threat clarifies (next 2-3 hours). Lagarde speaking now—block EUR window extended. FOMC minutes tonight—block USD 30 min before/after. Account at -0.08% today, no emergency triggers. SHOCK still off per lesson (Asian hours, low vol). Caution is appropriate.
+
+**Market Historian:** Iran threatening Europe: analogous to 2020 Soleimani (gold/oil spiked, faded in 48h) but this is broader (trade suspension, multi-target threat). EUR typically weakens on European security threats (2015 Paris attacks: EUR -1% in days). CHF/JPY bid. Oil: Hormuz risk is real—2019 Abqaiq saw oil +15% open, faded over weeks, but supply was hit. Current 4-day rally suggests market believes risk is real; fade only if de-escalation headlines emerge. Gold: at highs per context (data corrupted, but headlines say "holding steady")—no chase, but safe-haven bid should support. Price context still dead—flying blind is dangerous.
+
+**Chairman:** Iran-Europe threat is fresh (3-4h) and concrete (FT, i24 sources)—this is Severity-2. EUR must be downgraded to -0.3 (vulnerable if Europe is target). CHF/JPY safe-haven bid justified—CHF stays +0.4, JPY to +0.2 (geopolitical > intervention risk now). Gold: no chase, but safe-haven supports—raise to +0.2 (modest, not extended). Oil +0.2 holds (Hormuz real). Risk_mode: danger (active escalation). Risk_mult: 0.5 (lower than 0.6 per emergency protocol). Block EUR pairs until threat clarifies. Conf: 0.55 (geopolitics fresh, but price data still missing). Allow_books: keep SHOCK off (Asian hours, low vol per lesson). Prefer_symbols: USDCHF (CHF strength), USDJPY (safe-haven), XAUUSD (gold safe-haven).
+
+---
+
+## Psyche
+
+**Awareness (fired=yes):** Comparing to previous: we've been in caution/0.6 for 7 hours, biases stable except oil flip (justified by 4-day rally). Now proposing danger mode and EUR downgrade—this is NOT flip-flopping, it's reacting to fresh Iran-Europe threat (3h old, Severity-2). Scorecard shows scattered mind last hour after wrong GBP call—we must stay humble. Decision is justified by new facts, not stubbornness.
+
+**Greed (fired=no):** Confidence at 0.55, biases modest (|bias|≤0.4 except CHF), risk_mult lowering to 0.5. No "easy money" language. Council is cautious, not greedy. No action needed.
+
+**Fear (fired=yes):** Danger mode after 7 hours of caution—are we over-reacting to one Iran headline? FT/i24 are credible, UAE trade suspension is concrete action, not rumor. But Market Historian warns these threats often fade (Soleimani 48h). Danger is appropriate (Severity-2 protocol), but halt would be over-reaction. Restoring balance: danger is correct, not fear-driven.
+
+**Prudence (fired=yes):** EUR -0.3 and danger mode are strong calls. Evidence: two independent sources (FT, i24), fresh (3-4h), and Market Historian analog (Europe security threats weaken EUR). Passes prudence test. Gold +0.2 is modest, supported by safe-haven logic. CHF +0.4 has 12h of evidence (funding shift). All calls have sufficient support.
+
+**Intuition (fired=no):** No hunch beyond the evidence. The Iran-Europe threat is concrete enough; no need for intuition to stretch.
+
+---
+
+## DIRECTIVES
+
+risk_mode=danger
+risk_mult=0.5
+regime=mixed
+bias_USD=0.2
+bias_EUR=-0.3
+bias_GBP=0.0
+bias_JPY=0.2
+bias_AUD=0.0
+bias_NZD=0.1
+bias_CAD=0.0
+bias_CHF=0.4
+bias_XAU=0.2
+bias_XAG=0.0
+bias_OIL=0.2
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=-0.2
+conf=0.55
+allow_books=INTRADAY,SWING,POSITION,REVERT
+news_block=EUR:-30:33;EUR:155:185;USD:620:650;USD:650:680;AUD:1070:1100
+block_symbols=EURUSD,EURGBP,EURJPY,EURAUD,EURNZD,EURCAD,EURCHF
+shock=none
+prefer_symbols=USDCHF,USDJPY,XAUUSD
+summary=Iran threatens Europe military targets, UAE cuts Iran trade; EUR weak, CHF/JPY/gold safe-haven bid; oil holds on Hormuz risk; danger mode, block EUR pairs
+summary_ar=إيران تهدد أهداف عسكرية أوروبية، الإمارات تقطع التجارة مع إيران؛ اليورو ضعيف، الفرنك والين والذهب ملاذ آمن؛ النفط يصمد على مخاطر هرمز؛ وضع خطر
+mind=focused
+psyche_flags=awareness,fear,prudence
+intuition=none
