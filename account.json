@@ -24,10 +24,10 @@
       "wins": 1
     }
   ],
-  "brain_mode": "CAUTION",
+  "brain_mode": "DANGER",
   "day_pl": -0.08,
   "equity": 492.94,
   "positions": [],
-  "ts": 1787124405,
+  "ts": 1787125305,
   "week_pl": -0.08
 }
