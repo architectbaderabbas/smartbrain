@@ -39,18 +39,41 @@
     }
   ],
   "brain_mode": "CAUTION",
-  "day_pl": -13.48,
-  "equity": 479.54,
+  "day_pl": -1.85,
+  "equity": 488.89,
   "positions": [
     {
       "book": "SWING",
       "lots": 0.01,
       "opened": 1787155200,
-      "pl": -2.95,
+      "pl": 6.4,
       "symbol": "XAGUSD",
       "type": "BUY"
     }
   ],
-  "ts": 1787145105,
-  "week_pl": -13.48
+  "prices": {
+    "AUDJPY": 112.757,
+    "AUDUSD": 0.71187,
+    "CHFJPY": 196.691,
+    "EURGBP": 0.85567,
+    "EURJPY": 184.484,
+    "EURNZD": 1.96838,
+    "EURUSD": 1.16478,
+    "GBPJPY": 215.6,
+    "GBPUSD": 1.36123,
+    "GER40": 26123.46,
+    "NZDJPY": 93.717,
+    "NZDUSD": 0.59168,
+    "UKOIL": 91.59,
+    "US100": 29668.92,
+    "US500": 7738.23,
+    "USDCAD": 1.38405,
+    "USDCHF": 0.80523,
+    "USDJPY": 158.387,
+    "USOIL": 84.876,
+    "XAGUSD": 65.063,
+    "XAUUSD": 4459.16
+  },
+  "ts": 1787145203,
+  "week_pl": -1.85
 }
