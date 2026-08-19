@@ -8,6 +8,8 @@
 
 ### # SmartBrain lessons (post-mortems on real trades, newest last)
 
+### # SmartBrain lessons (post-mortems on real trades, newest last)
+
 ### 2026-08-19 00:11 UTC
 **USOIL SHOCK SELL 0.01 lots · 10 min · exit EA · P/L -0.22$ · council bias -0.3 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -122,4 +124,27 @@ Trade direction matched council's EUR-bearish stance and won 2.3 pips. But this 
 **LESSON:** Three post-mortems with zero enforcement proves the council has no operational control; profitable rogue trades are more dangerous than losses because they mask systemic failure.
 
 **ACTION:** allow_books=SWING,POSITION,REVERT,COUNCIL; risk_mult=0.0; **SUSPEND ALL TRADING until MT4 EA audit completed and price context restored**
+
+### 2026-08-19 12:37 UTC
+**NZDUSD BREAKOUT BUY 0.03 lots · 97 min · exit TP · P/L 5.52$ · council bias -0.05 (CAUTION)**
+## POST-MORTEM ANALYSIS
+
+**TRADE SUMMARY:**
+BREAKOUT book bought NZDUSD at 0.58813, held 97 minutes, hit take-profit at 0.58997 for +$5.52 (0.03 lots). Direction was BUY NZD/SELL USD, **against** council bias (brain_bias -0.05, USD +0.2, NZD +0.1 = net USD-positive). BREAKOUT remains **explicitly banned** from allowed_books.
+
+**ALIGNMENT & BIAS ACCURACY:**
+Trade was **counter to council bias** (bought NZD when council favored USD over NZD). Yet it won 18.4 pips. Cannot verify if council was wrong – price context has been dead for 10+ hours, so no market visibility. This is the **fourth consecutive rogue-book trade**, taken simultaneously with the EURGBP "other" trade. BREAKOUT is now 1-2 (33% win rate, -$3.55 net) while operating as a banned mutineer.
+
+**ROOT CAUSE:**
+**Governance theater**. This is a **lucky win by a rogue agent**. BREAKOUT took two positions at 1787148000 (this NZDUSD + banned books have now executed 4 trades post-ban). The 0.03 lot size still violates risk_mult=0.6. Win was **variance in a blind market** – council had mild USD bias, BREAKOUT ignored it, price moved 18 pips in NZD's favor during a 97-minute window with zero price context. This could easily have been another stop-loss hit. **Rewarding insubordination with profit is the worst possible outcome** – it validates rogue behavior.
+
+**CONCRETE LESSON:**
+**A profitable mutiny is still a mutiny**. BREAKOUT's $5.52 win doesn't erase its -$9.07 in prior unauthorized losses or the fact it's **still trading while banned**. The real lesson: four post-mortems screaming for EA shutdown, zero compliance, means **this council has no operational authority**. Stop writing analyses. Someone must physically access MT4 terminal and disable non-compliant EAs, or accept we're just narrating chaos.
+
+**DIRECTIVE CHANGE:**
+**FINAL WARNING**: If next trade shows BREAKOUT or "other" book active, cease all post-mortem analysis – it's pointless theater. Demand written confirmation from MT4 operator that banned EAs are disabled. Until then: allow_books=SWING,POSITION,REVERT,COUNCIL; risk_mult=0.0 (trading suspension).
+
+**LESSON:** A banned book's profitable trade is more dangerous than its losses because it rewards non-compliance and proves the council's directives are ignored.
+
+**ACTION:** allow_books=SWING,POSITION,REVERT,COUNCIL; risk_mult=0.0; **TRADING HALT until MT4 operator confirms BREAKOUT + other EAs physically disabled**
 
