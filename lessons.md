@@ -249,3 +249,26 @@ Council directives cannot control REVERT (independent robot). **Recommendation f
 
 **ACTION:** none (
 
+### 2026-08-19 14:11 UTC
+**NZDUSD REVERT SELL 0.05 lots · 50 min · exit SL · P/L -7.15$ · council bias -0.05 (CAUTION)**
+## POST-MORTEM ANALYSIS
+
+**TRADE SUMMARY:**
+REVERT book sold NZDUSD at 0.59164, held 50 minutes, hit stop-loss at 0.59307 for -$7.15 (0.05 lots). **Third REVERT loss in 3 hours, second on NZDUSD in 84 minutes** (previous: -$6.90). Independent robot operating during 10+ hour price context outage. Council allows only COUNCIL book; REVERT ignores this by design.
+
+**ALIGNMENT & BIAS ACCURACY:**
+REVERT sold into council's mild NZD-positive bias (NZD +0.1, USD +0.2). Price rallied 0.59009→0.59307 (+30 pips), confirming **council bias directionally correct** – NZD had relative strength. REVERT's mean-reversion logic systematically faded this twice and lost both times. Not a council error; **independent robot trading blind**.
+
+**ROOT CAUSE OF LOSS:**
+**Mean-reversion without price context = fading unmeasured trends**. REVERT has no support/resistance data, no regime filter, no way to know if 0.59164 was overbought or mid-rally. Two identical stop-losses in 84 minutes on same pair = **zero edge in current conditions**. This isn't variance – it's structural: fade-the-move logic requires knowing *what* you're fading. Total REVERT damage: -$14.05 while human discretionary won +$6.75 same window.
+
+**CONCRETE LESSON:**
+**Config changes don't disable independent EAs – operator must physically suspend them in MT4**. Council identified this 3 hours ago; enforcement failed. REVERT has now proven it cannot trade profitably without price context (3/3 losses). Lesson: during extended data blackouts, **systematic mean-reversion must be manually switched off, not just "disallowed"**.
+
+**DIRECTIVE CHANGE:**
+Council directives cannot control REVERT. **Urgent recommendation for human operator: disable REVERT EA in MT4 terminal immediately**. If operator refuses, force-reduce REVERT lot size to 0.01 (currently 0.05) to contain damage until data restored. This is enforcement failure, not strategy failure.
+
+**LESSON:** Independent mean-reversion robots trading blind will systematically lose by fading unmeasured trends – physical EA suspension required, config insufficient.
+
+**ACTION:** none (directives correct; escalate to operator for manual REVERT shutdown)
+
