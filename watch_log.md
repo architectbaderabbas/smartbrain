@@ -238,3 +238,4 @@
 - 2026-08-19 15:45 UTC · heartbeat · trade GER40 SHOCK -0.13$ -> post-mortem written
 - 2026-08-19 15:52 UTC · heartbeat · quiet (sev0)
 - 2026-08-19 15:58 UTC · heartbeat · quiet (sev0)
+- 2026-08-19 16:03 UTC · FULL COUNCIL triggered: scheduled full council (last 61 min ago)
