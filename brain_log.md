@@ -2657,3 +2657,75 @@ summary_ar=هجوم كييف (قبل ٩٠ دقيقة) لم يتصاعد؛ نظا
 mind=focused
 psyche_flags=awareness,fear,prudence
 intuition=none
+
+
+# 2026-08-19 23:27 UTC
+## Council debate
+
+**Chief Macro Economist:** Treasury buyback regime continues to suppress yields (US10Y data missing but headlines confirm easing), supporting risk-on. EUR weak on drought/competitiveness warnings, GBP steady, AUD/NZD/CAD holding gains. No change to growth outlook in last hour.
+
+**Central-Bank Watcher:** FOMC Minutes were non-event 5 hours ago. PBS headline "many Fed officials think higher rates needed if inflation stays high" is stale (from the Minutes we already digested). No new CB signals. AUD jobs in 2h2min – keep block.
+
+**Geopolitical & Crisis Analyst:** Kyiv attack 2h30min ago has NOT escalated further (no new headlines since 22:25 update). UAE-Iran trade suspension and Hormuz stealth-shipping headlines are 4-5 hours old, already priced. No fresh severity-2+ events. Oil premium stable, not spiking.
+
+**FX Strategist:** CHF still strongest on carry-trade shift (0.45 bias justified by Bloomberg/Reuters confirming pivot from JPY). CAD holding 0.2 on tariff relief. USD neutral (Treasury action offsets hawkish Minutes). NZD/AUD steady pre-jobs. No change warranted.
+
+**Gold & Oil Trader:** Gold $4519, up $32 from our first call today, consolidating the Treasury-buyback spike. KITCO "+4% past $4,500" headline is 6 hours old. No fresh catalyst. Oil $85.19 WTI, $92.03 Brent – Hormuz headlines stale, inventory data was routine. Both holding, not trending.
+
+**Equity / Risk-Sentiment Desk:** SPX 7730, NDX 29582, DAX 26145 – all flat to slightly up in last hour. Reuters "Wall St rises as yields ease" confirms risk-on intact. No VIX spike, no reversal. US100 bias 0.2 appropriate.
+
+**Risk Manager:** Account $463.68, daily -$0.55 (0.1% drawdown, no emergency trigger). SWING has open GBPJPY short +$2.22 (correct call). REVERT removed yesterday (5-loss streak), SHOCK removed last hour (bleeding on false signals). Only COUNCIL and SWING allowed – correct. AUD block 88-108min = 01:55-02:15 UTC, covers the 01:30 UTC release window properly. No new risks.
+
+**Market Historian:** Treasury buyback suppressing yields is analogous to ECB PEPP (2020-22) and BoJ YCC – it creates a **persistent regime shift** (weeks to months), not a one-day pop. Gold at $4519 is 3.2% below June ATH $4672 but above the 50% retracement of the May-June rally – **not extended, room to run if real yields stay negative**. CHF carry-shift rhymes with Aug-2024 yen-carry unwind (CHF rallied 4% in 2 weeks as traders diversified from JPY) – the 0.45 bias is historically justified. Oil $85 with war premium typically fades 10-15% over 2-4 weeks unless supply is hit (Hormuz stealth-shipping suggests flow continues, not disrupted). Current setup: **regime continuation, not reversal**.
+
+**Chairman:** No new facts since 22:25. Kyiv attack did not escalate (2h30min, no follow-on headlines). Treasury buyback regime persists (yields down, gold/equities supported). CHF carry-shift confirmed by fresh sources. AUD jobs in 2h – block is correct. SWING's GBPJPY short is winning (+$2.22), validating our GBP 0.1 bias. SHOCK correctly removed (false signals in thin hours). **Hold all biases, hold caution, hold allow_books.**
+
+---
+
+## Psyche
+
+**Awareness (fired=no):** Comparing to 22:25 directives: zero changes proposed by council. DECISION MEMORY shows we've held these exact biases for 7 hours (since 16:03 UTC) as the Treasury buyback regime unfolded. TRADE JOURNAL shows SWING winning, SHOCK/REVERT correctly sidelined. No flip-flopping, no stubbornness – we called the regime correctly and it's playing out. SCORECARD shows 100% hit rate (small sample). Steady state justified.
+
+**Greed (fired=no):** Confidence 0.6 (moderate), biases modest (max 0.45 CHF), prefer_symbols only 2 pairs, allow_books restricted to 2. No "easy money" language. Risk_mult 0.6 (conservative). No greed detected.
+
+**Fear (fired=yes):** Council proposed zero changes despite account recovering (daily -$0.55 vs -$1.85 weekly), SWING winning, and no new threats. This is **appropriate caution, not over-reaction** – we're in a regime-continuation phase where holding course is correct. AUD jobs in 2h is a real risk (high-impact for AUD/NZD/JPY crosses). Fear detector acknowledges: staying cautious before major data is prudence, not paralysis.
+
+**Prudence (fired=no):** All biases ≤0.45, well below strong-call threshold (0.7). CHF 0.45 has two sources (Bloomberg, Reuters carry-shift) plus Market Historian analog (Aug-2024). Gold 0.3 has Treasury buyback regime (multiple sources, 8 hours old but persistent). No strong calls to audit.
+
+**Intuition (fired=no):** The regime is mature (8 hours since Treasury announcement). Gold/CHF/CAD moves are well-established. AUD jobs could break the calm – if the print misses badly (< 0K vs 11.7K forecast), AUD/NZD will dump and JPY crosses will spike, potentially stopping out SWING's GBPJPY short. Hunch: **the next 3 hours are the calm before potential volatility, not the start of new trends**. But no actionable change – Chairman will hold course.
+
+**Council mental state: focused** (unchanged from 22:25 – disciplined regime-following, appropriate caution before data, no emotional drift).
+
+---
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.6
+regime=risk_on
+bias_USD=0.0
+bias_EUR=-0.1
+bias_GBP=0.1
+bias_JPY=0.0
+bias_AUD=0.1
+bias_NZD=0.1
+bias_CAD=0.2
+bias_CHF=0.45
+bias_XAU=0.3
+bias_XAG=0.0
+bias_OIL=0.1
+bias_US500=0.2
+bias_US100=0.2
+bias_US30=0.2
+bias_GER40=0.0
+conf=0.6
+allow_books=COUNCIL,SWING
+news_block=AUD:88:108
+block_symbols=none
+shock=none
+prefer_symbols=USDCHF,USDCAD
+summary=Treasury buyback regime holds (8h, yields down, gold $4519, risk-on intact); CHF leads carry-shift, CAD on tariff relief; no new events, hold course, caution for AUD jobs 2h
+summary_ar=نظام إعادة شراء الخزانة مستمر (٨ ساعات، عوائد منخفضة، ذهب ٤٥١٩$، risk-on ثابت)؛ CHF يقود تحوّل carry، CAD على تخفيف التعريفات؛ لا أحداث جديدة، نحافظ على المسار، حذر لوظائف AUD بعد ساعتين
+mind=focused
+psyche_flags=fear
+intuition=none

@@ -1,6 +1,6 @@
 {
- "ts": 1787181919,
- "council_ts": 1787178328,
+ "ts": 1787182045,
+ "council_ts": 1787182045,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.6,
@@ -27,14 +27,13 @@
   "shock": "none",
   "prefer_symbols": "USDCHF,USDCAD",
   "mind": "focused",
-  "psyche_flags": "awareness,fear,prudence",
+  "psyche_flags": "fear",
   "intuition": "none",
-  "summary": "Kyiv attack (90min ago) did not escalate; Treasury buyback regime holds (yields down, gold $4521, risk-on intact); CHF leads carry-shift, caution for AUD jobs 3h",
-  "summary_ar": "هجوم كييف (قبل ٩٠ دقيقة) لم يتصاعد؛ نظام إعادة شراء الخزانة مستمر (عوائد منخفضة، ذهب ٤٥٢١$، risk-on ثابت)؛ CHF يقود تحوّل carry، حذر لوظائف AUD بعد ٣ ساعات",
+  "summary": "Treasury buyback regime holds (8h, yields down, gold $4519, risk-on intact); CHF leads carry-shift, CAD on tariff relief; no new events, hold course, caution for AUD jobs 2h",
+  "summary_ar": "نظام إعادة شراء الخزانة مستمر (٨ ساعات، عوائد منخفضة، ذهب ٤٥١٩$، risk-on ثابت)؛ CHF يقود تحوّل carry، CAD على تخفيف التعريفات؛ لا أحداث جديدة، نحافظ على المسار، حذر لوظائف AUD بعد ساعتين",
   "news_events": "AUD:1787189400:Employment_Change;AUD:1787189400:Unemployment_Rate"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,
