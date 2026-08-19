@@ -1,28 +1,5 @@
 # SmartBrain lessons (post-mortems on real trades, newest last)
 
-### 2026-08-19 09:05 UTC
-**AUDJPY BREAKOUT SELL 0.04 lots · 65 min · exit SL · P/L -4.6$ · council bias -0.1 (CAUTION)**
-## POST-MORTEM ANALYSIS
-
-**TRADE SUMMARY:**
-BREAKOUT book sold AUDJPY at 112.538, held 65 minutes, hit stop-loss at 112.721, -$4.60 loss (0.04 lots, largest position yet). Direction was SELL AUD/BUY JPY, aligned with council's mild bearish bias (brain_bias -0.1, AUD 0.0, JPY +0.2). Trade taken in CAUTION mode with BREAKOUT explicitly **not in allowed_books list**.
-
-**ALIGNMENT & BIAS ACCURACY:**
-Trade direction matched council's slight JPY-bullish tilt, but **BREAKOUT book was BANNED** (allow_books="INTRADAY,SWING,POSITION,REVERT,COUNCIL"). This is a **critical governance violation** – the robot ignored council directives entirely. Cannot assess if bias was correct (price context still dead), but the 18.3-pip adverse move suggests either false breakout or wrong-side entry.
-
-**ROOT CAUSE:**
-**Rogue book execution** – BREAKOUT traded despite explicit exclusion, taking 4x normal risk (0.04 lots vs. 0.01 in recent trades) and getting stopped out. This is the second governance failure in 3 trades ("other" book, now BREAKOUT). Root cause is **enforcement failure**: allow_books directive is being ignored by MT4 EAs. The loss itself is secondary to the systemic breakdown – unauthorized books are trading freely.
-
-**CONCRETE LESSON:**
-**Immediate EA audit required** – if allow_books cannot be enforced programmatically, all non-compliant EAs must be manually disabled in MT4 terminal. BREAKOUT in particular is dangerous in CAUTION mode (chases momentum in low-conviction environment). The 0.04 lot size suggests it's also ignoring risk_mult=0.6. This is a control system failure, not a market loss.
-
-**DIRECTIVE CHANGE:**
-Emergency: **manually disable BREAKOUT EA in MT4 until enforcement mechanism confirmed**. Verify "other" book is also disabled. No directive changes will matter if robots ignore them. Restore price context as priority-1 (third trade blind). Once control restored, BREAKOUT stays banned until regime shifts to "trending" with conf >0.7.
-
-**LESSON:** allow_books directive is not being enforced; BREAKOUT book violated ban and ignored risk controls, causing largest loss in journal.
-
-**ACTION:** allow_books=INTRADAY,SWING,POSITION,REVERT,COUNCIL; **MANUAL: disable BREAKOUT + other EAs in MT4 terminal; audit EA compliance before next trade**
-
 ### 2026-08-19 09:13 UTC
 **NZDJPY BREAKOUT SELL 0.04 lots · 72 min · exit SL · P/L -4.47$ · council bias -0.05 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -433,4 +410,25 @@ REVERT sold CHFJPY **directly against council's +0.4 CHF bias** (strongest curre
 Balance $460.69 (-6.4% today), REVERT responsible for -$31.53 despite removal from allow_books hours ago. Council directives are powerless against independent robots. **No council action possible** – this requires human operator intervention: 1) manually disable REVERT EA immediately, 2) hardcode symbol blacklist + regime filter (no mean-reversion when max|bias|>0.3), 3) backtest REVERT performance in trending vs ranging regimes before re-enabling.
 
 **LESSON:** RE
+
+### 2026-08-19 19:20 UTC
+**UKOIL SHOCK SELL 0.01 lots · 1 min · exit TP · P/L 1.62$ · council bias 0.1 (CAUTION)**
+## POST-MORTEM ANALYSIS
+
+**TRADE SUMMARY:**
+SHOCK book sold UKOIL (Brent) at 91.966 (0.01 lots), held 1 minute, hit take-profit at 91.804 for +$1.62. Independent robot operating in CAUTION mode with council's +0.1 OIL bias (mildly bullish). **First SHOCK win after 3 consecutive losses** (-$1.72 USOIL, -$1.72 UKOIL, +$0.18 USOIL scratch in prior 3 hours). Balance recovered to $462.21, still -$29.88 from session high (-6.1%).
+
+**ALIGNMENT & BIAS ACCURACY:**
+SHOCK sold oil **against council's +0.1 OIL bias**, but bias magnitude is negligible (0.1 = neutral-to-slightly-bullish, not a strong directional call). Price context shows Brent at 91.936 now vs 91.966 entry – essentially flat, validating the council's weak conviction. **This was a scalp in a directionless market, not a macro call.** Council bias wasn't "wrong" – oil is rangebound as expected with low conviction. SHOCK's 1-minute hold suggests it caught intraday noise, not a trend.
+
+**ROOT CAUSE OF WIN:**
+**Pure variance in a choppy, low-conviction environment.** SHOCK's edge is capturing momentum shocks around events/breakouts, but there's no fresh catalyst here (news_block shows only AUD event 6h away, shock="none"). The 162-pip move in 60 seconds likely came from thin liquidity or a stop-run, not genuine directional flow. Previous SHOCK trades today show the problem: 4 stop-losses in similar conditions (GER40 -$0.13, USOIL -$1.72, UKOIL -$1.72, GER40 +$0.9 scratch). **SHOCK is gambling on noise without event catalysts** – this win doesn't validate the strategy, it's a coin-flip that landed heads after 3 tails.
+
+**CONCRETE LESSON:**
+**"In CAUTION mode with shock='none' and no imminent news (next event >6h), SHOCK must not trade oil or indices – these are pure noise trades with negative expectancy outside event windows."** The 6-trade SHOCK sequence today (net -$0.87, 50% SL rate) proves the book has no edge in quiet markets. SHOCK should only fire within ±30min of high-impact events or when shock!='none'. Operator must add event-proximity filter to SHOCK logic.
+
+**DIRECTIVE CHANGE:**
+**ACTION:** none (council cannot control independent SHOCK robot via allow_books – it's already in the allowed list for valid event-driven trades; removing it would block legitimate shock opportunities).
+
+**RECOMMENDATION FOR OPERATOR:** Add time-based filter to SHOCK EA: require either (shock!='none
 

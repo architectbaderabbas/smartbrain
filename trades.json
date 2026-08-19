@@ -358,5 +358,25 @@
   "t_out": 1787177358,
   "tp": 196.5,
   "ts": 1787166558
+ },
+ {
+  "balance": 462.21,
+  "book": "SHOCK",
+  "brain_bias": 0.1,
+  "brain_mode": "CAUTION",
+  "dir": "SELL",
+  "in": 91.966,
+  "lots": 0.01,
+  "mins": 1,
+  "out": 91.804,
+  "pl": 1.62,
+  "pos": 29397042,
+  "reason": "TP",
+  "sl": 92.056,
+  "symbol": "UKOIL",
+  "t_in": 1787177965,
+  "t_out": 1787178030,
+  "tp": 91.819,
+  "ts": 1787167230
  }
 ]
