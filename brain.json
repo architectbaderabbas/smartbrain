@@ -1,6 +1,6 @@
 {
- "ts": 1787101914,
- "council_ts": 1787098325,
+ "ts": 1787102816,
+ "council_ts": 1787102816,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.6,
@@ -10,7 +10,7 @@
   "bias_EUR": 0.0,
   "bias_GBP": -0.4,
   "bias_JPY": 0.2,
-  "bias_AUD": 0.1,
+  "bias_AUD": 0.3,
   "bias_NZD": 0.1,
   "bias_CAD": 0.2,
   "bias_CHF": 0.4,
@@ -27,13 +27,12 @@
   "shock": "none",
   "prefer_symbols": "GBPUSD,USDCHF",
   "mind": "focused",
-  "psyche_flags": "awareness,fear,prudence,intuition",
-  "intuition": "Bond rout is the dog, FX is the tail; if 30Y yields resume climb tomorrow USD will rally against all, if yields stabilize risk-on resumes",
-  "summary": "Bond rout easing from 19Y high; KOSPI shock absorbed (5h old); geopolitics faded; JPY rally exhausted; CHF rising as funding alternative; GBP weak into CPI (5.5h); caution mode, data cluster ahead",
-  "summary_ar": "هدوء بيع السندات من أعلى مستوى بـ19 سنة؛ صدمة KOSPI امتُصّت؛ الجيوسياسة تلاشت؛ ارتفاع الين استُنفد؛ الفرنك يرتفع كبديل تمويل؛ الجنيه ضعيف قبل CPI؛ وضع حذر"
+  "psyche_flags": "prudence,intuition",
+  "intuition": "The bond market is the dog, FX is the tail; if 30Y yields resume climb in London/NY (next 8-16h) USD rallies against all, if yields stabilize risk-on resumes and AUD/NZD/CAD outperform",
+  "summary": "Bond rout easing from 19Y high; geopolitics faded; JPY rally exhausted; AUD lifted on Fed repricing momentum; GBP weak into hot CPI (4.5h); CHF rising as funding alternative; caution mode through data",
+  "summary_ar": "هدوء بيع السندات من أعلى مستوى بـ19 سنة؛ الجيوسياسة تلاشت؛ ارتفاع الين استُنفد؛ الدولار الأسترالي يرتفع على زخم إعادة تسعير الفيدرالي؛ الجنيه ضعيف قبل CPI؛ وضع حذر"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,

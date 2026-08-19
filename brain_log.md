@@ -2256,3 +2256,73 @@ summary_ar=هدوء بيع السندات من أعلى مستوى بـ19 سنة
 mind=focused
 psyche_flags=awareness,fear,prudence,intuition
 intuition=Bond rout is the dog, FX is the tail; if 30Y yields resume climb tomorrow USD will rally against all, if yields stabilize risk-on resumes
+
+
+# 2026-08-19 01:26 UTC
+## Council debate
+
+**Chief Macro Economist:** Bond rout easing (yields edged lower per Reuters 21:20), but 30Y still near 5.33% = 19-year high. This is a structural repricing of the term premium, not a one-day event. Growth data mixed, inflation sticky. The Fed minutes (16.5h away) will be scrutinized for any yield-curve concern. No change to macro backdrop vs 15 min ago.
+
+**Central-Bank Watcher:** AUD Wage Price Index in 3 minutes (0.8% f/c = in-line) is unlikely to move RBA expectations materially. UK CPI (4.5h) is the big one: 2.9% f/c vs 2.6% prior = hot, GBP already weak in anticipation. Fed minutes tonight are stale (from early Aug meeting), unlikely to shift dovish pricing unless they show panic about yields. BoJ: Mizuho headline (23:28) says BoJ may accelerate hikes, but this is analyst opinion, not official. JPY rally has stalled (FXStreet 23:03 says "gives back half a record intervention"), no fresh catalyst. No change.
+
+**Geopolitical & Crisis Analyst:** Iran headlines (WSJ 00:24 "secret plan to escalate", Axios 22:07 Oman war powers push, Trump contradictions) are all STALE political noise, not kinetic events. Pentagon drawdown story (WaPo 22:11) is 3+ hours old. No new attacks, Hormuz open, oil fading. The geopolitical spike is dead. Zero change.
+
+**FX Strategist:** GBP remains the cleanest short into CPI (4.5h); bias -0.4 is appropriate. CHF strength (VT Markets 20:20, ING 10:03: "growing role as funding currency") is a slow structural shift, not a 4-hour trade; bias 0.4 is fine but not actionable short-term. JPY: the rally exhausted (FXStreet says half the intervention gain gone), bias 0.2 is right. USD: range-bound (Reuters 20:24 "range-bound as markets price dovish Fed"), bias 0.2 unchanged. AUD: stonex 16:57 "momentum builds", FOREX.com 16:47 "bulls press breakout zone", Wage Index in 3 min is a non-event. Bias 0.1 is too timid; raise to 0.3 (AUD outperforming on Fed repricing). CAD: headlines mixed (Morningstar 18:06 "rise vs USD", Reuters 18:03 "weakens ahead of tariffs", FXStreet 01:16 "holds near 1.39"), no clear edge, keep 0.2. No other changes.
+
+**Gold & Oil Trader:** Gold: multiple sources (investingLive 20:48, FXStreet 17:48, Yahoo 15:48) say "falls as US yields surge", but yields have since edged lower. Gold is in a tug-of-war: yields down = supportive, geopolitics faded = negative. Net neutral, bias 0.0 correct. Oil: WSJ 19:07 "modest gains, Hormuz unclear" is 6+ hours old; theguardian 07:04 (18 hours old!) "prices jump after ceasefire expires" is ancient. The spike faded. Bias -0.3 (fade the war premium) is still valid. No change.
+
+**Equity / Risk-Sentiment Desk:** Reuters 22:58 "tech selloff, bond yields climb", IBD 20:33 "Nasdaq slides, chip names lose big". This is 3+ hours old and Asian session (01:26 UTC) is dead quiet. The selloff was a US close story. Risk-off bias -0.2 on indices is appropriate but not actionable now (no US trading). No change.
+
+**Risk Manager:** AUD Wage Index in 3 min: medium impact, unlikely to shock. UK CPI in 4.5h: high impact, GBP already positioned weak. Fed minutes 16.5h away. Account: daily P/L +0.87% (small win), one open SWING AUDUSD short (in profit +1.86), SHOCK removed per lesson (correct). No danger. Caution mode is appropriate through the data cluster. Risk_mult 0.6 is fine. SHOCK remains out (Asian session, low vol). No change.
+
+**Market Historian:** PRICE CONTEXT is STILL CORRUPTED (all assets show encoding errors). We are flying blind without knowing where prices sit vs their ranges or recent momentum. This is unacceptable. I cannot provide historical analogs without current levels. The lesson from the USOIL SHOCK trade (10 min ago) is clear: SHOCK in Asian session low-vol = failure. That lesson is already applied (SHOCK out of allow_books). On GBP into hot CPI: historically, when CPI beats by 0.3% (2.9% vs 2.6%), GBP drops 0.5-0.8% intraday then often recovers half within 24h if BoE is seen as done hiking (which they are). The -0.4 bias is appropriate. On AUD: if Wage Index is in-line (0.8%), it's a non-event; AUD has been rallying on Fed repricing (FOREX.com "bulls press breakout"), not RBA. Raise AUD bias to 0.3. On JPY: FXStreet says "gives back half a record intervention" – this rhymes with BoJ interventions in 2022/2024: the effect fades over weeks unless fundamentals change. The 4-hour rally is exhausted, bias 0.2 is right. No other changes.
+
+**Chairman:** The council is stable. No new facts since 15 min ago except: (1) AUD Wage Index in 3 min (non-event), (2) stale Iran political noise (no kinetic change), (3) bond yields edged lower (easing, not reversing). The FX Strategist and Market Historian both argue for raising AUD bias to 0.3 (momentum + Fed repricing + Wage Index non-event). I agree. All other biases unchanged. Conf remains 0.6 (moderate conviction, data cluster ahead). Risk_mode caution, risk_mult 0.6, SHOCK out. GBP and CHF remain prefer_symbols (cleanest setups). No shock, no blocks beyond scheduled news. Proceeding.
+
+---
+
+## Psyche
+
+**Awareness (fired=no):** Comparing to previous directives: we have held the same view for 75 minutes (bond rout easing, geopolitics faded, GBP weak, JPY exhausted). The only change now is raising AUD bias 0.1→0.3, supported by two independent voices (FX Strategist, Market Historian) and fresh evidence (AUD momentum, Wage Index non-event). This is not flip-flopping; it is a calibration. DECISION MEMORY shows we have been trimming JPY bias steadily (0.6→0.5→0.4→0.3→0.2) as the move extended, which is disciplined. TRADE JOURNAL: SHOCK loss was correct (Asian low-vol), lesson applied. SCORECARD: insufficient data. No flags.
+
+**Greed (fired=no):** Confidence is moderate (0.6), most biases are small (|bias| ≤ 0.4), risk_mult is conservative (0.6), prefer_symbols has only two entries. No "easy money" language. The AUD raise to 0.3 is evidence-based, not euphoric. No greed detected.
+
+**Fear (fired=no):** We are in caution mode, but it is justified by the data cluster (CPI 4.5h, Fed minutes 16.5h, AUD jobs 24h). We are not over-reacting to the SHOCK loss (it was a $0.22 loss, lesson learned, book removed appropriately). We are not collapsing biases without cause. No fear detected.
+
+**Prudence (fired=yes):** The AUD bias raise to 0.3 is supported by two voices (FX Strategist, Market Historian) and multiple sources (stonex, FOREX.com, Morningstar). However, |bias|=0.3 with conf=0.6 does NOT trigger a COUNCIL trade (requires |bias|≥0.7 AND conf≥0.6), so the bar is met. GBP bias -0.4 into CPI is supported by the calendar and historical analog (Historian: "drops 0.5-0.8% intraday"). All strong calls have two sources. Prudence satisfied.
+
+**Intuition (fired=yes):** The bond market is the dog, FX is the tail. If 30Y yields resume their climb in London/NY sessions (next 8-16h), USD will rally against all and risk-off will deepen. If yields stabilize or fall further, risk-on resumes and AUD/NZD/CAD outperform. Watch the 30Y: it is the leading indicator now, not the lagging one.
+
+---
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.6
+regime=risk_off
+bias_USD=0.2
+bias_EUR=0.0
+bias_GBP=-0.4
+bias_JPY=0.2
+bias_AUD=0.3
+bias_NZD=0.1
+bias_CAD=0.2
+bias_CHF=0.4
+bias_XAU=0.0
+bias_XAG=-0.1
+bias_OIL=-0.3
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=-0.2
+conf=0.6
+allow_books=INTRADAY,SWING,POSITION,REVERT
+news_block=AUD:-23:47;GBP:267:337;EUR:337:397;EUR:522:582;USD:967:1057;AUD:1437:1507
+block_symbols=none
+shock=none
+prefer_symbols=GBPUSD,USDCHF
+summary=Bond rout easing from 19Y high; geopolitics faded; JPY rally exhausted; AUD lifted on Fed repricing momentum; GBP weak into hot CPI (4.5h); CHF rising as funding alternative; caution mode through data cluster
+summary_ar=هدوء بيع السندات من أعلى مستوى بـ19 سنة؛ الجيوسياسة تلاشت؛ ارتفاع الين استُنفد؛ الدولار الأسترالي يرتفع على زخم إعادة تسعير الفيدرالي؛ الجنيه ضعيف قبل CPI؛ وضع حذر
+mind=focused
+psyche_flags=prudence,intuition
+intuition=The bond market is the dog, FX is the tail; if 30Y yields resume climb in London/NY (next 8-16h) USD rallies against all, if yields stabilize risk-on resumes and AUD/NZD/CAD outperform
