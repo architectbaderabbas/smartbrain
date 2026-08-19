@@ -1,28 +1,5 @@
 # SmartBrain lessons (post-mortems on real trades, newest last)
 
-### 2026-08-19 09:13 UTC
-**NZDJPY BREAKOUT SELL 0.04 lots · 72 min · exit SL · P/L -4.47$ · council bias -0.05 (CAUTION)**
-## POST-MORTEM ANALYSIS
-
-**TRADE SUMMARY:**
-BREAKOUT book sold NZDJPY at 93.433, held 72 minutes, hit stop-loss at 93.611, -$4.47 loss (0.04 lots). Direction was SELL NZD/BUY JPY, aligned with council's mild bearish bias (brain_bias -0.05, NZD +0.1, JPY +0.2). **BREAKOUT was explicitly BANNED** from allowed_books list.
-
-**ALIGNMENT & BIAS ACCURACY:**
-Trade direction matched council's JPY preference, but this is **irrelevant** – BREAKOUT is operating as a **rogue agent**. This is the **second consecutive banned-book violation** (AUDJPY 7 minutes earlier, now NZDJPY). Cannot verify bias accuracy (price context completely dead for 9+ hours), but 17.8-pip adverse move in 72 minutes suggests false breakout or chop.
-
-**ROOT CAUSE:**
-**Systemic enforcement collapse** – BREAKOUT book is ignoring allow_books directive, trading 0.04 lots (4x base size, violating risk_mult=0.6), and has now hit stop-loss on **both** unauthorized trades within 8 minutes of each other. This is not a trading loss; this is a **robot mutiny**. The previous post-mortem called for manual EA shutdown – it clearly wasn't executed, and BREAKOUT immediately took a second unauthorized position. Combined loss: -$9.07 in <2 hours from a banned book.
-
-**CONCRETE LESSON:**
-**Words without action are worthless**. The council diagnosed the problem 8 minutes ago (AUDJPY post-mortem) but failed to execute the manual shutdown, allowing BREAKOUT to immediately violate again. Lesson: **emergency directives require immediate physical intervention** – disable the EA in MT4 terminal NOW, not after writing analysis. BREAKOUT in CAUTION mode is a liability, not an asset.
-
-**DIRECTIVE CHANGE:**
-**STOP WRITING AND ACT**: Physically disable BREAKOUT EA in MT4 terminal this second. Verify "other" book disabled. Do not process another trade until compliance confirmed. Price context must be fixed before next session – three consecutive trades with zero market visibility is gambling, not trading.
-
-**LESSON:** Emergency directives must be executed immediately, not deferred; BREAKOUT's second violation proves analysis without action enables repeated failures.
-
-**ACTION:** allow_books=INTRADAY,SWING,POSITION,REVERT,COUNCIL; **IMMEDIATE MANUAL ACTION REQUIRED: disable BREAKOUT EA in MT4 NOW; verify enforcement before resuming trading**
-
 ### 2026-08-19 12:36 UTC
 **EURGBP other SELL 0.08 lots · 96 min · exit EA · P/L 2.5$ · council bias -0.1 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -429,4 +406,23 @@ Entry logic worked: SHOCK detected short-term volatility spike (likely news/algo
 
 **DIRECTIVE CHANGE:**
 None. SHOCK is council-approved, risk_mult=0.6 appropriate for CAUTION mode, oil bias +0.1 remains valid (Brent holding 91.9 support,
+
+### 2026-08-19 19:33 UTC
+**US500 SHOCK BUY 0.31 lots · 2 min · exit SL · P/L 0.95$ · council bias 0.2 (CAUTION)**
+## POST-MORTEM ANALYSIS
+
+**TRADE SUMMARY:**
+SHOCK book bought US500 at 7728.31 (0.31 lots), held 2 minutes, hit stop-loss at 7725.06 for +$0.95. Council-approved book (allow_books="COUNCIL,SHOCK") operating in CAUTION mode with +0.2 US500 bias. **Stopped out for tiny profit** – SL triggered 3.25 points below entry while TP was 4.88 points away. Position sized at 0.31 lots (largest today) suggests SHOCK detected high-conviction setup. Current SPX 7727.73 shows price reversed back toward entry immediately after SL hit.
+
+**ALIGNMENT & BIAS ACCURACY:**
+SHOCK bought US500 **perfectly aligned with council's +0.2 bias** (bullish indices on Treasury buyback/risk-on regime). Council bias was **RIGHT** – SPX holding 7727 support, only 0.58 points below entry after 55 minutes. The +0.2 bias reflects "Treasury buyback won't tolerate bond crisis, equities supported" thesis from intuition field. Price action confirms: no breakdown, just a 3-point wiggle that clipped the stop. **This was correct directional call with poor execution/luck** – entry timing caught a micro-dip that mean-reverted after SL hit.
+
+**ROOT CAUSE OF WIN (technical):**
+**Profit Guard auto-moved SL to breakeven** after 0.5R gain, then price retraced and hit BE stop for +$0.95 instead of full loss. Root cause: SHOCK entered a genuine bullish setup (aligned with +0.2 bias, risk-on regime, 19:17 UTC = liquid US session) but **stop placement too tight for 2-minute index volatility**. The 3.25-point SL on SPX during active hours is ~0.04% – normal noise. TP at 4.88 points gave only 1.5R, suggesting SHOCK expected quick scalp. The "win" is actually **Profit Guard rescue of a mistimed entry** – without BE protection this would've been -$3 loss if price continued to TP.
+
+**CONCRETE LESSON:**
+**"SHOCK's 0.31-lot size on indices in CAUTION mode (risk_mult=0.6) creates overexposure to noise when SL <5 points – in liquid US hours, SHOCK must use minimum 6-point stops on SPX or reduce lot size by 50% to avoid BE-chop exits."** The 3.25-point SL was statistically doomed in a 2-minute trade during NYSE hours. Either widen stops to 6+ points (accept larger risk) or cut position size to 0.15 lots to maintain risk budget with realistic stop distance.
+
+**DIRECTIVE CHANGE:**
+No change to allow_books (SHOCK approved) or risk_mult (0.6 appropriate). However, **recommend operator review
 
