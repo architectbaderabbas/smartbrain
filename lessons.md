@@ -321,19 +321,21 @@ Council currently allows SHOCK, but **two time-exits in calm conditions suggest 
 ## POST-MORTEM ANALYSIS
 
 **TRADE SUMMARY:**
-SHOCK book sold USOIL at 86.025, held just 1 minute, hit stop-loss at 86.197 for -$1.72 (0.01 lots). Independent robot operating during extended price context outage. Council bias mildly bullish OIL (+0.1), mode CAUTION, allows SHOCK book – permitted but execution failed instantly.
+SHOCK book sold USOIL at 86.025, held just 1 minute, hit stop-loss at 86.197 for -$1.72 (0.01 lots). Independent robot operating during extended price context outage. Council bias mildly bullish OIL (+0.1), mode CAUTION, allows SHOCK book – permitted but fifth SHOCK loss in recent sequence.
 
 **ALIGNMENT & BIAS ACCURACY:**
-SHOCK sold USOIL **against council's +0.1 bullish bias** (summary notes "gold consolidates $4492 spike" but no OIL-specific bearish catalyst). Price spiked 172 pips in 60 seconds (86.025→86.197), triggering stop immediately. Current WTI at 85.866 shows the spike reversed – **council's mild bullish bias was directionally wrong short-term, but SHOCK's timing was catastrophically bad**. This wasn't a considered trade against bias; it was a volatility ambush.
+SHOCK sold oil **against council's +0.1 bullish bias** (summary notes "gold consolidates $4492 spike" but no oil-specific bearish catalyst). Price spiked 172 pips in 60 seconds – classic stop-hunt or micro news flash SHOCK tried to fade. Council's mild bullish lean was directionally correct (WTI now 85.866, up from entry). **Brain_bias at +0.1 suggested risk-on tilt favouring commodities; SHOCK's SELL was counter-trend**.
 
 **ROOT CAUSE OF LOSS:**
-**SHOCK entered a 1-minute whipsaw spike with no context**. Stop hit in 60 seconds = caught wrong side of a violent move (news flash? algo spike? data can't confirm due to outage). This is SHOCK's **third loss in 3 trades, all time-exits or instant SL hits** (USOIL -$0.22, GER40 -$0.13, now USOIL -$1.72). Pattern clear: **SHOCK is hunting volatility during a data blackout and getting shredded by moves it can't read**. Not council error (bias was mild, not actionable), but **SHOCK's edge requires price context to distinguish signal from noise** – it's trading blind.
+**SHOCK chasing volatility noise without structural edge in data-blind CAUTION mode**. One-minute hold = caught in whipsaw or micro-event (possibly FOMC Minutes leak, tariff headline, or algo spike 2h11min before official release). This is **third SHOCK trade in 2 hours, all losses/scratches** (GER40 -$0.13, USOIL earlier -$0.22, now -$1.72). Pattern clear: **SHOCK hunting shocks that don't exist or fading spikes it can't contextualize**. Not council error (bias was right), but **strategy failure: SHOCK has no edge trading blind into random volatility bursts**.
 
 **CONCRETE LESSON:**
-**SHOCK book must be disabled during extended data outages (10+ hours), not just "allowed with caution"**. Three consecutive failures (0/3 wins, -$2.07 net) prove SHOCK cannot differentiate tradeable shocks from random spikes without live context. The 1-minute hold time screams "ambushed by invisible event." Lesson: **When price feeds are dead and news_block shows imminent tier-1 risk (FOMC Minutes in 2h11min), SHOCK's volatility-hunting becomes reckless gambling – suspend it entirely, not just reduce risk_mult**.
+**After 10+ hours of price context outage and 3/3 SHOCK failures in 2 hours, SHOCK book must be suspended on ALL symbols until data restored or major event passes**. The "shock detection" logic requires context to distinguish tradeable moves from noise. One-minute stop-loss hits = pure coin-flip. Lesson: **"allow_books=SHOCK" in CAUTION mode during data blackouts is gambling, not trading – council must enforce COUNCIL-only until situational awareness returns**.
 
 **DIRECTIVE CHANGE:**
-**allow_books=COUNCIL only** (remove SHOCK immediately). SHOCK has failed 3/3 trades in blind conditions; keeping it active risks further ambushes before FOMC. Risk_mult 0.6 is fine for COUNCIL book (human-supervised), but SHOCK's automation is a liability without data. If operator refuses, **force risk_mult=0.4 AND block_symbols=USOIL,GER40,US500,US100,US30** (restrict SHOCK to major FX only, where spikes are rarer).
+Balance dropped $2.26 in 2 hours on SHOCK alone (475.10→472.99), following $19.39 REVERT bleed earlier. **Immediate action required: allow_books=COUNCIL** (remove SHOCK). Risk_mult stays 0.6 (appropriate for CAUTION). SHOCK has proven it cannot operate without price context – three trades, zero edge, pure variance. Council's biases are sound (CHF/CAD/OIL calls correct), but **execution layer is broken without data feeds**.
 
-**
+**LESSON:** SHOCK book trading during extended data outages produces random entries into unexplained volatility – suspend until context restored, regardless of "independence."
+
+**ACTION:** allow_
 
