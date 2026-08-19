@@ -1,5 +1,5 @@
 {
- "ts": 1787097688,
+ "ts": 1787098269,
  "council_ts": 1787097414,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": -0.3,
   "bias_GER40": -0.3,
   "allow_books": "INTRADAY,SWING,POSITION,REVERT,SHOCK",
-  "news_block": "AUD:53:123;GBP:343:413;EUR:413:473;EUR:598:658;USD:1043:1133;AUD:1513:1583",
+  "news_block": "AUD:35:105;GBP:325:395;EUR:395:455;EUR:580:640;USD:1025:1115;AUD:1495:1565",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "GBPUSD,USDCHF",
@@ -33,7 +33,7 @@
   "summary_ar": "عوائد السندات تنخفض من ذروة 19 سنة؛ الجيوسياسة تتلاشى (البنتاغون يشير للانسحاب)؛ الين مخفّض (حركة 4 ساعات ممتدة، خطر تدخل)؛ الجنيه ضعيف قبل CPI (6 ساعات)؛ الفرنك يرتفع كعملة تمويل جديدة؛ وضع حذر قبل ا"
  },
  "error": null,
- "watchman": "quiet (sev0)",
+ "watchman": "trade USOIL SHOCK -0.22$ -> post-mortem written",
  "alerts": [
   {
    "ts": 1787072472,

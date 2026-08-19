@@ -1,0 +1,22 @@
+[
+ {
+  "balance": 492.03,
+  "book": "SHOCK",
+  "brain_bias": -0.3,
+  "brain_mode": "CAUTION",
+  "dir": "SELL",
+  "in": 85.096,
+  "lots": 0.01,
+  "mins": 10,
+  "out": 85.118,
+  "pl": -0.22,
+  "pos": 29260695,
+  "reason": "EA",
+  "sl": 85.196,
+  "symbol": "USOIL",
+  "t_in": 1787108460,
+  "t_out": 1787109061,
+  "tp": 84.959,
+  "ts": 1787098261
+ }
+]
