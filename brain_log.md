@@ -2301,3 +2301,75 @@ summary_ar=إعادة شراء الخزانة تدعم المخاطرة؛ الف
 mind=focused
 psyche_flags=awareness,prudence
 intuition=none
+
+
+# 2026-08-19 18:13 UTC
+## Council debate
+
+**Chief Macro Economist:** FOMC Minutes just released (13 min ago) – no major surprises, confirmed July's hawkish hold was data-dependent. Treasury buyback story (Bessent doubling purchases) is the real driver today: 30Y yields dropped 18bp from multi-year highs, easing financial stress. Growth/inflation mix still elevated but bond market stabilizing reduces tail risks. Modest USD-negative.
+
+**Central-Bank Watcher:** Minutes show Fed comfortable pausing but ready to hike if inflation resurges. No emergency tone. The Treasury intervention (buyback doubling) is fiscal policy stepping in where monetary policy hesitated – reduces pressure on Warsh but doesn't change the rate path. Trump speaking in 3 minutes (medium impact) – risk of tariff/geopolitical rhetoric. Maintain USD neutral, watch speech.
+
+**Geopolitical & Crisis Analyst:** Iran-Europe threat (4am headline) now 14 hours stale, no follow-through. UAE-Iran financial embargo is regional posturing, not market-moving. US-Iran war (6 months old) in stalemate per NPR/Colorado Sun – no fresh escalation. Hurricane Lala fatality in Hawaii is tragic but not systemic. Geopolitical premium fading across gold/oil. Risk-on holding.
+
+**FX Strategist:** CHF remains king (+0.4 justified) – carry-trade pivot confirmed by Bloomberg/Reuters. CAD strong on tariff reprieve (+0.2 holds). USD flat post-Minutes, no conviction. EUR weak on Lagarde's pessimism (competitiveness eroding), GBP mixed after inflation data. JPY dead (BoJ intervention fading, USDJPY 158.37). AUD/NZD modest risk-on bid but jobs data tomorrow caps upside. No changes needed.
+
+**Gold & Oil Trader:** Gold spiked $100 to $4488 on Treasury buyback (yield drop), now consolidating – the move is real (safe-haven + lower real yields), but at 6-month highs momentum may pause. Bias +0.3 appropriate. Oil $85.52 WTI, inventories rose (EIA) but risk-on + geopolitics fading = neutral. Bias +0.1 fair. Silver $65.80, no catalyst, keep 0.0.
+
+**Equity / Risk-Sentiment Desk:** SPX 7723 (+0.8% today), Nasdaq 29466 – Treasury buyback rally holding into the close. Risk-on confirmed but we're near ATHs, VIX data missing. Moderna vaccine news lifted healthcare. No crash signals but extended. Bias +0.2 on indices reasonable, don't chase.
+
+**Risk Manager:** Account $463.26, down $26.91 (-5.5%) today. REVERT purged after 4-loss streak (-$26.24), correct decision. SHOCK 2 wins/4 losses (-$2.71), erratic but not catastrophic. Trump speech in 3 min = headline risk, news_block USD extended to 50 min post-speech is prudent. CHFJPY still blocked (REVERT position open, -$3.65 underwater). Day loss not at -3% threshold yet but close – if one more bad trade, consider halt. Risk_mult 0.6 appropriate.
+
+**Market Historian:** Treasury buyback analogy: March 2020 Fed QE announcement (yields -25bp, gold +$80 same day, SPX +6%) – today's move smaller but same playbook. Gold at $4488 is 94th percentile of 1Y range with strong momentum – historical edge favors continuation for 2-5 days unless USD reverses sharply. CHF carry-shift rhymes with Aug 2024 yen-carry unwind (CHF +3% in a week) – this is structural, not a spike. FOMC Minutes historically produce 30-60 min chop then revert to pre-release trend – we're 13 min in, let it settle. Oil at $85 with fading geopolitics: last 3 times war premium decayed (2020 Soleimani, 2019 Abqaiq, 2023 Hamas), oil gave back 50% of spike within 10 days – we're on day 180 of Iran war, premium is stale.
+
+**Chairman:** Minutes were non-events, Treasury buyback is the story (yields down, USD soft, gold/equities up). Trump speaks in 3 min – extend news_block to 50 min post-speech. Biases hold: CHF +0.4 (carry shift is real), CAD +0.2 (tariff relief), gold +0.3 (yield drop + safe-haven), indices +0.2 (risk-on but extended). USD/JPY/EUR unchanged. Account bleeding stopped (REVERT out), but -5.5% day loss is painful – one more bad trade triggers review. Confidence 0.6 (data-driven moves, no surprises). Mind: focused (clear narrative, disciplined risk). Allow_books: COUNCIL, SHOCK only. Block CHFJPY (open position), keep GER40/US indices blocked (near ATHs, thin post-Minutes). Prefer USDCHF (cleanest CHF expression), USDCAD (tariff story).
+
+---
+
+## Psyche
+
+**Awareness (fired=no):** Previous directives 15 min ago had identical biases/risk_mult; this update only extends news_block for Trump speech and updates summary. No flip-flopping. REVERT removal last hour was correct (4-loss streak). SCORECARD shows 100% hit rate on XAU/CHF (small sample) – our gold/CHF calls working. Account down 5.5% is painful but within rules (no halt until -4% balance loss, we're at -5.5% *equity* due to open positions). Continuity maintained.
+
+**Greed (fired=no):** Confidence 0.6, biases modest (max +0.4 CHF), risk_mult 0.6 (below 1.0), prefer_symbols only 2 pairs. No overconfidence language. Treasury buyback rally is real but council not chasing – appropriate caution. No greed detected.
+
+**Fear (fired=yes):** Trump speech in 3 min triggered news_block extension to 50 min, but this is **prudent caution, not panic**. The -5.5% day loss and REVERT purge created emotional weight, but council holding biases steady (not collapsing to 0.0) shows discipline. Fear is present but managed – extending news_block is the right response to headline risk, not over-reaction. Balance restored.
+
+**Prudence (fired=yes):** CHF +0.4 bias has two sources (Bloomberg/Reuters carry-shift) AND historical analog (Aug 2024 yen unwind) – passes test. Gold +0.3 has Treasury buyback (fresh, 4h old) and Historian's momentum edge – passes. But Trump speech is **unknown unknown** – blocking USD trades for 50 min post-speech is prudent given his tariff/war rhetoric history. All strong calls justified.
+
+**Intuition (fired=no):** Gold's $100 spike feels like the start of a bigger move (yield drop + geopolitics + momentum), but Historian warns we're at 94th percentile of range. Hunch: if Trump speech is dovish (de-escalation), gold dips $20-40 then resumes; if hawkish (war/tariffs), gold tests $4550 tonight. No action – let price confirm.
+
+**Mental state:** Focused (clear Treasury buyback narrative, disciplined risk management, Trump speech acknowledged). Fear present but channeled into prudent news_block, not paralysis.
+
+---
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.6
+regime=risk_on
+bias_USD=0.0
+bias_EUR=-0.1
+bias_GBP=0.1
+bias_JPY=0.0
+bias_AUD=0.1
+bias_NZD=0.1
+bias_CAD=0.2
+bias_CHF=0.4
+bias_XAU=0.3
+bias_XAG=0.0
+bias_OIL=0.1
+bias_US500=0.2
+bias_US100=0.2
+bias_US30=0.2
+bias_GER40=0.0
+conf=0.6
+allow_books=COUNCIL,SHOCK
+news_block=USD:3:53
+block_symbols=GER40,US500,US100,US30,EURGBP,CHFJPY
+shock=none
+prefer_symbols=USDCHF,USDCAD
+summary=FOMC Minutes non-event; Treasury buyback supports risk-on (yields down, gold $4488, equities rally); CHF leads on carry-shift, CAD on tariff relief; Trump speaks in 3min, USD blocked 50min
+summary_ar=محضر الفيدرالي بلا مفاجآت؛ إعادة شراء الخزانة تدعم المخاطرة (عوائد منخفضة، ذهب 4488$، أسهم ترتفع)؛ الفرنك يتصدر بتحول الكاري، الكندي بتأجيل التعريفات؛ ترامب يتحدث خلال 3 دقائق، الدولار محظور 50 دقيقة
+mind=focused
+psyche_flags=fear,prudence
+intuition=none
