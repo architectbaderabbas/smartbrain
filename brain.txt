@@ -1,4 +1,4 @@
-ts=1787162470
+ts=1787162475
 generated=2026-08-19 18:01 UTC (watchman heartbeat; council 0 min ago)
 version=1
 risk_mode=caution
@@ -31,4 +31,4 @@ mind=focused
 psyche_flags=awareness,prudence
 intuition=none
 news_events=USD:1787162400:FOMC_Meeting_Minutes
-watchman=trade USOIL other:0 0.43$ -> post-mortem written
+watchman=trade UKOIL other:0 0.45$ -> post-mortem written

@@ -1,5 +1,5 @@
 {
- "ts": 1787162470,
+ "ts": 1787162475,
  "council_ts": 1787159435,
  "directives": {
   "risk_mode": "caution",
@@ -34,7 +34,7 @@
   "news_events": "USD:1787162400:FOMC_Meeting_Minutes"
  },
  "error": null,
- "watchman": "trade USOIL other:0 0.43$ -> post-mortem written",
+ "watchman": "trade UKOIL other:0 0.45$ -> post-mortem written",
  "alerts": [
   {
    "ts": 1787072472,
