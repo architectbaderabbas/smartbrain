@@ -2496,3 +2496,75 @@ summary_ar=الخزانة تضاعف إعادة شراء السندات، الع
 mind=focused
 psyche_flags=awareness,greed,prudence
 intuition=none
+
+
+# 2026-08-19 15:01 UTC
+## Council debate
+
+**Chief Macro Economist:** Treasury buyback doubled to $4bn+ is a structural shift – yields dropping from 19Y highs signals fiscal stress relief. USD weakening is justified; growth/inflation cycle unchanged but financial conditions easing. This supports risk assets short-term.
+
+**Central-Bank Watcher:** FOMC Minutes in 3h32min are the next catalyst. Treasury action pre-empts Fed criticism of tight financial conditions. No Fed speaker contradicted this, so it's coordinated. Expect Minutes to acknowledge bond market stress – dovish tilt possible, bearish USD.
+
+**Geopolitical & Crisis Analyst:** Iran-Europe threat now 8 hours stale, no follow-up. UAE-Iran embargo is economic, not military. Hormuz risk premium fading in oil. No new escalation; geopolitics are background noise now.
+
+**FX Strategist:** USD weakening across the board (DXY down, EUR/GBP/AUD/NZD all stronger vs 1h ago). CHF structural bid intact (carry-trade shift from JPY continues). CAD lifted by oil stability and tariff reprieve headline. EUR recovering from Lagarde's pessimism. Cleanest shorts: USDCHF (USD weak + CHF strong), EURUSD (EUR bounce + USD soft).
+
+**Gold & Oil Trader:** Gold jumped $100 to $4487 on Treasury news – this is a real breakout above $4370 resistance, not a spike. Momentum strong, safe-haven + falling real yields. Silver lagging (still $65.63). Oil flat at $85.66 – Hormuz premium stable but not growing. Gold bias should rise to +0.4; oil stays +0.1.
+
+**Equity / Risk-Sentiment Desk:** SPX +0.5%, NDX +0.6%, DAX flat. Risk-on from Treasury relief, but gains modest – not euphoric. VIX likely down. This is "relief rally" not "breakout rally". Bias +0.2 for US indices is appropriate; don't chase.
+
+**Risk Manager:** Account at $481, daily loss -$9 (-1.9%), REVERT lost -$14 in 2 trades (banned correctly). One open GBPJPY short in SWING book (+$0.25). FOMC Minutes in 3h32min = news_block USD:152:182. No other threats. Caution mode correct; risk_mult 0.6 is fine. Allow_books=COUNCIL,SHOCK is correct (REVERT/BREAKOUT still rogue but contained by account guard).
+
+**Market Historian:** Treasury buyback analogy: March 2020 Fed QE announcement (yields -50bp in 2 days, USD fell 3% over a week, gold rallied $150 in 10 days). August 2011 Operation Twist (yields -30bp, gold +8% in 3 weeks). Current: yields dropped from 19Y highs, USD weakening same day, gold +$100 in 2 hours. **Pattern rhymes with sustained USD weakness + gold strength for 3-7 days unless FOMC Minutes are hawkish surprise**. USDCHF at 0.8015 is mid-range (not extended), XAUUSD at $4487 is new high but momentum strong (breakouts above ATH persist 55-60% historically). Lean: fade USD, ride gold, but cap confidence at 0.65 until Minutes pass.
+
+**Chairman:** Evidence is strong and fresh (Treasury action <2h old, price reaction confirms). USD weakness is multi-source (fiscal relief + pre-FOMC positioning). Gold breakout is real. CHF bid is structural (carry-trade shift, 3 sources today). Confidence can rise to 0.65. Bias changes: USD 0.1→0.0 (weakening but not collapsing), EUR -0.2→-0.1 (recovering), GBP 0.0→+0.1 (data was mixed but USD weakness helps), CHF 0.3→0.4 (strongest currency today), XAU 0.3→0.4 (breakout confirmed). Risk_mult stays 0.6 (FOMC risk in 3.5h). Prefer_symbols: USDCHF (short USD/long CHF), XAUUSD (gold momentum), CHFJPY (CHF vs fading JPY safe-haven). Remove EURCHF (EUR still structurally weak per Lagarde).
+
+---
+
+## Psyche
+
+**Awareness:** fired=yes. Comparing to 14:12 decision: we raised USD from 0.2→0.1 then, now proposing 0.1→0.0 (consistent with fresh Treasury data, not flip-flop). Gold 0.3→0.4 is supported by $100 breakout (new fact). CHF 0.3→0.4 has 3 sources today (structural). No stubbornness detected. REVERT losses noted; enforcement issue persists but not council's fault. Changes are evidence-based.
+
+**Greed:** fired=yes. Gold +0.4, CHF +0.4, most biases positive, prefer_symbols has 3 longs (CHF/gold). Confidence rising to 0.65. Language is "breakout confirmed", "momentum strong". Risk_mult must NOT rise from 0.6 – FOMC Minutes in 3.5h are a known risk. Chairman must hold risk_mult at 0.6 or lower.
+
+**Fear:** fired=no. No over-reaction to single headline. Treasury action is significant and price-confirmed. No panic language. Balanced.
+
+**Prudence:** fired=yes. Gold +0.4 and CHF +0.4 are strong calls. Gold has 2 sources (Treasury yields + breakout) + Market Historian analog (2020/2011). CHF has 3 sources (Reuters/Bloomberg carry-trade shift + structural bid). But |bias|=0.4 with conf=0.65 is at the edge – should require 3 sources. Downgrade gold to +0.35 unless Chairman adds third source. CHF can stay +0.4 (3 sources).
+
+**Intuition:** fired=no. Hunch: FOMC Minutes will acknowledge bond stress but won't shift rate path – market already priced relief, so Minutes = non-event. USD weakness extends another 12h, then consolidates. But this is speculation; Chairman may adopt capped at +0.2 bias change if he agrees.
+
+**Mental state:** focused (evidence-driven, no emotional extremes, but Greed detector fired – must restrain risk_mult).
+
+---
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.6
+regime=mixed
+bias_USD=0.0
+bias_EUR=-0.1
+bias_GBP=0.1
+bias_JPY=0.0
+bias_AUD=0.1
+bias_NZD=0.1
+bias_CAD=0.1
+bias_CHF=0.4
+bias_XAU=0.35
+bias_XAG=0.0
+bias_OIL=0.1
+bias_US500=0.2
+bias_US100=0.2
+bias_US30=0.2
+bias_GER40=0.0
+conf=0.65
+allow_books=COUNCIL,SHOCK
+news_block=USD:152:182;AUD:635:665
+block_symbols=none
+shock=none
+prefer_symbols=USDCHF,XAUUSD,CHFJPY
+summary=Treasury doubles buybacks, USD weakens, gold breaks $4487 on falling yields; CHF strongest (carry shift); caution holds for FOMC Minutes in 3h32min
+summary_ar=الخزانة تضاعف إعادة الشراء، الدولار يضعف، الذهب يخترق 4487$ مع انخفاض العوائد؛ الفرنك السويسري الأقوى (تحول الكاري)؛ الحذر مستمر لمحضر الفيدرالي خلال 3 ساعات و32 دقيقة
+mind=focused
+psyche_flags=awareness,greed,prudence
+intuition=none
