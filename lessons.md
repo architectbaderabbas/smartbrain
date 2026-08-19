@@ -396,3 +396,24 @@ SHOCK sold USOIL **against council's +0.1 bullish OIL bias** (risk-on regime, Tr
 **DIRECTIVE CHANGE:**
 Balance effectively flat after 6 SHOCK trades ($475.10→$472.15 net, -$2.95 including this), but **psychological damage severe: account down $19.88 from session high (492.03), REVERT purged, SHOCK now demonstrably broken**. With FOMC Minutes 41 minutes away and price feeds dead, **continued
 
+### 2026-08-19 17:27 UTC
+**EURGBP REVERT SELL 0.07 lots · 147 min · exit SL · P/L -6.85$ · council bias -0.1 (CAUTION)**
+## POST-MORTEM ANALYSIS
+
+**TRADE SUMMARY:**
+REVERT book sold EURGBP at 0.85705 (0.07 lots), held 147 minutes, hit stop-loss at 0.85777 for -$6.85. Independent robot operating during 10+ hour price context outage, spanning FOMC Minutes release. Council bias mildly bearish EUR (-0.1), bullish GBP (+0.1), mode CAUTION – **fourth consecutive REVERT stop-loss, book already removed from allow_books after third loss**.
+
+**ALIGNMENT & BIAS ACCURACY:**
+REVERT sold EURGBP **perfectly aligned with council bias** (EUR -0.1, GBP +0.1 = net -0.2 bearish EURGBP). Price rallied 72 pips against position over 2.5 hours. **Council bias was directionally WRONG** – EURGBP now 0.85746, up from entry despite EUR weakness thesis. Post-FOMC price action suggests GBP underperformed USD more than EUR did, invalidating the cross-pair setup. Council's EUR/GBP bias spread looked logical but missed the actual flow dynamics.
+
+**ROOT CAUSE OF LOSS:**
+**REVERT trading a blocked symbol (EURGBP explicitly in block_symbols list) = robot malfunction, not strategy failure**. This trade should never have fired – council directive clearly states "block_symbols: EURGBP" yet REVERT opened position 2 hours AFTER directive issued. Root cause: **independent robot ignoring council blocks + trading into tier-1 event (FOMC) + 10-hour data blackout = triple failure**. The -$6.85 loss is secondary to the compliance breach. REVERT's mean-reversion logic requires stable context; firing into FOMC with no price feeds = blind gambling.
+
+**CONCRETE LESSON:**
+**"Independent robot" architecture has catastrophic flaw: REVERT/BREAKOUT/other:<magic> can violate block_symbols because they don't read council directives**. Four consecutive REVERT losses (-$26.24 total) prove the book has negative edge in current regime, yet it kept trading 2+ hours after council removal. Lesson: **"block_symbols must be enforced at broker/EA level, not just council allow_books – independent robots need hard symbol blacklist in code, not advisory directives they ignore"**.
+
+**DIRECTIVE CHANGE:**
+Balance now $465.30 (down $27.64 from session high), REVERT responsible for -$26.24 across 4 trades. Book already removed from allow_books after third loss, so **no further council action possible** – this is a **human operator issue**: REVERT EA must be manually disabled or symbol blacklist hardcoded. Risk_mult already at 0.6 (appropriate for CAUTION). Recommend operator intervention to stop REVERT EA entirely until data feeds restored.
+
+**LESSON:** Independent robots ignoring block_symbols directive =
+
