@@ -1,28 +1,5 @@
 # SmartBrain lessons (post-mortems on real trades, newest last)
 
-### 2026-08-19 12:36 UTC
-**EURGBP other SELL 0.08 lots · 96 min · exit EA · P/L 2.5$ · council bias -0.1 (CAUTION)**
-## POST-MORTEM ANALYSIS
-
-**TRADE SUMMARY:**
-"other" book sold EURGBP at 0.85617, held 96 minutes, closed by EA at 0.85594 for +$2.50 profit (0.08 lots, largest position in journal). Direction was SELL EUR/BUY GBP, aligned with council bias (brain_bias -0.1, EUR -0.2, GBP 0.0). Trade taken in CAUTION mode with "other" book **not in allowed_books list**.
-
-**ALIGNMENT & BIAS ACCURACY:**
-Trade direction matched council's EUR-bearish stance and won 2.3 pips. But this is the **third consecutive governance violation** – "other" book remains active despite two prior post-mortems flagging it as rogue. Cannot verify if bias was actually correct (price context still completely dead after 10+ hours). The 0.08 lot size is **13x the banned SHOCK book's size** and violates risk_mult=0.6 in CAUTION mode.
-
-**ROOT CAUSE:**
-**Complete enforcement failure and analysis paralysis**. Council has now written three post-mortems identifying rogue books, calling for manual shutdowns, demanding immediate action – yet "other" book just traded 0.08 lots (highest risk in journal) while explicitly banned. The win is **irrelevant** – unauthorized execution with 13x normal risk is Russian roulette. Root cause: **no one is actually disabling the EAs**. Writing lessons without execution is theatre.
-
-**CONCRETE LESSON:**
-**This council is impotent if directives aren't enforced**. Three post-mortems, zero compliance. "other" book's $2.50 win with 0.08 lots in a blind market (no price data) is **more dangerous than BREAKOUT's losses** – it rewards maximum risk-taking by a banned book and creates illusion of control. Lesson: **halt all trading until physical EA audit completed**. No more trades until someone confirms in MT4 terminal which EAs are running and manually disables non-compliant ones.
-
-**DIRECTIVE CHANGE:**
-**TRADING SUSPENSION**: Do not process another trade until: 1) Physical verification that BREAKOUT and "other" EAs are disabled in MT4, 2) Price context feed restored and verified working, 3) Written confirmation of which EAs are actually running. Current state is unacceptable – banned books trading maximum size with zero market visibility while council writes impotent analyses.
-
-**LESSON:** Three post-mortems with zero enforcement proves the council has no operational control; profitable rogue trades are more dangerous than losses because they mask systemic failure.
-
-**ACTION:** allow_books=SWING,POSITION,REVERT,COUNCIL; risk_mult=0.0; **SUSPEND ALL TRADING until MT4 EA audit completed and price context restored**
-
 ### 2026-08-19 12:37 UTC
 **NZDUSD BREAKOUT BUY 0.03 lots · 97 min · exit TP · P/L 5.52$ · council bias -0.05 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -425,4 +402,27 @@ SHOCK bought US500 **perfectly aligned with council's +0.2 bias** (bullish indic
 
 **DIRECTIVE CHANGE:**
 SHOCK net +$0.08 today (7 trades, 57% SL hit rate) = **edge erosion in low-conviction environment**. Council should add time filter: `"shock_hours": "06
+
+### 2026-08-19 19:38 UTC
+**US100 other:0 SELL 0.04 lots · 3 min · exit EA · P/L 0.29$ · council bias 0.2 (CAUTION)**
+## POST-MORTEM ANALYSIS
+
+**TRADE SUMMARY:**
+Independent robot "other:0" sold US100 at 29491.8 (0.04 lots), held 3 minutes, closed by EA logic at 29484.45 for +$0.29. Not council-governed (operates independently like REVERT/BREAKOUT). Council was in CAUTION mode with +0.2 US100 bias at time of trade.
+
+**ALIGNMENT & BIAS ACCURACY:**
+Robot sold US100 **against council's +0.2 bullish bias**, but this is irrelevant – "other:0" never reads council directives by design. Council bias was **CORRECT**: NDX now 29506.17 vs 29491.8 entry (+14 points), confirming the bullish call. The +0.2 bias reflects Treasury buyback/risk-on support. The robot's SELL captured a 7.35-point dip (0.025%) before price reversed – **pure scalping variance**, not directional edge.
+
+**ROOT CAUSE OF WIN:**
+**Luck in noise.** The 3-minute hold with 7.35-point capture in a +0.2 bias environment shows the robot faded a micro-pullback that immediately reversed (price now +22 points from exit). Root cause: **tight profit-taking in random walk** – the 37.18-point TP was never threatened, EA closed early (likely time-based or micro profit-lock). The 25.62-point stop gave 1:1.45 R:R, but exiting at 0.2R suggests the EA has no conviction. "other:0" is 3/3 wins today (+$7.49) but all are sub-$1 scalps – **surviving on noise, not edge**.
+
+**CONCRETE LESSON:**
+**"Independent robot 'other:0' shows 100% win rate but $2.50 average win over 3 trades = high-frequency scalping with no statistical edge – operator should demand 20+ trade sample before trusting, and disable if Sharpe ratio <1.0 or average R <0.5."** Three wins mean nothing; the $7.49 total barely covers one REVERT loss. This is curve-fitted scalping that will bleed in volatility.
+
+**DIRECTIVE CHANGE:**
+Council has no authority over "other:0" – this requires **human operator action**: 1) demand full backtest/forward-test stats (win rate, avg R, max DD, Sharpe), 2) if edge unproven, switch off before it hits a real volatility event, 3) if keeping it, reduce lot size to 0.01 (currently 0.04 = same risk as council-approved books but zero oversight). Council directives unchanged.
+
+**LESSON:** Independent robot "other:0" wins on noise-scalping with no proven edge – operator must verify statistical validity or disable before variance reverses.
+
+**ACTION:** none (council has no authority over independent robots; operator must audit "other:0
 
