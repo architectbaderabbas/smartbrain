@@ -12,6 +12,8 @@
 
 ### # SmartBrain lessons (post-mortems on real trades, newest last)
 
+### # SmartBrain lessons (post-mortems on real trades, newest last)
+
 ### 2026-08-19 00:11 UTC
 **USOIL SHOCK SELL 0.01 lots · 10 min · exit EA · P/L -0.22$ · council bias -0.3 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -170,4 +172,27 @@ Trade direction **matched council bias** (selling NZD vs USD when council favore
 Price context outage is now **10+ hours and five trades deep**. Every strategy is guessing. Immediate action: allow_books=COUNCIL only (human discretion), risk_mult=0.0 for robots. Demand MT4 operator: 1) Fix price context feed NOW, 2) Confirm BREAKOUT/other EAs disabled, 3) No robot trading until data restored. REVERT's -$6.90 is the cost of pretending we can trade systematically without market data.
 
 **LESSON:** Mean-reversion strategies must not operate without price context – REVERT fading momentum blind produced the
+
+### 2026-08-19 13:11 UTC
+**NZDUSD REVERT SELL 0.05 lots · 10 min · exit SL · P/L -6.9$ · council bias -0.05 (CAUTION)**
+## POST-MORTEM ANALYSIS
+
+**TRADE SUMMARY:**
+REVERT book sold NZDUSD at 0.59009, held 10 minutes, hit stop-loss at 0.59147 for -$6.90 (0.05 lots, largest single loss in journal). Direction was SELL NZD/BUY USD, **aligned** with council bias (brain_bias -0.05, USD +0.2, NZD +0.1 = net USD-positive). Entered 2 minutes after prior BREAKOUT win closed on same symbol.
+
+**ALIGNMENT & BIAS ACCURACY:**
+Trade **matched council bias** (selling NZD when council favored USD). But REVERT's mean-reversion logic catastrophically failed – entered at 0.59009 expecting pullback, price ripped 13.8 pips against it in 10 minutes. **Cannot verify council bias correctness: price context dead 10+ hours**. REVERT tried to fade what may have been genuine momentum continuation from the prior +18.4 pip BREAKOUT move.
+
+**ROOT CAUSE:**
+**Mean-reversion strategy operating blind during active momentum**. REVERT saw 0.59009 two minutes after BREAKOUT banked profits and assumed exhaustion, but with **zero price context for 10+ hours**, had no way to know if price was extended, where resistance sat, or volatility regime. The 0.05 lot size (vs 0.03 on BREAKOUT) amplified damage. Root cause: **REVERT systematically fades moves it cannot measure** – mean-reversion requires support/resistance levels, ATR, regime data. Trading it blind is suicide.
+
+**CONCRETE LESSON:**
+**REVERT must not trade without functioning price context** – it needs to know if price is extended to revert FROM. This -$6.90 loss (largest in journal, fifth consecutive blind trade) proves the point. Even though REVERT is in allowed_books and direction matched bias, **mean-reversion without market data is worse than breakout trading blind** because it systematically sells strength/buys weakness with no reference points.
+
+**DIRECTIVE CHANGE:**
+Price context outage now 10+ hours, five trades deep. Suspend REVERT until data restored. allow_books=COUNCIL only (discretionary human judgment), risk_mult=0.0 for all robots. Demand MT4 operator: 1) Restore price context feed immediately, 2) Confirm BREAKOUT/other EAs disabled, 3) No systematic trading until visibility returns.
+
+**LESSON:** Mean-reversion strategies require price context to function – REVERT fading momentum blind produced the largest loss because it systematically trades against what it cannot measure.
+
+**ACTION:** allow_books=COUNCIL; risk_mult=0.0
 
