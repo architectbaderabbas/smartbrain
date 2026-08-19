@@ -2292,3 +2292,71 @@ summary_ar=الفرنك السويسري مدعوم هيكلياً؛ التوت�
 mind=scattered
 psyche_flags=awareness,fear,prudence
 intuition=none
+
+
+# 2026-08-19 12:11 UTC
+## Council debate
+
+**Chief Macro Economist:** US bond yields stabilizing after 19-year highs, but debt hitting $40T months early is structural headwind. Growth solid but inflation sticky. Europe struggling with competitiveness per Lagarde's warnings. China weak (holding loan rates). Mixed global picture, no clear cycle turn.
+
+**Central-Bank Watcher:** FOMC Minutes in 5.8 hours is the key event. Fed likely to show concern over yield surge and fiscal trajectory. RBA's Hauser warned of hike risk if inflation persists (AUD employment data tonight). ECB dovish (Lagarde's "eroding growth model" speech). BoE stuck with 3%+ inflation. No imminent moves but Fed Minutes could shift USD.
+
+**Geopolitical & Crisis Analyst:** Iran-Europe military threat now 8 hours old with zero follow-up action. UAE severing Iran trade is significant but priced. War "nearing 6 months" per Axios suggests fatigue, not escalation. Oil's Hormuz premium consolidating, not extending. Severity-1 window closed; this is background noise now.
+
+**FX Strategist:** CHF structural bid confirmed by multiple sources (carry trade shift from JPY per Reuters/Finimize). USD holding 0.2 on yields but vulnerable to dovish Fed Minutes. JPY intervention effects fading (Neuberger Berman notes limited repatriation). EUR weak on Lagarde pessimism. GBP neutral post-CPI. AUD/NZD/CAD rangebound ahead of data. CHF is the only conviction trade.
+
+**Gold & Oil Trader:** Gold at $4,370 per FXStreet, consolidating after safe-haven spike. Upside momentum fading per headlines but no breakdown. Oil holding Hormuz premium but CME notes "supply risks linger" without extension. Both assets in wait-and-see mode before Fed Minutes. No fresh catalyst for breakout.
+
+**Equity / Risk-Sentiment Desk:** "Stock market calm hides churn underneath" per Axios. Tech selloff yesterday, futures flat today. VIX not spiking. BofA warns of AI pullback risk. This is rotation/digestion, not panic. Risk-off bias fading; moving toward neutral as bond yields stabilize.
+
+**Risk Manager:** Daily loss -2.03% (-$9.80), INTRADAY book 2-loss streak, total 3 losing trades today. BREAKOUT violations caused the damage but EAs now manually disabled per last directive. We're 1% away from the -3% rule that would force book removal. Must stay defensive. FOMC Minutes in 5.8h requires news_block. Price context still dead for 10 hours—this is unacceptable for confidence.
+
+**Market Historian:** CHF bid on carry-trade shift: analogous to 2015 post-SNB (CHF surged for weeks), 2008 crisis (CHF +15% in months), 2022 risk-off (CHF rallied 6 months). When CHF becomes the new funding alternative to JPY, it's structural for weeks, not days. Current setup rhymes—multiple sources confirm, not just headlines. Gold at $4,370: if this is near all-time highs (can't verify without data), historical pattern is 55-60% continuation after breakout, but only with momentum. "Fading momentum" per headlines suggests consolidation, not breakout. Oil: Hormuz premiums in 2019 (Abqaiq) faded 50% in 2 weeks; 1990 Gulf War held for months because supply was actually disrupted. Current situation: 6-month war, premium consolidating = closer to 2019 fade pattern. Fed Minutes: historically, Minutes are low-volatility unless they contradict the last statement. Expect ±0.3% USD move, not a trend-changer.
+
+**Chairman:** Awareness will flag our flip-flopping on JPY (0.2→0.1→0.0 over 6 hours without new facts) and oil (−0.3→0.2→0.1 in 8 hours). We've been scattered. The only conviction call that's held is CHF structural bid—three independent sources, historical analog, 8 hours of consistency. Everything else is noise or data-dependent (Fed Minutes, AUD jobs). Risk Manager is right: we're near the -3% loss threshold and trading blind. I'm inclined to hold CHF bias, reduce everything else to near-zero, keep caution mode, and wait for Fed Minutes with tight news blocks. Let the Psyche review this draft before I finalize.
+
+## Psyche
+
+**Awareness (fired=yes):** Comparing last 8 hours: we've flip-flopped JPY (0.2→0.1→0.0), oil (−0.3→0.2→0.1), gold (0.0→0.2→0.3→0.2→0.1), all without hard new facts—just headline decay. Classic scattered behavior. CHF is the only stable call (0.7→0.4→0.4, supported by fresh sources each time). Scorecard shows poor recent accuracy; DECISION MEMORY shows we've been wrong more than right. Draft is correct to collapse most biases to 0.0-0.1 range. No flip-flop this time—it's honest capitulation to uncertainty.
+
+**Greed (fired=no):** Draft has low confidence (0.5), narrow biases, caution mode, reduced risk_mult. No overconfidence language. CHF 0.4 is the highest bias and it's backed by three sources + historian analog. Not firing.
+
+**Fear (fired=yes):** We're over-reacting to the -2% daily loss by wanting to collapse all biases. The loss was from rogue BREAKOUT EA (now disabled), not from our directional calls. Draft wants to go near-zero on everything except CHF, but that's paralysis, not prudence. We have 10 hours until Fed Minutes—there's tradable information (CHF bid, geopolitics fading, bond yield stabilization). Fear is making us want to hide. Restore balance: keep CHF 0.4, but don't zero out USD/gold/oil entirely—modest 0.1-0.2 biases are justified.
+
+**Prudence (fired=yes):** CHF 0.4 is the only bias ≥0.4, and it has two independent sources (Reuters carry-trade shift, Finimize/LiteFinance) plus historian analog (2015/2008/2022). That passes the two-source + analog test. But draft wants conf=0.5 with no strong biases elsewhere—that's too weak given we have 5.8 hours of calm before Fed Minutes. We can operate at conf=0.55-0.6 with CHF 0.4, USD 0.2 (yield support), gold 0.1 (consolidation), oil 0.1 (Hormuz fade). Prudence says: don't overdo the caution.
+
+**Intuition (fired=yes):** The 10-hour price context outage is the real crisis, not the market. We're flying blind and compensating with over-caution. Hunch: the robots' recent losses are from bad entries in choppy conditions (BREAKOUT hitting stops in 65-72 min = whipsaw), not from wrong directional bias. Once price data returns, our bias accuracy will improve. For now, trust the CHF structural story—it's the only signal rising above the noise.
+
+**Psyche state:** Scattered (10h blind, flip-flopping, loss-averse). Fear and Awareness both fired, pulling in opposite directions. Prudence is the tiebreaker: modest biases are justified, but keep risk controls tight.
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.6
+regime=mixed
+bias_USD=0.2
+bias_EUR=-0.2
+bias_GBP=0.0
+bias_JPY=0.0
+bias_AUD=0.1
+bias_NZD=0.1
+bias_CAD=0.0
+bias_CHF=0.4
+bias_XAU=0.1
+bias_XAG=0.0
+bias_OIL=0.1
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=-0.1
+conf=0.55
+allow_books=SWING,POSITION,REVERT,COUNCIL
+news_block=USD:348:378;USD:378:408;AUD:798:828
+block_symbols=none
+shock=none
+prefer_symbols=USDCHF,CHFJPY,EURCHF
+summary=CHF structural bid holds (carry-trade shift); geopolitics fading; bond yields stable; modest biases pre-FOMC; price context outage 10h is critical issue
+summary_ar=الفرنك السويسري مدعوم هيكلياً (تحول تجارة الفائدة)؛ التوترات تتلاشى؛ عائدات السندات مستقرة؛ تحيزات متواضعة قبل محضر الفيدرالي؛ انقطاع بيانات الأسعار 10 ساعات مشكلة حرجة
+mind=scattered
+psyche_flags=awareness,fear,prudence,intuition
+intuition=The 10-hour price context outage is the real crisis; robots losing on whipsaw not wrong bias; trust CHF structural story as only clear signal
