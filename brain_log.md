@@ -2401,3 +2401,71 @@ summary_ar=ارتفاع الين استُنفد (+0.1)؛ الفرنك السوي
 mind=focused
 psyche_flags=prudence,intuition
 intuition=If GBP CPI at consensus or soft, expect brief relief rally then fade (sell the spike); if hot (≥3.0%), GBP falls another 0.5-0.8% over 12-24h—asymmetry favors waiting to sell strength
+
+
+# 2026-08-19 03:41 UTC
+## Council debate
+
+**Chief Macro Economist:** Bond rout easing but still elevated (30Y near 5.3%); yields down slightly but remain restrictive. UK CPI in 2h18m (forecast 2.9% vs 2.6%) is the only fresh macro catalyst. US data cluster 14+ hours away. Growth/inflation cycle stable, no new shocks. Neutral.
+
+**Central-Bank Watcher:** RBA's Hauser warned of hike if inflation risks materialize (fresh, 47 min ago) – hawkish tilt supports AUD but market already priced Fed repricing. BoE expected to hold rest of year per Reuters poll. Fed minutes tonight but stale (last meeting). No CB surprises imminent. Maintain current CB biases.
+
+**Geopolitical & Crisis Analyst:** Pentagon weighing smaller Gulf presence (5h old) – de-escalation theme continues, no new flare-ups. Congressional Dems pushing Oman war powers (5h), US sanctions ICC (5h) – noise, not market-moving. Geopolitics fully faded. No safe-haven demand justified.
+
+**FX Strategist:** GBP into CPI: -0.4 bias correct, hot print (≥2.9%) extends weakness. CHF funding-currency theme confirmed by multiple sources (VT Markets, TradingPedia 7-27h old) – CHF bid is real but move may be mature. AUD: RBA hawkish but AUD already lifted on Fed repricing (CME 7h ago "pulled back from 2.5-month high"). JPY: rally exhausted, no fresh catalyst. USD: modest bid on yields. Hold current FX biases.
+
+**Gold & Oil Trader:** Gold at $4,432 resistance per investingLive (7h), pulling back on rising yields – neutral bias correct. Oil: CME notes "supply risks linger" but "drop" (2h fresh) – bearish fade continues. Wells Fargo revised gold target (14h) but no directional signal. No changes.
+
+**Equity / Risk-Sentiment Desk:** Tech selloff (Reuters 5h), Nasdaq slid, chip names weak, Korean shares tumbled (1h fresh: Samsung/SK Hynix hit by yields + Mideast). Risk-off persists but no acceleration. Chinese robotics IPO soared (1h) – isolated positive. Maintain -0.2 equity bias.
+
+**Risk Manager:** UK CPI in 2h18m is the only live risk. GBP news_block correct (134-204 min). Account: -0.08% today, 1-loss streak SWING, 1-loss SHOCK. SHOCK removed per lesson (Asian low-vol failure) – correct. No emergency triggers. Price context still dead – we're blind. Stay caution, risk_mult 0.6.
+
+**Market Historian:** Price data corrupted – cannot verify if recent moves (JPY rally, AUD pullback, CHF rise) are extended or have room. Historical analog: CHF as funding currency (2015-2017) produced sustained 3-6 month trends, not 1-2 day pops – current CHF bid (0.5 bias) may have legs if confirmed by price. GBP into hot CPI: last 5 UK CPI beats (2023-2025) saw GBP drop 0.4-0.8% over 12-24h, then partial recovery. AUD: RBA hawkish talk (Hauser today) historically supports AUD for 2-5 days unless external USD strength dominates. **Caution: without price data, cannot confirm if moves are extended.** Recommend holding biases steady until price feed restored.
+
+**Chairman:** Council consensus: no new facts warrant changes. GBP CPI in 2h18m is the only catalyst; bias -0.4 appropriate. CHF funding-currency theme supported by multiple sources (7-27h old but credible); 0.5 bias reasonable. AUD: RBA hawkish (47 min fresh) but "pulled back from high" per CME (7h) – conflicting signals, hold +0.2. JPY exhausted, no catalyst – hold 0.1. Oil fade continues – hold -0.3. Equity risk-off persists (Korean shares fresh 1h) – hold -0.2. **Critical issue: price context dead for 2nd hour.** Risk Manager correct: stay caution 0.6 until data restored. No flip-flopping, no new shocks. Maintain all biases and settings. Conf 0.6 (moderate evidence quality, stale headlines, blind on prices).
+
+## Psyche
+
+**Awareness (fired=no):** Comparing to 02:41 directives: all biases unchanged, risk_mode/mult unchanged, news_blocks updated for time decay. No flip-flopping. DECISION MEMORY shows stable view over 7 hours (JPY trimmed 0.6→0.1, CHF added 0.5, GBP held -0.4). LESSONS applied: SHOCK removed (correct). TRADE JOURNAL: 2 trades, 1 win (against bias – luck), 1 loss (SHOCK in dead zone – correct removal). No stubbornness detected. Clean.
+
+**Greed (fired=no):** Conf 0.6 (moderate), risk_mult 0.6 (conservative), no |bias| ≥0.7, prefer_symbols only 2 pairs, language cautious ("hold", "maintain"). No greed signals. Appropriate restraint given blind price data.
+
+**Fear (fired=no):** Caution mode justified (UK CPI 2h18m, price data dead, account -0.08% today). No over-reaction to single headline. SHOCK removal was prudent (lesson-based), not panic. Biases stable despite 2 recent losses. No fear over-reaction detected.
+
+**Prudence (fired=yes):** CHF bias 0.5 supported by 3 independent sources (VT Markets, TradingPedia, FXStreet) spanning 7-27h AND Market Historian analog (2015-2017 funding-currency trends). GBP -0.4 into CPI supported by Reuters poll + historical CPI-beat pattern. AUD +0.2: only 1 fresh source (RBA Hauser 47m) vs 1 conflicting (CME pullback 7h) – bias appropriate at +0.2, not higher. All strong biases justified. Prudence satisfied.
+
+**Intuition (fired=yes):** UK CPI at 07:00 UTC could be the cleanest trade of the day if it beats (≥3.0%): GBP has limited downside protection, GBPUSD could drop 60-80 pips in 4-6 hours. But if it misses or meets (2.9%), expect a 20-30 pip relief spike that fades by London afternoon – the asymmetry favors waiting for the print, then selling strength on a miss or weakness on a beat. Don't pre-position.
+
+**Council mental state: focused.** Evidence-based, stable, no emotional drift. Blind on prices but managing risk appropriately.
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.6
+regime=risk_off
+bias_USD=0.2
+bias_EUR=0.0
+bias_GBP=-0.4
+bias_JPY=0.1
+bias_AUD=0.2
+bias_NZD=0.1
+bias_CAD=0.2
+bias_CHF=0.5
+bias_XAU=0.0
+bias_XAG=-0.1
+bias_OIL=-0.3
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=-0.2
+conf=0.6
+allow_books=INTRADAY,SWING,POSITION,REVERT
+news_block=GBP:134:204;EUR:204:274;EUR:389:459;USD:844:934;USD:874:964;AUD:1304:1384
+block_symbols=none
+shock=none
+prefer_symbols=GBPUSD,USDCHF
+summary=CHF bid on funding shift (+0.5); GBP weak into CPI 2.3h (-0.4); RBA hawkish supports AUD (+0.2); oil fade holds (-0.3); caution mode, price data still dead
+summary_ar=الفرنك السويسري مرتفع على تحول التمويل (+0.5)؛ الجنيه ضعيف قبل CPI بـ2.3 ساعات (-0.4)؛ RBA متشدد يدعم الدولار الأسترالي (+0.2)؛ تلاشي النفط مستمر (-0.3)؛ وضع حذر
+mind=focused
+psyche_flags=prudence,intuition
+intuition=UK CPI at 07:00 UTC is the cleanest setup: if ≥3.0% (beat), sell GBP into 4-6h weakness; if ≤2.9% (meet/miss), fade the relief spike by London afternoon—asymmetry favors post-print reaction over pre-positioning

@@ -1,6 +1,6 @@
 {
- "ts": 1787110147,
- "council_ts": 1787107312,
+ "ts": 1787110912,
+ "council_ts": 1787110912,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.6,
@@ -22,18 +22,17 @@
   "bias_US30": -0.2,
   "bias_GER40": -0.2,
   "allow_books": "INTRADAY,SWING,POSITION,REVERT",
-  "news_block": "GBP:134:204;EUR:214:284;EUR:399:469;USD:854:944;AUD:1314:1394",
+  "news_block": "GBP:134:204;EUR:204:274;EUR:389:459;USD:844:934;USD:874:964;AUD:1304:1384",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "GBPUSD,USDCHF",
   "mind": "focused",
   "psyche_flags": "prudence,intuition",
-  "intuition": "If GBP CPI at consensus or soft, expect brief relief rally then fade (sell the spike); if hot (≥3.0%), GBP falls another 0.5-0.8% over 12-24h—asymmetry favors waiting to sell strength",
-  "summary": "JPY rally exhausted (trim to +0.1); CHF bid on funding-currency shift (+0.5); GBP weak into CPI 3.3h (-0.4); AUD trimmed to +0.2 (extended); oil fade holds; caution mode, no price data",
-  "summary_ar": "ارتفاع الين استُنفد (+0.1)؛ الفرنك السويسري مرتفع على تحول عملة التمويل (+0.5)؛ الجنيه ضعيف قبل CPI بـ3.3 ساعات (-0.4)؛ الدولار الأسترالي مُخفّض (+0.2)؛ تلاشي النفط مستمر؛ وضع حذر"
+  "intuition": "UK CPI at 07:00 UTC is the cleanest setup: if ≥3.0% (beat), sell GBP into 4-6h weakness; if ≤2.9% (meet/miss), fade the relief spike by London afternoon—asymmetry favors post-print reaction over pre-p",
+  "summary": "CHF bid on funding shift (+0.5); GBP weak into CPI 2.3h (-0.4); RBA hawkish supports AUD (+0.2); oil fade holds (-0.3); caution mode, price data still dead",
+  "summary_ar": "الفرنك السويسري مرتفع على تحول التمويل (+0.5)؛ الجنيه ضعيف قبل CPI بـ2.3 ساعات (-0.4)؛ RBA متشدد يدعم الدولار الأسترالي (+0.2)؛ تلاشي النفط مستمر (-0.3)؛ وضع حذر"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,
