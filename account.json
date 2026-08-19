@@ -25,14 +25,14 @@
     }
   ],
   "brain_mode": "CAUTION",
-  "day_pl": -4.83,
-  "equity": 488.19,
+  "day_pl": -4.62,
+  "equity": 488.4,
   "positions": [
     {
       "book": "BREAKOUT",
       "lots": 0.04,
       "opened": 1787137200,
-      "pl": -2.01,
+      "pl": -2.11,
       "symbol": "AUDJPY",
       "type": "SELL"
     },
@@ -40,11 +40,11 @@
       "book": "BREAKOUT",
       "lots": 0.04,
       "opened": 1787137200,
-      "pl": -1.94,
+      "pl": -1.63,
       "symbol": "NZDJPY",
       "type": "SELL"
     }
   ],
-  "ts": 1787128005,
-  "week_pl": -4.83
+  "ts": 1787128905,
+  "week_pl": -4.62
 }
