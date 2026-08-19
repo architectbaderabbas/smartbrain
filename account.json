@@ -32,14 +32,14 @@
     }
   ],
   "brain_mode": "CAUTION",
-  "day_pl": -11.93,
-  "equity": 481.09,
+  "day_pl": -11.14,
+  "equity": 481.88,
   "positions": [
     {
       "book": "BREAKOUT",
       "lots": 0.03,
       "opened": 1787148000,
-      "pl": -0.66,
+      "pl": -0.09,
       "symbol": "NZDUSD",
       "type": "BUY"
     },
@@ -47,11 +47,11 @@
       "book": "REVERT",
       "lots": 0.08,
       "opened": 1787148000,
-      "pl": -0.22,
+      "pl": 0,
       "symbol": "EURGBP",
       "type": "SELL"
     }
   ],
-  "ts": 1787137905,
-  "week_pl": -11.93
+  "ts": 1787138805,
+  "week_pl": -11.14
 }
