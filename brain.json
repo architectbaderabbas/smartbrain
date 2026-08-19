@@ -1,5 +1,5 @@
 {
- "ts": 1787137830,
+ "ts": 1787137917,
  "council_ts": 1787137830,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": -0.1,
   "allow_books": "SWING,POSITION,REVERT,COUNCIL",
-  "news_block": "USD:409:439;USD:439:469;AUD:859:889",
+  "news_block": "USD:408:438;USD:438:468;AUD:858:888",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDCHF,CHFJPY,EURCHF",
@@ -33,6 +33,7 @@
   "summary_ar": "الفرنك السويسري مدعوم هيكلياً؛ التوترات تتلاشى؛ عائدات السندات تستقر؛ جميع التحيزات خُفضت 0.1 بسبب انقطاع بيانات الأسعار 9 ساعات؛ BREAKOUT+INTRADAY مُزالان"
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,
