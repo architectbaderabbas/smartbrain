@@ -1,5 +1,5 @@
 {
- "ts": 1787116519,
+ "ts": 1787117212,
  "council_ts": 1787116519,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": -0.2,
   "bias_GER40": -0.2,
   "allow_books": "INTRADAY,SWING,POSITION,REVERT",
-  "news_block": "GBP:20:50;EUR:110:140;EUR:295:325;USD:760:790;USD:790:820;AUD:1210:1240",
+  "news_block": "GBP:9:39;EUR:99:129;EUR:284:314;USD:749:779;USD:779:809;AUD:1199:1229",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDCHF,GBPUSD",
@@ -33,6 +33,7 @@
   "summary_ar": "الفرنك الأقوى (تحول التمويل، +0.7)؛ الجنيه ضعيف قبل CPI 44 دقيقة (بيع الارتفاع)؛ الدولار الأسترالي/الكندي مُخفّض؛ النفط يتراجع؛ وضع حذر، لا بيانات أسعار"
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,
