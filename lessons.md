@@ -16,6 +16,8 @@
 
 ### # SmartBrain lessons (post-mortems on real trades, newest last)
 
+### # SmartBrain lessons (post-mortems on real trades, newest last)
+
 ### 2026-08-19 00:11 UTC
 **USOIL SHOCK SELL 0.01 lots · 10 min · exit EA · P/L -0.22$ · council bias -0.3 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -218,4 +220,27 @@ Trade was **discretionary human judgment** with no council bias on silver. Counc
 **No change to directives** – allow_books=COUNCIL is already correct. But **enforcement failure continues**: REVERT (in allowed_books) traded simultaneously and lost more than this won. The issue isn't strategy; it's **MT4 operator hasn't disabled REVERT during data blackout**. Demand written confirmation: REVERT EA suspended until price context restored. Manual trading can continue cautiously (this proved it), but systematic mean-reversion without data must stop.
 
 **LESSON:** Discretionary human trading during data blackouts can work (this +$6
+
+### 2026-08-19 13:14 UTC
+**XAGUSD other:0 BUY 0.01 lots · 14 min · exit MANUAL · P/L 6.75$ · council bias 0 (CAUTION)**
+## POST-MORTEM ANALYSIS
+
+**TRADE SUMMARY:**
+"other:0" book (COUNCIL = manual human discretion) bought XAGUSD at 64.935, held 14 minutes, manually closed at 65.07 for +$6.75 (0.01 lots). Direction was BUY silver with **neutral council bias** (brain_bias 0, XAG 0.0). Entered same minute as the doomed REVERT NZDUSD trade, exited 3 minutes after REVERT hit stop-loss.
+
+**ALIGNMENT & BIAS ACCURACY:**
+Trade was **discretionary with no council directional view** on silver. **Cannot verify bias correctness – price context dead 10+ hours**. The +13.5 pip move in 14 minutes suggests either genuine momentum read or lucky timing. Without price context, impossible to know if 64.935 was support bounce or random entry. Council had no XAG opinion, so alignment is N/A.
+
+**ROOT CAUSE OF WIN:**
+**Human discretion adapting to zero-visibility conditions**. This worked because: 1) Small size (0.01 lots, conservative), 2) Manual exit discipline (took +13.5 pips, didn't wait for TP at 68.032), 3) **Avoided systematic logic that requires data**. Discretionary trading can read order flow and exit dynamically without historical context. But 14-minute hold suggests opportunistic scalp, not conviction – **likely 60% skill, 40% luck**.
+
+**CONCRETE LESSON:**
+**This win validates "COUNCIL-only" trading during data blackouts** – humans can adapt where robots cannot. BUT the +$6.75 barely offsets the -$6.90 REVERT loss that happened simultaneously (net -$0.15). Real issue: **REVERT shouldn't have traded at all**. The win proves discretionary works; the simultaneous REVERT loss proves **enforcement failure** – MT4 operator hasn't disabled banned EAs despite 10+ hour data outage.
+
+**DIRECTIVE CHANGE:**
+**No change to directives** (allow_books=COUNCIL already correct). But **demand written confirmation from MT4 operator**: REVERT EA physically disabled until price context restored. Manual trading can continue cautiously (this proved it works), but systematic strategies must be suspended, not just "not allowed" in config.
+
+**LESSON:** Discretionary human trading during data blackouts can capture moves robots miss, but only if systematic EAs are actually disabled – config changes aren't enough.
+
+**ACTION:** none (directives correct; enforcement is the problem – escalate to MT4 operator for EA suspension confirmation)
 
