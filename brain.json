@@ -1,5 +1,5 @@
 {
- "ts": 1787259835,
+ "ts": 1787260014,
  "council_ts": 1787259835,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": -0.2,
   "bias_GER40": -0.1,
   "allow_books": "COUNCIL,SWING,POSITION",
-  "news_block": "GBP:536:566;EUR:611:641;EUR:626:656;GBP:686:716",
+  "news_block": "GBP:534:564;EUR:609:639;EUR:624:654;GBP:684:714",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
@@ -34,6 +34,7 @@
   "news_events": "none"
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,

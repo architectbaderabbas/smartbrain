@@ -1,12 +1,12 @@
-ts=1787259835
-generated=2026-08-20 21:03 UTC
+ts=1787260014
+generated=2026-08-20 21:06 UTC (watchman heartbeat; council 2 min ago)
 version=1
 risk_mode=caution
 risk_mult=0.6
 regime=risk_off
 conf=0.4
 allow_books=COUNCIL,SWING,POSITION
-news_block=GBP:536:566;EUR:611:641;EUR:626:656;GBP:686:716
+news_block=GBP:534:564;EUR:609:639;EUR:624:654;GBP:684:714
 block_symbols=none
 shock=none
 prefer_symbols=none
@@ -31,3 +31,4 @@ mind=focused
 psyche_flags=awareness,prudence
 intuition=Bond market screaming Treasury lost control; regime shift unfolding; PMIs tomorrow are the hinge (disappoint = EUR/GBP break down + USD liquidity bid; beat = USD weakness extends)
 news_events=none
+watchman=quiet (sev0)
