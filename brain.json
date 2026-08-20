@@ -1,6 +1,6 @@
 {
- "ts": 1787245753,
- "council_ts": 1787242916,
+ "ts": 1787246516,
+ "council_ts": 1787246516,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.6,
@@ -14,7 +14,7 @@
   "bias_NZD": 0.0,
   "bias_CAD": 0.0,
   "bias_CHF": -0.3,
-  "bias_XAU": -0.1,
+  "bias_XAU": 0.0,
   "bias_XAG": 0.0,
   "bias_OIL": 0.0,
   "bias_US500": 0.0,
@@ -22,19 +22,18 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "COUNCIL,SWING,POSITION",
-  "news_block": "GBP:769:799;EUR:844:874;GBP:919:949",
+  "news_block": "GBP:754:784;EUR:829:859;GBP:904:934",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
   "psyche_flags": "prudence",
-  "intuition": "Friday Eurozone PMIs may disappoint vs optimistic forecasts, potentially triggering EUR breakdown and validating fade bias",
-  "summary": "Extended EUR/GBP/CHF stalling at multi-month highs (16h no catalyst), fade bias -0.3 held; INTRADAY 2-loss streak monitored; await Friday PMIs (15h) for breakout or breakdown",
-  "summary_ar": "EUR/GBP/CHF ممتدّة تتوقف عند قمم عدة أشهر (16 ساعة بلا محفّز)، انحياز التلاشي -0.3 مستمر؛ INTRADAY خسارتان متتاليتان تحت المراقبة؛ ننتظر PMIs الجمعة (15 ساعة)",
+  "intuition": "none",
+  "summary": "EUR/GBP/CHF exhaustion at multi-month highs (16h stall) justifies fade -0.3; geopolitical premium fully decayed (all 0.0); INTRADAY removed on 2-loss streak; await Friday PMIs (15h)",
+  "summary_ar": "استنفاد EUR/GBP/CHF عند قمم عدة أشهر (توقف 16 ساعة) يبرر التلاشي -0.3؛ علاوة جيوسياسية تلاشت تماماً (الكل 0.0)؛ INTRADAY مُزال بعد خسارتين؛ ننتظر PMIs الجمعة (15 ساعة)",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,

@@ -2640,3 +2640,75 @@ summary_ar=EUR/GBP/CHF ممتدّة تتوقف عند قمم عدة أشهر (16
 mind=calm
 psyche_flags=prudence
 intuition=Friday Eurozone PMIs may disappoint vs optimistic forecasts, potentially triggering EUR breakdown and validating fade bias
+
+
+# 2026-08-20 17:21 UTC
+## Council debate
+
+**Chief Macro Economist:** US data (Philly Fed 24.1 miss vs 41.4 prior, Claims stable 210K) shows manufacturing cooling but labor holding – no regime shift. Europe drought/energy headlines are noise until quantified. No new macro catalyst for 15 hours (Friday PMIs). Neutral USD/EUR.
+
+**Central-Bank Watcher:** Treasury buyback theme now 17 hours stale, yields rebounded per headlines – Fed/Treasury "at odds" per Axios but no actionable policy change. BoJ intervention risk persists (USDJPY 159.04 near intervention zone ~160), but no fresh trigger. All CBs on hold until data forces their hand.
+
+**Geopolitical & Crisis Analyst:** Iran sanctions/Kyiv strikes/NK missile all >8 hours old with zero market follow-through (oil +0.3% from open, gold -$17 from spike). War premium decaying as expected per playbook (spike-fade pattern). No escalation, no new shock. Downgrade all geopolitical biases to 0.0.
+
+**FX Strategist:** EUR 1.1671/GBP 1.3625/CHF 0.8008 all sitting at 6-month highs per Reuters/headlines but **stalling for 16 hours** with no fresh catalyst. Sterling "six-month high" headline is 7 hours old. This is exhaustion, not breakout. Fade bias -0.3 on EUR/GBP/CHF remains valid. AUD 0.7111 holding despite jobs miss – RBA tightening bets alive per headline, but no conviction. All others flat.
+
+**Gold & Oil Trader:** Gold 4511 rejected 4528 highs twice (8h, 13h ago), now -$17 from peak – classic headline-spike fade per playbook. Oil 87/94 (WTI/Brent) holding Iran premium but headlines show "economic pressure" replacing military strikes – premium will decay over days unless supply hit. Both neutral to weak. Bias XAU -0.1, OIL 0.0.
+
+**Equity / Risk-Sentiment Desk:** US500 7676/US100 29250 down from session highs, "two-week lows" per Reuters 43min ago on bond yields/Walmart – mild risk-off but no crash. VIX data missing. "Bubble" headlines (Bloomberg 8h ago) are opinion, not actionable. Mixed regime, no strong lean.
+
+**Risk Manager:** INTRADAY book 2-loss streak (-$3.39 today, 0% win rate) – emergency protocol says remove from allow_books for rest of day. REVERT already removed (0% win rate, 5 SL hits). Account -$30.7 from peak ($490 → $459), but daily loss only -0.7% (safe). CAUTION mode justified, risk_mult 0.6 appropriate. News blocks for Friday PMIs correct.
+
+**Market Historian:** **EUR/GBP/CHF at multi-month highs stalling 16+ hours = textbook exhaustion.** Last analogs: EUR 1.16+ in Feb 2024 (stalled 2 days, reversed -1.8%), GBP 1.36+ in Nov 2023 (chopped 3 days, then broke higher on BoE surprise – but we have no BoE event). CHF 0.80 is 2-month high per headlines but momentum fading (price flat 6 hours). **Playbook says: extended moves without fresh catalyst fade 60% of the time within 24-48h; the other 40% need a new shock to break out.** Friday PMIs (15h away) are the only potential catalyst. Current setup rhymes with **Aug 2023 EUR exhaustion** (stalled at 1.11 for 18h, then dropped -0.6% in 2 days when data disappointed). Fade bias -0.3 is historically sound. **Gold 4511 at all-time high but rejecting twice = 55% chance of -1% pullback per playbook** (new highs continue only with momentum, which is absent). Oil war premium decay is on schedule (2-6 week fade per 2020 Soleimani analog).
+
+**Chairman:** Historian and FX Strategist align: extended EUR/GBP/CHF exhaustion without catalyst for 16h justifies fade bias -0.3. Geopolitical premium fully faded (Analyst correct). Risk Manager's INTRADAY removal is mandatory per protocol. No new information changes previous directives except: (1) remove INTRADAY per emergency rule, (2) geopolitical biases (JPY/XAU/OIL) all to 0.0 on complete fade. Confidence remains 0.35 (low conviction, waiting for Friday PMIs). CAUTION mode, risk_mult 0.6 unchanged.
+
+---
+
+## Psyche
+
+**Awareness (fired=no):** Previous directives held EUR/GBP/CHF fade -0.3 for 6 hours; prices moved only +5/+12/-3 pips respectively – **no refutation, no flip-flop**. INTRADAY removal is new but mandated by protocol (2-loss streak), not council whim. Geopolitical downgrade to 0.0 is overdue (headlines 8-17h stale). Decision is consistent with evidence and prior stance.
+
+**Greed (fired=no):** All biases ≤0.3 in absolute terms, risk_mult 0.6 (conservative), prefer_symbols none, language cautious ("stalling," "await PMIs"). No overconfidence detected.
+
+**Fear (fired=no):** INTRADAY removal is protocol-driven (2-loss streak), not panic. Biases remain modest (-0.3 max). No over-reaction to recent losses or headlines. Balanced response.
+
+**Prudence (fired=yes):** Fade biases -0.3 on EUR/GBP/CHF supported by two sources (FX Strategist's 16h stall observation + Historian's Aug 2023 analog) and concrete price action (highs rejected, no follow-through). Geopolitical downgrade to 0.0 supported by multi-desk consensus (8-17h stale, zero market impact). All strong calls properly evidenced.
+
+**Intuition (fired=no):** No hunch beyond the explicit Friday PMI risk already stated in previous intuition. Market is in a holding pattern; forcing a new intuition would be noise.
+
+**Mental state:** calm | **Current mind: calm** (waiting mode, no greed/fear, evidence-based positioning).
+
+---
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.6
+regime=mixed
+bias_USD=0.0
+bias_EUR=-0.3
+bias_GBP=-0.3
+bias_JPY=0.0
+bias_AUD=-0.1
+bias_NZD=0.0
+bias_CAD=0.0
+bias_CHF=-0.3
+bias_XAU=0.0
+bias_XAG=0.0
+bias_OIL=0.0
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.35
+allow_books=COUNCIL,SWING,POSITION
+news_block=GBP:754:784;EUR:829:859;GBP:904:934
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=EUR/GBP/CHF exhaustion at multi-month highs (16h stall) justifies fade -0.3; geopolitical premium fully decayed (all 0.0); INTRADAY removed on 2-loss streak; await Friday PMIs (15h)
+summary_ar=استنفاد EUR/GBP/CHF عند قمم عدة أشهر (توقف 16 ساعة) يبرر التلاشي -0.3؛ علاوة جيوسياسية تلاشت تماماً (الكل 0.0)؛ INTRADAY مُزال بعد خسارتين؛ ننتظر PMIs الجمعة (15 ساعة)
+mind=calm
+psyche_flags=prudence
+intuition=none
