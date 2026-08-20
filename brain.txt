@@ -1,5 +1,5 @@
-ts=1787203377
-generated=2026-08-20 05:22 UTC (watchman heartbeat; council 6 min ago)
+ts=1787204275
+generated=2026-08-20 05:37 UTC (watchman heartbeat; council 14 min ago)
 version=1
 risk_mode=caution
 risk_mult=0.6
