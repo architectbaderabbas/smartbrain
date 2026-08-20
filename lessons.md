@@ -1,28 +1,5 @@
 # SmartBrain lessons (post-mortems on real trades, newest last)
 
-### 2026-08-19 13:11 UTC
-**NZDUSD REVERT SELL 0.05 lots · 10 min · exit SL · P/L -6.9$ · council bias -0.05 (CAUTION)**
-## POST-MORTEM ANALYSIS
-
-**TRADE SUMMARY:**
-REVERT book sold NZDUSD at 0.59009, held 10 minutes, hit stop-loss at 0.59147 for -$6.90 (0.05 lots, largest single loss in journal). Direction was SELL NZD/BUY USD, **aligned** with council bias (brain_bias -0.05, USD +0.2, NZD +0.1 = net USD-positive). Entered 2 minutes after prior BREAKOUT win closed on same symbol.
-
-**ALIGNMENT & BIAS ACCURACY:**
-Trade **matched council bias** (selling NZD when council favored USD). But REVERT's mean-reversion logic catastrophically failed – entered at 0.59009 expecting pullback, price ripped 13.8 pips against it in 10 minutes. **Cannot verify council bias correctness: price context dead 10+ hours**. REVERT tried to fade what may have been genuine momentum continuation from the prior +18.4 pip BREAKOUT move.
-
-**ROOT CAUSE:**
-**Mean-reversion strategy operating blind during active momentum**. REVERT saw 0.59009 two minutes after BREAKOUT banked profits and assumed exhaustion, but with **zero price context for 10+ hours**, had no way to know if price was extended, where resistance sat, or volatility regime. The 0.05 lot size (vs 0.03 on BREAKOUT) amplified damage. Root cause: **REVERT systematically fades moves it cannot measure** – mean-reversion requires support/resistance levels, ATR, regime data. Trading it blind is suicide.
-
-**CONCRETE LESSON:**
-**REVERT must not trade without functioning price context** – it needs to know if price is extended to revert FROM. This -$6.90 loss (largest in journal, fifth consecutive blind trade) proves the point. Even though REVERT is in allowed_books and direction matched bias, **mean-reversion without market data is worse than breakout trading blind** because it systematically sells strength/buys weakness with no reference points.
-
-**DIRECTIVE CHANGE:**
-Price context outage now 10+ hours, five trades deep. Suspend REVERT until data restored. allow_books=COUNCIL only (discretionary human judgment), risk_mult=0.0 for all robots. Demand MT4 operator: 1) Restore price context feed immediately, 2) Confirm BREAKOUT/other EAs disabled, 3) No systematic trading until visibility returns.
-
-**LESSON:** Mean-reversion strategies require price context to function – REVERT fading momentum blind produced the largest loss because it systematically trades against what it cannot measure.
-
-**ACTION:** allow_books=COUNCIL; risk_mult=0.0
-
 ### 2026-08-19 13:14 UTC
 **XAGUSD other:0 BUY 0.01 lots · 14 min · exit MANUAL · P/L 6.75$ · council bias 0 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -414,4 +391,23 @@ SWING sold GBPJPY **against council's +0.05 bullish GBP bias** (GBP +0.1, JPY 0.
 
 **CONCRETE LESSON:**
 **"In CAUTION mode with conflicting signals (risk-on vs safe-haven), SWING must tighten stops to 30-35 pips on JPY crosses – the 48-pip stop allowed a full retracement that only Profit Guard rescued. When council bias opposes SWING direction by >0.05, reduce stop to 0.7x normal or skip the trade."** The +$1.52 win masks a structural issue: SWING is fighting the council's macro view. Either the council's GBP bias was stale (no update for CHF downgrade to 0.4 suggests
+
+### 2026-08-20 11:45 UTC
+**NZDUSD BREAKOUT BUY 0.01 lots · 105 min · exit SL · P/L -1.16$ · council bias 0 (CAUTION)**
+## POST-MORTEM ANALYSIS
+
+**TRADE SUMMARY:**
+BREAKOUT book bought NZDUSD at 0.59596 (0.01 lots), held 105 minutes, hit stop-loss at 0.59477 for -$1.16. Independent robot (does not read council). Council was in CAUTION mode with 0.0 bias (neutral NZD/USD). Entry 08:00 UTC, stopped 09:45 UTC. Price now 0.5953 – **5 pips below stop**, confirming the SL caught a local low before minor recovery.
+
+**ALIGNMENT & BIAS ACCURACY:**
+BREAKOUT operates independently – council bias irrelevant by design. Council's 0.0 NZD/USD bias was **CORRECT for neutrality**: price chopped 11.9 pips (0.59477-0.59596) in 105 minutes with no directional conviction. The "pre-data void" summary (84 minutes to Philly Fed/Claims) warned of range-bound conditions. BREAKOUT bought into a **13-hour consolidation** the council explicitly flagged as requiring a catalyst to break. The robot's breakout logic fired on noise, not genuine momentum.
+
+**ROOT CAUSE OF LOSS:**
+**Entry logic failure in event-less chop.** BREAKOUT detected a false breakout during the exact window council warned about ("wait for print, don't guess direction"). The 11.9-pip stop and 17.7-pip TP show 1.49R setup, but in a 0.2% ATR environment (NZDUSD typical daily range ~50 pips), this is **scalping masquerading as breakout trading**. Root cause: **BREAKOUT has no event-awareness filter** – it triggered 84 minutes before the only scheduled catalyst, guaranteeing it traded noise not signal. The -$1.16 loss is **pure variance in a structural edge vacuum**. Independent design is valid, but this robot needs a "no trade within 2 hours of tier-1 data" rule.
+
+**CONCRETE LESSON:**
+**"BREAKOUT must not trade 2 hours before/1 hour after tier-1 USD events (Philly Fed, NFP, CPI, FOMC) – pre-event consolidation creates false breakouts that bleed capital. Operator should add time-based filter: if news_block active on symbol's currencies, disable BREAKOUT entries."** One trade, one loss, textbook example of trading the wrong market state. The robot's edge exists (see historical stats presumably), but activating in a flagged void is -EV.
+
+**DIRECTIVE CHANGE:**
+None (BREAKOUT is independent, council has no authority). **Operator action required:** Review BREAKOUT's event-awareness logic. If it lacks news filters, either add them or accept that 15-20% of trades will be donations to the market during pre-data deadzones. The -$1.16 is acceptable variance IF the robot has positive long-term edge – but if this
 
