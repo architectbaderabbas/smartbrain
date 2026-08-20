@@ -395,3 +395,4 @@
 - 2026-08-20 11:45 UTC · heartbeat · trade NZDUSD BREAKOUT -1.16$ -> post-mortem written
 - 2026-08-20 11:52 UTC · heartbeat · quiet (sev0)
 - 2026-08-20 12:01 UTC · heartbeat · quiet (sev0)
+- 2026-08-20 12:07 UTC · FULL COUNCIL triggered: scheduled full council (last 62 min ago)

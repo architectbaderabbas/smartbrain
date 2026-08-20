@@ -1,6 +1,6 @@
 {
- "ts": 1787227301,
- "council_ts": 1787223952,
+ "ts": 1787227676,
+ "council_ts": 1787227676,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.6,
@@ -22,19 +22,18 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "COUNCIL,SWING",
-  "news_block": "USD:25:55",
+  "news_block": "USD:20:50",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "awareness,prudence,intuition",
-  "intuition": "Philly Fed surprise (>2σ either way) could break the 13h range – but forecast drop 41→24 may be priced; wait for print, don't guess direction",
-  "summary": "Pre-data void: geopolitics ignored (Kyiv/NK/Iran no market impact), Treasury buyback theme stale (13h), all biases flat except EUR/AUD -0.1; US Philly Fed/Claims in 84min is next catalyst",
-  "summary_ar": "فراغ ما قبل البيانات: الجيوسياسة متجاهلة (كييف/كوريا الشمالية/إيران بلا تأثير)، موضوع إعادة شراء الخزانة قديم (13 ساعة)، كل الانحيازات صفر إلا EUR/AUD -0.1؛ بيانات أمريكية بعد 84 دقيقة",
+  "psyche_flags": "awareness,prudence",
+  "intuition": "none",
+  "summary": "22min to Philly Fed/Claims: all biases flat (geopolitics/Treasury buyback faded), GBP/CHF extended but no edge pre-data; await print for 2-4h directional cues per 2019/2024 analogs",
+  "summary_ar": "22 دقيقة لبيانات فيلادلفيا فيد: كل الانحيازات صفر (الجيوسياسة وإعادة شراء الخزانة تلاشت)، الجنيه والفرنك ممتدان لكن لا ميزة قبل البيانات؛ انتظار النتائج",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,
