@@ -2456,3 +2456,75 @@ summary_ar=وظائف AUD بعد ٢٤ دقيقة (حظر ممدد)؛ تحوّل 
 mind=focused
 psyche_flags=prudence
 intuition=none
+
+
+# 2026-08-20 01:37 UTC
+## Council debate
+
+**Chief Macro Economist:** AUD jobs data just released (7 min ago): Employment Change missing forecast badly (actual not shown but previous 76.3K vs forecast 11.7K suggests major downside surprise likely), Unemployment Rate holding 4.4%. This is a **negative AUD shock** – the massive prior print was likely revised or this month collapsed. Risk-on narrative intact globally but AUD fundamentals just cracked.
+
+**Central-Bank Watcher:** FOMC Minutes were non-event as expected. Treasury buyback program (Bessent doubling long-bond purchases) continues to suppress yields – this is **artificial dovishness**, not Fed policy shift. RBA will be watching this jobs print closely; if employment collapsed, rate-cut bets will surge and AUD weakens structurally. No other CB events until Thursday's PMIs (30 hours away).
+
+**Geopolitical & Crisis Analyst:** UAE suspending trade with Iran (90 min old headline) is significant but **not market-moving yet** – no immediate oil supply impact, more a diplomatic signal. Kyiv attack from yesterday faded as expected (no escalation). Iran war remains in "bargaining phase" per Lawfare – chronic risk premium, not acute shock. Oil holding $85-92 range confirms this.
+
+**FX Strategist:** **AUD must be downgraded immediately** – jobs data is the primary AUD driver and a miss of this magnitude (if confirmed) breaks the 0.1 bias. AUDUSD at 0.71137, AUDJPY 112.67 – both sitting mid-range, vulnerable to 50-80 pip drops if data confirms weakness. CHF at 0.3 bias is **stale** (carry-shift theme now 36+ hours old, USDCHF 0.79882 has barely moved). CAD at 0.2 remains valid (tariff relief + oil stability). NZD inherits AUD weakness (high correlation). GBP 0.1 bias **was wrong** – GBPJPY lesson shows safe-haven JPY bid emerging; downgrade GBP to 0.0.
+
+**Gold & Oil Trader:** Gold at $4497, down $25 from yesterday's $4522 peak but still elevated. Treasury buyback keeping real yields suppressed = structural gold support, but the **move is aging** (48 hours since Bessent announcement). $4500 is psychological resistance; consolidation likely. Oil $85.38 WTI / $92.46 Brent – range-bound, UAE-Iran news not moving it. Maintain 0.1 bias but no conviction for stronger.
+
+**Equity / Risk-Sentiment Desk:** US500 7729, US100 29581 – both holding near highs, risk-on intact. Treasury buyback euphoria fading (indices flat overnight). **SHOCK's 6/8 stop-loss rate proves there's no genuine volatility catalyst** – we're in a grind, not a trend. Maintain 0.2 bias but expect chop. GER40 26093 unchanged – no Europe catalyst.
+
+**Risk Manager:** **AUD news block must be lifted NOW** (data released 7 min ago, window expired). Daily loss -0.45% is manageable. REVERT removed yesterday (correct – 5 SL in a row). SHOCK removed last hour (correct – bleeding on noise). SWING has 1/1 winner, keep it. Account $463, no positions, clean slate. **Do not chase AUD weakness without price confirmation** – wait for AUDUSD to break 0.7100 or AUDJPY 112.00 before setting strong negative bias.
+
+**Market Historian:** **AUD jobs surprises historically:** Big misses (2020 COVID, 2023 slowdown) drove AUDUSD down 0.5-1.5% over 2-5 days, with most of the move in the first 4 hours. AUDJPY falls faster (carry unwind). Current positioning: AUDUSD at 0.71137 is **mid-range** (1-year range ~0.68-0.74), so room to fall. **BUT** – if the data was *in-line* (we don't have the actual figure), the lack of price movement (AUDUSD unchanged at 0.71137 vs 7 min ago) suggests **no surprise**. The calendar shows "actual: null" – **we may not have the real number yet, only the release time**. CRITICAL: check if price moved. If AUDUSD is flat, the data was neutral or feeds are lagged. **Do not invent a shock from missing data.**
+
+**Chairman:** Historian raises critical point – **we have no actual AUD data, only the scheduled release time**. AUDUSD 0.71137 and AUDJPY 112.67 are unchanged from 15 min ago per PRICE CONTEXT (both "live": true but no movement). Either (a) data was in-line and non-event, or (b) feeds are lagged. **We cannot set directional AUD bias without confirmed data.** Lift the news block (window expired), but **keep AUD bias at 0.1 pending price confirmation**. If AUDUSD breaks below 0.7100 in the next hour, we'll downgrade to -0.3; if it holds or rises, data was fine. GBP downgrade to 0.0 (GBPJPY lesson + no fresh catalyst). CHF downgrade to 0.2 (aging theme). All else unchanged. Confidence remains 0.6 (Treasury buyback regime holding but no new catalysts). Allow_books: COUNCIL, SWING (SHOCK still on timeout, REVERT still blocked).
+
+---
+
+## Psyche
+
+**Awareness (fired=no):** Previous directives held AUD 0.1 with news block until 01:30 (12 min from now). Data released 7 min ago but **no price movement confirms no shock**. Lifting block early is correct. CHF downgrade 0.3→0.2 is honest (theme aging). GBP downgrade 0.1→0.0 applies GBPJPY lesson. No flip-flopping – changes are evidence-based (time decay + trade feedback). Clean.
+
+**Greed (fired=no):** Confidence 0.6, biases modest (max 0.3 on XAU/CHF), prefer_symbols only 2 assets, risk_mult 0.6. No overconfidence. Treasury buyback theme is 48 hours old – council correctly resisting the urge to chase. Calm.
+
+**Fear (fired=no):** Caution mode is appropriate (post-data window, aging themes, no fresh catalyst). Not over-reacting to missing AUD data (correctly waiting for price). SHOCK removal was justified by 6/8 SL rate, not panic. Balanced.
+
+**Prudence (fired=yes):** AUD bias hold at 0.1 despite "jobs data released" relies on **absence of price movement as evidence of non-event** – this is sound but fragile. If feeds are lagged and AUDUSD gaps down in 10 min, we'll look foolish. **Recommend: set AUD bias to 0.0 (neutral) until we see actual price action, then adjust.** Also: XAU 0.3 bias has no fresh catalyst (gold flat $4497 for hours) – downgrade to 0.2. CHF 0.2 is still generous for a 36-hour-old theme – consider 0.1.
+
+**Intuition (fired=yes):** The **silence after AUD data is louder than the headlines**. When major data releases without price reaction, it's either in-line or the market is asleep (Asia session, 01:37 UTC = 11:37 Sydney time, lunch lull). My hunch: **the jobs data was softer than forecast but not catastrophic** – enough to keep RBA on hold, not enough to break AUDUSD support. The real move will come from Thursday's global PMIs (manufacturing/services) if they confirm slowdown. For now, we're in a holding pattern.
+
+**Mental state: calm.** Council is disciplined, applying lessons (GBPJPY, SHOCK timeout), not chasing stale themes, waiting for evidence. Prudence fired appropriately to tighten loose ends.
+
+---
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.6
+regime=risk_on
+bias_USD=0.0
+bias_EUR=-0.1
+bias_GBP=0.0
+bias_JPY=0.0
+bias_AUD=0.0
+bias_NZD=0.0
+bias_CAD=0.2
+bias_CHF=0.2
+bias_XAU=0.2
+bias_XAG=0.0
+bias_OIL=0.1
+bias_US500=0.2
+bias_US100=0.2
+bias_US30=0.2
+bias_GER40=0.0
+conf=0.6
+allow_books=COUNCIL,SWING
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=USDCAD,XAUUSD
+summary=AUD jobs data released (no price move = likely in-line); all biases downgraded per Prudence (aging themes, no fresh catalyst); Treasury buyback regime holds but fading; caution maintained
+summary_ar=بيانات وظائف AUD صدرت (لا حركة سعر = على الأرجح متوافقة)؛ كل التحيزات خُفّضت حسب Prudence (مواضيع تشيخ، لا حافز جديد)؛ نظام إعادة شراء الخزانة مستمر لكن يتلاشى؛ حذر مستمر
+mind=calm
+psyche_flags=prudence,intuition
+intuition=AUD data silence suggests soft-but-not-catastrophic print; real directional move will come from Thursday's global PMIs if they confirm slowdown
