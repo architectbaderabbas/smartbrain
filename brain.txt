@@ -1,5 +1,5 @@
-ts=1787201036
-generated=2026-08-20 04:43 UTC
+ts=1787201578
+generated=2026-08-20 04:52 UTC (watchman heartbeat; council 9 min ago)
 version=1
 risk_mode=caution
 risk_mult=0.6
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=prudence,intuition
 intuition=If USDJPY holds 158+ through Thursday morning, BoJ tolerance confirmed – fade to 160+ becomes the trade Friday, not a shock risk. Watch 157.80 support.
 news_events=none
+watchman=quiet (sev0)
