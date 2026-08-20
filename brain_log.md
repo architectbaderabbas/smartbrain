@@ -2384,3 +2384,75 @@ summary_ar=نظام إعادة شراء الخزانة مستمر (عوائد م
 mind=focused
 psyche_flags=awareness,prudence
 intuition=none
+
+
+# 2026-08-20 00:29 UTC
+## Council debate
+
+**Chief Macro Economist:** AUD jobs in 24 minutes – forecast +11.7K vs +76.3K prior is a sharp slowdown; unemployment steady at 4.4%. If miss, AUD weakens; if beat, limited upside (already priced). Risk-on intact globally but Australia-specific risk rising.
+
+**Central-Bank Watcher:** RBA on hold, no speeches scheduled. Fed Minutes yesterday were non-event. Treasury buyback regime continues to suppress yields (US10Y down ~15bp from peak), keeping real yields low – supportive for gold, neutral for USD. No CB catalyst for next 12 hours.
+
+**Geopolitical & Crisis Analyst:** UAE suspended Iran trade 4 hours ago after missile strikes – escalation but localized (Gulf trade flows, not oil supply). No fresh attacks since. Kyiv incident 5 hours ago faded. Severity-1 at most; oil premium modest (+0.5% today). Safe-havens not spiking.
+
+**FX Strategist:** CHF at 0.7981 (vs 0.80+ yesterday) – the carry-shift trade is extending but momentum slowing (we downgraded to 0.4 last hour, correct call). CAD 1.3807 holding tariff-relief gains. AUD 0.7124 vulnerable pre-jobs; NZD 0.5937 tracking AUD. GBP 1.3601 resilient. USD flat, JPY 158.36 stable. No strong directional conviction outside event windows.
+
+**Gold & Oil Trader:** Gold 4511.78, up $7 from last decision – real yields down, safe-haven bid from UAE/Iran adds $5-10. Move is grinding, not spiking; $4520 resistance holding. Silver 67.10 tracking gold. Oil 85.16 WTI / 92.24 Brent – UAE/Iran news should lift oil but it's only +0.3% (market doubts supply impact). Inventories rose 4.4M barrels yesterday; bearish undertone limits upside.
+
+**Equity / Risk-Sentiment Desk:** SPX 7729, NDX 29578, DAX 26111 – all up 0.3-0.5% today on Treasury buyback relief. Risk-on holding but not accelerating. Post-NY close, thin liquidity. No VIX data but implied vol low. Bias remains +0.2 for indices.
+
+**Risk Manager:** AUD jobs in 24 min – block AUD extended to 44 min post-release (until 01:44 UTC). REVERT still out (5-loss streak). SHOCK still out (6/8 SL rate, no catalyst). Account -$1.25 today but stable. SWING has 1 open winner (GBPJPY lesson shows it beat our bias). Caution appropriate; no halt trigger.
+
+**Market Historian:** AUD jobs misses historically: AUDUSD drops 30-50 pips in 15 min, fades half within 2 hours. Beats: +20-30 pips, also mean-reverts. Current setup: AUD 0.7124 is mid-range (not extended), so directional move likely sticks for 4-6 hours if surprise is >10K deviation. CHF 0.7981 – last time carry-shift trades ran this long (2022 yen intervention fade), CHF gained 2% over 3 weeks then reversed violently when SNB pushed back. We're 48 hours into this; extension plausible but risk of snap-back rising. Gold at $4511 near ATH – breakouts above $4500 in 2025/2026 continued 60% of the time for 3-5 days; current grind fits that pattern.
+
+**Chairman:** Consensus: risk-on holding, no new macro catalyst. AUD jobs is the only live risk (24 min); block extended correctly. CHF carry-trade aging (48h old, momentum slowing) – downgrade bias to 0.3. Gold grind continues on real-yield drop; maintain 0.3. No evidence to change USD/JPY/EUR. SWING beat our GBP bias (lesson noted); keep GBP 0.1. Confidence 0.6 unchanged (no fresh conviction). Allow_books: keep COUNCIL,SWING (REVERT/SHOCK still out). Risk_mult 0.6, caution mode – no reason to change.
+
+---
+
+## Psyche
+
+**Awareness (fired=no):** Previous directives stable for 4 decisions (CHF downgrade 0.45→0.4 last hour was correct, prices confirm). SWING lesson shows our GBP +0.1 bias was wrong (price fell 36 pips), but that was 11-hour-old trade; current GBP 1.3601 stable. No flip-flopping. CHF extension noted by Historian; downgrade to 0.3 is prudent continuation, not panic.
+
+**Greed (fired=no):** Confidence 0.6, biases modest (max 0.4 CHF, about to cut to 0.3). Prefer_symbols has 3 assets but all are range-bound. No "easy money" language. Risk_mult 0.6 for 8 hours – appropriate caution. No greed detected.
+
+**Fear (fired=no):** Caution mode justified by AUD event risk and book removals (REVERT/SHOCK underperforming). No over-reaction to UAE/Iran (Geopolitics correctly assessed severity-1). Holding course, not collapsing biases. Balanced.
+
+**Prudence (fired=yes):** CHF 0.4→0.3 downgrade lacks two sources (only Historian's analog + FX Strategist's "momentum slowing"). But this is a *reduction* of an existing bias, not a new strong call, so acceptable. All other biases unchanged and supported. Prudence satisfied.
+
+**Intuition (fired=no):** None. Market is in wait-mode for AUD jobs; no hunch beyond the data.
+
+**Mind state: focused.** Council is disciplined, waiting for AUD catalyst, managing aging trades (CHF), learning from SWING lesson. No emotional drift.
+
+---
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.6
+regime=risk_on
+bias_USD=0.0
+bias_EUR=-0.1
+bias_GBP=0.1
+bias_JPY=0.0
+bias_AUD=0.1
+bias_NZD=0.1
+bias_CAD=0.2
+bias_CHF=0.3
+bias_XAU=0.3
+bias_XAG=0.0
+bias_OIL=0.1
+bias_US500=0.2
+bias_US100=0.2
+bias_US30=0.2
+bias_GER40=0.0
+conf=0.6
+allow_books=COUNCIL,SWING
+news_block=AUD:24:64
+block_symbols=none
+shock=none
+prefer_symbols=USDCAD,XAUUSD
+summary=AUD jobs in 24min (block extended); CHF carry-shift aging (downgraded 0.4→0.3); Treasury buyback regime holds (gold $4511 grinding, risk-on intact); caution maintained
+summary_ar=وظائف AUD بعد ٢٤ دقيقة (حظر ممدد)؛ تحوّل carry لـCHF يشيخ (خُفّض ٠.٤→٠.٣)؛ نظام إعادة شراء الخزانة مستمر (ذهب ٤٥١١$ يطحن، risk-on ثابت)؛ حذر مستمر
+mind=focused
+psyche_flags=prudence
+intuition=none
