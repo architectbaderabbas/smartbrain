@@ -1,5 +1,5 @@
 {
- "ts": 1787184478,
+ "ts": 1787184490,
  "council_ts": 1787182089,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": 0.2,
   "bias_GER40": 0.0,
   "allow_books": "COUNCIL,SWING",
-  "news_block": "AUD:52:72",
+  "news_block": "AUD:40:60",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDCHF,USDCAD,XAUUSD",
@@ -34,7 +34,7 @@
   "news_events": "AUD:1787189400:Employment_Change;AUD:1787189400:Unemployment_Rate"
  },
  "error": null,
- "watchman": "quiet (sev0)",
+ "watchman": "trade GBPJPY SWING 1.52$ -> post-mortem written",
  "alerts": [
   {
    "ts": 1787072472,

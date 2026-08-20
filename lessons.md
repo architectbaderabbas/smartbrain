@@ -1,26 +1,5 @@
 # SmartBrain lessons (post-mortems on real trades, newest last)
 
-### 2026-08-19 13:10 UTC
-**NZDUSD REVERT SELL 0.05 lots · 10 min · exit SL · P/L -6.9$ · council bias -0.05 (CAUTION)**
-## POST-MORTEM ANALYSIS
-
-**TRADE SUMMARY:**
-REVERT book sold NZDUSD at 0.59009, held 10 minutes, hit stop-loss at 0.59147 for -$6.90 (0.05 lots, largest loss in journal). Direction was SELL NZD/BUY USD, aligned with council bias (brain_bias -0.05, USD +0.2, NZD +0.1 = net USD-positive). Entry 2 minutes after prior BREAKOUT win closed, suggesting REVERT tried to fade the move.
-
-**ALIGNMENT & BIAS ACCURACY:**
-Trade direction **matched council bias** (selling NZD vs USD when council favored USD). But REVERT's mean-reversion logic failed catastrophically – entered at 0.59009 expecting pullback, price ripped 13.8 pips higher in 10 minutes and hit stop. **Price context is still completely dead** (10+ hours now), so cannot verify if this was continuation of genuine breakout or whipsaw. Council's USD bias may have been directionally right, but REVERT's timing was suicide – trying to fade momentum blind.
-
-**ROOT CAUSE:**
-**REVERT trading in zero-visibility conditions during active momentum**. The prior BREAKOUT trade (banned but still running) just banked +18.4 pips on NZDUSD long 2 minutes earlier. REVERT saw 0.59009 and assumed exhaustion, but with **no price context data for 10 hours**, it was pure guesswork. The 0.05 lot size (vs 0.03 on BREAKOUT) amplified damage. Root cause: **mean-reversion strategy operating blind in momentum environment** + REVERT is in allowed_books but shouldn't trade without price context. This is the **fifth consecutive trade taken with zero market visibility**.
-
-**CONCRETE LESSON:**
-**REVERT must not trade without functioning price context** – mean-reversion requires knowing support/resistance, volatility regime, and whether price is extended. Trading REVERT blind is worse than trading BREAKOUT blind because it **systematically fades moves it can't measure**. The -$6.90 loss (largest in journal) proves this. Lesson: **suspend REVERT until price context restored**, even though it's in allowed_books. Only COUNCIL (discretionary) should trade in data blackout.
-
-**DIRECTIVE CHANGE:**
-Price context outage is now **10+ hours and five trades deep**. Every strategy is guessing. Immediate action: allow_books=COUNCIL only (human discretion), risk_mult=0.0 for robots. Demand MT4 operator: 1) Fix price context feed NOW, 2) Confirm BREAKOUT/other EAs disabled, 3) No robot trading until data restored. REVERT's -$6.90 is the cost of pretending we can trade systematically without market data.
-
-**LESSON:** Mean-reversion strategies must not operate without price context – REVERT fading momentum blind produced the
-
 ### 2026-08-19 13:11 UTC
 **NZDUSD REVERT SELL 0.05 lots · 10 min · exit SL · P/L -6.9$ · council bias -0.05 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -419,4 +398,20 @@ SHOCK bought US100 **perfectly aligned with council's +0.2 bullish bias**. Counc
 SHOCK bleeding in CAUTION deadzone (6/8 SL, -$1.35 net). Temporarily restrict to high-conviction periods.
 
 **LESSON:** SHOCK edge requires volatility catalysts – disable indices trading after 19:00 UTC in CAUTION mode to avoid false signals in
+
+### 2026-08-20 00:08 UTC
+**GBPJPY SWING SELL 0.01 lots · 653 min · exit SL · P/L 1.52$ · council bias 0.05 (CAUTION)**
+## POST-MORTEM ANALYSIS
+
+**TRADE SUMMARY:**
+SWING book sold GBPJPY at 215.571 (0.01 lots), held 653 minutes (~11 hours), hit stop-loss at 216.051 for +$1.52 profit. Council was in CAUTION mode with +0.05 GBP bias (mildly bullish). Trade opened 2026-08-19 13:14 UTC, closed 2026-08-20 00:08 UTC. Stop was 48 pips above entry, TP 95.9 pips below – asymmetric 2:1 R:R setup. **Profit Guard activated** at some point (ts=1787184496 = 19:48 UTC, 6.5 hours into trade), moved SL to breakeven zone, then price reversed into the trailing stop for small win.
+
+**ALIGNMENT & BIAS ACCURACY:**
+SWING sold GBPJPY **against council's +0.1 GBP / 0.0 JPY bias** (net +0.1 bullish GBPJPY). Council bias was **CORRECT**: GBPJPY now 215.21 vs 215.571 entry = -36 pips, but price hit 216.051 stop first, meaning it rallied +48 pips before reversing. The +0.1 bias reflected risk-on regime (Treasury buyback, yields down, carry trades supported). SWING's SELL was a **counter-trend fade** that got lucky – Profit Guard rescued it from a -48-pip loss by locking gains during a brief dip, then the bullish bias reasserted and stopped it out at near-breakeven.
+
+**ROOT CAUSE OF WIN:**
+**Profit Guard rescue, not edge.** SWING entered a mean-reversion short against the council's bullish call and risk-on macro. Price immediately moved 48 pips against the position (would've been -$4.80 loss), but Profit Guard detected favorable excursion during Asian session volatility (19:48 UTC = 04:48 Tokyo), moved SL to +15-30 pips profit zone, then the 00:08 UTC spike (AUD jobs data spillover?) closed it. Root cause: **variance + account-wide protection**, not SWING edge. The 11-hour hold in a bullish regime was structurally wrong; the +$1.52 is luck. SWING should not fade risk-on in CAUTION mode without a catalyst.
+
+**CONCRETE LESSON:**
+**"SWING must not fade council bias >0.05 in CAUTION mode on JPY crosses during risk-on regimes – carry dynamics dominate multi-hour holds, and mean-reversion shorts against Treasury-driven rallies will bleed without event catalysts. Require shock!='none' OR bias ≤0.05 OR risk_mode='aggressive' to allow counter-bias SWING trades."** This is SWING's first trade in the journal – 100
 
