@@ -1,12 +1,12 @@
-ts=1787188976
-generated=2026-08-20 01:22 UTC (watchman heartbeat; council 12 min ago)
+ts=1787189118
+generated=2026-08-20 01:25 UTC (watchman heartbeat; council 2 min ago)
 version=1
 risk_mode=caution
 risk_mult=0.6
 regime=risk_on
 conf=0.6
 allow_books=COUNCIL,SWING
-news_block=AUD:-26:14
+news_block=AUD:-28:12
 block_symbols=none
 shock=none
 prefer_symbols=USDCAD,XAUUSD
