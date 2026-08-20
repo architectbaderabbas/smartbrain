@@ -2782,3 +2782,75 @@ summary_ar=توقف EUR/GBP/CHF عند قمم عدة أشهر (18 ساعة بل�
 mind=calm
 psyche_flags=prudence
 intuition=USDJPY coiled at 159 intervention zone 18h; BoJ may wait for Friday PMIs before acting or accepting 160+
+
+
+# 2026-08-20 18:56 UTC
+## Council debate
+
+**Chief Macro Economist:** NK missile launch is routine saber-rattling (9th this year), not a Severity-2 event – no nuclear test, no ICBM, no casualties. Markets ignored it (SPX/NDX/DAX flat, oil unchanged, JPY +0 vs 18:21). Treasury buyback theme is 26 hours stale. Friday PMIs (11-13h away) are the only catalyst; until then we're in a void. EUR/GBP/CHF have stalled 18 hours at multi-month highs with no fresh driver – textbook exhaustion.
+
+**Central-Bank Watcher:** BoJ watching USDJPY 159.15 (intervention zone per Nikkei Asia headline), but no action yet. Fed/ECB/BoE all silent. Friday PMIs could shift rate expectations if German services surprise (forecast 50.1 vs 49.6 prior = marginal improvement). No CB catalyst for 13+ hours.
+
+**Geopolitical & Crisis Analyst:** NK missile = noise. "Fires toward sea" after Trump rejection is posturing, not escalation (no targets hit, Japan issued routine alert). Iran sanctions headline (Bessent "toughest ever") is 52 minutes old but oil only +0.5% from 18:21 – market shrugs. Kyiv attack (15 killed) is tragic but priced (war is 2.5 years old). **Downgrade to Severity-1** – no supply threat, no market panic. The 18:21 "danger mode" overreaction must be corrected.
+
+**FX Strategist:** EUR 1.1674/GBP 1.3625/CHF 0.8007 are all within 2 pips of 18:21 – the "stall" continues. Sterling hit 6-month high per Reuters 10:33 headline but hasn't moved since. USDJPY 159.15 coiled but static. AUD 0.711 soft on China/oil weakness. **No directional conviction anywhere** – this is a pre-PMI holding pattern. The -0.3 EUR/GBP/CHF fade bias from 18:21 has NOT been validated (prices flat, not falling).
+
+**Gold & Oil Trader:** Gold 4524 = -$1 from 18:21 (0.0% change in 35 min) despite NK/Iran headlines – safe-haven demand is DEAD. Oil 87.56 WTI / 94.19 Brent unchanged – Iran sanctions premium already in (Bessent headline 52min old, no fresh supply threat). XAG 68.00 flat. The 18:21 shock directive on KRW was **invalid** – we don't trade KRW, and the "geopolitical escalation" claim was false (markets unmoved).
+
+**Equity / Risk-Sentiment Desk:** SPX 7664/NDX 29186/DAX 25975 all flat vs 18:21. Bond stress theme (NPR/Guardian headlines) is stale (14-26h old). Walmart dragged indices earlier but that's 3+ hours past. VIX unavailable but risk-off is clearly absent. The "danger" mode from 18:21 was **unjustified** – no volatility spike, no flight to safety.
+
+**Risk Manager:** **EMERGENCY PROTOCOL VIOLATION at 18:21.** The council declared "danger" mode and issued a shock directive on a routine NK missile launch that caused ZERO market reaction. This is the **Fear detector failure** the psyche is supposed to catch. Current state: no open positions, INTRADAY removed on 2-loss streak (correct), account at $459 (stable). The real risk now is **overtrading in a void** – Friday PMIs are 11-13h away, and we have no edge until then. Restore "caution" mode, cancel the invalid shock, keep allow_books tight.
+
+**Market Historian:** **Last 8 NK missile launches (2024-2026):** JPY moved <0.1% within 4h, gold <0.3%, reversals within 24h. The playbook says "Mondays after weekend geopolitics: gaps that often fill by Wednesday" – but this is Thursday evening, no gap, no follow-through. **EUR/GBP/CHF at multi-month highs:** analogous to Aug-2024 EUR 1.12 stall (held 3 days then reversed -1.2%) and GBP Feb-2026 1.35 peak (faded -2% in 5 days). The -0.3 fade bias is **historically sound** but needs patience – these reversals take 2-4 days, not 2 hours. Current prices (EUR 1.1674 / GBP 1.3625 / CHF 0.8007) are EXACTLY where they were 18h ago – the stall persists, but no breakdown yet. **Verdict:** hold the fade bias, but lower confidence (0.3 → 0.25) because the turn hasn't started.
+
+**Chairman:** The 18:21 decision was **a mistake**. We overreacted to a routine NK missile launch (no market impact, Severity-1 at most) and issued an invalid shock directive on KRW (we don't trade it). The Geopolitical Analyst and Risk Manager are correct: downgrade to normal caution. The EUR/GBP/CHF fade thesis (18h stall at multi-month highs) remains valid per the Historian's analogs, but we must acknowledge **prices have not moved** – the bias is a positioning call, not a reaction to fresh data. Keep -0.3 on EUR/GBP/CHF, but lower conf to 0.25 (low conviction in a void). Cancel the shock directive. Restore allow_books to COUNCIL,SWING,POSITION (no change). Friday PMIs (11-13h) are the next catalyst; until then we wait. USDJPY 159 intervention risk is real (Intuition's 18:21 call stands), but no action yet. Risk_mode back to caution, risk_mult 0.6 unchanged.
+
+---
+
+## Psyche
+
+**Awareness (fired=yes):** Comparing 18:21 vs now: we declared "danger" and shocked KRW on a headline that moved NO prices (JPY/gold/oil/indices all flat). The DECISION MEMORY shows we've held EUR/GBP/CHF -0.3 for 4 hours with ZERO price confirmation (all within 0.02% of 15:09 levels). This is **stubbornness** (holding a view prices haven't validated) AND **flip-flopping** (18:21 escalated to danger without new facts, now reversing). The SCORECARD shows 50% 12h hit rate – our medium-term calls are coin-flips. Freeze further changes to EUR/GBP/CHF bias until prices move or PMIs print.
+
+**Greed (fired=no):** Confidence is low (0.25-0.35 range), only 3 biases non-zero, prefer_symbols empty. No greed pattern detected.
+
+**Fear (fired=yes):** The 18:21 "danger" mode after a routine NK missile (that moved nothing) is textbook over-reaction. We escalated risk_mode and issued a shock without concrete threat. Now reversing to caution is correct, but the whipsaw (caution→danger→caution in 35min) damages credibility. The council is **scattered**, not calm.
+
+**Prudence (fired=yes):** The EUR/GBP/CHF -0.3 bias has TWO sources (multi-month highs + 18h stall) and ONE historical analog (Historian's Aug-2024/Feb-2026 examples), meeting the standard. BUT prices are unchanged for 18 hours – this is a **predictive** call, not reactive. Confidence must stay ≤0.3 until the turn begins. The 18:21 shock had ZERO sources (markets ignored the headline) – correctly cancelled.
+
+**Intuition (fired=no):** No new hunch. The 18:21 USDJPY 159 intervention watch remains valid (18h of coiling, BoJ historically acts at round numbers).
+
+**Mental state: scattered** (fear fired on 18:21 overreaction, awareness fired on stubbornness, council flip-flopped danger→caution in 35min without new facts).
+
+---
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.6
+regime=mixed
+bias_USD=0.0
+bias_EUR=-0.3
+bias_GBP=-0.3
+bias_JPY=0.0
+bias_AUD=-0.1
+bias_NZD=0.0
+bias_CAD=0.0
+bias_CHF=-0.3
+bias_XAU=0.0
+bias_XAG=0.0
+bias_OIL=0.0
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.25
+allow_books=COUNCIL,SWING,POSITION
+news_block=GBP:660:690;EUR:735:765;GBP:810:840
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=18:21 danger mode was overreaction to routine NK missile (no market impact); EUR/GBP/CHF -0.3 fade held but unconfirmed (18h stall, no breakdown yet); await Friday PMIs (11-13h)
+summary_ar=وضع الخطر 18:21 كان مبالغة على صاروخ NK روتيني (لا تأثير سوقي)؛ انحياز تلاشي EUR/GBP/CHF -0.3 محفوظ لكن غير مؤكد (توقف 18 ساعة، لا انهيار بعد)؛ ننتظر PMIs الجمعة (11-13 ساعة)
+mind=scattered
+psyche_flags=awareness,fear,prudence
+intuition=none

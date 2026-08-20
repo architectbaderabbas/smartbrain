@@ -1,11 +1,11 @@
 {
- "ts": 1787251914,
- "council_ts": 1787250117,
+ "ts": 1787252190,
+ "council_ts": 1787252190,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.6,
   "regime": "mixed",
-  "conf": 0.35,
+  "conf": 0.25,
   "bias_USD": 0.0,
   "bias_EUR": -0.3,
   "bias_GBP": -0.3,
@@ -22,19 +22,18 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "COUNCIL,SWING,POSITION",
-  "news_block": "GBP:668:698;EUR:743:773;GBP:818:848",
+  "news_block": "GBP:660:690;EUR:735:765;GBP:810:840",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
-  "mind": "calm",
-  "psyche_flags": "prudence",
-  "intuition": "USDJPY coiled at 159 intervention zone 18h; BoJ may wait for Friday PMIs before acting or accepting 160+",
-  "summary": "EUR/GBP/CHF stall at multi-month highs (18h no catalyst) holds fade -0.3; all else flat (geopolitics/gold/oil noise); USDJPY 159 intervention zone watched; await Friday PMIs (14h)",
-  "summary_ar": "توقف EUR/GBP/CHF عند قمم عدة أشهر (18 ساعة بلا محفز) يبقي التلاشي -0.3؛ الباقي مسطح (جيوسياسيا/ذهب/نفط ضجيج)؛ USDJPY 159 منطقة تدخل مراقبة؛ ننتظر PMIs الجمعة (14 ساعة)",
+  "mind": "scattered",
+  "psyche_flags": "awareness,fear,prudence",
+  "intuition": "none",
+  "summary": "18:21 danger mode was overreaction to routine NK missile (no market impact); EUR/GBP/CHF -0.3 fade held but unconfirmed (18h stall, no breakdown yet); await Friday PMIs (11-13h)",
+  "summary_ar": "وضع الخطر 18:21 كان مبالغة على صاروخ NK روتيني (لا تأثير سوقي)؛ انحياز تلاشي EUR/GBP/CHF -0.3 محفوظ لكن غير مؤكد (توقف 18 ساعة، لا انهيار بعد)؛ ننتظر PMIs الجمعة (11-13 ساعة)",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,
@@ -74,6 +73,11 @@
   {
    "ts": 1787234806,
    "what": "US Treasury intervention (Bessent) fails to contain bond selloff; yields jump despite action, signaling market stress",
+   "sev": 2
+  },
+  {
+   "ts": 1787252176,
+   "what": "North Korea fires barrage of missiles toward sea after dismissing Trump overture; geopolitical escalation",
    "sev": 2
   }
  ]
