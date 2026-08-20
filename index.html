@@ -33,7 +33,7 @@
   .exp .av{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;font-size:20px;background:#182350;float:left;margin-left:10px}
   .exp .nm{font-weight:700}
   .exp .rl{color:var(--mut);font-size:12px;margin-bottom:8px}
-  .exp .say{font-size:13px;line-height:1.6;color:#cfd8ff;direction:ltr;text-align:left;clear:both;padding-top:8px;border-top:1px dashed var(--line);white-space:pre-wrap}
+  .exp .say{font-size:13px;line-height:1.6;color:#cfd8ff;direction:rtl;text-align:right;clear:both;padding-top:8px;border-top:1px dashed var(--line);white-space:pre-wrap}
   .exp.fired{border-color:var(--warn);box-shadow:0 0 18px rgba(241,196,15,.25)}
   .exp.fired .nm:after{content:" ● نشط";color:var(--warn);font-size:11px}
   .pill.calm{background:#153b2a;color:#7dffb3}.pill.focused{background:#15304a;color:#8fd0ff}.pill.greedy{background:#4a2a10;color:#ffb37a}.pill.fearful{background:#2d1747;color:#d7b3ff}.pill.scattered{background:#3d3410;color:#ffe27a}
@@ -196,7 +196,7 @@ function drawChart(h){
 
 function renderScore(sc){
   const el=document.getElementById("score");
-  if(!sc||!sc.overall_hit_rate){el.innerHTML="<span style='color:var(--mut)'>بعد بضع ساعات من القرارات يبدأ التقييم (يقارن كل ميل بحركة السعر بعد 4/12/24 ساعة).</span>";return;}
+  if(!sc||!sc["overall_hit_rate%"]){el.innerHTML="<span style='color:var(--mut)'>بعد بضع ساعات من القرارات يبدأ التقييم (يقارن كل ميل بحركة السعر بعد 4/12/24 ساعة).</span>";return;}
   const o=sc["overall_hit_rate%"]||{}; const fmt=v=>v==null?"—":v+"%";
   let h=`<div class="kpis" style="grid-template-columns:repeat(3,1fr)"><div class="kpi"><span>بعد 4س</span><b>${fmt(o["4h"])}</b></div><div class="kpi"><span>بعد 12س</span><b>${fmt(o["12h"])}</b></div><div class="kpi"><span>بعد 24س</span><b>${fmt(o["24h"])}</b></div></div>`;
   const pa=sc["per_asset_hit_rate%"]||{}; const rows=Object.keys(pa).map(a=>`<span class="tag ${(pa[a]["24h"]??pa[a]["12h"]??pa[a]["4h"])>=55?'ok':(pa[a]["24h"]??pa[a]["12h"]??pa[a]["4h"])!=null&&(pa[a]["24h"]??pa[a]["12h"]??pa[a]["4h"])<45?'bad':''}">${a}: ${fmt(pa[a]["4h"])}/${fmt(pa[a]["12h"])}/${fmt(pa[a]["24h"])}</span>`).join("");

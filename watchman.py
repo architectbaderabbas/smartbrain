@@ -141,7 +141,7 @@ def handle_trade(last):
     except Exception as ex:
         print("post-mortem error", ex); log_watch(f"post-mortem error: {ex}")
     d = shift_windows(dict(last["directives"]), int((NOW - int(last.get("ts", NOW))) / 60))
-    note = f"trade {t.get('symbol')} {t.get('book')} {t.get('pl')}$ -> post-mortem written"
+    note = f"صفقة {t.get('symbol')} {t.get('book')} {t.get('pl')}$ ← تحليل مكتوب"
     # 1) protocol: 3 losses in a row in one book today => book off for the rest of the day
     book = t.get("book", "?"); streak = 0
     day0 = NOW - (NOW % 86400)
@@ -153,7 +153,7 @@ def handle_trade(last):
         books = ["INTRADAY","SWING","POSITION","SHOCK","COUNCIL","REVERT"] if ab in ("ALL", "") else ab.split(",")
         books = [b for b in books if b and b != book]
         d["allow_books"] = ",".join(books) if books else "SWING"
-        note += f"; {book} 3 losses in a row -> removed from allow_books"
+        note += f"؛ {book} ثلاث خسائر متتالية ← أوقف لباقي اليوم"
     # 2) the post-mortem desk may ask for a conservative action
     if text:
         m = re.search(r"ACTION\s*=\s*(.+)", text)

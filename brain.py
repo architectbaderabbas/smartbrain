@@ -290,7 +290,7 @@ def add_lesson(text):
     open(p, "w", encoding="utf-8").write(new)
 
 PM_SYSTEM = """You are the POST-MORTEM desk of a trading brain (a council of experts advising MetaTrader robots).
-A real trade just closed. Analyse it honestly in <= 8 short lines.
+A real trade just closed. Analyse it honestly in <= 8 short lines, WRITTEN IN SIMPLE ARABIC (فصحى بسيطة؛ رموز الأدوات والأرقام بالإنكليزية) — the operator Pedro reads Arabic only. Keep the final LESSON= line in Arabic too; keep the ACTION= line machine-readable (English keys).
 STRUCTURE (do not forget): SmartMulti books (INTRADAY, SWING, POSITION, SHOCK, COUNCIL, REVERT) obey the council's allow_books/
 risk_mult/biases (REVERT = H1 mean reversion, merged into SmartMulti on 2026-08-19 evening; trades before that came from the old
 independent SmartRevert robot). BREAKOUT and 'other:<magic>' are older independent robots that never read the council - by design,
@@ -304,7 +304,7 @@ and risk_mult (never below 0.4); write 'none' otherwise.
 4) One concrete LESSON the council should apply from now on (rule-like, e.g. "in caution mode with no fresh event, do not let SHOCK trade indices").
 5) Any directive change recommended NOW (allow_books / risk_mult / bias) or "no change".
 End with a line: LESSON=<one sentence>  and a line: ACTION=<allow_books=...;risk_mult=...  or none>
-Be specific, no fluff. If it was a win, say what worked and whether it was luck."""
+Be specific, no fluff. If it was a win, say what worked and whether it was luck. اكتب كل التحليل بالعربية."""
 
 def post_mortem(trade, prev, prices=None):
     """Called by the watchman when a closed trade arrives. Writes a lesson; may adjust directives (conservative only)."""
@@ -437,8 +437,8 @@ Rules for the directives:
  - IMPORTANT: a COUNCIL book opens a real trade (0.5% risk, price-confirmed) whenever conf >= 0.6 AND |bias| >= 0.7 on a symbol.
    So only give |bias| >= 0.7 with conf >= 0.6 when the council is truly convinced by fresh, concrete evidence and the move is
    likely to persist for the next 4-12 hours. Prefer fewer, stronger calls over many weak ones.
-Output format: first a section "## Council debate" (short, max ~28 lines, each expert one or two lines, then Chairman). Name each speaker exactly, e.g. "Market Historian:".
-Then a section "## Psyche" (5 short lines: Awareness / Greed / Fear / Prudence / Intuition, each with fired=yes|no and one sentence).
+Output format: first a section "## Council debate" (short, max ~28 lines, each expert one or two lines, then Chairman). Name each speaker exactly in English, e.g. "Market Historian:", but each expert WRITES HIS LINES IN SIMPLE ARABIC (فصحى بسيطة مفهومة للبناني؛ أرقام ورموز الأدوات بالإنكليزية مثل XAUUSD) — the operator Pedro reads Arabic only.
+Then a section "## Psyche" (5 short lines: Awareness / Greed / Fear / Prudence / Intuition, each with fired=yes|no and one sentence IN ARABIC).
 Then a section "## DIRECTIVES" containing ONLY key=value lines, no prose, exactly these keys:
 risk_mode=<normal|caution|danger|halt>
 risk_mult=<0.25..1.25>
@@ -455,7 +455,7 @@ summary=<one line in simple English, max 200 chars>
 summary_ar=<same line in simple Lebanese Arabic, max 200 chars>
 mind=<calm|greedy|fearful|scattered|focused>
 psyche_flags=<comma list of voices that fired: awareness,greed,fear,prudence,intuition or none>
-intuition=<one short sentence hunch (English), or none>
+intuition=<one short sentence hunch IN ARABIC, or none>
 """
 
 def council(calendar, headlines, prev, prices=None, playbook="", official=None, scorecard=None, account=None, trades=None, lessons=""):
