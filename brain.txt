@@ -1,12 +1,12 @@
-ts=1787251016
-generated=2026-08-20 18:36 UTC (watchman heartbeat; council 14 min ago)
+ts=1787251914
+generated=2026-08-20 18:51 UTC (watchman heartbeat; council 14 min ago)
 version=1
 risk_mode=caution
 risk_mult=0.6
 regime=mixed
 conf=0.35
 allow_books=COUNCIL,SWING,POSITION
-news_block=GBP:682:712;EUR:757:787;GBP:832:862
+news_block=GBP:668:698;EUR:743:773;GBP:818:848
 block_symbols=none
 shock=none
 prefer_symbols=none
