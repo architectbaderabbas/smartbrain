@@ -1,5 +1,5 @@
 {
- "ts": 1787185751,
+ "ts": 1787186275,
  "council_ts": 1787185751,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": 0.2,
   "bias_GER40": 0.0,
   "allow_books": "COUNCIL,SWING",
-  "news_block": "AUD:24:64",
+  "news_block": "AUD:16:56",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDCAD,XAUUSD",
@@ -34,6 +34,7 @@
   "news_events": "AUD:1787189400:Employment_Change;AUD:1787189400:Unemployment_Rate"
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,
