@@ -1,12 +1,12 @@
-ts=1787268117
-generated=2026-08-20 23:21 UTC
+ts=1787268957
+generated=2026-08-20 23:35 UTC (watchman heartbeat; council 14 min ago)
 version=1
 risk_mode=caution
 risk_mult=0.6
 regime=risk_off
 conf=0.4
 allow_books=COUNCIL,SWING,POSITION,SHOCK
-news_block=GBP:368:398;EUR:443:473;EUR:458:488;GBP:518:548
+news_block=GBP:354:384;EUR:429:459;EUR:444:474;GBP:504:534
 block_symbols=none
 shock=none
 prefer_symbols=AUDUSD,AUDJPY
@@ -31,3 +31,4 @@ mind=focused
 psyche_flags=awareness,prudence,intuition
 intuition=السندات تصرخ أعلى - الخزانة فقدت المصداقية. PMIs غداً: تخيب=EUR/GBP ينهار+USD يعود ملاذاً رغم فوضاه، تفاجئ=ضعف USD يمتد لكن السندات تحد المدى
 news_events=none
+watchman=quiet (sev0)
