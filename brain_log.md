@@ -2649,3 +2649,76 @@ summary_ar=عناوين جيوسياسية (صاروخ كوريا الشمالي
 mind=calm
 psyche_flags=awareness,prudence,intuition
 intuition=Markets in wait-state for 12:30 UTC data – lean toward range extension if prints are soft, but don't front-run the release
+
+
+# 2026-08-20 11:05 UTC
+## Council debate
+
+**Chief Macro Economist:** US data in 84 minutes (Philly Fed, Claims) is the only near-term catalyst; Treasury buyback theme now 13 hours stale, no follow-through. Growth/inflation cycle unchanged – waiting for prints to confirm soft landing vs re-acceleration. Neutral USD until data.
+
+**Central-Bank Watcher:** Fed minutes (19h old) showed no new guidance; market priced in. No CB speeches today. Thursday's data matters more than today's medium-impact releases. Rates path on hold until NFP/CPI next cycle. Neutral all currencies.
+
+**Geopolitical & Crisis Analyst:** Kyiv strikes (16 dead, 3h old), NK missile (2h old), Iran sanctions (4h old) – **all failed to move markets**. Oil +0.4% despite Hormuz rhetoric, gold down $17 from highs, JPY flat. Markets are numb or these are non-events. No escalation requiring action. Watching but not trading it.
+
+**FX Strategist:** USD three-month low (per Reuters 3h ago) but DXY data missing – can't confirm. EUR structural weakness (Lagarde's warnings) persists but no fresh trigger. GBP got UK CPI boost yesterday but fading. AUD soft on jobs miss. All pairs range-bound pre-data. No conviction.
+
+**Gold & Oil Trader:** Gold rejected $4507 highs, now $4489 – classic pre-data pullback. Oil $87.34, up trivially despite war headlines – Hormuz premium not pricing in. If data is soft, gold may test $4520; if hot, $4460. Oil needs real supply shock, not talk. Neutral both.
+
+**Equity / Risk-Sentiment Desk:** SPX 7719, NDX 29494 – both flat overnight. No VIX data but price action says calm. Risk-on holding but no conviction. Waiting for US data or earnings. Indices in 10-point ranges. Nothing to do.
+
+**Risk Manager:** Account at $462.88, down $0.88 today (NZDUSD BREAKOUT position -$0.33). REVERT removed yesterday (5-loss streak, -$31.53). SHOCK bled yesterday (6/8 SL hits). Only SWING (1 win, +$1.52) and independent robots active. **84 minutes to USD data = news_block USD:84:114 mandatory.** Caution justified; no reason to change.
+
+**Market Historian:** **Last time markets ignored geopolitical headlines this blatantly** (Syria strikes April 2018, NK tests 2017), it meant either: (a) events were priced in, or (b) focus was on data/earnings. Today rhymes with (b) – Treasury buyback yesterday was the story, now stale. **Philly Fed/Claims historically move USD ±0.3% if >1σ surprise; <1σ = chop.** Forecast vs previous: Philly Fed 24.1 vs 41.4 (big drop expected, but it's a volatile series), Claims 210K vs 209K (no surprise). **Analog: August 2024 pre-Jackson Hole – markets ranged for 36h before Powell.** Today is similar: waiting mode. Price context: EURUSD 1.1697 (near 3-month high per USD weakness), USDJPY 158.45 (stable), gold $4489 (off highs but elevated). **No extended moves to fade, no breakouts to chase.** Lean: hold flat biases, let data decide.
+
+**Chairman:** Consensus is clear: **catalyst void, data in 84 minutes is the only game.** Geopolitics failed to move markets (Awareness confirms: we raised JPY/OIL/XAU biases 3 hours ago to 0.2/0.3/0.2, prices went nowhere, we correctly reset to 0.0 last hour). No flip-flopping – we're tracking evidence. Historian's analog (Aug-2024 wait-state) fits. Risk Manager's point on REVERT/SHOCK losses noted; keeping them sidelined. **Maintain caution, flat biases except EUR -0.1 (structural), AUD -0.1 (jobs miss still valid).** News block USD data window. Conf 0.3 (low conviction pre-data). Allow COUNCIL/SWING only. No shocks, no preferred symbols. Let the data speak at 12:30 UTC.
+
+---
+
+## Psyche
+
+**Awareness (fired=no):** Previous directives stable for 3 hours (all biases 0.0 except EUR/AUD -0.1); no flip-flopping. We raised geopolitical biases 3h ago, prices refuted them, we correctly downgraded. Decision memory shows disciplined tracking. Scorecard shows 50-55% hit rate (mediocre) – justifies low conf. No stubbornness detected. Clear mind.
+
+**Greed (fired=no):** All biases ≤0.1, conf=0.3, prefer_symbols=none, risk_mult=0.6. No overconfidence language. Council is appropriately cautious. Not firing.
+
+**Fear (fired=no):** Caution mode is data-driven (84min to event, stale themes), not panic. Account down $0.88 (0.2%) is trivial. REVERT/SHOCK removals were rational (loss streaks). No over-reaction. Not firing.
+
+**Prudence (fired=yes):** No strong calls proposed (all |bias|≤0.1), so no need to downgrade. Firing to confirm: maintaining low biases pre-data is correct – no two independent sources support any >0.3 bias right now. Historian provided wait-state analog. Approved.
+
+**Intuition (fired=yes):** Markets feel coiled – 13h of range compression post-buyback, geopolitics ignored, data in 84min. Hunch: if Philly Fed misses badly (sub-20 vs 24.1 forecast), USD sells off and gold spikes; if beats (>28), reverse. But don't front-run – the forecast drop (41.4→24.1) may already be priced. Wait for the print.
+
+**State:** calm  
+**Flags:** awareness, prudence, intuition
+
+---
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.6
+regime=mixed
+bias_USD=0.0
+bias_EUR=-0.1
+bias_GBP=0.0
+bias_JPY=0.0
+bias_AUD=-0.1
+bias_NZD=0.0
+bias_CAD=0.0
+bias_CHF=0.0
+bias_XAU=0.0
+bias_XAG=0.0
+bias_OIL=0.0
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.3
+allow_books=COUNCIL,SWING
+news_block=USD:84:114
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=Pre-data void: geopolitics ignored (Kyiv/NK/Iran no market impact), Treasury buyback theme stale (13h), all biases flat except EUR/AUD -0.1; US Philly Fed/Claims in 84min is next catalyst
+summary_ar=فراغ ما قبل البيانات: الجيوسياسة متجاهلة (كييف/كوريا الشمالية/إيران بلا تأثير)، موضوع إعادة شراء الخزانة قديم (13 ساعة)، كل الانحيازات صفر إلا EUR/AUD -0.1؛ بيانات أمريكية بعد 84 دقيقة
+mind=calm
+psyche_flags=awareness,prudence,intuition
+intuition=Philly Fed surprise (>2σ either way) could break the 13h range – but forecast drop 41→24 may be priced; wait for print, don't guess direction

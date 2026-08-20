@@ -1,6 +1,6 @@
 {
- "ts": 1787223176,
- "council_ts": 1787220170,
+ "ts": 1787223952,
+ "council_ts": 1787223952,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.6,
@@ -22,19 +22,18 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "COUNCIL,SWING",
-  "news_block": "USD:97:127",
+  "news_block": "USD:84:114",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
   "psyche_flags": "awareness,prudence,intuition",
-  "intuition": "Markets in wait-state for 12:30 UTC data – lean toward range extension if prints are soft, but don't front-run the release",
-  "summary": "Geopolitical headlines (NK missile, Kyiv, Iran) failed to move markets; gold rejected highs, oil flat, JPY fading; all biases reset to 0.0 except AUD -0.1 on jobs miss; await US data 12:30 UTC",
-  "summary_ar": "عناوين جيوسياسية (صاروخ كوريا الشمالية، كييف، إيران) فشلت بتحريك الأسواق؛ الذهب رفض القمم، النفط ثابت، الين يتراجع؛ كل الانحيازات صفر إلا AUD -0.1 على بيانات وظائف؛ ننتظر بيانات أمريكية 12:30 UTC",
+  "intuition": "Philly Fed surprise (>2σ either way) could break the 13h range – but forecast drop 41→24 may be priced; wait for print, don't guess direction",
+  "summary": "Pre-data void: geopolitics ignored (Kyiv/NK/Iran no market impact), Treasury buyback theme stale (13h), all biases flat except EUR/AUD -0.1; US Philly Fed/Claims in 84min is next catalyst",
+  "summary_ar": "فراغ ما قبل البيانات: الجيوسياسة متجاهلة (كييف/كوريا الشمالية/إيران بلا تأثير)، موضوع إعادة شراء الخزانة قديم (13 ساعة)، كل الانحيازات صفر إلا EUR/AUD -0.1؛ بيانات أمريكية بعد 84 دقيقة",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,

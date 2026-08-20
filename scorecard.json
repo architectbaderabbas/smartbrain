@@ -1,5 +1,5 @@
 {
- "decisions_scored": 36,
+ "decisions_scored": 37,
  "overall_hit_rate%": {
   "4h": 55,
   "12h": 50,
@@ -8,17 +8,17 @@
  "per_asset_hit_rate%": {
   "XAU": {
    "4h": 55,
-   "12h": 50,
+   "12h": 44,
    "24h": null
   },
   "CHF": {
    "4h": 55,
-   "12h": 50,
+   "12h": 56,
    "24h": null
   }
  },
  "by_mind_state%": {
-  "focused": 53
+  "focused": 52
  },
  "note": "hit = price moved in the direction of a bias with |bias|>=0.3 after the horizon; None = not enough data yet"
 }
