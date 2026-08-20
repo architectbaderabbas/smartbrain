@@ -346,3 +346,5 @@
 - 2026-08-20 03:07 UTC · heartbeat · quiet (sev0)
 - 2026-08-20 03:10 UTC · heartbeat · quiet (sev0)
 - 2026-08-20 03:22 UTC · heartbeat · quiet (sev0)
+- 2026-08-20 03:37 UTC · heartbeat · ALERT sev2: KOSPI reversal: 6% surge post-semiconductor recovery; SK Hynix +12%, Samsung +9% after yesterday's 4.96% plunge -> protocol applied, council convening
+- 2026-08-20 03:37 UTC · FULL COUNCIL triggered: ALERT sev2: KOSPI reversal: 6% surge post-semiconductor recovery; SK Hynix +12%, Samsung +9% after yesterday's 4.96% plunge
