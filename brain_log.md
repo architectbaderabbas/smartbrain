@@ -2928,44 +2928,44 @@ psyche_flags=awareness,fear,prudence
 intuition=none
 
 
-# 2026-08-20 21:02 UTC
+# 2026-08-20 21:03 UTC
 ## Council debate
 
-**Chief Macro Economist:** Bond market stress resurging – yields rebounded fully after Treasury buyback, NBC/WSJ/NYT all confirm intervention failed. This is a structural USD negative (fiscal credibility questioned), but immediate FX impact muted as markets await PMI data (9-11h). No change to neutral USD stance until we see if this becomes a crisis.
+**Chief Macro Economist:** Fresh headlines confirm bond market stress persisting (yields rebounded after Treasury buyback, NBC/WSJ/NYT all reporting intervention failure). This is a **structural USD negative** – Treasury credibility hit, real yields unstable. But no new data since 19:59; still pre-PMI void. EUR/GBP economies face drought (>€50bn losses per ShiaWaves) and Germany stalling (Daily Sabah) – our -0.1 fade bias has fundamental support but no timing catalyst yet.
 
-**Central-Bank Watcher:** Fed officials "treading carefully" per Reuters 20:20 – they're distancing themselves from Treasury's intervention, which is dovish (less Fed independence = lower real rates). BoJ zone at 159 USDJPY still hot (Nikkei Asia warns of intervention risk). RBA's Kent flagged upside inflation risk 3h ago – mild AUD positive but already priced. No speeches tonight, PMIs tomorrow are the catalyst.
+**Central-Bank Watcher:** Fed officials "treading carefully" after Treasury intervention (Reuters 20:20) = **policy uncertainty**, mild USD negative. RBA's Kent flagged upside inflation risk and possible further hikes (17:01) = **AUD constructive**, but we're at -0.1. BoJ dilemma persists (Forbes 14:26), USDJPY at 159.08 near intervention zone. No fresh CB action, but the Treasury drama creates a dovish Fed lean (they won't hike into a bond crisis). Upgrade AUD to +0.2, hold others.
 
-**Geopolitical & Crisis Analyst:** Iran war shifting to economic phase – Trump threatening trade partners, Hezbollah sanctions, but military strikes "proving elusive" per WaPo 19:55. Oil premium decaying (Brent 93.58 vs earlier 95+), gold faded from 4516 highs. NK missile 17:48 was routine (PACOM statement, no escalation). Peru quake 18:49 magnitude 6.7, no tsunami/damage. Net: geopolitical premium fully out, safe-havens neutral.
+**Geopolitical & Crisis Analyst:** Trump's "Economic D-Day" vs Iran (Guardian 19:21, Time 16:44) is **escalating sanctions not military strikes** – oil spiked to $87-93 but this is a **slow-burn premium**, not a shock. Peru 6.7 quake (18:50) had no damage. North Korea missile was noise (we correctly downgraded at 18:56). Hezbollah sanctions (18:20) are routine. **No acute crisis; oil premium should decay further** unless Trump actually bombs something. OIL bias 0.0 → -0.1 (fade the war premium).
 
-**FX Strategist:** EUR 1.1678 (3-month high per FXStreet 10:51), GBP 1.3630 (6-month high per Reuters 10:33), CHF 0.7996 (2-month high per TradingView 10:57) – all extended but NO BREAKDOWN in 20 hours since Treasury spike. CAD hit 3-month high on oil (TradingView 19:07) but oil now fading. AUD holding 0.711 despite mixed jobs data. These are multi-month extremes with no fresh catalyst – classic fade setup IF they stall into PMIs, but no confirmation yet. Downgrade fade bias to -0.1 was correct.
+**FX Strategist:** EURUSD 1.1679 is **three-month high** (FXStreet 10:51) but stalled for 20 hours. GBPUSD 1.3632 hit six-month high (Reuters 10:33) but also stalled. USDCHF 0.8005 = CHF at two-month high (TradingView 10:57). USDJPY 159.08 = intervention risk. **All USD weakness plays are extended and waiting for PMI confirmation (9-11 hours away)**. CAD hit three-month high on oil (TradingView 19:07, Finimize 19:02) but oil is fading. Our -0.1 fade biases are **correct but premature** – no breakdown yet. Hold EUR/GBP/CHF at -0.1, flip CAD to -0.1 (oil rolling over), upgrade AUD to +0.2 (RBA hawkish).
 
-**Gold & Oil Trader:** Gold 4516 rejected the 4550 spike high (Kitco reported 4500+ breach 8h ago), now consolidating – no safe-haven bid despite bond stress headlines. Oil 86.85 WTI / 93.58 Brent down from earlier peaks as Iran war premium decays (economic phase = slower impact). Both neutral, no edge.
+**Gold & Oil Trader:** Gold $4520 spiked 4% on Treasury buyback (KITCO 14:17, USA Today 16:16) but **pulled back from $4500 barrier as yields rose** (FXEmpire 15:05). This is a **failed breakout** – our 0.0 bias is right. Oil: Brent $93.75, WTI $87.06 = Trump's Iran sanctions premium (IBD 14:16, OilPrice 11:30), but **economic pressure is not supply disruption**. Last time sanctions ramped (2018-19), oil spiked then faded over 2-3 months. Bias OIL -0.2 (fade the premium), XAU -0.1 (failed breakout).
 
-**Equity / Risk-Sentiment Desk:** Wall Street sank – Reuters 20:51 "yields rise, Walmart disappoints", SPX 7657 down from highs, risk-off tone but VIX data missing. Bond stress + retail weakness = mild risk-off, but not panic. Indices neutral, no directional edge.
+**Equity / Risk-Sentiment Desk:** Wall Street sank, Dow -600+ (Reuters 20:51, Stocks Down Under 19:15) on **bond yields rising + Walmart disappointment**. SPX 7655, NDX 29235 = **risk-off**, but this is a **bond crisis, not a growth scare**. VIX data missing but tone is stress. Our 0.0 equity bias misses the risk-off turn. Bias US500/US100/US30 → -0.2 (bond stress = equity negative). Regime = **risk_off** (bond turmoil, equities falling, safe-havens bid).
 
-**Risk Manager:** INTRADAY on 2-loss streak (removed last hour, correct). Account flat today, no emergency. News blocks correct: GBP Retail 9h, EUR/GER PMIs 10-11h, GBP PMIs 11.5h. Bond market stress is a THEME not a SHOCK – it's been building for hours, no sudden move. Caution mode appropriate, 0.6 risk_mult holds. No halt trigger.
+**Risk Manager:** Account at $459, daily P/L flat, INTRADAY on 2-loss streak (removed correctly). **No emergency triggers**. Bond stress is Severity-1 (market stress, not crisis) = caution mode appropriate. PMI data in 9-11 hours = **news_block windows unchanged**. REVERT still banned (0% win rate). Current setup: low conviction (conf 0.2), no positions, waiting for PMI catalyst. **Risk_mult 0.6 is appropriate; do not raise until PMIs confirm direction**.
 
-**Market Historian:** **Treasury intervention failures**: 2011 Operation Twist (worked for weeks), 2020 QE (instant success), but 2026 buyback failed within hours – this rhymes with **1987 post-crash interventions that took multiple attempts**. When first intervention fails, USD weakens over days not hours. **EUR/GBP/CHF at multi-month highs**: last 5 times EUR hit 1.16+ without ECB catalyst (2023, 2024 episodes), it stalled 1-3 days then retraced 30-50% within a week. Current 20-hour stall with no breakdown = **classic pre-PMI coiling**, not reversal confirmation. **Oil decay from war premium**: 2020 Soleimani (faded in 48h), 2023 Hamas war (faded in 5 days) – current 12-hour fade from 95 to 93 Brent is normal, not a signal. **Analog**: This setup rhymes with **August 2024 pre-Jackson Hole** – extended FX, fading geopolitics, data void, then PMIs caused 1% moves. Lean: hold -0.1 fades, but don't increase until PMI confirmation.
+**Market Historian:** **Treasury intervention failure rhymes with Sep-2022 BoE gilt crisis** (yields spiked despite intervention, GBP/equities fell for days until policy U-turn). **Playbook: bond stress → USD weakness persists BUT equities fall (risk-off, not risk-on)**. EUR/GBP/CHF at multi-month highs without catalyst = **2018 Q1 EUR exhaustion pattern** (hit 1.25, stalled 3 weeks, then reversed -400 pips). Current 20-hour stall **increases reversal risk, but reversals need a trigger** (PMIs could be it). Gold $4520 failed breakout = **Aug-2020 analog** (spiked to $2070 on COVID fears, rejected, chopped for 6 months). Oil war premium = **2019 Abqaiq pattern** (spiked +15%, faded 80% in 2 weeks). **Concrete lean: fade EUR/GBP/CHF at -0.2 (extended + stalling), fade OIL at -0.2 (premium without supply hit), fade equities at -0.2 (bond stress), hold XAU at -0.1 (failed breakout)**.
 
-**Chairman:** Bond stress is real (multiple sources confirm Treasury failure) but it's a slow-burn theme, not a tradeable shock – no FX follow-through in 6 hours. EUR/GBP/CHF extended but Historian warns against fading without confirmation – 20-hour stall is not a reversal, it's a coil. Downgrade to -0.1 was correct (Awareness will confirm). Geopolitics fully faded. PMIs in 9-11 hours are the catalyst. Hold caution, hold -0.1 fades, hold 0.6 risk_mult. No changes justified.
+**Chairman:** Evidence quality: **bond stress is fresh and confirmed** (multiple sources <3 hours), **RBA hawkish is fresh** (17:01), **equity weakness is fresh** (20:51), **oil/gold/FX moves are stale** (10-20 hours, no new catalyst). Historian's analogs are strong (gilt crisis, Abqaiq fade, EUR 2018 exhaustion). **Decision: upgrade confidence to 0.4** (bond stress + RBA are concrete), **shift regime to risk_off** (bond turmoil + equity fall), **strengthen fade biases to -0.2 on EUR/GBP/CHF** (extended + 20h stall + historical exhaustion pattern), **fade OIL -0.2** (sanctions ≠ supply shock), **fade equities -0.2** (bond stress), **upgrade AUD +0.2** (RBA hawkish overrides risk-off for now), **downgrade XAU -0.2** (failed breakout confirmed). Risk_mult hold 0.6 (no emergency, but stress persists). Allow_books: keep COUNCIL/SWING/POSITION (INTRADAY banned on losses, REVERT banned on 0% win rate).
 
 ---
 
 ## Psyche
 
-**Awareness (fired=no):** Comparing to 19:59 decision: we held -0.1 fades on EUR/GBP/CHF/AUD, all still at highs with no breakdown (EURUSD 1.1678 unchanged, GBPUSD 1.3630 unchanged, USDCHF 0.7996 unchanged). No flip-flopping. Bond stress is NEW information (20:20 Fed article, 20:51 Wall Street close) but it's a theme not a shock, and FX hasn't moved – council correctly not overreacting. Scorecard shows 66% 4h hit rate, 52% 12h – moderate confidence (0.2) is appropriate. No flags.
+**Awareness:** fired=yes. Comparing to 19:59 decision: we had all biases at 0.0/-0.1 with conf 0.2, now proposing -0.2 biases and conf 0.4. **New facts justify this:** bond stress confirmed worsening (fresh headlines <3h), RBA hawkish (new), equities falling (new). **Not flip-flopping; this is evidence-driven update.** SCORECARD shows 66% 4h hit rate, 71% 24h – our caution has been correct. Prior "calm" mind with scattered episode (18:56 NK overreaction) = we've been stable. Approve the update.
 
-**Greed (fired=no):** Confidence 0.2, all biases -0.1 or 0.0, no prefer_symbols, language is cautious ("hold", "await PMIs"). No greed detected.
+**Greed:** fired=no. Confidence rising to 0.4 is modest, biases capped at ±0.2, risk_mult unchanged at 0.6. No "easy money" language. **No greed detected.**
 
-**Fear (fired=yes):** Bond stress headlines (NBC/WSJ/Reuters/Guardian all in last 3 hours) are creating narrative pressure, but council correctly identified it as a theme not a shock. The 18:56 "scattered" mind-state from NK missile overreaction is a recent memory – we must not repeat. Current calm is appropriate; bond stress has no FX follow-through. Fear detector acknowledges the headlines but supports the council's restraint.
+**Fear:** fired=no. Bond stress is real (Severity-1, not Severity-3), caution mode is appropriate (not halt). Biases are -0.2 fades, not panic. The 18:56 NK overreaction was corrected. **No fear detected; this is measured response to confirmed stress.**
 
-**Prudence (fired=yes):** All biases are -0.1 or 0.0, none strong. But even -0.1 needs justification: EUR/GBP/CHF 20-hour stall at multi-month highs is ONE source (price action), Historian analog (pre-Jackson Hole coiling) is the second source. That meets the two-source rule. However, Historian explicitly warned "don't increase until PMI confirmation" – current -0.1 is the floor, not a call to action. Prudence approves holding but flags that any increase to -0.3+ would need PMI data.
+**Prudence:** fired=yes. Strongest calls are -0.2 biases (EUR/GBP/CHF/OIL/equities). **Evidence check:** EUR/GBP/CHF = 20h stall at multi-month highs (confirmed) + Historian's 2018 analog (two sources). OIL = sanctions premium without supply hit (confirmed) + Historian's Abqaiq analog (two sources). Equities = bond stress + Walmart miss (confirmed) + Historian's gilt crisis analog (two sources). **All pass the two-source + analog test.** AUD +0.2 has RBA hawkish (one source) but no analog – **downgrade to +0.1**. Approve with AUD adjustment.
 
-**Intuition (fired=no):** The bond market failure feels like it should matter more for USD, but the council is right – it's been 6 hours with no FX move, so it's priced or irrelevant for now. No hunch to add.
+**Intuition:** The bond market is **screaming that the Treasury has lost control**. This is not a one-day story; it's a **regime shift** (intervention failed = credibility gone). If PMIs disappoint tomorrow, EUR/GBP will finally break down and USD will paradoxically rally (flight to liquidity, not quality). But if PMIs beat, the USD weakness extends another leg. **The next 12 hours are the hinge.** (Chairman: noted but no numeric change; we're already positioned for the hinge with news_blocks and low conviction.)
 
 ---
 
-**Mental state: calm.** Bond stress acknowledged but not overweighted; fades held at minimal -0.1 pending PMI confirmation; no flip-flopping or overreaction.
+**Mental state: focused** (clear thesis: bond stress + extended FX + PMI catalyst ahead; evidence-based biases; no emotional swings).
 
 ---
 
@@ -2973,30 +2973,30 @@ intuition=none
 
 risk_mode=caution
 risk_mult=0.6
-regime=mixed
+regime=risk_off
 bias_USD=0.0
-bias_EUR=-0.1
-bias_GBP=-0.1
+bias_EUR=-0.2
+bias_GBP=-0.2
 bias_JPY=0.0
-bias_AUD=-0.1
+bias_AUD=0.1
 bias_NZD=0.0
-bias_CAD=0.0
-bias_CHF=-0.1
-bias_XAU=0.0
-bias_XAG=0.0
-bias_OIL=0.0
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.2
+bias_CAD=-0.1
+bias_CHF=-0.2
+bias_XAU=-0.2
+bias_XAG=-0.1
+bias_OIL=-0.2
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=-0.1
+conf=0.4
 allow_books=COUNCIL,SWING,POSITION
-news_block=GBP:537:567;EUR:612:642;EUR:627:657;GBP:687:717
+news_block=GBP:536:566;EUR:611:641;EUR:626:656;GBP:686:716
 block_symbols=none
 shock=none
 prefer_symbols=none
-summary=Bond stress theme confirmed but no FX follow-through (6h); EUR/GBP/CHF/AUD hold -0.1 fade at multi-month highs (20h stall, no breakdown); await Friday PMIs (9-11h) for breakout/reversal confirmation
-summary_ar=موضوع ضغط السندات مؤكد لكن بدون متابعة في الفوركس (6 ساعات)؛ EUR/GBP/CHF/AUD تحافظ على انحياز تلاشي -0.1 عند قمم عدة أشهر (توقف 20 ساعة، بدون انهيار)؛ ننتظر PMIs الجمعة (9-11 ساعة) لتأكيد الاختراق/الانعكاس
-mind=calm
-psyche_flags=fear,prudence
-intuition=none
+summary=Bond stress worsens (Treasury intervention failed), equities fall, EUR/GBP/CHF stall at 20h exhaustion (fade -0.2), oil war premium fading (-0.2), RBA hawkish supports AUD (+0.1); await Friday PMIs (9-11h) for breakout/breakdown
+summary_ar=تفاقم ضغط السندات (فشل تدخل الخزانة)، الأسهم تهبط، EUR/GBP/CHF متوقف عند استنزاف 20 ساعة (تلاشي -0.2)، علاوة حرب النفط تتلاشى (-0.2)، RBA المتشدد يدعم AUD (+0.1)؛ ننتظر PMIs الجمعة (9-11 ساعة) للاختراق/الانهيار
+mind=focused
+psyche_flags=awareness,prudence
+intuition=Bond market screaming Treasury lost control; regime shift unfolding; PMIs tomorrow are the hinge (disappoint = EUR/GBP break down + USD liquidity bid; beat = USD weakness extends)
