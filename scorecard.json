@@ -1,5 +1,5 @@
 {
- "decisions_scored": 41,
+ "decisions_scored": 42,
  "overall_hit_rate%": {
   "4h": 57,
   "12h": 50,
@@ -23,7 +23,7 @@
   }
  },
  "by_mind_state%": {
-  "focused": 57
+  "focused": 59
  },
  "note": "hit = price moved in the direction of a bias with |bias|>=0.3 after the horizon; None = not enough data yet"
 }
