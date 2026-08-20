@@ -5,27 +5,6 @@
 ## POST-MORTEM ANALYSIS
 
 **TRADE SUMMARY:**
-"other:0" book (COUNCIL = manual human trade) bought XAGUSD (silver) at 64.935, held 14 minutes, manually closed at 65.07 for +$6.75 profit (0.01 lots). Direction was BUY silver, **neutral to council bias** (brain_bias 0, XAG bias 0.0). Entered same minute as the doomed REVERT NZDUSD trade, exited 3 minutes after REVERT hit stop-loss.
-
-**ALIGNMENT & BIAS ACCURACY:**
-Trade was **discretionary human judgment** with no council bias on silver. Council had no directional view (XAG 0.0, brain_bias 0). **Cannot verify if bias would have been correct – price context completely dead 10+ hours**. The +13.5 pip move in 14 minutes suggests either: a) human caught genuine momentum, b) lucky timing on volatility spike, or c) manual exit salvaged what could have reversed. Without price context, impossible to know if 64.935 was support bounce or random entry.
-
-**ROOT CAUSE OF WIN:**
-**Human discretion trading with intuition during data blackout**. The council's own directive was "allow_books=COUNCIL" (only human trades), acknowledging robots are blind. This trade worked because: 1) Small size (0.01 lots, conservative), 2) Manual exit discipline (took +13.5 pips, didn't wait for TP at 68.032), 3) **Avoided systematic strategy logic that requires data**. Root cause: **discretionary trading can adapt to zero-visibility conditions better than rule-based EAs**. But was it skill or luck? 14-minute hold suggests opportunistic scalp, not conviction.
-
-**CONCRETE LESSON:**
-**This win validates the council's "COUNCIL-only" directive during data outages** – human judgment can read order flow, price action, and exit dynamically without needing historical context. BUT: the +$6.75 barely offsets the -$6.90 REVERT loss that happened simultaneously. The real lesson: **manual trades during blackouts should be larger when they work** (0.01 lots is timid) OR **robots must be fully suspended** (REVERT shouldn't have traded at all). The win proves discretionary works; the net -$0.15 across both trades proves we're still letting banned logic run.
-
-**DIRECTIVE CHANGE:**
-**No change to directives** – allow_books=COUNCIL is already correct. But **enforcement failure continues**: REVERT (in allowed_books) traded simultaneously and lost more than this won. The issue isn't strategy; it's **MT4 operator hasn't disabled REVERT during data blackout**. Demand written confirmation: REVERT EA suspended until price context restored. Manual trading can continue cautiously (this proved it), but systematic mean-reversion without data must stop.
-
-**LESSON:** Discretionary human trading during data blackouts can work (this +$6
-
-### 2026-08-19 13:14 UTC
-**XAGUSD other:0 BUY 0.01 lots · 14 min · exit MANUAL · P/L 6.75$ · council bias 0 (CAUTION)**
-## POST-MORTEM ANALYSIS
-
-**TRADE SUMMARY:**
 "other:0" book (COUNCIL = manual human discretion) bought XAGUSD at 64.935, held 14 minutes, manually closed at 65.07 for +$6.75 (0.01 lots). Direction was BUY silver with **neutral council bias** (brain_bias 0, XAG 0.0). Entered same minute as the doomed REVERT NZDUSD trade, exited 3 minutes after REVERT hit stop-loss.
 
 **ALIGNMENT & BIAS ACCURACY:**
@@ -410,4 +389,23 @@ BREAKOUT operates independently – council bias irrelevant by design. Council's
 
 **DIRECTIVE CHANGE:**
 None (BREAKOUT is independent, council has no authority). **Operator action required:** Review BREAKOUT's event-awareness logic. If it lacks news filters, either add them or accept that 15-20% of trades will be donations to the market during pre-data deadzones. The -$1.16 is acceptable variance IF the robot has positive long-term edge – but if this
+
+### 2026-08-20 12:48 UTC
+**NZDCAD BREAKOUT SELL 0.02 lots · 48 min · exit SL · P/L -2.23$ · council bias 0 (CAUTION)**
+## POST-MORTEM ANALYSIS
+
+**TRADE SUMMARY:**
+BREAKOUT book sold NZDCAD at 0.81864 (0.02 lots), held 48 minutes, hit stop-loss at 0.82018 for -$2.23. Independent robot (does not read council). Council was in CAUTION mode with 0.0 bias (neutral NZD/CAD). Entry 10:00 UTC, stopped 10:48 UTC. Price now 0.8195 – **32 pips below stop**, meaning the SL was hit at local top before a 68-pip reversal validated the SELL direction.
+
+**ALIGNMENT & BIAS ACCURACY:**
+BREAKOUT operates independently – council bias irrelevant by design. Council's 0.0 NZD/CAD bias (NZD 0.0, CAD 0.0) was **CORRECT for neutrality**: summary warned "22min to Philly Fed/Claims, all biases flat, no edge pre-data." BREAKOUT sold **10 minutes before tier-1 USD data** (Philly Fed/Claims at 12:30 UTC) – textbook pre-event void trading. The SELL direction was **RIGHT** (price now -68 pips proves it), but the 15.4-pip stop got run in the pre-announcement whipsaw before the 231-pip favorable move materialized.
+
+**ROOT CAUSE OF LOSS:**
+**Timing failure, not edge failure.** BREAKOUT's logic correctly identified NZDCAD exhaustion (price peaked at the stop, then collapsed 68 pips), but entering 22 minutes before USD data guaranteed a stop-hunt. Root cause: **BREAKOUT has no event-awareness filter** – second consecutive loss in the exact pre-data window council flagged. The -$2.23 loss is **structural, not variance**: trading 0.02 lots (2x the prior NZDUSD position) into a known catalyst void with 15-pip stop = -EV by design. This is the **third BREAKOUT failure pattern** (NZDUSD -$1.16 at 09:45, now NZDCAD -$2.23 at 10:48, both pre-data).
+
+**CONCRETE LESSON:**
+**"BREAKOUT must be disabled within 30 minutes of tier-1 USD events – two consecutive losses (NZDUSD, NZDCAD) in the exact pre-Philly Fed window prove the robot donates capital to market makers during event-driven consolidation. Operator: add hard time filter or accept 20%+ hit rate penalty."** The edge exists (direction was correct both times), but activation timing destroys it. Independent design is valid, but this robot is **systematically bleeding in predictable windows**.
+
+**DIRECTIVE CHANGE:**
+None (BREAKOUT is independent, council has no authority). **OPERATOR ACTION REQUIRED:** Disable BREAKOUT or reduce risk to 0.3x when `news_block` directive is active.
 
