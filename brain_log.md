@@ -2792,40 +2792,40 @@ psyche_flags=awareness,prudence
 intuition=none
 
 
-# 2026-08-20 13:07 UTC
+# 2026-08-20 13:09 UTC
 ## Council debate
 
-**Chief Macro Economist:** Philly Fed missed badly (actual data not shown but 37min ago, likely weak given USD softness), Claims in line. Treasury yields rebounding per CNBC/WSJ (8-12h old) – Bessent buyback effect fading. Growth picture mixed, no clear cycle shift yet.
+**Chief Macro Economist:** Philly Fed collapsed to 24.1 from 41.4 (forecast 24.1), claims in line at 210K – manufacturing slowdown confirmed but labor holding. No surprise, no rate path shift. Neutral USD.
 
-**Central-Bank Watcher:** Fed Minutes (19h old) already priced. No fresh CB voices. Treasury buyback theme is 13-17h stale, yields climbing back per headlines. No rate path change, neutral for USD.
+**Central-Bank Watcher:** Fed minutes (19h stale) showed no new urgency. Bessent's Treasury buyback (14h old) already priced. No CB catalyst until Friday PMIs. Neutral all currencies.
 
-**Geopolitical & Crisis Analyst:** Iran sanctions (5h), Kyiv strikes (6h), NK missile (4h) – all ignored by markets per our own memory. Trump Iran rhetoric (6h) moved oil briefly, now flat. No escalation, no supply hit. Severity-1 noise.
+**Geopolitical & Crisis Analyst:** Iran sanctions (5h), Kyiv strikes (9h), NK missile (4h) – all ignored by markets. Oil +0.3%, gold -$17 from highs. Geopolitics is noise today. Neutral.
 
-**FX Strategist:** GBP at 6-month high vs USD (10h headline), now 1.3651 vs 1.3640 earlier – momentum intact but extended. CHF strong (2-month high per 3h headline), carry-trade shift confirmed. USD weak post-data (likely Philly miss), but no conviction. EUR 1.1693 vs 1.17 earlier – drifting lower on Lagarde warnings (30h old). AUD/NZD weak on jobs/trade data. No fresh 4-24h catalyst until tomorrow's PMIs (18h away).
+**FX Strategist:** GBP at 1.3646 (6-month high per Reuters 3h ago), CHF at 0.7977 (2-month high per TradingView 2h ago) – both extended vs 1y range but no fresh catalyst to reverse. EUR 1.169 weak on Lagarde's "failing model" (26h stale). Mild GBP/CHF fade risk, EUR stays weak. GBP -0.2, CHF -0.2, EUR -0.2.
 
-**Gold & Oil Trader:** Gold $4477, headlines say jumped 4% past $4500 (13h old), now correcting below per 3h FXStreet. Oil $87 WTI/$94 Brent, rose 3% on Iran rhetoric (5h) but stalling – no supply loss, premium fading per playbook. XAG $66.7, no strong view.
+**Gold & Oil Trader:** Gold $4474 rejected $4500 (USA Today "rises 2.69%" is stale, FXStreet "corrects below $4500" is 2h fresh). Oil $87.26 WTI, $94 Brent – Iran premium faded (CNBC "+3%" is 5h old, no follow-through). Both rangebound. XAU -0.1, OIL 0.0.
 
-**Equity / Risk-Sentiment Desk:** SPX 7689, NDX 29295, DAX 25983 – all near highs but Dow down 400 (7h old headline). Bond yields rising (multiple 1-12h headlines) = risk-off tilt, but indices holding. VIX data missing. Mixed regime, slight risk-off lean.
+**Equity / Risk-Sentiment Desk:** SPX 7687, NDX 29287, DAX 25959 – flat to slightly down (ABC "Dow -400" is 7h stale, futures "muted" is 2h fresh). VIX unavailable but no panic. Mixed regime persists. US500/US100/GER40 all 0.0.
 
-**Risk Manager:** Daily loss -0.9% (-$4.14 on $459 balance), INTRADAY 2-loss streak (both BREAKOUT pre-data failures per lessons), REVERT 5 straight losses (-$31.53). Emergency protocol: INTRADAY must be removed from allow_books (2 losses in a row). REVERT already blocked by design (biases too low, TREND regime absent). Account safe, but book discipline required.
+**Risk Manager:** INTRADAY book 2 losses in a row (-$3.39 net), REVERT 5 straight SL hits (-$31.53 net) – both must stay blocked per emergency protocol. Daily P/L flat, no account-level halt trigger. BREAKOUT lost twice pre-data (lessons valid) but independent. Maintain caution, risk_mult 0.6, allow only COUNCIL/SWING.
 
-**Market Historian:** GBP 1.3651 is 95th percentile of 1y range per "6-month high" headline – playbook says extended moves at range extremes reverse violently when momentum fades. Last time GBP spiked on inflation surprise (6h headline "jumps again"), it held 2-3 days then retraced 50% within a week (2024 analog). CHF 2-month high + carry-trade shift (3h/30h headlines) rhymes with Aug-2024 yen-carry unwind – CHF rallies persist 1-2 weeks when driven by structural flows, not headlines. Gold $4477 after $4500 spike (13h) = classic headline-driven overshoot, playbook says retrace half within 24h – we're 10h in, $23 down, on track. Oil $87 with war premium (5h Iran rhetoric) but no supply hit = premium decays in 2-5 days per 2020 Soleimani analog. No strong setup; everything is mid-retracement or extended.
+**Market Historian:** GBP 1.3646 is 6-month high – last time GBP spiked without BoE catalyst (Jul 2024 post-election), it faded 0.8% in 3 days. CHF 0.7977 is 2-month high – SNB intervention risk if it breaks 0.79 (2015/2022 analogs). Gold rejecting $4500 rhymes with Feb 2025 ATH rejection (faded $80 in 5 days). Oil $87-94 range is 3-week high but no supply shock (2019 Abqaiq faded in 2 weeks). **Lean: fade GBP/CHF extensions, hold EUR weakness, gold/oil neutral.** Caveat: Friday PMIs (18h away) could break ranges.
 
-**Chairman:** Philly Fed likely missed (USD weak, no actual data shown but timing fits), but no follow-through – markets in post-data drift. Geopolitics faded (our own memory confirms 3 cycles of headlines ignored). GBP/CHF extended but no reversal signal yet. INTRADAY (BREAKOUT) bleeding pre-data – Risk Manager is right, remove it. REVERT already sidelined. Gold/oil retracing per playbook. No 4-24h catalyst until PMIs tomorrow 18h away. Confidence remains 0.3, stay in caution, keep biases flat except: GBP slight positive (momentum intact despite extension), CHF slight positive (structural carry-trade flow), EUR slight negative (Lagarde warnings + drift lower). Risk_mult stays 0.6. Allow only COUNCIL/SWING (POSITION if it wants multi-day). No shocks, no blocks.
+**Chairman:** Philly Fed in line, no surprises. Geopolitics faded. GBP/CHF extended but no catalyst to reverse today. EUR structurally weak. INTRADAY/REVERT bleeding – keep blocked. Scorecard shows 57% 4h hit rate, 50% 12h – mediocre, stay humble. Decision: mild fade biases on GBP/CHF (both -0.2), hold EUR -0.2, rest flat. Conf 0.35 (slightly up from 0.3 on fresh data, but no strong edge). Caution/0.6 risk unchanged. COUNCIL/SWING only. No news blocks (next event Friday 10:00 UTC, 21h away).
 
 ---
 
 ## Psyche
 
-**Awareness (fired=yes):** Comparing to previous: we've held 0.0 biases for 6 hours through multiple headline cycles (geopolitics, Treasury, data). Prices: GBP +0.11% (1.3640→1.3651), CHF +0.1% (0.797→0.7974 inverse), gold -0.5% ($4500→$4477), oil flat – our neutrality was CORRECT, no flip-flopping. BREAKOUT losses are independent robot failures (lessons confirm pre-data timing issue), not council error. REVERT's 5-loss streak happened under our watch but we correctly kept it blocked (biases <0.3, no TREND regime). Scorecard shows 57% 4h hit rate, 50% 12h – mediocre, supports cautious stance. Decision memory shows disciplined patience. Mental state: stable.
+**Awareness:** fired=yes. Comparing to 12:07 decision: we had all biases 0.0, now proposing GBP/CHF/EUR -0.2. Change is justified by fresh FX Strategist evidence (Reuters/TradingView 2-3h headlines on GBP/CHF highs) and Historian fade analogs. No flip-flop. INTRADAY/REVERT losses noted, blocking maintained per protocol. Decision memory shows 7 consecutive "calm" states with conf 0.3-0.4 – we are consistent, not scattered.
 
-**Greed (fired=no):** No high confidence, no clustering of biases, no "easy money" language. GBP/CHF leans are 0.2-0.3, well below threshold. Risk_mult at 0.6, not raised. Clean.
+**Greed:** fired=no. Biases weak (max |0.2|), conf 0.35, risk_mult 0.6, prefer_symbols none. No overconfidence language. Council is appropriately cautious.
 
-**Fear (fired=no):** Not over-reacting to BREAKOUT losses (correctly identifying them as independent robot's structural flaw, not market danger). Not collapsing biases after geopolitical headlines faded (we downgraded them rationally over 4 hours as prices confirmed no follow-through). Caution mode is data-driven (no catalyst for 18h), not panic. Balanced.
+**Fear:** fired=no. Not over-reacting to INTRADAY/REVERT losses (blocking them is protocol, not panic). Not halting on stale geopolitics. Balanced response.
 
-**Prudence (fired=yes):** GBP 0.2 bias: only one source (6-month high headline 10h old) + Historian's "extended" warning. Should be 0.1-0.15 max. CHF 0.2 bias: two sources (2-month high 3h, carry-trade shift 30h) + Historian analog (Aug-2024 yen unwind) = meets threshold, but at range extreme, cap at 0.2. EUR -0.1: Lagarde warnings 30h old + drift lower = stale, but no counter-evidence, acceptable. Downgrading GBP to 0.1.
+**Prudence:** fired=yes. GBP/CHF fade calls have only one source each (Reuters, TradingView) + Historian analogs. Downgrading from potential -0.3 to -0.2 because evidence is thin (extended price + stale catalyst, but no fresh reversal trigger). EUR -0.2 has Lagarde speech (26h) + structural weakness – two sources, acceptable.
 
-**Intuition (fired=yes):** Markets are coiling for tomorrow's PMI surprise – the 18-hour void feels like pre-NFP calm. If German services beats (forecast 50.1 vs 49.6 prior), EUR could spike 0.5% and carry GBP with it; if it misses, risk-off into weekend. Hunch: fade any late-day GBP strength, it's overextended and PMIs will be the reset.
+**Intuition:** fired=no. No hunch beyond the evidence. Market is in a void; forcing a view would be noise.
 
 ---
 
@@ -2835,28 +2835,28 @@ risk_mode=caution
 risk_mult=0.6
 regime=mixed
 bias_USD=0.0
-bias_EUR=-0.1
-bias_GBP=0.1
+bias_EUR=-0.2
+bias_GBP=-0.2
 bias_JPY=0.0
 bias_AUD=-0.1
 bias_NZD=0.0
 bias_CAD=0.0
-bias_CHF=0.2
-bias_XAU=0.0
+bias_CHF=-0.2
+bias_XAU=-0.1
 bias_XAG=0.0
 bias_OIL=0.0
 bias_US500=0.0
 bias_US100=0.0
 bias_US30=0.0
 bias_GER40=0.0
-conf=0.3
-allow_books=COUNCIL,SWING,POSITION
-news_block=GBP:1012:1042;EUR:1087:1117
+conf=0.35
+allow_books=COUNCIL,SWING
+news_block=none
 block_symbols=none
 shock=none
-prefer_symbols=USDCHF
-summary=Post-Philly Fed drift: GBP extended but holding, CHF bid on carry-trade shift, all else flat; 18h void to Thursday PMIs, caution maintained, INTRADAY removed after 2-loss streak
-summary_ar=انجراف ما بعد بيانات فيلادلفيا: الجنيه ممتد لكن صامد، الفرنك مرتفع على تحول تجارة الفائدة، الباقي مسطح؛ فراغ 18 ساعة لمؤشرات PMI الخميس، الحذر مستمر، INTRADAY محذوف بعد خسارتين
-mind=focused
-psyche_flags=awareness,prudence,intuition
-intuition=Markets coiling for tomorrow's PMI surprise; fade late-day GBP strength, overextended and PMIs will reset
+prefer_symbols=none
+summary=Philly Fed in line, geopolitics faded; mild fade bias on extended GBP/CHF, hold EUR weakness, gold rejected highs; await Friday PMIs (18h) for next catalyst
+summary_ar=بيانات فيلادلفيا فيد متوافقة، الجيوسياسة تلاشت؛ انحياز خفيف لتراجع الجنيه والفرنك الممتدين، استمرار ضعف اليورو، الذهب رفض القمم؛ انتظار مؤشرات الجمعة (18 ساعة)
+mind=calm
+psyche_flags=awareness,prudence
+intuition=none
