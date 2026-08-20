@@ -179,7 +179,24 @@ function latestSection(log){
 }
 function expertSay(section, keys){
   const lines = section.split(/\r?\n/);
-  for(const l of lines){ for(const k of keys){ if(l.toLowerCase().includes(k.toLowerCase())){ return l.replace(/^[\s\d\.\-\*#]+/,"").replace(/\*\*/g,""); } } }
+  for(let i=0;i<lines.length;i++){
+    const l=lines[i];
+    for(const k of keys){
+      if(l.toLowerCase().includes(k.toLowerCase())){
+        const first=l.replace(/^[\s\d\.\-\*#]+/,"").replace(/\*\*/g,"");
+        const colon=first.indexOf(":");
+        const rest = colon>-1 ? first.slice(colon+1).trim() : first.trim();
+        const out = rest ? [rest] : [];
+        for(let j=i+1;j<lines.length;j++){
+          const t=lines[j];
+          if(/^\s*\*\*[^*]+\*\*/.test(t) || /^\s*##/.test(t) || /^\s*---/.test(t)) break;
+          out.push(t.replace(/\*\*/g,""));
+        }
+        const txt=out.join("\n").replace(/\n{3,}/g,"\n\n").trim();
+        return txt || first;
+      }
+    }
+  }
   return "";
 }
 function historyFromLog(log){
