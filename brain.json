@@ -1,6 +1,6 @@
 {
- "ts": 1787207876,
- "council_ts": 1787205081,
+ "ts": 1787208775,
+ "council_ts": 1787208775,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.6,
@@ -22,19 +22,18 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "COUNCIL,SWING",
-  "news_block": "USD:353:383",
+  "news_block": "USD:337:367",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
   "psyche_flags": "prudence",
-  "intuition": "USDJPY 158+ hold through Thursday morning would confirm BoJ tolerance – 160 fade becomes actionable Friday if 157.80 support intact",
-  "summary": "Catalyst void continues (26.5h to Thursday PMIs, 6.5h to US data); all biases flat except EUR -0.1 on structural drag; caution maintained, await fresh facts",
-  "summary_ar": "استمرار فراغ المحفّزات (26.5 ساعة حتى PMI الخميس، 6.5 ساعة حتى بيانات أمريكية)؛ كل الانحيازات صفر عدا اليورو -0.1 بسبب ضعف هيكلي؛ الحذر مستمر، ننتظر حقائق جديدة",
+  "intuition": "USDJPY 158+ hold through Thursday AM suggests BoJ tolerance shift – monitor 157.80 support, 160 fade actionable Friday if intact",
+  "summary": "Catalyst void persists (24h to Thursday PMIs, 5.5h to US Philly Fed/Claims); all biases flat except EUR -0.1 on structural weakness; caution maintained, await breakout",
+  "summary_ar": "استمرار فراغ المحفّزات (24 ساعة حتى PMI الخميس، 5.5 ساعة حتى بيانات فيلادلفيا/الطلبات الأمريكية)؛ كل الانحيازات صفر عدا اليورو -0.1 بسبب ضعف هيكلي؛ الحذر مستمر، ننتظر الاختراق",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,

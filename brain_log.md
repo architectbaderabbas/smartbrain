@@ -2804,3 +2804,75 @@ summary_ar=استمرار فراغ المحفّزات (26.5 ساعة حتى PMI 
 mind=calm
 psyche_flags=prudence
 intuition=USDJPY 158+ hold through Thursday morning would confirm BoJ tolerance – 160 fade becomes actionable Friday if 157.80 support intact
+
+
+# 2026-08-20 06:52 UTC
+## Council debate
+
+**Chief Macro Economist:** Catalyst void persists – Treasury buyback theme now 11 hours stale, no fresh growth/inflation data until Thursday PMIs (24h away). EUR structural drag (Lagarde warnings, drought, competitiveness erosion) remains only concrete macro fact. Maintain flat biases.
+
+**Central-Bank Watcher:** BoJ tolerance confirmed – USDJPY holding 158.46 despite Japan trade deficit (¥634.5bn) and rising energy costs. No intervention signals. Fed/ECB silent. Philly Fed/Claims in 5.5 hours unlikely to shift policy path. No CB catalyst until Friday.
+
+**Geopolitical & Crisis Analyst:** Kyiv strikes 6 hours old, no escalation follow-through. UAE-Iran trade suspension (missile strikes) and Trump's Iran 8pm ET deadline are 13 hours away – too distant to price now. Oil holding $85 on Hormuz stealth-op headlines but no supply disruption yet. Monitor, don't act.
+
+**FX Strategist:** All pairs range-bound in Asian deadzone. USDJPY 158.46 (unchanged 3 hours), EURUSD 1.1684 (flat), GBPUSD 1.3612 (flat). AUD 0.712 absorbed jobs miss (unemployment 4.5% vs 4.4% forecast) without breaking – mild AUD weakness justified but already priced. No directional conviction.
+
+**Gold & Oil Trader:** Gold $4492 (-$29 from $4521 peak, -0.6%) – Treasury buyback premium fading as expected. Still elevated vs $4400 pre-buyback but losing momentum. Oil $85.43 WTI, $92.49 Brent – Hormuz premium intact but static. Both assets drifting, not trending.
+
+**Equity / Risk-Sentiment Desk:** SPX 7734, NDX 29619, DAX 26138 – all flat overnight. Risk-on holding but no conviction. VIX unavailable but implied vol likely compressed. No catalyst to drive equities until US data or Iran deadline. Neutral.
+
+**Risk Manager:** REVERT still sidelined (5-loss streak). SHOCK bled yesterday (6/8 SL hits, -$1.35 net) on false volatility – lesson applied, restrict to genuine catalysts only. Account -0.45% today, no emergency triggers. Caution justified until Thursday PMIs or Iran developments. USD news block 353min (Philly Fed/Claims) correctly set.
+
+**Market Historian:** Last time we sat in multi-day catalyst void (July 2025 pre-NFP, Aug 2024 Jackson Hole wait), FX pairs compressed into 0.3% daily ranges and mean-reverted violently on first data. Current setup: USDJPY at 158.46 (95th percentile of 1y range) without fresh BoJ pushback = intervention risk if it breaks 160, but stable below. Gold at $4492 after $100 spike = classic 50% fade pattern (spiked to $4521, now retraced $29 of $121 move from $4400). EUR 1.1684 near 1y lows with structural negatives = downside bias valid but needs catalyst. **Analog: pre-event compression favors range-trading (REVERT logic) but REVERT is broken – stay sidelined until breakout.**
+
+**Chairman:** Awareness will compare with previous directives, then I decide.
+
+---
+
+## Psyche
+
+**Awareness (self-consciousness):** fired=no. Comparing last 8 decisions: we've held caution/0.6 risk/flat biases for 7 hours straight as themes aged (Treasury buyback, tariffs, Kyiv). Prices confirm our restraint: gold -$29, indices flat, FX unchanged. No flip-flopping. REVERT removal (5-loss streak) was correct per emergency protocol. SWING 1/1 win today validates allowing it. Consistency appropriate – no new facts = no changes needed. Scorecard shows 70% 12h hit rate, justifies current 0.3 conf. Clean.
+
+**Greed detector:** fired=no. Confidence 0.3 (low), all biases ≤0.1, prefer_symbols=none, language cautious ("catalyst void", "await fresh facts"). No overreach. Risk_mult 0.6 appropriate for deadzone. Clear.
+
+**Fear detector:** fired=no. We're not over-reacting – caution mode is data-driven (no catalysts for 24h), not panic. Holding SWING/COUNCIL (not halting) is balanced. EUR -0.1 bias has concrete support (Lagarde, drought, competitiveness). No excessive retreat from previous positions. Rational.
+
+**Prudence:** fired=yes. EUR -0.1 bias has two sources (Lagarde structural warnings, drought/economy drag) and historical analog (Market Historian: EUR near 1y lows with negatives). Passes test. All other biases at 0.0 correctly reflect absence of multi-source evidence. Iran deadline and AUD jobs are single-source and distant/absorbed respectively. Downgrades appropriate. Approved.
+
+**Intuition:** USDJPY's 6-hour hold at 158.46 despite negative Japan data (trade deficit, energy costs) suggests BoJ is tolerating this level into Thursday CPI (23h away). If 158+ holds through Asian session and Europe open, the 160 intervention threshold may have shifted higher – but this is a 24-48h thesis, not actionable now. Watch 157.80 support; break below negates.
+
+**Mental state:** calm. Evidence-driven restraint in low-information environment.
+
+---
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.6
+regime=mixed
+bias_USD=0.0
+bias_EUR=-0.1
+bias_GBP=0.0
+bias_JPY=0.0
+bias_AUD=0.0
+bias_NZD=0.0
+bias_CAD=0.0
+bias_CHF=0.0
+bias_XAU=0.0
+bias_XAG=0.0
+bias_OIL=0.0
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.3
+allow_books=COUNCIL,SWING
+news_block=USD:337:367
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=Catalyst void persists (24h to Thursday PMIs, 5.5h to US Philly Fed/Claims); all biases flat except EUR -0.1 on structural weakness; caution maintained, await breakout
+summary_ar=استمرار فراغ المحفّزات (24 ساعة حتى PMI الخميس، 5.5 ساعة حتى بيانات فيلادلفيا/الطلبات الأمريكية)؛ كل الانحيازات صفر عدا اليورو -0.1 بسبب ضعف هيكلي؛ الحذر مستمر، ننتظر الاختراق
+mind=calm
+psyche_flags=prudence
+intuition=USDJPY 158+ hold through Thursday AM suggests BoJ tolerance shift – monitor 157.80 support, 160 fade actionable Friday if intact
