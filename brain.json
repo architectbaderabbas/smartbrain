@@ -1,6 +1,6 @@
 {
- "ts": 1787200677,
- "council_ts": 1787197087,
+ "ts": 1787201036,
+ "council_ts": 1787201036,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.6,
@@ -27,14 +27,13 @@
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "awareness,fear,prudence,intuition",
-  "intuition": "By Wednesday 18:00 UTC, if EUR hasn't rallied, Thursday PMI breakdown odds hit 60% – pre-position CHF/JPY longs and EUR shorts with tight stops then, not now in the deadzone.",
-  "summary": "Catalyst void: all themes stale (Treasury buyback 9h, tariffs 24h), REVERT removed (5-loss streak), next driver Thursday PMIs (28.5h); biases flat except EUR -0.1 on structural drag",
-  "summary_ar": "فراغ المحفّزات: كل المواضيع قديمة، REVERT مُزال (5 خسائر متتالية)، المحرّك التالي: بيانات PMI الخميس (28.5 ساعة)؛ الانحيازات صفر إلا اليورو -0.1",
+  "psyche_flags": "prudence,intuition",
+  "intuition": "If USDJPY holds 158+ through Thursday morning, BoJ tolerance confirmed – fade to 160+ becomes the trade Friday, not a shock risk. Watch 157.80 support.",
+  "summary": "Catalyst void persists (27.5h to Thursday PMIs); all biases flat except EUR -0.1 on structural weakness; caution maintained, REVERT sidelined, SWING/COUNCIL only",
+  "summary_ar": "استمرار فراغ المحفّزات (27.5 ساعة حتى بيانات PMI الخميس)؛ كل الانحيازات صفر عدا اليورو -0.1 بسبب ضعف هيكلي؛ الحذر مستمر، REVERT موقوف، SWING/COUNCIL فقط",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,

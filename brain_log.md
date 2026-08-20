@@ -2666,3 +2666,73 @@ summary_ar=فراغ المحفّزات: كل المواضيع قديمة، REVER
 mind=calm
 psyche_flags=awareness,fear,prudence,intuition
 intuition=By Wednesday 18:00 UTC, if EUR hasn't rallied, Thursday PMI breakdown odds hit 60% – pre-position CHF/JPY longs and EUR shorts with tight stops then, not now in the deadzone.
+
+
+# 2026-08-20 04:43 UTC
+## Council debate
+
+**Chief Macro Economist:** Catalyst void persists. Treasury buyback theme now 10 hours stale, no fresh data until Thursday PMIs (27.5h away). Global growth picture unchanged: Europe weak (Lagarde warnings), US mixed, Asia soft (AUD unemployment 4.5% vs 4.4%). Zero inflation/rate catalysts in next 24h. Neutral all currencies.
+
+**Central-Bank Watcher:** Fed/ECB/BoE all in blackout or silent. FOMC minutes (19 Aug 18:00) already digested – no new guidance. Next Fed speakers days away. BoJ quiet despite USDJPY 158.5 (intervention zone but no action). No CB catalyst until next week. Neutral.
+
+**Geopolitical & Crisis Analyst:** Kyiv attack (4h ago) produced no escalation – routine strike, markets ignored it. UAE-Iran trade suspension (2h old) is diplomatic theater, not supply shock (oil flat at $85.19). No acute crisis. Chronic Iran war backdrop supports oil floor but no fresh spike catalyst. Oil 0.0, gold 0.0.
+
+**FX Strategist:** All pairs range-bound in Asian deadzone. EURUSD 1.1677 (unchanged 12h), USDJPY 158.5 (flat), GBPUSD 1.3612 (drifting). No momentum anywhere. EUR structural weakness (Lagarde, drought, competitiveness) persists but needs a trigger – Thursday PMIs are the test. Maintain EUR -0.1, rest 0.0.
+
+**Gold & Oil Trader:** Gold $4487 (-$34 from $4521 peak 6h ago), fading Treasury buyback bid as theme ages. No safe-haven demand (geopolitics non-event). Silver $66.87 tracking gold. Oil $85.19 (WTI) / $92.27 (Brent) – Iran premium stable, no supply shock despite UAE headlines. All 0.0 until catalyst.
+
+**Equity / Risk-Sentiment Desk:** SPX 7728, NDX 29553, DAX 26090 – all flat overnight, no conviction. Risk-on intact but stale (no fresh driver). VIX unavailable but implied vol low (tight ranges). Regime is mixed-to-risk-on by inertia, not conviction. Indices 0.0.
+
+**Risk Manager:** Account $463, day P/L -$0.45 (flat), no open positions. REVERT removed yesterday (5-loss streak, -$31.53). SHOCK bled yesterday (6/8 SL, -$1.35) but won one today (+$1.52 SWING). Books healthy except REVERT (correctly sidelined). Caution justified: 27h until next catalyst, thin Asian liquidity, no edge. Keep allow_books=COUNCIL,SWING, risk_mult=0.6.
+
+**Market Historian:** **Analogous setup: August 2023 Jackson Hole wait (3 days before Powell speech) – all pairs ranged ±0.3%, gold drifted -$20, indices flat; breakout came only on the event.** Current: 27.5h until Thursday PMIs (GBP 06:30, EUR 08:30, USD 12:30 UTC). **Playbook says: do not invent moves in the void.** EUR -0.1 is valid (structural drag confirmed by Lagarde, drought, current account data) but won't accelerate until PMI miss. Gold fading $4521→$4487 matches historical post-spike decay (Treasury buyback = 1-day catalyst, not trend). Oil $85 with Iran premium = classic "wait-and-see" (2019 Tanker attacks analog: oil spiked then ranged for weeks). **Lean: hold all biases at 0.0 except EUR -0.1; raise conf only when PMI data lands.**
+
+**Chairman:** Unanimous consensus: catalyst void, 27.5h until Thursday PMIs. EUR -0.1 supported by three sources (Lagarde structural warnings, drought/economy drag, current account) and Historian analog. All other biases 0.0 – no evidence for moves. REVERT stays removed (5-loss streak). SWING won today (+$1.52), keep it. Risk_mult 0.6, caution mode appropriate. No changes needed – previous directives were correct and prices confirm (all flat). Conf 0.3 (low conviction in void). Proceed.
+
+---
+
+## Psyche
+
+**Awareness:** fired=no. Comparing previous directives (03:38 UTC) with current prices: all biases 0.0 were correct (EURUSD/USDJPY/gold/oil unchanged), EUR -0.1 holding (EURUSD still 1.1677). REVERT removal justified (was bleeding). No flip-flopping, no stubbornness. Decision memory shows consistent downgrade as themes aged – textbook discipline. Scorecard shows 55% hit rate on XAU/CHF (modest) – supports low conf. Clean.
+
+**Greed:** fired=no. Conf=0.3 (low), all biases ≤0.1, prefer_symbols=none, language is "void/stale/wait" – zero greed signals. Risk_mult=0.6 unchanged (appropriate). No action needed.
+
+**Fear:** fired=no. Caution mode is data-driven (catalyst void, thin liquidity), not panic. REVERT removal was performance-based (5 losses), not over-reaction. Biases at 0.0 reflect evidence absence, not fear. Balanced.
+
+**Prudence:** fired=yes. EUR -0.1 has three independent sources (Lagarde speech, drought/economy, Historian structural analog) – passes two-source rule. All other biases 0.0 have zero sources – correct per Prudence. No strong calls (|bias|<0.5), so no analog requirement. Approved.
+
+**Intuition:** fired=yes. Hunch: "If USDJPY holds 158+ through Thursday morning (18h from now), BoJ tolerance confirmed – fade to 160+ becomes the trade Friday, not a shock risk. Watch 157.80 support." (Cannot change numbers; Chairman may adopt with +0.2 JPY bias cap if he agrees.)
+
+---
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.6
+regime=mixed
+bias_USD=0.0
+bias_EUR=-0.1
+bias_GBP=0.0
+bias_JPY=0.0
+bias_AUD=0.0
+bias_NZD=0.0
+bias_CAD=0.0
+bias_CHF=0.0
+bias_XAU=0.0
+bias_XAG=0.0
+bias_OIL=0.0
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.3
+allow_books=COUNCIL,SWING
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=Catalyst void persists (27.5h to Thursday PMIs); all biases flat except EUR -0.1 on structural weakness; caution maintained, REVERT sidelined, SWING/COUNCIL only
+summary_ar=استمرار فراغ المحفّزات (27.5 ساعة حتى بيانات PMI الخميس)؛ كل الانحيازات صفر عدا اليورو -0.1 بسبب ضعف هيكلي؛ الحذر مستمر، REVERT موقوف، SWING/COUNCIL فقط
+mind=calm
+psyche_flags=prudence,intuition
+intuition=If USDJPY holds 158+ through Thursday morning, BoJ tolerance confirmed – fade to 160+ becomes the trade Friday, not a shock risk. Watch 157.80 support.
