@@ -1,5 +1,5 @@
 {
- "ts": 1787230102,
+ "ts": 1787230377,
  "council_ts": 1787227676,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "COUNCIL,SWING",
-  "news_block": "USD:-30:0",
+  "news_block": "USD:-34:-4",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
@@ -34,7 +34,7 @@
   "news_events": "none"
  },
  "error": null,
- "watchman": "trade NZDCAD BREAKOUT -2.23$ -> post-mortem written",
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,
