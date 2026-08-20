@@ -1,6 +1,6 @@
 {
- "ts": 1787259114,
- "council_ts": 1787255983,
+ "ts": 1787259754,
+ "council_ts": 1787259754,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.6,
@@ -22,19 +22,18 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "COUNCIL,SWING,POSITION",
-  "news_block": "GBP:552:582;EUR:627:657;GBP:702:732",
+  "news_block": "GBP:537:567;EUR:612:642;EUR:627:657;GBP:687:717",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "awareness,fear,prudence",
+  "psyche_flags": "fear,prudence",
   "intuition": "none",
-  "summary": "Pre-PMI void: EUR/GBP/CHF stall at highs (19h no catalyst, no breakdown) downgrades fade bias to -0.1; geopolitics/oil/gold faded; await Friday PMIs (10-12h) for direction",
-  "summary_ar": "فراغ ما قبل PMI: توقف EUR/GBP/CHF عند القمم (19 ساعة بدون محفز، بدون انهيار) يخفض انحياز التلاشي إلى -0.1؛ الجيوسياسة/النفط/الذهب تلاشت؛ ننتظر PMIs الجمعة (10-12 ساعة) للاتجاه",
+  "summary": "Bond stress theme confirmed but no FX follow-through (6h); EUR/GBP/CHF/AUD hold -0.1 fade at multi-month highs (20h stall, no breakdown); await Friday PMIs (9-11h) for breakout/reversal confirmation",
+  "summary_ar": "موضوع ضغط السندات مؤكد لكن بدون متابعة في الفوركس (6 ساعات)؛ EUR/GBP/CHF/AUD تحافظ على انحياز تلاشي -0.1 عند قمم عدة أشهر (توقف 20 ساعة، بدون انهيار)؛ ننتظر PMIs الجمعة (9-11 ساعة) لتأكيد الاختراق/الا",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,
