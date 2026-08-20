@@ -1,5 +1,5 @@
 {
- "ts": 1787190019,
+ "ts": 1787190779,
  "council_ts": 1787189877,
  "directives": {
   "risk_mode": "caution",
@@ -31,7 +31,7 @@
   "intuition": "AUD data silence suggests soft-but-not-catastrophic print; real directional move will come from Thursday's global PMIs if they confirm slowdown",
   "summary": "AUD jobs data released (no price move = likely in-line); all biases downgraded per Prudence (aging themes, no fresh catalyst); Treasury buyback regime holds but fading; caution maintained",
   "summary_ar": "بيانات وظائف AUD صدرت (لا حركة سعر = على الأرجح متوافقة)؛ كل التحيزات خُفّضت حسب Prudence (مواضيع تشيخ، لا حافز جديد)؛ نظام إعادة شراء الخزانة مستمر لكن يتلاشى؛ حذر مستمر",
-  "news_events": "AUD:1787189400:Employment_Change;AUD:1787189400:Unemployment_Rate"
+  "news_events": "none"
  },
  "error": null,
  "watchman": "quiet (sev0)",

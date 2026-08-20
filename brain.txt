@@ -1,5 +1,5 @@
-ts=1787190019
-generated=2026-08-20 01:40 UTC (watchman heartbeat; council 2 min ago)
+ts=1787190779
+generated=2026-08-20 01:52 UTC (watchman heartbeat; council 12 min ago)
 version=1
 risk_mode=caution
 risk_mult=0.6
@@ -30,5 +30,5 @@ summary_ar=بيانات وظائف AUD صدرت (لا حركة سعر = على �
 mind=calm
 psyche_flags=prudence,intuition
 intuition=AUD data silence suggests soft-but-not-catastrophic print; real directional move will come from Thursday's global PMIs if they confirm slowdown
-news_events=AUD:1787189400:Employment_Change;AUD:1787189400:Unemployment_Rate
+news_events=none
 watchman=quiet (sev0)
