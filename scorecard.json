@@ -1,9 +1,9 @@
 {
- "decisions_scored": 39,
+ "decisions_scored": 40,
  "overall_hit_rate%": {
-  "4h": 62,
-  "12h": 50,
-  "24h": 80
+  "4h": 66,
+  "12h": 52,
+  "24h": 75
  },
  "per_asset_hit_rate%": {
   "XAU": {
@@ -12,13 +12,13 @@
    "24h": 100
   },
   "CHF": {
-   "4h": 58,
+   "4h": 62,
    "12h": 64,
-   "24h": 60
+   "24h": 50
   },
   "OIL": {
    "4h": 100,
-   "12h": null,
+   "12h": 100,
    "24h": null
   },
   "EUR": {
@@ -33,7 +33,7 @@
   }
  },
  "by_mind_state%": {
-  "focused": 58,
+  "focused": 59,
   "calm": 100
  },
  "note": "hit = price moved in the direction of a bias with |bias|>=0.3 after the horizon; None = not enough data yet"

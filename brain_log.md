@@ -2854,3 +2854,75 @@ summary_ar=وضع الخطر 18:21 كان مبالغة على صاروخ NK رو
 mind=scattered
 psyche_flags=awareness,fear,prudence
 intuition=none
+
+
+# 2026-08-20 19:59 UTC
+## Council debate
+
+**Chief Macro Economist:** US data (Philly Fed, Claims) in line, no shift in Fed path. Eurozone PMIs tomorrow are the only catalyst in 12 hours – forecasts show German services improving, French weakening, UK flat. No macro reason to change anything tonight.
+
+**Central-Bank Watcher:** BoJ intervention risk at USDJPY 159+ is real (Nikkei Asia article confirms market alert), but no action yet. ECB/Fed/BoE all on hold until September. Tomorrow's PMIs won't move policy but will move EUR/GBP intraday. No speeches, no surprises tonight.
+
+**Geopolitical & Crisis Analyst:** Iran sanctions headlines (Bessent "toughest ever", Trump "economic D-Day") are 2-4 hours old and oil already faded from $89 to $87. NK missile was routine (PACOM statement, no escalation). Peru earthquake 6.7M is local, no market impact. All geopolitical premium has decayed – this is stale noise now.
+
+**FX Strategist:** EUR 1.1676, GBP 1.3629, CHF 0.8006 – all still near 6-month highs but **no breakdown in 19 hours**. Our -0.3 fade bias has been wrong for 7 hours (prices flat to slightly higher). USD has no catalyst to rally, but EUR/GBP/CHF have no catalyst to extend either. This is a genuine stall, not exhaustion. Flip-flopping risk if we change now.
+
+**Gold & Oil Trader:** Gold $4528 rejected $4550 highs (our -0.1 bias from 13:09 was correct), now consolidating. Oil $87 WTI / $93 Brent – Iran premium fully faded (headlines 4 hours old, no supply impact). Both assets are in wait-and-see mode. No edge here.
+
+**Equity / Risk-Sentiment Desk:** US500 7661, down 600 points on Walmart/bond stress (headlines 2-8 hours old). Risk-off tone persists but no acceleration. VIX data missing, but price action shows caution not panic. Mixed regime confirmed.
+
+**Risk Manager:** INTRADAY removed on 2-loss streak (correct per protocol). Account flat today, no new losses since 18:21. Tomorrow's PMI window (10:00-12:30 UTC) is high-risk for whipsaws – news_block is correctly set. No reason to change risk_mode or risk_mult. Caution is appropriate.
+
+**Market Historian:** **EUR/GBP/CHF at multi-month highs with no catalyst for 19 hours = classic pre-PMI stall (see July 2024, March 2025 analogs).** These setups resolve violently on the data: either breakout continuation (+0.5-1% in 2 hours) or failed-high reversal (-0.8-1.2% in 4 hours). Our -0.3 fade bias assumes breakdown, but **history says 50/50 until the print**. The 7-hour non-confirmation (prices didn't fall) suggests we're early or wrong. **Prudent move: drop fade bias to -0.1 (acknowledge stall without predicting direction) and let PMIs decide.** Oil $87-93 with faded war premium matches 2023 Iran-sanctions episodes (premium decays in 6-12 hours unless supply actually disrupted). Gold $4528 consolidation at highs is normal (2020/2024 analogs show 2-5 day pauses before next leg). **No historical analog supports strong directional bias tonight.**
+
+**Chairman:** Historian is right – we've held -0.3 EUR/GBP/CHF fade for 7 hours with zero confirmation. That's stubbornness, not conviction. FX Strategist correctly flags flip-flop risk, but the alternative is ignoring that prices haven't moved our way. **Compromise: downgrade fade bias to -0.1 (mild mean-reversion lean without conviction), acknowledge the stall is unresolved.** All other biases stay 0.0 (geopolitics faded, gold/oil rangebound, USD neutral). Conf drops to 0.2 (we have no edge until PMIs). Risk_mode stays caution, risk_mult 0.6, allow_books unchanged (COUNCIL/SWING/POSITION). News_block for tomorrow's PMIs is correct. No shocks, no blocks. Summary: we're in a pre-PMI void, biases near zero, waiting for the print.
+
+---
+
+## Psyche
+
+**Awareness (fired=yes):** Comparing to DECISION MEMORY: we've held EUR/GBP/CHF -0.3 since 14:07 (6 hours ago), but PRICE CONTEXT shows EUR 1.1676 (unchanged), GBP 1.3629 (unchanged), CHF 0.8006 (unchanged) – **zero confirmation of our fade thesis**. This is stubbornness. Previous directive's "scattered" mind-state was correct (we overreacted to NK missile, then froze on the fade). Downgrading bias to -0.1 is honest recalibration, not flip-flopping, because we're acknowledging the stall without abandoning mean-reversion lean.
+
+**Greed (fired=no):** No greed signals. Conf is low (0.2), biases are weak, prefer_symbols is none. Council is appropriately cautious.
+
+**Fear (fired=yes):** Previous "scattered" mind-state and danger-mode overreaction (18:21 NK missile false alarm) show we're jumpy. Chairman's downgrade of EUR/GBP/CHF bias from -0.3 to -0.1 is fear-driven (afraid of being wrong after 7 hours of no confirmation). But this is **healthy fear** – it prevents us from doubling down on a non-working thesis. Restoring calm over scattered.
+
+**Prudence (fired=yes):** Chairman's -0.1 bias on EUR/GBP/CHF lacks two independent sources (only Market Historian's "50/50 until PMI" supports it, and that's actually a neutral call). However, downgrading from -0.3 to -0.1 is **reducing** a strong call to a weak one, which is the correct direction. Prudence approves the de-escalation but notes we have no edge – biases should arguably be 0.0 across the board.
+
+**Intuition (fired=no):** No hunch. Pre-data void offers no intuitive signal. Wait for PMIs.
+
+**Mental state:** Transitioning from **scattered** (overreacted to NK missile, froze on fade thesis) to **calm** (acknowledging we have no edge, biases near zero, waiting for catalyst). Council is self-correcting.
+
+---
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.6
+regime=mixed
+bias_USD=0.0
+bias_EUR=-0.1
+bias_GBP=-0.1
+bias_JPY=0.0
+bias_AUD=-0.1
+bias_NZD=0.0
+bias_CAD=0.0
+bias_CHF=-0.1
+bias_XAU=0.0
+bias_XAG=0.0
+bias_OIL=0.0
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.2
+allow_books=COUNCIL,SWING,POSITION
+news_block=GBP:600:630;EUR:675:705;GBP:750:780
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=Pre-PMI void: EUR/GBP/CHF stall at highs (19h no catalyst, no breakdown) downgrades fade bias to -0.1; geopolitics/oil/gold faded; await Friday PMIs (10-12h) for direction
+summary_ar=فراغ ما قبل PMI: توقف EUR/GBP/CHF عند القمم (19 ساعة بدون محفز، بدون انهيار) يخفض انحياز التلاشي إلى -0.1؛ الجيوسياسة/النفط/الذهب تلاشت؛ ننتظر PMIs الجمعة (10-12 ساعة) للاتجاه
+mind=calm
+psyche_flags=awareness,fear,prudence
+intuition=none
