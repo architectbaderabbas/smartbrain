@@ -1,5 +1,5 @@
 {
- "ts": 1787224076,
+ "ts": 1787224977,
  "council_ts": 1787223952,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "COUNCIL,SWING",
-  "news_block": "USD:82:112",
+  "news_block": "USD:67:97",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
