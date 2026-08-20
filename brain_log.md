@@ -2860,3 +2860,69 @@ summary_ar=بيانات فيلادلفيا فيد متوافقة، الجيوس�
 mind=calm
 psyche_flags=awareness,prudence
 intuition=none
+
+
+# 2026-08-20 14:07 UTC
+## Council debate
+
+**Chief Macro Economist:** Bond market stress narrative is STALE (14+ hours old, Bessent headlines Wed evening). Yields rebounded yes, but no fresh escalation in last 4 hours. Philly Fed 24.1 vs 41.4 prior = sharp slowdown, Claims in line. Growth cooling, not collapsing. No basis for danger mode now.
+
+**Central-Bank Watcher:** Fed Minutes (Wed 18:00) showed no panic. Treasury buyback is policy, not emergency intervention. Yields rising = term premium normalization, not crisis. No CB speeches today. Friday PMIs (18h away) are next Fed input. Current stance: hold, watch data. No emergency signaled.
+
+**Geopolitical & Crisis Analyst:** Iran war headlines (6+ months old per New Yorker), Kyiv strikes (15 killed, tragic but not market-moving per 11:06 BBC), NK missile (routine per 09:24 NPR). Oil +3% theme is 12+ hours old, now fading (Brent 94.34 vs earlier highs). No fresh severity-2 event. Downgrade from danger.
+
+**FX Strategist:** GBP hit 6-month high vs USD (10:33 Reuters), now 1.3634 = extended. CHF 2-month high (10:57 TradingView), now 0.7993 = stretched. EUR 1.1676 below 1.17 (CryptoRank 03:05). USD soft but no conviction. All pairs rangebound 4h. Fade extensions: GBP/CHF bias -0.2 → -0.3, but conf stays low.
+
+**Gold & Oil Trader:** Gold 4484, rejected from 4500+ (FXStreet 10:56), -$17 from highs per 08:53 decision memory. Oil 87.34 WTI, 94.34 Brent = +3% move is 12h old, losing momentum (no fresh Iran escalation). Morgan Stanley outlook (11:25) is analysis not news. Bias: XAU -0.1 hold, OIL 0.0 (war premium fading per playbook: decays on no new supply loss).
+
+**Equity / Risk-Sentiment Desk:** SPX 7689, NDX 29288, DAX 25958 = all near highs. Dow -400 headline (06:47 ABC) is stale. Bond stress theme not translating to equity selloff NOW. VIX data missing but price action says calm. Risk-off NOT confirmed. Regime = mixed, leaning risk-on.
+
+**Risk Manager:** INTRADAY book 2 losses, -$3.39 today (BREAKOUT independent losses pre-data, lessons applied). Daily P/L 0%, no -3% trigger. Danger mode was justified 15min ago for bond shock, but shock validity expired (49min window passed). Downgrade to caution. REVERT 5 losses, -$31.53 = remove per emergency protocol until regime clarity.
+
+**Market Historian:** Last time Treasury intervention failed to hold yields (2023 SVB, 2020 March): initial spike, then 2-5 day chop before Fed clarity. Current setup: yields rose Wed PM, now 14h later no fresh surge. Analog = fade the panic, not the move. GBP 1.3634 is 94th percentile 1y range (playbook: extended + fading momentum = reversal risk). CHF 0.7993 similar. Gold at ATH 4484 but rejected 4500 twice in 24h = topping pattern per playbook (spikes retrace half). Oil 87/94 = +3% on 12h-old war headlines, playbook says premium decays fast without supply loss (none reported).
+
+**Chairman:** Danger mode was correct 15min ago for bond shock, but the 49min validity window has EXPIRED and no fresh escalation occurred. Philly Fed weak (24.1 vs 41.4) but not catastrophic. Geopolitics are background noise (6-month Iran war, routine NK, tragic but non-systemic Kyiv). Bond yields rising is a THEME not a SHOCK now. Downgrade to caution. GBP/CHF/EUR extended, fade them modestly (-0.3). Gold rejected highs, hold -0.1. Oil war premium fading, 0.0. REVERT book is bleeding (5 losses, -$31.53), remove it per protocol. Allow COUNCIL/SWING/POSITION only. Conf 0.35 (low data quality, pre-PMI void). No shock directive (bond move is 14h old). News block Friday PMIs. Summary: post-shock calm, fade extensions, await Friday data.
+
+## Psyche
+
+**Awareness:** fired=yes. Previous decision set danger mode + shock directive for bond selloff; that shock validity (49min) has now expired per timestamp math. We are NOT flip-flopping (danger was justified then, caution is justified now). REVERT removal is overdue (5 straight losses, -$31.53 = structural failure in current regime). GBP/CHF/EUR biases were -0.2, now -0.3 = modest extension fade, supported by Historian's 94th percentile warning. Consistent.
+
+**Greed:** fired=no. Biases are modest (max |0.3|), risk_mult unchanged at 0.6, prefer_symbols empty. No overconfidence language. Council is appropriately cautious in a data void (18h to PMIs).
+
+**Fear:** fired=no. Downgrade from danger to caution is evidence-based (shock expired, no fresh catalyst), not panic. REVERT removal is protocol (5 losses), not overreaction. Balanced.
+
+**Prudence:** fired=yes. GBP/CHF fade bias -0.3 has two sources (FX Strategist's 6-month high + Historian's 94th percentile analog) and historical support (extended moves without catalyst reverse per playbook). Gold -0.1 has rejection at 4500 (twice in 24h per Historian). Oil 0.0 has 12h-old headlines + no supply loss. All strong calls (none >=0.7) are multi-sourced. Approved.
+
+**Intuition:** fired=no. The evidence is clear (shock expired, extensions fading, data void). No hunch needed; the council sees the field plainly.
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.6
+regime=mixed
+bias_USD=0.0
+bias_EUR=-0.3
+bias_GBP=-0.3
+bias_JPY=0.0
+bias_AUD=-0.1
+bias_NZD=0.0
+bias_CAD=0.0
+bias_CHF=-0.3
+bias_XAU=-0.1
+bias_XAG=0.0
+bias_OIL=0.0
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.35
+allow_books=COUNCIL,SWING,POSITION
+news_block=GBP:952:982;EUR:1027:1057
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=Post-shock calm: bond stress theme faded (14h old), GBP/CHF/EUR extended (fade -0.3), gold rejected highs, oil war premium decaying; await Friday PMIs (18h) for next catalyst
+summary_ar=هدوء ما بعد الصدمة: ضغط السندات تلاشى (14 ساعة)، GBP/CHF/EUR ممتدّة (تلاشي -0.3)، الذهب رُفض عند القمم، علاوة حرب النفط تتلاشى؛ ننتظر PMIs الجمعة (18 ساعة)
+mind=calm
+psyche_flags=awareness,prudence
+intuition=none

@@ -410,3 +410,5 @@
 - 2026-08-20 13:52 UTC · heartbeat · quiet (sev0)
 - 2026-08-20 13:54 UTC · heartbeat · quiet (sev0)
 - 2026-08-20 13:57 UTC · heartbeat · quiet (sev0)
+- 2026-08-20 14:06 UTC · heartbeat · ALERT sev2: US Treasury intervention (Bessent) fails to contain bond selloff; yields jump despite action, signaling market stress -> protocol applied, council convening
+- 2026-08-20 14:06 UTC · FULL COUNCIL triggered: ALERT sev2: US Treasury intervention (Bessent) fails to contain bond selloff; yields jump despite action, signaling market stress
