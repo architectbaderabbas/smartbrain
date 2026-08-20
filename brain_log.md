@@ -2579,3 +2579,73 @@ summary_ar=عقوبات إيران/ضربات كييف فشلت بتحريك ا�
 mind=calm
 psyche_flags=awareness,prudence,intuition
 intuition=Gold down despite triple geopolitical headlines signals market fatigue with noise – wants proof (supply cut or Fed shift) before paying safe-haven premium; this is a show-me market now
+
+
+# 2026-08-20 10:02 UTC
+## Council debate
+
+**Chief Macro Economist:** US Philly Fed/Claims in 2.5h (12:30 UTC) are the only fresh catalyst before Friday PMIs. Treasury buyback regime is 15h old, fading as a driver. No growth/inflation surprises overnight. Neutral USD until data.
+
+**Central-Bank Watcher:** Fed minutes (19h old) are stale. No speeches today. Next catalyst is Jackson Hole prep chatter (days away). Warsh's job complicated by Bessent's bond intervention per Reuters, but no immediate policy shift. Neutral.
+
+**Geopolitical & Crisis Analyst:** North Korea missile launch (53min old, NPR) is routine posturing, not escalation. Kyiv strikes (6.5h) and UAE-Iran trade suspension (10.5h) failed to sustain risk-off. Somali pirate headline (1.8h) is noise. No severity-2+ event. Geopolitical premium exhausted.
+
+**FX Strategist:** All majors range-bound overnight: EUR 1.1706 (unch), GBP 1.3646 (unch), JPY 158.33 (+0.1% vs 158.5 yesterday = minor JPY strength on NK headline fade). AUD 0.7127 (-0.2% on jobs miss per WTVB 4.5% unemployment). CHF 0.7958 (-0.3% reversing yesterday's Treasury-driven spike). Directionless until US data.
+
+**Gold & Oil Trader:** Gold $4485 (-$17 from $4502 peak, -0.4%) rejecting highs despite triple geopolitical headlines = market fatigue confirmed. Oil $87.37 (+0.5% from $86.9, holding Iran premium but not extending). Historian: gold at new highs typically continues 55-60%, but this rejection after headlines is bearish short-term. Downgrade XAU to 0.0.
+
+**Equity / Risk-Sentiment Desk:** SPX 7712 (+0.1%), NDX 29449 (+0.2%), DAX 25983 (+0.3%) = mild risk-on creep in Asia, but no conviction. VIX unavailable. Regime mixed, leaning risk-on by default (equities green, vol low).
+
+**Risk Manager:** REVERT still sidelined (5-loss streak). Daily P/L -$0.45 (0.1% drawdown, safe). USD news block 160-190min (12:30-13:00 UTC) for Philly Fed/Claims is mandatory. No other threats. Caution appropriate.
+
+**Market Historian:** NK missile launches (2022-2026 pattern): JPY spikes 0.2-0.5% in first hour, fades within 4h unless war escalates. Today's +0.1% JPY move already fading (158.33 now vs 158.5 earlier). Gold rejections at ATH after geopolitical noise (Aug-2020 Beirut, Jan-2024 Red Sea): retraced 1-2% within 48h when headlines didn't deliver supply shock. Current setup rhymes: three headlines, zero follow-through, gold red. Lean bearish XAU short-term.
+
+**Chairman:** Awareness flags flip-flop risk (we raised JPY/XAU/OIL to 0.1-0.2 at 07:52 on Iran/Kyiv, now markets rejected it). Prudence demands we acknowledge the failure: gold down, oil flat, JPY fading. Downgrade all geopolitical biases to 0.0. AUD jobs miss (4.5% unemployment per WTVB) justifies AUD -0.1. Conf stays 0.3 (no conviction pre-data). Risk_mult 0.6, caution, COUNCIL/SWING only. Intuition's "show-me market" is adopted: markets want proof, not headlines.
+
+---
+
+## Psyche
+
+**Awareness:** fired=yes. We raised biases 1h ago on geopolitics; prices refuted (gold -$17, oil +$3 then flat, JPY fading). Downgrading now is honest correction, not flip-flop, because new evidence (price rejection) arrived. No freeze needed.
+
+**Greed:** fired=no. Conf=0.3, all biases ≤0.1, prefer_symbols=none. No overconfidence detected.
+
+**Fear:** fired=no. Caution is data-driven (catalyst void, geopolitical fade), not panic. Balanced stance.
+
+**Prudence:** fired=yes. Geopolitical biases (JPY/XAU/OIL 0.1-0.3 last hour) lacked follow-through; downgrading to 0.0 except AUD -0.1 on fresh jobs data. No strong calls without confirmation.
+
+**Intuition:** fired=yes. "Markets are in wait-state for US data (2.5h) or Friday PMIs – the 12:30 UTC prints will either break the range or extend the void; lean toward range extension (soft data = risk-on nudge) but don't front-run."
+
+---
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.6
+regime=mixed
+bias_USD=0.0
+bias_EUR=-0.1
+bias_GBP=0.0
+bias_JPY=0.0
+bias_AUD=-0.1
+bias_NZD=0.0
+bias_CAD=0.0
+bias_CHF=0.0
+bias_XAU=0.0
+bias_XAG=0.0
+bias_OIL=0.0
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.3
+allow_books=COUNCIL,SWING
+news_block=USD:145:175
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=Geopolitical headlines (NK missile, Kyiv, Iran) failed to move markets; gold rejected highs, oil flat, JPY fading; all biases reset to 0.0 except AUD -0.1 on jobs miss; await US data 12:30 UTC
+summary_ar=عناوين جيوسياسية (صاروخ كوريا الشمالية، كييف، إيران) فشلت بتحريك الأسواق؛ الذهب رفض القمم، النفط ثابت، الين يتراجع؛ كل الانحيازات صفر إلا AUD -0.1 على بيانات وظائف؛ ننتظر بيانات أمريكية 12:30 UTC
+mind=calm
+psyche_flags=awareness,prudence,intuition
+intuition=Markets in wait-state for 12:30 UTC data – lean toward range extension if prints are soft, but don't front-run the release
