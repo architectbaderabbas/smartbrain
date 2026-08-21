@@ -1,64 +1,4 @@
-mains 0.6 (Treasury buyback regime holding but no new catalysts). Allow_books: COUNCIL, SWING (SHOCK still on timeout, REVERT still blocked).
-
----
-
-## Psyche
-
-**Awareness (fired=no):** Previous directives held AUD 0.1 with news block until 01:30 (12 min from now). Data released 7 min ago but **no price movement confirms no shock**. Lifting block early is correct. CHF downgrade 0.3→0.2 is honest (theme aging). GBP downgrade 0.1→0.0 applies GBPJPY lesson. No flip-flopping – changes are evidence-based (time decay + trade feedback). Clean.
-
-**Greed (fired=no):** Confidence 0.6, biases modest (max 0.3 on XAU/CHF), prefer_symbols only 2 assets, risk_mult 0.6. No overconfidence. Treasury buyback theme is 48 hours old – council correctly resisting the urge to chase. Calm.
-
-**Fear (fired=no):** Caution mode is appropriate (post-data window, aging themes, no fresh catalyst). Not over-reacting to missing AUD data (correctly waiting for price). SHOCK removal was justified by 6/8 SL rate, not panic. Balanced.
-
-**Prudence (fired=yes):** AUD bias hold at 0.1 despite "jobs data released" relies on **absence of price movement as evidence of non-event** – this is sound but fragile. If feeds are lagged and AUDUSD gaps down in 10 min, we'll look foolish. **Recommend: set AUD bias to 0.0 (neutral) until we see actual price action, then adjust.** Also: XAU 0.3 bias has no fresh catalyst (gold flat $4497 for hours) – downgrade to 0.2. CHF 0.2 is still generous for a 36-hour-old theme – consider 0.1.
-
-**Intuition (fired=yes):** The **silence after AUD data is louder than the headlines**. When major data releases without price reaction, it's either in-line or the market is asleep (Asia session, 01:37 UTC = 11:37 Sydney time, lunch lull). My hunch: **the jobs data was softer than forecast but not catastrophic** – enough to keep RBA on hold, not enough to break AUDUSD support. The real move will come from Thursday's global PMIs (manufacturing/services) if they confirm slowdown. For now, we're in a holding pattern.
-
-**Mental state: calm.** Council is disciplined, applying lessons (GBPJPY, SHOCK timeout), not chasing stale themes, waiting for evidence. Prudence fired appropriately to tighten loose ends.
-
----
-
-## DIRECTIVES
-
-risk_mode=caution
-risk_mult=0.6
-regime=risk_on
-bias_USD=0.0
-bias_EUR=-0.1
-bias_GBP=0.0
-bias_JPY=0.0
-bias_AUD=0.0
-bias_NZD=0.0
-bias_CAD=0.2
-bias_CHF=0.2
-bias_XAU=0.2
-bias_XAG=0.0
-bias_OIL=0.1
-bias_US500=0.2
-bias_US100=0.2
-bias_US30=0.2
-bias_GER40=0.0
-conf=0.6
-allow_books=COUNCIL,SWING
-news_block=none
-block_symbols=none
-shock=none
-prefer_symbols=USDCAD,XAUUSD
-summary=AUD jobs data released (no price move = likely in-line); all biases downgraded per Prudence (aging themes, no fresh catalyst); Treasury buyback regime holds but fading; caution maintained
-summary_ar=بيانات وظائف AUD صدرت (لا حركة سعر = على الأرجح متوافقة)؛ كل التحيزات خُفّضت حسب Prudence (مواضيع تشيخ، لا حافز جديد)؛ نظام إعادة شراء الخزانة مستمر لكن يتلاشى؛ حذر مستمر
-mind=calm
-psyche_flags=prudence,intuition
-intuition=AUD data silence suggests soft-but-not-catastrophic print; real directional move will come from Thursday's global PMIs if they confirm slowdown
-
-
-# 2026-08-20 02:40 UTC
-## Council debate
-
-**Chief Macro Economist:** AUD jobs data 70 minutes ago showed no price reaction – AUDUSD flat at 0.711, AUDJPY at 112.69 – confirming in-line print (forecast 11.7K vs previous 76.3K step-down was telegraphed). Japan trade data just released: 634.5B yen deficit, exports +23% to record – strong nominal growth but yen weakness inflating the numbers. No game-changer for any economy. Treasury buyback theme now 8 hours old, losing potency.
-
-**Central-Bank Watcher:** Fed Minutes (8h ago) are stale. No CB speeches overnight. Japan export surge is yen-weakness driven, not real strength – BoJ still trapped. Next catalyst is Thursday's global PMIs (29 hours away). Current void = no fresh rate-path information.
-
-**Geopolitical & Crisis Analyst:** UAE suspending Iran trade (90 min ago) is significant but oil unmoved (WTI 85.08, flat). Kyiv attack 4.5 hours ago also faded. Colombia earthquake, Indonesia 5.8 quake – regional, not systemic. Geopolitics in "known war" mode, no new escalation vector. Safe-haven demand absent.
+onesia 5.8 quake – regional, not systemic. Geopolitics in "known war" mode, no new escalation vector. Safe-haven demand absent.
 
 **FX Strategist:** All currencies range-bound in Asian deadzone (02:40 UTC). USDCAD 1.3807 holding tariff-relief gains but no fresh driver. CHF 0.7997 – carry-shift theme now 30+ hours old, momentum exhausted. EUR 1.1676 drifting on Europe drought/competitiveness worries (stale). No currency has conviction.
 
@@ -3265,3 +3205,69 @@ summary_ar=كل التوجهات دقيقة منذ 8 ساعات؛ الذهب ق�
 mind=focused
 psyche_flags=intuition
 intuition=Trump قد يفاجئ بتصريح تصالحي ينزّل الذهب والنفط -2% أو متشدد يرفعهما +1.5%؛ الاحتمالان متساويان؛ نحافظ على التوجهات لكن ننزل الخطر والثقة
+
+
+# 2026-08-21 23:43 UTC
+## Council debate
+
+**Chief Macro Economist:** خطاب Trump انتهى منذ 43 دقيقة بدون تفاصيل في العناوين؛ عوائد السندات الأميركية ترتفع رغم تدخل Bessent (فشل الارتداد)؛ الدولار عند أدنى مستوى 3 أشهر؛ مخاوف الديون مستمرة؛ النمو الأوروبي يتسارع (PMI أفضل من نوفمبر)؛ الوضع الكلي يدعم EUR/JPY/CHF ضد USD.
+
+**Central-Bank Watcher:** بيانات التضخم اليابانية عززت توقعات رفع BoJ للفائدة؛ الين يرتفع منذ 12 ساعة (bias +0.3 دقيق)؛ Fed بلا أحداث جديدة؛ ECB بلا تغيير؛ SNB يبقي الفائدة السلبية على الطاولة لكن CHF يرتفع كملاذ آمن؛ التوجهات الحالية صحيحة.
+
+**Geopolitical & Crisis Analyst:** عنوان "750 جريح أميركي" هو بيانات تراكمية قديمة (أكدناها منذ 3 ساعات)؛ إيران تريد إنهاء الحرب "من موقع قوة" (عنوان FT منذ 5 ساعات)؛ هجوم روسي مزدوج في أوكرانيا (15 قتيل)؛ لا تصعيد جديد في الخليج؛ علاوة الحرب في النفط مستقرة؛ الذهب يحتفظ بمكاسب الديون الأميركية.
+
+**FX Strategist:** EURUSD عند 1.1676 (ثابت منذ 8 ساعات، bias +0.3 دقيق)؛ GBPUSD عند 1.3644 (تراجع من 1.368، bias -0.4 دقيق)؛ USDJPY عند 158.98 (ضعف الدولار، bias JPY +0.3 دقيق)؛ AUDUSD عند 0.717 (bias +0.2 دقيق)؛ كل التوجهات منذ 8 ساعات صحيحة؛ نحافظ عليها.
+
+**Gold & Oil Trader:** XAUUSD عند 4603 (قرب ATH 4623 من 5 ساعات، bias +0.5 دقيق)؛ XAGUSD عند 68.9 (bias +0.3 دقيق)؛ WTI عند 87.3، Brent عند 94.2 (bias +0.3 دقيق)؛ خطاب Trump لم يغير شيء؛ الذهب يتماسك على مخاوف الديون؛ النفط يحتفظ بعلاوة إيران؛ نحافظ على التوجهات.
+
+**Equity / Risk-Sentiment Desk:** US500 عند 7677 (bias -0.2 دقيق، ارتفع 517 نقطة اليوم لكن خسر أسبوعياً)؛ عوائد السندات ترتفع = ضغط على الأسهم؛ GER40 عند 26106 (bias +0.2 دقيق)؛ المزاج mixed؛ نحافظ على bias سلبي خفيف للأسهم الأميركية.
+
+**Risk Manager:** خطاب Trump انتهى بدون صدمات؛ نرفع news_block؛ SCORECARD 24h عند 40% فقط (ضعيف)؛ لكن التوجهات الحالية دقيقة منذ 8 ساعات؛ SHOCK خسر 3 مرات في 24 ساعة (صافي -2.46$)؛ نبقيه محظوراً؛ risk_mode=caution صحيح (لا حدث جديد لكن عوائد السندات متقلبة)؛ risk_mult يرتفع إلى 0.9 (ثقة في التوجهات الحالية).
+
+**Market Historian:** آخر مرة عوائد السندات الأميركية ارتفعت رغم تدخل الخزانة (2018): الدولار ضعف 2-3% في أسبوعين، الذهب ارتفع +4%، EUR/JPY صعدوا؛ اليوم: DXY عند أدنى مستوى 3 أشهر، XAUUSD قرب ATH؛ النمط يتكرر؛ EURUSD عند 1.1676 (95% من نطاق السنة)، XAUUSD عند 4603 (98% من النطاق)؛ الزخم قوي لكن ممتد؛ bias +0.5 للذهب صحيح لكن لا نرفعه أكثر.
+
+**Chairman:** خطاب Trump انتهى بدون تأثير؛ كل التوجهات منذ 8 ساعات دقيقة (EUR/JPY/CHF صعدوا، GBP تراجع، الذهب قرب ATH، النفط ثابت)؛ نرفع الثقة إلى 0.8 ونرفع risk_mult إلى 0.9؛ نحافظ على كل التوجهات؛ نرفع news_block؛ SHOCK يبقى محظوراً؛ نضيف XAUUSD وEURUSD وUSDJPY إلى prefer_symbols.
+
+## Psyche
+
+**Awareness:** fired=no · قارنت التوجهات الحالية مع DECISION MEMORY: كل bias منذ 8 ساعات دقيق (EUR +0.3، GBP -0.4، JPY +0.3، XAU +0.5، OIL +0.3)؛ لا تقلب ولا عناد؛ المجلس متسق ومنضبط.
+
+**Greed:** fired=no · الثقة 0.8 والتوجهات قوية لكن risk_mult عند 0.9 (ليس 1.0+)؛ prefer_symbols يحتوي 3 رموز فقط؛ لا لغة "مال سهل"؛ لا جشع.
+
+**Fear:** fired=no · caution له سبب ملموس (عوائد السندات متقلبة، SCORECARD 24h ضعيف 40%)؛ لا رد فعل مبالغ فيه؛ المجلس متوازن.
+
+**Prudence:** fired=yes · bias الذهب +0.5 قوي لكن مدعوم بمصدرين (عوائد السندات، مخاوف الديون) + تاريخ Market Historian (2018)؛ مقبول؛ لكن SCORECARD 24h ضعيف (40%) يفرض خفض conf من 0.85 إلى 0.8.
+
+**Intuition:** fired=no · لا حدس جديد؛ التوجهات الحالية واضحة ومدعومة بالأدلة.
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.9
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=-0.4
+bias_JPY=0.3
+bias_AUD=0.2
+bias_NZD=0.0
+bias_CAD=0.1
+bias_CHF=0.2
+bias_XAU=0.5
+bias_XAG=0.3
+bias_OIL=0.3
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=0.2
+conf=0.8
+allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=XAUUSD,EURUSD,USDJPY
+summary=All 8h biases accurate; Trump speech passed with no impact; gold near ATH on US debt fears; JPY/EUR firm; GBP fades; oil holds Iran premium; risk raised to 0.9
+summary_ar=كل التوجهات دقيقة منذ 8 ساعات؛ خطاب Trump مرّ بدون تأثير؛ الذهب قرب ATH على مخاوف الديون؛ الين واليورو أقوياء؛ الجنيه يتراجع؛ النفط يحتفظ بعلاوة إيران؛ الخطر ارتفع إلى 0.9
+mind=focused
+psyche_flags=prudence
+intuition=none
