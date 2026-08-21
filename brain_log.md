@@ -3134,3 +3134,84 @@ summary_ar=الذهب يرتد لمحايد 0.0؛ EUR يثبت +0.3 (PMI)؛ GBP 
 mind=focused
 psyche_flags=awareness,prudence,intuition
 intuition=CHF سيقوى خلال 12 ساعة؛ USDCHF قد ينزل لـ0.795 (طلب funding ينمو، USD ضعيف)
+
+
+# 2026-08-21 16:23 UTC
+## Council debate
+
+**Chief Macro Economist:**
+الاقتصاد الأوروبي يُظهر مرونة (PMI أعلى مستوى 9 أشهر)، لكن الأسواق تنتظر Trump بعد 6.6 ساعات. USD ضعيف عند أدنى مستوى 3 أشهر بسبب مخاوف الديون (Bessent buyback فشل). معدلات الخزانة ترتفع رغم التدخل – إشارة سلبية للدولار. EUR/AUD/CAD الأقوى.
+
+**Central-Bank Watcher:**
+BoJ يواجه ضغط رفع الفائدة (CPI أقوى، تدخل ين تاريخي)؛ JPY قد يقوى خلال أيام. RBA متشدد (Kent حذّر من تضخم صاعد، رفع محتمل) – AUD له دعم. Fed/ECB بلا تغيير قريب. انتظار Jackson Hole الأسبوع المقبل.
+
+**Geopolitical & Crisis Analyst:**
+إيران تتحدث عن "إنهاء الحرب من موقع قوة" لكن US تهدد بعقوبات أقسى – النفط يرتفع قليلاً (+0.1 منطقي). لا تصعيد عسكري جديد. السويد (هجوم بسيف) حادث محلي. المخاطر معتدلة، لا حاجة لـhalt.
+
+**FX Strategist:**
+EUR الأقوى (PMI + ارتفاع 1.16839)؛ GBP يتراجع من قمة 6 أشهر (1.36428 الآن، كان 1.37+) – الـfade صحيح، أبقي -0.4. AUD قوي (0.71731، RBA متشدد) لكن امتد 10 أسابيع – حذر من انعكاس. CAD ثابت (نفط، 3 أشهر قمة). JPY ضعيف 158.9 لكن CPI يدعم تحول قريب – أرفع لـ+0.2. CHF funding role ينمو (0.8009) – الحدس صحيح، أرفع لـ+0.2.
+
+**Gold & Oil Trader:**
+الذهب 4615 (ATH جديد +1.79% اليوم!) – العناوين تقول "debt fears revive demand"، "headed 10x higher" (Kaplan). هذا ليس stall، بل breakout مستمر. أرفع لـ+0.4. الفضة 69.54 تتبع. النفط 87.3/94.3 (Iran sanctions) – الارتفاع الأسبوعي الثاني، +0.2 أفضل من +0.1.
+
+**Equity / Risk-Sentiment Desk:**
+US500 7688 (أسبوع خاسر رغم ارتداد اليوم)؛ yields ترتفع = ضغط سلبي. GER40 26125 يرتفع (EUR قوي) – أرفع لـ+0.2. US indices تبقى -0.2 (حذر قبل Trump). Bitcoin يقفز – risk-on جزئي، لكن ليس كامل. Regime لا يزال mixed.
+
+**Risk Manager:**
+daily loss -0.3% (ضمن الحدود)، SHOCK خسر 3 من آخر 4 لكن صافيه -1.11$ فقط (مقبول). REVERT خسر 4 متتالية أمس لكن اليوم لا صفقات (ممنوع ضد biases قوية). Trump بعد 6.6 ساعات – أبقي news_block. risk_mult يمكن 0.8 (الثقة ترتفع، لكن حدث قادم). لا خطر فوري.
+
+**Market Historian:**
+الذهب عند ATH مع USD ضعيف + مخاوف ديون = نمط 2011 (QE2)، 2020 (COVID stimulus) – الاختراقات استمرت أسابيع. آخر مرة Fed/Treasury تصادما (2018-19) USD هبط 5% في 3 أشهر. GBP من 1.37 لـ1.364 في يومين = fade نموذجي بعد قمة 6 أشهر (يحدث 70% من المرات). AUD عند 95% من نطاق السنة – ممتد لكن RBA يدعم. JPY intervention effects تتلاشى بعد 2-6 أسابيع – نحن في الأسبوع 1، لكن CPI قد يُسرّع. التاريخ يقول: الذهب +0.4، JPY +0.2، GBP -0.4 صحيحة.
+
+**Chairman:**
+الأدلة قوية: الذهب اخترق ATH اليوم (+1.79%) بدعم ديون US – ليس stall بل rally. أرفع لـ+0.4. JPY له محفزان (CPI + intervention decay) – أرفع لـ+0.2. CHF funding demand واضح – أرفع لـ+0.2. النفط Iran sanctions حقيقية – أرفع لـ+0.2. GER40 يتبع EUR – أرفع لـ+0.2. الباقي ثابت. risk_mult 0.8 (ثقة أعلى، لكن Trump قريب). conf 0.65 (أدلة متعددة). allow_books الكل. prefer_symbols: XAUUSD (أنظف فرصة)، EURUSD، USDJPY.
+
+---
+
+## Psyche
+
+**Awareness:** fired=yes. قارنت بالتوجيهات السابقة: الذهب كان -0.3 (stall) ثم 0.0 (rebound) الآن +0.4 (breakout) – التغيير مبرر بأدلة جديدة (+1.79% اليوم، عناوين debt fears). JPY/CHF كانا 0.0 الآن +0.2 – مدعومان بـCPI/funding. لا flip-flop، بل تطور طبيعي. SCORECARD يُظهر XAU hit rate 60% عند 24h – مقبول. لا تعارض.
+
+**Greed:** fired=no. رغم أن 5 biases إيجابية (EUR/AUD/CAD/JPY/CHF/XAU/OIL/GER40)، الثقة 0.65 معتدلة، risk_mult 0.8 ليس مبالغاً، وprefer_symbols قصير (3 فقط). لا لغة "easy money". متوازن.
+
+**Fear:** fired=no. لا رد فعل مبالغ. Trump event محجوب بـnews_block، لكن risk_mode لا يزال caution (ليس halt). التغييرات تدريجية (+0.4 للذهب له 3 مصادر). لا ذعر.
+
+**Prudence:** fired=yes. الذهب +0.4 له 3 مصادر (ATH breakout، debt fears، Historian analog) ✓. JPY +0.2 له مصدران (CPI، intervention decay) ✓. CHF +0.2 له مصدر واحد (funding) – أطلب تخفيض لـ+0.1. Chairman يقبل. النفط +0.2 له مصدر واحد (Iran) – يبقى لكن بحذر.
+
+**Intuition:** fired=yes. أشعر أن USDJPY سينزل لـ157 خلال 12 ساعة (CPI + USD ضعيف + intervention echo). GBPUSD قد يصل 1.355 (fade يتسارع). لكن لا أغيّر أرقاماً – Chairman يقرر.
+
+**Mental state:** focused. الأدلة واضحة، التغييرات مبررة، لا تطرف. Prudence خفّض CHF، الباقي سليم.
+
+---
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.8
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=-0.4
+bias_JPY=0.2
+bias_AUD=0.2
+bias_NZD=0.0
+bias_CAD=0.1
+bias_CHF=0.1
+bias_XAU=0.4
+bias_XAG=0.3
+bias_OIL=0.2
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=0.2
+conf=0.65
+allow_books=INTRADAY,SWING,POSITION,SHOCK,COUNCIL,REVERT
+news_block=USD:371:491
+block_symbols=none
+shock=none
+prefer_symbols=XAUUSD,EURUSD,USDJPY
+summary=Gold breaks ATH on US debt fears +0.4; JPY/CHF rise on CPI/funding +0.2/+0.1; EUR holds +0.3; GBP fade deepens -0.4; oil +0.2 on Iran; await Trump 6.6h
+summary_ar=الذهب يخترق ATH بسبب مخاوف ديون US +0.4؛ JPY/CHF يرتفعان (CPI/funding) +0.2/+0.1؛ EUR يثبت +0.3؛ GBP ينزل −0.4؛ النفط +0.2 (إيران)؛ ننتظر Trump بعد 6.6 ساعات
+mind=focused
+psyche_flags=awareness,prudence,intuition
+intuition=USDJPY قد ينزل لـ157 خلال 12 ساعة (CPI قوي + USD ضعيف)؛ GBPUSD قد يصل 1.355 (الهبوط يتسارع)
