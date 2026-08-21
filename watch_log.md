@@ -501,3 +501,4 @@
 - 2026-08-21 01:21 UTC · heartbeat · ALERT sev2: KOSDAQ sell-side circuit breaker triggered at 01:07-01:18 UTC; sharp decline in Korean tech index -> protocol applied, council convening
 - 2026-08-21 01:21 UTC · FULL COUNCIL triggered: ALERT sev2: KOSDAQ sell-side circuit breaker triggered at 01:07-01:18 UTC; sharp decline in Korean tech index
 - 2026-08-21 01:36 UTC · heartbeat · quiet (sev0)
+- 2026-08-21 01:48 UTC · heartbeat · quiet (sev0)
