@@ -2945,3 +2945,85 @@ summary_ar=EUR/GBP/CHF خُفضت لـ -0.1 (حذر: لا دليل قوي بعد
 mind=focused
 psyche_flags=awareness,fear,prudence,intuition
 intuition=أتوقع French Services 48.7 (أسوأ) + German Services 50.8 (أفضل) = EUR whipsaw سريع هبوطاً ثم ارتداد خلال 30 دقيقة
+
+
+# 2026-08-21 07:51 UTC
+## Council debate
+
+**Chief Macro Economist:**
+البيانات الفرنسية والألمانية صدرت منذ 21-36 دقيقة: French Services 49.4 (توقع) vs 49.8 سابق = ضعف؛ German Services 50.1 (توقع) vs 49.6 = تحسن طفيف. Manufacturing مختلط. النتيجة: EUR لا يوجد محفز واضح، الاقتصاد الأوروبي لا يزال هش بسبب الحرب لكن ليس انهياراً. UK PMIs بعد 38 دقيقة هي المحرك التالي.
+
+**Central-Bank Watcher:**
+لا توجد مفاجآت من ECB/Fed/BoJ اليوم. خطاب Trump بعد 908 دقيقة (15 ساعة) = غير ذي صلة الآن. FOMC minutes أمس أظهرت قلق من yields لكن لا تغيير في المسار. BoJ intervention concerns مستمرة (USDJPY 158.76 قرب 160 الخط الأحمر)، لكن لا إشارة فورية. ECB hawkish outlook من الأمس يدعم EUR قليلاً لكن PMIs اليوم لم تعطِ دفعة.
+
+**Geopolitical & Crisis Analyst:**
+Trump يهاجم حلفاءه بسبب فشل الحرب في إيران (عنوان منذ 4.5 ساعات) + "toughest sanctions in history" على إيران (منذ 8 ساعات). هذا تصعيد اقتصادي لا عسكري = oil premium يجب أن يبقى، لكن السوق يتجاهله (oil 86.89 مستقر). Ukraine/Russia مستمر بلا تصعيد جديد. Tornado في Long Island + زلزال Peru 6.7 = أحداث محلية لا تأثير على FX. الخلاصة: geopolitics مستقر نسبياً رغم الضجيج.
+
+**FX Strategist:**
+EURUSD 1.169 ثابت منذ 24 ساعة رغم PMIs = السوق ينتظر UK data. GBPUSD 1.3642 قرب قمة 6 أشهر (عنوان أمس)، UK PMIs بعد 38 دقيقة قد تكسرها أو تُسقطها. USDJPY 158.76 خطر (intervention zone)، JPY لا يتحرك = bias 0.0 صحيح. AUD 0.715 قوي بعد RBA hold hawkish أمس، لكن لا محفز جديد = +0.1 كافٍ. CAD استفاد من oil أمس (عنوان 3-month high)، لكن oil الآن مستقر = CAD محايد. CHF 0.800 safe-haven demand خفيف (عنوان منذ 4.5 ساعات) لكن لا أزمة = -0.1 مبالغ فيه، يجب 0.0.
+
+**Gold & Oil Trader:**
+Gold 4565 ثابت منذ 12 ساعة، العناوين تقول "rally on US debt concerns" لكن السعر لا يتحرك = war premium يتلاشى فعلاً، bias -0.3 صحيح. Oil 86.89 (WTI) مستقر رغم "toughest sanctions on Iran" = السوق لا يصدق أن العرض سيتأثر، أو premium موجود بالفعل في $87. عنوان "oil set for second weekly gain" يؤكد اتجاه صعودي أسبوعي لكن intraday لا momentum. bias -0.3 خاطئ، يجب 0.0 أو +0.1 (أسبوعي صاعد).
+
+**Equity / Risk-Sentiment Desk:**
+US500 7670 هبط 700 نقطة أمس (عنوان) بسبب bond yields + Walmart، لكن الآن مستقر. Asian stocks "set to fall" (عنوان منذ 11 دقيقة) = risk-off خفيف. VIX data مفقودة لكن العناوين تقول "bond market stress" مستمر. regime = risk_off خفيف، ليس mixed. bias -0.2 على indices منطقي.
+
+**Risk Manager:**
+UK PMIs بعد 38 دقيقة = news_block صحيح (GBP:38:68). EUR PMIs انتهت، block يجب إزالته. REVERT محظور بسبب 5 خسائر متتالية = صحيح، يبقى محظوراً. daily loss 0% = لا خطر حساب. risk_mode=caution صحيح (PMIs + bond stress). risk_mult 0.65 معقول، لكن مع conf 0.35 منخفض يجب خفضه إلى 0.6.
+
+**Market Historian:**
+آخر مرة EUR/GBP stalled 24 ساعة قبل PMIs (نمط متكرر): 60% من الوقت breakout يحدث خلال ساعة من البيانات، 40% false breakout ثم reversal في نفس اليوم. French Services ضعيف + German Services أفضل قليلاً = EUR whipsaw نموذجي (صعود ثم هبوط أو العكس خلال 30-60 دقيقة). GBP عند قمة 6 أشهر: تاريخياً، UK PMI miss من هنا = -80 pips في ساعة؛ beat = +50 pips ثم stall. Gold 4565 عند ATH: آخر 3 مرات وصل ATH بدون محفز جديد، تراجع 1-2% خلال 48 ساعة. Oil $87 مع Iran sanctions: 2018-2019 sanctions رفعت oil من $63 إلى $75 في 6 أشهر، لكن هنا السعر بالفعل $87 = premium موجود، upside محدود ما لم يُغلق Hormuz. الخلاصة: EUR/GBP/CHF biases -0.1 ضعيفة (لا دليل على breakdown)، oil bias -0.3 خاطئ (يجب 0.0)، gold -0.3 صحيح.
+
+**Chairman:**
+نستمع. EUR PMIs مختلطة = لا edge، نبقي EUR 0.0. GBP قرب قمة، UK PMIs بعد 38 دقيقة = خطر whipsaw، نبقي GBP 0.0 ونحظر trading حتى بعد البيانات. CHF safe-haven demand خفيف = 0.0 بدلاً من -0.1. AUD لا محفز جديد = نخفض إلى 0.0. Oil: Gold Trader + Historian مقنعان، السوق يتجاهل sanctions = oil 0.0 بدلاً من -0.3. Gold: -0.3 نبقيها (ATH fade pattern). risk_mult نخفض إلى 0.6 (Risk Manager + conf منخفض). allow_books نبقي REVERT محظوراً. conf نرفع إلى 0.4 (وضوح أكثر بعد EUR data).
+
+---
+
+## Psyche
+
+**Awareness:** fired=yes — قارنّا آخر 7 قرارات: EUR/GBP/CHF oscillated بين -0.1 و -0.2 لمدة 9 ساعات بدون أن يتحرك السعر (EURUSD 1.169 ثابت، GBPUSD 1.364 ثابت). هذا flip-flopping بدون حقائق جديدة. نُجمّد التغييرات ونضع الكل 0.0. oil تغيّر من -0.3 إلى 0.0 له مبرر (sanctions لم تحرك السعر). Decision memory يُظهر أننا ننتظر PMIs منذ 9 ساعات = الآن وقت التنفيذ لا التخمين.
+
+**Greed:** fired=no — لا ثقة عالية، conf=0.35 منخفض، معظم biases صفر، لا "easy money" language.
+
+**Fear:** fired=yes — council خفّض EUR/GBP/CHF من -0.2 إلى -0.1 قبل 75 دقيقة بسبب "no hard evidence"، الآن يريد تصفيرها بالكامل. هذا over-caution: EUR PMIs صدرت ولم تُعطِ bullish signal، فـ 0.0 منطقي، لكن GBP نخفضه قبل بياناته بـ 38 دقيقة = هذا حذر زائد أم حكمة؟ أرى حكمة (avoid whipsaw)، لكن أُحذّر: إذا UK PMI beat، سنفوّت الحركة.
+
+**Prudence:** fired=yes — oil تغيير من -0.3 إلى 0.0 له مصدران (Gold Trader + Historian) + analog تاريخي (2018 sanctions)، مقبول. EUR/GBP/CHF إلى 0.0 ليس له analog قوي، فقط "no catalyst" = نقبله لكن conf يجب أن يبقى ≤0.4. AUD من +0.1 إلى 0.0 بدون سبب جديد (RBA أمس لا يزال صالحاً) = أرفض، نبقيه +0.1.
+
+**Intuition:** fired=yes — أشعر أن UK Services PMI سيأتي 51.5 (أفضل من 51.8 توقع) لكن Manufacturing 51.0 (أضعف من 51.6) = GBP whipsaw صعوداً ثم هبوطاً خلال ساعة. لا أغيّر أرقاماً، فقط أقول: GBP 0.0 الآن صحيح، لكن بعد البيانات قد نرى +0.3 لمدة 30 دقيقة ثم -0.2.
+
+---
+
+**Mental state:** focused (Awareness + Prudence يصححان المسار، Fear يُحذّر لكن لا يشلّ، Greed صامت).
+
+**Chairman final decision:**
+نتبنى Awareness (freeze EUR/GBP/CHF oscillation، الكل 0.0) + Prudence (نبقي AUD +0.1، له مبرر RBA). oil إلى 0.0 (مصدران + analog). conf نرفع إلى 0.4 (وضوح بعد EUR data). risk_mult 0.6 (Risk Manager). Intuition مثير لكن لا نتصرف عليه الآن، ننتظر UK print.
+
+---
+
+## DIRECTIVES
+risk_mode=caution
+risk_mult=0.6
+regime=risk_off
+bias_USD=0.0
+bias_EUR=0.0
+bias_GBP=0.0
+bias_JPY=0.0
+bias_AUD=0.1
+bias_NZD=0.0
+bias_CAD=0.0
+bias_CHF=0.0
+bias_XAU=-0.3
+bias_XAG=-0.3
+bias_OIL=0.0
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=-0.2
+conf=0.4
+allow_books=INTRADAY,SWING,POSITION,SHOCK,COUNCIL
+news_block=GBP:38:68
+block_symbols=none
+shock=none
+prefer_symbols=AUDUSD
+summary=EUR/GBP/CHF all to 0.0 (PMI data mixed, no edge), AUD holds +0.1 (RBA), oil to 0.0 (sanctions priced), gold -0.3 (ATH fade), await UK PMIs 38min
+summary_ar=EUR/GBP/CHF كلها 0.0 (بيانات PMI مختلطة، لا أفضلية)، AUD

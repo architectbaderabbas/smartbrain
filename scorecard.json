@@ -1,23 +1,23 @@
 {
- "decisions_scored": 39,
+ "decisions_scored": 40,
  "overall_hit_rate%": {
-  "4h": 47,
-  "12h": 34,
+  "4h": 46,
+  "12h": 32,
   "24h": 55
  },
  "per_asset_hit_rate%": {
   "XAU": {
-   "4h": 43,
+   "4h": 40,
    "12h": 36,
    "24h": 82
   },
   "CHF": {
    "4h": 53,
-   "12h": 50,
+   "12h": 47,
    "24h": 27
   },
   "OIL": {
-   "4h": 75,
+   "4h": 80,
    "12h": 100,
    "24h": null
   },
