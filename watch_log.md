@@ -568,3 +568,4 @@
 - 2026-08-21 12:34 UTC · heartbeat · صفقة NZDUSD other:0 0.35$ ← تحليل مكتوب
 - 2026-08-21 12:36 UTC · heartbeat · quiet (sev0)
 - 2026-08-21 12:51 UTC · heartbeat · quiet (sev0)
+- 2026-08-21 13:06 UTC · FULL COUNCIL triggered: scheduled full council (last 74 min ago)

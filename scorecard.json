@@ -1,13 +1,13 @@
 {
- "decisions_scored": 40,
+ "decisions_scored": 41,
  "overall_hit_rate%": {
-  "4h": 32,
+  "4h": 33,
   "12h": 21,
   "24h": 40
  },
  "per_asset_hit_rate%": {
   "XAU": {
-   "4h": 13,
+   "4h": 12,
    "12h": 12,
    "24h": 71
   },
@@ -32,7 +32,7 @@
    "24h": null
   },
   "XAG": {
-   "4h": 0,
+   "4h": 11,
    "12h": 0,
    "24h": null
   },
@@ -54,7 +54,7 @@
  },
  "by_mind_state%": {
   "focused": 32,
-  "calm": 31,
+  "calm": 32,
   "scattered": 0,
   "?": 0
  },
