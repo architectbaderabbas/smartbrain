@@ -3108,3 +3108,80 @@ summary_ar=PMI أوروبا أقوى (composite أعلى 9 أشهر) لكن لي
 mind=calm
 psyche_flags=awareness,fear,prudence,intuition
 intuition=EURUSD سيتلاشى إلى 1.165 خلال 12 ساعة (نمط PMI التاريخي)
+
+
+# 2026-08-21 09:31 UTC
+## Council debate
+
+**Chief Macro Economist:**
+PMI بريطانيا أفضل من المتوقع (manufacturing 52.8→51.6 actual unknown، services 51.8 forecast) - لكن retail sales سلبي -0.5% يُضعف الصورة. النمو البريطاني مختلط، لا يبرر GBP قوي. EUR composite عند أعلى 9 أشهر لكن momentum يتلاشى. USD محايد بانتظار Trump speech بعد 13 ساعة.
+
+**Central-Bank Watcher:**
+BoE بدون تغيير متوقع - PMI مختلط لا يُغير المسار. BoJ تحت ضغوط لرفع الفائدة أسرع (Bloomberg headline) لكن intervention concerns تُبقي JPY محايد. Fed بانتظار Jackson Hole - Treasury yields ترتفع رغم buyback (WSJ: "intervention struggles") - هذا USD supportive متوسط المدى.
+
+**Geopolitical & Crisis Analyst:**
+Iran war: Trump "lashing out at allies" + "toughest sanctions in history" - oil ارتفع $89 أمس لكن Axios تقول "markets ignoring Trump truths" - premium يتلاشى. Russia missile tests قرب Japan (Guardian) - توتر لكن ليس escalation حقيقي. Hurricane Lala + tornado NY - محلي، لا تأثير FX. Risk: Trump speech بعد 13 ساعة قد يُفاجئ.
+
+**FX Strategist:**
+GBP عند 1.3667 (6-month high vs USD per Reuters أمس) - extended. EUR عند 1.1709 - PMI beat لم يدفعها أعلى. AUD الأقوى (RBA Kent flags upside inflation risk + further hikes possible) - bias +0.2 مبرر. CAD قوي (3-month high، oil $87) - bias +0.1. CHF carry trade role grows (FXStreet) - ضعف خفيف -0.1. JPY محايد (intervention fear vs rate hike talk).
+
+**Gold & Oil Trader:**
+XAU $4589 - ATH لكن stalled 36 ساعة. "Gold headed 10x higher inevitable" (Kaplan) - هراء طويل المدى. US debt concerns تدعم لكن momentum توقف - fade -0.3 صحيح. XAG $69.8 - تابع. OIL: WTI $86.76، Brent $93.43 - "Iranian supply to China drying up" (OilPrice.com) يدعم لكن Axios "markets ignoring Trump" - range-bound، bias 0.0 صحيح.
+
+**Equity / Risk-Sentiment Desk:**
+SPX 7676، NDX 29376، DAX 26065 - كلها قرب ATH لكن "bond market will burst bubble" (MarketWatch). Treasury yields ترتفع - headwind للأسهم. War 6 months + debt concerns - risk-off undercurrent. Bias -0.2 على indices صحيح لكن لا crash imminent.
+
+**Risk Manager:**
+Account $459، day +$0.08، week +$0.08 - مستقر. NZDUSD position واحد +$0.18 (INTRADAY book). REVERT محظور (5 losses). Trump speech بعد 808 دقيقة - news_block USD:780:840. UK PMI انتهى (61 دقيقة مضت) - GBP block ينتهي. Caution mode صحيح - no imminent danger لكن uncertainty عالية.
+
+**Market Historian:**
+PMI beats في أوروبا: تاريخياً EUR يرتفع 0.3-0.5% في 4 ساعات ثم يتلاشى 50% خلال يومين إذا لم يتبعه ECB hawkish talk - اليوم EUR ثابت عند 1.1709 بعد ساعتين من PMI (pattern ضعيف). GBP عند 6-month high: آخر 4 مرات وصل هنا (2024، 2025 مرتين، 2026 مرة) تراجع 0.5-1% خلال أسبوع. XAU عند ATH stalled 36h: 60% من الوقت يستمر breakout لكن بعد 36h stall، 55% يتراجع 1-2% أولاً. Oil $87-93: Iran sanctions cycles (2018، 2019، 2023) - premium يتلاشى 30-50% خلال 2-4 أسابيع بدون supply shock حقيقي.
+
+**Chairman:**
+PMI بريطانيا/أوروبا انتهى - GBP/EUR لم يتحركا (EUR ثابت، GBP ثابت) - no edge. AUD الأقوى (RBA hawkish) - رفع bias إلى +0.2. CAD قوي (oil + 3mo high) - bias +0.1. GBP extended (6mo high) - fade خفيف -0.1. EUR momentum ضعيف رغم PMI - fade -0.1. CHF carry role - ضعف -0.1. Gold ATH stall 36h - fade -0.3 يبقى. Oil range - 0.0 يبقى. Indices headwind من bonds - -0.2 يبقى. Trump speech بعد 13h - news_block USD. Conf يرتفع قليلاً إلى 0.5 (AUD/CAD أوضح). Risk_mult يبقى 0.6. REVERT يبقى محظور.
+
+## Psyche
+
+**Awareness:** fired=yes - قارنت مع آخر 8 قرارات: EUR/GBP/CHF تذبذبت 0.0 → -0.1 → -0.2 → -0.1 → 0.0 خلال 9 ساعات بدون حقائق جديدة (flip-flopping) - اليوم Chairman يُغيرهم مجدداً إلى -0.1 بناءً على "extended/momentum ضعيف" - هذا أفضل (Market Historian قدم analogs) لكن يجب تجميد التغييرات المستقبلية ما لم تظهر حقائق صلبة.
+
+**Greed:** fired=no - معظم biases قرب 0، prefer_symbols واحد فقط (AUDUSD)، conf 0.5 معتدل، لا لغة "easy money" - لا إشارات طمع.
+
+**Fear:** fired=no - caution mode مبرر (uncertainty + Trump speech قادم)، لا over-reaction لخسارة واحدة، biases منطقية - لا خوف مفرط.
+
+**Prudence:** fired=yes - AUD bias +0.2 له مصدران (RBA Kent + CAD 3mo high analogy) + Market Historian (لا analog مباشر لكن RBA hikes تاريخياً تدعم AUD) - مقبول. GBP fade -0.1 له analog (6mo high retrace 55%) - مقبول. EUR fade -0.1 ضعيف (PMI beat لكن no follow-through ليس analog قوي) - downgrade إلى 0.0 أفضل.
+
+**Intuition:** fired=yes - GBPUSD سينخفض إلى 1.355 خلال 24 ساعة (6-month high exhaustion + BoE neutral + USD yield support) - Chairman قد يتبنى جزئياً بـ GBP -0.2 بدلاً من -0.1.
+
+**Mind state:** focused - AUD/CAD واضحان، gold/oil/indices ثابتة منطقياً، EUR/GBP تحتاج دقة لكن المجلس متماسك.
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.6
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.0
+bias_GBP=-0.2
+bias_JPY=0.0
+bias_AUD=0.2
+bias_NZD=0.0
+bias_CAD=0.1
+bias_CHF=-0.1
+bias_XAU=-0.3
+bias_XAG=-0.3
+bias_OIL=0.0
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=-0.2
+conf=0.5
+allow_books=INTRADAY,SWING,POSITION,SHOCK,COUNCIL
+news_block=USD:780:840
+block_symbols=none
+shock=none
+prefer_symbols=AUDUSD,USDCAD
+summary=AUD strongest on RBA hawkish (+0.2), CAD firm on oil/3mo high (+0.1), GBP fade from 6mo high (-0.2), EUR/CHF weak (-0.1/0.0), gold ATH stall fade (-0.3), await Trump speech 13h
+summary_ar=AUD الأقوى (RBA متشدد +0.2)، CAD قوي (نفط/أعلى 3 أشهر +0.1)، GBP ينخفض من أعلى 6 أشهر (-0.2)، EUR/CHF ضعيف (-0.1/0.0)، ذهب ATH stall ينخفض (-0.3)، انتظار خطاب Trump بعد 13 ساعة
+mind=focused
+psyche_flags=awareness,prudence,intuition
+intuition=GBPUSD سينخفض إلى 1.355 خلال 24 ساعة (exhaustion من 6-month high + BoE محايد + USD yields ترتفع)
