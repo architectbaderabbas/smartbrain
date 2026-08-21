@@ -1,6 +1,6 @@
 {
- "ts": 1787333815,
- "council_ts": 1787333815,
+ "ts": 1787333892,
+ "council_ts": 1787333761,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.85,
@@ -21,8 +21,8 @@
   "bias_US100": -0.2,
   "bias_US30": -0.2,
   "bias_GER40": 0.2,
-  "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT",
-  "news_block": "USD:315:435",
+  "allow_books": "INTRADAY,SWING,POSITION,SHOCK,COUNCIL,REVERT",
+  "news_block": "USD:313:433",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "XAUUSD,EURUSD,USDJPY,GBPUSD",
@@ -34,6 +34,7 @@
   "news_events": "none"
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787089932,
