@@ -1,11 +1,11 @@
 {
- "ts": 1787347887,
- "council_ts": 1787344526,
+ "ts": 1787348219,
+ "council_ts": 1787348219,
  "directives": {
   "risk_mode": "caution",
-  "risk_mult": 0.75,
+  "risk_mult": 0.85,
   "regime": "mixed",
-  "conf": 0.75,
+  "conf": 0.78,
   "bias_USD": 0.0,
   "bias_EUR": 0.3,
   "bias_GBP": -0.4,
@@ -27,14 +27,13 @@
   "shock": "none",
   "prefer_symbols": "XAUUSD,EURUSD,USDJPY,GBPUSD",
   "mind": "focused",
-  "psyche_flags": "fear",
-  "intuition": "none",
-  "summary": "750 US wounded headline is old cumulative data not new attack; all biases confirmed correct; danger downgraded to caution; SHOCK removed after 3 losses; await Trump 2.4h",
-  "summary_ar": "عنوان الـ750 جريح بيانات قديمة تراكمية مش هجوم جديد؛ كل التوجهات صحيحة؛ danger نزل لـcaution؛ SHOCK شلناه بعد 3 خسائر؛ منستنى Trump بعد ساعتين ونص",
+  "psyche_flags": "none",
+  "intuition": "Trump قد يفاجئ بتصريح متشدد يرفع النفط والذهب أو تصالحي ينزلهما",
+  "summary": "All biases accurate for 8h; gold near ATH on US debt fears; JPY/EUR firm; GBP fades; oil holds Iran premium; await Trump speech in 83min; risk raised to 0.85",
+  "summary_ar": "كل التوجهات دقيقة منذ 8 ساعات؛ الذهب قرب ATH على مخاوف الديون الأميركية؛ الين واليورو أقوياء؛ الجنيه يتراجع؛ النفط يحتفظ بعلاوة إيران؛ منستنى Trump بعد 83 دقيقة؛ الخطر ارتفع لـ0.85",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787098314,

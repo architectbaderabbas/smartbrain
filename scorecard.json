@@ -1,8 +1,8 @@
 {
- "decisions_scored": 42,
+ "decisions_scored": 43,
  "overall_hit_rate%": {
-  "4h": 37,
-  "12h": 10,
+  "4h": 36,
+  "12h": 12,
   "24h": 48
  },
  "per_asset_hit_rate%": {
@@ -22,18 +22,18 @@
    "24h": 100
   },
   "EUR": {
-   "4h": 36,
+   "4h": 33,
    "12h": 0,
    "24h": 17
   },
   "GBP": {
-   "4h": 45,
+   "4h": 50,
    "12h": 0,
    "24h": 17
   },
   "XAG": {
-   "4h": 33,
-   "12h": 11,
+   "4h": 31,
+   "12h": 20,
    "24h": null
   },
   "US500": {
@@ -50,10 +50,15 @@
    "4h": 100,
    "12h": 100,
    "24h": null
+  },
+  "JPY": {
+   "4h": 0,
+   "12h": null,
+   "24h": null
   }
  },
  "by_mind_state%": {
-  "focused": 33,
+  "focused": 32,
   "calm": 30,
   "scattered": 11,
   "?": 0
