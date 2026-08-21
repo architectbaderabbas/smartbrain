@@ -2907,3 +2907,71 @@ summary_ar=إنذار KOSDAQ كان false (11 دقيقة فقط)؛ EUR/GBP/CHF f
 mind=calm
 psyche_flags=awareness,fear,prudence
 intuition=الأسواق في pre-PMI limbo – الحركة الحقيقية بعد 6-8 ساعات، الآن وقت حذر ليس إقدام
+
+
+# 2026-08-21 02:36 UTC
+## Council debate
+
+**Chief Macro Economist:** الوضع الكلي ثابت منذ ساعة – سندات الخزينة الأمريكية لا تزال تحت ضغط (yields مرتفعة)، لكن لا جديد؛ PMIs أوروبية بعد 4.5 ساعة هي المحرك الوحيد؛ حتى ذلك الحين السوق في limbo؛ لا تغيير في التوقعات.
+
+**Central-Bank Watcher:** لا خطابات ولا بيانات جديدة منذ آخر قرار؛ RBA hawkish من أمس لا يزال يدعم AUD؛ BoJ intervention zone عند USDJPY 159 قريب (الآن 158.93) لكن لا تحرك بعد؛ PMIs الأوروبية قد تحرك ECB expectations إذا جاءت ضعيفة.
+
+**Geopolitical & Crisis Analyst:** Trump يهدد إيران بـ"economic D-Day" لكن هذا rhetoric قديم 12 ساعة؛ لا تصعيد عسكري جديد؛ كوريا الشمالية أطلقت صواريخ أمس لكن routine؛ الأسواق تجاهلت كل شيء؛ war premium على النفط/الذهب يتلاشى كما قلنا – لا تغيير.
+
+**FX Strategist:** EUR/GBP/CHF لا تزال عند قمم multi-month لكن stall الآن 23 ساعة (لا breakdown ولا breakout)؛ fade bias -0.2 صحيح لكن لا confirmation؛ AUD قوي +0.1 من RBA لكن لا momentum جديد؛ USD/JPY عند 158.93 قرب intervention 159 – حذر؛ كل شيء ينتظر PMIs.
+
+**Gold & Oil Trader:** ذهب 4527$ ثابت آخر ساعتين، نفط WTI 87.24$ ثابت؛ war premium يتلاشى ببطء (Trump economic threats لا تحرك السوق بعد الآن)؛ fade bias -0.3 لا يزال صحيحاً لكن لا volatility؛ Morgan Stanley يقول ذهب $5000 لكن هذا long-term، الآن ranging.
+
+**Equity / Risk-Sentiment Desk:** SPX 7661 ثابت، Nasdaq 29329 ثابت؛ Wall Street أغلق منخفضاً أمس على bond yields لكن Asia/Europe الآن flat؛ risk-off خفيف لكن لا panic؛ KOSDAQ alert كان false؛ mixed regime صحيح.
+
+**Risk Manager:** account $459، لا positions مفتوحة، REVERT محظور بعد 5 خسائر متتالية – صحيح؛ news_block لـ GBP/EUR قبل PMIs صحيح؛ caution mode + 0.6 risk_mult مناسب؛ لا خطر جديد؛ نبقى كما نحن حتى PMIs.
+
+**Market Historian:** آخر مرة EUR/GBP/CHF stalled عند قمم 20+ ساعة بدون catalyst (يوليو 2025، مارس 2024)، تصحح 50-80% خلال 2-5 أيام؛ الآن 23 ساعة stall، لا breakdown بعد لكن pattern يشبه؛ fade -0.2 conservative صحيح؛ pre-PMI voids تاريخياً = ranging ثم breakout/breakdown بعد الرقم؛ لا edge الآن.
+
+**Chairman:** لا جديد منذ 01:22 UTC؛ كل المعطيات stale؛ EUR/GBP/CHF stall الآن 23 ساعة (fade -0.2 يبقى)، AUD +0.1 من RBA يبقى، ذهب/نفط fade -0.3 يبقى؛ REVERT محظور، news_block صحيح؛ conf ينخفض إلى 0.3 (لا evidence جديد)؛ننتظر PMIs؛ لا تغيير في التوجيهات.
+
+## Psyche
+
+**Awareness:** fired=yes – قارنت مع 01:22 UTC: لا تغيير في الأسعار (EUR 1.1695 ثابت، GBP 1.3649 ثابت، XAU 4527 ثابت، OIL 87.24 ثابت)؛ لا headlines جديدة مؤثرة؛ نحن نكرر نفس التوجيهات منذ ساعتين – هذا صحيح (consistency في pre-event void)، ليس flip-flopping.
+
+**Greed:** fired=no – conf منخفض 0.3، معظم biases ضعيفة (|bias|<=0.3)، prefer_symbols قصير (AUD فقط)، لا لغة "easy money"؛ لا علامات طمع.
+
+**Fear:** fired=yes – المجلس يكرر "await PMIs" منذ 4 قرارات لكن لا يتحرك؛ هذا ليس over-reaction بل prudence صحيحة؛ لكن خفض conf من 0.35 إلى 0.3 بدون سبب جديد = خوف خفيف من الجمود؛ نبقى caution لكن لا نخفض أكثر.
+
+**Prudence:** fired=yes – كل biases |<=0.3| لا تحتاج مصدرين (ضعيفة)؛ Market Historian أعطى analog لـ EUR/GBP/CHF stall؛ لا strong calls؛ كل شيء متوازن.
+
+**Intuition:** الأسواق في "dead zone" قبل PMIs – أي حركة الآن هي noise؛ الفرصة الحقيقية بعد 4-6 ساعات عندما تنكسر ranges؛ الآن وقت صبر ليس action.
+
+**Mind state:** calm – لا تغيير، لا ضغط، ننتظر catalyst؛ المجلس متفق ومنضبط.
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.6
+regime=mixed
+bias_USD=0.0
+bias_EUR=-0.2
+bias_GBP=-0.2
+bias_JPY=0.0
+bias_AUD=0.1
+bias_NZD=0.0
+bias_CAD=0.0
+bias_CHF=-0.2
+bias_XAU=-0.3
+bias_XAG=-0.3
+bias_OIL=-0.3
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=-0.2
+conf=0.3
+allow_books=INTRADAY,SWING,POSITION,SHOCK,COUNCIL
+news_block=GBP:203:233;EUR:278:383
+block_symbols=none
+shock=none
+prefer_symbols=AUDUSD,AUDNZD
+summary=No change: EUR/GBP/CHF stall 23h (fade -0.2), AUD strongest +0.1 (RBA), gold/oil war premium decay -0.3, REVERT banned, await EU PMIs 4-6h for breakout/breakdown
+summary_ar=لا تغيير: EUR/GBP/CHF stall 23 ساعة (fade -0.2)، AUD الأقوى +0.1 (RBA)، ذهب/نفط war premium يتلاشى -0.3، REVERT محظور، ننتظر PMIs أوروبية 4-6 ساعات
+mind=calm
+psyche_flags=awareness,fear,prudence
+intuition=الأسواق في dead zone قبل PMIs – أي حركة الآن noise؛ الفرصة بعد 4-6 ساعات عند كسر ranges

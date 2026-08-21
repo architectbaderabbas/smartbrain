@@ -1,8 +1,8 @@
 {
- "decisions_scored": 39,
+ "decisions_scored": 40,
  "overall_hit_rate%": {
   "4h": 51,
-  "12h": 52,
+  "12h": 50,
   "24h": 55
  },
  "per_asset_hit_rate%": {
@@ -13,7 +13,7 @@
   },
   "CHF": {
    "4h": 53,
-   "12h": 64,
+   "12h": 67,
    "24h": 27
   },
   "OIL": {
@@ -23,18 +23,18 @@
   },
   "EUR": {
    "4h": 33,
-   "12h": null,
+   "12h": 0,
    "24h": null
   },
   "GBP": {
    "4h": 50,
-   "12h": null,
+   "12h": 0,
    "24h": null
   }
  },
  "by_mind_state%": {
   "focused": 54,
-  "calm": 53,
+  "calm": 50,
   "scattered": 0
  },
  "note": "hit = price moved in the direction of a bias with |bias|>=0.3 after the horizon; None = not enough data yet"

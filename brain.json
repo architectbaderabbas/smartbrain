@@ -1,11 +1,11 @@
 {
- "ts": 1787278915,
- "council_ts": 1787275328,
+ "ts": 1787279814,
+ "council_ts": 1787279814,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.6,
   "regime": "mixed",
-  "conf": 0.35,
+  "conf": 0.3,
   "bias_USD": 0.0,
   "bias_EUR": -0.2,
   "bias_GBP": -0.2,
@@ -22,19 +22,18 @@
   "bias_US30": -0.2,
   "bias_GER40": -0.2,
   "allow_books": "INTRADAY,SWING,POSITION,SHOCK,COUNCIL",
-  "news_block": "GBP:220:250;EUR:295:400",
+  "news_block": "GBP:203:233;EUR:278:383",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "AUDUSD,AUDNZD",
   "mind": "calm",
   "psyche_flags": "awareness,fear,prudence",
-  "intuition": "الأسواق في pre-PMI limbo – الحركة الحقيقية بعد 6-8 ساعات، الآن وقت حذر ليس إقدام",
-  "summary": "KOSDAQ alert false (11min only); EUR/GBP/CHF fade -0.2 (21h stall, 80% historical retrace), oil/gold war premium decay -0.3, AUD strongest +0.1 (RBA), REVERT banned (5-loss streak), await EU PMIs 5-7h",
-  "summary_ar": "إنذار KOSDAQ كان false (11 دقيقة فقط)؛ EUR/GBP/CHF fade ناعم -0.2 (stall 21 ساعة، 80% تاريخياً تصحح)، نفط/ذهب حرب premium يتلاشى -0.3، AUD الأقوى +0.1 (RBA)، REVERT محظور (5 خسائر)، ننتظر PMIs أوروبية",
+  "intuition": "الأسواق في dead zone قبل PMIs – أي حركة الآن noise؛ الفرصة بعد 4-6 ساعات عند كسر ranges",
+  "summary": "No change: EUR/GBP/CHF stall 23h (fade -0.2), AUD strongest +0.1 (RBA), gold/oil war premium decay -0.3, REVERT banned, await EU PMIs 4-6h for breakout/breakdown",
+  "summary_ar": "لا تغيير: EUR/GBP/CHF stall 23 ساعة (fade -0.2)، AUD الأقوى +0.1 (RBA)، ذهب/نفط war premium يتلاشى -0.3، REVERT محظور، ننتظر PMIs أوروبية 4-6 ساعات",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,
