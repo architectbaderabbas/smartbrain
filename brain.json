@@ -1,13 +1,13 @@
 {
- "ts": 1787304683,
- "council_ts": 1787304683,
+ "ts": 1787305030,
+ "council_ts": 1787305030,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.6,
   "regime": "mixed",
-  "conf": 0.5,
+  "conf": 0.55,
   "bias_USD": 0.0,
-  "bias_EUR": 0.0,
+  "bias_EUR": 0.2,
   "bias_GBP": -0.2,
   "bias_JPY": 0.0,
   "bias_AUD": 0.2,
@@ -22,24 +22,19 @@
   "bias_US30": -0.2,
   "bias_GER40": -0.2,
   "allow_books": "INTRADAY,SWING,POSITION,SHOCK,COUNCIL",
-  "news_block": "USD:780:840",
+  "news_block": "USD:770:830",
   "block_symbols": "none",
   "shock": "none",
-  "prefer_symbols": "AUDUSD,USDCAD",
+  "prefer_symbols": "EURUSD,AUDUSD,USDCAD",
   "mind": "focused",
   "psyche_flags": "awareness,prudence,intuition",
-  "intuition": "GBPUSD سينخفض إلى 1.355 خلال 24 ساعة (exhaustion من 6-month high + BoE محايد + USD yields ترتفع)",
-  "summary": "AUD strongest on RBA hawkish (+0.2), CAD firm on oil/3mo high (+0.1), GBP fade from 6mo high (-0.2), EUR/CHF weak (-0.1/0.0), gold ATH stall fade (-0.3), await Trump speech 13h",
-  "summary_ar": "AUD الأقوى (RBA متشدد +0.2)، CAD قوي (نفط/أعلى 3 أشهر +0.1)، GBP ينخفض من أعلى 6 أشهر (-0.2)، EUR/CHF ضعيف (-0.1/0.0)، ذهب ATH stall ينخفض (-0.3)، انتظار خطاب Trump بعد 13 ساعة",
+  "intuition": "USDCHF سينخفض إلى 0.785 خلال 12 ساعة (الهدنة تُضعف CHF، USD ضعيف = CHF أضعف نسبياً)",
+  "summary": "Eurozone PMI 9mo high supports EUR; GBP fades from 6mo peak; AUD/CAD strong on RBA/oil; ceasefire fades gold/oil war premium; caution mode, await Trump speech 13h",
+  "summary_ar": "Eurozone PMI أعلى 9 أشهر يدعم EUR؛ GBP ينخفض من ذروة 6 أشهر؛ AUD/CAD أقوياء (RBA/نفط)؛ الهدنة تُضعف ذهب/نفط؛ وضع حذر، ننتظر خطاب Trump بعد 13 ساعة",
   "news_events": "none"
  },
  "error": null,
  "alerts": [
-  {
-   "ts": 1787081619,
-   "what": "Brent crude tops $91 after unidentified projectile hits vessel in Hormuz; new shipping incident escalates",
-   "sev": 2
-  },
   {
    "ts": 1787089932,
    "what": "Trump threatens to bomb Oman over Iran deal; UAE halts all trade with Iran post-missile attack; escalation signals",
@@ -83,6 +78,11 @@
   {
    "ts": 1787300516,
    "what": "Eurozone PMI Composite hits nine-month high; stronger-than-expected European PMIs; EURUSD approaches 1.17",
+   "sev": 2
+  },
+  {
+   "ts": 1787305016,
+   "what": "Iran-US conditional two-week ceasefire agreed; major de-escalation in Middle East conflict",
    "sev": 2
   }
  ]
