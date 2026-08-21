@@ -1,5 +1,5 @@
-ts=1787308616
-generated=2026-08-21 10:36 UTC (watchman heartbeat; council 15 min ago)
+ts=1787308980
+generated=2026-08-21 10:43 UTC
 version=1
 risk_mode=caution
 risk_mult=0.6
@@ -24,11 +24,10 @@ bias_OIL=0.0
 bias_US500=-0.2
 bias_US100=-0.2
 bias_US30=-0.2
-bias_GER40=-0.2
-summary=Eurozone PMI 9mo high supports EUR; GBP fades from 6mo peak; AUD/CAD strong on RBA/oil; ceasefire fades gold/oil war premium; caution mode, await Trump speech 13h
-summary_ar=Eurozone PMI أعلى 9 أشهر يدعم EUR؛ GBP ينخفض من ذروة 6 أشهر؛ AUD/CAD أقوياء (RBA/نفط)؛ الهدنة تُضعف ذهب/نفط؛ وضع حذر، ننتظر خطاب Trump بعد 13 ساعة
+bias_GER40=0.0
+summary=Eurozone PMI 9mo high holds EUR bid; GBP fades from 6mo peak; AUD/CAD strong on RBA/oil; gold ATH stall fade continues; REVERT banned (5 losses); await Trump 12h
+summary_ar=Eurozone PMI أعلى 9 أشهر يدعم EUR؛ GBP ينخفض من ذروة 6 أشهر؛ AUD/CAD أقوياء (RBA/نفط)؛ ذهب ATH يتوقف؛ REVERT محظور (5 خسائر)؛ ننتظر Trump بعد 12 ساعة
 mind=focused
 psyche_flags=awareness,prudence,intuition
-intuition=USDCHF سينخفض إلى 0.785 خلال 12 ساعة (الهدنة تُضعف CHF، USD ضعيف = CHF أضعف نسبياً)
+intuition=USDCHF سينخفض لـ0.785 خلال 12 ساعة (USD ضعيف أكثر من CHF رغم carry trade)
 news_events=none
-watchman=quiet (sev0)

@@ -2940,3 +2940,82 @@ summary_ar=Eurozone PMI أعلى 9 أشهر يدعم EUR؛ GBP ينخفض من �
 mind=focused
 psyche_flags=awareness,prudence,intuition
 intuition=USDCHF سينخفض إلى 0.785 خلال 12 ساعة (الهدنة تُضعف CHF، USD ضعيف = CHF أضعف نسبياً)
+
+
+# 2026-08-21 10:43 UTC
+## Council debate
+
+**Chief Macro Economist:**
+الوضع الاقتصادي العالمي مختلط: Eurozone PMI عند أعلى مستوى منذ 9 أشهر (52.8 تصنيع، 50.9 خدمات) يدعم النمو الأوروبي رغم الحرب. UK PMI أظهر تباطؤ طفيف لكن فوق 50. RBA متشدد (Kent حذّر من تضخم صاعد ورفع محتمل). النمو الأمريكي غير واضح (ننتظر Trump بعد 12 ساعة). الدورة: أوروبا تتحسن، أستراليا متشددة، أمريكا غامضة.
+
+**Central-Bank Watcher:**
+RBA الأكثر تشدداً الآن (Kent قال رفع ممكن، تضخم صاعد) = AUD قوي. ECB لا تغيير متوقع قريباً (PMI جيد لكن ليس صدمة). BoE محايد (PMI مختلط). Fed: سندات الخزانة فشلت بوقف ارتفاع العوائد (10-year rebound رغم buybacks Bessent) = USD ضعيف هيكلياً. BoJ: CPI متماشي، تدخل ممكن فوق 160 لكن الآن 158.5 = JPY محايد.
+
+**Geopolitical & Crisis Analyst:**
+إيران تهدد برد "مدمّر" لكن أمريكا تهدد بـ"economic D-Day" (عقوبات أقسى). حصار أمريكي قطع صادرات إيران للصين = نفط +2% أمس لكن اليوم مستقر $87-88 (السوق تجاهل تهديدات Trump حسب Axios). روسيا تختبر صواريخ قرب جزر متنازع عليها مع اليابان = توتر لكن ليس تصعيد حاد. الهدنة المحتملة تُضعف ذهب/نفط. خطر: Trump يتكلم بعد 12 ساعة قد يُصعّد أو يُهدّئ.
+
+**FX Strategist:**
+AUD الأقوى (RBA + نحاس/حديد ارتفع، AUDUSD عند 0.716 قرب أعلى 3 أشهر). CAD قوي (نفط $87، USDCAD عند 1.373 أدنى 3 أشهر). EUR صاعد (PMI قوي، EURUSD 1.170 يختبر مقاومة). GBP ضعيف من ذروة 1.366 (retail sales سلبي، PMI تباطأ). CHF ضعيف (carry trade، USDCHF 0.798 صاعد). JPY محايد (158.5، تدخل بعيد). USD ضعيف عموماً (سندات فاشلة، دين).
+
+**Gold & Oil Trader:**
+XAUUSD عند $4590 = ATH جديد لكن momentum يتباطأ (3 أيام عند 4580-4600، لا اختراق حاسم). الهدنة المحتملة + عوائد أمريكية صاعدة = ضغط سلبي. تاريخياً ATH بدون محفز جديد يتراجع 1-2% خلال أسبوع. USOIL $87.4 مستقر (حصار إيران مُسعّر، OPEC+ لا تغيير). اتجاه: ذهب fade -0.3، نفط محايد 0.0.
+
+**Equity / Risk-Sentiment Desk:**
+US500 عند 7677 (-700 نقطة أمس حسب IBD، اليوم مستقر). سندات ترتفع عوائدها = ضغط على أسهم. "bond market will burst stock bubble" (MarketWatch). Eurozone stocks صاعدة (PMI قوي). VIX غير متاح لكن sentiment مختلط. regime: mixed (أوروبا risk-on، أمريكا risk-off من سندات). indices bias -0.2 (حذر من فقاعة).
+
+**Risk Manager:**
+daily P/L +$0.23، equity $459 (حساب صغير). REVERT خسر 5 صفقات متتالية (-$31) = يجب إزالته من allow_books (قاعدة طوارئ). BREAKOUT خسر مرتين pre-data (درس واضح: تعطيل قبل أحداث). Trump speech بعد 12 ساعة = news_block USD ضروري. سيولة جيدة الآن (London active). خطر: flip-flopping (EUR كان 0.0 ثم 0.2 بدون حقائق جديدة قوية). risk_mult يبقى 0.6، caution mode.
+
+**Market Historian:**
+**Eurozone PMI beats:** آخر مرة composite قفز لـ9mo high (مثلاً Q2 2025)، EUR ارتفع 0.5-0.8% خلال 3-5 أيام ثم استقر. الآن EURUSD عند 1.170 (فوق 1.165 بـ50 نقطة منذ أمس) = الحركة بدأت، لكن مقاومة 1.175 قوية تاريخياً. **GBP من ذروة:** آخر مرة GBPUSD وصل 1.366 ثم تراجع (2024 Q3)، خسر 100-150 نقطة خلال أسبوعين. الآن عند 1.366 = ذروة، fade منطقي. **Gold ATH stall:** 2025 عدة مرات ذهب وصل ATH وتوقف 2-3 أيام، تراجع 1-2% ثم استأنف أو انهار حسب USD. الآن USD ضعيف لكن عوائد صاعدة = ذهب fade صحيح. **Oil $87 مع حرب:** 2022-2024 كل مرة نفط فوق $85 بسبب جيوسياسي بدون قطع إمداد حقيقي، تراجع 5-8% خلال شهر. الآن حصار إيران مُسعّر = نفط 0.0 أو fade طفيف.
+
+**Chairman:**
+أستمع للجميع. **الحقائق الصلبة:** Eurozone PMI أقوى 9 أشهر (مصدر: CryptoRank، ING)، RBA Kent متشدد (investingLive)، GBPUSD عند ذروة 6 أشهر، ذهب ATH $4590 لكن stall 3 أيام، نفط $87 مستقر، Trump يتكلم بعد 12 ساعة. **الأدلة القديمة:** EUR 0.2 كان بناءً على PMI = صحيح، نُبقيه. GBP -0.2 من ذروة = صحيح تاريخياً. AUD 0.2 (RBA) قوي. **المشكلة:** REVERT خسر 5 صفقات = يجب حظره (قاعدة). Awareness سيحذر من EUR flip (كان 0.0 ثم 0.2) لكن PMI حقيقة جديدة = مقبول. Greed لن يُطلق (biases متوازنة). Prudence سيطلب مصدرين لكل bias قوي = موجود. **القرار:** نُبقي EUR 0.2، GBP -0.2، AUD 0.2، CAD 0.1، ذهب -0.3، نفط 0.0. نحظر REVERT. conf 0.55 (أدلة جيدة لكن Trump غامض). risk_mult 0.6. caution mode. news_block لـTrump.
+
+---
+
+## Psyche
+
+**Awareness:** fired=yes. قارنت القرار السابق: EUR قفز من 0.0 لـ0.2 قبل 6 ساعات بناءً على PMI preview، الآن PMI actual يؤكد = ليس flip-flopping بل تأكيد. REVERT خسر 5 صفقات متتالية (-$31) = يجب حظره حسب قاعدة الطوارئ (3 خسائر متتالية). SCORECARD يُظهر REVERT 0% hit rate = دليل إضافي. لا تناقض.
+
+**Greed:** fired=no. biases متوازنة (EUR/AUD/CAD إيجابي، GBP/CHF/ذهب/indices سلبي، باقي 0.0). prefer_symbols ثلاثة فقط. conf 0.55 معتدل. risk_mult 0.6 منخفض. لا لغة "easy money". الطمع غير موجود.
+
+**Fear:** fired=no. المجلس لم يتفاعل بشكل مفرط مع عنوان واحد. إيران تهدد لكن السوق تجاهل (Axios) = المجلس لم يُصعّد. REVERT حُظر بناءً على قاعدة (5 خسائر) ليس خوف. التوازن موجود.
+
+**Prudence:** fired=yes. كل bias قوي (|bias|>=0.5) يحتاج مصدرين + تاريخ: EUR 0.2 (PMI CryptoRank + ING + تاريخ 2025)، AUD 0.2 (RBA Kent investingLive + CAD 3mo high Reuters)، GBP -0.2 (ذروة 6mo Bloomberg + تاريخ 2024)، ذهب -0.3 (ATH stall FXStreet + تاريخ 2025). كلها مدعومة. مقبول.
+
+**Intuition:** fired=yes. أشعر أن USDCHF سيهبط لـ0.78 خلال 12 ساعة (CHF يضعف مع carry trade لكن USD أضعف = CHF/USD ينخفض نسبياً). لكن لا أُغيّر أرقام، الرئيس يقرر.
+
+---
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.6
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.2
+bias_GBP=-0.2
+bias_JPY=0.0
+bias_AUD=0.2
+bias_NZD=0.0
+bias_CAD=0.1
+bias_CHF=-0.1
+bias_XAU=-0.3
+bias_XAG=-0.3
+bias_OIL=0.0
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=0.0
+conf=0.55
+allow_books=INTRADAY,SWING,POSITION,SHOCK,COUNCIL
+news_block=USD:713:773
+block_symbols=none
+shock=none
+prefer_symbols=EURUSD,AUDUSD,USDCAD
+summary=Eurozone PMI 9mo high holds EUR bid; GBP fades from 6mo peak; AUD/CAD strong on RBA/oil; gold ATH stall fade continues; REVERT banned (5 losses); await Trump 12h
+summary_ar=Eurozone PMI أعلى 9 أشهر يدعم EUR؛ GBP ينخفض من ذروة 6 أشهر؛ AUD/CAD أقوياء (RBA/نفط)؛ ذهب ATH يتوقف؛ REVERT محظور (5 خسائر)؛ ننتظر Trump بعد 12 ساعة
+mind=focused
+psyche_flags=awareness,prudence,intuition
+intuition=USDCHF سينخفض لـ0.785 خلال 12 ساعة (USD ضعيف أكثر من CHF رغم carry trade)
