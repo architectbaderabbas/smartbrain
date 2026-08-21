@@ -1,5 +1,5 @@
 {
- "ts": 1787313934,
+ "ts": 1787314014,
  "council_ts": 1787313122,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": -0.2,
   "bias_GER40": 0.0,
   "allow_books": "INTRADAY,SWING,POSITION,SHOCK,COUNCIL",
-  "news_block": "USD:645:705",
+  "news_block": "USD:644:704",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "EURUSD,GBPUSD,AUDUSD",
@@ -34,7 +34,7 @@
   "news_events": "none"
  },
  "error": null,
- "watchman": "صفقة US500 SHOCK -1.11$ ← تحليل مكتوب",
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787089932,

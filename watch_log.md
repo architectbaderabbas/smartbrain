@@ -563,3 +563,4 @@
 - 2026-08-21 11:52 UTC · FULL COUNCIL triggered: scheduled full council (last 69 min ago)
 - 2026-08-21 12:03 UTC · heartbeat · quiet (sev0)
 - 2026-08-21 12:05 UTC · heartbeat · صفقة US500 SHOCK -1.11$ ← تحليل مكتوب
+- 2026-08-21 12:06 UTC · heartbeat · quiet (sev0)
