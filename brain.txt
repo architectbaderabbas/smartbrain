@@ -1,12 +1,12 @@
-ts=1787295117
-generated=2026-08-21 06:51 UTC
+ts=1787296016
+generated=2026-08-21 07:06 UTC (watchman heartbeat; council 14 min ago)
 version=1
 risk_mode=caution
 risk_mult=0.65
 regime=mixed
 conf=0.35
 allow_books=INTRADAY,SWING,POSITION,SHOCK,COUNCIL
-news_block=EUR:23:53;EUR:38:68;GBP:98:128
+news_block=EUR:9:39;EUR:24:54;GBP:84:114
 block_symbols=none
 shock=none
 prefer_symbols=AUDUSD,AUDNZD
@@ -31,3 +31,4 @@ mind=focused
 psyche_flags=awareness,fear,prudence,intuition
 intuition=أتوقع French Services 48.7 (أسوأ) + German Services 50.8 (أفضل) = EUR whipsaw سريع هبوطاً ثم ارتداد خلال 30 دقيقة
 news_events=none
+watchman=quiet (sev0)
