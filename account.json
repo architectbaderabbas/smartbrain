@@ -1,22 +1,7 @@
 {
   "account": 10225,
   "balance": 457.93,
-  "books": [
-    {
-      "loss_streak": 1,
-      "name": "SHOCK",
-      "net": -1.11,
-      "trades": 1,
-      "wins": 0
-    },
-    {
-      "loss_streak": 0,
-      "name": "OTHER",
-      "net": 0.35,
-      "trades": 1,
-      "wins": 1
-    }
-  ],
+  "books": [],
   "brain_mode": "CAUTION",
   "day_pl": 0,
   "equity": 457.93,
@@ -44,6 +29,6 @@
     "XAGUSD": 68.944,
     "XAUUSD": 4603.45
   },
-  "ts": 1787348403,
+  "ts": 1787349272,
   "week_pl": 0
 }
