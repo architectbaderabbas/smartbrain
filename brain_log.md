@@ -2826,3 +2826,84 @@ Dow -700 نقطة، S&P 7657 (-1%)، Nasdaq تحت ضغط (Investor's BD 20:34،
 **Prudence:** fired=yes. AUD +0.4 (|bias|=0.4) يحتاج مصدرين: ✅ Kent RBA (investingLive)، ✅ تاريخ المؤرخ (RBA hawkish يستمر 3-7 أيام). EUR/GBP fade -0.2: ✅ استنفاد 22 ساعة، ✅ مؤرخ (PMIs مخيبة = انهيار). كل call قوي مدعوم - مقبول.
 
 **Intuition:** fired=yes. السندات تصرخ أعلى من الكل - الخزانة فقدت المصداقية، هذا ليس تقلباً عابراً. إذا PMIs خيبت، USD يعود ملاذاً رغم فوضاه (لأن أوروبا أسوأ)، وهذا يعكس كل شيء: EUR ينهار، ذهب يسقط، AUD يتراجع. لكن إذا
+
+
+# 2026-08-21 01:22 UTC
+## Council debate
+
+**Chief Macro Economist:**
+إنذار KOSDAQ كان false alarm – circuit breaker لمدة 11 دقيقة فقط، الأسواق الآسيوية الأخرى مستقرة، لا انتقال عدوى. السياق الحقيقي: US Treasury yields عادت للارتفاع بعد فشل تدخل Bessent (buyback مضاعف لم يوقف الضغط)، هذا يدعم USD قليلاً لكن ليس trend قوي. PMIs أوروبية خلال 5-7 ساعات هي المحرك التالي.
+
+**Central-Bank Watcher:**
+BoJ في منطقة خطر – USDJPY عند 159.01، تاريخياً تدخلوا فوق 160 (2022/2024)، لكن الآن yields الأمريكية ترتفع تجعل التدخل أصعب. RBA hawkish أمس (Kent: policy restrictive لكن risks skew higher) يدعم AUD، لكن تأثيره محدود بدون بيانات جديدة. لا speeches مجدولة الـ 24 ساعة القادمة.
+
+**Geopolitical & Crisis Analyst:**
+Trump أعلن "Economic D-Day" ضد إيران (أقسى عقوبات تاريخياً، ضغط على الصين للتعاون) – هذا تحول من military strikes إلى economic pressure. النفط قفز إلى $87 WTI / $93 Brent أمس لكن الآن يتراجع (China تزيد واردات Russian crude تعوض النقص). حرب أوكرانيا: Russian missile barrage قتل 16 في Kyiv – routine escalation، لا تأثير سوقي. Peru زلزال 6.7 – لا علاقة بالأسواق. خلاصة: geopolitical premium يتلاشى، النفط يفقد الزخم.
+
+**FX Strategist:**
+EUR 1.169 / GBP 1.364 / CHF 0.7995 – كلهم عند قمم 3-6 أشهر لكن stalled لـ 21 ساعة بدون catalyst. التاريخ يقول: 80% من هذه الحالات تصحح 30-50% خلال 2-5 أيام. لكن PMIs الأوروبية خلال 5-7 ساعات قد تكسر أو تنهار – الآن pre-event void. AUD الأقوى (RBA hawkish + oil support)، لكن 0.7127 قريب من resistance. JPY ضعيف (159) لكن intervention risk يمنع short قوي. USD محايد (yields ترتفع لكن لا conviction).
+
+**Gold & Oil Trader:**
+XAU $4527 – قفز 4% أمس على Treasury chaos لكن الآن يتماسك، لا momentum جديد. Morgan Stanley يتوقع $5000 في 2027 لكن هذا long-term، الآن overextended (95% من 1-year range). XAG $68.6 تابع للذهب. النفط: WTI $87 / Brent $94 – war premium من Iran sanctions يتلاشى (China/Russia crude flow يعوض، Bessent نفسه "لا يفهم" لماذا النفط ارتفع). التاريخ: oil spikes على sanctions تفقد 50% خلال أسبوع إذا لم يكن supply disruption حقيقي. Bias سلبي -0.3.
+
+**Equity / Risk-Sentiment Desk:**
+Wall Street سقط أمس (Dow -700، yields ترتفع، Walmart خيّب)، SPX 7656 / NDX 29278 – تراجع لكن ليس crash. KOSDAQ circuit breaker كان 11 دقيقة فقط، لا panic. VIX غير متوفر (data error) لكن السياق: bond stress مستمر، risk appetite ضعيف لكن ليس risk-off كامل. Regime: mixed (لا risk-on واضح، لا flight-to-safety). Bias خفيف سلبي -0.2 للمؤشرات.
+
+**Risk Manager:**
+KOSDAQ alert كان overreaction – 11 دقيقة circuit breaker لا يستدعي danger mode. الخطر الحقيقي: PMIs أوروبية خلال 5-7 ساعات (GBP Retail Sales 277 دقيقة، French/German/UK PMIs 352-427 دقيقة) – يجب news_block. REVERT خسر 5 صفقات متتالية (-$31.53) – يجب إزالته من allow_books حتى نهاية اليوم (emergency protocol). Daily loss -0.4% لكن ليس -3% threshold. risk_mode يعود لـ caution، risk_mult 0.6 يبقى.
+
+**Market Historian:**
+KOSDAQ: آخر مرة circuit breaker آسيوي (China 2024, Japan flash crash 2023) – التأثير العالمي صفر إذا انتهى خلال 30 دقيقة، هذا انتهى في 11 دقيقة. EUR/GBP/CHF عند قمم: آخر 5 مرات وصلوا 95%+ من 1y range وstalled لـ 20+ ساعة (2024 مرتين، 2025 ثلاث مرات) – 4 منها صححت 40-60 pips خلال 48 ساعة، واحدة breakout بعد PMI beat. الآن: 21 ساعة stall، PMIs خلال 5-7 ساعات – fade bias -0.2 منطقي لكن conf منخفض. النفط: Iran sanctions 2018/2019 – oil قفز 8% ثم فقد 60% خلال 3 أشهر (waivers + alternative supply). الآن: China/Russia flow يعوض، fade -0.3 يتماشى مع التاريخ.
+
+**Chairman:**
+الحقائق: (1) KOSDAQ alert كان false alarm – نعود لـ caution. (2) REVERT خسر 5 صفقات متتالية – emergency protocol يفرض إزالته. (3) EUR/GBP/CHF stall 21 ساعة عند قمم – التاريخ يدعم fade -0.2 لكن PMIs خلال 5-7 ساعات قد تغير كل شيء، conf منخفض. (4) النفط/الذهب war premium يتلاشى – fade -0.3. (5) AUD الأقوى (RBA) – bias +0.2. (6) PMIs أوروبية tier-1 events – news_block ضروري. القرار: caution mode، risk_mult 0.6، REVERT محظور، biases محافظة (fade EUR/GBP/CHF -0.2، AUD +0.2، oil/gold -0.3)، conf 0.35.
+
+---
+
+## Psyche
+
+**Awareness:** fired=yes. قارنت مع 15 دقيقة الماضية: danger mode كان overreaction (KOSDAQ 11 دقيقة لا يستدعيه)، الآن نصحح. قارنت مع DECISION MEMORY: EUR/GBP/CHF fade bias ثابت منذ 6 ساعات (-0.3 → -0.2 → -0.1 → -0.2)، لا flip-flop، لكن السعر لم يتحرك (still at highs) – stubbornness خفيف. REVERT losses واضحة في JOURNAL – إزالته صحيح.
+
+**Greed:** fired=no. لا ثقة عالية (conf 0.35)، biases متنوعة (fade/long)، لا "easy money" language.
+
+**Fear:** fired=yes. danger mode السابق كان over-reaction لـ KOSDAQ (11 دقيقة circuit breaker)، الآن نصحح لكن يجب تجنب التطرف العكسي – caution صحيح، ليس normal.
+
+**Prudence:** fired=yes. fade EUR/GBP/CHF -0.2 له مصدرين (Market Historian: 80% تصحح، FX Strategist: 21h stall) + analog تاريخي – مقبول. oil/gold -0.3 له مصدرين (Geopolitical: China/Russia flow، Historian: 2018/2019 sanctions fade) – مقبول. AUD +0.2 له مصدر واحد (RBA) بدون analog قوي – downgrade إلى +0.1.
+
+**Intuition:** الأسواق في "pre-PMI limbo" – كل شيء ينتظر البيانات الأوروبية. الحركة الحقيقية ستأتي بعد 6-8 ساعات، الآن وقت الحذر ليس الإقدام.
+
+**Mind state:** calm (صححنا overreaction، biases منطقية، ننتظر catalyst).
+
+---
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.6
+regime=mixed
+bias_USD=0.0
+bias_EUR=-0.2
+bias_GBP=-0.2
+bias_JPY=0.0
+bias_AUD=0.1
+bias_NZD=0.0
+bias_CAD=0.0
+bias_CHF=-0.2
+bias_XAU=-0.3
+bias_XAG=-0.3
+bias_OIL=-0.3
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=-0.2
+conf=0.35
+allow_books=INTRADAY,SWING,POSITION,SHOCK,COUNCIL
+news_block=GBP:277:307;EUR:352:457
+block_symbols=none
+shock=none
+prefer_symbols=AUDUSD,AUDNZD
+summary=KOSDAQ alert false (11min only); EUR/GBP/CHF fade -0.2 (21h stall, 80% historical retrace), oil/gold war premium decay -0.3, AUD strongest +0.1 (RBA), REVERT banned (5-loss streak), await EU PMIs 5-7h
+summary_ar=إنذار KOSDAQ كان false (11 دقيقة فقط)؛ EUR/GBP/CHF fade ناعم -0.2 (stall 21 ساعة، 80% تاريخياً تصحح)، نفط/ذهب حرب premium يتلاشى -0.3، AUD الأقوى +0.1 (RBA)، REVERT محظور (5 خسائر)، ننتظر PMIs أوروبية 5-7 ساعات
+mind=calm
+psyche_flags=awareness,fear,prudence
+intuition=الأسواق في pre-PMI limbo – الحركة الحقيقية بعد 6-8 ساعات، الآن وقت حذر ليس إقدام
