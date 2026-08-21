@@ -536,3 +536,5 @@
 - 2026-08-21 07:51 UTC · FULL COUNCIL triggered: scheduled full council (last 60 min ago)
 - 2026-08-21 08:00 UTC · heartbeat · quiet (sev0)
 - 2026-08-21 08:06 UTC · heartbeat · quiet (sev0)
+- 2026-08-21 08:21 UTC · heartbeat · ALERT sev2: Eurozone PMI Composite hits nine-month high; stronger-than-expected European PMIs; EURUSD approaches 1.17 -> protocol applied, council convening
+- 2026-08-21 08:21 UTC · FULL COUNCIL triggered: ALERT sev2: Eurozone PMI Composite hits nine-month high; stronger-than-expected European PMIs; EURUSD approaches 1.17

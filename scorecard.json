@@ -1,9 +1,9 @@
 {
- "decisions_scored": 40,
+ "decisions_scored": 41,
  "overall_hit_rate%": {
   "4h": 46,
   "12h": 32,
-  "24h": 55
+  "24h": 57
  },
  "per_asset_hit_rate%": {
   "XAU": {
@@ -19,7 +19,7 @@
   "OIL": {
    "4h": 80,
    "12h": 100,
-   "24h": null
+   "24h": 100
   },
   "EUR": {
    "4h": 33,

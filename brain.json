@@ -1,11 +1,11 @@
 {
- "ts": 1787299616,
- "council_ts": 1787298717,
+ "ts": 1787300527,
+ "council_ts": 1787300527,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.6,
   "regime": "risk_off",
-  "conf": 0.4,
+  "conf": 0.45,
   "bias_USD": 0.0,
   "bias_EUR": 0.0,
   "bias_GBP": 0.0,
@@ -22,25 +22,19 @@
   "bias_US30": -0.2,
   "bias_GER40": -0.2,
   "allow_books": "INTRADAY,SWING,POSITION,SHOCK,COUNCIL",
-  "news_block": "GBP:24:54",
+  "news_block": "GBP:-6:24",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "AUDUSD",
   "mind": "calm",
-  "psyche_flags": "none",
-  "intuition": "none",
-  "summary": "EUR/GBP/CHF all to 0.0 (PMI data mixed, no edge), AUD holds +0.1 (RBA), oil to 0.0 (sanctions priced), gold -0.3 (ATH fade), await UK PMIs 38min",
-  "summary_ar": "EUR/GBP/CHF كلها 0.0 (بيانات PMI مختلطة، لا أفضلية)، AUD",
+  "psyche_flags": "awareness,fear,prudence,intuition",
+  "intuition": "EURUSD سيتلاشى إلى 1.165 خلال 12 ساعة (نمط PMI التاريخي)",
+  "summary": "Eurozone PMI beat (composite 9mo high) not game-changer; UK PMI in 7min (block GBP); EUR/GBP/USD neutral pre-data; AUD strongest; gold ATH fade -0.3; oil range 0.0; caution mode",
+  "summary_ar": "PMI أوروبا أقوى (composite أعلى 9 أشهر) لكن ليس تغيير كبير؛ UK PMI بعد 7 دقائق (GBP محظور)؛ EUR/GBP/USD محايد قبل البيانات؛ AUD الأقوى؛ ذهب ATH ينخفض -0.3؛ نفط نطاق 0.0؛ وضع حذر",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
-  {
-   "ts": 1787072472,
-   "what": "Iran fires two missiles at UAE; US-Iran peace hopes fade; Hormuz shipping incident with casualty",
-   "sev": 2
-  },
   {
    "ts": 1787081619,
    "what": "Brent crude tops $91 after unidentified projectile hits vessel in Hormuz; new shipping incident escalates",
@@ -84,6 +78,11 @@
   {
    "ts": 1787275316,
    "what": "KOSDAQ sell-side circuit breaker triggered at 01:07-01:18 UTC; sharp decline in Korean tech index",
+   "sev": 2
+  },
+  {
+   "ts": 1787300516,
+   "what": "Eurozone PMI Composite hits nine-month high; stronger-than-expected European PMIs; EURUSD approaches 1.17",
    "sev": 2
   }
  ]
