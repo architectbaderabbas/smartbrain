@@ -1,28 +1,5 @@
 # SmartBrain lessons (post-mortems on real trades, newest last)
 
-### 2026-08-19 14:10 UTC
-**NZDUSD REVERT SELL 0.05 lots · 50 min · exit SL · P/L -7.15$ · council bias -0.05 (CAUTION)**
-## POST-MORTEM ANALYSIS
-
-**TRADE SUMMARY:**
-REVERT book sold NZDUSD at 0.59164, held 50 minutes, hit stop-loss at 0.59307 for -$7.15 (0.05 lots). This is **REVERT's second consecutive stop-loss on NZDUSD in 84 minutes** (previous: -$6.90 at 13:04 UTC). Independent robot, doesn't read council directives. Direction was SELL into council's slight USD bullish bias (+0.2 USD, +0.1 NZD = net -0.1 against NZD strength), but brain_bias was neutral (-0.05).
-
-**ALIGNMENT & BIAS ACCURACY:**
-REVERT sold NZD **against the council's structural view** (council favours NZD +0.1, USD +0.2). Price context shows NZDUSD rallied from 0.59009 → 0.59307 (+30 pips in 84 minutes), confirming **council bias was directionally correct** – NZD had relative strength vs USD. REVERT's mean-reversion logic faded this strength twice and lost both times. The robot cannot be "wrong" (it's independent), but its edge is **non-existent in trending conditions without price context data**.
-
-**ROOT CAUSE OF LOSS:**
-**Mean-reversion strategy trading blind during 10+ hour price context outage**. REVERT systematically sells strength/buys weakness with no reference to support/resistance, regime, or whether 0.59164 was overbought or mid-trend. The -14 pips stop suggests tight risk management, but **two identical losses in 84 minutes on the same pair = the strategy has no edge in current conditions**. This isn't variance – it's a structural mismatch between REVERT's logic (fade moves) and a trending market it cannot measure.
-
-**CONCRETE LESSON:**
-**Independent mean-reversion robots must be manually disabled during extended data outages** – config changes (allow_books) don't affect REVERT/BREAKOUT/other. The council correctly identified this 3 hours ago ("demand MT4 operator disable EAs"), but **enforcement failed**. REVERT has now lost -$14.05 across 2 trades while the human discretionary trade won +$6.75 in the same window. Lesson: **operator compliance is as critical as council directives**.
-
-**DIRECTIVE CHANGE:**
-Council directives cannot control REVERT (independent robot). **Recommendation for human operator: immediately disable REVERT EA in MT4 terminal** until price context restored. This is the third consecutive loss fading momentum blind. If operator refuses, reduce REVERT lot size to 0.01 (currently 0.05) to limit damage until data returns.
-
-**LESSON:** Mean-reversion without price context produces systematic losses by fading unmeasured trends – human operator must physically disable independent EAs during data blackouts, not rely on config.
-
-**ACTION:** none (
-
 ### 2026-08-19 14:11 UTC
 **NZDUSD REVERT SELL 0.05 lots · 50 min · exit SL · P/L -7.15$ · council bias -0.05 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -398,4 +375,17 @@ SHOCK باع US500 عند 7683 (0.5 لوت)، أُغلقت بعد دقيقتين
 
 **3) السبب الجذري للخسارة:**
 **منطق الدخول في فراغ الأحداث.** SHOCK اكتشف "صدمة" وهمية في سوق راكد (2.21 نقطة حركة في دقيقتين = ضوضاء، ليست صدمة حقيقية). الستوب 2 نقطة فقط والهدف 3 نقطة = scalping متنكر في ثوب shock trading. **الخسارة الثالثة لـSHOCK في 24 ساعة** (8 صفقات، 4 أرباح، صافي -2.33$) تكشف نمطاً: في وضع CAUTION بدون أحداث جديدة، SHOCK يتاجر في الضوضاء لا في الإشارات. الاتجاه صحيح، التوقيت خاطئ، حجم المركز (0.5 لوت = أكبر صفقة في السجل) مبالغ فيه لسوق بلا
+
+### 2026-08-21 12:34 UTC
+**NZDUSD other:0 BUY 0.01 lots · 214 min · exit EA · P/L 0.35$ · council bias 0 (CAUTION)**
+# تحليل ما بعد الصفقة
+
+**1) ما فعله الروبوت:**
+روبوت مستقل (other:0 = magic قديم) اشترى NZDUSD عند 0.5979 (0.01 لوت)، أُغلق بعد 214 دقيقة (3.5 ساعة) بربح +0.35$ عند 0.59825. الدخول 08:00 UTC، الخروج 11:34 UTC. السعر الآن 0.59857 – أي 3.2 نقطة فوق نقطة الخروج، مما يعني أن الروبوت أغلق مبكراً قبل امتداد الحركة.
+
+**2) التوافق مع توجه المجلس:**
+الروبوت مستقل (لا يقرأ المجلس بالتصميم). المجلس كان محايداً (bias=0.0 لـNZD/USD) في وضع CAUTION، وهذا **صحيح**: السعر تحرك 3.5 نقطة فقط في 3.5 ساعة (نطاق ضيق). الملخص حذّر من "فراغ ما قبل البيانات، انتظر Trump بعد 11 ساعة". الروبوت اشترى في نفس النطاق الذي فشل فيه BREAKOUT مرتين (-1.16$، -2.23$)، لكنه **نجح** بفضل إدارة مختلفة.
+
+**3) السبب الجذري للربح:**
+**صبر في الخروج + حجم صغير.** عكس BREAKOUT (ستوب 11-15 نقطة، خسائر سريعة)، هذا الروبوت أمسك 214 دقيقة بستوب 10.5 نقطة وهدف 16 نقطة (1.5R)، وأغلق يدوياً (reason=EA) عند +3.5 نقطة (0.35R فقط). **الربح حظ، ليس مهارة**: السوق كان راكداً (0.2% ATR)، والخروج المبكر ترك 3.2 نقطة إضافية على الطاولة. لكن **الدرس الإيجابي**: الروبوت لم يُصطاد بالضوضاء ك
 

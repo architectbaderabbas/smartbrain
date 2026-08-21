@@ -565,3 +565,4 @@
 - 2026-08-21 12:05 UTC · heartbeat · صفقة US500 SHOCK -1.11$ ← تحليل مكتوب
 - 2026-08-21 12:06 UTC · heartbeat · quiet (sev0)
 - 2026-08-21 12:21 UTC · heartbeat · quiet (sev0)
+- 2026-08-21 12:34 UTC · heartbeat · صفقة NZDUSD other:0 0.35$ ← تحليل مكتوب

@@ -1,5 +1,5 @@
 {
- "ts": 1787314916,
+ "ts": 1787315659,
  "council_ts": 1787313122,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": -0.2,
   "bias_GER40": 0.0,
   "allow_books": "INTRADAY,SWING,POSITION,SHOCK,COUNCIL",
-  "news_block": "USD:629:689",
+  "news_block": "USD:605:665",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "EURUSD,GBPUSD,AUDUSD",
@@ -34,7 +34,7 @@
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
+ "watchman": "صفقة NZDUSD other:0 0.35$ ← تحليل مكتوب",
  "alerts": [
   {
    "ts": 1787089932,
