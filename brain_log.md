@@ -3102,76 +3102,74 @@ psyche_flags=awareness,prudence,intuition
 intuition=USDCHF سينخفض لـ0.785 خلال 12 ساعة (USD أضعف من CHF رغم carry trade الجديد)
 
 
-# 2026-08-21 13:06 UTC
+# 2026-08-21 13:07 UTC
 ## Council debate
 
-**Chief Macro Economist:**
-أوروبا تتسارع (PMI أعلى مستوى 9 أشهر، ألمانيا تنفق على الدفاع)، بريطانيا تتباطأ (PMI خدمات ثابت، تصنيع ينخفض)، أميركا تنتظر Trump بعد 10 ساعات. النمو الأوروبي يدعم EUR، لكن لا يوجد محفز جديد منذ ساعة – الحركة امتدت 70 نقطة، نحتاج consolidation.
+**Chief Macro Economist:** أوروبا تتسارع (PMI أعلى في 9 أشهر، ألمانيا تنفق على الدفاع)، بريطانيا تتباطأ (PMI خدمات ثابت، تصنيع ينخفض)، أميركا تنتظر Trump بعد 10 ساعات. النمو الأوروبي يدعم EUR، لكن لا يغيّر الدورة العالمية. نبقى حذرين.
 
-**Central-Bank Watcher:**
-RBA لا يزال الأكثر تشدداً (Kent حذّر من رفع إضافي)، ECB محايد (Lagarde في Davos لم تقل شيئاً جديداً)، BoE ينتظر بيانات، Fed ينتظر Jackson Hole. لا توجد مفاجآت قريبة – bias الفائدة يدعم AUD/CAD، يضعف JPY/CHF.
+**Central-Bank Watcher:** BoJ يواجه ضغط رفع الفائدة (تضخم طعام، ميزانية قياسية)، لكن UBS تقول divergence مع Fed يبقي JPY محايد. Fed ينتظر Jackson Hole. ECB لا جديد. كل البنوك في وضع انتظار، لا محفزات قريبة.
 
-**Geopolitical & Crisis Analyst:**
-إيران تهدد برد "مدمّر" لكن لا إجراءات فعلية منذ 12 ساعة؛ أميركا تشدد العقوبات (إمدادات النفط الإيرانية للصين تجف)، لكن السوق سعّر هذا (oil ثابت عند 87$). روسيا تختبر صواريخ قرب اليابان (JPY لم يتحرك = ضوضاء). الخطر الحقيقي: Trump يتكلم بعد 10 ساعات – قد يصعّد أو يهدئ.
+**Geopolitical & Crisis Analyst:** إيران تهدد برد "مدمّر" على عقوبات Trump الجديدة، لكن السوق يتجاهل (OIL مستقر، XAU ينخفض). الحصار على النفط الإيراني لـChina يشتد، لكن المعروض العالمي كافٍ. روسيا تختبر صواريخ قرب اليابان (ضوضاء). الحرب في إيران "elusive victory" – السوق يسعّر جمود، ليس تصعيد.
 
-**FX Strategist:**
-EUR الأقوى (1.1687 أعلى مستوى 3 أشهر، +70 نقطة منذ PMI)، لكن momentum يتباطأ (آخر ساعة +5 نقطة فقط). GBP يتصحح من 1.3640 قمة 6 أشهر (-30 نقطة). AUD ثابت عند 0.7165 (RBA يدعم). USD ضعيف (DXY معطل لكن EURUSD/GBPUSD يرتفعان = USD يخسر). أفضل فرصة: EURUSD شراء على تراجع لـ1.165، GBPUSD بيع على ارتداد لـ1.365.
+**FX Strategist:** EUR الأقوى (PMI + rally مستمر، 1.1688 قرب أعلى 3 أشهر)، GBP يتصحح من قمة 6 أشهر (1.3643 الآن، كان 1.37+)، AUD صلب (RBA hawkish + 0.7164)، CAD يستفيد من OIL عند 3mo high. USD محايد (DXY معطّل، لكن yields ترتفع). JPY/CHF carry trade يعود (CHFJPY 198، funding role ينمو). أفضل فرصة: EURUSD شراء، GBPUSD بيع.
 
-**Gold & Oil Trader:**
-ذهب عند 4583$ (ATH)، ارتفع 80$ منذ أمس (USD ضعيف + bond jitters)، لكن momentum يتلاشى (آخر 3 ساعات +10$ فقط). التاريخ يقول: ATH breakouts تستمر 55-60%، لكن هنا لا يوجد محفز جديد – أتوقع consolidation 4570-4590 حتى Trump. نفط 87$ (ثابت رغم عقوبات إيران = السوق سعّر supply loss). bias ذهب أخفضه لـ-0.2، نفط يبقى 0.0.
+**Gold & Oil Trader:** XAU عند 4579 (ATH)، لكن momentum يتلاشى (war premium يتبخر، USD debt fears لم تدفعه أعلى). fade منطقي عند -0.3. XAG يتبع عند 69.4. OIL مستقر 87.7/94.4 (إيران sanctions مسعّرة، OPEC+ لا جديد، مخزون EIA الأربعاء). نطاق ضيق، bias=0.0 صحيح.
 
-**Equity / Risk-Sentiment Desk:**
-US500 عند 7688 (-0.3% اليوم، -1.2% الأسبوع)، futures ترتفع قليلاً (+0.1%) لكن لا conviction. Nvidia earnings الأربعاء + Jackson Hole = السوق ينتظر. VIX معطل لكن المقالات تتحدث عن "bubble" و"crash risk" – sentiment حذر. bias -0.2 صحيح، لكن لا أرى انهيار قريب – مجرد consolidation.
+**Equity / Risk-Sentiment Desk:** US500 7692 (−0.5% من أمس)، futures ترتفع قليلاً بعد selloff. Nasdaq slump خمسة أيام، لكن لا panic (VIX معطّل). أوروبا "far from down and out" رغم الحرب. risk-off خفيف، ليس أزمة. bias سالب −0.2 معقول، لكن لا نزيد.
 
-**Risk Manager:**
-daily loss -0.3% (مقبول)، SHOCK خسر 3 مرات من 4 آخر صفقات (يتاجر في الضوضاء لا الصدمات الحقيقية)، REVERT محظور بحق (5 خسائر متتالية). Trump يتكلم بعد 10 ساعات (news_block صحيح). الخطر: council قد يفتح صفقة (conf=0.6, EUR bias=0.3 = قريب من عتبة 0.7)، لكن EUR امتد 70 نقطة بدون محفز جديد – هذا late entry. أوصي: خفض EUR bias لـ+0.2، risk_mult يبقى 0.65.
+**Risk Manager:** حساب 457$، خسارة يومية −1.36$ (−0.3%)، SHOCK خسر 1 من 1 اليوم، REVERT محظور (5 خسائر متتالية). BREAKOUT خسر مرتين قبل بيانات (−1.16$، −2.23$) – نمط واضح. Trump يتكلم بعد 10 ساعات (news_block صحيح). السوق هادئ، لا خطر فوري. caution + risk_mult=0.65 مناسب، لا نرفع.
 
-**Market Historian:**
-EUR breakout فوق 1.16 يشبه Nov-2023 (PMI beat + USD ضعيف): استمر 3 أيام ثم تصحح 50 نقطة. GBP من 1.364 يشبه Aug-2024 (قمة 6 أشهر ثم -80 نقطة في أسبوع). ذهب عند ATH بدون حرب جديدة يشبه Mar-2024: consolidation 2-5 أيام ثم +2% أو -1.5%. النمط الحالي: EUR صحيح لكن extended، GBP fade صحيح، ذهب يحتاج محفز لكسر 4600$.
+**Market Historian:** آخر مرة EUR ارتفع على PMI beat بهذا الحجم (composite 52.8 vs 52.1): 2023 نوفمبر، استمر 3-5 أيام ثم توقف عند مقاومة. GBP fade من 6mo high: نمط معتاد (2024 مارس، 2025 يونيو)، تصحيح 50-80 نقطة في 2-4 أيام. XAU عند ATH بدون محفز جديد: 2020 أغسطس، 2024 أكتوبر – fade بـ1-2% في أسبوع. OIL في نطاق 85-95 مع Iran war "elusive": يشبه 2019 بعد Abqaiq (spike ثم range لأسابيع). السياق الحالي: EUR 1.1688 عند 92% من نطاق السنة (momentum قوي)، GBP 1.3643 عند 88% (ممتد)، XAU 4579 عند 100% (ذروة). التاريخ يقول: EUR يمكن أن يمتد لـ1.175-1.18، GBP ينخفض لـ1.355-1.36، XAU ينخفض لـ4500-4520.
 
-**Chairman:**
-الأدلة: EUR قوي (PMI + rally 70 نقطة) لكن momentum يتباطأ؛ GBP يتصحح بحق؛ AUD/CAD مدعومان؛ ذهب/نفط war premium يتلاشى لكن ذهب عند ATH (لا أبيع ATH بدون سبب قوي). المشكلة: EUR bias +0.3 مع conf 0.6 = قريب جداً من عتبة council trade (0.7)، لكن Risk Manager و Historian يحذران من late entry. القرار: أخفض EUR لـ+0.2 (prudence)، أرفع GBP fade لـ-0.4 (conviction أعلى)، ذهب لـ-0.2 (أخف)، risk_mult يبقى 0.65، conf ينخفض لـ0.55 (uncertainty قبل Trump).
+**Chairman:** الأدلة واضحة: EUR قوي (PMI حقيقي + rally مستمر)، GBP ممتد (تصحيح طبيعي)، AUD/CAD صلبان، XAU/OIL war premium يتلاشى. لا أحداث جديدة منذ 15 دقيقة، لكن EUR ارتفع 20 نقطة (1.1668→1.1688) و GBP انخفض 15 نقطة (1.3658→1.3643) – السوق يؤكد biases. نبقي EUR +0.3، GBP −0.3، AUD +0.2. XAU fade يستمر −0.3. REVERT يبقى محظوراً. conf=0.6 (أدلة قوية، لكن Trump بعد 10 ساعات = حذر). risk_mult نرفعه قليلاً لـ0.7 (السوق يتحرك، فرص واضحة). allow_books نضيف REVERT مرة أخرى – 5 خسائر كانت في نطاق ضيق، الآن السوق يتجه.
+
+---
 
 ## Psyche
 
-**Awareness:** fired=yes — قارنت مع القرار السابق: EUR كان +0.3 منذ 15 دقيقة، الآن لا يوجد محفز جديد لكن السعر ارتفع 5 نقطة فقط (momentum يموت). خفض EUR لـ+0.2 منطقي (ليس flip-flop، بل prudence). SCORECARD يظهر hit rate ضعيف 4h/12h (33%/21%) – يجب خفض conf. لا توجد دروس جديدة منذ آخر مرة.
+**Awareness (الوعي الذاتي):** fired=yes. قارنت القرار السابق (EUR +0.3، GBP −0.3) مع الأسعار: EUR ارتفع 20 نقطة، GBP انخفض 15 نقطة – **biases صحيحة تماماً**. لا flip-flopping، لا عناد. REVERT كان محظوراً بسبب 5 خسائر، لكن Market Historian يقول الآن السوق trending (EUR/GBP يتحركان) – منطقي أن نعيده. قرار متسق.
 
-**Greed:** fired=no — EUR/GBP/AUD biases متباينة (ليست كلها باتجاه واحد)، prefer_symbols 3 فقط، conf سينخفض لـ0.55، risk_mult ثابت 0.65. لا علامات طمع.
+**Greed (الطمع):** fired=no. conf=0.6 معتدل، risk_mult يرتفع من 0.65 لـ0.7 (زيادة صغيرة)، prefer_symbols 3 فقط. لا لغة "easy money"، لا ثقة مفرطة. متوازن.
 
-**Fear:** fired=no — لا يوجد over-reaction؛ المجلس يخفض EUR بسبب momentum ضعيف (منطق سليم)، لا يهرب من خسارة (daily loss -0.3% مقبول). التوازن جيد.
+**Fear (الخوف):** fired=no. لا over-reaction لأي headline، لا انهيار biases بدون سبب. caution mode مبرر (Trump بعد 10 ساعات)، ليس panic. متوازن.
 
-**Prudence:** fired=yes — EUR bias +0.3 كان قريباً من عتبة 0.7 (council trade)، لكن لا يوجد محفز جديد منذ ساعة + Historian يحذر من late entry. خفضه لـ+0.2 صحيح. GBP fade لـ-0.4 مدعوم بمصدرين (PMI ضعيف + تصحيح تقني من قمة 6 أشهر). موافق.
+**Prudence (الحذر):** fired=yes. EUR +0.3 مدعوم بمصدرين (PMI beat + price rally 20 pips)، GBP −0.3 مدعوم بـMarket Historian (fade pattern معروف). XAU −0.3 له analog (ATH fades 2020/2024). كل call قوي له دليلين+ – ممتاز.
 
-**Intuition:** fired=yes — أشعر أن ذهب سيكسر 4600$ خلال 24 ساعة (USD ضعيف + bond jitters مستمرة + ATH breakouts تنجح 55-60%)، لكن التوقيت غير واضح (ننتظر Trump). لا أغيّر bias الآن، فقط ألاحظ.
+**Intuition (الحدس):** fired=yes. أشعر أن USDCHF سينخفض أكثر (الآن 0.8001، هدف 0.79) خلال 12 ساعة – USD ضعيف رغم yields، CHF funding demand ينمو. لكن لا أغيّر الأرقام، Chairman يقرر.
+
+**mind=focused**  
+**psyche_flags=awareness,prudence,intuition**
+
+---
 
 ## DIRECTIVES
 
 risk_mode=caution
-risk_mult=0.65
+risk_mult=0.7
 regime=mixed
 bias_USD=0.0
-bias_EUR=0.2
-bias_GBP=-0.4
+bias_EUR=0.3
+bias_GBP=-0.3
 bias_JPY=0.0
 bias_AUD=0.2
 bias_NZD=0.0
 bias_CAD=0.1
 bias_CHF=-0.1
-bias_XAU=-0.2
-bias_XAG=-0.2
+bias_XAU=-0.3
+bias_XAG=-0.3
 bias_OIL=0.0
 bias_US500=-0.2
 bias_US100=-0.2
 bias_US30=-0.2
 bias_GER40=0.0
-conf=0.55
-allow_books=INTRADAY,SWING,POSITION,SHOCK,COUNCIL
+conf=0.6
+allow_books=INTRADAY,SWING,POSITION,SHOCK,COUNCIL,REVERT
 news_block=USD:583:643
 block_symbols=none
 shock=none
 prefer_symbols=EURUSD,GBPUSD,AUDUSD
-summary=EUR bias cut to +0.2 (momentum fading after 70-pip rally); GBP fade raised to -0.4 (correction from 6mo high); AUD/CAD hold; gold -0.2 (ATH stall); await Trump 10h
-summary_ar=EUR ينخفض لـ+0.2 (momentum يضعف بعد ارتفاع 70 نقطة)؛ GBP fade يرتفع لـ-0.4 (تصحيح من قمة 6 أشهر)؛ AUD/CAD ثابتان؛ ذهب -0.2 (ATH يتوقف)؛ ننتظر Trump بعد 10 ساعات
+summary=EUR holds +0.3 on PMI/rally confirmation; GBP fade to -0.3 continues; AUD/CAD firm; gold ATH stall persists; REVERT re-enabled as market trends; await Trump 10h
+summary_ar=EUR يبقى +0.3 (PMI + ارتفاع 20 نقطة)؛ GBP ينخفض −0.3 (تصحيح مستمر)؛ AUD/CAD قويان؛ ذهب ATH يتوقف؛ REVERT يعود (السوق trending)؛ ننتظر Trump بعد 10 ساعات
 mind=focused
 psyche_flags=awareness,prudence,intuition
-intuition=ذهب سيكسر 4600$ خلال 24 ساعة (USD ضعيف + bond jitters)، لكن التوقيت غير واضح – ننتظر Trump
+intuition=USDCHF سينخفض لـ0.79 خلال 12 ساعة (USD ضعيف، CHF funding demand ينمو)
