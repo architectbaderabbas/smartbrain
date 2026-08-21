@@ -614,3 +614,5 @@
 - 2026-08-21 20:01 UTC · heartbeat · quiet (sev0)
 - 2026-08-21 20:06 UTC · heartbeat · quiet (sev0)
 - 2026-08-21 20:21 UTC · heartbeat · quiet (sev0)
+- 2026-08-21 20:35 UTC · heartbeat · ALERT sev2: 750+ US service members wounded in Iran war — major casualty escalation not previously disclosed -> protocol applied, council convening
+- 2026-08-21 20:35 UTC · FULL COUNCIL triggered: ALERT sev2: 750+ US service members wounded in Iran war — major casualty escalation not previously disclosed

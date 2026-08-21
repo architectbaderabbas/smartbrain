@@ -1,11 +1,11 @@
 {
- "ts": 1787343716,
- "council_ts": 1787341443,
+ "ts": 1787344526,
+ "council_ts": 1787344526,
  "directives": {
   "risk_mode": "caution",
-  "risk_mult": 0.8,
+  "risk_mult": 0.75,
   "regime": "mixed",
-  "conf": 0.7,
+  "conf": 0.75,
   "bias_USD": 0.0,
   "bias_EUR": 0.3,
   "bias_GBP": -0.4,
@@ -22,25 +22,19 @@
   "bias_US30": -0.2,
   "bias_GER40": 0.2,
   "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT",
-  "news_block": "USD:160:280",
+  "news_block": "USD:134:254",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "XAUUSD,EURUSD,USDJPY,GBPUSD",
   "mind": "focused",
-  "psyche_flags": "none",
+  "psyche_flags": "fear",
   "intuition": "none",
-  "summary": "Gold holds 4617 near ATH on US debt fears; EUR/JPY/CHF firm; GBP fades; oil steady on Iran rhetoric; await Trump speech in 3.25h; all biases unchanged, risk raised to 0.8",
-  "summary_ar": "الذهب يثبت عند 4617$ قرب ATH (مخاوف ديون US)؛ EUR/JPY/CHF أقوياء؛ GBP ينزل؛ النفط مستقر (إيران)؛ ننتظر Trump بعد 3.25 ساعة؛ كل biases ثابتة، risk ارتفع لـ0.8",
+  "summary": "750 US wounded headline is old cumulative data not new attack; all biases confirmed correct; danger downgraded to caution; SHOCK removed after 3 losses; await Trump 2.4h",
+  "summary_ar": "عنوان الـ750 جريح بيانات قديمة تراكمية مش هجوم جديد؛ كل التوجهات صحيحة؛ danger نزل لـcaution؛ SHOCK شلناه بعد 3 خسائر؛ منستنى Trump بعد ساعتين ونص",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
-  {
-   "ts": 1787089932,
-   "what": "Trump threatens to bomb Oman over Iran deal; UAE halts all trade with Iran post-missile attack; escalation signals",
-   "sev": 2
-  },
   {
    "ts": 1787098314,
    "what": "KOSPI plunges 4.96% on US semiconductor slump; Asia tech selloff underway",
@@ -84,6 +78,11 @@
   {
    "ts": 1787305016,
    "what": "Iran-US conditional two-week ceasefire agreed; major de-escalation in Middle East conflict",
+   "sev": 2
+  },
+  {
+   "ts": 1787344516,
+   "what": "750+ US service members wounded in Iran war — major casualty escalation not previously disclosed",
    "sev": 2
   }
  ]
