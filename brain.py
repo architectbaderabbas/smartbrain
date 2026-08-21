@@ -255,10 +255,22 @@ def read_playbook():
 
 
 # ---------- TRADE JOURNAL / LESSONS (learning loop on real trades) ----------
+MERGE_TS = 1787184000  # 2026-08-20 00:00 UTC — SmartRevert_v4/SmartBreakout_v6 retired; books REVERT/INTRADAY reborn inside SmartMulti
+
 def read_trades(n=25):
     p = os.path.join(OUT_DIR, "trades.json")
-    try: return json.load(open(p, encoding="utf-8"))[-n:]
+    try: trades = json.load(open(p, encoding="utf-8"))[-n:]
     except Exception: return []
+    out = []
+    for t in trades:
+        t = dict(t)
+        b = t.get("book", "")
+        if b in ("REVERT", "BREAKOUT") and int(t.get("ts", 0) or 0) < MERGE_TS:
+            # old standalone robot, deleted 2026-08-19/20; its record must NOT be charged
+            # against the new council-aware SmartMulti books of the same name
+            t["book"] = b + "-OLD(retired robot, do not count against the new book)"
+        out.append(t)
+    return out
 
 def trade_stats(trades):
     """Per-book stats over the journal: trades, wins, net, avg minutes, against-bias count."""
@@ -432,11 +444,20 @@ Rules for the directives:
    => shock directive on the asset (XAUUSD/XAGUSD/USOIL/UKOIL/US500/US100/US30/GER40 or an FX pair) with direction and
    validity <= 120 min. Never invent shocks from routine volatility.
  - risk_mode: normal | caution (moderate uncertainty, big data day) | danger (active crisis, extreme volatility) | halt (do not open anything).
+   Caution must have a CONCRETE, CURRENT reason you can name in the debate. If there is no active shock, no severity-1/2 event,
+   and no major scheduled event within the next 2 hours, and the 24h scorecard is >= 60%, choose risk_mode=normal with
+   risk_mult 0.8-1.0. Staying in caution for days "just in case" starves the robots and is itself a mistake the Awareness
+   voice should call out.
  - risk_mult: 0.25..1.25 global multiplier for the robots' risk (1.0 = unchanged).
  - allow_books: subset of INTRADAY,SWING,POSITION,SHOCK,COUNCIL,REVERT that should be allowed now (default ALL).
- - IMPORTANT: a COUNCIL book opens a real trade (0.5% risk, price-confirmed) whenever conf >= 0.6 AND |bias| >= 0.7 on a symbol.
-   So only give |bias| >= 0.7 with conf >= 0.6 when the council is truly convinced by fresh, concrete evidence and the move is
-   likely to persist for the next 4-12 hours. Prefer fewer, stronger calls over many weak ones.
+   Remove a book ONLY for a concrete current reason stated in the debate (e.g. losses of THAT book since 2026-08-20, or a
+   regime it is known to fail in). NEVER remove REVERT or INTRADAY because of trades tagged "-OLD(retired robot...)" — those
+   belong to deleted standalone robots, not to the current council-aware books, whose record starts fresh on 2026-08-20.
+ - IMPORTANT: a COUNCIL book opens a real trade (0.5% risk, price-confirmed, max 1/day/symbol, max 2 open) whenever
+   conf >= 0.45 AND |bias| >= 0.35 on a symbol. Give such a bias when fresh, concrete evidence supports a move that should
+   persist for the next 4-12 hours; the robot still demands price confirmation before entering. Prefer fewer, stronger calls
+   over many weak ones — but do not park every bias at 0.1-0.2 out of habit: a view the council genuinely holds should
+   reach 0.35-0.5 so the machine can act on it.
 Output format: first a section "## Council debate" (short, max ~28 lines, each expert one or two lines, then Chairman). Name each speaker exactly in English, e.g. "Market Historian:", but each expert WRITES HIS LINES IN SIMPLE ARABIC (فصحى بسيطة مفهومة للبناني؛ أرقام ورموز الأدوات بالإنكليزية مثل XAUUSD) — the operator Pedro reads Arabic only.
 Then a section "## Psyche" (5 short lines: Awareness / Greed / Fear / Prudence / Intuition, each with fired=yes|no and one sentence IN ARABIC).
 Then a section "## DIRECTIVES" containing ONLY key=value lines, no prose, exactly these keys:
