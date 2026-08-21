@@ -2866,3 +2866,82 @@ summary_ar=EUR/GBP/CHF fade رُفع لـ -0.2 (خطر PMI ضعيف)، AUD +0.2 
 mind=focused
 psyche_flags=awareness,fear,prudence,intuition
 intuition=الـ stall 25 ساعة coiled spring - French Services <49.0 سيطلق EUR هبوط 60 pips خلال 15 دقيقة
+
+
+# 2026-08-21 06:51 UTC
+## Council debate
+
+**Chief Macro Economist:**
+الاقتصاد الأوروبي على حافة الهاوية - PMIs الفرنسية والألمانية خلال 23-38 دقيقة ستحدد المصير. التوقعات: فرنسا Services 49.4 (انكماش)، ألمانيا Manufacturing 52.1 (ثبات ضعيف). إذا جاءت فرنسا <49.0 كما تتوقع الحدس، EUR ينهار. الـ 25-hour stall = طاقة مكبوتة تنتظر trigger.
+
+**Central-Bank Watcher:**
+لا جديد من البنوك المركزية منذ 15 دقيقة. RBA أبقى 4.35% كما متوقع - الـ AUD +0.2 bias صحيح لكن exhausted (Governor تكلم عن AI لا عن rates). Jackson Hole قادم لكن Trump يتكلم اليوم 16 ساعة من الآن - low impact. الـ BOJ/Fed/ECB صامتون. لا تغيير.
+
+**Geopolitical & Crisis Analyst:**
+إيران: Trump أعلن "أقسى عقوبات في التاريخ" لكن السوق يتثاءب - النفط 87$ ثابت، الذهب 4566$ ثابت. الـ war premium يتلاشى كما قلنا (bias -0.3 صحيح). لا escalation جديد منذ 6 ساعات. Peru زلزال 6.7 + tornado Long Island = ضجيج محلي لا تأثير. الوضع مستقر-ممل.
+
+**FX Strategist:**
+EURUSD 1.1697، GBPUSD 1.3648، USDCHF 0.7997 - كلهم جامدون 25 ساعة. الـ fade bias -0.2 منطقي لكن السوق ينتظر PMIs لا يتحرك. AUD 0.7145 قوي لكن AUDUSD ثابت 12 ساعة - الـ +0.2 bias مبالغ فيه بدون حركة. NZD/CAD/JPY صفر conviction. السوق في suspended animation قبل البيانات.
+
+**Gold & Oil Trader:**
+ذهب 4566$ (-0.4% من أمس)، فضة 68.97$ (-0.3%)، نفط WTI 87.09$ (-0.1%) - الـ -0.3 bias يعمل ببطء. لكن الحركة 6 ساعات = 20 pips ذهب، 10 cents نفط. هذا ليس trend، هذا stall. Morgan Stanley قال ذهب يصعد 2027 لكن اليوم؟ ranging. لا edge حتى تنكسر 4550$ أو 4580$.
+
+**Equity / Risk-Sentiment Desk:**
+SPX 7661 (-0.01%)، NDX 29314 (ثابت)، DAX 26032 (ثابت). الـ -0.2 bias على indices صحيح (bond yields مرتفعة، Walmart خيّب) لكن السوق لا يبيع - يجمد. VIX غير متاح لكن الـ ranging 18 ساعة يقول: low conviction. Risk-off خفيف لا panic.
+
+**Risk Manager:**
+REVERT محظور (5 خسائر متتالية -31.53$) - صحيح 100%. SHOCK خسر -1.35$ من 8 صفقات (50% win rate لكن SL hits 75%) - يحتاج مراقبة. BREAKOUT خسر -2.23$ و -1.16$ في pre-data windows - نحن محقون بحظر news_block. Account 459$ (daily 0%, week 0%) - نظيف. PMIs خلال 23-138 دقيقة = danger zone. أبقِ caution، أبقِ news_block، لا ترفع risk_mult فوق 0.65.
+
+**Market Historian:**
+الـ 25-hour EUR/GBP/CHF stall يشبه Aug-2024 pre-Jackson Hole (جمدوا 30 ساعة ثم PMI ضعيف أطلق EUR -80 pips في ساعة). يشبه أيضاً Jul-2023 pre-ECB (stall 20h ثم Lagarde dovish = -60 pips). Pattern: European stalls قبل data تنفجر 70% بالاتجاه الذي يؤكده الـ print. إذا French Services <49.0، EUR ينهار لـ 1.165 خلال ساعة. إذا >49.8، يرتد لـ 1.175. الـ -0.2 bias صحيح لكن يجب رفعه لـ -0.4 إذا جاء <49.0، أو قلبه لـ +0.3 إذا >49.8. الذهب عند 4566$ = 96th percentile of 1y range - تاريخياً عند هذا المستوى مع fading war premium، 65% احتمال retrace لـ 4520-4540$ خلال 3 أيام. الـ -0.3 bias مبرر.
+
+**Chairman:**
+الوضع واضح: السوق معلق 25 ساعة ينتظر PMIs (23-138 دقيقة). الـ biases الحالية (-0.2 EUR/GBP/CHF، +0.2 AUD، -0.3 gold/oil) صحيحة لكن الـ confidence 0.35 منخفضة جداً - السوق لا يتحرك. Historian محق: الـ stall = coiled spring. Intuition محقة: French Services <49.0 سيطلق هبوط. لكن نحن لا نملك crystal ball. القرار: نُبقي كل شيء unchanged حتى الـ prints، نرفع conf قليلاً لـ 0.4 (الـ setup واضح)، نُبقي news_block، نُحضّر لـ shock directive إذا French Services <48.5 أو >50.5 (surprise كبير). Risk Manager محق: caution + 0.65 risk_mult مثالي. لا نتحرك قبل البيانات.
+
+---
+
+## Psyche
+
+**Awareness:** fired=yes — قارنت آخر 8 قرارات: نحن ثابتون 6 ساعات (EUR/GBP/CHF -0.1 ثم -0.2، AUD +0.1 ثم +0.2، gold/oil -0.3). السوق لم يتحرك (EUR 1.1697 ثابت، XAU 4566 ثابت). هذا consistency صحيح لا flip-flop. Scorecard يقول EUR 4h hit rate 33% فقط - يجب خفض conf، لكن Chairman رفعها - أحذر.
+
+**Greed:** fired=no — لا علامات طمع. الـ biases متواضعة (max 0.2)، risk_mult 0.65 معتدل، prefer_symbols 4 فقط. المجلس حذر.
+
+**Fear:** fired=yes — Chairman يقول "لا نتحرك قبل البيانات" لكن رفع conf من 0.35 لـ 0.4 بدون سبب جديد. هذا تناقض خفيف. الـ REVERT ban + SHOCK losses تخلق anxiety. أقول: الـ 0.4 conf مبالغ - أبقِها 0.35 حتى نرى print.
+
+**Prudence:** fired=yes — الـ EUR -0.2 bias يعتمد على "PMI breakdown risk" لكن forecast 49.4 ليس كارثة. Historian أعطى analog (Aug-2024) لكن sample size صغير. الـ AUD +0.2 يعتمد على RBA speech عن AI لا rates - ضعيف. أخفض EUR لـ -0.1، AUD لـ +0.1 حتى نرى حقائق.
+
+**Intuition:** fired=yes — أشعر أن الـ French Services سيأتي 48.7-48.9 (أسوأ من forecast) والـ German Services سيفاجئ 50.8+ (أفضل). هذا سيخلق EUR whipsaw: هبوط سريع ثم ارتداد. لا أغيّر أرقام لكن أقول: استعدوا لـ volatility ثنائية الاتجاه.
+
+---
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.65
+regime=mixed
+bias_USD=0.0
+bias_EUR=-0.1
+bias_GBP=-0.1
+bias_JPY=0.0
+bias_AUD=+0.1
+bias_NZD=0.0
+bias_CAD=0.0
+bias_CHF=-0.1
+bias_XAU=-0.3
+bias_XAG=-0.3
+bias_OIL=-0.3
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=-0.2
+conf=0.35
+allow_books=INTRADAY,SWING,POSITION,SHOCK,COUNCIL
+news_block=EUR:23:53;EUR:38:68;GBP:98:128
+block_symbols=none
+shock=none
+prefer_symbols=AUDUSD,AUDNZD
+summary=EUR/GBP/CHF biases lowered to -0.1 (prudence: no hard evidence yet), AUD to +0.1, gold/oil hold -0.3, await PMI prints 23-138min for breakout
+summary_ar=EUR/GBP/CHF خُفضت لـ -0.1 (حذر: لا دليل قوي بعد)، AUD لـ +0.1، ذهب/نفط -0.3، ننتظر PMIs 23-138 دقيقة للاختراق
+mind=focused
+psyche_flags=awareness,fear,prudence,intuition
+intuition=أتوقع French Services 48.7 (أسوأ) + German Services 50.8 (أفضل) = EUR whipsaw سريع هبوطاً ثم ارتداد خلال 30 دقيقة
