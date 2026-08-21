@@ -564,3 +564,4 @@
 - 2026-08-21 12:03 UTC · heartbeat · quiet (sev0)
 - 2026-08-21 12:05 UTC · heartbeat · صفقة US500 SHOCK -1.11$ ← تحليل مكتوب
 - 2026-08-21 12:06 UTC · heartbeat · quiet (sev0)
+- 2026-08-21 12:21 UTC · heartbeat · quiet (sev0)
