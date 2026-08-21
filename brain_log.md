@@ -3052,3 +3052,84 @@ summary_ar=لا تغيير: EUR/GBP/CHF stall 24 ساعة (fade -0.2)، AUD +0.1
 mind=calm
 psyche_flags=awareness,fear,prudence
 intuition=الـ 24h stall هو coiled spring - أول PMI surprise سيطلق 50-100 pip move خلال 30 دقيقة
+
+
+# 2026-08-21 04:51 UTC
+## Council debate
+
+**Chief Macro Economist:**
+الاقتصاد الأميركي قوي (Treasury yields مرتفعة رغم التدخل)، لكن bond market stress يزيد المخاطر. أوروبا: PMIs خلال ساعة واحدة (GBP retail sales 68 دقيقة، French/German PMIs 143-158 دقيقة) - هذه هي الـ catalyst الوحيد اليوم. نبقى caution حتى نرى الأرقام.
+
+**Central-Bank Watcher:**
+Fed minutes أمس أظهرت September hike لا يزال محتمل (yields ارتفعت). ECB hawkish حسب headlines أمس (Euro gains on hawkish outlook). RBA hawkish أمس دعم AUD. لكن كل هذا stale (12-24 ساعة) - الـ fresh catalyst هو PMIs خلال 68-218 دقيقة.
+
+**Geopolitical & Crisis Analyst:**
+Trump "economic D-Day" على إيران (toughest sanctions in history) - لكن oil ارتفع أمس ثم faded (WTI 87، Brent 93.8 الآن). إيران dismissed threats. هذا economic war مش military escalation - oil premium يتلاشى صح (bias -0.3 صحيح). لا جديد منذ 3 ساعات.
+
+**FX Strategist:**
+EUR 1.1692، GBP 1.3642، CHF 0.7999 - كلهم stalled 24 ساعة عند highs (council fade -0.2 منذ 5 ساعات لكن ما في breakdown). AUD 0.7141 strongest (+0.1 RBA). USDJPY 159.05 (Japan intervention turbo-charged carry trade حسب CNBC). الـ 24h stall هو indecision قبل PMIs - direction غير واضح، نبقى -0.2 fade.
+
+**Gold & Oil Trader:**
+XAU 4541 (-0.3 bias صحيح، war premium fading). XAG 69 (same). Oil: WTI 87، Brent 93.8 - Trump economic sanctions مش supply shock، premium يتلاشى. Reuters: "oil set for second weekly rise" لكن momentum ضعيف. نبقى -0.3.
+
+**Equity / Risk-Sentiment Desk:**
+SPX 7659، NDX 29297، DAX 26025 - كلهم -0.2 bias (bond stress). Wall Street sank أمس (Dow -700). KOSDAQ alert كان false. Risk-off خفيف مش crisis. نبقى -0.2.
+
+**Risk Manager:**
+GBP retail sales 68 دقيقة، EUR PMIs 143-218 دقيقة - news_block صحيح. REVERT محظور (5 losses متتالية). Account 459$ (stable، لا خسائر اليوم). نبقى caution، risk_mult 0.6. لا خطر فوري.
+
+**Market Historian:**
+الـ 24h stall قبل tier-1 data (PMIs) historically ينتج breakout/breakdown خلال 30-60 دقيقة من الـ print. EUR/GBP/CHF عند 1-year highs (EUR 1.169 قرب top of range) - إذا PMIs disappointed، retrace 50-80 pips خلال ساعات (pattern 2024/2025). إذا beat، continuation 30-50 pips ثم stall. الـ fade bias -0.2 منطقي لكن ما تأكد - نحتاج PMI catalyst.
+
+**Chairman:**
+لا جديد منذ 3 ساعات. EUR/GBP/CHF stall 24h (fade -0.2 يبقى)، AUD +0.1 (RBA)، gold/oil -0.3 (war premium decay)، indices -0.2 (bond stress). PMIs خلال 68-218 دقيقة هي الـ catalyst الوحيد. نبقى caution، risk_mult 0.6، conf 0.3 (low لأن waiting for data). REVERT محظور. لا تغيير.
+
+---
+
+## Psyche
+
+**Awareness:** fired=yes. قارنت مع PREVIOUS: لا تغيير منذ 3 ساعات (8 decisions متتالية نفس الـ biases تقريباً). هذا مش flip-flop، هذا patience صحيح قبل PMIs. SCORECARD: overall hit rate 49% 4h، XAU 50% 4h لكن 82% 24h (fade bias -0.3 قد يكون مبكر). REVERT 0% wins (5/5 losses) - الحظر صحيح. لا مشكلة.
+
+**Greed:** fired=no. Conf 0.3 منخفض، biases ضعيفة (max 0.3)، prefer_symbols قصير (AUD only). لا علامات greed.
+
+**Fear:** fired=yes. Council يكرر "await PMIs" منذ 8 ساعات دون تغيير - هذا over-caution خفيف. الـ 24h stall مش خطر، هو indecision طبيعي. لكن caution mode صحيح (PMIs قريبة). Fear خفيف مش مشكلة.
+
+**Prudence:** fired=yes. كل الـ biases |<=0.3| - لا strong calls. هذا صحيح (no fresh evidence منذ 3 ساعات). لكن EUR/GBP/CHF fade -0.2 منذ 5 ساعات دون breakdown يحتاج re-check: إذا ما في breakdown خلال 1 ساعة قبل PMIs، downgrade ل -0.1.
+
+**Intuition:** الـ stall هو coiled spring - أول PMI surprise (beat أو miss) سيطلق 50-100 pip في EUR/GBP خلال 30 دقيقة. اتجاه غير واضح، لكن volatility قادمة.
+
+**Mind state:** calm. Council patient، ينتظر data، لا panic ولا greed.
+
+---
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.6
+regime=mixed
+bias_USD=0.0
+bias_EUR=-0.1
+bias_GBP=-0.1
+bias_JPY=0.0
+bias_AUD=0.1
+bias_NZD=0.0
+bias_CAD=0.0
+bias_CHF=-0.1
+bias_XAU=-0.3
+bias_XAG=-0.3
+bias_OIL=-0.3
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=-0.2
+conf=0.3
+allow_books=INTRADAY,SWING,POSITION,SHOCK,COUNCIL
+news_block=GBP:68:98;EUR:143:173;EUR:158:188;GBP:218:248
+block_symbols=none
+shock=none
+prefer_symbols=AUDUSD,AUDNZD
+summary=EUR/GBP/CHF fade downgraded to -0.1 (24h stall, no breakdown yet); AUD +0.1 (RBA); gold/oil -0.3 (war premium decay); await PMIs 1-3.5h for breakout
+summary_ar=EUR/GBP/CHF fade خُفّض ل -0.1 (stall 24h، لا breakdown بعد)؛ AUD +0.1 (RBA)؛ ذهب/نفط -0.3 (war premium يتلاشى)؛ ننتظر PMIs 1-3.5 ساعة
+mind=calm
+psyche_flags=awareness,fear,prudence
+intuition=الـ stall هو coiled spring - أول PMI surprise سيطلق 50-100 pip خلال 30 دقيقة
