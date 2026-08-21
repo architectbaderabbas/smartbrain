@@ -1,6 +1,6 @@
 {
- "ts": 1787282515,
- "council_ts": 1787279814,
+ "ts": 1787283418,
+ "council_ts": 1787283418,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.6,
@@ -22,19 +22,18 @@
   "bias_US30": -0.2,
   "bias_GER40": -0.2,
   "allow_books": "INTRADAY,SWING,POSITION,SHOCK,COUNCIL",
-  "news_block": "GBP:160:190;EUR:235:340",
+  "news_block": "GBP:143:173;EUR:218:323",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "AUDUSD,AUDNZD",
   "mind": "calm",
   "psyche_flags": "awareness,fear,prudence",
-  "intuition": "الأسواق في dead zone قبل PMIs – أي حركة الآن noise؛ الفرصة بعد 4-6 ساعات عند كسر ranges",
-  "summary": "No change: EUR/GBP/CHF stall 23h (fade -0.2), AUD strongest +0.1 (RBA), gold/oil war premium decay -0.3, REVERT banned, await EU PMIs 4-6h for breakout/breakdown",
-  "summary_ar": "لا تغيير: EUR/GBP/CHF stall 23 ساعة (fade -0.2)، AUD الأقوى +0.1 (RBA)، ذهب/نفط war premium يتلاشى -0.3، REVERT محظور، ننتظر PMIs أوروبية 4-6 ساعات",
+  "intuition": "الـ 24h stall هو coiled spring - أول PMI surprise سيطلق 50-100 pip move خلال 30 دقيقة",
+  "summary": "No change: EUR/GBP/CHF 24h stall (fade -0.2), AUD +0.1 (RBA), gold/oil war premium decay -0.3, REVERT banned, await EU PMIs 2.5-5h for breakout",
+  "summary_ar": "لا تغيير: EUR/GBP/CHF stall 24 ساعة (fade -0.2)، AUD +0.1 (RBA)، ذهب/نفط war premium يتلاشى -0.3، REVERT محظور، ننتظر PMIs أوروبية 2.5-5 ساعات",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787072472,
