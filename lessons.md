@@ -1,28 +1,5 @@
 # SmartBrain lessons (post-mortems on real trades, newest last)
 
-### 2026-08-19 13:14 UTC
-**XAGUSD other:0 BUY 0.01 lots · 14 min · exit MANUAL · P/L 6.75$ · council bias 0 (CAUTION)**
-## POST-MORTEM ANALYSIS
-
-**TRADE SUMMARY:**
-"other:0" book (COUNCIL = manual human discretion) bought XAGUSD at 64.935, held 14 minutes, manually closed at 65.07 for +$6.75 (0.01 lots). Direction was BUY silver with **neutral council bias** (brain_bias 0, XAG 0.0). Entered same minute as the doomed REVERT NZDUSD trade, exited 3 minutes after REVERT hit stop-loss.
-
-**ALIGNMENT & BIAS ACCURACY:**
-Trade was **discretionary with no council directional view** on silver. **Cannot verify bias correctness – price context dead 10+ hours**. The +13.5 pip move in 14 minutes suggests either genuine momentum read or lucky timing. Without price context, impossible to know if 64.935 was support bounce or random entry. Council had no XAG opinion, so alignment is N/A.
-
-**ROOT CAUSE OF WIN:**
-**Human discretion adapting to zero-visibility conditions**. This worked because: 1) Small size (0.01 lots, conservative), 2) Manual exit discipline (took +13.5 pips, didn't wait for TP at 68.032), 3) **Avoided systematic logic that requires data**. Discretionary trading can read order flow and exit dynamically without historical context. But 14-minute hold suggests opportunistic scalp, not conviction – **likely 60% skill, 40% luck**.
-
-**CONCRETE LESSON:**
-**This win validates "COUNCIL-only" trading during data blackouts** – humans can adapt where robots cannot. BUT the +$6.75 barely offsets the -$6.90 REVERT loss that happened simultaneously (net -$0.15). Real issue: **REVERT shouldn't have traded at all**. The win proves discretionary works; the simultaneous REVERT loss proves **enforcement failure** – MT4 operator hasn't disabled banned EAs despite 10+ hour data outage.
-
-**DIRECTIVE CHANGE:**
-**No change to directives** (allow_books=COUNCIL already correct). But **demand written confirmation from MT4 operator**: REVERT EA physically disabled until price context restored. Manual trading can continue cautiously (this proved it works), but systematic strategies must be suspended, not just "not allowed" in config.
-
-**LESSON:** Discretionary human trading during data blackouts can capture moves robots miss, but only if systematic EAs are actually disabled – config changes aren't enough.
-
-**ACTION:** none (directives correct; enforcement is the problem – escalate to MT4 operator for EA suspension confirmation)
-
 ### 2026-08-19 14:10 UTC
 **NZDUSD REVERT SELL 0.05 lots · 50 min · exit SL · P/L -7.15$ · council bias -0.05 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -408,4 +385,17 @@ BREAKOUT operates independently – council bias irrelevant by design. Council's
 
 **DIRECTIVE CHANGE:**
 None (BREAKOUT is independent, council has no authority). **OPERATOR ACTION REQUIRED:** Disable BREAKOUT or reduce risk to 0.3x when `news_block` directive is active.
+
+### 2026-08-21 12:05 UTC
+**US500 SHOCK SELL 0.5 lots · 2 min · exit SL · P/L -1.11$ · council bias -0.2 (CAUTION)**
+# تحليل ما بعد الصفقة
+
+**1) ما فعله الروبوت:**
+SHOCK باع US500 عند 7683 (0.5 لوت)، أُغلقت بعد دقيقتين عند الستوب 7685.21 بخسارة -1.11$. الدخول 10:56 UTC، الخروج 10:58 UTC. السعر الآن 7684.88 – أي 0.33 نقطة فقط فوق نقطة الدخول، مما يعني أن الستوب أُصيب في قمة محلية ثم عاد السعر للنزول.
+
+**2) التوافق مع توجه المجلس:**
+الصفقة **متوافقة تماماً** مع bias المجلس (-0.2 لـUS500 في وضع CAUTION). المجلس كان محقاً: السعر الآن أقل من نقطة الدخول بـ2 نقطة، والانخفاض من 7685 إلى 7684 يؤكد الاتجاه الهبوطي. لكن SHOCK دخل قبل 11 ساعة من خطاب Trump (news_block يحذر من حدث بعد 10.8 ساعة)، في سوق بلا محفز فوري.
+
+**3) السبب الجذري للخسارة:**
+**منطق الدخول في فراغ الأحداث.** SHOCK اكتشف "صدمة" وهمية في سوق راكد (2.21 نقطة حركة في دقيقتين = ضوضاء، ليست صدمة حقيقية). الستوب 2 نقطة فقط والهدف 3 نقطة = scalping متنكر في ثوب shock trading. **الخسارة الثالثة لـSHOCK في 24 ساعة** (8 صفقات، 4 أرباح، صافي -2.33$) تكشف نمطاً: في وضع CAUTION بدون أحداث جديدة، SHOCK يتاجر في الضوضاء لا في الإشارات. الاتجاه صحيح، التوقيت خاطئ، حجم المركز (0.5 لوت = أكبر صفقة في السجل) مبالغ فيه لسوق بلا
 
