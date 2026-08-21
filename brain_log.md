@@ -3019,3 +3019,84 @@ summary_ar=Eurozone PMI أعلى 9 أشهر يدعم EUR؛ GBP ينخفض من �
 mind=focused
 psyche_flags=awareness,prudence,intuition
 intuition=USDCHF سينخفض لـ0.785 خلال 12 ساعة (USD ضعيف أكثر من CHF رغم carry trade)
+
+
+# 2026-08-21 11:52 UTC
+## Council debate
+
+**Chief Macro Economist:**
+الاقتصاد الأوروبي يتسارع (PMI composite أعلى 9 أشهر 52.1) بفضل الإنفاق الدفاعي الألماني؛ بريطانيا تتباطأ قليلاً لكن لا تنهار؛ أميركا تنتظر خطاب Trump بعد 11 ساعة - الدورة الحالية: نمو أوروبي معتدل، أميركا مستقرة، لا تغيير في الأسعار.
+
+**Central-Bank Watcher:**
+ECB لن تتحرك قريباً (PMI جيد لكن ليس حاراً)؛ BoE في وضع انتظار (PMI خدمات 51.8 كما متوقع)؛ BoJ تحت ضغط من تضخم الغذاء لكن لا إشارات فورية؛ Fed صامت حتى Jackson Hole - لا محفزات من البنوك المركزية اليوم.
+
+**Geopolitical & Crisis Analyst:**
+إيران تهدد برد "مدمر" لكن لا أفعال جديدة منذ 6 ساعات؛ أميركا تشدد العقوبات الاقتصادية (ليس عسكري)؛ روسيا تختبر صواريخ قرب جزر متنازع عليها مع اليابان (تصعيد رمزي فقط)؛ الأسواق تتجاهل الكلام - war premium يتلاشى، لا severity-2 event.
+
+**FX Strategist:**
+EUR الأقوى (PMI + EURUSD عند 1.1697 قرب أعلى 3 أشهر)؛ AUD قوي (RBA hawkish + AUDUSD 0.7163)؛ CAD صلب (نفط + 3-month high)؛ GBP يتراجع من ذروة 1.3652 (profit-taking طبيعي)؛ USD/JPY/CHF محايدون؛ NZD ضعيف نسبياً - الترتيب: EUR=AUD > CAD > USD=JPY=CHF > GBP > NZD.
+
+**Gold & Oil Trader:**
+XAUUSD عند 4598$ (ATH منذ 48 ساعة لكن توقف)؛ ceasefire talks تسحب war premium؛ US debt concerns تدعم لكن momentum يتباطأ؛ USOIL 87.35$ مستقر (عقوبات إيران مسعرة، OPEC+ لا تحرك)؛ gold bias -0.3 صحيح (fade)، oil 0.0 صحيح (range).
+
+**Equity / Risk-Sentiment Desk:**
+SPX 7684 (-0.3% اليوم)، NDX 29439 (-0.4%)؛ bond yields مرتفعة تضغط على tech؛ VIX منخفض؛ regime mixed (لا risk-on واضح ولا risk-off)؛ indices bias -0.2 معقول لكن لا conviction قوية.
+
+**Risk Manager:**
+daily P/L +0.03$ (مسطح)؛ REVERT خسر 5 مرات متتالية (-31.53$) - يجب إبقاؤه محظوراً؛ SHOCK/other:0 إيجابيون صافي؛ Trump speech بعد 11 ساعة (news_block USD صحيح)؛ لا خطر سيولة؛ caution mode مناسب، risk_mult 0.6 محافظ كفاية.
+
+**Market Historian:**
+EUR rallies على PMI beats عادة تستمر 1-3 أيام (مثل Nov-2024، Mar-2025)؛ GBP profit-taking من 6-month highs طبيعي (يتراجع 0.5-1% ثم يستقر)؛ gold عند ATH بدون محفز جديد: آخر 5 مرات تلاشى 1-2% خلال أسبوع؛ oil في نطاق 85-90$ منذ 3 أسابيع (Iran sanctions priced) - السياق الحالي يشبه Aug-2025 (PMI beat + geopolitical fade): EUR صعد 80 pips في 48 ساعة ثم توقف.
+
+**Chairman:**
+الأدلة: EUR قوي (PMI حقيقي)، AUD قوي (RBA)، CAD معتدل (oil)، GBP يتراجع (طبيعي)، gold/oil war premium يتلاشى، indices ضعيفة (yields). لا أحداث جديدة منذ 60 دقيقة؛ Trump speech بعد 11 ساعة فقط. **القرار:** نرفع EUR إلى +0.3 (PMI + momentum)، نبقي AUD +0.2، نخفض GBP إلى -0.3 (fade أوضح)، نبقي gold -0.3، نرفع risk_mult إلى 0.65 (ثقة أعلى في EUR/AUD)، conf إلى 0.6. REVERT يبقى محظوراً. prefer_symbols: EURUSD, GBPUSD (fade), AUDUSD.
+
+---
+
+## Psyche
+
+**Awareness:** fired=yes · قارنت مع آخر 8 قرارات: EUR كان 0.2 منذ 70 دقيقة، الآن نرفعه لـ0.3 (PMI جديد يبرر ذلك)؛ GBP كان -0.2، نخفضه لـ-0.3 (السعر تراجع 35 pips يؤكد)؛ لا flip-flopping، التغييرات مبنية على price action حقيقي.
+
+**Greed:** fired=no · ثلاثة biases فقط فوق 0.2 (EUR/AUD/CAD)، risk_mult 0.65 محافظ، prefer_symbols قصير - لا علامات طمع.
+
+**Fear:** fired=no · لا over-reaction؛ caution mode منطقي (Trump speech قادم + REVERT losses)؛ لا انهيار biases بدون سبب.
+
+**Prudence:** fired=yes · EUR +0.3 مدعوم بـPMI beat (مصدر 1) + price rally (مصدر 2) + Market Historian analog (مصدر 3) ✓؛ GBP -0.3 مدعوم بـprofit-taking (مصدر 1) + 35-pip drop (مصدر 2) + historical pattern (مصدر 3) ✓ - كل القرارات القوية لها أدلة كافية.
+
+**Intuition:** fired=yes · أشعر أن USDCHF سينخفض أكثر من المتوقع خلال 12 ساعة (USD أضعف من CHF رغم carry trade الجديد) - لكن لا أدلة صلبة كافية لتغيير bias الآن.
+
+**Mind state:** focused · المجلس متفق، الأدلة واضحة، لا تشتت.
+
+---
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.65
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=-0.3
+bias_JPY=0.0
+bias_AUD=0.2
+bias_NZD=0.0
+bias_CAD=0.1
+bias_CHF=-0.1
+bias_XAU=-0.3
+bias_XAG=-0.3
+bias_OIL=0.0
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=0.0
+conf=0.6
+allow_books=INTRADAY,SWING,POSITION,SHOCK,COUNCIL
+news_block=USD:658:718
+block_symbols=none
+shock=none
+prefer_symbols=EURUSD,GBPUSD,AUDUSD
+summary=EUR upgraded to +0.3 on PMI beat & rally; GBP fade deepens to -0.3; AUD holds +0.2; gold/oil war premium decay continues; REVERT banned; await Trump 11h
+summary_ar=EUR يرتفع لـ+0.3 (PMI قوي)؛ GBP ينخفض لـ-0.3 (تصحيح)؛ AUD يبقى +0.2؛ ذهب/نفط war premium يتلاشى؛ REVERT محظور؛ ننتظر Trump بعد 11 ساعة
+mind=focused
+psyche_flags=awareness,prudence,intuition
+intuition=USDCHF سينخفض لـ0.785 خلال 12 ساعة (USD أضعف من CHF رغم carry trade الجديد)
