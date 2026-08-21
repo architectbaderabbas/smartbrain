@@ -39,7 +39,7 @@
 //|  Built for Pedro                                                 |
 //+------------------------------------------------------------------+
 #property copyright "Built with Claude"
-#property version   "12.50"
+#property version   "12.51"
 
 #include <Trade/Trade.mqh>
 
@@ -204,8 +204,8 @@ input double InpH5_BrainBiasBlock = 0.3;    // SHOCK never trades against a coun
 input group "=== H6 COUNCIL (trades the brain's view, price-confirmed) ==="
 input bool   InpH6_Enabled       = true;
 input double InpH6_RiskPct       = 0.5;
-input double InpH6_MinConf       = 0.6;     // council confidence needed
-input double InpH6_MinBias       = 0.7;     // |symbol bias| needed
+input double InpH6_MinConf       = 0.45;    // council confidence needed (v12.51: effective value capped at 0.45)
+input double InpH6_MinBias       = 0.35;    // |symbol bias| needed (v12.51: effective value capped at 0.35)
 input int    InpH6_EMAPeriod     = 20;      // H1 EMA for price confirmation
 input double InpH6_SL_ATR        = 1.5;     // SL = ATR(H1) x this
 input double InpH6_TP_R          = 1.5;
@@ -670,6 +670,37 @@ bool IsMetalOilIndex(const string s)
           StringFind(u, "DJ30") >= 0 || StringFind(u, "GER40") >= 0 || StringFind(u, "NAS") >= 0);
   }
 
+bool IsOilOrIndex(const string s)      // v12.51: indices/oil only (metals excluded)
+  {
+   string u = s; StringToUpper(u);
+   return(StringFind(u, "OIL") >= 0 || StringFind(u, "BRENT") >= 0 || StringFind(u, "WTI") >= 0 ||
+          StringFind(u, "US30") >= 0 || StringFind(u, "US100") >= 0 || StringFind(u, "US500") >= 0 ||
+          StringFind(u, "DJ30") >= 0 || StringFind(u, "GER40") >= 0 || StringFind(u, "NAS") >= 0);
+  }
+
+//+------------------------------------------------------------------+
+//| v12.51: quality filter for DETECTION-based SHOCK entries only     |
+//| (the scheduled-news breakout path is NOT touched).                |
+//| Investigation 2026-08-21: 9/10 SHOCK trades were indices/oil in   |
+//| the evening chop, 7/10 with |council bias| <= 0.2 -> negative EV. |
+//+------------------------------------------------------------------+
+bool ShockQualityOK(const int dirSign, const bool councilFlagged)
+  {
+   if(!gBrainOK) return(true);                    // brain offline -> behave as before
+   if(councilFlagged) return(true);               // the council itself flagged this shock
+   // (a) the council must lean the SAME way (bias >= 0.2 in trade direction)
+   if(SymbolBias() * dirSign < 0.2 - 1e-9)
+     { Print("SHOCK ", _Symbol, ": skipped - council bias not aligned (v12.51)"); return(false); }
+   // (b) indices/oil after 18:00 server time in CAUTION or worse: detection entries off
+   if(IsOilOrIndex(_Symbol) && gBrainMode >= 1)
+     {
+      MqlDateTime mt; TimeToStruct(TimeCurrent(), mt);
+      if(mt.hour >= 18)
+        { Print("SHOCK ", _Symbol, ": skipped - evening window in ", BrainModeName(), " (v12.51)"); return(false); }
+     }
+   return(true);
+  }
+
 //+------------------------------------------------------------------+
 //| Portfolio gates                                                  |
 //+------------------------------------------------------------------+
@@ -1042,6 +1073,7 @@ void EntryShock(const int h, const double atrVal)
    double o = iOpen(_Symbol, tf, found), c = iClose(_Symbol, tf, found);
    double shockRange = iHigh(_Symbol, tf, found) - iLow(_Symbol, tf, found);
    ENUM_ORDER_TYPE dir = (c > o) ? ORDER_TYPE_BUY : ORDER_TYPE_SELL;
+   if(!ShockQualityOK((dir == ORDER_TYPE_BUY) ? 1 : -1, brainDir != 0)) return;   // v12.51
 
    // must not have already reversed most of the shock
    double now = iClose(_Symbol, tf, 1);
@@ -1070,9 +1102,15 @@ void EntryShock(const int h, const double atrVal)
 void EntryCouncil(const int h, const double atrVal)
   {
    if(!gBrainOK) return;
-   if(gBrainConf < InpH6_MinConf) return;
+   // v12.51: effective thresholds capped at 0.45/0.35 — investigation 2026-08-21 showed the old
+   // defaults (0.6/0.7) were never reached in 43 councils (conf max 0.55, |bias| max 0.4) -> 0 trades
+   // from the book, while the council's 24h scorecard hit 71%. Charts still carrying old inputs
+   // are corrected here without touching 20 chart property dialogs.
+   double effConf = MathMin(InpH6_MinConf, 0.45);
+   double effBias = MathMin(InpH6_MinBias, 0.35);
+   if(gBrainConf < effConf) return;
    double sb = SymbolBias();
-   if(MathAbs(sb) < InpH6_MinBias) return;
+   if(MathAbs(sb) < effBias) return;
    int dir = (sb > 0) ? 1 : -1;
 
    // portfolio cap for council trades (all symbols)
@@ -1848,6 +1886,7 @@ void ShockLiveEntry()
    if(MathAbs(c - o) / rng < InpH5_LiveBodyPct) return;                 // not decisive
    ENUM_ORDER_TYPE dir = (c > o) ? ORDER_TYPE_BUY : ORDER_TYPE_SELL;
    if(brainDir != 0 && ((dir == ORDER_TYPE_BUY) != (brainDir > 0))) return;   // council locked the other way
+   if(!ShockQualityOK((dir == ORDER_TYPE_BUY) ? 1 : -1, brainDir != 0)) return;   // v12.51
    double fromExtreme = (dir == ORDER_TYPE_BUY) ? (hh - c) : (c - ll);
    if(fromExtreme > 0.25 * rng) return;                                   // already pulling back
    long spread = SymbolInfoInteger(_Symbol, SYMBOL_SPREAD);
