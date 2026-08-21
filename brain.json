@@ -1,5 +1,5 @@
 {
- "ts": 1787352912,
+ "ts": 1787353810,
  "council_ts": 1787352012,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": -0.2,
   "bias_GER40": 0.2,
   "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT",
-  "news_block": "USD:5:125",
+  "news_block": "USD:-9:111",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "XAUUSD,EURUSD,USDJPY,GBPUSD",
