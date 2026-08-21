@@ -1,12 +1,12 @@
-ts=1787305030
-generated=2026-08-21 09:37 UTC
+ts=1787305915
+generated=2026-08-21 09:51 UTC (watchman heartbeat; council 14 min ago)
 version=1
 risk_mode=caution
 risk_mult=0.6
 regime=mixed
 conf=0.55
 allow_books=INTRADAY,SWING,POSITION,SHOCK,COUNCIL
-news_block=USD:770:830
+news_block=USD:756:816
 block_symbols=none
 shock=none
 prefer_symbols=EURUSD,AUDUSD,USDCAD
@@ -31,3 +31,4 @@ mind=focused
 psyche_flags=awareness,prudence,intuition
 intuition=USDCHF سينخفض إلى 0.785 خلال 12 ساعة (الهدنة تُضعف CHF، USD ضعيف = CHF أضعف نسبياً)
 news_events=none
+watchman=quiet (sev0)
