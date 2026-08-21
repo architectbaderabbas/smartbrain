@@ -547,3 +547,4 @@
 - 2026-08-21 09:36 UTC · heartbeat · ALERT sev2: Iran-US conditional two-week ceasefire agreed; major de-escalation in Middle East conflict -> protocol applied, council convening
 - 2026-08-21 09:36 UTC · FULL COUNCIL triggered: ALERT sev2: Iran-US conditional two-week ceasefire agreed; major de-escalation in Middle East conflict
 - 2026-08-21 09:51 UTC · heartbeat · quiet (sev0)
+- 2026-08-21 10:03 UTC · heartbeat · quiet (sev0)
