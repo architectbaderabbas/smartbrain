@@ -1,5 +1,5 @@
-ts=1787409610
-generated=2026-08-22 14:40 UTC
+ts=1787409985
+generated=2026-08-22 14:46 UTC (watchman heartbeat; council 6 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.9
@@ -31,3 +31,4 @@ mind=focused
 psyche_flags=awareness,prudence,intuition
 intuition=USDCAD سيصل 1.39 خلال 48 ساعة إذا أعلنت أميركا تعريفات جديدة؛ لكن بدون أخبار الآن نبقي bias_CAD=-0.3 بدون رفع
 news_events=none
+watchman=quiet (sev0)
