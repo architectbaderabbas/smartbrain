@@ -1,6 +1,6 @@
 {
- "ts": 1787430430,
- "council_ts": 1787426831,
+ "ts": 1787431048,
+ "council_ts": 1787431048,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 1.0,
@@ -8,11 +8,11 @@
   "conf": 0.4,
   "bias_USD": 0.0,
   "bias_EUR": 0.3,
-  "bias_GBP": -0.2,
+  "bias_GBP": 0.0,
   "bias_JPY": 0.3,
   "bias_AUD": 0.1,
   "bias_NZD": 0.0,
-  "bias_CAD": -0.3,
+  "bias_CAD": -0.4,
   "bias_CHF": 0.0,
   "bias_XAU": 0.0,
   "bias_XAG": 0.0,
@@ -29,12 +29,11 @@
   "mind": "calm",
   "psyche_flags": "awareness,prudence",
   "intuition": "none",
-  "summary": "XAU/XAG to 0 on 10h stall+Iran de-escalation; AUD cut to 0.1 on weak jobs+CFTC shorts; OIL to -0.2 on fading war premium; weekend thin liquidity; normal 1.0x",
-  "summary_ar": "الذهب/الفضة إلى 0 على ركود 10 ساعات + تخفيف إيران؛ الدولار الأسترالي إلى 0.1 على وظائف ضعيفة + بيع CFTC؛ النفط إلى -0.2 على تلاشي علاوة الحرب؛ سيولة ضعيفة نهاية الأسبوع؛ عادي 1.0x",
+  "summary": "CAD cut to -0.4 on new Trump tariffs (IBD/Politico); GBP to 0 (stale bias); XAU/OIL/indices unchanged 75min; weekend thin liquidity; normal 1.0x",
+  "summary_ar": "الدولار الكندي إلى -0.4 على تعريفات ترامب الجديدة؛ الجنيه إلى 0 (توجه قديم)؛ الذهب/النفط/المؤشرات بدون تغيير 75 دقيقة؛ سيولة ضعيفة نهاية الأسبوع؛ عادي 1.0x",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787234806,
