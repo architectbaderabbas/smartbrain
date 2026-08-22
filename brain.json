@@ -1,11 +1,11 @@
 {
- "ts": 1787421432,
- "council_ts": 1787418669,
+ "ts": 1787422332,
+ "council_ts": 1787422332,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 1.0,
   "regime": "mixed",
-  "conf": 0.5,
+  "conf": 0.45,
   "bias_USD": 0.0,
   "bias_EUR": 0.3,
   "bias_GBP": -0.2,
@@ -14,8 +14,8 @@
   "bias_NZD": 0.0,
   "bias_CAD": -0.3,
   "bias_CHF": 0.2,
-  "bias_XAU": 0.2,
-  "bias_XAG": 0.2,
+  "bias_XAU": 0.1,
+  "bias_XAG": 0.1,
   "bias_OIL": -0.1,
   "bias_US500": -0.2,
   "bias_US100": -0.2,
@@ -28,13 +28,12 @@
   "prefer_symbols": "none",
   "mind": "calm",
   "psyche_flags": "awareness,prudence,intuition",
-  "intuition": "أشعر أن الين الياباني سيفاجئ بالصعود خلال 12-24 ساعة رغم بيع المضاربين – بنك اليابان متشدد والتضخم قوي، السوق يتجاهل هذا الآن",
-  "summary": "XAU/XAG cut to 0.2 on Iran de-escalation (Hormuz tankers pass); AUD cut to 0.3 on CFTC shorts+extension; OIL to -0.1 on fading war premium; weekend thin liquidity; normal 1.0x",
-  "summary_ar": "الذهب والفضة خُفضا إلى 0.2 على تخفيف إيران (ناقلات هرمز تمر)؛ الدولار الأسترالي خُفض إلى 0.3 على بيع CFTC وامتداد؛ النفط إلى -0.1 على تلاشي علاوة الحرب؛ سيولة ضعيفة نهاية الأسبوع؛ عادي 1.0x",
+  "intuition": "أشعر أن زلزال طوكيو M5.9 قد يكون بداية سلسلة – إذا جاء M6+ خلال 24 ساعة، الين سيقفز على إعادة الأموال؛ لكن الآن لا دليل، فقط حدس",
+  "summary": "XAU/XAG cut to 0.1 on Iran de-escalation + 9h stall near ATH; Tokyo M5.9 quake no impact on JPY (no damage); all else unchanged; weekend thin liquidity; normal 1.0x",
+  "summary_ar": "الذهب/الفضة خُفضا إلى 0.1 على تخفيف إيران + ركود 9 ساعات قرب ATH؛ زلزال طوكيو M5.9 بلا تأثير على الين (بلا أضرار)؛ كل شيء آخر ثابت؛ سيولة ضعيفة نهاية الأسبوع؛ عادي 1.0x",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787234806,

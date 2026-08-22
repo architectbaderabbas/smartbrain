@@ -1,62 +1,4 @@
- mode appropriate until PMIs print.
-
-**Market Historian:** The current setup (EUR/GBP/CHF at multi-month highs, stalling 16-18 hours, no catalyst) rhymes with May 2024 post-ECB and Aug 2023 post-Jackson Hole: both saw 0.3-0.5% reversals within 48h once momentum faded. Our -0.3 fade bias is historically sound. BUT: the 2019 Treasury intervention analog (yields rebounded within 24h, USD fell 0.5-0.8% over 3 days) suggests USD weakness may have 1-2 days left. USDJPY 159 is exactly where BoJ intervened in Jul 2024 (dropped 4 big figures in 6 hours) – current stall at 159.14 for 18 hours is abnormal, either intervention is imminent or the line has shifted. Gold at $4515 after a $4500 spike (7h ago) fits the "retrace half within 24h" playbook perfectly – our 0.0 bias is correct. Oil $87-93 with 18-hour war premium stall matches the 2020 Soleimani pattern (spike faded in 48h) – we're in the fade window now.
-
-**Chairman:** Historian and FX Strategist confirm our fade thesis on EUR/GBP/CHF is valid but not yet triggering – price is stalling, not breaking. Macro Economist and CB Watcher correctly identify a 14-hour void until PMIs. Geopolitics remain noise. Gold/oil/equities all flat confirms 0.0 biases. Risk Manager's INTRADAY/REVERT removals are protocol-compliant. The only new information is USDJPY at 159.14 (intervention zone per 6 sources) – but no action yet, so no bias change. I see no evidence to alter any bias or risk setting. We hold the line: caution mode, -0.3 fades on EUR/GBP/CHF (extended but not breaking), 0.0 on everything else, await PMIs. Confidence remains 0.35 (low conviction in a void).
-
----
-
-## Psyche
-
-**Awareness:** fired=no. Comparing to 17:21 directives: all biases unchanged, risk_mode unchanged, summary theme unchanged ("exhaustion at highs, await PMIs"). Price context confirms our view (EUR/GBP/CHF within 2 pips, gold/oil flat). No flip-flopping, no stubbornness – we are correctly holding a low-conviction fade bias in a void. INTRADAY removal yesterday was protocol (2-loss streak), not a council decision. Scorecard shows 62% 4h hit rate, 80% 24h – our caution is justified.
-
-**Greed:** fired=no. Confidence 0.35 is low, only three biases at -0.3 (fade, not chase), prefer_symbols=none, allow_books limited to 3. No "easy money" language. Risk_mult 0.6 is conservative. No greed detected.
-
-**Fear:** fired=no. We are not over-reacting to headlines (geopolitics correctly ignored for 18h), not collapsing biases after losses (INTRADAY/REVERT removals were protocol, not panic), not halting without cause. Caution mode is appropriate for a pre-PMI void. No fear detected.
-
-**Prudence:** fired=yes. The -0.3 fade biases on EUR/GBP/CHF have only one concrete source (multi-month highs stalling 16-18h) and one historical analog (May 2024/Aug 2023 reversals). This meets the "two independent sources" threshold barely (price action + history), but confidence 0.35 already reflects the weakness. The 0.0 biases on gold/oil/USD/JPY are supported by multiple sources (flat prices, stale headlines, playbook analogs). Prudence accepts current settings but flags that -0.3 fades should not be strengthened without fresh catalyst.
-
-**Intuition:** USDJPY stalling at 159.14 for 18 hours in the exact intervention zone (Jul 2024 analog) feels like a coiled spring – either BoJ acts within 24h or the line has shifted to 160+. If intervention comes, JPY surges 3-5 big figures in hours (playbook), but we cannot front-run it. Hunch: BoJ is watching Friday PMIs too; if European data disappoints and USD weakens, they may tolerate 160+ without acting.
-
----
-
-## DIRECTIVES
-
-risk_mode=caution
-risk_mult=0.6
-regime=mixed
-bias_USD=0.0
-bias_EUR=-0.3
-bias_GBP=-0.3
-bias_JPY=0.0
-bias_AUD=-0.1
-bias_NZD=0.0
-bias_CAD=0.0
-bias_CHF=-0.3
-bias_XAU=0.0
-bias_XAG=0.0
-bias_OIL=0.0
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.35
-allow_books=COUNCIL,SWING,POSITION
-news_block=GBP:696:726;EUR:771:801;GBP:846:876
-block_symbols=none
-shock=none
-prefer_symbols=none
-summary=EUR/GBP/CHF stall at multi-month highs (18h no catalyst) holds fade -0.3; all else flat (geopolitics/gold/oil noise); USDJPY 159 intervention zone watched; await Friday PMIs (14h)
-summary_ar=توقف EUR/GBP/CHF عند قمم عدة أشهر (18 ساعة بلا محفز) يبقي التلاشي -0.3؛ الباقي مسطح (جيوسياسيا/ذهب/نفط ضجيج)؛ USDJPY 159 منطقة تدخل مراقبة؛ ننتظر PMIs الجمعة (14 ساعة)
-mind=calm
-psyche_flags=prudence
-intuition=USDJPY coiled at 159 intervention zone 18h; BoJ may wait for Friday PMIs before acting or accepting 160+
-
-
-# 2026-08-20 18:56 UTC
-## Council debate
-
-**Chief Macro Economist:** NK missile launch is routine saber-rattling (9th this year), not a Severity-2 event – no nuclear test, no ICBM, no casualties. Markets ignored it (SPX/NDX/DAX flat, oil unchanged, JPY +0 vs 18:21). Treasury buyback theme is 26 hours stale. Friday PMIs (11-13h away) are the only catalyst; until then we're in a void. EUR/GBP/CHF have stalled 18 hours at multi-month highs with no fresh driver – textbook exhaustion.
+ng (9th this year), not a Severity-2 event – no nuclear test, no ICBM, no casualties. Markets ignored it (SPX/NDX/DAX flat, oil unchanged, JPY +0 vs 18:21). Treasury buyback theme is 26 hours stale. Friday PMIs (11-13h away) are the only catalyst; until then we're in a void. EUR/GBP/CHF have stalled 18 hours at multi-month highs with no fresh driver – textbook exhaustion.
 
 **Central-Bank Watcher:** BoJ watching USDJPY 159.15 (intervention zone per Nikkei Asia headline), but no action yet. Fed/ECB/BoE all silent. Friday PMIs could shift rate expectations if German services surprise (forecast 50.1 vs 49.6 prior = marginal improvement). No CB catalyst for 13+ hours.
 
@@ -3590,3 +3532,83 @@ summary_ar=الذهب والفضة خُفضا إلى 0.2 على تخفيف إي�
 mind=calm
 psyche_flags=awareness,prudence,intuition
 intuition=أشعر أن الين الياباني سيفاجئ بالصعود خلال 12-24 ساعة رغم بيع المضاربين – بنك اليابان متشدد والتضخم قوي، السوق يتجاهل هذا الآن
+
+
+# 2026-08-22 18:12 UTC
+## Council debate
+
+**Chief Macro Economist:**
+زلزال M5.9 في طوكيو قبل ساعة – لا تأثير اقتصادي مباشر، لكن يذكّر بمخاطر اليابان الجيولوجية. الاقتصاد العالمي مستقر: أوروبا تنمو (PMI قوي)، أميركا تواجه ضغط عوائد السندات (yields ترتفع)، لا تغيير في الدورة منذ 60 دقيقة.
+
+**Central-Bank Watcher:**
+بنك اليابان متشدد (CPI أقوى، رهانات على رفع الفائدة تزيد) لكن المضاربين يبيعون الين (CFTC صافي بيع أعمق). الفيد/ECB/BoE بلا أخبار جديدة. SNB حذّر من تضخم AI – غير ذي صلة الآن.
+
+**Geopolitical & Crisis Analyst:**
+إيران سمحت لناقلات عراقية بعبور هرمز قبل 6 ساعات – تخفيف واضح، علاوة الحرب تتلاشى. حرب أميركا-إيران انتهت (عناوين "انتصار إيران")، عقوبات جديدة قادمة لكن بلا صدمة. حرب تجارية كندا-أميركا تتصاعد (رسوم Trump الجديدة) – CAD ضعيف. زلزال طوكيو M5.9 بلا أضرار كبيرة حتى الآن.
+
+**FX Strategist:**
+USD محايد (yields ترتفع لكن "dollar debasement" يحد من القوة). EUR قوي نسبياً (PMI ممتاز، Eurozone ينمو رغم ضعف ألمانيا). GBP بلا محفزات. JPY: المضاربون يبيعون لكن BoJ متشدد – تناقض. AUD امتداد الصعود يتباطأ (CFTC shorts ترتفع). CAD ضعيف على الحرب التجارية. CHF يتراجع أمام USD.
+
+**Gold & Oil Trader:**
+XAU عند 4603 (قرب ATH) لكن راكد 9 ساعات – الزخم يتلاشى، إيران تخفف التوتر يزيل الطلب الآمن. XAG يتبع. النفط WTI 87.3 / Brent 94.2 – علاوة الحرب تتلاشى (هرمز مفتوح، OPEC+ مستقر)، اتجاه هبوطي خفيف.
+
+**Equity / Risk-Sentiment Desk:**
+US500 عند 7677 (ثابت)، yields ترتفع لكن بلا أزمة بعد (Barron's: "كم يمكن أن ترتفع yields قبل أن تهدم الأسهم؟"). GER40 قوي (26106) على PMI أوروبا. مزاج مختلط: لا risk-on واضح ولا risk-off.
+
+**Risk Manager:**
+لا أحداث مجدولة 48 ساعة. زلزال طوكيو M5.9 قبل ساعة – مراقبة لكن بلا halt (لا أضرار نووية/نفطية حتى الآن). خسارة يومية 0%، SHOCK خسر صفقة واحدة (-1.11$) – مقبول. Scorecard 26% فقط على 24 ساعة – ثقة منخفضة. نهاية أسبوع، سيولة ضعيفة – normal مقبول لكن لا نرفع risk_mult.
+
+**Market Historian:**
+زلازل اليابان M5-6 نادراً ما تحرك JPY إلا إذا ضربت بنية تحتية (2011 Fukushima: JPY ارتفع 5% في أسبوع على إعادة الأموال؛ 2024 Noto M7.6: JPY +1% ليوم ثم تلاشى). هذا M5.9 بلا أضرار حتى الآن – لا تأثير متوقع. إيران تخفف (هرمز مفتوح): آخر مرة حدث هذا (2020 بعد Soleimani) ذهب/نفط تراجعا 2-3% في 48 ساعة. XAU عند ATH راكد 9 ساعات يشبه يوليو 2020 – تصحيح 1-2% جاء بعد 2-3 أيام. AUD امتداد + CFTC shorts: 2023 مايو نفس النمط، تصحيح 0.5% في أسبوع.
+
+**Chairman:**
+الأدلة: (1) إيران تخفف – ذهب/نفط يفقدان علاوة الحرب. (2) زلزال طوكيو M5.9 بلا أضرار – لا تأثير على JPY. (3) XAU راكد 9 ساعات عند ATH – الزخم يتلاشى. (4) Scorecard 26% فقط – ثقتنا منخفضة. (5) نهاية أسبوع، سيولة ضعيفة. القرار: نخفض XAU/XAG إلى 0.1 (تلاشي الزخم + تخفيف إيران)، نبقي JPY عند 0.3 (BoJ متشدد يعوض بيع المضاربين، زلزال بلا تأثير)، نبقي كل شيء آخر ثابتاً. risk_mult يبقى 1.0، conf ينخفض إلى 0.45 (scorecard ضعيف). normal مبرر: لا أحداث، لا أزمة نشطة، scorecard 26% لكن لا سبب محدد للحذر الآن.
+
+---
+
+## Psyche
+
+**Awareness:** fired=yes · قارنت بالتوجيهات السابقة: نحن نخفض XAU للمرة الثالثة في 7 ساعات (0.5→0.3→0.2→0.1 الآن) بدون حركة سعر كبيرة (4603 ثابت) – هذا flip-flopping خفيف لكن مبرر (إيران تخفف حقيقة جديدة). Scorecard 26% يفرض conf منخفض. لا تناقض صارخ.
+
+**Greed:** fired=no · لا ثقة عالية (conf=0.45)، معظم biases ضعيفة (|bias|<0.4)، لا لغة "مال سهل". لا جشع.
+
+**Fear:** fired=no · لا رد فعل مبالغ: زلزال طوكيو لم يدفعنا لـhalt، إيران تخفف لم يدفعنا لإلغاء كل biases. متوازن.
+
+**Prudence:** fired=yes · XAU/XAG خُفضا إلى 0.1 (|bias|<0.3 الآن) – لا يحتاج مصدرين. JPY 0.3 له مصدران (BoJ متشدد + CPI قوي) + تاريخ (زلازل M5-6 بلا تأثير). كل شيء ضمن الحدود.
+
+**Intuition:** fired=yes · أشعر أن زلزال طوكيو M5.9 قد يكون بداية سلسلة (اليابان في حزام النار) – إذا جاء M6+ خلال 24 ساعة، JPY سيقفز على إعادة الأموال. لكن الآن لا دليل، فقط حدس.
+
+**mind=calm** · **psyche_flags=awareness,prudence,intuition**
+
+---
+
+## DIRECTIVES
+risk_mode=normal
+risk_mult=1.0
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=-0.2
+bias_JPY=0.3
+bias_AUD=0.3
+bias_NZD=0.0
+bias_CAD=-0.3
+bias_CHF=0.2
+bias_XAU=0.1
+bias_XAG=0.1
+bias_OIL=-0.1
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=0.2
+conf=0.45
+allow_books=ALL
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=XAU/XAG cut to 0.1 on Iran de-escalation + 9h stall near ATH; Tokyo M5.9 quake no impact on JPY (no damage); all else unchanged; weekend thin liquidity; normal 1.0x
+summary_ar=الذهب/الفضة خُفضا إلى 0.1 على تخفيف إيران + ركود 9 ساعات قرب ATH؛ زلزال طوكيو M5.9 بلا تأثير على الين (بلا أضرار)؛ كل شيء آخر ثابت؛ سيولة ضعيفة نهاية الأسبوع؛ عادي 1.0x
+mind=calm
+psyche_flags=awareness,prudence,intuition
+intuition=أشعر أن زلزال طوكيو M5.9 قد يكون بداية سلسلة – إذا جاء M6+ خلال 24 ساعة، الين سيقفز على إعادة الأموال؛ لكن الآن لا دليل، فقط حدس
