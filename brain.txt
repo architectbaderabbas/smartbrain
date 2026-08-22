@@ -1,5 +1,5 @@
-ts=1787377552
-generated=2026-08-22 05:45 UTC
+ts=1787378110
+generated=2026-08-22 05:55 UTC (watchman heartbeat; council 9 min ago)
 version=1
 risk_mode=caution
 risk_mult=0.85
@@ -31,3 +31,4 @@ mind=focused
 psyche_flags=awareness,fear,prudence,intuition
 intuition=الذهب سيلمس 4620$ ثم يتصحح 1-2% - نهاية الأسبوع تجلب جني أرباح
 news_events=none
+watchman=quiet (sev0)
