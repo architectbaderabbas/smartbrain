@@ -1,11 +1,11 @@
 {
- "ts": 1787380810,
- "council_ts": 1787377552,
+ "ts": 1787381711,
+ "council_ts": 1787381711,
  "directives": {
-  "risk_mode": "caution",
-  "risk_mult": 0.85,
+  "risk_mode": "normal",
+  "risk_mult": 0.9,
   "regime": "mixed",
-  "conf": 0.65,
+  "conf": 0.7,
   "bias_USD": 0.0,
   "bias_EUR": 0.3,
   "bias_GBP": -0.2,
@@ -28,13 +28,12 @@
   "prefer_symbols": "XAUUSD,EURUSD,USDJPY",
   "mind": "focused",
   "psyche_flags": "awareness,fear,prudence,intuition",
-  "intuition": "الذهب سيلمس 4620$ ثم يتصحح 1-2% - نهاية الأسبوع تجلب جني أرباح",
-  "summary": "All 8h biases accurate; gold 17$ from ATH on US debt fears; weekend thin liquidity; conf cut to 0.65 on weak scorecard; SHOCK kept (Fear overruled)",
-  "summary_ar": "جميع التوجهات دقيقة منذ 8 ساعات؛ الذهب 17$ من ATH بسبب مخاوف الديون؛ سيولة ضعيفة نهاية الأسبوع؛ conf مُخفّض لـ0.65 بسبب scorecard ضعيف؛ SHOCK مُبقى (Fear مُلغى)",
+  "intuition": "الذهب سيلمس 4615-4620$ ثم يتراجع 20-40$ - جني أرباح نهاية الأسبوع الطويل عند ATH",
+  "summary": "Fear overruled: 16h caution with no active threat is excessive; upgrading to normal 0.9x; all biases unchanged (XAU 0.5 near ATH, JPY/EUR 0.3); conf raised to 0.7",
+  "summary_ar": "Fear مُلغى: 16 ساعة caution بدون تهديد نشط مُبالغ فيه؛ رفع لـnormal 0.9x؛ جميع التوجهات ثابتة (XAU 0.5 قرب ATH، JPY/EUR 0.3)؛ conf مرفوع لـ0.7",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787178317,

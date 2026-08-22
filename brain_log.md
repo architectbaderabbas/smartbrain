@@ -1,44 +1,4 @@
-
-bias_XAU=0.2
-bias_XAG=0.2
-bias_OIL=0.3
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.4
-allow_books=COUNCIL,SWING
-news_block=USD:277:307
-block_symbols=none
-shock=none
-prefer_symbols=none
-summary=Iran sanctions (23min old) + Kyiv strikes (5h) raise oil/JPY/gold biases, but muted price reaction (oil +1%, gold -0.6%) caps conviction at 0.4; await oil >88 or US data (4.6h) for confirmation
-summary_ar=عقوبات إيران (23 دقيقة) + ضربات كييف (5 ساعات) ترفع انحياز النفط/الين/الذهب، لكن رد فعل السعر الخافت (نفط +1%، ذهب -0.6%) يحدّ الثقة عند 0.4؛ ننتظر نفط >88 أو بيانات أمريكية (4.6 ساعة) للتأكيد
-mind=focused
-psyche_flags=awareness,prudence
-intuition=Oil's muted reaction to Iran sanctions suggests either pre-leak or market doubts enforcement – but diesel margins at record highs signal real tightness; if WTI breaks 88, move to 92+ will be fast
-
-
-# 2026-08-20 08:53 UTC
-## Council debate
-
-**Chief Macro Economist:** Iran sanctions + Kyiv strikes now 38 min / 5.2h old – oil +1.2%, gold flat at $4494 (down from $4511 overnight). Muted reaction confirms market either pre-leaked or doubts enforcement bite. US data in 3.6h (Philly Fed/Claims) unlikely to move markets materially unless big miss. Thursday PMIs (22.5h away) remain the real catalyst. No change to growth/inflation outlook.
-
-**Central-Bank Watcher:** Fed minutes (15h old) fully digested, no new speakers. Warsh/Bessent tension on Treasury buybacks is a slow-burn story, not a trading catalyst today. Next Fed event is Jackson Hole (Friday), but no major speeches scheduled for today. ECB's Lagarde warnings on Europe's competitiveness are structural, not cyclical – support EUR weakness but no fresh trigger.
-
-**Geopolitical & Crisis Analyst:** Iran sanctions headline is 38 min old but price action says "sell the news" – oil barely holding gains, gold actually down $17 from overnight highs. Kyiv strikes (13 dead) are tragic but not market-moving at this scale. North Korea missile launch (32 min ago) is routine saber-rattling. UAE suspending Iran trade (10h old) is significant but already priced. No escalation in the last hour. This is noise, not a new crisis leg.
-
-**FX Strategist:** All majors range-bound: EUR 1.169 (unchanged), GBP 1.363 (flat), JPY 158.45 (no safe-haven bid despite headlines), AUD 0.7125 (jobs data was non-event). CHF 0.798 vs 0.802 yesterday – carry-trade shift fading as predicted. No directional conviction anywhere. Waiting for US data or Thursday PMIs.
-
-**Gold & Oil Trader:** Gold $4494 down $17 from $4511 overnight peak – Treasury buyback bid exhausted, geopolitical premium fading despite Iran/Kyiv headlines. Oil $86.95 up $0.30 (+0.3%) – pathetic response to "most crushing sanctions ever" suggests either leak or skepticism. Diesel margins at record highs per CME, but WTI needs to break $88 to confirm supply tightness. Current price action is a fade, not a breakout.
-
-**Equity / Risk-Sentiment Desk:** SPX 7710 flat, NDX 29436 flat, DAX 25952 flat – pure drift, no conviction. VIX unavailable but implied vol likely compressed. Risk-on from Treasury buybacks is stale (15h), risk-off from geopolitics didn't materialize. This is a holding pattern before US data / Thursday PMIs.
-
-**Risk Manager:** REVERT still sidelined (correct – 5-loss streak). SHOCK bled yesterday (6/8 SL, -$1.35) but no trades today. Account at $463, daily P/L -$0.45 (flat). No new risk events in next 3 hours except US data at 12:30 UTC (3.6h away). News block for USD 234-264 min (12:27-12:57 UTC) is correct. Current setup is low-risk but also low-opportunity – caution justified.
-
-**Market Historian:** Last time Iran sanctions were announced without immediate supply disruption (2018-2019), oil spiked 3-5% then faded over 2-4 weeks as waivers/workarounds emerged. Today's +0.3% is even weaker – suggests market expects limited enforcement or alternative supply. Gold's failure to hold $4511 despite geopolitics rhymes with Aug 2019 (trade war headlines, gold spiked to $1550 then chopped for weeks). JPY at 158.45 with no safe-haven bid despite Kyiv strikes confirms risk-off is NOT active. Analog: this is a non-event masquerading as news.
-
-**Chairman:** Awareness will speak first. The council's 38-min-old Iran call (bias_OIL 0.3, bias_JPY 0.2, bias_XAU 0.2) has been REFUTED by price action: oil barely up, gold down, JPY flat. We must downgrade or admit the headlines lack teeth. Geopolitical analyst and historian both say "fade" – I agree. US data in 3.6h is the next real test, but Philly Fed/Claims rarely move markets unless extreme. The honest call is: **nothing has changed in 15 minutes, and the last hour proved our geopolitical biases were too high.** Downgrade oil/JPY/gold to 0.1-0.2, keep caution, wait for US data or Thursday PMIs.
+ta or Thursday PMIs.
 
 ---
 
@@ -3388,3 +3348,78 @@ summary_ar=جميع التوجهات دقيقة منذ 8 ساعات؛ الذهب
 mind=focused
 psyche_flags=awareness,fear,prudence,intuition
 intuition=الذهب سيلمس 4620$ ثم يتصحح 1-2% - نهاية الأسبوع تجلب جني أرباح
+
+
+# 2026-08-22 06:55 UTC
+## Council debate
+
+**Chief Macro Economist:** الاقتصاد الأميركي يُظهر بيانات متينة (Philly Fed، Claims) لكن مخاوف الديون تُبقي عوائد السندات مرتفعة رغم تدخل Bessent. منطقة اليورو PMI أفضل من المتوقع (تصنيع قوي)، لكن ألمانيا تتباطأ. لا تغيير في دورة النمو/التضخم منذ 8 ساعات.
+
+**Central-Bank Watcher:** لا خطابات ولا مفاجآت منذ آخر قرار. Fed ثابت، ECB/BoJ/RBA على hold. Bessent "واثق" من انخفاض العوائد لكن السوق لا يُصدّقه (yields ارتفعت مجدداً). BoJ تدخّل الين يفقد زخمه (Bloomberg: "rescue running out of steam"). لا محفزات جديدة.
+
+**Geopolitical & Crisis Analyst:** US-Iran: تصعيد كلامي (عقوبات جديدة قريبة، إيران تتوعد برد "مدمّر") لكن لا أفعال عسكرية جديدة منذ 48 ساعة. أوكرانيا: ضربة روسية على مول (16 قتيل) – روتين مؤسف، لا تأثير على الأسواق. Canada-US: NYT تقول "محادثات انهارت" لكن لا تأكيد رسمي ولا تعريفات جديدة فعلياً. كل هذا **stale** (> 2 ساعات)، لا severity-2/3.
+
+**FX Strategist:** EURUSD 1.1676 (ثابت)، USDJPY 158.98 (ثابت)، GBPUSD 1.3644 (ثابت). لا حركة منذ 8 ساعات. EUR قوي على PMI، JPY يحافظ على مكاسب التدخل، GBP يتلاشى ببطء، USD محايد (DXY معطّل لكن الأزواج تقول 0.0). AUD 0.717 قرب أعلى 10 أسابيع. كل التوجهات السابقة دقيقة.
+
+**Gold & Oil Trader:** XAU 4603$ – **17$ فقط من ATH 4620$** (وصلها أمس). كل عنوان يقول "US debt concerns" و"Bessent rally fizzles". الزخم قوي لكن نحن في منطقة مقاومة تاريخية. OIL 87.3$ (WTI) – فقد علاوة إيران ببطء (كان 89$ قبل يومين)، الآن محايد. XAG 68.9$ يتبع الذهب.
+
+**Equity / Risk-Sentiment Desk:** SPX 7677، NDX 29312، DAX 26106 – كلها ثابتة منذ 8 ساعات. VIX معطّل لكن Reuters تقول "stocks rose Friday but fell for the week". مخاوف السندات تضغط على المؤشرات الأميركية قليلاً، أوروبا أفضل. Risk-off خفيف مستمر.
+
+**Risk Manager:** لا أحداث tier-1 لـ48 ساعة. نهاية أسبوع، سيولة رقيقة. SHOCK خسر -1.11$ أمس (صفقة واحدة)، other:0 ربح +0.35$ – صافي اليوم -0.76$، لا يُقارب حد -3%. Scorecard 29% ضعيف لكن ليس كارثياً. Caution مبرّر بالسيولة الرقيقة، لكن لا داعي لخفض risk_mult أكثر من 0.85.
+
+**Market Historian:** آخر مرة وصل الذهب ATH جديد (2020، 2024): استمر 1-3 أيام ثم تصحح 1-2%. الآن 17$ من القمة، الزخم قوي لكن نهاية الأسبوع عادة تجلب جني أرباح. USDJPY بعد تدخل BoJ: التأثير يتلاشى بعد 2-6 أسابيع (نحن في الأسبوع 3-4)، الارتفاع البطيء طبيعي. EUR/GBP: GBP يتلاشى بعد ارتفاع قوي = نمط معتاد بعد 2-3 أيام من القمة.
+
+**Chairman:** الوضع **مستقر تماماً** منذ 8 ساعات. كل التوجهات دقيقة (XAU +0.5، JPY +0.3، EUR +0.3، GBP -0.2، OIL 0.0، US500 -0.2). لا أحداث جديدة، لا مفاجآت، لا تغيير في الأساسيات. Scorecard 29% يُبرر conf=0.65 و caution، لكن Awareness ستفحص إذا كنا نُبالغ في الحذر. نُبقي كل شيء كما هو إلا إذا اعترضت Psyche.
+
+---
+
+## Psyche
+
+**Awareness:** fired=yes · قارنت آخر 8 قرارات: **صفر تغييرات في التوجهات منذ 23:43 UTC أمس** (16 ساعة!). كل bias ثابت، كل سبب ثابت ("gold ATH"، "weekend thin liquidity"). السعر لم يُكذّبنا (XAU +17$، JPY ثابت، EUR ثابت) لكن **الجمود نفسه خطر**: نحن نُكرر نفس الجملة 8 مرات. هذا ليس flip-flop، بل **تجمّد**. لكن لا توجد حقائق جديدة تُبرر التغيير، فالثبات صحيح هنا.
+
+**Greed:** fired=no · conf=0.65 منخفض، risk_mult=0.85 معتدل، لا لغة "easy money". لا علامات طمع.
+
+**Fear:** fired=yes · **caution منذ 16 ساعة بدون حدث نشط**. آخر مبرر حقيقي كان "Trump speech" (انتهى قبل 17 ساعة بلا تأثير). الآن المبرر "weekend thin liquidity" + "scorecard 29%" – لكن لا خسائر حديثة (يوم +0$ تقريباً)، لا أحداث قادمة، لا تقلب. **نحن نخاف من الظل**. يجب العودة لـnormal مع risk_mult=0.9.
+
+**Prudence:** fired=yes · كل bias قوي (XAU 0.5، JPY 0.3، EUR 0.3) له مصدران (US debt headlines + price action لـXAU؛ BoJ intervention fade + yields لـJPY؛ PMI لـEUR) + analog تاريخي من Market Historian. **مُوافق**.
+
+**Intuition:** fired=yes · الذهب سيلمس 4615-4620$ في الساعات القادمة (آسيا الاثنين) ثم يتراجع 20-40$ – نهاية الأسبوع الطويل تجلب جني أرباح دائماً عند ATH.
+
+---
+
+**Mind state:** focused  
+**Psyche flags:** awareness,fear,prudence,intuition
+
+---
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.9
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=-0.2
+bias_JPY=0.3
+bias_AUD=0.2
+bias_NZD=0.0
+bias_CAD=0.1
+bias_CHF=0.2
+bias_XAU=0.5
+bias_XAG=0.3
+bias_OIL=0.0
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=0.2
+conf=0.7
+allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT,SHOCK
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=XAUUSD,EURUSD,USDJPY
+summary=Fear overruled: 16h caution with no active threat is excessive; upgrading to normal 0.9x; all biases unchanged (XAU 0.5 near ATH, JPY/EUR 0.3); conf raised to 0.7
+summary_ar=Fear مُلغى: 16 ساعة caution بدون تهديد نشط مُبالغ فيه؛ رفع لـnormal 0.9x؛ جميع التوجهات ثابتة (XAU 0.5 قرب ATH، JPY/EUR 0.3)؛ conf مرفوع لـ0.7
+mind=focused
+psyche_flags=awareness,fear,prudence,intuition
+intuition=الذهب سيلمس 4615-4620$ ثم يتراجع 20-40$ - جني أرباح نهاية الأسبوع الطويل عند ATH
