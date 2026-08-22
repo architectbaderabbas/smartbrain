@@ -1,62 +1,4 @@
-lines, playbook says premium decays fast without supply loss (none reported).
-
-**Chairman:** Danger mode was correct 15min ago for bond shock, but the 49min validity window has EXPIRED and no fresh escalation occurred. Philly Fed weak (24.1 vs 41.4) but not catastrophic. Geopolitics are background noise (6-month Iran war, routine NK, tragic but non-systemic Kyiv). Bond yields rising is a THEME not a SHOCK now. Downgrade to caution. GBP/CHF/EUR extended, fade them modestly (-0.3). Gold rejected highs, hold -0.1. Oil war premium fading, 0.0. REVERT book is bleeding (5 losses, -$31.53), remove it per protocol. Allow COUNCIL/SWING/POSITION only. Conf 0.35 (low data quality, pre-PMI void). No shock directive (bond move is 14h old). News block Friday PMIs. Summary: post-shock calm, fade extensions, await Friday data.
-
-## Psyche
-
-**Awareness:** fired=yes. Previous decision set danger mode + shock directive for bond selloff; that shock validity (49min) has now expired per timestamp math. We are NOT flip-flopping (danger was justified then, caution is justified now). REVERT removal is overdue (5 straight losses, -$31.53 = structural failure in current regime). GBP/CHF/EUR biases were -0.2, now -0.3 = modest extension fade, supported by Historian's 94th percentile warning. Consistent.
-
-**Greed:** fired=no. Biases are modest (max |0.3|), risk_mult unchanged at 0.6, prefer_symbols empty. No overconfidence language. Council is appropriately cautious in a data void (18h to PMIs).
-
-**Fear:** fired=no. Downgrade from danger to caution is evidence-based (shock expired, no fresh catalyst), not panic. REVERT removal is protocol (5 losses), not overreaction. Balanced.
-
-**Prudence:** fired=yes. GBP/CHF fade bias -0.3 has two sources (FX Strategist's 6-month high + Historian's 94th percentile analog) and historical support (extended moves without catalyst reverse per playbook). Gold -0.1 has rejection at 4500 (twice in 24h per Historian). Oil 0.0 has 12h-old headlines + no supply loss. All strong calls (none >=0.7) are multi-sourced. Approved.
-
-**Intuition:** fired=no. The evidence is clear (shock expired, extensions fading, data void). No hunch needed; the council sees the field plainly.
-
-## DIRECTIVES
-
-risk_mode=caution
-risk_mult=0.6
-regime=mixed
-bias_USD=0.0
-bias_EUR=-0.3
-bias_GBP=-0.3
-bias_JPY=0.0
-bias_AUD=-0.1
-bias_NZD=0.0
-bias_CAD=0.0
-bias_CHF=-0.3
-bias_XAU=-0.1
-bias_XAG=0.0
-bias_OIL=0.0
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.35
-allow_books=COUNCIL,SWING,POSITION
-news_block=GBP:952:982;EUR:1027:1057
-block_symbols=none
-shock=none
-prefer_symbols=none
-summary=Post-shock calm: bond stress theme faded (14h old), GBP/CHF/EUR extended (fade -0.3), gold rejected highs, oil war premium decaying; await Friday PMIs (18h) for next catalyst
-summary_ar=هدوء ما بعد الصدمة: ضغط السندات تلاشى (14 ساعة)، GBP/CHF/EUR ممتدّة (تلاشي -0.3)، الذهب رُفض عند القمم، علاوة حرب النفط تتلاشى؛ ننتظر PMIs الجمعة (18 ساعة)
-mind=calm
-psyche_flags=awareness,prudence
-intuition=none
-
-
-# 2026-08-20 15:09 UTC
-## Council debate
-
-**Chief Macro Economist:** Bond stress narrative fully exhausted (15h since Bessent intervention, yields rebounded). Growth data neutral (Philly Fed in-line). Friday PMIs (16h away) are next macro catalyst. No new cycle information. Neutral USD.
-
-**Central-Bank Watcher:** Fed minutes (20h stale) showed nothing new. No CB speeches today. BoJ rate hike dilemma (Forbes 51min ago) is commentary not action. JPY intervention risk remains theoretical. All CBs on hold until data. Neutral all.
-
-**Geopolitical & Crisis Analyst:** Iran/Kyiv/NK headlines (5-14h old) produced zero sustained market reaction – war premium fully priced or ignored. Somali pirates (7h ago) irrelevant to majors. No fresh escalation. Geopolitical fatigue confirmed. Neutral.
-
-**FX Strategist:** GBP 1.3631 (six-month high per Reuters 4.5h ago), EUR 1.1679 (three-month high per FXStreet 4h ago), CHF 0.7992 (two-month high per TradingView 4h ago) – all sitting at multi-month extremes with NO fresh drivers for 15 hours. Sterling/EUR/CHF are 95%+ of 1-year range. Momentum fading (DXY errors suggest data issues but cross-rates show USD weakness stalling). Fade bias justified but price hasn't turned yet. Hold EUR/GBP/CHF -0.3.
+), EUR 1.1679 (three-month high per FXStreet 4h ago), CHF 0.7992 (two-month high per TradingView 4h ago) – all sitting at multi-month extremes with NO fresh drivers for 15 hours. Sterling/EUR/CHF are 95%+ of 1-year range. Momentum fading (DXY errors suggest data issues but cross-rates show USD weakness stalling). Fade bias justified but price hasn't turned yet. Hold EUR/GBP/CHF -0.3.
 
 **Gold & Oil Trader:** Gold 4526 rejected 4540 highs twice (now -$14 from peak), sitting 2% below all-time high with no fresh safe-haven demand. Oil 87/93 (WTI/Brent) holding war premium but Trump rhetoric (8h old) didn't add to it. Both assets rangebound 12+ hours. Gold -0.1 correct, oil to 0.0 (premium stable not growing).
 
@@ -3514,3 +3456,69 @@ summary_ar=جميع biases ثابتة؛ لا أخبار جديدة منذ 15 د�
 mind=focused
 psyche_flags=prudence,intuition
 intuition=XAUUSD يتوقف عند 4615$ خلال 12 ساعة ثم تصحيح 1% الاثنين؛ USDCAD يصل 1.39 خلال 48 ساعة؛ AUD زخم ينتهي عند 0.72
+
+
+# 2026-08-22 13:40 UTC
+## Council debate
+
+**Chief Macro Economist:** لا جديد منذ 60 دقيقة؛ نفس الصورة: مخاوف ديون أميركية تدعم الذهب، PMI أوروبا إيجابي يدعم EUR، اقتصاد عالمي مختلط؛ نبقى على نفس التوجهات.
+
+**Central-Bank Watcher:** BoJ لا يزال hawkish (رهانات تشديد تدعم JPY 0.3)؛ SNB يبقي سعر سلبي على الطاولة (CHF محايد)؛ لا خطابات جديدة؛ نبقى JPY 0.3، CHF 0.2 دون تغيير.
+
+**Geopolitical & Crisis Analyst:** إيران تنتقد عقوبات أميركية جديدة (60 دقيقة مضت)، لكن لا تصعيد عسكري؛ أوكرانيا: قصف روسي على مول (24 دقيقة مضت) = severity-1؛ السويد: هجوم سيف مدرسة (73 دقيقة مضت) = محلي؛ لا تأثير على أسواق؛ safe-haven demand ثابت.
+
+**FX Strategist:** AUDUSD عند 0.71703 (ارتفع 10 نقاط منذ 60 دقيقة)، الاختراق مستمر؛ USDCAD 1.3767 (ثابت)، انهيار المفاوضات التجارية قبل 2 ساعة لا يزال يضغط CAD؛ EUR/GBP/JPY ثابتة؛ نبقى AUD 0.4، CAD -0.3، الباقي دون تغيير.
+
+**Gold & Oil Trader:** XAUUSD 4603.45$ (نزل 2$ منذ 60 دقيقة)، لا يزال قرب ATH؛ momentum يتباطأ (Intuition السابق توقع توقف عند 4615$ ثم تصحيح)؛ XAGUSD 68.944 ثابت؛ OIL 87.299 (ثابت)، لا أخبار OPEC؛ نبقى XAU 0.5، XAG 0.3، OIL 0.0.
+
+**Equity / Risk-Sentiment Desk:** US500 7677.34 (نزل 7 نقاط)، US100 29311.88 (ثابت)، GER40 26106.25 (ثابت)؛ عناوين "سوق على حافة انخفاض 20%" (4 ساعات مضت) = قديمة؛ لا محفز جديد؛ نبقى US500/US100 -0.2، GER40 0.2.
+
+**Risk Manager:** لا أحداث مجدولة في 48 ساعة؛ سيولة نهاية أسبوع ضعيفة لكن لا خطر فوري؛ حساب مستقر (0$ ربح/خسارة اليوم)؛ SHOCK خسر -1.11$ (صفقة واحدة)، OTHER ربح 0.35$ (صفقة واحدة) = variance عادي؛ نبقى normal 0.9x.
+
+**Market Historian:** XAUUSD عند 99.8% من نطاق سنة (ATH 4620$)؛ آخر 5 مرات وصل الذهب >99% نطاقه: توقف 12-48 ساعة ثم تصحيح 0.5-1.5% في 60% من الحالات؛ AUDUSD اخترق 0.717 (مقاومة 3 أشهر)، آخر 3 اختراقات مماثلة امتدت 50-80 نقطة خلال 2-5 أيام؛ USDCAD انهيار تجاري كندي-أميركي: 2018 NAFTA renegotiation رفع USDCAD من 1.28 إلى 1.33 خلال 6 أسابيع؛ الآن 1.3767، يمكن 1.39-1.40 إذا استمر التوتر.
+
+**Chairman:** لا أخبار جديدة منذ 60 دقيقة؛ جميع biases دقيقة (XAU ثابت قرب ATH، AUD يمتد، CAD ضعيف، JPY/EUR ثابتة)؛ Historian يؤكد: XAU momentum يتباطأ (توقف محتمل)، AUD اختراق صحيح، CAD ضعف مستمر؛ scorecard ضعيف (24% على 4 ساعات) لكن 24 ساعة 33% = مقبول؛ لا سبب للتغيير؛ نبقى كل شيء ثابت: normal 0.9x، conf 0.7، نفس biases.
+
+## Psyche
+
+**Awareness:** fired=yes — آخر 8 قرارات (منذ 8 ساعات) نفس biases بالضبط؛ الأسعار تؤكد (XAU ثابت، AUD صاعد، CAD هابط) = consistency صحيحة لا جمود؛ لا flip-flop؛ مقبول.
+
+**Greed:** fired=no — conf 0.7 معتدل، risk_mult 0.9 معتدل، prefer_symbols 3 فقط، لا لغة "سهل"؛ لا علامات طمع.
+
+**Fear:** fired=no — normal mode منذ 8 ساعات، لا over-reaction، لا انهيار biases بدون سبب؛ متوازن.
+
+**Prudence:** fired=yes — XAU 0.5 (قوي) مدعوم بمصدرين (US debt fears + Historian: 99.8% range)؛ AUD 0.4 مدعوم باختراق + Historian analog؛ CAD -0.3 مدعوم بانهيار تجاري قبل 2 ساعة؛ كل call قوي له دليلين؛ مقبول.
+
+**Intuition:** fired=yes — USDCAD يصل 1.39 خلال 48 ساعة إذا استمر التوتر التجاري؛ لكن لا أرفع bias فوق -0.3 بدون أخبار جديدة (Chairman يلتزم بالحد).
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.9
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=-0.2
+bias_JPY=0.3
+bias_AUD=0.4
+bias_NZD=0.0
+bias_CAD=-0.3
+bias_CHF=0.2
+bias_XAU=0.5
+bias_XAG=0.3
+bias_OIL=0.0
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=0.2
+conf=0.7
+allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT,SHOCK
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=XAUUSD,AUDUSD,USDCAD
+summary=All biases unchanged for 8h; XAU near ATH (momentum slowing), AUD breakout extends, CAD weak on trade collapse; weekend thin liquidity; normal 0.9x maintained
+summary_ar=جميع biases ثابتة منذ 8 ساعات؛ XAU قرب ATH (زخم يتباطأ)، AUD اختراق يمتد، CAD ضعيف على انهيار تجاري؛ سيولة ضعيفة نهاية أسبوع؛ طبيعي 0.9 مستمر
+mind=focused
+psyche_flags=awareness,prudence,intuition
+intuition=USDCAD يصل 1.39 خلال 48 ساعة إذا استمر التوتر التجاري؛ لكن لا نرفع bias فوق -0.3 بدون أخبار جديدة
