@@ -1,66 +1,4 @@
- held EUR/GBP/CHF fade -0.3 for 6 hours; prices moved only +5/+12/-3 pips respectively – **no refutation, no flip-flop**. INTRADAY removal is new but mandated by protocol (2-loss streak), not council whim. Geopolitical downgrade to 0.0 is overdue (headlines 8-17h stale). Decision is consistent with evidence and prior stance.
-
-**Greed (fired=no):** All biases ≤0.3 in absolute terms, risk_mult 0.6 (conservative), prefer_symbols none, language cautious ("stalling," "await PMIs"). No overconfidence detected.
-
-**Fear (fired=no):** INTRADAY removal is protocol-driven (2-loss streak), not panic. Biases remain modest (-0.3 max). No over-reaction to recent losses or headlines. Balanced response.
-
-**Prudence (fired=yes):** Fade biases -0.3 on EUR/GBP/CHF supported by two sources (FX Strategist's 16h stall observation + Historian's Aug 2023 analog) and concrete price action (highs rejected, no follow-through). Geopolitical downgrade to 0.0 supported by multi-desk consensus (8-17h stale, zero market impact). All strong calls properly evidenced.
-
-**Intuition (fired=no):** No hunch beyond the explicit Friday PMI risk already stated in previous intuition. Market is in a holding pattern; forcing a new intuition would be noise.
-
-**Mental state:** calm | **Current mind: calm** (waiting mode, no greed/fear, evidence-based positioning).
-
----
-
-## DIRECTIVES
-
-risk_mode=caution
-risk_mult=0.6
-regime=mixed
-bias_USD=0.0
-bias_EUR=-0.3
-bias_GBP=-0.3
-bias_JPY=0.0
-bias_AUD=-0.1
-bias_NZD=0.0
-bias_CAD=0.0
-bias_CHF=-0.3
-bias_XAU=0.0
-bias_XAG=0.0
-bias_OIL=0.0
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.35
-allow_books=COUNCIL,SWING,POSITION
-news_block=GBP:754:784;EUR:829:859;GBP:904:934
-block_symbols=none
-shock=none
-prefer_symbols=none
-summary=EUR/GBP/CHF exhaustion at multi-month highs (16h stall) justifies fade -0.3; geopolitical premium fully decayed (all 0.0); INTRADAY removed on 2-loss streak; await Friday PMIs (15h)
-summary_ar=استنفاد EUR/GBP/CHF عند قمم عدة أشهر (توقف 16 ساعة) يبرر التلاشي -0.3؛ علاوة جيوسياسية تلاشت تماماً (الكل 0.0)؛ INTRADAY مُزال بعد خسارتين؛ ننتظر PMIs الجمعة (15 ساعة)
-mind=calm
-psyche_flags=prudence
-intuition=none
-
-
-# 2026-08-20 18:21 UTC
-## Council debate
-
-**Chief Macro Economist:** US data (Philly Fed 24.1 miss vs 41.4 prior, Claims stable 210K) shows manufacturing cooling but labor holding – no regime shift. Europe drought/energy headlines (50bn euro risk) are medium-term drags, not immediate. Friday PMIs (14h away) are the next macro catalyst; until then we're in a void.
-
-**Central-Bank Watcher:** Treasury buyback theme is 18 hours stale, yields rebounded per headlines – the intervention failed to durably suppress rates. Fed/Treasury "at odds" (Axios) confirms policy confusion, mild USD negative but already priced. No CB speeches today. RBA's Kent flagged upside inflation risk (supports our AUD -0.1), but that's 6 hours old. Waiting mode until PMIs.
-
-**Geopolitical & Crisis Analyst:** Kyiv attack (15 dead), NK missile, Iran sanctions, NY Capitol plot thwarted – all severity-1 noise, zero market impact for 17 hours straight. Oil holding $87-93 range despite "war premium decay" narrative proves the premium is structural (Iran/Trump "D-Day" rhetoric), not fading. But no fresh escalation = no new directional edge.
-
-**FX Strategist:** EUR 1.1673, GBP 1.3624, CHF 0.8007 – all within 2 pips of 17:21 levels, confirming our "exhaustion at multi-month highs" call. Sterling hit 6-month high per Reuters (10:33 headline), now stalling 17 hours. USDJPY 159.14 (intervention zone per Nikkei/Investing.com headlines) but no BoJ action yet. Our -0.3 fade biases on EUR/GBP/CHF are holding but not triggering – price isn't breaking down, just chopping. AUD 0.7108 steady despite RBA hawkish tilt.
-
-**Gold & Oil Trader:** Gold 4515, silver 67.93 – both exactly flat vs 17:21, confirming our 0.0 reset was correct. KITCO "jumped 4% past $4500" headline is 7 hours old (11:16), the spike fully retraced per our playbook (sharp spikes retrace half within 24h). Oil 87.17/93.87 – the "Iran D-Day" premium (IBD 14:16, OilPrice 11:30) is 4-7 hours old, holding but not extending. No OPEC news. Range-bound until supply actually disrupted.
-
-**Equity / Risk-Sentiment Desk:** SPX 7665, NDX 29174, DAX 25982 – all flat, confirming mixed regime. "Bond market signaling trouble" (NPR/Guardian 17:55/17:15) and "stock bubble" (Bloomberg 09:00) are opinion pieces, not actionable. Walmart dragged indices per Reuters (16:43) but that's stock-specific. VIX data missing but price action shows no stress. Risk-off and risk-on both absent.
-
-**Risk Manager:** Account $459, daily P/L 0, no open positions, INTRADAY removed yesterday on 2-loss streak per emergency protocol. REVERT 0% win rate (5 trades, 5 SL hits) justifies permanent removal until regime changes. SWING 1 win keeps it allowed. News blocks correctly set for Friday PMIs. No whipsaw danger now (18:21 UTC = late NY session, low volume). Caution mode appropriate until PMIs print.
+ mode appropriate until PMIs print.
 
 **Market Historian:** The current setup (EUR/GBP/CHF at multi-month highs, stalling 16-18 hours, no catalyst) rhymes with May 2024 post-ECB and Aug 2023 post-Jackson Hole: both saw 0.3-0.5% reversals within 48h once momentum faded. Our -0.3 fade bias is historically sound. BUT: the 2019 Treasury intervention analog (yields rebounded within 24h, USD fell 0.5-0.8% over 3 days) suggests USD weakness may have 1-2 days left. USDJPY 159 is exactly where BoJ intervened in Jul 2024 (dropped 4 big figures in 6 hours) – current stall at 159.14 for 18 hours is abnormal, either intervention is imminent or the line has shifted. Gold at $4515 after a $4500 spike (7h ago) fits the "retrace half within 24h" playbook perfectly – our 0.0 bias is correct. Oil $87-93 with 18-hour war premium stall matches the 2020 Soleimani pattern (spike faded in 48h) – we're in the fade window now.
 
@@ -3577,3 +3515,78 @@ shock=none
 prefer_symbols=AUDUSD
 summary=XAU cut to 0.3 (stalled 8h near ATH, momentum fading); AUD holds 0.4 (breakout extends but CFTC shorts rising); CAD -0.3 on trade collapse; weekend thin liquidity; normal 1.0x
 summary_ar=الذهب خُفض إلى 0.3 (ثابت 8 سا
+
+
+# 2026-08-22 17:11 UTC
+## Council debate
+
+**Chief Macro Economist:**
+السوق في نهاية الأسبوع، سيولة ضعيفة. عوائد الخزانة الأميركية ترتفع رغم تدخل وزارة الخزانة (Forbes/WSJ قبل 1-17 سا)، هذا يعني ضغط على الأسهم لكن USD لم يستفد بعد. PMI منطقة اليورو أظهر توسع (Seeking Alpha قبل 8 سا) لكن ألمانيا ضعيفة. لا محفزات جديدة منذ 3 ساعات.
+
+**Central-Bank Watcher:**
+BoJ متشدد (CryptoRank قبل 4 سا، FOREX.com قبل 15 دقيقة): CPI اليابان أقوى لكن JPY لم يرتفع، CFTC تظهر مراكز بيع أعمق (FXStreet قبل 4 سا). هذا يعني JPY مقاوم للصعود رغم الأساسيات. Fed لا جديد، ECB لا جديد. SNB يبقي الفائدة السلبية على الطاولة (FXStreet قبل 42 سا).
+
+**Geopolitical & Crisis Analyst:**
+إيران: الحرب مع أميركا انتهت (Guardian/WSJ/Al Jazeera قبل 1-8 سا)، إيران سمحت لناقلات نفط عراقية بالمرور عبر هرمز (Reuters قبل 5 سا). هذا تخفيف حاد للتوتر، علاوة الحرب على النفط والذهب يجب أن تتلاشى. حرب تجارية أميركا-كندا تتعمق (AP/NYT/Steel Market Update قبل 2-6 سا) لكن هذا ليس صدمة جديدة، السوق يعرفه منذ أمس.
+
+**FX Strategist:**
+AUD عند 0.717 (أعلى 1% من نطاق السنة)، CFTC تظهر بيع صافي متزايد (VT Markets قبل 5 سا) – الاختراق ممتد، خطر انعكاس. CAD ضعيف على انهيار المحادثات لكن السعر ثابت منذ 6 ساعات (USDCAD 1.3767 بلا تغيير). JPY: رهانات متشددة على BoJ لكن المضاربون يبيعون (VT Markets قبل 7 سا)، تناقض. EUR: PMI جيد لكن ألمانيا تتعثر. GBP: لا أخبار حقيقية (العناوين عن مسلسل تلفزيوني).
+
+**Gold & Oil Trader:**
+الذهب 4603 (قرب القمة التاريخية)، ثابت 9 ساعات، الزخم يتلاشى. إيران تخفف التوتر = علاوة الحرب تنتهي، يجب خفض bias. الفضة 68.9 تتبع الذهب. النفط 87.3 WTI، إيران تسمح بمرور الناقلات = لا نقص في العرض، OilPrice.com يقول "لماذا الأسعار ليست أعلى؟" (قبل 30 دقيقة) – السوق يرفض علاوة الحرب. bias يجب أن يكون 0 أو سلبي.
+
+**Equity / Risk-Sentiment Desk:**
+SPX 7677، NDX 29312، DAX 26106 – كلها قرب القمم لكن عوائد السندات ترتفع (Forbes قبل 45 دقيقة). Buffett يحذر من فقاعة (Yahoo قبل 8 سا). لا انهيار لكن الزخم ضعيف. bias سلبي خفيف منطقي لكن بلا محفز فوري.
+
+**Risk Manager:**
+لا أحداث مجدولة 48 سا. خسارة اليوم 0$، الأسبوع 0$، SHOCK خسر 1.11$ اليوم (صفقة واحدة). scorecard ضعيف (21% على 4 سا) لكن 24 سا أفضل (27%). نهاية أسبوع، سيولة رقيقة، لكن لا خطر فوري. normal مقبول لكن risk_mult يجب أن يبقى <= 1.0.
+
+**Market Historian:**
+تخفيف التوتر مع إيران (مثل Soleimani 2020): الذهب والنفط ارتفعا ثم تلاشيا في 48 سا. الآن 5 ساعات منذ خبر هرمز، الذهب لم ينخفض بعد – السوق بطيء لكن الاتجاه واضح. AUD عند 95% من نطاق السنة مع CFTC shorts rising: آخر 3 مرات حدث هذا (2023، 2024، 2025) انعكس AUD في 3-7 أيام. حرب تجارية أميركا-كندا: CAD ضعف 2% في 2025 على تعريفات مماثلة، ثم استقر. الآن USDCAD ثابت 6 سا = السوق هضم الخبر.
+
+**Chairman:**
+الأدلة: 1) إيران تخفف (5 سا، مصدران) = خفض XAU/OIL. 2) AUD ممتد + CFTC shorts = خطر انعكاس، خفض bias. 3) CAD ضعيف لكن السعر ثابت = bias -0.3 صحيح، نبقيه. 4) JPY: أساسيات قوية لكن المضاربون يبيعون = تناقض، نبقي 0.3 حذراً. 5) الأسهم: عوائد ترتفع، Buffett يحذر، لكن لا انهيار = نبقي -0.2. 6) scorecard ضعيف = conf يبقى 0.5. القرار: خفض XAU إلى 0.2، خفض AUD إلى 0.3، خفض OIL إلى -0.1 (تلاشي علاوة الحرب)، باقي بلا تغيير. risk_mult 1.0، normal.
+
+## Psyche
+
+**Awareness:** fired=yes. قارنت آخر 8 قرارات: XAU ثابت عند 0.5 لمدة 9 سا ثم خُفض إلى 0.3 قبل 68 دقيقة، الآن نخفضه مرة أخرى إلى 0.2 – هذا ليس تقلباً بل تصحيح تدريجي لزخم يتلاشى (الذهب ثابت 9 سا). AUD كان 0.4 لمدة 8 سا، الآن نخفضه إلى 0.3 على CFTC + امتداد – منطقي. لا تقلب، التغييرات مبررة بأدلة جديدة (إيران، CFTC).
+
+**Greed:** fired=no. معظم biases قرب 0، prefer_symbols واحد فقط (AUDUSD)، conf منخفض 0.5، risk_mult 1.0 (ليس مرتفعاً). لا علامات طمع.
+
+**Fear:** fired=no. لا رد فعل مبالغ، لا halt بدون سبب، التغييرات تدريجية (0.5→0.3→0.2 للذهب). متوازن.
+
+**Prudence:** fired=yes. XAU يُخفض إلى 0.2 (|bias|<0.7) لكن لدينا مصدران لتخفيف إيران (Reuters، Al Jazeera) + تاريخ من Market Historian (Soleimani 2020). AUD يُخفض إلى 0.3 على CFTC + امتداد، لدينا VT Markets + تاريخ. كل تغيير قوي مدعوم، مقبول.
+
+**Intuition:** fired=yes. أشعر أن JPY سيفاجئ بالصعود خلال 12-24 سا رغم بيع المضاربين – BoJ متشدد و CPI قوي، السوق يتجاهل هذا الآن لكن لن يستمر. لكن لا أغير الأرقام، فقط تنبيه.
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=1.0
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=-0.2
+bias_JPY=0.3
+bias_AUD=0.3
+bias_NZD=0.0
+bias_CAD=-0.3
+bias_CHF=0.2
+bias_XAU=0.2
+bias_XAG=0.2
+bias_OIL=-0.1
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=0.2
+conf=0.5
+allow_books=ALL
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=XAU/XAG cut to 0.2 on Iran de-escalation (Hormuz tankers pass); AUD cut to 0.3 on CFTC shorts+extension; OIL to -0.1 on fading war premium; weekend thin liquidity; normal 1.0x
+summary_ar=الذهب والفضة خُفضا إلى 0.2 على تخفيف إيران (ناقلات هرمز تمر)؛ الدولار الأسترالي خُفض إلى 0.3 على بيع CFTC وامتداد؛ النفط إلى -0.1 على تلاشي علاوة الحرب؛ سيولة ضعيفة نهاية الأسبوع؛ عادي 1.0x
+mind=calm
+psyche_flags=awareness,prudence,intuition
+intuition=أشعر أن الين الياباني سيفاجئ بالصعود خلال 12-24 ساعة رغم بيع المضاربين – بنك اليابان متشدد والتضخم قوي، السوق يتجاهل هذا الآن
