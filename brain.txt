@@ -1,5 +1,5 @@
-ts=1787373622
-generated=2026-08-22 04:40 UTC
+ts=1787374074
+generated=2026-08-22 04:47 UTC (watchman heartbeat; council 7 min ago)
 version=1
 risk_mode=caution
 risk_mult=0.85
@@ -31,3 +31,4 @@ mind=focused
 psyche_flags=awareness,fear,prudence
 intuition=الذهب سيختبر 4620$ خلال 12 ساعة ثم يتصحح - الارتفاع ممتد، نهاية الأسبوع تجلب جني أرباح
 news_events=none
+watchman=quiet (sev0)
