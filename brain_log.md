@@ -1,77 +1,4 @@
-g mode. Price context: EURUSD 1.1697 (near 3-month high per USD weakness), USDJPY 158.45 (stable), gold $4489 (off highs but elevated). **No extended moves to fade, no breakouts to chase.** Lean: hold flat biases, let data decide.
-
-**Chairman:** Consensus is clear: **catalyst void, data in 84 minutes is the only game.** Geopolitics failed to move markets (Awareness confirms: we raised JPY/OIL/XAU biases 3 hours ago to 0.2/0.3/0.2, prices went nowhere, we correctly reset to 0.0 last hour). No flip-flopping – we're tracking evidence. Historian's analog (Aug-2024 wait-state) fits. Risk Manager's point on REVERT/SHOCK losses noted; keeping them sidelined. **Maintain caution, flat biases except EUR -0.1 (structural), AUD -0.1 (jobs miss still valid).** News block USD data window. Conf 0.3 (low conviction pre-data). Allow COUNCIL/SWING only. No shocks, no preferred symbols. Let the data speak at 12:30 UTC.
-
----
-
-## Psyche
-
-**Awareness (fired=no):** Previous directives stable for 3 hours (all biases 0.0 except EUR/AUD -0.1); no flip-flopping. We raised geopolitical biases 3h ago, prices refuted them, we correctly downgraded. Decision memory shows disciplined tracking. Scorecard shows 50-55% hit rate (mediocre) – justifies low conf. No stubbornness detected. Clear mind.
-
-**Greed (fired=no):** All biases ≤0.1, conf=0.3, prefer_symbols=none, risk_mult=0.6. No overconfidence language. Council is appropriately cautious. Not firing.
-
-**Fear (fired=no):** Caution mode is data-driven (84min to event, stale themes), not panic. Account down $0.88 (0.2%) is trivial. REVERT/SHOCK removals were rational (loss streaks). No over-reaction. Not firing.
-
-**Prudence (fired=yes):** No strong calls proposed (all |bias|≤0.1), so no need to downgrade. Firing to confirm: maintaining low biases pre-data is correct – no two independent sources support any >0.3 bias right now. Historian provided wait-state analog. Approved.
-
-**Intuition (fired=yes):** Markets feel coiled – 13h of range compression post-buyback, geopolitics ignored, data in 84min. Hunch: if Philly Fed misses badly (sub-20 vs 24.1 forecast), USD sells off and gold spikes; if beats (>28), reverse. But don't front-run – the forecast drop (41.4→24.1) may already be priced. Wait for the print.
-
-**State:** calm  
-**Flags:** awareness, prudence, intuition
-
----
-
-## DIRECTIVES
-
-risk_mode=caution
-risk_mult=0.6
-regime=mixed
-bias_USD=0.0
-bias_EUR=-0.1
-bias_GBP=0.0
-bias_JPY=0.0
-bias_AUD=-0.1
-bias_NZD=0.0
-bias_CAD=0.0
-bias_CHF=0.0
-bias_XAU=0.0
-bias_XAG=0.0
-bias_OIL=0.0
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.3
-allow_books=COUNCIL,SWING
-news_block=USD:84:114
-block_symbols=none
-shock=none
-prefer_symbols=none
-summary=Pre-data void: geopolitics ignored (Kyiv/NK/Iran no market impact), Treasury buyback theme stale (13h), all biases flat except EUR/AUD -0.1; US Philly Fed/Claims in 84min is next catalyst
-summary_ar=فراغ ما قبل البيانات: الجيوسياسة متجاهلة (كييف/كوريا الشمالية/إيران بلا تأثير)، موضوع إعادة شراء الخزانة قديم (13 ساعة)، كل الانحيازات صفر إلا EUR/AUD -0.1؛ بيانات أمريكية بعد 84 دقيقة
-mind=calm
-psyche_flags=awareness,prudence,intuition
-intuition=Philly Fed surprise (>2σ either way) could break the 13h range – but forecast drop 41→24 may be priced; wait for print, don't guess direction
-
-
-# 2026-08-20 12:07 UTC
-## Council debate
-
-**Chief Macro Economist:** US data in 22 minutes (Philly Fed 41.4→24.1 forecast = sharp slowdown, Claims 209K→210K stable). If Philly Fed beats >30, USD bid on resilience; if misses <20, Fed pause hopes = USD soft. Treasury buyback theme (14h old) still capping long yields but fading as driver. Growth picture unclear until print.
-
-**Central-Bank Watcher:** Fed minutes (18h stale) showed no new urgency. Philly Fed drop already telegraphed by ISM/Empire weakness – market may have priced the slowdown. No CB speakers today. ECB's Lagarde (19h old) warned on Europe's model erosion but no policy signal. BoE/BoJ silent. Awaiting US data for rate path clues.
-
-**Geopolitical & Crisis Analyst:** Trump Iran sanctions (5h old), Kyiv strikes (12h), NK missile (3h) – all ignored by markets (oil +0.9% is noise, gold -$20 from highs). No escalation, no supply threat, no safe-haven flow. Somali pirates headline is color not catalyst. Geopolitics dormant as price driver today.
-
-**FX Strategist:** GBP holding 1.3623 (6-month high per Reuters 2h ago) on yesterday's inflation surprise, but no fresh catalyst – vulnerable to mean reversion. EUR 1.168 weak on structural concerns (Lagarde, drought). JPY 158.77 soft despite geopolitics (carry bid persists). CHF 0.7989 two-month high (2h old headline) on Treasury fears but momentum fading. All pairs range-bound pre-data.
-
-**Gold & Oil Trader:** Gold 4455 rejected 4475 highs overnight, now -$20 from peak despite Iran/Kyiv headlines = geopolitical premium fully faded. Oil 87.84 WTI / 94.70 Brent up 3% on Iran rhetoric (CNBC 4h ago) but stalled – if Philly Fed weak (recession fear) oil drops; if strong (demand) oil holds. No OPEC news. Positioning cautious.
-
-**Equity / Risk-Sentiment Desk:** SPX 7681, NDX 29237 flat overnight. "Stock market bubble" (Bloomberg 3h) and "bond yields breaking AI bull" (InvestorPlace 7h) = anxiety but no selling. VIX data missing but tone is wait-and-see. Dow -400 yesterday (7h old) on Iran war but recovered. Risk-off absent despite headlines. Mixed regime confirmed.
-
-**Risk Manager:** Daily loss -$1.40 (0.3%), two books active (INTRADAY -$1.16 one loss, SWING +$1.52 one win). REVERT banned (5-loss streak yesterday). SHOCK bled -$1.35 on 6/8 SL hits in post-session noise – lesson applied, keep it out. News block USD:25:55 correct. Account healthy. Maintain caution, data volatility risk in 22 min.
-
-**Market Historian:** Philly Fed forecast drop 41→24 echoes Jul-2019 (43→21 actual, USD sold off 0.4% in 2h, gold +$15, then reversed next day). Aug-2024 similar miss (18 actual vs 25 forecast) = 1-day USD weakness then fade. Pattern: big misses (<20) = 4h USD soft, gold/JPY bid, but mean-revert by next session unless NFP confirms. Big beats (>35) = USD spike 0.3%, fade in 12h. Current setup: forecast already down, surprise threshold high. GBP at 6mo high = extended (95th percentile vs 1y range per price context), vulnerable if USD rallies. Gold at $4455 = 88th percentile, room to run but needs catalyst. Oil 87.84 = 72nd percentile, geopolitical premium faded fast (Soleimani 2020 analog: spike day 1, -50% retracement day 3). Analog: today rhymes with pre-NFP Augusts – data creates 2-4h volatility, then range resumes until next tier-1 print.
+d +$15, then reversed next day). Aug-2024 similar miss (18 actual vs 25 forecast) = 1-day USD weakness then fade. Pattern: big misses (<20) = 4h USD soft, gold/JPY bid, but mean-revert by next session unless NFP confirms. Big beats (>35) = USD spike 0.3%, fade in 12h. Current setup: forecast already down, surprise threshold high. GBP at 6mo high = extended (95th percentile vs 1y range per price context), vulnerable if USD rallies. Gold at $4455 = 88th percentile, room to run but needs catalyst. Oil 87.84 = 72nd percentile, geopolitical premium faded fast (Soleimani 2020 analog: spike day 1, -50% retracement day 3). Analog: today rhymes with pre-NFP Augusts – data creates 2-4h volatility, then range resumes until next tier-1 print.
 
 **Chairman:** Historian and FX Strategist align: we are in a pre-data void with extended positions (GBP, CHF highs; gold elevated) and faded geopolitics. Philly Fed in 22 min is the only catalyst for the next 18 hours (Friday PMIs 19h away). Economist and CB Watcher agree: forecast drop 41→24 may be priced, but >2σ surprise either way moves USD/gold/JPY for 2-4 hours per Historian's playbook. Risk Manager confirms account stable, books disciplined. Equity desk sees no conviction. Oil/Gold traders note geopolitical premium dead. Decision: hold all biases at 0.0 (no edge pre-print), keep news block, maintain caution/0.6 risk. If data surprises, next cycle (12:30 UTC) adjusts. GBP/CHF extended but no shorting edge without catalyst. Conf 0.3 (low – waiting for facts).
 
@@ -3438,3 +3365,75 @@ summary_ar=كل التوجهات ثابتة؛ الذهب قرب ATH على مخ�
 mind=focused
 psyche_flags=awareness,fear,prudence,intuition
 intuition=الذهب سيختبر 4615-4620$ خلال 12 ساعة ثم يتراجع 20-30$ الاثنين لجني أرباح؛ EUR فوق 1.167، JPY فوق 158.5؛ GBP نحو 1.362 بدون أخبار إيجابية
+
+
+# 2026-08-22 09:25 UTC
+## Council debate
+
+**Chief Macro Economist:** الوضع الكلي ثابت منذ 16 ساعة: عوائد السندات الأميركية مرتفعة (مخاوف ديون)، PMI منطقة اليورو قوي (نمو مستمر)، ألمانيا تباطأت لكن بدون انهيار. لا بيانات جديدة منذ الجمعة. نهاية الأسبوع = لا محفزات. التوجهات الحالية صحيحة.
+
+**Central-Bank Watcher:** Bessent يقول عوائد السندات ستنخفض لكن السوق لا يصدقه (yields ارتفعت الجمعة). ECB يميل نحو تشديد (traders bracing for hawkish ECB). BoJ/وزارة المالية اليابانية تنسيق على الين (U.S.-Japan currency alliance). لا خطابات اليوم. التوجه JPY +0.3 صحيح (تدخل محتمل)، EUR +0.3 صحيح (ECB متشدد).
+
+**Geopolitical & Crisis Analyst:** Canada-US trade war تصاعد (talks collapsed، tariffs deepening) – هذا جديد منذ 4 ساعات لكن لا تأثير فوري على FX (CAD ثابت 1.3767). إيران/ترامب rhetoric مستمر (Iran vows devastating response، Trump stuck on Iran war) لكن بدون تصعيد عسكري فعلي. روسيا ضربت أوكرانيا (16 قتيل) – روتيني. لا صدمة severity-2/3. الذهب/النفط يتفاعلان مع الخطابة لا الأفعال.
+
+**FX Strategist:** EURUSD 1.1676 (ثابت 8 ساعات)، USDJPY 158.978 (ثابت)، GBPUSD 1.3644 (نزل 20 نقطة من 1.366 أمس) – التوجه GBP -0.2 يعمل. AUDUSD 0.717 (ارتفع من 0.715 الجمعة، breakout 10-week highs حسب FOREX.com) – bias AUD +0.2 ضعيف، يجب رفعه لـ+0.35. CHF قوي (carry trades pivot to CHF)، bias +0.2 صحيح. NZD ثابت 0.598، bias 0.0 صحيح. CAD ثابت رغم trade war – bias +0.1 مقبول.
+
+**Gold & Oil Trader:** XAU 4603$ (17$ من ATH 4620$)، ثابت منذ 16 ساعة – bias +0.5 صحيح لكن الزخم يتلاشى (sideways 4600-4605 طوال الليل). XAG 68.9$ (ارتفع من 64.9$ الجمعة، +6%) – bias +0.3 ضعيف جداً، يجب +0.5. النفط WTI 87.3$، Brent 94.2$ (ثابت، "steady" حسب Barchart) – bias 0.0 صحيح. إيران سمحت لناقلات عراقية بالمرور عبر هرمز (Iran grants permission) – إشارة تهدئة، ليس تصعيد.
+
+**Equity / Risk-Sentiment Desk:** US500 7677 (نزل من 7683 أمس)، US100 29312 (نزل من 29465)، GER40 26106 (ارتفع من 26103) – bias US500/US100 -0.2 يعمل، GER40 +0.2 يعمل. "Wall St rises on the day but falls for the week" – اتجاه هبوطي أسبوعي لكن ارتداد يوم الجمعة. نهاية الأسبوع = لا حجم. Michael Burry يحذر من فقاعة (Burry warns of market bubble) – sentiment سلبي لكن ليس جديداً.
+
+**Risk Manager:** لا أحداث tier-1 خلال 48 ساعة. daily P/L 0%، SHOCK خسر 1.11$ اليوم (1 صفقة، 0 أرباح) لكن ليس 3 خسائر متتالية. allow_books=ALL مقبول. risk_mode=normal صحيح (لا تهديد نشط، 16 ساعة caution كانت مبالغة). risk_mult 0.9 مقبول. لكن: scorecard 29% ضعيف جداً – conf يجب ألا يتجاوز 0.7.
+
+**Market Historian:** آخر مرة Canada-US trade war تصاعد (2018-2019 NAFTA renegotiation): CAD نزل 2-3% على أسابيع لكن ليس في يوم واحد؛ اليوم CAD ثابت = السوق يتجاهل أو ينتظر تفاصيل. الذهب قرب ATH بدون محفز جديد: آخر 5 مرات (2020، 2024، 2025) عندما XAU وصل ATH وتوقف 12+ ساعة sideways، تراجع 1-2% خلال 48 ساعة (جني أرباح). الفضة +6% في يومين بدون صدمة = امتداد مفرط، توقع تصحيح 2-3%. EUR/JPY ثابت على تنسيق BoJ/Fed (currency alliance) = bullish JPY صحيح. GBP ضعيف بدون سبب جديد = استمرار.
+
+**Chairman:** الأدلة: (1) لا بيانات/أحداث جديدة منذ 16 ساعة – كل التوجهات الحالية دقيقة. (2) Canada-US trade war جديد لكن CAD لم يتفاعل = نتجاهل حتى يتحرك السعر. (3) XAU sideways 16 ساعة قرب ATH = الزخم يتلاشى، bias +0.5 يبقى لكن conf ينخفض. (4) XAG +6% = مبالغة، نرفع bias لـ+0.5 لكن نحذر من تصحيح. (5) AUD breakout 10-week highs = نرفع bias لـ+0.35. (6) scorecard 29% يفرض conf <= 0.7. (7) نهاية الأسبوع = سيولة ضعيفة، normal 0.9 مقبول لكن لا نرفع risk_mult. القرار: نرفع AUD/XAG، نخفض conf لـ0.65، الباقي ثابت.
+
+---
+
+## Psyche
+
+**Awareness:** fired=yes. قارنت مع DECISION MEMORY: آخر 8 قرارات كلها risk_mode=normal/caution، conf 0.65-0.8، biases ثابتة (XAU 0.5، JPY 0.3، EUR 0.3، GBP -0.2). اليوم نفس الشيء بدون حقائق جديدة = **ثبات صحيح لا عناد**. لكن: AUD كان 0.2 منذ 16 ساعة والسعر اخترق 10-week highs (FOREX.com) = يجب رفعه. XAG كان 0.3 والسعر +6% = يجب رفعه. **لا flip-flopping، تعديلات مبررة.**
+
+**Greed:** fired=no. conf سينخفض لـ0.65 (ليس مرتفعاً)، risk_mult 0.9 (ليس 1.0+)، prefer_symbols 3 فقط (ليس طويلاً)، لا لغة "easy money". **لا جشع.**
+
+**Fear:** fired=yes. المجلس بقي في caution 16 ساعة (02:10-06:55) بدون تهديد نشط، ثم رفعها لـnormal – هذا صحيح. لكن الآن: conf سينخفض من 0.75 لـ0.65 بسبب scorecard 29% فقط (بدون حدث جديد) = **رد فعل مبالغ على رقم إحصائي**. scorecard ضعيف لكن آخر 16 ساعة كل التوجهات دقيقة (XAU/EUR/JPY/GBP كلها تحركت كما توقعنا). **أوازن: conf 0.7 أفضل من 0.65.**
+
+**Prudence:** fired=yes. AUD bias سيرتفع لـ+0.35 (قوي) بناءً على مصدر واحد (FOREX.com breakout) + Market Historian لم يعط analog واضح لـAUD. **أطلب downgrade لـ+0.3 بدلاً من +0.35.** XAG bias سيرتفع لـ+0.5 بناءً على +6% move + تحذير Market Historian من تصحيح = **متناقض، يجب +0.4 مع تحذير.**
+
+**Intuition:** fired=yes. **الذهب سيختبر 4615$ خلال 6 ساعات (ارتداد صغير من 4603$) ثم يتوقف؛ الفضة ستصحح 2-3% الاثنين؛ AUDUSD سيصل 0.72 ثم يتراجع؛ Canada-US trade war سيضغط CAD بعد 24-48 ساعة عندما تظهر التفاصيل.**
+
+**Mind state:** focused (كل الخبراء متفقون على الاتجاه، خلافات صغيرة على الأرقام فقط).
+
+---
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.9
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=-0.2
+bias_JPY=0.3
+bias_AUD=0.3
+bias_NZD=0.0
+bias_CAD=0.1
+bias_CHF=0.2
+bias_XAU=0.5
+bias_XAG=0.4
+bias_OIL=0.0
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=0.2
+conf=0.7
+allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT,SHOCK
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=XAUUSD,XAGUSD,AUDUSD
+summary=AUD/XAG raised on breakouts; XAU holds near ATH (momentum fading); all other biases unchanged; weekend thin liquidity; normal 0.9x; conf 0.7 on weak scorecard
+summary_ar=AUD/XAG مرتفع على اختراقات؛ XAU قرب ATH (زخم يتلاشى)؛ باقي التوجهات ثابتة؛ سيولة ضعيفة نهاية أسبوع؛ طبيعي 0.9؛ ثقة 0.7 على scorecard ضعيف
+mind=focused
+psyche_flags=awareness,fear,prudence,intuition
+intuition=الذهب 4615$ خلال 6 ساعات ثم توقف؛ الفضة تصحيح 2-3% الاثنين؛ AUD يصل 0.72 ثم يتراجع؛ Canada-US trade war يضغط CAD بعد 24-48 ساعة
