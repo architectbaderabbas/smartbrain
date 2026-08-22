@@ -681,3 +681,4 @@
 - 2026-08-22 06:55 UTC · FULL COUNCIL triggered: scheduled full council (last 69 min ago)
 - 2026-08-22 07:02 UTC · heartbeat · ALERT sev2: Canada suspends trade negotiations, vows dollar-for-dollar retaliation as 50% US tariffs take effect at midnight -> protocol applied, council convening
 - 2026-08-22 07:02 UTC · FULL COUNCIL triggered: ALERT sev2: Canada suspends trade negotiations, vows dollar-for-dollar retaliation as 50% US tariffs take effect at midnight
+- 2026-08-22 07:10 UTC · heartbeat · quiet (sev0)

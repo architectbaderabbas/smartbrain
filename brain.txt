@@ -1,5 +1,5 @@
-ts=1787382189
-generated=2026-08-22 07:03 UTC
+ts=1787382611
+generated=2026-08-22 07:10 UTC (watchman heartbeat; council 7 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.9
@@ -31,3 +31,4 @@ mind=focused
 psyche_flags=awareness,fear,prudence,intuition
 intuition=الذهب سيختبر 4615-4620$ خلال 12-24 ساعة ثم يتراجع 20-40$ لجني أرباح نهاية الأسبوع - لكن الزخم لا يزال صاعداً
 news_events=none
+watchman=quiet (sev0)
