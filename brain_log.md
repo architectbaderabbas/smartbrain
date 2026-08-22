@@ -1,72 +1,4 @@
-AUD -0.1. Conf stays 0.3 (no conviction pre-data). Risk_mult 0.6, caution, COUNCIL/SWING only. Intuition's "show-me market" is adopted: markets want proof, not headlines.
-
----
-
-## Psyche
-
-**Awareness:** fired=yes. We raised biases 1h ago on geopolitics; prices refuted (gold -$17, oil +$3 then flat, JPY fading). Downgrading now is honest correction, not flip-flop, because new evidence (price rejection) arrived. No freeze needed.
-
-**Greed:** fired=no. Conf=0.3, all biases ≤0.1, prefer_symbols=none. No overconfidence detected.
-
-**Fear:** fired=no. Caution is data-driven (catalyst void, geopolitical fade), not panic. Balanced stance.
-
-**Prudence:** fired=yes. Geopolitical biases (JPY/XAU/OIL 0.1-0.3 last hour) lacked follow-through; downgrading to 0.0 except AUD -0.1 on fresh jobs data. No strong calls without confirmation.
-
-**Intuition:** fired=yes. "Markets are in wait-state for US data (2.5h) or Friday PMIs – the 12:30 UTC prints will either break the range or extend the void; lean toward range extension (soft data = risk-on nudge) but don't front-run."
-
----
-
-## DIRECTIVES
-
-risk_mode=caution
-risk_mult=0.6
-regime=mixed
-bias_USD=0.0
-bias_EUR=-0.1
-bias_GBP=0.0
-bias_JPY=0.0
-bias_AUD=-0.1
-bias_NZD=0.0
-bias_CAD=0.0
-bias_CHF=0.0
-bias_XAU=0.0
-bias_XAG=0.0
-bias_OIL=0.0
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.3
-allow_books=COUNCIL,SWING
-news_block=USD:145:175
-block_symbols=none
-shock=none
-prefer_symbols=none
-summary=Geopolitical headlines (NK missile, Kyiv, Iran) failed to move markets; gold rejected highs, oil flat, JPY fading; all biases reset to 0.0 except AUD -0.1 on jobs miss; await US data 12:30 UTC
-summary_ar=عناوين جيوسياسية (صاروخ كوريا الشمالية، كييف، إيران) فشلت بتحريك الأسواق؛ الذهب رفض القمم، النفط ثابت، الين يتراجع؛ كل الانحيازات صفر إلا AUD -0.1 على بيانات وظائف؛ ننتظر بيانات أمريكية 12:30 UTC
-mind=calm
-psyche_flags=awareness,prudence,intuition
-intuition=Markets in wait-state for 12:30 UTC data – lean toward range extension if prints are soft, but don't front-run the release
-
-
-# 2026-08-20 11:05 UTC
-## Council debate
-
-**Chief Macro Economist:** US data in 84 minutes (Philly Fed, Claims) is the only near-term catalyst; Treasury buyback theme now 13 hours stale, no follow-through. Growth/inflation cycle unchanged – waiting for prints to confirm soft landing vs re-acceleration. Neutral USD until data.
-
-**Central-Bank Watcher:** Fed minutes (19h old) showed no new guidance; market priced in. No CB speeches today. Thursday's data matters more than today's medium-impact releases. Rates path on hold until NFP/CPI next cycle. Neutral all currencies.
-
-**Geopolitical & Crisis Analyst:** Kyiv strikes (16 dead, 3h old), NK missile (2h old), Iran sanctions (4h old) – **all failed to move markets**. Oil +0.4% despite Hormuz rhetoric, gold down $17 from highs, JPY flat. Markets are numb or these are non-events. No escalation requiring action. Watching but not trading it.
-
-**FX Strategist:** USD three-month low (per Reuters 3h ago) but DXY data missing – can't confirm. EUR structural weakness (Lagarde's warnings) persists but no fresh trigger. GBP got UK CPI boost yesterday but fading. AUD soft on jobs miss. All pairs range-bound pre-data. No conviction.
-
-**Gold & Oil Trader:** Gold rejected $4507 highs, now $4489 – classic pre-data pullback. Oil $87.34, up trivially despite war headlines – Hormuz premium not pricing in. If data is soft, gold may test $4520; if hot, $4460. Oil needs real supply shock, not talk. Neutral both.
-
-**Equity / Risk-Sentiment Desk:** SPX 7719, NDX 29494 – both flat overnight. No VIX data but price action says calm. Risk-on holding but no conviction. Waiting for US data or earnings. Indices in 10-point ranges. Nothing to do.
-
-**Risk Manager:** Account at $462.88, down $0.88 today (NZDUSD BREAKOUT position -$0.33). REVERT removed yesterday (5-loss streak, -$31.53). SHOCK bled yesterday (6/8 SL hits). Only SWING (1 win, +$1.52) and independent robots active. **84 minutes to USD data = news_block USD:84:114 mandatory.** Caution justified; no reason to change.
-
-**Market Historian:** **Last time markets ignored geopolitical headlines this blatantly** (Syria strikes April 2018, NK tests 2017), it meant either: (a) events were priced in, or (b) focus was on data/earnings. Today rhymes with (b) – Treasury buyback yesterday was the story, now stale. **Philly Fed/Claims historically move USD ±0.3% if >1σ surprise; <1σ = chop.** Forecast vs previous: Philly Fed 24.1 vs 41.4 (big drop expected, but it's a volatile series), Claims 210K vs 209K (no surprise). **Analog: August 2024 pre-Jackson Hole – markets ranged for 36h before Powell.** Today is similar: waiting mode. Price context: EURUSD 1.1697 (near 3-month high per USD weakness), USDJPY 158.45 (stable), gold $4489 (off highs but elevated). **No extended moves to fade, no breakouts to chase.** Lean: hold flat biases, let data decide.
+g mode. Price context: EURUSD 1.1697 (near 3-month high per USD weakness), USDJPY 158.45 (stable), gold $4489 (off highs but elevated). **No extended moves to fade, no breakouts to chase.** Lean: hold flat biases, let data decide.
 
 **Chairman:** Consensus is clear: **catalyst void, data in 84 minutes is the only game.** Geopolitics failed to move markets (Awareness confirms: we raised JPY/OIL/XAU biases 3 hours ago to 0.2/0.3/0.2, prices went nowhere, we correctly reset to 0.0 last hour). No flip-flopping – we're tracking evidence. Historian's analog (Aug-2024 wait-state) fits. Risk Manager's point on REVERT/SHOCK losses noted; keeping them sidelined. **Maintain caution, flat biases except EUR -0.1 (structural), AUD -0.1 (jobs miss still valid).** News block USD data window. Conf 0.3 (low conviction pre-data). Allow COUNCIL/SWING only. No shocks, no preferred symbols. Let the data speak at 12:30 UTC.
 
@@ -3429,3 +3361,80 @@ summary_ar=تصحيح إنذار Canada الكاذب: كل التوجهات دق
 mind=focused
 psyche_flags=awareness,fear,prudence,intuition
 intuition=الذهب سيختبر 4615-4620$ خلال 12-24 ساعة ثم يتراجع 20-40$ لجني أرباح نهاية الأسبوع - لكن الزخم لا يزال صاعداً
+
+
+# 2026-08-22 08:10 UTC
+## Council debate
+
+**Chief Macro Economist:**
+الاقتصاد الأميركي يواجه قلق ديون متزايد (عوائد السندات ترتفع رغم تدخل Bessent)؛ أوروبا تُظهر نمواً ثابتاً (PMI أعلى في 9 أشهر)؛ اليابان تُنسّق مع أميركا على الين (تحالف عملات جديد)؛ النمو العالمي مختلط لكن التضخم تحت السيطرة.
+
+**Central-Bank Watcher:**
+Fed محايد (لا أحداث مجدولة)؛ ECB إيجابي (نمو التصنيع يدعم اليورو)؛ BoJ نشط (تدخل محتمل إذا تجاوز USDJPY 160)؛ RBA متشدد (Westpac يرى تثبيت الفائدة)؛ كل البنوك في وضع انتظار نهاية الأسبوع.
+
+**Geopolitical & Crisis Analyst:**
+إيران تهدد برد "مدمّر" على عقوبات Trump الجديدة (لكن لا تصعيد عسكري فوري)؛ روسيا تضرب مركز تسوق أوكراني (16 قتيل، لكن روتين حرب)؛ كندا-أميركا: محادثات تعريفات فشلت (تصعيد تجاري لكن ليس صدمة)؛ كل الأحداث severity-1 كحد أقصى، لا حاجة لـhalt.
+
+**FX Strategist:**
+EUR قوي (PMI + ضعف USD)؛ JPY قوي (تحالف عملات + تدخل محتمل)؛ GBP ضعيف (لا محفزات إيجابية)؛ AUD/NZD محايد (RBA متشدد لكن الصين بطيئة)؛ CHF معتدل (SNB يُبقي فائدة سلبية على الطاولة)؛ USD محايد (بيانات قوية لكن قلق ديون).
+
+**Gold & Oil Trader:**
+XAU عند 4603$ (17$ من ATH 4620$)؛ الزخم صاعد على مخاوف ديون أميركية + ضعف USD؛ تاريخياً: اختراق ATH يستمر 55-60% من الوقت؛ XAG يتبع عند 68.9$؛ OIL مستقر عند 87$ (إيران تهدد لكن لا تصعيد فعلي، علاوة الحرب تتلاشى).
+
+**Equity / Risk-Sentiment Desk:**
+US500/US100/US30 تراجعت الجمعة (عوائد سندات + قلق ديون)؛ GER40 صامد (أوروبا أقوى)؛ VIX منخفض (لا ذعر)؛ risk-off معتدل (ليس أزمة)؛ نهاية الأسبوع = سيولة ضعيفة، تجنب مراكز كبيرة.
+
+**Risk Manager:**
+لا أحداث tier-1 خلال 48 ساعة؛ نهاية الأسبوع = سيولة ضعيفة (حذر معتدل)؛ SHOCK خسر 1.11$ اليوم (8 صفقات، 4 أرباح، صافي -2.46$ منذ 20 أغسطس)؛ REVERT-OLD خسر 24.63$ (4 صفقات، 0 أرباح) لكنه روبوت متقاعد؛ الكتب الجديدة (COUNCIL/SWING) مربحة؛ risk_mode=normal مقبول لكن risk_mult يبقى 0.9 للسيولة الضعيفة.
+
+**Market Historian:**
+آخر مرة XAU اقترب من ATH بزخم قوي (يوليو 2020، مارس 2022): استمر 3-7 أيام ثم تراجع 2-4%؛ اليوم: XAU عند 99.6% من نطاق السنة، زخم قوي، لكن نهاية الأسبوع = جني أرباح محتمل؛ EUR/JPY قوي يُشبه يناير 2026 (PMI أوروبا + BoJ حذر)؛ GBP ضعيف بلا محفز يُشبه أغسطس 2025؛ تحذير: نهاية الأسبوع = فجوات كاذبة تُملأ بحلول الأربعاء.
+
+**Chairman:**
+الأدلة واضحة: XAU زخم صاعد (0.5 يبقى)، EUR/JPY قوي (0.3 لكل)، GBP ضعيف (-0.2)، USD محايد (قلق ديون يُلغي بيانات قوية)، OIL محايد (0.0)؛ المؤرخ يحذر من جني أرباح نهاية الأسبوع لكن الزخم لا يزال صاعداً؛ مدير المخاطر محق: نهاية الأسبوع = سيولة ضعيفة لكن لا أزمة؛ القرار: risk_mode=normal، risk_mult=0.9 (بدون تغيير)، conf=0.75 (scorecard 30% يمنع رفعها)، allow_books=ALL (SHOCK يبقى رغم خسارة صغيرة، Fear مبالغ)، biases بدون تغيير.
+
+## Psyche
+
+**Awareness:** fired=yes · آخر 8 قرارات: biases ثابتة، risk_mode تذبذب (caution↔normal 4 مرات في 6 ساعات بدون حقائق جديدة)؛ هذا تذبذب؛ الأسعار أكدت XAU/EUR/JPY (دقيقة)، لكن التبديل المتكرر لـrisk_mode خطأ؛ اليوم: لا حقائق جديدة = نُبقي كل شيء ثابتاً.
+
+**Greed:** fired=no · conf=0.75 معتدل، معظم biases 0.0-0.3، prefer_symbols 3 فقط، لا لغة "مال سهل"؛ لا جشع.
+
+**Fear:** fired=yes · 6 ساعات في caution بدون تهديد ملموس (نهاية الأسبوع ليس أزمة)؛ Chairman رفع لـnormal مرتين لكن Awareness تقول "تذبذب"؛ الحقيقة: لا حدث نشط، scorecard 30% = حذر معتدل مبرر؛ نُبقي normal 0.9 (وسط بين الخوف والثقة الزائدة).
+
+**Prudence:** fired=yes · XAU bias=0.5 له مصدران (عوائد سندات، ضعف USD) + تاريخ (اختراق ATH يستمر 55%)؛ EUR/JPY bias=0.3 له مصدران (PMI، تحالف عملات) + تاريخ (يناير 2026)؛ كل القرارات القوية مدعومة؛ مقبول.
+
+**Intuition:** fired=yes · الذهب سيختبر 4615-4620$ خلال 12 ساعة (momentum + نهاية الأسبوع الآسيوي)، ثم تراجع 20-30$ الاثنين لجني أرباح؛ EUR سيصمد فوق 1.167، JPY فوق 158.5؛ GBP سيضعف لـ1.362 إذا لم تأتِ أخبار إيجابية.
+
+**Mind state:** focused · الأدلة واضحة، biases مستقرة، لا تذبذب في الأرقام (فقط في risk_mode السابق)، Psyche متوازن.
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.9
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=-0.2
+bias_JPY=0.3
+bias_AUD=0.2
+bias_NZD=0.0
+bias_CAD=0.1
+bias_CHF=0.2
+bias_XAU=0.5
+bias_XAG=0.3
+bias_OIL=0.0
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=0.2
+conf=0.75
+allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT,SHOCK
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=XAUUSD,EURUSD,USDJPY
+summary=All biases unchanged; XAU holds near ATH on US debt fears; EUR/JPY firm on PMI/intervention talk; GBP weak; weekend thin liquidity; normal 0.9x maintained
+summary_ar=كل التوجهات ثابتة؛ الذهب قرب ATH على مخاوف ديون أميركية؛ EUR/JPY قوي على PMI/تدخل محتمل؛ GBP ضعيف؛ سيولة ضعيفة نهاية الأسبوع؛ طبيعي 0.9 مستمر
+mind=focused
+psyche_flags=awareness,fear,prudence,intuition
+intuition=الذهب سيختبر 4615-4620$ خلال 12 ساعة ثم يتراجع 20-30$ الاثنين لجني أرباح؛ EUR فوق 1.167، JPY فوق 158.5؛ GBP نحو 1.362 بدون أخبار إيجابية

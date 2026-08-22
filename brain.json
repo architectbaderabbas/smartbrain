@@ -1,6 +1,6 @@
 {
- "ts": 1787385679,
- "council_ts": 1787382189,
+ "ts": 1787386211,
+ "council_ts": 1787386211,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.9,
@@ -28,13 +28,12 @@
   "prefer_symbols": "XAUUSD,EURUSD,USDJPY",
   "mind": "focused",
   "psyche_flags": "awareness,fear,prudence,intuition",
-  "intuition": "الذهب سيختبر 4615-4620$ خلال 12-24 ساعة ثم يتراجع 20-40$ لجني أرباح نهاية الأسبوع - لكن الزخم لا يزال صاعداً",
-  "summary": "Correcting false Canada alert: all 16h biases accurate (XAU near ATH on US debt fears, EUR/JPY firm, GBP fades); danger downgraded to normal 0.9x",
-  "summary_ar": "تصحيح إنذار Canada الكاذب: كل التوجهات دقيقة منذ 16 ساعة (الذهب قرب ATH على مخاوف ديون أميركية، EUR/JPY قوي، GBP يتراجع)؛ خطر يُخفّض لطبيعي 0.9",
+  "intuition": "الذهب سيختبر 4615-4620$ خلال 12 ساعة ثم يتراجع 20-30$ الاثنين لجني أرباح؛ EUR فوق 1.167، JPY فوق 158.5؛ GBP نحو 1.362 بدون أخبار إيجابية",
+  "summary": "All biases unchanged; XAU holds near ATH on US debt fears; EUR/JPY firm on PMI/intervention talk; GBP weak; weekend thin liquidity; normal 0.9x maintained",
+  "summary_ar": "كل التوجهات ثابتة؛ الذهب قرب ATH على مخاوف ديون أميركية؛ EUR/JPY قوي على PMI/تدخل محتمل؛ GBP ضعيف؛ سيولة ضعيفة نهاية الأسبوع؛ طبيعي 0.9 مستمر",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787197076,
