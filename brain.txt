@@ -1,5 +1,5 @@
-ts=1787422332
-generated=2026-08-22 18:12 UTC
+ts=1787423102
+generated=2026-08-22 18:25 UTC (watchman heartbeat; council 12 min ago)
 version=1
 risk_mode=normal
 risk_mult=1.0
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=awareness,prudence,intuition
 intuition=أشعر أن زلزال طوكيو M5.9 قد يكون بداية سلسلة – إذا جاء M6+ خلال 24 ساعة، الين سيقفز على إعادة الأموال؛ لكن الآن لا دليل، فقط حدس
 news_events=none
+watchman=quiet (sev0)
