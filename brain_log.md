@@ -1,68 +1,4 @@
-nt losses. REVERT removal is surgical, not emotional.
-
-## DIRECTIVES
-
-risk_mode=caution
-risk_mult=0.6
-regime=mixed
-bias_USD=0.0
-bias_EUR=-0.3
-bias_GBP=-0.3
-bias_JPY=0.0
-bias_AUD=-0.1
-bias_NZD=0.0
-bias_CAD=0.0
-bias_CHF=-0.3
-bias_XAU=-0.1
-bias_XAG=0.0
-bias_OIL=0.0
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.35
-allow_books=COUNCIL,SWING,POSITION
-news_block=GBP:881:911;EUR:956:986;GBP:1031:1061
-block_symbols=none
-shock=none
-prefer_symbols=none
-summary=Extended EUR/GBP/CHF stalling at multi-month highs (15h no catalyst), fade bias -0.3 maintained; REVERT removed (0% win rate); await Friday PMIs for breakout
-summary_ar=EUR/GBP/CHF ممتدّة تتوقف عند قمم عدة أشهر (15 ساعة بلا محفّز)، انحياز التلاشي -0.3 مستمر؛ REVERT مُزال (نسبة ربح 0%)؛ ننتظر PMIs الجمعة
-mind=calm
-psyche_flags=awareness,prudence
-intuition=none
-
-
-# 2026-08-20 16:21 UTC
-## Council debate
-
-**Chief Macro Economist:** Bond market stress narrative (Treasury buyback) now 16 hours stale, yields rebounded per WSJ/CNBC – no sustained USD weakness materialized. US data (Philly Fed/Claims) in line, no cycle shift. Friday Eurozone PMIs (15 hours out) are the next macro catalyst. Neutral USD until then.
-
-**Central-Bank Watcher:** Fed/Treasury at odds per Axios (fresh, 11 min old) – political noise, not policy change. No CB speeches scheduled. BoJ intervention chatter (Nikkei Asia, 56 min) is speculation around USDJPY 159 – watch for verbal intervention if 160 breaks, but no action yet. Neutral all.
-
-**Geopolitical & Crisis Analyst:** Ukraine strikes (Kyiv 16 dead, 3 hours old) and Iran war headlines (6 hours old) failed to sustain risk-off – oil gave back gains, gold rejected $4530. North Korea missile (7 hours old) ignored. War premium decaying as predicted. Mild safe-haven fade continues (JPY/CHF/XAU).
-
-**FX Strategist:** GBP at 6-month high vs USD (Reuters, 6 hours old) but momentum stalling – GBPUSD 1.3632 is 94th percentile of 1-year range, no fresh catalyst for 15 hours. EUR similar (1.1674 extended). CHF carry-trade pivot theme (Bloomberg, 25 hours old) is stale. Fade bias on EUR/GBP/CHF justified, but price action shows no reversal yet – they're consolidating, not breaking. AUD jobs miss (24 hours old) fading. All flat to mild fade.
-
-**Gold & Oil Trader:** Gold spiked to $4530 on Treasury news (16 hours ago), now $4510 – rejected highs, no follow-through. Bloomberg warned "dollar debasement" theme (73 min old) but price says otherwise. Oil $87 WTI/$94 Brent – Iran premium decaying (Trump rhetoric 8 hours old, no supply impact). Both in mild fade mode, but no strong conviction. XAU -0.1, OIL 0.0.
-
-**Equity / Risk-Sentiment Desk:** US500 7683, flat session. "Bubble" and "crash" headlines (Bloomberg/NPR, 7-8 hours old) are opinion pieces, not market-moving. Walmart earnings weighed (Reuters, 2 hours old) but indices holding. VIX not spiking. Mixed regime, no directional edge. Neutral.
-
-**Risk Manager:** INTRADAY book 2-loss streak (-$3.39 today), REVERT removed last hour (correct – 0% win rate, 5 straight SLs). Account at $459 (-6.5% from $492 peak this week). No emergency triggers yet, but one more INTRADAY loss and we hit 3-in-a-row rule (remove from allow_books). CAUTION mode appropriate. Keep risk_mult 0.6, maintain allow_books as COUNCIL,SWING,POSITION. News blocks for Friday PMIs correct.
-
-**Market Historian:** Extended currencies at range extremes without catalyst = consolidation, not reversal, per playbook. GBPUSD 1.36 (6-month high) and EURGBP 0.856 (multi-month high) are in the "momentum fading at extremes" zone – historical analog is Feb 2024 GBPUSD 1.28 peak (stalled 3 days, then reversed on data). But we need a trigger (Friday PMIs). Fade bias -0.3 is correct in magnitude, but price hasn't confirmed yet – these can consolidate for 1-2 days before breaking. Gold at $4510 after rejecting $4530 rhymes with July 2024 $2480 rejection (faded $40 over 5 days). Oil war premium decay matches 2020 Soleimani (spiked, faded 70% in 48 hours). No strong analog for immediate action – wait for Friday.
-
-**Chairman:** Consensus is clear: stale themes (Treasury buyback 16h, geopolitics 3-16h, extended FX 15h), no fresh catalysts until Friday PMIs (15 hours). Fade biases on EUR/GBP/CHF justified by extremes + stalling momentum, but Historian warns no reversal confirmation yet – keep -0.3, don't strengthen. INTRADAY on thin ice (2 losses), REVERT correctly removed. Gold/oil mild fades per price action. Confidence remains 0.35 (low – we're reading absence of catalyst, not presence of edge). Maintain CAUTION, risk_mult 0.6, allow_books COUNCIL/SWING/POSITION. No changes from 15 min ago except updating summary timestamps.
-
-## Psyche
-
-**Awareness (fired=no):** Comparing to 15:09 decision: biases unchanged (EUR/GBP/CHF -0.3, XAU -0.1, rest 0.0), risk_mode/mult/allow_books unchanged. No flip-flopping. DECISION MEMORY shows 7 hours of consistent "await catalyst" stance – we're holding the line correctly. SCORECARD shows 57% 4h hit rate, 50% 12h – modest, so 0.35 conf is appropriate. REVERT removal (last hour) was data-driven (0% win rate). No stubbornness detected. Clean.
-
-**Greed (fired=no):** Confidence 0.35, biases max |0.3|, prefer_symbols none, language is "await catalyst" not "easy money." No greed signals. Risk_mult 0.6 is conservative. Pass.
-
-**Fear (fired=no):** CAUTION mode for 7+ hours is justified by lack of catalyst, not over-reaction. INTRADAY 2-loss streak is real ($3.39 today), but we're monitoring, not panicking (didn't halt). Removing REVERT after 5 straight SLs is prudent, not fearful. Balanced response. Pass.
-
-**Prudence (fired=yes):** All current biases (EUR/GBP/CHF -0.3, XAU -0.1) are below 0.5 threshold, so no strong-call audit needed. However, checking sources: fade bias rests on "extended + stalling" (FX Strategist) + "no catalyst 15h" (Macro) + Historian analog (Feb 2024 GBPUSD stall). That's two voices + one analog – meets standard. But Historian warned "no reversal confirmation yet" – biases should stay -0.3, not strengthen. Approved as-is.
+ checking sources: fade bias rests on "extended + stalling" (FX Strategist) + "no catalyst 15h" (Macro) + Historian analog (Feb 2024 GBPUSD stall). That's two voices + one analog – meets standard. But Historian warned "no reversal confirmation yet" – biases should stay -0.3, not strengthen. Approved as-is.
 
 **Intuition (fired=no):** Hunch: Friday PMIs will disappoint (German services forecast 50.1 vs 49.6 prior is optimistic given "economic engine hit brakes" headline 10 hours old) – if so, EUR breaks down and our -0.3 fade becomes a trend. But this is speculation, not actionable now. Passing to Chairman for consideration only.
 
@@ -3568,3 +3504,77 @@ summary_ar=جميع biases ثابتة 9 ساعات؛ XAU راكد قرب ATH، A
 mind=focused
 psyche_flags=awareness,prudence,intuition
 intuition=USDCAD سيصل 1.39 خلال 48 ساعة إذا أعلنت أميركا تعريفات جديدة؛ لكن بدون أخبار الآن نبقي bias_CAD=-0.3 بدون رفع
+
+
+# 2026-08-22 15:02 UTC
+## Council debate
+
+**Chief Macro Economist:**
+التنبيه الذي أطلقناه قبل 15 دقيقة عن "تمرّد وزير الجيش" كان **خطأ فادحاً** – العنوان من Fox Business عن Charles Payne (برنامج تلفزيوني)، ليس خبراً عسكرياً حقيقياً. لا يوجد أي تأكيد من Reuters أو Bloomberg أو وكالات رسمية. وضع danger=0.6 و shock على USD كان رد فعل مبالغ على عنوان مضلّل. الاقتصاد الكلي ثابت: نمو منطقة اليورو يتسارع (PMI أعلى منذ نوفمبر)، التضخم النمساوي 2.7% (أعلى من التوقعات)، الين مدعوم برهانات BoJ متشددة، الذهب عند قمم تاريخية على مخاوف الدين الأميركي.
+
+**Central-BankAtcher:**
+BoJ: المضاربون يعمّقون المراكز الهبوطية على الين (CFTC) لكن العناوين تتحدث عن رهانات متشددة – تناقض يعني عدم يقين. SNB يبقي الفائدة السلبية على الطاولة (الفرنك يكافح). Fed: عوائد السندات ترتفع مجدداً (تراجع كل المكاسب منذ تدخل الخزانة)، Bessent يقول "واثق من انخفاض العوائد" لكن السوق لا يصدّقه. لا أحداث مجدولة في 48 ساعة – هدوء تام.
+
+**Geopolitical & Crisis Analyst:**
+العنوان الوحيد الحقيقي: إيران تمنح تصاريح لناقلات نفط عراقية بالمرور عبر هرمز (Reuters قبل 2.7 ساعة) – **إشارة تهدئة**، ليست تصعيداً. سياسيون إيرانيون يطالبون بإنهاء الحرب (WSJ قبل 5.8 ساعة). أوكرانيا: ضربة روسية على مول (BBC قبل 2.4 ساعة) – مأساوية لكن ليست صدمة أسواق. السويد: هجوم بسيف على مدرسة (AP) – محلي. **لا يوجد حدث severity-2 أو 3 منذ 24 ساعة**. وضع danger بلا سبب ملموس.
+
+**FX Strategist:**
+AUDUSD عند 0.71703 (أعلى 10 أسابيع، FOREX.com قبل 23 ساعة) – الاختراق يمتد لكن CFTC تظهر مراكز قصيرة صافية (قلق الطلب الصيني). USDCAD 1.3767: انهيار المحادثات التجارية (Steel Market Update قبل 3.5 ساعة) أعطى -0.3 bias لكن السعر **لم يتحرك** منذ 12 ساعة (ثبات عند 1.376-1.377) – السوق هضم الخبر. USDJPY 158.978: قرب 159، المضاربون يراهنون ضد الين لكن BoJ قد يتدخل. EUR/GBP/CHF مستقرة. **لا توجد حركة حادة في 2 ساعة**.
+
+**Gold & Oil Trader:**
+XAUUSD 4603.45 (قرب ATH 4610)، ثابت منذ 9 ساعات – الزخم يتلاشى (MarketWatch: الذهب ارتفع على تدخل الخزانة لكن الآن يتماسك). XAGUSD 68.944 (مرتفع لكن أبطأ من الذهب). النفط: WTI 87.30، Brent 94.18 – مكاسب أسبوعية على توتر الشرق الأوسط (WSJ) لكن تصاريح إيران لناقلات العراق **تشير لتهدئة**، ليس تصعيداً. OPEC هادئ. النفط فوق 90$ يحمل علاوة حرب لكن بدون صدمة إمدادات حقيقية.
+
+**Equity / Risk-Sentiment Desk:**
+SPX 7677 (−0.2 من الإغلاق)، NDX 29312، DAX 26106 – كلها ثابتة في نهاية الأسبوع. Reuters: "وول ستريت ارتفعت يوم الجمعة لكن انخفضت أسبوعياً؛ عوائد السندات وإيران في البؤرة". Buffett يحذر من فقاعة (AOL قبل 9.5 ساعة) – رأي قديم. **لا يوجد VIX spike، لا panic، لا risk-off حقيقي**. وضع danger=-0.2 على المؤشرات منذ 9 ساعات لكن الأسعار لم تتحرك – إما نحن مخطئون أو السوق يتجاهلنا.
+
+**Risk Manager:**
+**خطأ فادح قبل 15 دقيقة**: رفعنا إلى danger=0.6 و shock على USD بسبب عنوان Fox Business عن برنامج تلفزيوني، ليس حدثاً عسكرياً. **لا يوجد حدث severity-2/3 نشط الآن**. الحساب: رصيد 457.93$ (−6.4% من القمة 489)، لا صفقات مفتوحة، خسارة اليوم 0%، SHOCK خسر 1.11$ اليوم (صفقة واحدة). **EMERGENCY PROTOCOL ينص**: danger فقط لحدث severity-2 نشط أو تقلب شديد – لا شيء من هذا موجود. يجب العودة لـnormal فوراً وإلغاء shock الوهمي.
+
+**Market Historian:**
+**السياق التاريخي للذهب**: عند 4603$ (99.8% من نطاق السنة)، قرب ATH – **الكتاب يقول**: "الاختراقات لقمم جديدة تستمر 55-60% من الوقت"، لكن "الارتفاعات الحادة على العناوين (+2-3% في ساعة) تتراجع نصفها خلال 24 ساعة ما لم يضعف الدولار أيضاً". الذهب ارتفع 1.8% هذا الأسبوع على مخاوف الدين الأميركي (Forbes) – **ليس ارتفاعاً حاداً بل اتجاه**، لذا bias=0.5 معقول. **AUDUSD**: اختراق لأعلى 10 أسابيع – التاريخ يقول "الاختراقات تستمر 2-5 أيام ثم تُختبر"؛ CFTC تظهر مراكز قصيرة (تناقض) – حذر. **USDCAD**: انهيار المحادثات (قبل 3.5 ساعة) لكن السعر ثابت – **التاريخ**: "أخبار التجارة تُهضم في 1-4 ساعات؛ إذا لم يتحرك السعر في 3 ساعات، الخبر مُسعّر". **الدرس من الصفقات**: SHOCK خسر 3 من 4 صفقات أخيرة في أسواق هادئة (scalping وهمي) – يجب تقييد SHOCK لصدمات حقيقية فقط.
+
+**Chairman:**
+شكراً للجميع. **الحقيقة الصعبة**: أطلقنا إنذار danger قبل 15 دقيقة على عنوان Fox Business عن برنامج تلفزيوني، ليس حدثاً عسكرياً – **خطأ فادح**. Risk Manager محق: لا حدث severity-2/3، لا تقلب شديد، لا سبب ملموس لـdanger. **نعود لـnormal=0.9 فوراً**. ننزع shock على USD (كان وهمياً). **المراجعة**: biases منذ 9 ساعات دقيقة (XAU ثابت عند ATH، AUD يمتد، CAD ضعيف لكن السعر لم يتحرك منذ 12 ساعة) – **لكن conf=0.7 مبالغ فيه**: scorecard 24h=29% فقط، ونحن نخطئ في تقييم الأحداث. **نخفض conf لـ0.55**. نبقي biases كما هي (لا حقائق جديدة منذ ساعة)، نرفع risk_mult لـ1.0 (السوق هادئ، نهاية أسبوع، لا خطر). allow_books=ALL (لا سبب لحظر أي كتاب). **الدرس**: لا نرفع لـdanger بدون تأكيد من مصدرين مستقلين.
+
+---
+
+## Psyche
+
+**Awareness:** fired=yes — قارنت القرار السابق (danger=0.6، shock على USD) بالأسعار: **لا شيء تحرك**. USD ثابت، المؤشرات ثابتة، لا تقلب – كان رد فعل مبالغ على عنوان مضلّل. **نمط خطير**: هذا ثاني إنذار كاذب في 8 ساعات (Canada قبلها). نحن نقفز على العناوين بدون تدقيق. يجب التجميد: نعود لـnormal، نلغي shock، نخفض conf.
+
+**Greed:** fired=no — لا ثقة عالية، لا biases موحّدة، لا لغة "مال سهل". المجلس حذر.
+
+**Fear:** fired=yes — رفعنا لـdanger مرتين في 8 ساعات (Canada، ثم "تمرّد الجيش") بدون حقائق صلبة. هذا رد فعل مفرط. نستعيد التوازن: نعود لـnormal، نبقى حذرين لكن لا نشلّ الروبوتات بدون سبب.
+
+**Prudence:** fired=yes — shock على USD كان بدون مصدرين مستقلين (عنوان Fox واحد فقط)، بدون تناظر تاريخي من Market Historian. كان يجب تخفيضه لـcaution، ليس danger. الآن نصحّح.
+
+**Intuition:** fired=no — لا حدس هذه المرة؛ الوضع واضح (خطأ يُصحّح).
+
+---
+
+## DIRECTIVES
+risk_mode=normal
+risk_mult=1.0
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=-0.2
+bias_JPY=0.3
+bias_AUD=0.4
+bias_NZD=0.0
+bias_CAD=-0.3
+bias_CHF=0.2
+bias_XAU=0.5
+bias_XAG=0.3
+bias_OIL=0.0
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=0.2
+conf=0.55
+allow_books=ALL
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=XAUUSD,AUDUSD
+summary=

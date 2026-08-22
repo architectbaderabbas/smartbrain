@@ -727,3 +727,5 @@
 - 2026-08-22 14:40 UTC · FULL COUNCIL triggered: scheduled full council (last 60 min ago)
 - 2026-08-22 14:46 UTC · heartbeat · quiet (sev0)
 - 2026-08-22 14:55 UTC · heartbeat · quiet (sev0)
+- 2026-08-22 15:01 UTC · heartbeat · ALERT sev2: U.S. Army Secretary reportedly rebelling against Trump/Hegseth over Iran War; potential resignation signal amid military-civilian command crisis -> protocol applied, council convening
+- 2026-08-22 15:01 UTC · FULL COUNCIL triggered: ALERT sev2: U.S. Army Secretary reportedly rebelling against Trump/Hegseth over Iran War; potential resignation signal amid military-civilian command crisis
