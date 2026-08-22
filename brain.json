@@ -1,6 +1,6 @@
 {
- "ts": 1787368210,
- "council_ts": 1787364621,
+ "ts": 1787369111,
+ "council_ts": 1787369111,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.9,
@@ -27,14 +27,13 @@
   "shock": "none",
   "prefer_symbols": "XAUUSD,EURUSD,USDJPY",
   "mind": "focused",
-  "psyche_flags": "awareness,fear,prudence",
-  "intuition": "none",
-  "summary": "Previous shock directive was false alarm; all 8h biases accurate; gold near ATH on US debt fears; weekend consolidation; danger downgraded to normal",
-  "summary_ar": "الـshock السابق كان إنذار كاذب؛ كل biases الـ8 ساعات دقيقة؛ الذهب قرب ATH على مخاوف الديون؛ توحيد نهاية الأسبوع؛ danger أُنزل لـnormal",
+  "psyche_flags": "fear,prudence",
+  "intuition": "الذهب سيخترق 4650 خلال 48 ساعة إذا بقي USD ضعيف – لكن نهاية الأسبوع قد تؤخر الحركة للإثنين",
+  "summary": "All 8h biases accurate; gold holds near ATH on US debt fears; EUR/JPY firm; GBP fades; oil neutral; weekend thin liquidity; no changes needed",
+  "summary_ar": "كل biases الـ8 ساعات دقيقة؛ الذهب ثابت قرب ATH على مخاوف الديون؛ EUR/JPY قوية؛ GBP ضعيفة؛ النفط محايد؛ سيولة رقيقة نهاية الأسبوع؛ لا تغييرات",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787112715,

@@ -1,64 +1,4 @@
-moval justified (was bleeding). No flip-flopping, no stubbornness. Decision memory shows consistent downgrade as themes aged – textbook discipline. Scorecard shows 55% hit rate on XAU/CHF (modest) – supports low conf. Clean.
-
-**Greed:** fired=no. Conf=0.3 (low), all biases ≤0.1, prefer_symbols=none, language is "void/stale/wait" – zero greed signals. Risk_mult=0.6 unchanged (appropriate). No action needed.
-
-**Fear:** fired=no. Caution mode is data-driven (catalyst void, thin liquidity), not panic. REVERT removal was performance-based (5 losses), not over-reaction. Biases at 0.0 reflect evidence absence, not fear. Balanced.
-
-**Prudence:** fired=yes. EUR -0.1 has three independent sources (Lagarde speech, drought/economy, Historian structural analog) – passes two-source rule. All other biases 0.0 have zero sources – correct per Prudence. No strong calls (|bias|<0.5), so no analog requirement. Approved.
-
-**Intuition:** fired=yes. Hunch: "If USDJPY holds 158+ through Thursday morning (18h from now), BoJ tolerance confirmed – fade to 160+ becomes the trade Friday, not a shock risk. Watch 157.80 support." (Cannot change numbers; Chairman may adopt with +0.2 JPY bias cap if he agrees.)
-
----
-
-## DIRECTIVES
-
-risk_mode=caution
-risk_mult=0.6
-regime=mixed
-bias_USD=0.0
-bias_EUR=-0.1
-bias_GBP=0.0
-bias_JPY=0.0
-bias_AUD=0.0
-bias_NZD=0.0
-bias_CAD=0.0
-bias_CHF=0.0
-bias_XAU=0.0
-bias_XAG=0.0
-bias_OIL=0.0
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.3
-allow_books=COUNCIL,SWING
-news_block=none
-block_symbols=none
-shock=none
-prefer_symbols=none
-summary=Catalyst void persists (27.5h to Thursday PMIs); all biases flat except EUR -0.1 on structural weakness; caution maintained, REVERT sidelined, SWING/COUNCIL only
-summary_ar=استمرار فراغ المحفّزات (27.5 ساعة حتى بيانات PMI الخميس)؛ كل الانحيازات صفر عدا اليورو -0.1 بسبب ضعف هيكلي؛ الحذر مستمر، REVERT موقوف، SWING/COUNCIL فقط
-mind=calm
-psyche_flags=prudence,intuition
-intuition=If USDJPY holds 158+ through Thursday morning, BoJ tolerance confirmed – fade to 160+ becomes the trade Friday, not a shock risk. Watch 157.80 support.
-
-
-# 2026-08-20 05:51 UTC
-## Council debate
-
-**Chief Macro Economist:** Treasury buyback regime now 10+ hours stale, no fresh macro catalyst. Japan trade data (634.5bn yen deficit, record imports on energy costs) confirms JPY structural headwind but no immediate trigger. EUR structural drag persists (Lagarde warnings, drought, competitiveness erosion). All themes aging – no new cycle information.
-
-**Central-Bank Watcher:** FOMC minutes (18:00 yesterday) fully digested. Next Fed speakers days away. BoJ tolerance of 158+ USDJPY confirmed by lack of intervention despite record trade deficit – supports Intuition's 160 fade thesis but not actionable yet. No CB catalyst until Thursday PMIs shift rate expectations.
-
-**Geopolitical & Crisis Analyst:** Kyiv attack 2+ hours old, no escalation. UAE-Iran trade suspension (3h old) and Trump "economic warfare" threats are headline noise – no supply impact, oil holding 85 unchanged. Middle East premium stable, not growing. Severity-1 at most, already priced.
-
-**FX Strategist:** All pairs range-bound in Asian deadzone. USDJPY 158.69 (unchanged 4h), EURUSD 1.1671 (flat), GBPUSD 1.3604 (flat). No directional conviction – waiting for Thursday PMIs or US data (6.5h to Philly Fed/Claims). EUR -0.1 bias justified by structural weakness but no fresh trigger to press it.
-
-**Gold & Oil Trader:** Gold 4479 (-42 from $4521 peak), fading Treasury buyback momentum as expected. No safe-haven bid from geopolitics (Kyiv/Iran already absorbed). Oil 85.03 flat despite UAE-Iran news – market sees no supply threat. Both assets drifting, no edge.
-
-**Equity / Risk-Sentiment Desk:** US500 7725 (+0.1% from yesterday close), risk-on intact but momentum exhausted. Post-NY close drift, no catalyst until US open (3.5h). VIX assumption: calm. No reason to lean bullish or bearish here.
-
-**Risk Manager:** Account -0.45% today (acceptable), REVERT correctly sidelined (5-loss streak). SWING 1/1 win but fought council bias (lesson noted). No imminent news risk (Philly Fed 6.5h away). Caution appropriate, current setup (SWING/COUNCIL only, 0.6x risk) is correct. Do not change without fresh facts.
+appropriate, current setup (SWING/COUNCIL only, 0.6x risk) is correct. Do not change without fresh facts.
 
 **Market Historian:** Analogous setup: August 2024 pre-Jackson Hole deadzone – all themes stale, markets drifted ±0.2% for 36 hours until Lagarde speech. Playbook says: Asian session post-event lull = mean reversion, false breakouts, no trend. USDJPY 158.69 is 15 pips from yesterday – classic range. Current prices: gold 95th percentile of 1y range but momentum fading (analogous to Feb 2025 $4400 stall before $200 drop). Indices at ATH with no catalyst = coin flip. Historian says: hold flat biases, wait for Thursday.
 
@@ -3326,3 +3266,73 @@ summary_ar=الـshock السابق كان إنذار كاذب؛ كل biases ا�
 mind=focused
 psyche_flags=awareness,fear,prudence
 intuition=none
+
+
+# 2026-08-22 03:25 UTC
+## Council debate
+
+**Chief Macro Economist:** الاقتصاد الأميركي يظهر مرونة (PMI ثابت، عوائد السندات ترتفع رغم تدخل Bessent)، لكن مخاوف الديون تضغط على الدولار. أوروبا تنمو بأسرع وتيرة منذ نوفمبر. اليابان تحافظ على رهانات BoJ المتشددة. النمو العالمي مختلط، التضخم تحت السيطرة.
+
+**Central-Bank Watcher:** Fed: لا تغيير متوقع، لكن عوائد السندات ترتفع (تدخل Bessent فشل). BoJ: رهانات سبتمبر متشددة تدعم JPY. ECB: PMI قوي يدعم EUR. لا مفاجآت قريبة، التوجهات الحالية تستمر.
+
+**Geopolitical & Crisis Analyst:** إيران: 750 جريح أميركي رقم تراكمي قديم ليس هجوم جديد. Trump يقول إيران غير جاهزة للصفقة – خطاب عادي بلا تصعيد. طائرة بحرية أميركية عبرت مضيق تايوان قبل لقاء Xi-Trump – استعراض روتيني. لا أحداث severity-2/3 جديدة. الوضع مستقر نسبياً.
+
+**FX Strategist:** USD ضعيف على مخاوف الديون (3 أشهر أدنى مستوى)، EUR/JPY/CHF قوية، GBP تتراجع، AUD عند أعلى 10 أسابيع، CAD قرب 3 أشهر أعلى، NZD محايد. الاتجاهات الحالية تستمر في غياب محفزات جديدة.
+
+**Gold & Oil Trader:** الذهب 4603 قرب ATH على مخاوف الديون الأميركية + ضعف USD – الزخم قوي، الاتجاه صاعد. الفضة 68.9 تتبع الذهب. النفط 87.3/94.2 مستقر، علاوة إيران تتلاشى ببطء (Trump يقول الحرب قد تنتهي قريباً) – bias=0 صحيح.
+
+**Equity / Risk-Sentiment Desk:** US500 7677 (+517 يوم الجمعة لكن -أسبوعياً)، عوائد السندات المرتفعة تضغط، لكن لا انهيار. GER40 26106 إيجابي على PMI أوروبا. Risk-sentiment مختلط: لا risk-on واضح ولا risk-off. نهاية أسبوع هادئة.
+
+**Risk Manager:** لا أحداث tier-1 في الـ48 ساعة القادمة. السيولة نهاية أسبوع رقيقة (سبت 03:25 UTC). الحساب +0% اليوم، SHOCK خسر -1.11$ (صفقة واحدة)، OTHER ربح +0.35$. لا خسائر متتالية، لا ضغط على رأس المال. الوضع آمن لكن السيولة الرقيقة تتطلب حذر.
+
+**Market Historian:** الذهب قرب ATH (4603 vs 4617 قبل 8 ساعات) – تاريخياً عندما يثبت الذهب قرب ATH لأكثر من 12 ساعة بدون تراجع >1%، الاختراق يحدث في 55-60% من الحالات خلال 2-5 أيام (مثل 2020 أغسطس، 2024 مارس). USD ضعيف لـ3 أشهر على مخاوف ديون – يشبه 2011 (أزمة سقف الديون): الذهب ارتفع 8% في شهرين، USD انخفض 5%. EUR/JPY قوية على فروقات أسعار الفائدة – نمط مستدام ما لم يتدخل BoJ (آخر تدخل 2024: تأثير 2-6 أسابيع). نهاية أسبوع رقيقة السيولة – الاختراقات الكاذبة شائعة، لكن الاتجاهات الحالية قوية بما يكفي للاستمرار.
+
+**Chairman:** الأدلة واضحة: كل biases الـ8 ساعات دقيقة (الذهب ثابت قرب ATH، EUR/JPY قوية، GBP ضعيفة، النفط محايد). لا أحداث جديدة، لا تغيير مطلوب. السيولة الرقيقة (نهاية أسبوع) + scorecard ضعيف (24h: 32%) يتطلب حذر معتدل. نبقي risk_mode=normal (لا تهديد نشط)، risk_mult=0.9 (نهاية أسبوع)، conf=0.8 (الأدلة قوية لكن السيولة رقيقة). كل biases تبقى كما هي.
+
+---
+
+## Psyche
+
+**Awareness:** fired=no. القرار الحالي مطابق للسابق (8 ساعات استقرار). لا flip-flopping، لا عناد. الأسعار تؤكد biases (الذهب ثابت، EUR/JPY قوية). الاستمرارية مبررة.
+
+**Greed:** fired=no. conf=0.8 معتدل، biases متنوعة (لا اتجاه واحد)، prefer_symbols=3 فقط، risk_mult=0.9 محافظ. لا علامات طمع.
+
+**Fear:** fired=yes. Risk Manager يبالغ في خطر السيولة الرقيقة – لا حدث نشط، لا خسائر، scorecard ضعيف لكن ليس كارثي. الحذر مبرر لكن ليس الهلع. نبقي normal بدلاً من caution.
+
+**Prudence:** fired=yes. bias_XAU=0.5 قوي لكن مدعوم بـ3 مصادر (مخاوف ديون، ضعف USD، Market Historian يؤكد نمط ATH) + 8 ساعات استقرار. مقبول.
+
+**Intuition:** الذهب سيخترق 4650 خلال 48 ساعة إذا بقي USD ضعيف – لكن نهاية الأسبوع قد تؤخر الحركة للإثنين.
+
+---
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.9
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=-0.4
+bias_JPY=0.3
+bias_AUD=0.2
+bias_NZD=0.0
+bias_CAD=0.1
+bias_CHF=0.2
+bias_XAU=0.5
+bias_XAG=0.3
+bias_OIL=0.0
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=0.2
+conf=0.8
+allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT,SHOCK
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=XAUUSD,EURUSD,USDJPY
+summary=All 8h biases accurate; gold holds near ATH on US debt fears; EUR/JPY firm; GBP fades; oil neutral; weekend thin liquidity; no changes needed
+summary_ar=كل biases الـ8 ساعات دقيقة؛ الذهب ثابت قرب ATH على مخاوف الديون؛ EUR/JPY قوية؛ GBP ضعيفة؛ النفط محايد؛ سيولة رقيقة نهاية الأسبوع؛ لا تغييرات
+mind=focused
+psyche_flags=fear,prudence
+intuition=الذهب سيخترق 4650 خلال 48 ساعة إذا بقي USD ضعيف – لكن نهاية الأسبوع قد تؤخر الحركة للإثنين
