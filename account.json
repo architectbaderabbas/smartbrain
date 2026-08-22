@@ -17,7 +17,7 @@
       "wins": 1
     }
   ],
-  "brain_mode": "NORMAL",
+  "brain_mode": "CAUTION",
   "day_pl": 0,
   "equity": 457.93,
   "positions": [],
@@ -44,6 +44,6 @@
     "XAGUSD": 68.944,
     "XAUUSD": 4603.45
   },
-  "ts": 1787372703,
+  "ts": 1787373603,
   "week_pl": 0
 }

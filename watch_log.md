@@ -664,3 +664,5 @@
 - 2026-08-22 04:07 UTC · heartbeat · quiet (sev0)
 - 2026-08-22 04:10 UTC · heartbeat · quiet (sev0)
 - 2026-08-22 04:25 UTC · FULL COUNCIL triggered: scheduled full council (last 60 min ago)
+- 2026-08-22 04:40 UTC · heartbeat · ALERT sev2: US-Canada tariff deal collapse; trade war deepens with tariffs now in effect -> protocol applied, council convening
+- 2026-08-22 04:40 UTC · FULL COUNCIL triggered: ALERT sev2: US-Canada tariff deal collapse; trade war deepens with tariffs now in effect

@@ -1,6 +1,6 @@
 {
- "ts": 1787372713,
- "council_ts": 1787372713,
+ "ts": 1787373622,
+ "council_ts": 1787373622,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.85,
@@ -8,7 +8,7 @@
   "conf": 0.7,
   "bias_USD": 0.0,
   "bias_EUR": 0.3,
-  "bias_GBP": -0.4,
+  "bias_GBP": -0.2,
   "bias_JPY": 0.3,
   "bias_AUD": 0.2,
   "bias_NZD": 0.0,
@@ -27,19 +27,14 @@
   "shock": "none",
   "prefer_symbols": "XAUUSD,EURUSD,USDJPY",
   "mind": "focused",
-  "psyche_flags": "fear,prudence",
-  "intuition": "none",
-  "summary": "Weekend thin liquidity + 29% scorecard demands caution not normal; all 8h biases accurate; gold near ATH; EUR/JPY firm; GBP fades; oil neutral; conf cut to 0.7",
-  "summary_ar": "سيولة نهاية الأسبوع الرقيقة + scorecard 29% يفرض caution لا normal؛ كل biases الـ8 ساعات دقيقة؛ الذهب قرب ATH؛ EUR/JPY قوية؛ GBP ضعيفة؛ النفط محايد؛ conf مخفض لـ0.7",
+  "psyche_flags": "awareness,fear,prudence",
+  "intuition": "الذهب سيختبر 4620$ خلال 12 ساعة ثم يتصحح - الارتفاع ممتد، نهاية الأسبوع تجلب جني أرباح",
+  "summary": "Previous alert was false (no US-Canada tariff collapse); all biases accurate; gold near ATH on US debt fears; weekend thin liquidity; danger downgraded to caution",
+  "summary_ar": "الإنذار السابق كان كاذباً (لا انهيار تعريفات أميركا-كندا)؛ جميع التوجهات دقيقة؛ الذهب قرب ATH بسبب مخاوف الديون؛ سيولة ضعيفة نهاية الأسبوع؛ danger يُخفّض إلى caution",
   "news_events": "none"
  },
  "error": null,
  "alerts": [
-  {
-   "ts": 1787112715,
-   "what": "Trump pauses 50% Canadian tariffs for 3 days; de-escalation signal after tech/geopolitical shock",
-   "sev": 2
-  },
   {
    "ts": 1787178317,
    "what": "Russian ballistic missile attack on Kyiv; escalation in Ukraine conflict",
@@ -83,6 +78,11 @@
   {
    "ts": 1787364610,
    "what": "Trump threatens military intervention on US bond market; unprecedented fiscal/monetary policy shock signal",
+   "sev": 2
+  },
+  {
+   "ts": 1787373611,
+   "what": "US-Canada tariff deal collapse; trade war deepens with tariffs now in effect",
    "sev": 2
   }
  ]
