@@ -1,72 +1,4 @@
-appropriate, current setup (SWING/COUNCIL only, 0.6x risk) is correct. Do not change without fresh facts.
-
-**Market Historian:** Analogous setup: August 2024 pre-Jackson Hole deadzone – all themes stale, markets drifted ±0.2% for 36 hours until Lagarde speech. Playbook says: Asian session post-event lull = mean reversion, false breakouts, no trend. USDJPY 158.69 is 15 pips from yesterday – classic range. Current prices: gold 95th percentile of 1y range but momentum fading (analogous to Feb 2025 $4400 stall before $200 drop). Indices at ATH with no catalyst = coin flip. Historian says: hold flat biases, wait for Thursday.
-
-**Chairman:** Consensus is clear – no new facts since 04:43 decision. All themes aging (Treasury buyback 10h, geopolitics absorbed, Japan data confirms known JPY weakness but no trigger). Historian confirms this is a wait state. Risk Manager sees no danger. I see no reason to change any bias or setting. We hold the line.
-
-## Psyche
-
-**Awareness (fired=no):** Previous directives stable since 03:38 (EUR -0.1, all else 0.0, caution 0.6x). Current prices confirm the call: no asset moved >0.3% in 4h, all biases were correctly flat. No flip-flopping, no stubbornness. SWING lesson noted (fought council bias but Profit Guard saved it) – no action needed now. Clean state.
-
-**Greed (fired=no):** All biases 0.0 except EUR -0.1, conf=0.3, prefer_symbols=none. No overconfidence, no clustering. Risk_mult=0.6 appropriate for catalyst void. No greed detected.
-
-**Fear (fired=no):** Caution mode is data-driven (catalyst void, not panic). REVERT removal was evidence-based (5-loss streak). No over-reaction to headlines (Kyiv/Iran correctly assessed as non-escalatory). Balanced state.
-
-**Prudence (fired=yes):** All biases remain 0.0 (except EUR -0.1) because no theme has two independent fresh sources or historical analog with current relevance. Treasury buyback is 10h old (stale), geopolitics absorbed, Japan data confirms known trend (not new). Prudence enforces: no bias >0.0 without fresh catalyst. Approved.
-
-**Intuition (fired=no):** USDJPY 158.69 holding above 158 as predicted – BoJ tolerance thesis intact. If it holds through Thursday morning Tokyo (18h from now), the fade to 160+ becomes actionable Friday. Not ready yet, but the setup is building. Watch 157.80 support as the invalidation level.
-
-**Mental state:** Calm. Evidence-based patience in a catalyst void. No internal conflict.
-
-## DIRECTIVES
-
-risk_mode=caution
-risk_mult=0.6
-regime=mixed
-bias_USD=0.0
-bias_EUR=-0.1
-bias_GBP=0.0
-bias_JPY=0.0
-bias_AUD=0.0
-bias_NZD=0.0
-bias_CAD=0.0
-bias_CHF=0.0
-bias_XAU=0.0
-bias_XAG=0.0
-bias_OIL=0.0
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.3
-allow_books=COUNCIL,SWING
-news_block=USD:398:428
-block_symbols=none
-shock=none
-prefer_symbols=none
-summary=Catalyst void continues (26.5h to Thursday PMIs, 6.5h to US data); all biases flat except EUR -0.1 on structural drag; caution maintained, await fresh facts
-summary_ar=استمرار فراغ المحفّزات (26.5 ساعة حتى PMI الخميس، 6.5 ساعة حتى بيانات أمريكية)؛ كل الانحيازات صفر عدا اليورو -0.1 بسبب ضعف هيكلي؛ الحذر مستمر، ننتظر حقائق جديدة
-mind=calm
-psyche_flags=prudence
-intuition=USDJPY 158+ hold through Thursday morning would confirm BoJ tolerance – 160 fade becomes actionable Friday if 157.80 support intact
-
-
-# 2026-08-20 06:52 UTC
-## Council debate
-
-**Chief Macro Economist:** Catalyst void persists – Treasury buyback theme now 11 hours stale, no fresh growth/inflation data until Thursday PMIs (24h away). EUR structural drag (Lagarde warnings, drought, competitiveness erosion) remains only concrete macro fact. Maintain flat biases.
-
-**Central-Bank Watcher:** BoJ tolerance confirmed – USDJPY holding 158.46 despite Japan trade deficit (¥634.5bn) and rising energy costs. No intervention signals. Fed/ECB silent. Philly Fed/Claims in 5.5 hours unlikely to shift policy path. No CB catalyst until Friday.
-
-**Geopolitical & Crisis Analyst:** Kyiv strikes 6 hours old, no escalation follow-through. UAE-Iran trade suspension (missile strikes) and Trump's Iran 8pm ET deadline are 13 hours away – too distant to price now. Oil holding $85 on Hormuz stealth-op headlines but no supply disruption yet. Monitor, don't act.
-
-**FX Strategist:** All pairs range-bound in Asian deadzone. USDJPY 158.46 (unchanged 3 hours), EURUSD 1.1684 (flat), GBPUSD 1.3612 (flat). AUD 0.712 absorbed jobs miss (unemployment 4.5% vs 4.4% forecast) without breaking – mild AUD weakness justified but already priced. No directional conviction.
-
-**Gold & Oil Trader:** Gold $4492 (-$29 from $4521 peak, -0.6%) – Treasury buyback premium fading as expected. Still elevated vs $4400 pre-buyback but losing momentum. Oil $85.43 WTI, $92.49 Brent – Hormuz premium intact but static. Both assets drifting, not trending.
-
-**Equity / Risk-Sentiment Desk:** SPX 7734, NDX 29619, DAX 26138 – all flat overnight. Risk-on holding but no conviction. VIX unavailable but implied vol likely compressed. No catalyst to drive equities until US data or Iran deadline. Neutral.
-
-**Risk Manager:** REVERT still sidelined (5-loss streak). SHOCK bled yesterday (6/8 SL hits, -$1.35 net) on false volatility – lesson applied, restrict to genuine catalysts only. Account -0.45% today, no emergency triggers. Caution justified until Thursday PMIs or Iran developments. USD news block 353min (Philly Fed/Claims) correctly set.
+ -$1.35 net) on false volatility – lesson applied, restrict to genuine catalysts only. Account -0.45% today, no emergency triggers. Caution justified until Thursday PMIs or Iran developments. USD news block 353min (Philly Fed/Claims) correctly set.
 
 **Market Historian:** Last time we sat in multi-day catalyst void (July 2025 pre-NFP, Aug 2024 Jackson Hole wait), FX pairs compressed into 0.3% daily ranges and mean-reverted violently on first data. Current setup: USDJPY at 158.46 (95th percentile of 1y range) without fresh BoJ pushback = intervention risk if it breaks 160, but stable below. Gold at $4492 after $100 spike = classic 50% fade pattern (spiked to $4521, now retraced $29 of $121 move from $4400). EUR 1.1684 near 1y lows with structural negatives = downside bias valid but needs catalyst. **Analog: pre-event compression favors range-trading (REVERT logic) but REVERT is broken – stay sidelined until breakout.**
 
@@ -3336,3 +3268,82 @@ summary_ar=كل biases الـ8 ساعات دقيقة؛ الذهب ثابت قر�
 mind=focused
 psyche_flags=fear,prudence
 intuition=الذهب سيخترق 4650 خلال 48 ساعة إذا بقي USD ضعيف – لكن نهاية الأسبوع قد تؤخر الحركة للإثنين
+
+
+# 2026-08-22 04:25 UTC
+## Council debate
+
+**Chief Macro Economist:**
+الاقتصاد الأمريكي يواجه مخاوف ديون متصاعدة – عوائد السندات ترتفع رغم تدخل Bessent، هذا يضعف USD على المدى المتوسط. منطقة اليورو تظهر مرونة (PMI ثابت)، لكن النمو بطيء. الدورة الحالية: تضخم تحت السيطرة، لكن الديون الأمريكية تخلق ضغط هيكلي على الدولار.
+
+**Central-Bank Watcher:**
+BoJ تتجه نحو رفع أسعار الفائدة في سبتمبر (عناوين hawkish bets)، هذا يدعم JPY. Fed لا تغيير قريب، لكن مخاوف الديون تضعف الثقة بالدولار. ECB مستقر، SNB تبقي الباب مفتوحاً للفائدة السلبية (CHF محايد إلى ضعيف قليلاً).
+
+**Geopolitical & Crisis Analyst:**
+750 جريح أمريكي في حرب إيران = بيانات تراكمية قديمة، ليست هجوم جديد. هجوم روسيا على مركز تسوق أوكراني (16 قتيل) = تصعيد روتيني، لا تأثير على الأسواق. إيران تشير لرغبة بإنهاء الحرب قريباً (عناوين رئيس إيران) – هذا يخفض علاوة المخاطر على النفط تدريجياً. لا أحداث severity-2/3 نشطة.
+
+**FX Strategist:**
+USD محايد (0.0 صحيح) – ضعف هيكلي من الديون لكن لا محفز فوري. EUR قوية (0.3) على PMI الصلب. GBP ضعيفة (-0.4 دقيق، تراجعت 40 نقطة منذ أمس). JPY قوية (0.3) على رهانات BoJ. AUD صعدت لأعلى مستوى 10 أسابيع (0.2 صحيح). NZD/CAD/CHF محايدة إلى إيجابية خفيفة. كل biases الـ8 ساعات دقيقة 100%.
+
+**Gold & Oil Trader:**
+الذهب 4603 = قرب ATH 4650، يحتفظ بالمكاسب على مخاوف الديون الأمريكية و USD الضعيف (bias 0.5 صحيح). الفضة 68.9 تتبع الذهب (0.3 مناسب). النفط 87.3 WTI / 94.2 Brent = مستقر، علاوة إيران تتلاشى ببطء (bias 0.0 صحيح الآن). لا محفزات OPEC جديدة.
+
+**Equity / Risk-Sentiment Desk:**
+US500 7677 / US100 29311 = ارتفعوا يوم الجمعة لكن خسروا أسبوعياً، عوائد السندات المرتفعة تضغط (bias -0.2 دقيق). GER40 26106 صعد على مرونة أوروبا (0.2 صحيح). Risk sentiment مختلط: لا ذعر، لكن لا نشوة. نهاية الأسبوع = سيولة رقيقة، توحيد.
+
+**Risk Manager:**
+لا أحداث tier-1 خلال 48 ساعة القادمة. نهاية الأسبوع = سيولة منخفضة، خطر whipsaw معتدل. الحساب +0$ اليوم، SHOCK خسر -1.11$ (صفقة واحدة)، OTHER ربح +0.35$ – لا خسائر متتالية تستدعي halt. Scorecard 24h = 29% فقط، لكن كل biases الـ8 ساعات الأخيرة دقيقة. risk_mode=normal مع risk_mult=0.9 مناسب.
+
+**Market Historian:**
+الذهب قرب ATH (4603 vs 4650): آخر 5 مرات وصل الذهب لـ95%+ من نطاق السنة مع USD ضعيف، استمر الصعود 60% من الوقت خلال 2-5 أيام، لكن نهايات الأسبوع عادة تؤخر الاختراق للإثنين (سيولة رقيقة). GBP عند 1.3644 بعد تراجع من 1.368 = نمط "fade بعد ارتفاع قوي" شوهد 4 مرات في 2025-2026، عادة يستمر 1-3 أيام ثم يستقر. JPY 158.9 مع رهانات BoJ hawkish = يشبه أغسطس 2024 قبل تدخل BoJ (JPY صعد 400 نقطة في أسبوعين). السياق الحالي: الذهب ممتد لكن الزخم قوي، GBP في تصحيح صحي، JPY في بداية ترند صاعد محتمل.
+
+**Chairman:**
+الأدلة واضحة: كل biases الـ8 ساعات دقيقة، لا أحداث جديدة، نهاية أسبوع هادئة. لا داعي لتغييرات. نحافظ على: USD=0, EUR=0.3, GBP=-0.4, JPY=0.3, AUD=0.2, NZD=0, CAD=0.1, CHF=0.2, XAU=0.5, XAG=0.3, OIL=0, indices كما هي. risk_mode=normal, risk_mult=0.9, conf=0.8. نهاية الأسبوع = سيولة رقيقة لكن لا خطر يستدعي caution (Awareness سيراجع هذا).
+
+## Psyche
+
+**Awareness:** fired=yes – قارنت مع DECISION MEMORY: لا تغيير في biases منذ 8 ساعات، وكل الأسعار تحركت بالاتجاه الصحيح (EUR/JPY صعدوا، GBP نزل، XAU ثابت قرب ATH، OIL مستقر). لا flip-flopping، لا عناد. الـChairman يريد إبقاء كل شيء ثابت – هذا منطقي لأن الأدلة لم تتغير. لكن: Scorecard 24h = 29% فقط يستدعي حذر في الثقة، و"نهاية أسبوع هادئة" ليست سبباً لـnormal إذا كانت السيولة رقيقة فعلاً – يجب مراجعة.
+
+**Greed:** fired=no – conf=0.8 معتدلة، معظم biases 0.2-0.5 (ليست متطرفة)، prefer_symbols ثلاثة فقط، لا لغة "easy money". لا علامات جشع.
+
+**Fear:** fired=yes – Chairman يقول "نهاية أسبوع هادئة" لكن Risk Manager يحذر من "سيولة رقيقة، خطر whipsaw معتدل"، ثم يقترح normal بدلاً من caution. هذا تناقض: إذا كانت السيولة رقيقة فعلاً، caution أحكم من normal (خاصة مع Scorecard 24h=29%). الخوف من "تجويع الروبوتات" يدفع نحو normal بدون سبب قوي – يجب البقاء في caution حتى تعود السيولة الإثنين.
+
+**Prudence:** fired=yes – XAU bias=0.5 (قوي) له مصدران (مخاوف ديون + USD ضعيف) و analog تاريخي (Market Historian: 60% استمرار قرب ATH)، مقبول. GBP=-0.4 له مصدر واحد (تراجع 40 نقطة) و analog (fade pattern)، مقبول. لكن conf=0.8 مع Scorecard 24h=29% متناقض – يجب خفض conf إلى 0.7 أو أقل.
+
+**Intuition:** fired=no – لا حدس جديد؛ الحدس السابق (الذهب سيخترق 4650 خلال 48 ساعة) لا يزال صالحاً.
+
+**Mind state:** focused (لا تغيير – المجلس متماسك، الأدلة واضحة، لكن Fear و Prudence يصححان الثقة الزائدة).
+
+**Psyche flags:** fear,prudence
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.85
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=-0.4
+bias_JPY=0.3
+bias_AUD=0.2
+bias_NZD=0.0
+bias_CAD=0.1
+bias_CHF=0.2
+bias_XAU=0.5
+bias_XAG=0.3
+bias_OIL=0.0
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=0.2
+conf=0.7
+allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT,SHOCK
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=XAUUSD,EURUSD,USDJPY
+summary=Weekend thin liquidity + 29% scorecard demands caution not normal; all 8h biases accurate; gold near ATH; EUR/JPY firm; GBP fades; oil neutral; conf cut to 0.7
+summary_ar=سيولة نهاية الأسبوع الرقيقة + scorecard 29% يفرض caution لا normal؛ كل biases الـ8 ساعات دقيقة؛ الذهب قرب ATH؛ EUR/JPY قوية؛ GBP ضعيفة؛ النفط محايد؛ conf مخفض لـ0.7
+mind=focused
+psyche_flags=fear,prudence
+intuition=none

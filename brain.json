@@ -1,11 +1,11 @@
 {
- "ts": 1787371810,
- "council_ts": 1787369111,
+ "ts": 1787372713,
+ "council_ts": 1787372713,
  "directives": {
-  "risk_mode": "normal",
-  "risk_mult": 0.9,
+  "risk_mode": "caution",
+  "risk_mult": 0.85,
   "regime": "mixed",
-  "conf": 0.8,
+  "conf": 0.7,
   "bias_USD": 0.0,
   "bias_EUR": 0.3,
   "bias_GBP": -0.4,
@@ -28,13 +28,12 @@
   "prefer_symbols": "XAUUSD,EURUSD,USDJPY",
   "mind": "focused",
   "psyche_flags": "fear,prudence",
-  "intuition": "الذهب سيخترق 4650 خلال 48 ساعة إذا بقي USD ضعيف – لكن نهاية الأسبوع قد تؤخر الحركة للإثنين",
-  "summary": "All 8h biases accurate; gold holds near ATH on US debt fears; EUR/JPY firm; GBP fades; oil neutral; weekend thin liquidity; no changes needed",
-  "summary_ar": "كل biases الـ8 ساعات دقيقة؛ الذهب ثابت قرب ATH على مخاوف الديون؛ EUR/JPY قوية؛ GBP ضعيفة؛ النفط محايد؛ سيولة رقيقة نهاية الأسبوع؛ لا تغييرات",
+  "intuition": "none",
+  "summary": "Weekend thin liquidity + 29% scorecard demands caution not normal; all 8h biases accurate; gold near ATH; EUR/JPY firm; GBP fades; oil neutral; conf cut to 0.7",
+  "summary_ar": "سيولة نهاية الأسبوع الرقيقة + scorecard 29% يفرض caution لا normal؛ كل biases الـ8 ساعات دقيقة؛ الذهب قرب ATH؛ EUR/JPY قوية؛ GBP ضعيفة؛ النفط محايد؛ conf مخفض لـ0.7",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787112715,
