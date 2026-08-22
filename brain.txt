@@ -1,5 +1,5 @@
-ts=1787369111
-generated=2026-08-22 03:25 UTC
+ts=1787369253
+generated=2026-08-22 03:27 UTC (watchman heartbeat; council 2 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.9
@@ -31,3 +31,4 @@ mind=focused
 psyche_flags=fear,prudence
 intuition=الذهب سيخترق 4650 خلال 48 ساعة إذا بقي USD ضعيف – لكن نهاية الأسبوع قد تؤخر الحركة للإثنين
 news_events=none
+watchman=quiet (sev0)
