@@ -1,11 +1,11 @@
 {
- "ts": 1787414110,
- "council_ts": 1787410933,
+ "ts": 1787415010,
+ "council_ts": 1787415010,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 1.0,
   "regime": "mixed",
-  "conf": 0.55,
+  "conf": 0.5,
   "bias_USD": 0.0,
   "bias_EUR": 0.3,
   "bias_GBP": -0.2,
@@ -14,7 +14,7 @@
   "bias_NZD": 0.0,
   "bias_CAD": -0.3,
   "bias_CHF": 0.2,
-  "bias_XAU": 0.5,
+  "bias_XAU": 0.3,
   "bias_XAG": 0.3,
   "bias_OIL": 0.0,
   "bias_US500": -0.2,
@@ -25,16 +25,15 @@
   "news_block": "none",
   "block_symbols": "none",
   "shock": "none",
-  "prefer_symbols": "XAUUSD,AUDUSD",
+  "prefer_symbols": "AUDUSD",
   "mind": "calm",
   "psyche_flags": "none",
   "intuition": "none",
-  "summary": "",
-  "summary_ar": "",
+  "summary": "XAU cut to 0.3 (stalled 8h near ATH, momentum fading); AUD holds 0.4 (breakout extends but CFTC shorts rising); CAD -0.3 on trade collapse; weekend thin liquidity; normal 1.0x",
+  "summary_ar": "الذهب خُفض إلى 0.3 (ثابت 8 سا",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787234806,

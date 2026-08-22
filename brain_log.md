@@ -1,68 +1,4 @@
- checking sources: fade bias rests on "extended + stalling" (FX Strategist) + "no catalyst 15h" (Macro) + Historian analog (Feb 2024 GBPUSD stall). That's two voices + one analog – meets standard. But Historian warned "no reversal confirmation yet" – biases should stay -0.3, not strengthen. Approved as-is.
-
-**Intuition (fired=no):** Hunch: Friday PMIs will disappoint (German services forecast 50.1 vs 49.6 prior is optimistic given "economic engine hit brakes" headline 10 hours old) – if so, EUR breaks down and our -0.3 fade becomes a trend. But this is speculation, not actionable now. Passing to Chairman for consideration only.
-
-**Mental state: calm.** No voices fired except Prudence (routine check). Council is disciplined, holding a low-conviction wait-state without inventing edges. Appropriate for pre-catalyst void.
-
-## DIRECTIVES
-
-risk_mode=caution
-risk_mult=0.6
-regime=mixed
-bias_USD=0.0
-bias_EUR=-0.3
-bias_GBP=-0.3
-bias_JPY=0.0
-bias_AUD=-0.1
-bias_NZD=0.0
-bias_CAD=0.0
-bias_CHF=-0.3
-bias_XAU=-0.1
-bias_XAG=0.0
-bias_OIL=0.0
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.35
-allow_books=COUNCIL,SWING,POSITION
-news_block=GBP:812:842;EUR:887:917;GBP:962:992
-block_symbols=none
-shock=none
-prefer_symbols=none
-summary=Extended EUR/GBP/CHF stalling at multi-month highs (16h no catalyst), fade bias -0.3 held; INTRADAY 2-loss streak monitored; await Friday PMIs (15h) for breakout or breakdown
-summary_ar=EUR/GBP/CHF ممتدّة تتوقف عند قمم عدة أشهر (16 ساعة بلا محفّز)، انحياز التلاشي -0.3 مستمر؛ INTRADAY خسارتان متتاليتان تحت المراقبة؛ ننتظر PMIs الجمعة (15 ساعة)
-mind=calm
-psyche_flags=prudence
-intuition=Friday Eurozone PMIs may disappoint vs optimistic forecasts, potentially triggering EUR breakdown and validating fade bias
-
-
-# 2026-08-20 17:21 UTC
-## Council debate
-
-**Chief Macro Economist:** US data (Philly Fed 24.1 miss vs 41.4 prior, Claims stable 210K) shows manufacturing cooling but labor holding – no regime shift. Europe drought/energy headlines are noise until quantified. No new macro catalyst for 15 hours (Friday PMIs). Neutral USD/EUR.
-
-**Central-Bank Watcher:** Treasury buyback theme now 17 hours stale, yields rebounded per headlines – Fed/Treasury "at odds" per Axios but no actionable policy change. BoJ intervention risk persists (USDJPY 159.04 near intervention zone ~160), but no fresh trigger. All CBs on hold until data forces their hand.
-
-**Geopolitical & Crisis Analyst:** Iran sanctions/Kyiv strikes/NK missile all >8 hours old with zero market follow-through (oil +0.3% from open, gold -$17 from spike). War premium decaying as expected per playbook (spike-fade pattern). No escalation, no new shock. Downgrade all geopolitical biases to 0.0.
-
-**FX Strategist:** EUR 1.1671/GBP 1.3625/CHF 0.8008 all sitting at 6-month highs per Reuters/headlines but **stalling for 16 hours** with no fresh catalyst. Sterling "six-month high" headline is 7 hours old. This is exhaustion, not breakout. Fade bias -0.3 on EUR/GBP/CHF remains valid. AUD 0.7111 holding despite jobs miss – RBA tightening bets alive per headline, but no conviction. All others flat.
-
-**Gold & Oil Trader:** Gold 4511 rejected 4528 highs twice (8h, 13h ago), now -$17 from peak – classic headline-spike fade per playbook. Oil 87/94 (WTI/Brent) holding Iran premium but headlines show "economic pressure" replacing military strikes – premium will decay over days unless supply hit. Both neutral to weak. Bias XAU -0.1, OIL 0.0.
-
-**Equity / Risk-Sentiment Desk:** US500 7676/US100 29250 down from session highs, "two-week lows" per Reuters 43min ago on bond yields/Walmart – mild risk-off but no crash. VIX data missing. "Bubble" headlines (Bloomberg 8h ago) are opinion, not actionable. Mixed regime, no strong lean.
-
-**Risk Manager:** INTRADAY book 2-loss streak (-$3.39 today, 0% win rate) – emergency protocol says remove from allow_books for rest of day. REVERT already removed (0% win rate, 5 SL hits). Account -$30.7 from peak ($490 → $459), but daily loss only -0.7% (safe). CAUTION mode justified, risk_mult 0.6 appropriate. News blocks for Friday PMIs correct.
-
-**Market Historian:** **EUR/GBP/CHF at multi-month highs stalling 16+ hours = textbook exhaustion.** Last analogs: EUR 1.16+ in Feb 2024 (stalled 2 days, reversed -1.8%), GBP 1.36+ in Nov 2023 (chopped 3 days, then broke higher on BoE surprise – but we have no BoE event). CHF 0.80 is 2-month high per headlines but momentum fading (price flat 6 hours). **Playbook says: extended moves without fresh catalyst fade 60% of the time within 24-48h; the other 40% need a new shock to break out.** Friday PMIs (15h away) are the only potential catalyst. Current setup rhymes with **Aug 2023 EUR exhaustion** (stalled at 1.11 for 18h, then dropped -0.6% in 2 days when data disappointed). Fade bias -0.3 is historically sound. **Gold 4511 at all-time high but rejecting twice = 55% chance of -1% pullback per playbook** (new highs continue only with momentum, which is absent). Oil war premium decay is on schedule (2-6 week fade per 2020 Soleimani analog).
-
-**Chairman:** Historian and FX Strategist align: extended EUR/GBP/CHF exhaustion without catalyst for 16h justifies fade bias -0.3. Geopolitical premium fully faded (Analyst correct). Risk Manager's INTRADAY removal is mandatory per protocol. No new information changes previous directives except: (1) remove INTRADAY per emergency rule, (2) geopolitical biases (JPY/XAU/OIL) all to 0.0 on complete fade. Confidence remains 0.35 (low conviction, waiting for Friday PMIs). CAUTION mode, risk_mult 0.6 unchanged.
-
----
-
-## Psyche
-
-**Awareness (fired=no):** Previous directives held EUR/GBP/CHF fade -0.3 for 6 hours; prices moved only +5/+12/-3 pips respectively – **no refutation, no flip-flop**. INTRADAY removal is new but mandated by protocol (2-loss streak), not council whim. Geopolitical downgrade to 0.0 is overdue (headlines 8-17h stale). Decision is consistent with evidence and prior stance.
+ held EUR/GBP/CHF fade -0.3 for 6 hours; prices moved only +5/+12/-3 pips respectively – **no refutation, no flip-flop**. INTRADAY removal is new but mandated by protocol (2-loss streak), not council whim. Geopolitical downgrade to 0.0 is overdue (headlines 8-17h stale). Decision is consistent with evidence and prior stance.
 
 **Greed (fired=no):** All biases ≤0.3 in absolute terms, risk_mult 0.6 (conservative), prefer_symbols none, language cautious ("stalling," "await PMIs"). No overconfidence detected.
 
@@ -3578,3 +3514,66 @@ block_symbols=none
 shock=none
 prefer_symbols=XAUUSD,AUDUSD
 summary=
+
+
+# 2026-08-22 16:10 UTC
+## Council debate
+
+**Chief Macro Economist:** السوق في نهاية الأسبوع، لا بيانات جديدة منذ 15 دقيقة. الذهب عند 4603$ قرب القمة التاريخية، عوائد السندات الأمريكية ترتفع رغم تدخل الخزانة (WSJ/Barron's قبل 20 ساعة)، مخاوف الديون الأمريكية مستمرة. منطقة اليورو PMI قوية (أسرع نمو منذ نوفمبر)، لكن ألمانيا ضعيفة والصين تضغط على الصناعة. النمو العالمي مختلط، التضخم يتباطأ في أوروبا (النمسا 2.7%)، لا تغيير في الدورة.
+
+**Central-Bank Watcher:** بنك اليابان: رهانات متشددة تدعم الين (CryptoRank قبل 3 ساعات)، لكن المضاربون يزيدون المراكز القصيرة (CFTC). الفيد: لا خطابات جديدة، بيسنت "واثق" من انخفاض العوائد (Fox قبل 16 ساعة) لكن السوق لا يصدق (العوائد ترتفع). البنك المركزي السويسري يبقي الفائدة السلبية على الطاولة (FXStreet قبل 23 ساعة). لا محفزات جديدة، bias الين 0.3 معقول.
+
+**Geopolitical & Crisis Analyst:** إيران تقول "العالم وافق على انتصارنا" على أمريكا (The Hill قبل ساعتين)، سياسيون إيرانيون يطالبون بإنهاء الحرب (WSJ قبل 7 ساعات)، عقوبات أمريكية جديدة قادمة (CNBC قبل 6 ساعات). روسيا: ضربة مركز تجاري في أوكرانيا (BBC قبل 3 ساعات). كندا-أمريكا: محادثات التجارة انهارت (Steel Market Update قبل 5 ساعات، AP قبل ساعة). لا تصعيد جديد منذ 15 دقيقة، الذهب/النفط مستقران، لا صدمة.
+
+**FX Strategist:** AUDUSD عند 0.717 (اختراق لـ10 أسابيع، FOREX.com)، لكن CFTC تظهر مراكز قصيرة صافية تتزايد (VT Markets قبل 4 ساعات) – تناقض. الدولار الكندي: تأخير التعريفات يعطي راحة محدودة (Commerzbank قبل 4 ساعات)، USDCAD عند 1.3767 (ثابت منذ ساعات). الفرنك السويسري يصبح هدفاً لتجارة الفائدة بعد تدخل الين (AOL قبل 20 ساعة). bias الدولار الأسترالي 0.4 صحيح، الكندي -0.3 صحيح، لا تغيير.
+
+**Gold & Oil Trader:** الذهب 4603$ (ثابت منذ 8 ساعات)، قرب القمة التاريخية لكن الزخم يتلاشى (MarketWatch: ارتفع هذا الأسبوع على تدخل الخزانة). النفط WTI 87.3$ (ثابت)، Brent 94.2$ (ثابت)، لا أخبار أوبك، إيران تسمح لناقلات عراقية بالمرور عبر هرمز (Reuters قبل 4 ساعات) – محايد. الأسعار مرتفعة (WTI فوق 90$ تاريخياً يتلاشى)، لكن لا محفز للانعكاس. bias الذهب 0.5 و النفط 0.0 صحيحان.
+
+**Equity / Risk-Sentiment Desk:** US500 عند 7677 (ثابت)، Buffett يحذر من فقاعة (AOL/thestreet قبل 4-7 ساعات)، Burry يحذر من مؤشر قياسي عمره 150 سنة (AOL قبل 11 ساعة). السوق ارتفع الجمعة لكن انخفض للأسبوع (Reuters قبل 17 ساعة). GER40 عند 26106 (ثابت). نهاية الأسبوع، سيولة ضعيفة، لا اتجاه. bias -0.2 للمؤشرات الأمريكية و +0.2 لألمانيا معقول.
+
+**Risk Manager:** لا أحداث مجدولة في 48 ساعة القادمة. SHOCK خسر صفقة واحدة اليوم (-1.11$)، OTHER ربح (+0.35$)، الحساب مستقر (457$، لا خسارة يومية). السجل الأسبوعي: 20 صفقة، 9 أرباح، صافي -31$، لكن معظمها من روبوتات قديمة متقاعدة (REVERT-OLD). لا خطر فوري، نهاية الأسبوع = سيولة ضعيفة لكن لا حاجة للتوقف. risk_mode=normal صحيح، risk_mult يمكن أن يبقى 1.0.
+
+**Market Historian:** الذهب عند 4603$ = 99.5% من النطاق السنوي (تقديري من السياق)، قرب القمة التاريخية. **التاريخ يقول:** اختراقات الذهب لقمم جديدة تستمر 55-60% من الوقت، لكن عندما يتوقف الزخم عند القمة (ثابت 8 ساعات)، الانعكاسات عنيفة. 2020: الذهب توقف عند 2075$ لمدة يومين ثم انخفض 150$ في أسبوع. 2011: توقف عند 1920$ ثم انهار. **الآن:** الذهب ثابت منذ 8 ساعات، لا محفز جديد، نهاية الأسبوع. bias 0.5 مرتفع جداً لسوق راكد – يجب خفضه إلى 0.3. **الدولار الأسترالي:** اختراق لـ10 أسابيع (0.717)، لكن CFTC تظهر مراكز قصيرة صافية – **التاريخ:** عندما السعر يرتفع والمضاربون يبيعون، إما السعر مخطئ أو المضاربون متأخرون. 2024: AUDUSD اخترق 0.68 مع مراكز قصيرة، استمر أسبوعين ثم انعكس. bias 0.4 معقول لكن حذر. **كندا:** انهيار المحادثات قبل 5 ساعات، USDCAD ثابت عند 1.3767 – **التاريخ:** الأخبار السياسية بدون حركة سعر = السوق يعرف مسبقاً أو لا يهتم. 2018: NAFTA drama، USDCAD تحرك فقط عند التوقيع النهائي. bias -0.3 للكندي صحيح لكن لا تتوقع حركة كبيرة.
+
+**Chairman:** شكراً. **الحقائق:** لا أخبار جديدة منذ 15 دقيقة، لا بيانات في 48 ساعة، نهاية الأسبوع، سيولة ضعيفة. الذهب ثابت 8 ساعات عند القمة، الدولار الأسترالي اخترق لكن CFTC تناقض، كندا: أخبار سياسية بلا حركة سعر. **القرار:** المؤرخ محق – bias الذهب 0.5 مرتفع جداً لسوق راكد، أخفضه إلى 0.3. الدولار الأسترالي: أبقي 0.4 لكن أضيف تحذير (الزخم يتلاشى). باقي biases بدون تغيير. risk_mult يبقى 1.0 (لا خطر فوري، السجل 24 ساعة >= 60% غير متوفر لكن لا خسائر كبيرة اليوم). conf أخفضه إلى 0.5 (سوق راكد، نهاية أسبوع، scorecard ضعيف 29%). allow_books=ALL (لا سبب لإزالة أي كتاب). لا صدمات، لا حظر.
+
+## Psyche
+
+**Awareness:** fired=yes. قارنت مع القرارات السابقة: bias الذهب 0.5 ثابت منذ 10 ساعات رغم أن السعر لم يتحرك منذ 8 ساعات – هذا عناد. المؤرخ قدم دليلاً تاريخياً (2020/2011: الذهب عند القمة ثابت ثم انهار). الرئيس يخفض إلى 0.3 – صحيح. لا تقلبات أخرى، القرار متوازن.
+
+**Greed:** fired=no. معظم biases معتدلة (0.0-0.4)، prefer_symbols قصيرة (2 فقط)، risk_mult 1.0 معقول، لا لغة "مال سهل". لا طمع.
+
+**Fear:** fired=no. لا رد فعل مبالغ فيه، لا توقف بدون تهديد ملموس، القرار هادئ ومنطقي. لا خوف.
+
+**Prudence:** fired=yes. bias الذهب 0.5 كان قوياً (>=0.5) لكن بمصدر واحد فقط (مخاوف الديون الأمريكية من عناوين قديمة 16-20 ساعة). المؤرخ قدم مصدراً ثانياً (نمط تاريخي)، لكن السعر ثابت 8 ساعات = لا زخم. الرئيس خفض إلى 0.3 – الحكمة تطبق.
+
+**Intuition:** fired=no. لا حدس هذه المرة، السوق واضح (راكد، نهاية أسبوع، لا محفزات).
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=1.0
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=-0.2
+bias_JPY=0.3
+bias_AUD=0.4
+bias_NZD=0.0
+bias_CAD=-0.3
+bias_CHF=0.2
+bias_XAU=0.3
+bias_XAG=0.3
+bias_OIL=0.0
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=0.2
+conf=0.5
+allow_books=ALL
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=AUDUSD
+summary=XAU cut to 0.3 (stalled 8h near ATH, momentum fading); AUD holds 0.4 (breakout extends but CFTC shorts rising); CAD -0.3 on trade collapse; weekend thin liquidity; normal 1.0x
+summary_ar=الذهب خُفض إلى 0.3 (ثابت 8 سا
