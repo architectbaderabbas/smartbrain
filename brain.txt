@@ -1,5 +1,5 @@
-ts=1787408711
-generated=2026-08-22 14:25 UTC (watchman heartbeat; council 2 min ago)
+ts=1787409610
+generated=2026-08-22 14:40 UTC
 version=1
 risk_mode=normal
 risk_mult=0.9
@@ -25,10 +25,9 @@ bias_US500=-0.2
 bias_US100=-0.2
 bias_US30=-0.2
 bias_GER40=0.2
-summary=All biases unchanged for 8h; XAU near ATH (momentum slowing), AUD breakout extends, CAD weak on trade collapse; weekend thin liquidity; normal 0.9x maintained
-summary_ar=جميع biases ثابتة منذ 8 ساعات؛ XAU قرب ATH (زخم يتباطأ)، AUD اختراق يمتد، CAD ضعيف على انهيار تجاري؛ سيولة ضعيفة نهاية أسبوع؛ طبيعي 0.9 مستمر
+summary=All biases unchanged 9h; XAU stalled near ATH, AUD breakout slowing, CAD weak on trade collapse but price static; weekend thin liquidity; normal 0.9x held
+summary_ar=جميع biases ثابتة 9 ساعات؛ XAU راكد قرب ATH، AUD اختراق يتباطأ، CAD ضعيف على انهيار تجاري لكن السعر ثابت؛ سيولة ضعيفة نهاية أسبوع؛ طبيعي 0.9 مستمر
 mind=focused
 psyche_flags=awareness,prudence,intuition
-intuition=USDCAD يصل 1.39 خلال 48 ساعة إذا استمر التوتر التجاري؛ لكن لا نرفع bias فوق -0.3 بدون أخبار جديدة
+intuition=USDCAD سيصل 1.39 خلال 48 ساعة إذا أعلنت أميركا تعريفات جديدة؛ لكن بدون أخبار الآن نبقي bias_CAD=-0.3 بدون رفع
 news_events=none
-watchman=quiet (sev0)

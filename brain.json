@@ -1,6 +1,6 @@
 {
- "ts": 1787408711,
- "council_ts": 1787406010,
+ "ts": 1787409610,
+ "council_ts": 1787409610,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.9,
@@ -28,13 +28,12 @@
   "prefer_symbols": "XAUUSD,AUDUSD,USDCAD",
   "mind": "focused",
   "psyche_flags": "awareness,prudence,intuition",
-  "intuition": "USDCAD يصل 1.39 خلال 48 ساعة إذا استمر التوتر التجاري؛ لكن لا نرفع bias فوق -0.3 بدون أخبار جديدة",
-  "summary": "All biases unchanged for 8h; XAU near ATH (momentum slowing), AUD breakout extends, CAD weak on trade collapse; weekend thin liquidity; normal 0.9x maintained",
-  "summary_ar": "جميع biases ثابتة منذ 8 ساعات؛ XAU قرب ATH (زخم يتباطأ)، AUD اختراق يمتد، CAD ضعيف على انهيار تجاري؛ سيولة ضعيفة نهاية أسبوع؛ طبيعي 0.9 مستمر",
+  "intuition": "USDCAD سيصل 1.39 خلال 48 ساعة إذا أعلنت أميركا تعريفات جديدة؛ لكن بدون أخبار الآن نبقي bias_CAD=-0.3 بدون رفع",
+  "summary": "All biases unchanged 9h; XAU stalled near ATH, AUD breakout slowing, CAD weak on trade collapse but price static; weekend thin liquidity; normal 0.9x held",
+  "summary_ar": "جميع biases ثابتة 9 ساعات؛ XAU راكد قرب ATH، AUD اختراق يتباطأ، CAD ضعيف على انهيار تجاري لكن السعر ثابت؛ سيولة ضعيفة نهاية أسبوع؛ طبيعي 0.9 مستمر",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787197076,

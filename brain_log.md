@@ -1,28 +1,4 @@
-), EUR 1.1679 (three-month high per FXStreet 4h ago), CHF 0.7992 (two-month high per TradingView 4h ago) – all sitting at multi-month extremes with NO fresh drivers for 15 hours. Sterling/EUR/CHF are 95%+ of 1-year range. Momentum fading (DXY errors suggest data issues but cross-rates show USD weakness stalling). Fade bias justified but price hasn't turned yet. Hold EUR/GBP/CHF -0.3.
-
-**Gold & Oil Trader:** Gold 4526 rejected 4540 highs twice (now -$14 from peak), sitting 2% below all-time high with no fresh safe-haven demand. Oil 87/93 (WTI/Brent) holding war premium but Trump rhetoric (8h old) didn't add to it. Both assets rangebound 12+ hours. Gold -0.1 correct, oil to 0.0 (premium stable not growing).
-
-**Equity / Risk-Sentiment Desk:** SPX 7693, NDX 29292, DAX 26013 all near highs but headlines scream bubble warnings (Bloomberg 6h ago, Barron's 3h ago). VIX data missing. Dow -400 headline (9h stale). No fresh risk-off trigger but no risk-on catalyst either. Mixed regime confirmed.
-
-**Risk Manager:** Account $459, day P/L flat, two INTRADAY losses (streak=2, -$3.39 net) – INTRADAY must stay blocked per emergency protocol (losing streak ≥2). REVERT bleeding badly (5 trades, 0 wins, -$31.53) – remove from allow_books immediately. SWING/POSITION/COUNCIL only. BREAKOUT losses (-$3.39 combined on NZDUSD/NZDCAD pre-data trades) are independent robot issues, not council failure. Caution mode maintained, risk_mult 0.6 appropriate.
-
-**Market Historian:** Last time EUR/GBP/CHF hit multi-month highs on USD weakness without fresh catalyst (July 2023 post-CPI, March 2024 post-Fed): they chopped ±0.3% for 2-4 days then reversed 50-70% of the move within a week. Current setup rhymes: 15-hour stall at extremes, no new fundamental driver, Friday PMIs could be the reversal trigger. Fade bias -0.3 is historically sound BUT price needs to confirm (wait for 4H close below support). Gold rejecting $4540 twice mirrors Feb 2024 $2070 double-top (faded $60 over 5 days). Oil war premium decay analog: 2020 Soleimani (premium gone in 48h), 2019 Abqaiq (2 weeks) – we're 36h into Iran rhetoric, decay on schedule.
-
-**Chairman:** Consensus clear: no new information for 15 hours, extended currencies stalling at extremes, geopolitics ignored, data void until Friday PMIs. REVERT's 0% win rate (5/5 losses) is disqualifying – remove it. INTRADAY's losing streak keeps it out. Maintain EUR/GBP/CHF fade -0.3 but do NOT raise conviction (price hasn't turned, only stalled). Gold/oil biases correct. Allow COUNCIL/SWING/POSITION only. Confidence stays 0.35 (no fresh evidence). Risk_mult 0.6 unchanged.
-
-## Psyche
-
-**Awareness:** fired=yes. Comparing to previous: biases unchanged for 3 hours (EUR/GBP/CHF -0.3 since 12:07 UTC), which is appropriate given no new facts. DECISION MEMORY shows we correctly downgraded geopolitics from 0.2→0.1→0.0 as headlines failed to move markets. TRADE JOURNAL shows REVERT is a disaster (0% win rate) – council must act. SCORECARD shows 57% overall hit rate, XAU 55% at 4h (our -0.1 bias is modest, appropriate). No flip-flopping detected. Holding steady is correct.
-
-**Greed:** fired=no. Confidence 0.35 is low, biases capped at -0.3 (fade not chase), prefer_symbols empty. No overconfidence language. Risk_mult 0.6 is conservative. Council is appropriately cautious.
-
-**Fear:** fired=no. Caution mode is data-driven (event void, extended prices), not panic. REVERT removal is performance-based (0% win rate), not overreaction. No evidence of freezing on stale threats.
-
-**Prudence:** fired=yes. EUR/GBP/CHF -0.3 fade bias has two sources (FX Strategist extremes + Market Historian analogs) and historical support (2023/2024 stall-then-reverse pattern). REVERT removal has concrete evidence (5 consecutive losses, -$31.53). All strong calls justified.
-
-**Intuition:** fired=no. No hunch beyond the evidence. The setup is clear: wait for Friday PMIs or a technical break. Intuition has nothing to add.
-
-**Mental state: calm.** Council is disciplined, evidence-based, not swayed by stale headlines or recent losses. REVERT removal is surgical, not emotional.
+nt losses. REVERT removal is surgical, not emotional.
 
 ## DIRECTIVES
 
@@ -3522,3 +3498,73 @@ summary_ar=جميع biases ثابتة منذ 8 ساعات؛ XAU قرب ATH (زخ
 mind=focused
 psyche_flags=awareness,prudence,intuition
 intuition=USDCAD يصل 1.39 خلال 48 ساعة إذا استمر التوتر التجاري؛ لكن لا نرفع bias فوق -0.3 بدون أخبار جديدة
+
+
+# 2026-08-22 14:40 UTC
+## Council debate
+
+**Chief Macro Economist:** لا جديد منذ 8 ساعات؛ نهاية أسبوع هادئة؛ الاقتصاد الأميركي مستقر، أوروبا PMI قوية أمس، لا تغيير في الدورة؛ نبقى على الحياد للدولار.
+
+**Central-Bank Watcher:** BoJ لا يزال متشدداً (hawkish bets تدعم JPY حسب CryptoRank)، لكن لا خطابات جديدة منذ 12 ساعة؛ SNB يبقي أسعار سلبية على الطاولة (أمس)؛ لا تغيير في bias_JPY=0.3، bias_CHF=0.2.
+
+**Geopolitical & Crisis Analyst:** إيران تنتقد عقوبات أميركية جديدة (منذ 4 ساعات)، لكن لا تصعيد عسكري؛ أوكرانيا ضربة روسية على مركز تجاري (منذ ساعتين) – حدث إنساني لا صدمة أسواق؛ كندا-أميركا انهيار محادثات تجارية (منذ 3 ساعات) يدعم bias_CAD=-0.3؛ لا حاجة لتغيير.
+
+**FX Strategist:** AUDUSD عند 0.717 (أعلى 10 أسابيع حسب FOREX.com أمس)، الاختراق مستمر لكن الزخم يتباطأ (نهاية أسبوع)؛ USDCAD عند 1.3767، لم يتحرك منذ 60 دقيقة رغم الأخبار السلبية – السوق هضم الصدمة؛ bias_AUD=0.4 و bias_CAD=-0.3 صحيحان؛ لا تغيير.
+
+**Gold & Oil Trader:** XAUUSD عند 4603 (قرب ATH 4610)، ثابت منذ 8 ساعات؛ MarketWatch يقول الذهب ارتفع على مخاوف ديون أميركية، لكن الزخم توقف؛ النفط 87.30 (ثابت)، لا أخبار OPEC؛ bias_XAU=0.5 صحيح لكن لا مبرر لرفعه؛ bias_OIL=0.0 صحيح.
+
+**Equity / Risk-Sentiment Desk:** US500 عند 7677 (ثابت منذ 12 ساعة)، Bloomberg يحذر من انهيار 20% إذا ارتفعت عوائد السندات، لكن لا حركة فعلية؛ GER40 عند 26106 (PMI قوي أمس يدعمه)؛ bias_US500=-0.2، bias_GER40=0.2 صحيحان؛ لا تغيير.
+
+**Risk Manager:** لا أحداث مجدولة في 48 ساعة؛ نهاية أسبوع = سيولة ضعيفة؛ SHOCK خسر -1.11$ أمس (1 صفقة، 0 أرباح)، OTHER ربح +0.35$ (1 صفقة)؛ لا خسائر متتالية؛ risk_mode=normal صحيح؛ risk_mult=0.9 مناسب للسيولة الضعيفة.
+
+**Market Historian:** آخر مرة XAUUSD وصل ATH وتوقف (يوليو 2020، أغسطس 2011): استمر 2-5 أيام ثم تصحيح 1-2%؛ الآن عند 4603 منذ 8 ساعات بدون اختراق = احتمال تصحيح 60%؛ AUDUSD اختراق 10 أسابيع (0.717): آخر مرة (مارس 2022) استمر 3 أيام ثم عكس؛ الآن يوم 2 = حذر؛ USDCAD انهيار تجاري (3 ساعات مضت): 2018 NAFTA crisis رفع CAD 200 نقطة في أسبوع بعد صدمة أولية؛ الآن لا حركة = السوق ينتظر تفاصيل.
+
+**Chairman:** الأدلة: لا أخبار جديدة منذ 60 دقيقة؛ جميع biases ثابتة 8 ساعات وصحيحة (XAU قرب ATH لكن راكد، AUD اختراق يتباطأ، CAD ضعيف لكن لا حركة)؛ scorecard ضعيف (24h=29%) يفرض conf<=0.7؛ نهاية أسبوع = سيولة ضعيفة؛ قرار: **لا تغيير في أي bias**؛ risk_mode=normal، risk_mult=0.9 (نهاية أسبوع)؛ allow_books=ALL؛ prefer_symbols=XAUUSD,AUDUSD,USDCAD (نفس الأمس).
+
+---
+
+## Psyche
+
+**Awareness:** fired=yes – نفس biases منذ 8 ساعات بدون حقائق جديدة؛ لكن الأسعار لم تدحضها (XAU ثابت، AUD يمتد، CAD ضعيف)؛ لا flip-flop، لا عناد؛ حالة صحية.
+
+**Greed:** fired=no – conf=0.7 (معتدل)، biases متنوعة (-0.3 إلى +0.5)، prefer_symbols=3 فقط؛ لا علامات طمع.
+
+**Fear:** fired=no – risk_mode=normal منذ 8 ساعات، لا رد فعل مبالغ على خسارة SHOCK (-1.11$ واحدة)؛ متوازن.
+
+**Prudence:** fired=yes – bias_XAU=0.5 مدعوم بمصدرين (MarketWatch ديون أميركية، Forbes أعلى أسعار) + تاريخ (ATH يستمر 2-5 أيام)؛ bias_CAD=-0.3 مدعوم بمصدر واحد فقط (Steel Market Update انهيار محادثات منذ 3 ساعات) لكن السعر لم يتحرك = حذر مبرر؛ مقبول.
+
+**Intuition:** fired=yes – USDCAD سيصل 1.39 خلال 48 ساعة إذا أعلنت أميركا تعريفات جديدة؛ لكن بدون أخبار الآن نبقي bias_CAD=-0.3 بدون رفع.
+
+---
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.9
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=-0.2
+bias_JPY=0.3
+bias_AUD=0.4
+bias_NZD=0.0
+bias_CAD=-0.3
+bias_CHF=0.2
+bias_XAU=0.5
+bias_XAG=0.3
+bias_OIL=0.0
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=0.2
+conf=0.7
+allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT,SHOCK
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=XAUUSD,AUDUSD,USDCAD
+summary=All biases unchanged 9h; XAU stalled near ATH, AUD breakout slowing, CAD weak on trade collapse but price static; weekend thin liquidity; normal 0.9x held
+summary_ar=جميع biases ثابتة 9 ساعات؛ XAU راكد قرب ATH، AUD اختراق يتباطأ، CAD ضعيف على انهيار تجاري لكن السعر ثابت؛ سيولة ضعيفة نهاية أسبوع؛ طبيعي 0.9 مستمر
+mind=focused
+psyche_flags=awareness,prudence,intuition
+intuition=USDCAD سيصل 1.39 خلال 48 ساعة إذا أعلنت أميركا تعريفات جديدة؛ لكن بدون أخبار الآن نبقي bias_CAD=-0.3 بدون رفع
