@@ -1,5 +1,5 @@
-ts=1787418669
-generated=2026-08-22 17:11 UTC
+ts=1787419569
+generated=2026-08-22 17:26 UTC (watchman heartbeat; council 15 min ago)
 version=1
 risk_mode=normal
 risk_mult=1.0
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=awareness,prudence,intuition
 intuition=أشعر أن الين الياباني سيفاجئ بالصعود خلال 12-24 ساعة رغم بيع المضاربين – بنك اليابان متشدد والتضخم قوي، السوق يتجاهل هذا الآن
 news_events=none
+watchman=quiet (sev0)
