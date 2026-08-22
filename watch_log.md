@@ -729,3 +729,4 @@
 - 2026-08-22 14:55 UTC · heartbeat · quiet (sev0)
 - 2026-08-22 15:01 UTC · heartbeat · ALERT sev2: U.S. Army Secretary reportedly rebelling against Trump/Hegseth over Iran War; potential resignation signal amid military-civilian command crisis -> protocol applied, council convening
 - 2026-08-22 15:01 UTC · FULL COUNCIL triggered: ALERT sev2: U.S. Army Secretary reportedly rebelling against Trump/Hegseth over Iran War; potential resignation signal amid military-civilian command crisis
+- 2026-08-22 15:10 UTC · heartbeat · quiet (sev0)
