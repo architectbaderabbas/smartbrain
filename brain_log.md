@@ -1,18 +1,4 @@
-2, hold others.
-
-**Geopolitical & Crisis Analyst:** Trump's "Economic D-Day" vs Iran (Guardian 19:21, Time 16:44) is **escalating sanctions not military strikes** – oil spiked to $87-93 but this is a **slow-burn premium**, not a shock. Peru 6.7 quake (18:50) had no damage. North Korea missile was noise (we correctly downgraded at 18:56). Hezbollah sanctions (18:20) are routine. **No acute crisis; oil premium should decay further** unless Trump actually bombs something. OIL bias 0.0 → -0.1 (fade the war premium).
-
-**FX Strategist:** EURUSD 1.1679 is **three-month high** (FXStreet 10:51) but stalled for 20 hours. GBPUSD 1.3632 hit six-month high (Reuters 10:33) but also stalled. USDCHF 0.8005 = CHF at two-month high (TradingView 10:57). USDJPY 159.08 = intervention risk. **All USD weakness plays are extended and waiting for PMI confirmation (9-11 hours away)**. CAD hit three-month high on oil (TradingView 19:07, Finimize 19:02) but oil is fading. Our -0.1 fade biases are **correct but premature** – no breakdown yet. Hold EUR/GBP/CHF at -0.1, flip CAD to -0.1 (oil rolling over), upgrade AUD to +0.2 (RBA hawkish).
-
-**Gold & Oil Trader:** Gold $4520 spiked 4% on Treasury buyback (KITCO 14:17, USA Today 16:16) but **pulled back from $4500 barrier as yields rose** (FXEmpire 15:05). This is a **failed breakout** – our 0.0 bias is right. Oil: Brent $93.75, WTI $87.06 = Trump's Iran sanctions premium (IBD 14:16, OilPrice 11:30), but **economic pressure is not supply disruption**. Last time sanctions ramped (2018-19), oil spiked then faded over 2-3 months. Bias OIL -0.2 (fade the premium), XAU -0.1 (failed breakout).
-
-**Equity / Risk-Sentiment Desk:** Wall Street sank, Dow -600+ (Reuters 20:51, Stocks Down Under 19:15) on **bond yields rising + Walmart disappointment**. SPX 7655, NDX 29235 = **risk-off**, but this is a **bond crisis, not a growth scare**. VIX data missing but tone is stress. Our 0.0 equity bias misses the risk-off turn. Bias US500/US100/US30 → -0.2 (bond stress = equity negative). Regime = **risk_off** (bond turmoil, equities falling, safe-havens bid).
-
-**Risk Manager:** Account at $459, daily P/L flat, INTRADAY on 2-loss streak (removed correctly). **No emergency triggers**. Bond stress is Severity-1 (market stress, not crisis) = caution mode appropriate. PMI data in 9-11 hours = **news_block windows unchanged**. REVERT still banned (0% win rate). Current setup: low conviction (conf 0.2), no positions, waiting for PMI catalyst. **Risk_mult 0.6 is appropriate; do not raise until PMIs confirm direction**.
-
-**Market Historian:** **Treasury intervention failure rhymes with Sep-2022 BoE gilt crisis** (yields spiked despite intervention, GBP/equities fell for days until policy U-turn). **Playbook: bond stress → USD weakness persists BUT equities fall (risk-off, not risk-on)**. EUR/GBP/CHF at multi-month highs without catalyst = **2018 Q1 EUR exhaustion pattern** (hit 1.25, stalled 3 weeks, then reversed -400 pips). Current 20-hour stall **increases reversal risk, but reversals need a trigger** (PMIs could be it). Gold $4520 failed breakout = **Aug-2020 analog** (spiked to $2070 on COVID fears, rejected, chopped for 6 months). Oil war premium = **2019 Abqaiq pattern** (spiked +15%, faded 80% in 2 weeks). **Concrete lean: fade EUR/GBP/CHF at -0.2 (extended + stalling), fade OIL at -0.2 (premium without supply hit), fade equities at -0.2 (bond stress), hold XAU at -0.1 (failed breakout)**.
-
-**Chairman:** Evidence quality: **bond stress is fresh and confirmed** (multiple sources <3 hours), **RBA hawkish is fresh** (17:01), **equity weakness is fresh** (20:51), **oil/gold/FX moves are stale** (10-20 hours, no new catalyst). Historian's analogs are strong (gilt crisis, Abqaiq fade, EUR 2018 exhaustion). **Decision: upgrade confidence to 0.4** (bond stress + RBA are concrete), **shift regime to risk_off** (bond turmoil + equity fall), **strengthen fade biases to -0.2 on EUR/GBP/CHF** (extended + 20h stall + historical exhaustion pattern), **fade OIL -0.2** (sanctions ≠ supply shock), **fade equities -0.2** (bond stress), **upgrade AUD +0.2** (RBA hawkish overrides risk-off for now), **downgrade XAU -0.2** (failed breakout confirmed). Risk_mult hold 0.6 (no emergency, but stress persists). Allow_books: keep COUNCIL/SWING/POSITION (INTRADAY banned on losses, REVERT banned on 0% win rate).
+ses to -0.2 on EUR/GBP/CHF** (extended + 20h stall + historical exhaustion pattern), **fade OIL -0.2** (sanctions ≠ supply shock), **fade equities -0.2** (bond stress), **upgrade AUD +0.2** (RBA hawkish overrides risk-off for now), **downgrade XAU -0.2** (failed breakout confirmed). Risk_mult hold 0.6 (no emergency, but stress persists). Allow_books: keep COUNCIL/SWING/POSITION (INTRADAY banned on losses, REVERT banned on 0% win rate).
 
 ---
 
@@ -3679,6 +3665,87 @@ shock=none
 prefer_symbols=none
 summary=All biases unchanged 90min; CAD weak on Trump tariffs, XAU stalled 11h near ATH, OIL fading war premium; weekend thin liquidity; normal 1.0x
 summary_ar=كل التوجهات ثابتة 90 دقيقة؛ الكندي ضعيف على تعريفات ترامب، الذهب راكد 11 ساعة قرب ATH، النفط يفقد علاوة الحرب؛ سيولة ضعيفة نهاية أسبوع؛ عادي 1.0x
+mind=calm
+psyche_flags=awareness,prudence
+intuition=none
+
+
+# 2026-08-22 22:42 UTC
+## Council debate
+
+**Chief Macro Economist:**
+السوق في وضع انتظار نهاية الأسبوع؛ لا بيانات جديدة 48 ساعة، العوائد الأمريكية ارتفعت (Forbes/Yahoo) لكن بدون أرقام محددة؛ منطقة اليورو PMI قوية (Seeking Alpha) لكن ألمانيا تتعثر؛ الصورة الكلية مختلطة، لا محفزات جديدة منذ 90 دقيقة.
+
+**Central-Bank Watcher:**
+Bessent تدخل في الين (CryptoRank مرتين) لكن التفاصيل غامضة؛ USDJPY عند 158.98 (مستقر)؛ لا خطابات مجدولة، لا مفاجآت؛ JPY bias 0.3 معقول لكن بدون محفز جديد لا داعي لرفعه.
+
+**Geopolitical & Crisis Analyst:**
+إيران تهدد الجيران (Anadolu) لكن عناوين قديمة؛ حرب تجارية كندا-أمريكا تتصاعد (MarketWatch/Politico تعريفات انتقامية) لكن CAD عند 1.3767 ثابت منذ ساعات؛ إسرائيل ضربت سوريا (Reuters) روتيني؛ أوكرانيا قتلت 10 روس (Reuters) – لا شيء يحرك الأسواق الآن.
+
+**FX Strategist:**
+EUR 0.3 على PMI القوي منطقي؛ CAD -0.4 على التعريفات صحيح لكن السعر لم يتحرك (1.3767 ثابت 3 ساعات)؛ AUD 0.1 ضعيف جداً بعد بيانات وظائف سيئة (CryptoRank)؛ GBP عند 0 صحيح (لا أخبار حقيقية، عناوين رياضية فقط)؛ JPY 0.3 على تدخل Bessent لكن بدون تفاصيل صعب رفعه.
+
+**Gold & Oil Trader:**
+الذهب 4603 راكد 12 ساعة قرب ATH؛ bias 0 صحيح (لا زخم، إيران تهدأ)؛ النفط 87.30/94.18 ينخفض ببطء، bias -0.2 معقول؛ Citi ترفع توقعات برنت لكن تقول 150$ فقط إذا أُغلق هرمز (EnergyNow) – لم يُغلق، فلا صدمة.
+
+**Equity / Risk-Sentiment Desk:**
+US500 عند 7677 ثابت؛ bias -0.2 على ارتفاع العوائد منطقي لكن Forbes تقول "ليست أزمة بعد"؛ GER40 عند 26106 قوي، bias 0.2 صحيح على PMI؛ نهاية أسبوع، سيولة ضعيفة، لا محفزات – الوضع الحالي يستمر.
+
+**Risk Manager:**
+لا أحداث 48 ساعة، لا خطر فوري؛ SHOCK خسر -1.11$ على US500 (درس يقول scalping في فراغ الأحداث)؛ BREAKOUT خسر مرتين قبل بيانات لكنه مستقل؛ allow_books=ALL صحيح، risk_mult 1.0 آمن؛ نهاية أسبوع = حذر من الفجوات لكن لا داعي لـhalt.
+
+**Market Historian:**
+نهايات الأسبوع في أغسطس: سيولة ضعيفة، اختراقات كاذبة، تحركات بدون متابعة؛ الذهب عند ATH راكد 12 ساعة يشبه يوليو 2020 (ركد 18 ساعة ثم قفز 2% يوم الاثنين)؛ CAD على تعريفات ترامب: 2018 NAFTA كان USDCAD +1.5% في أسبوع، الآن السعر ثابت = السوق يتجاهل أو ينتظر؛ حرب تجارية كندا تاريخياً تحتاج أسبوع لتتضح.
+
+**Chairman:**
+90 دقيقة بدون تغيير، لا بيانات 48 ساعة، نهاية أسبوع؛ كل التوجهات صحيحة لكن ضعيفة (conf 0.4)؛ لا داعي لتغيير أي رقم؛ risk_mode=normal مع risk_mult 1.0 يبقى؛ allow_books=ALL؛ نبقى هادئين ونراقب.
+
+---
+
+## Psyche
+
+**Awareness:** fired=yes — قارنت آخر 8 قرارات: كل التوجهات ثابتة منذ 90 دقيقة، الأسعار ثابتة (XAU 4603، CAD 1.3767، USDJPY 158.98)؛ لا انقلاب، لا عناد؛ الاستقرار صحيح لأن لا أخبار جديدة؛ لكن conf 0.4 منخفض 5 ساعات – هل نحن خاملون أم حذرون؟ الجواب: حذرون بحق (نهاية أسبوع).
+
+**Greed:** fired=no — لا ثقة عالية (conf 0.4)، التوجهات متفرقة (EUR/JPY موجب، CAD/OIL/indices سالب)، prefer_symbols=none؛ لا علامات طمع.
+
+**Fear:** fired=no — risk_mode=normal منذ 8 ساعات، لا رد فعل زائد على عناوين (إيران/كندا قديمة)، لا انهيار توجهات؛ هادئون بحق.
+
+**Prudence:** fired=yes — كل توجه |bias|>=0.3 له مصدران (EUR على PMI، JPY على Bessent، CAD على تعريفات، OIL على تهدئة إيران)؛ Market Historian أعطى تشابهات؛ لكن conf 0.4 يعكس ضعف الأدلة الجديدة – صحيح.
+
+**Intuition:** fired=no — لا حدس قوي؛ السوق ينتظر، نحن ننتظر.
+
+**Mental state:** calm — لا طمع، لا خوف، لا تشتت؛ مركزون على الانتظار.
+
+---
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=1.0
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=0.0
+bias_JPY=0.3
+bias_AUD=0.1
+bias_NZD=0.0
+bias_CAD=-0.4
+bias_CHF=0.0
+bias_XAU=0.0
+bias_XAG=0.0
+bias_OIL=-0.2
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=0.2
+conf=0.4
+allow_books=ALL
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=All biases unchanged 105min; weekend thin liquidity, no catalysts 48h; CAD weak on tariffs but price static; XAU stalled 12h near ATH; normal 1.0x
+summary_ar=كل التوجهات ثابتة 105 دقيقة؛ سيولة ضعيفة نهاية أسبوع، لا محفزات 48 ساعة؛ الكندي ضعيف على التعريفات لكن السعر ثابت؛ الذهب راكد 12 ساعة قرب ATH؛ عادي 1.0x
 mind=calm
 psyche_flags=awareness,prudence
 intuition=none
