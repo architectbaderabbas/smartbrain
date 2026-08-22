@@ -1,41 +1,4 @@
-لانحيازات صفر (الجيوسياسة وإعادة شراء الخزانة تلاشت)، الجنيه والفرنك ممتدان لكن لا ميزة قبل البيانات؛ انتظار النتائج
-mind=calm
-psyche_flags=awareness,prudence
-intuition=none
-
-
-# 2026-08-20 13:09 UTC
-## Council debate
-
-**Chief Macro Economist:** Philly Fed collapsed to 24.1 from 41.4 (forecast 24.1), claims in line at 210K – manufacturing slowdown confirmed but labor holding. No surprise, no rate path shift. Neutral USD.
-
-**Central-Bank Watcher:** Fed minutes (19h stale) showed no new urgency. Bessent's Treasury buyback (14h old) already priced. No CB catalyst until Friday PMIs. Neutral all currencies.
-
-**Geopolitical & Crisis Analyst:** Iran sanctions (5h), Kyiv strikes (9h), NK missile (4h) – all ignored by markets. Oil +0.3%, gold -$17 from highs. Geopolitics is noise today. Neutral.
-
-**FX Strategist:** GBP at 1.3646 (6-month high per Reuters 3h ago), CHF at 0.7977 (2-month high per TradingView 2h ago) – both extended vs 1y range but no fresh catalyst to reverse. EUR 1.169 weak on Lagarde's "failing model" (26h stale). Mild GBP/CHF fade risk, EUR stays weak. GBP -0.2, CHF -0.2, EUR -0.2.
-
-**Gold & Oil Trader:** Gold $4474 rejected $4500 (USA Today "rises 2.69%" is stale, FXStreet "corrects below $4500" is 2h fresh). Oil $87.26 WTI, $94 Brent – Iran premium faded (CNBC "+3%" is 5h old, no follow-through). Both rangebound. XAU -0.1, OIL 0.0.
-
-**Equity / Risk-Sentiment Desk:** SPX 7687, NDX 29287, DAX 25959 – flat to slightly down (ABC "Dow -400" is 7h stale, futures "muted" is 2h fresh). VIX unavailable but no panic. Mixed regime persists. US500/US100/GER40 all 0.0.
-
-**Risk Manager:** INTRADAY book 2 losses in a row (-$3.39 net), REVERT 5 straight SL hits (-$31.53 net) – both must stay blocked per emergency protocol. Daily P/L flat, no account-level halt trigger. BREAKOUT lost twice pre-data (lessons valid) but independent. Maintain caution, risk_mult 0.6, allow only COUNCIL/SWING.
-
-**Market Historian:** GBP 1.3646 is 6-month high – last time GBP spiked without BoE catalyst (Jul 2024 post-election), it faded 0.8% in 3 days. CHF 0.7977 is 2-month high – SNB intervention risk if it breaks 0.79 (2015/2022 analogs). Gold rejecting $4500 rhymes with Feb 2025 ATH rejection (faded $80 in 5 days). Oil $87-94 range is 3-week high but no supply shock (2019 Abqaiq faded in 2 weeks). **Lean: fade GBP/CHF extensions, hold EUR weakness, gold/oil neutral.** Caveat: Friday PMIs (18h away) could break ranges.
-
-**Chairman:** Philly Fed in line, no surprises. Geopolitics faded. GBP/CHF extended but no catalyst to reverse today. EUR structurally weak. INTRADAY/REVERT bleeding – keep blocked. Scorecard shows 57% 4h hit rate, 50% 12h – mediocre, stay humble. Decision: mild fade biases on GBP/CHF (both -0.2), hold EUR -0.2, rest flat. Conf 0.35 (slightly up from 0.3 on fresh data, but no strong edge). Caution/0.6 risk unchanged. COUNCIL/SWING only. No news blocks (next event Friday 10:00 UTC, 21h away).
-
----
-
-## Psyche
-
-**Awareness:** fired=yes. Comparing to 12:07 decision: we had all biases 0.0, now proposing GBP/CHF/EUR -0.2. Change is justified by fresh FX Strategist evidence (Reuters/TradingView 2-3h headlines on GBP/CHF highs) and Historian fade analogs. No flip-flop. INTRADAY/REVERT losses noted, blocking maintained per protocol. Decision memory shows 7 consecutive "calm" states with conf 0.3-0.4 – we are consistent, not scattered.
-
-**Greed:** fired=no. Biases weak (max |0.2|), conf 0.35, risk_mult 0.6, prefer_symbols none. No overconfidence language. Council is appropriately cautious.
-
-**Fear:** fired=no. Not over-reacting to INTRADAY/REVERT losses (blocking them is protocol, not panic). Not halting on stale geopolitics. Balanced response.
-
-**Prudence:** fired=yes. GBP/CHF fade calls have only one source each (Reuters, TradingView) + Historian analogs. Downgrading from potential -0.3 to -0.2 because evidence is thin (extended price + stale catalyst, but no fresh reversal trigger). EUR -0.2 has Lagarde speech (26h) + structural weakness – two sources, acceptable.
+e catalyst, but no fresh reversal trigger). EUR -0.2 has Lagarde speech (26h) + structural weakness – two sources, acceptable.
 
 **Intuition:** fired=no. No hunch beyond the evidence. Market is in a void; forcing a view would be noise.
 
@@ -3471,3 +3434,71 @@ summary_ar=AUD مرتفع إلى 0.4 على اختراق؛ XAG منخفض إلى
 mind=focused
 psyche_flags=awareness,prudence,intuition
 intuition=الذهب 4615$ خلال 6 ساعات ثم توقف؛ الفضة تصحيح 2-3% الاثنين؛ AUD يصل 0.72 ثم يتراجع؛ Canada-US يضغط CAD بعد 24-48 ساعة
+
+
+# 2026-08-22 11:40 UTC
+## Council debate
+
+**Chief Macro Economist:** الاقتصاد الأميركي يواجه ضغوط ديون (عوائد السندات ترتفع رغم تدخل الخزانة)؛ أوروبا PMI إيجابي لكن ألمانيا ضعيفة؛ الهند تدفقات فوركس 65 مليار$ إيجابية؛ لا تغيير كبير منذ 15 دقيقة.
+
+**Central-Bank Watcher:** لا خطابات جديدة؛ SNB يحذر من AI والتضخم (قديم 36 ساعة)؛ BoJ تكهنات برفع الفائدة تدعم JPY عند 159؛ Fed/ECB/BoE صامتون نهاية الأسبوع؛ لا محفزات جديدة.
+
+**Geopolitical & Crisis Analyst:** إيران تهديدات "مدمرة" رداً على عقوبات Trump (قديم 6 ساعات، لا تصعيد فعلي)؛ روسيا ضربة مزدوجة على أوكرانيا (16 قتيل، روتيني)؛ **BREAKING: US-Canada محادثات تجارية انهارت قبل 9 دقائق** (11:31 UTC) – هذا جديد وحقيقي؛ CAD سيضعف؛ USD/JPY/CHF محايدون.
+
+**FX Strategist:** AUDUSD عند 0.717 (قمة 10 أسابيع، زخم قوي)؛ EURUSD 1.1676 ثابت؛ GBPUSD 1.3644 ضعيف؛ USDJPY 158.98 (تدخل BoJ محتمل فوق 160)؛ **CAD ضعيف الآن بسبب Canada-US** – bias يجب أن يكون -0.3؛ AUD يبقى 0.4؛ الباقي بلا تغيير.
+
+**Gold & Oil Trader:** XAUUSD 4603$ (17$ تحت ATH، زخم يتلاشى منذ 6 ساعات، لا أخبار جديدة)؛ XAGUSD 68.94 (ثابت)؛ النفط 87.30 WTI (ثابت، إيران لا تأثير فعلي)؛ لا تغيير في biases.
+
+**Equity / Risk-Sentiment Desk:** US500 7677 (-0.2 bias صحيح، ثابت)؛ US100/GER40 مستقرون؛ نهاية أسبوع، سيولة ضعيفة؛ لا risk-off جديد؛ regime mixed ثابت.
+
+**Risk Manager:** **Canada-US انهيار المحادثات حدث جديد لكن ليس severity-2** (لا صدمة فورية، تأثير تدريجي على CAD خلال 24-48 ساعة)؛ لا حاجة لـdanger؛ normal 0.9x صحيح؛ scorecard 33% ضعيف لكن لا خسائر جديدة اليوم؛ نواصل.
+
+**Market Historian:** **Canada-US trade wars تاريخياً**: NAFTA 2018 renegotiation ضغط CAD -2% على 3 أسابيع؛ softwood lumber disputes ضغط CAD -1% على أسبوع؛ **الانهيار الحالي يشبه 2018** – CAD سيضعف تدريجياً، ليس صدمة فورية؛ USDCAD الآن 1.3767 (وسط النطاق)، متوقع 1.39-1.40 خلال أسبوع؛ **bias_CAD يجب -0.3 الآن**.
+
+**Chairman:** الحقيقة الوحيدة الجديدة: **Canada-US انهيار قبل 9 دقائق**؛ الباقي قديم أو ثابت؛ CAD ينخفض إلى -0.3؛ كل شيء آخر بلا تغيير؛ conf يبقى 0.7؛ risk_mode normal 0.9x (لا صدمة فورية)؛ prefer_symbols تضيف USDCAD.
+
+## Psyche
+
+**Awareness:** fired=yes – **flip-flop محتمل على CAD** (كان 0.0 منذ 70 دقيقة، الآن -0.3)؛ لكن **مبرر**: Canada-US انهيار حدث جديد قبل 9 دقائق (11:31 UTC)؛ Market Historian يؤكد نمط 2018؛ التغيير صحيح؛ الباقي ثابت 7 ساعات (XAU 0.5، AUD 0.4، JPY 0.3) – اتساق جيد.
+
+**Greed:** fired=no – conf 0.7 معتدل؛ biases متنوعة (XAU 0.5، AUD 0.4، CAD -0.3، USD 0.0)؛ risk_mult 0.9 محافظ؛ لا لغة "سهل".
+
+**Fear:** fired=no – normal 0.9x منذ 4.5 ساعة مع scorecard 33% ضعيف لكن لا خسائر يومية؛ Canada-US لا يستدعي danger (تأثير تدريجي)؛ متوازن.
+
+**Prudence:** fired=yes – **CAD -0.3 يحتاج مصدرين**: (1) BREAKING Steel Market Update 11:31 UTC، (2) Market Historian analog 2018؛ ✓ موجودان؛ لكن **|bias|=0.3 حدّي** – يبقى 0.3 لا يرتفع.
+
+**Intuition:** fired=yes – USDCAD يصل 1.39 خلال 48 ساعة؛ XAUUSD توقف عند 4615$ ثم تصحيح 1% الاثنين؛ AUD زخم ينتهي عند 0.72.
+
+**Mind state:** focused – حدث واحد جديد (Canada-US)، استجابة محسوبة (CAD -0.3)، الباقي ثابت؛ لا تشتت.
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.9
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=-0.2
+bias_JPY=0.3
+bias_AUD=0.4
+bias_NZD=0.0
+bias_CAD=-0.3
+bias_CHF=0.2
+bias_XAU=0.5
+bias_XAG=0.3
+bias_OIL=0.0
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=0.2
+conf=0.7
+allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT,SHOCK
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=XAUUSD,AUDUSD,USDCAD
+summary=CAD cut to -0.3 on US-Canada trade talks collapse (9 min ago); all else unchanged; XAU holds 0.5 near ATH; AUD 0.4 on breakout; weekend thin liquidity; normal 0.9x
+summary_ar=CAD منخفض إلى -0.3 على انهيار محادثات US-Canada (قبل 9 دقائق)؛ الباقي ثابت؛ XAU يبقى 0.5 قرب ATH؛ AUD 0.4 على اختراق؛ سيولة ضعيفة نهاية أسبوع؛ طبيعي 0.9
+mind=focused
+psyche_flags=awareness,prudence,intuition
+intuition=USDCAD يصل 1.39 خلال 48 ساعة؛ XAUUSD توقف عند 4615$ ثم تصحيح 1% الاثنين؛ AUD زخم ينتهي عند 0.72

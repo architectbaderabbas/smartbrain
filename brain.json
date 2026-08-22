@@ -1,6 +1,6 @@
 {
- "ts": 1787397913,
- "council_ts": 1787394732,
+ "ts": 1787398810,
+ "council_ts": 1787398810,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.9,
@@ -12,7 +12,7 @@
   "bias_JPY": 0.3,
   "bias_AUD": 0.4,
   "bias_NZD": 0.0,
-  "bias_CAD": 0.0,
+  "bias_CAD": -0.3,
   "bias_CHF": 0.2,
   "bias_XAU": 0.5,
   "bias_XAG": 0.3,
@@ -25,16 +25,15 @@
   "news_block": "none",
   "block_symbols": "none",
   "shock": "none",
-  "prefer_symbols": "XAUUSD,AUDUSD",
+  "prefer_symbols": "XAUUSD,AUDUSD,USDCAD",
   "mind": "focused",
   "psyche_flags": "awareness,prudence,intuition",
-  "intuition": "الذهب 4615$ خلال 6 ساعات ثم توقف؛ الفضة تصحيح 2-3% الاثنين؛ AUD يصل 0.72 ثم يتراجع؛ Canada-US يضغط CAD بعد 24-48 ساعة",
-  "summary": "AUD raised to 0.4 on breakout; XAG cut to 0.3 on fading momentum; CAD cut to 0.0 on US-Canada trade war; all else unchanged; weekend thin liquidity; normal 0.9x",
-  "summary_ar": "AUD مرتفع إلى 0.4 على اختراق؛ XAG منخفض إلى 0.3 على زخم يتلاشى؛ CAD منخفض إلى 0.0 على حرب تجارية US-Canada؛ الباقي ثابت؛ سيولة ضعيفة نهاية أسبوع؛ طبيعي 0.9",
+  "intuition": "USDCAD يصل 1.39 خلال 48 ساعة؛ XAUUSD توقف عند 4615$ ثم تصحيح 1% الاثنين؛ AUD زخم ينتهي عند 0.72",
+  "summary": "CAD cut to -0.3 on US-Canada trade talks collapse (9 min ago); all else unchanged; XAU holds 0.5 near ATH; AUD 0.4 on breakout; weekend thin liquidity; normal 0.9x",
+  "summary_ar": "CAD منخفض إلى -0.3 على انهيار محادثات US-Canada (قبل 9 دقائق)؛ الباقي ثابت؛ XAU يبقى 0.5 قرب ATH؛ AUD 0.4 على اختراق؛ سيولة ضعيفة نهاية أسبوع؛ طبيعي 0.9",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787197076,
