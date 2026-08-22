@@ -1,5 +1,5 @@
-ts=1787398810
-generated=2026-08-22 11:40 UTC
+ts=1787398898
+generated=2026-08-22 11:41 UTC (watchman heartbeat; council 1 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.9
@@ -31,3 +31,4 @@ mind=focused
 psyche_flags=awareness,prudence,intuition
 intuition=USDCAD يصل 1.39 خلال 48 ساعة؛ XAUUSD توقف عند 4615$ ثم تصحيح 1% الاثنين؛ AUD زخم ينتهي عند 0.72
 news_events=none
+watchman=quiet (sev0)
