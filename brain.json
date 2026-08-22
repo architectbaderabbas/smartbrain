@@ -1,11 +1,11 @@
 {
- "ts": 1787377210,
- "council_ts": 1787373622,
+ "ts": 1787377552,
+ "council_ts": 1787377552,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.85,
   "regime": "mixed",
-  "conf": 0.7,
+  "conf": 0.65,
   "bias_USD": 0.0,
   "bias_EUR": 0.3,
   "bias_GBP": -0.2,
@@ -27,14 +27,13 @@
   "shock": "none",
   "prefer_symbols": "XAUUSD,EURUSD,USDJPY",
   "mind": "focused",
-  "psyche_flags": "awareness,fear,prudence",
-  "intuition": "الذهب سيختبر 4620$ خلال 12 ساعة ثم يتصحح - الارتفاع ممتد، نهاية الأسبوع تجلب جني أرباح",
-  "summary": "Previous alert was false (no US-Canada tariff collapse); all biases accurate; gold near ATH on US debt fears; weekend thin liquidity; danger downgraded to caution",
-  "summary_ar": "الإنذار السابق كان كاذباً (لا انهيار تعريفات أميركا-كندا)؛ جميع التوجهات دقيقة؛ الذهب قرب ATH بسبب مخاوف الديون؛ سيولة ضعيفة نهاية الأسبوع؛ danger يُخفّض إلى caution",
+  "psyche_flags": "awareness,fear,prudence,intuition",
+  "intuition": "الذهب سيلمس 4620$ ثم يتصحح 1-2% - نهاية الأسبوع تجلب جني أرباح",
+  "summary": "All 8h biases accurate; gold 17$ from ATH on US debt fears; weekend thin liquidity; conf cut to 0.65 on weak scorecard; SHOCK kept (Fear overruled)",
+  "summary_ar": "جميع التوجهات دقيقة منذ 8 ساعات؛ الذهب 17$ من ATH بسبب مخاوف الديون؛ سيولة ضعيفة نهاية الأسبوع؛ conf مُخفّض لـ0.65 بسبب scorecard ضعيف؛ SHOCK مُبقى (Fear مُلغى)",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787178317,
