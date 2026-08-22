@@ -1,6 +1,6 @@
 {
- "ts": 1787441323,
- "council_ts": 1787438530,
+ "ts": 1787442130,
+ "council_ts": 1787442130,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 1.0,
@@ -29,12 +29,11 @@
   "mind": "calm",
   "psyche_flags": "awareness,prudence",
   "intuition": "none",
-  "summary": "All biases unchanged 105min; weekend thin liquidity, no catalysts 48h; CAD weak on tariffs but price static; XAU stalled 12h near ATH; normal 1.0x",
-  "summary_ar": "كل التوجهات ثابتة 105 دقيقة؛ سيولة ضعيفة نهاية أسبوع، لا محفزات 48 ساعة؛ الكندي ضعيف على التعريفات لكن السعر ثابت؛ الذهب راكد 12 ساعة قرب ATH؛ عادي 1.0x",
+  "summary": "All biases unchanged 120min; weekend thin liquidity, no catalysts 48h; prices static (XAU/CAD/JPY flat); normal 1.0x",
+  "summary_ar": "كل التوجهات ثابتة 120 دقيقة؛ سيولة ضعيفة نهاية أسبوع، لا محفزات 48 ساعة؛ الأسعار ثابتة (الذهب/الكندي/الين)؛ عادي 1.0x",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787234806,

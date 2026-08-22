@@ -1,42 +1,4 @@
-ses to -0.2 on EUR/GBP/CHF** (extended + 20h stall + historical exhaustion pattern), **fade OIL -0.2** (sanctions ≠ supply shock), **fade equities -0.2** (bond stress), **upgrade AUD +0.2** (RBA hawkish overrides risk-off for now), **downgrade XAU -0.2** (failed breakout confirmed). Risk_mult hold 0.6 (no emergency, but stress persists). Allow_books: keep COUNCIL/SWING/POSITION (INTRADAY banned on losses, REVERT banned on 0% win rate).
-
----
-
-## Psyche
-
-**Awareness:** fired=yes. Comparing to 19:59 decision: we had all biases at 0.0/-0.1 with conf 0.2, now proposing -0.2 biases and conf 0.4. **New facts justify this:** bond stress confirmed worsening (fresh headlines <3h), RBA hawkish (new), equities falling (new). **Not flip-flopping; this is evidence-driven update.** SCORECARD shows 66% 4h hit rate, 71% 24h – our caution has been correct. Prior "calm" mind with scattered episode (18:56 NK overreaction) = we've been stable. Approve the update.
-
-**Greed:** fired=no. Confidence rising to 0.4 is modest, biases capped at ±0.2, risk_mult unchanged at 0.6. No "easy money" language. **No greed detected.**
-
-**Fear:** fired=no. Bond stress is real (Severity-1, not Severity-3), caution mode is appropriate (not halt). Biases are -0.2 fades, not panic. The 18:56 NK overreaction was corrected. **No fear detected; this is measured response to confirmed stress.**
-
-**Prudence:** fired=yes. Strongest calls are -0.2 biases (EUR/GBP/CHF/OIL/equities). **Evidence check:** EUR/GBP/CHF = 20h stall at multi-month highs (confirmed) + Historian's 2018 analog (two sources). OIL = sanctions premium without supply hit (confirmed) + Historian's Abqaiq analog (two sources). Equities = bond stress + Walmart miss (confirmed) + Historian's gilt crisis analog (two sources). **All pass the two-source + analog test.** AUD +0.2 has RBA hawkish (one source) but no analog – **downgrade to +0.1**. Approve with AUD adjustment.
-
-**Intuition:** The bond market is **screaming that the Treasury has lost control**. This is not a one-day story; it's a **regime shift** (intervention failed = credibility gone). If PMIs disappoint tomorrow, EUR/GBP will finally break down and USD will paradoxically rally (flight to liquidity, not quality). But if PMIs beat, the USD weakness extends another leg. **The next 12 hours are the hinge.** (Chairman: noted but no numeric change; we're already positioned for the hinge with news_blocks and low conviction.)
-
----
-
-**Mental state: focused** (clear thesis: bond stress + extended FX + PMI catalyst ahead; evidence-based biases; no emotional swings).
-
----
-
-## DIRECTIVES
-
-risk_mode=caution
-risk_mult=0.6
-regime=risk_off
-bias_USD=0.0
-bias_EUR=-0.2
-bias_GBP=-0.2
-bias_JPY=0.0
-bias_AUD=0.1
-bias_NZD=0.0
-bias_CAD=-0.1
-bias_CHF=-0.2
-bias_XAU=-0.2
-bias_XAG=-0.1
-bias_OIL=-0.2
-bias_US500=-0.2
+-0.2
 bias_US100=-0.2
 bias_US30=-0.2
 bias_GER40=-0.1
@@ -3746,6 +3708,76 @@ shock=none
 prefer_symbols=none
 summary=All biases unchanged 105min; weekend thin liquidity, no catalysts 48h; CAD weak on tariffs but price static; XAU stalled 12h near ATH; normal 1.0x
 summary_ar=كل التوجهات ثابتة 105 دقيقة؛ سيولة ضعيفة نهاية أسبوع، لا محفزات 48 ساعة؛ الكندي ضعيف على التعريفات لكن السعر ثابت؛ الذهب راكد 12 ساعة قرب ATH؛ عادي 1.0x
+mind=calm
+psyche_flags=awareness,prudence
+intuition=none
+
+
+# 2026-08-22 23:42 UTC
+## Council debate
+
+**Chief Macro Economist:** لا جديد منذ 60 دقيقة؛ عوائد الخزانة مرتفعة (عناوين Forbes/Yahoo) لكن بدون أرقام جديدة؛ نهاية أسبوع، لا بيانات 48 ساعة؛ الدورة ثابتة؛ لا تغيير.
+
+**Central-Bank Watcher:** لا خطابات، لا مفاجآت؛ Bessent تدخّل الين (عناوين CryptoRank/Investing) قديم 24 ساعة؛ USDJPY عند 158.98 ثابت؛ JPY bias 0.3 صحيح؛ لا تغيير.
+
+**Geopolitical & Crisis Analyst:** روسيا-أوكرانيا ضربات متبادلة (NBC 22:46) لكن روتينية؛ إيران تهديدات (Anadolu 20:24) بدون تصعيد فعلي؛ كندا-أمريكا تعريفات (MarketWatch/BBC) قديمة 3 ساعات، السعر لم يتحرك؛ لا صدمة جديدة.
+
+**FX Strategist:** USDCAD 1.3767 ثابت رغم عناوين التعريفات؛ CAD bias -0.4 صحيح لكن السوق لا يتفاعل؛ EURUSD 1.1676 ثابت؛ USDJPY 158.98 ثابت؛ نهاية أسبوع، لا حركة؛ لا تغيير.
+
+**Gold & Oil Trader:** XAU 4603 ثابت 13 ساعة قرب ATH؛ bias 0.0 صحيح (راكد)؛ OIL 87.3 ثابت؛ عناوين Citi $150 إذا Hormuz (EnergyNow 13:15) قديمة، لا تصعيد فعلي؛ bias -0.2 صحيح؛ لا تغيير.
+
+**Equity / Risk-Sentiment Desk:** US500 7677 ثابت؛ عناوين Nvidia أرباح الأسبوع القادم (IBD 17:05) قديمة؛ نهاية أسبوع، لا تداول؛ bias -0.2 صحيح؛ لا تغيير.
+
+**Risk Manager:** لا أحداث 48 ساعة؛ سيولة ضعيفة نهاية أسبوع؛ حساب مستقر (457$، لا مراكز)؛ SHOCK خسر 1.11$ آخر صفقة لكن ضمن التباين؛ risk_mode=normal صحيح؛ لا خطر.
+
+**Market Historian:** الأسعار ثابتة 60 دقيقة؛ XAU عند 4603 (قرب ATH) راكد 13 ساعة = نمط "قمة نهاية أسبوع" (آخر 5 مرات: تصحيح 0.5-1% الاثنين 70%)؛ USDCAD ثابت رغم تعريفات = السوق يتجاهل (مثل 2018 NAFTA ضوضاء)؛ لا حركة = لا تغيير.
+
+**Chairman:** لا حقائق جديدة 60 دقيقة؛ كل الأسعار ثابتة؛ العناوين قديمة أو روتينية؛ نهاية أسبوع؛ **قرار: كل التوجهات ثابتة؛ conf 0.4؛ normal 1.0x؛ لا تغيير.**
+
+---
+
+## Psyche
+
+**Awareness:** fired=yes · قارنت آخر 8 قرارات: ثابتة 105 دقيقة؛ لا انقلاب، لا عناد؛ الأسعار تؤكد (XAU/CAD/JPY ثابتة)؛ نظيف.
+
+**Greed:** fired=no · conf 0.4 منخفض؛ معظم biases صفر أو ضعيفة؛ لا لغة "فرصة سهلة"؛ آمن.
+
+**Fear:** fired=no · لا رد فعل زائد؛ SHOCK خسر 1.11$ لكن المجلس لم يذعر؛ متوازن.
+
+**Prudence:** fired=yes · لا توجهات قوية (|bias|<0.5)؛ كل شيء ضعيف أو صفر؛ مناسب لنهاية أسبوع بلا محفزات.
+
+**Intuition:** fired=no · لا حدس؛ السوق نائم.
+
+---
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=1.0
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=0.0
+bias_JPY=0.3
+bias_AUD=0.1
+bias_NZD=0.0
+bias_CAD=-0.4
+bias_CHF=0.0
+bias_XAU=0.0
+bias_XAG=0.0
+bias_OIL=-0.2
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=0.2
+conf=0.4
+allow_books=ALL
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=All biases unchanged 120min; weekend thin liquidity, no catalysts 48h; prices static (XAU/CAD/JPY flat); normal 1.0x
+summary_ar=كل التوجهات ثابتة 120 دقيقة؛ سيولة ضعيفة نهاية أسبوع، لا محفزات 48 ساعة؛ الأسعار ثابتة (الذهب/الكندي/الين)؛ عادي 1.0x
 mind=calm
 psyche_flags=awareness,prudence
 intuition=none
