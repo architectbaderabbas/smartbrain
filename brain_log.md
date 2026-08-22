@@ -1,70 +1,4 @@
-which is appropriate. The council is restoring balance, not collapsing into paralysis. REVERT's removal is prudent (5 SLs), not panic. Fear detector acknowledges the prior over-reaction but approves the correction.
-
-**Prudence (fired=yes):** All biases ≤0.1 in absolute value, conf 0.3 – no strong calls, so no need for two sources. The EUR -0.1 bias is supported by ECB competitiveness warnings (19 Aug) and drought headlines (19 Aug) – two independent sources, plus it's a mild call. KOSPI shock cancellation is correct (no relevance to our assets). Prudence approves.
-
-**Intuition (fired=yes):** The Thursday PMI setup is real – if German services miss 50.1 or French data disappoints, EUR will break support and safe-havens will bid. But we're 28 hours early; forcing trades now in the deadzone will bleed. The hunch: *by Wednesday 18:00 UTC, if EUR hasn't rallied, the breakdown odds rise to 60% and we should pre-position CHF/JPY longs and EUR shorts with tight stops.*
-
----
-
-## DIRECTIVES
-
-risk_mode=caution
-risk_mult=0.6
-regime=mixed
-bias_USD=0.0
-bias_EUR=-0.1
-bias_GBP=0.0
-bias_JPY=0.0
-bias_AUD=0.0
-bias_NZD=0.0
-bias_CAD=0.0
-bias_CHF=0.0
-bias_XAU=0.0
-bias_XAG=0.0
-bias_OIL=0.0
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.3
-allow_books=COUNCIL,SWING
-news_block=none
-block_symbols=none
-shock=none
-prefer_symbols=none
-summary=Catalyst void: all themes stale (Treasury buyback 9h, tariffs 24h), REVERT removed (5-loss streak), next driver Thursday PMIs (28.5h); biases flat except EUR -0.1 on structural drag
-summary_ar=فراغ المحفّزات: كل المواضيع قديمة، REVERT مُزال (5 خسائر متتالية)، المحرّك التالي: بيانات PMI الخميس (28.5 ساعة)؛ الانحيازات صفر إلا اليورو -0.1
-mind=calm
-psyche_flags=awareness,fear,prudence,intuition
-intuition=By Wednesday 18:00 UTC, if EUR hasn't rallied, Thursday PMI breakdown odds hit 60% – pre-position CHF/JPY longs and EUR shorts with tight stops then, not now in the deadzone.
-
-
-# 2026-08-20 04:43 UTC
-## Council debate
-
-**Chief Macro Economist:** Catalyst void persists. Treasury buyback theme now 10 hours stale, no fresh data until Thursday PMIs (27.5h away). Global growth picture unchanged: Europe weak (Lagarde warnings), US mixed, Asia soft (AUD unemployment 4.5% vs 4.4%). Zero inflation/rate catalysts in next 24h. Neutral all currencies.
-
-**Central-Bank Watcher:** Fed/ECB/BoE all in blackout or silent. FOMC minutes (19 Aug 18:00) already digested – no new guidance. Next Fed speakers days away. BoJ quiet despite USDJPY 158.5 (intervention zone but no action). No CB catalyst until next week. Neutral.
-
-**Geopolitical & Crisis Analyst:** Kyiv attack (4h ago) produced no escalation – routine strike, markets ignored it. UAE-Iran trade suspension (2h old) is diplomatic theater, not supply shock (oil flat at $85.19). No acute crisis. Chronic Iran war backdrop supports oil floor but no fresh spike catalyst. Oil 0.0, gold 0.0.
-
-**FX Strategist:** All pairs range-bound in Asian deadzone. EURUSD 1.1677 (unchanged 12h), USDJPY 158.5 (flat), GBPUSD 1.3612 (drifting). No momentum anywhere. EUR structural weakness (Lagarde, drought, competitiveness) persists but needs a trigger – Thursday PMIs are the test. Maintain EUR -0.1, rest 0.0.
-
-**Gold & Oil Trader:** Gold $4487 (-$34 from $4521 peak 6h ago), fading Treasury buyback bid as theme ages. No safe-haven demand (geopolitics non-event). Silver $66.87 tracking gold. Oil $85.19 (WTI) / $92.27 (Brent) – Iran premium stable, no supply shock despite UAE headlines. All 0.0 until catalyst.
-
-**Equity / Risk-Sentiment Desk:** SPX 7728, NDX 29553, DAX 26090 – all flat overnight, no conviction. Risk-on intact but stale (no fresh driver). VIX unavailable but implied vol low (tight ranges). Regime is mixed-to-risk-on by inertia, not conviction. Indices 0.0.
-
-**Risk Manager:** Account $463, day P/L -$0.45 (flat), no open positions. REVERT removed yesterday (5-loss streak, -$31.53). SHOCK bled yesterday (6/8 SL, -$1.35) but won one today (+$1.52 SWING). Books healthy except REVERT (correctly sidelined). Caution justified: 27h until next catalyst, thin Asian liquidity, no edge. Keep allow_books=COUNCIL,SWING, risk_mult=0.6.
-
-**Market Historian:** **Analogous setup: August 2023 Jackson Hole wait (3 days before Powell speech) – all pairs ranged ±0.3%, gold drifted -$20, indices flat; breakout came only on the event.** Current: 27.5h until Thursday PMIs (GBP 06:30, EUR 08:30, USD 12:30 UTC). **Playbook says: do not invent moves in the void.** EUR -0.1 is valid (structural drag confirmed by Lagarde, drought, current account data) but won't accelerate until PMI miss. Gold fading $4521→$4487 matches historical post-spike decay (Treasury buyback = 1-day catalyst, not trend). Oil $85 with Iran premium = classic "wait-and-see" (2019 Tanker attacks analog: oil spiked then ranged for weeks). **Lean: hold all biases at 0.0 except EUR -0.1; raise conf only when PMI data lands.**
-
-**Chairman:** Unanimous consensus: catalyst void, 27.5h until Thursday PMIs. EUR -0.1 supported by three sources (Lagarde structural warnings, drought/economy drag, current account) and Historian analog. All other biases 0.0 – no evidence for moves. REVERT stays removed (5-loss streak). SWING won today (+$1.52), keep it. Risk_mult 0.6, caution mode appropriate. No changes needed – previous directives were correct and prices confirm (all flat). Conf 0.3 (low conviction in void). Proceed.
-
----
-
-## Psyche
-
-**Awareness:** fired=no. Comparing previous directives (03:38 UTC) with current prices: all biases 0.0 were correct (EURUSD/USDJPY/gold/oil unchanged), EUR -0.1 holding (EURUSD still 1.1677). REVERT removal justified (was bleeding). No flip-flopping, no stubbornness. Decision memory shows consistent downgrade as themes aged – textbook discipline. Scorecard shows 55% hit rate on XAU/CHF (modest) – supports low conf. Clean.
+moval justified (was bleeding). No flip-flopping, no stubbornness. Decision memory shows consistent downgrade as themes aged – textbook discipline. Scorecard shows 55% hit rate on XAU/CHF (modest) – supports low conf. Clean.
 
 **Greed:** fired=no. Conf=0.3 (low), all biases ≤0.1, prefer_symbols=none, language is "void/stale/wait" – zero greed signals. Risk_mult=0.6 unchanged (appropriate). No action needed.
 
@@ -3325,4 +3259,70 @@ summary=All 8h biases accurate; gold holds near ATH on US debt fears; JPY/EUR fi
 summary_ar=كل التوجهات دقيقة منذ 8 ساعات؛ الذهب قرب ATH على مخاوف الديون؛ الين واليورو أقوياء؛ الجنيه يتراجع؛ النفط يفقد علاوة إيران (خُفض إلى 0.1)؛ توحيد نهاية الأسبوع
 mind=focused
 psyche_flags=prudence
+intuition=none
+
+
+# 2026-08-22 02:10 UTC
+## Council debate
+
+**Chief Macro Economist:** العنوان "تهديد عسكري على سوق السندات" كان خطأ فادح في القراءة – Trump تكلّم قبل 3 ساعات بدون أي تصريح عن السندات أو تدخّل عسكري؛ الـshock directive كان وهمياً بالكامل. عوائد السندات ارتفعت لأن برنامج Bessent للشراء فشل (yields gave back all gains)، ليس بسبب تهديد. الاقتصاد الأميركي مستقر (PMI resilient)، منطقة اليورو تنمو بأسرع وتيرة منذ نوفمبر، بريطانيا تعطي Burnham دفعة مفاجئة. لا ركود، لا أزمة، فقط قلق ديون طبيعي.
+
+**Central-Bank Watcher:** لا خطابات مجدولة، لا مفاجآت. الـFed صامت، الـECB نشر توقعات المستهلكين فقط (بيانات روتينية)، الـBoJ يبقى متشدداً (hawkish bets تدعم الين)، الـSNB قال Tschudin إنهم مستعدون للسلبية إذا لزم الأمر (dovish طويل المدى لكن لا تأثير فوري). لا سبب لـdanger mode – آخر حدث tier-1 كان قبل 14 ساعة.
+
+**Geopolitical & Crisis Analyst:** الحرب مع إيران مستمرة (750 جريح أميركي رقم تراكمي قديم، ليس هجوم جديد)؛ رئيس إيران قال "حان وقت إنهاء الحرب من موقع قوة" (de-escalation signal)، Trump هدّد بعقوبات على شركاء إيران (rhetoric عادي، ليس تصعيد). هجوم سيف في السويد (حادثة محلية، صفر تأثير على الأسواق). لا severity-2 event منذ 24 ساعة – danger mode غير مبرّر.
+
+**FX Strategist:** الدولار في أدنى مستوى منذ 3 أشهر (Reuters headline)؛ اليورو 1.1676 قرب قمة 5 أيام (+0.7%)، الجنيه 1.3644 تراجع قليلاً من 1.365 (-0.04%)، الين 158.98 قوي (BoJ hawkish bets)، الفرنك 0.8013 مستقر (carry traders يتحوّلون إليه من الين)، الأسترالي 0.717 في قمة 10 أسابيع، النيوزيلندي 0.598 مستقر، الكندي 1.3767 قرب قمة 3 أشهر. كل biases الـ8 ساعات الماضية دقيقة (USD=0 صح، JPY=0.3 صح، EUR=0.3 صح، GBP=-0.4 صح قليلاً). لا سبب لتغيير أي شيء.
+
+**Gold & Oil Trader:** الذهب 4603 بعد قمة 4622 أمس (ATH على مخاوف الديون الأميركية + ضعف الدولار)؛ الفضة 68.9 مستقرة. النفط 87.3 / 94.2 (علاوة إيران تتلاشى ببطء كما توقعنا: bias كان 0.3 أمس، خفضناه لـ0.2 ثم 0.1، الآن يجب 0.0 لأن Iran president يريد إنهاء الحرب). الذهب يستحق 0.5 bias (الاتجاه صاعد، لكن عند ATH يحتاج حافز جديد للكسر).
+
+**Equity / Risk-Sentiment Desk:** الأسهم ارتفعت يوم الجمعة لكن خسرت الأسبوع (Reuters: rises on the day but falls for the week)؛ الـS&P 7677 (+0.5% يومياً، -1.2% أسبوعياً)، الـNasdaq 29312 مماثل، الـDAX 26106 (+0.3%). عوائد السندات المرتفعة (Barron's: how high can yields rise before tanking stocks?) تضغط، لكن لا انهيار. Michael Burry يحذّر من فقاعة (مؤشر يقترب من رقم قياسي 150 عام) – حذر طويل المدى، ليس إشارة بيع فورية. bias=-0.2 للمؤشرات الأميركية معقول.
+
+**Risk Manager:** **danger mode غير مبرّر تماماً.** آخر حدث tier-1 قبل 14 ساعة، Trump تكلّم قبل 3 ساعات بدون تأثير، لا أخبار مجدولة لـ48 ساعة القادمة، الـscorecard 24h = 36% (ضعيف لكن ليس كارثي)، الحساب +0$ اليوم (لا خسائر)، SHOCK خسر -1.11$ في صفقة واحدة (ضمن التباين الطبيعي). **القاعدة واضحة:** danger يتطلّب أزمة نشطة أو تقلّب شديد أو حدث severity-2؛ لا شيء من هذا موجود. يجب العودة لـnormal مع risk_mult=0.9 (scorecard ضعيف يمنع 1.0).
+
+**Market Historian:** آخر مرة رأينا "تهديد عسكري وهمي على السندات" = **لم يحدث أبداً** لأنه لم يكن حقيقياً. لكن السياق الحالي يشبه **آب 2011 (تخفيض تصنيف الديون الأميركية):** الذهب قفز لـATH، الدولار ضعف، عوائد السندات ارتفعت أولاً ثم انخفضت؛ الذهب استمر صاعداً 3 أسابيع (+8%)، الأسهم تذبذبت (-7% ثم تعافت). **الفرق:** 2011 كان حدث حقيقي (S&P downgrade)، 2026 مجرد قلق من برنامج Bessent الفاشل. **التحذير:** الذهب عند 4603 = 99th percentile من نطاق السنة؛ الاختراقات لـATH تستمر 55-60% من الوقت، لكن التصحيحات تكون عنيفة (-2...-3% في يوم). bias=0.5 صحيح، لكن لا نرفعه.
+
+**Chairman:** الـshock directive السابق كان **خطأ فادحاً** (Trump لم يهدّد السندات)؛ danger mode **غير مبرّر** (لا أزمة، لا حدث، لا خسائر). كل الـbiases دقيقة لـ8 ساعات؛ الأسواق في عطلة نهاية الأسبوع (سيولة رقيقة، توحيد). **القرار:** normal mode، risk_mult=0.9 (scorecard 36% يمنع 1.0)، كل biases ثابتة إلا OIL=0.0 (علاوة إيران تلاشت)، SHOCK يبقى مسموحاً (خسارة واحدة ليست نمطاً)، لا blocks.
+
+## Psyche
+
+**Awareness:** fired=yes — الـshock السابق "Trump military threat on bonds" كان **هلوسة كاملة** (لا عنوان يؤكده، Trump تكلّم بدون ذكر السندات)؛ danger mode استمر 75 دقيقة بدون سبب، وهذا **flip-flopping عكسي** (المبالغة في رد الفعل ثم التصحيح). الـbiases نفسها كانت دقيقة (scorecard يؤكد)، لكن risk_mode كان خاطئاً. يجب الاعتراف بالخطأ والعودة لـnormal.
+
+**Greed:** fired=no — معظم biases إيجابية (EUR/JPY/CHF/AUD/XAU)، لكن conf=0.8 و risk_mult=0.9 معقولان؛ لا لغة "مال سهل"، لا تفضيل رموز طويل. متوازن.
+
+**Fear:** fired=yes — danger mode بدون تهديد ملموس = رد فعل زائد على عنوان خاطئ؛ هذا خوف من شبح. يجب استعادة التوازن: normal mode مع حذر (0.9 ليس 1.0).
+
+**Prudence:** fired=yes — الـshock السابق لم يكن له مصدران مستقلان ولا تشابه تاريخي (Market Historian قال "لم يحدث أبداً")؛ كان يجب رفضه. الآن كل bias قوي (XAU=0.5) له أساس (US debt fears + weak USD + ATH momentum) ومصادر متعددة. مقبول.
+
+**Intuition:** fired=no — لا حدس هذه الجولة؛ الأسواق واضحة (weekend consolidation، انتظار الأسبوع الجديد).
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.9
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=-0.4
+bias_JPY=0.3
+bias_AUD=0.2
+bias_NZD=0.0
+bias_CAD=0.1
+bias_CHF=0.2
+bias_XAU=0.5
+bias_XAG=0.3
+bias_OIL=0.0
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=0.2
+conf=0.8
+allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT,SHOCK
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=XAUUSD,EURUSD,USDJPY
+summary=Previous shock directive was false alarm; all 8h biases accurate; gold near ATH on US debt fears; weekend consolidation; danger downgraded to normal
+summary_ar=الـshock السابق كان إنذار كاذب؛ كل biases الـ8 ساعات دقيقة؛ الذهب قرب ATH على مخاوف الديون؛ توحيد نهاية الأسبوع؛ danger أُنزل لـnormal
+mind=focused
+psyche_flags=awareness,fear,prudence
 intuition=none

@@ -1,9 +1,9 @@
 {
- "ts": 1787363711,
- "council_ts": 1787363711,
+ "ts": 1787364621,
+ "council_ts": 1787364621,
  "directives": {
-  "risk_mode": "caution",
-  "risk_mult": 1.0,
+  "risk_mode": "normal",
+  "risk_mult": 0.9,
   "regime": "mixed",
   "conf": 0.8,
   "bias_USD": 0.0,
@@ -16,7 +16,7 @@
   "bias_CHF": 0.2,
   "bias_XAU": 0.5,
   "bias_XAG": 0.3,
-  "bias_OIL": 0.1,
+  "bias_OIL": 0.0,
   "bias_US500": -0.2,
   "bias_US100": -0.2,
   "bias_US30": -0.2,
@@ -27,19 +27,14 @@
   "shock": "none",
   "prefer_symbols": "XAUUSD,EURUSD,USDJPY",
   "mind": "focused",
-  "psyche_flags": "prudence",
+  "psyche_flags": "awareness,fear,prudence",
   "intuition": "none",
-  "summary": "All 8h biases accurate; gold holds near ATH on US debt fears; JPY/EUR firm; GBP fades; oil loses Iran premium (bias cut to 0.1); weekend consolidation",
-  "summary_ar": "كل التوجهات دقيقة منذ 8 ساعات؛ الذهب قرب ATH على مخاوف الديون؛ الين واليورو أقوياء؛ الجنيه يتراجع؛ النفط يفقد علاوة إيران (خُفض إلى 0.1)؛ توحيد نهاية الأسبوع",
+  "summary": "Previous shock directive was false alarm; all 8h biases accurate; gold near ATH on US debt fears; weekend consolidation; danger downgraded to normal",
+  "summary_ar": "الـshock السابق كان إنذار كاذب؛ كل biases الـ8 ساعات دقيقة؛ الذهب قرب ATH على مخاوف الديون؛ توحيد نهاية الأسبوع؛ danger أُنزل لـnormal",
   "news_events": "none"
  },
  "error": null,
  "alerts": [
-  {
-   "ts": 1787098314,
-   "what": "KOSPI plunges 4.96% on US semiconductor slump; Asia tech selloff underway",
-   "sev": 2
-  },
   {
    "ts": 1787112715,
    "what": "Trump pauses 50% Canadian tariffs for 3 days; de-escalation signal after tech/geopolitical shock",
@@ -83,6 +78,11 @@
   {
    "ts": 1787344516,
    "what": "750+ US service members wounded in Iran war — major casualty escalation not previously disclosed",
+   "sev": 2
+  },
+  {
+   "ts": 1787364610,
+   "what": "Trump threatens military intervention on US bond market; unprecedented fiscal/monetary policy shock signal",
    "sev": 2
   }
  ]

@@ -650,3 +650,5 @@
 - 2026-08-22 01:40 UTC · heartbeat · quiet (sev0)
 - 2026-08-22 01:46 UTC · heartbeat · quiet (sev0)
 - 2026-08-22 01:55 UTC · FULL COUNCIL triggered: scheduled full council (last 60 min ago)
+- 2026-08-22 02:10 UTC · heartbeat · ALERT sev2: Trump threatens military intervention on US bond market; unprecedented fiscal/monetary policy shock signal -> protocol applied, council convening
+- 2026-08-22 02:10 UTC · FULL COUNCIL triggered: ALERT sev2: Trump threatens military intervention on US bond market; unprecedented fiscal/monetary policy shock signal
