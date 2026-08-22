@@ -1,6 +1,6 @@
 {
- "ts": 1787434167,
- "council_ts": 1787431048,
+ "ts": 1787434930,
+ "council_ts": 1787434930,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 1.0,
@@ -29,12 +29,11 @@
   "mind": "calm",
   "psyche_flags": "awareness,prudence",
   "intuition": "none",
-  "summary": "CAD cut to -0.4 on new Trump tariffs (IBD/Politico); GBP to 0 (stale bias); XAU/OIL/indices unchanged 75min; weekend thin liquidity; normal 1.0x",
-  "summary_ar": "الدولار الكندي إلى -0.4 على تعريفات ترامب الجديدة؛ الجنيه إلى 0 (توجه قديم)؛ الذهب/النفط/المؤشرات بدون تغيير 75 دقيقة؛ سيولة ضعيفة نهاية الأسبوع؛ عادي 1.0x",
+  "summary": "All biases unchanged 90min; CAD weak on Trump tariffs, XAU stalled 11h near ATH, OIL fading war premium; weekend thin liquidity; normal 1.0x",
+  "summary_ar": "كل التوجهات ثابتة 90 دقيقة؛ الكندي ضعيف على تعريفات ترامب، الذهب راكد 11 ساعة قرب ATH، النفط يفقد علاوة الحرب؛ سيولة ضعيفة نهاية أسبوع؛ عادي 1.0x",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787234806,

@@ -1,64 +1,4 @@
-g. **Prudent move: drop fade bias to -0.1 (acknowledge stall without predicting direction) and let PMIs decide.** Oil $87-93 with faded war premium matches 2023 Iran-sanctions episodes (premium decays in 6-12 hours unless supply actually disrupted). Gold $4528 consolidation at highs is normal (2020/2024 analogs show 2-5 day pauses before next leg). **No historical analog supports strong directional bias tonight.**
-
-**Chairman:** Historian is right – we've held -0.3 EUR/GBP/CHF fade for 7 hours with zero confirmation. That's stubbornness, not conviction. FX Strategist correctly flags flip-flop risk, but the alternative is ignoring that prices haven't moved our way. **Compromise: downgrade fade bias to -0.1 (mild mean-reversion lean without conviction), acknowledge the stall is unresolved.** All other biases stay 0.0 (geopolitics faded, gold/oil rangebound, USD neutral). Conf drops to 0.2 (we have no edge until PMIs). Risk_mode stays caution, risk_mult 0.6, allow_books unchanged (COUNCIL/SWING/POSITION). News_block for tomorrow's PMIs is correct. No shocks, no blocks. Summary: we're in a pre-PMI void, biases near zero, waiting for the print.
-
----
-
-## Psyche
-
-**Awareness (fired=yes):** Comparing to DECISION MEMORY: we've held EUR/GBP/CHF -0.3 since 14:07 (6 hours ago), but PRICE CONTEXT shows EUR 1.1676 (unchanged), GBP 1.3629 (unchanged), CHF 0.8006 (unchanged) – **zero confirmation of our fade thesis**. This is stubbornness. Previous directive's "scattered" mind-state was correct (we overreacted to NK missile, then froze on the fade). Downgrading bias to -0.1 is honest recalibration, not flip-flopping, because we're acknowledging the stall without abandoning mean-reversion lean.
-
-**Greed (fired=no):** No greed signals. Conf is low (0.2), biases are weak, prefer_symbols is none. Council is appropriately cautious.
-
-**Fear (fired=yes):** Previous "scattered" mind-state and danger-mode overreaction (18:21 NK missile false alarm) show we're jumpy. Chairman's downgrade of EUR/GBP/CHF bias from -0.3 to -0.1 is fear-driven (afraid of being wrong after 7 hours of no confirmation). But this is **healthy fear** – it prevents us from doubling down on a non-working thesis. Restoring calm over scattered.
-
-**Prudence (fired=yes):** Chairman's -0.1 bias on EUR/GBP/CHF lacks two independent sources (only Market Historian's "50/50 until PMI" supports it, and that's actually a neutral call). However, downgrading from -0.3 to -0.1 is **reducing** a strong call to a weak one, which is the correct direction. Prudence approves the de-escalation but notes we have no edge – biases should arguably be 0.0 across the board.
-
-**Intuition (fired=no):** No hunch. Pre-data void offers no intuitive signal. Wait for PMIs.
-
-**Mental state:** Transitioning from **scattered** (overreacted to NK missile, froze on fade thesis) to **calm** (acknowledging we have no edge, biases near zero, waiting for catalyst). Council is self-correcting.
-
----
-
-## DIRECTIVES
-
-risk_mode=caution
-risk_mult=0.6
-regime=mixed
-bias_USD=0.0
-bias_EUR=-0.1
-bias_GBP=-0.1
-bias_JPY=0.0
-bias_AUD=-0.1
-bias_NZD=0.0
-bias_CAD=0.0
-bias_CHF=-0.1
-bias_XAU=0.0
-bias_XAG=0.0
-bias_OIL=0.0
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.2
-allow_books=COUNCIL,SWING,POSITION
-news_block=GBP:600:630;EUR:675:705;GBP:750:780
-block_symbols=none
-shock=none
-prefer_symbols=none
-summary=Pre-PMI void: EUR/GBP/CHF stall at highs (19h no catalyst, no breakdown) downgrades fade bias to -0.1; geopolitics/oil/gold faded; await Friday PMIs (10-12h) for direction
-summary_ar=فراغ ما قبل PMI: توقف EUR/GBP/CHF عند القمم (19 ساعة بدون محفز، بدون انهيار) يخفض انحياز التلاشي إلى -0.1؛ الجيوسياسة/النفط/الذهب تلاشت؛ ننتظر PMIs الجمعة (10-12 ساعة) للاتجاه
-mind=calm
-psyche_flags=awareness,fear,prudence
-intuition=none
-
-
-# 2026-08-20 21:03 UTC
-## Council debate
-
-**Chief Macro Economist:** Fresh headlines confirm bond market stress persisting (yields rebounded after Treasury buyback, NBC/WSJ/NYT all reporting intervention failure). This is a **structural USD negative** – Treasury credibility hit, real yields unstable. But no new data since 19:59; still pre-PMI void. EUR/GBP economies face drought (>€50bn losses per ShiaWaves) and Germany stalling (Daily Sabah) – our -0.1 fade bias has fundamental support but no timing catalyst yet.
-
-**Central-Bank Watcher:** Fed officials "treading carefully" after Treasury intervention (Reuters 20:20) = **policy uncertainty**, mild USD negative. RBA's Kent flagged upside inflation risk and possible further hikes (17:01) = **AUD constructive**, but we're at -0.1. BoJ dilemma persists (Forbes 14:26), USDJPY at 159.08 near intervention zone. No fresh CB action, but the Treasury drama creates a dovish Fed lean (they won't hike into a bond crisis). Upgrade AUD to +0.2, hold others.
+2, hold others.
 
 **Geopolitical & Crisis Analyst:** Trump's "Economic D-Day" vs Iran (Guardian 19:21, Time 16:44) is **escalating sanctions not military strikes** – oil spiked to $87-93 but this is a **slow-burn premium**, not a shock. Peru 6.7 quake (18:50) had no damage. North Korea missile was noise (we correctly downgraded at 18:56). Hezbollah sanctions (18:20) are routine. **No acute crisis; oil premium should decay further** unless Trump actually bombs something. OIL bias 0.0 → -0.1 (fade the war premium).
 
@@ -3673,6 +3613,72 @@ shock=none
 prefer_symbols=none
 summary=CAD cut to -0.4 on new Trump tariffs (IBD/Politico); GBP to 0 (stale bias); XAU/OIL/indices unchanged 75min; weekend thin liquidity; normal 1.0x
 summary_ar=الدولار الكندي إلى -0.4 على تعريفات ترامب الجديدة؛ الجنيه إلى 0 (توجه قديم)؛ الذهب/النفط/المؤشرات بدون تغيير 75 دقيقة؛ سيولة ضعيفة نهاية الأسبوع؛ عادي 1.0x
+mind=calm
+psyche_flags=awareness,prudence
+intuition=none
+
+
+# 2026-08-22 21:42 UTC
+## Council debate
+
+**Chief Macro Economist:** الاقتصاد الأميركي يواجه ضغوط تضخم من التعريفات الجمركية على كندا؛ عوائد السندات ترتفع (Forbes/Yahoo تحذر من أزمة محتملة)؛ النمو العالمي مختلط: منطقة اليورو PMI قوي لكن ألمانيا ضعيفة؛ أستراليا بيانات وظائف ضعيفة تدعم خفض الفائدة.
+
+**Central-Bank Watcher:** بنك اليابان يبقى متشدداً (CryptoRank تؤكد رهانات السوق)؛ الفيدرالي بلا أحداث جديدة منذ محضر FOMC؛ المركزي الأوروبي يراقب PMI القوي لكن التضخم يبرد (Seeking Alpha)؛ بنك أستراليا قد يخفض بعد بيانات الوظائف الضعيفة.
+
+**Geopolitical & Crisis Analyst:** إيران تهدد الجيران بسبب العقوبات الأميركية (Anadolu/Economist) لكن ناقلات Hormuz تمر بسلام؛ الحرب التجارية كندا-أميركا تتصاعد (Politico/NYT/AP)؛ بوتين يتهم أوكرانيا بفتح "صندوق باندورا" (Reuters)؛ إسرائيل تضرب سوريا (Reuters)؛ زلزال M5.9 طوكيو بلا أضرار (Kyodo/Breakingthenews). الدولار الأميركي/الين/الفرنك السويسري يستفيدون من التوتر، الذهب يتراجع على تراجع علاوة الحرب.
+
+**FX Strategist:** الدولار الكندي الأضعف (تعريفات ترامب الجديدة IBD/Politico تؤكد -0.4)؛ الين يبقى قوياً على رهانات BoJ المتشددة (+0.3 صحيح)؛ اليورو يرتفع على PMI قوي لكن ألمانيا عبء (0.3 معقول)؛ الأسترالي ضعيف على بيانات وظائف سيئة + CFTC shorts (0.1 صحيح)؛ الجنيه محايد (بلا محفزات جديدة، 0 صحيح).
+
+**Gold & Oil Trader:** الذهب عند 4603$ قرب ATH لكن راكد 11 ساعة (0 صحيح، الزخم انتهى)؛ الفضة 68.94$ تتبع الذهب؛ النفط 87.30$ WTI / 94.18$ Brent ينخفض على تراجع علاوة الحرب الإيرانية (-0.2 صحيح)؛ Citi ترفع توقعات Brent لكن تحذر من $150 إذا أُغلق Hormuz (لم يُغلق، العلاوة تتلاشى).
+
+**Equity / Risk-Sentiment Desk:** المؤشرات الأميركية S&P 7677 / Nasdaq 29311 / DAX 26106 مستقرة؛ عوائد السندات ترتفع تضغط على الأسهم (Forbes تحذر لكن "ليست أزمة بعد")؛ Buffett يحذر من تقييمات عالية (Yahoo/thestreet)؛ Nvidia earnings الأسبوع المقبل (IBD) قد تحرك السوق؛ risk-off خفيف (-0.2 للمؤشرات الأميركية صحيح)، DAX أقوى (+0.2 على PMI).
+
+**Risk Manager:** بلا أحداث مجدولة 48 ساعة؛ نهاية أسبوع سيولة ضعيفة؛ الحساب +0$ اليوم، SHOCK خسر -1.11$ (صفقة واحدة)، OTHER ربح +0.35$ (صفقة واحدة)؛ بلا مراكز مفتوحة؛ بلا خطر فوري؛ normal 1.0x آمن.
+
+**Market Historian:** آخر مرة تصاعدت حرب تجارية أميركية-كندية (2018-2019 NAFTA)، الدولار الكندي انخفض 3-5% على مدى أسابيع؛ اليوم USDCAD عند 1.3767 (قرب قمة سنة)، الاتجاه يتماشى مع التاريخ. الذهب عند ATH راكد 11 ساعة: آخر 5 مرات حدث هذا (2020، 2024)، إما كسر صعوداً خلال 24 ساعة أو تصحيح 1-2% خلال 3 أيام؛ اليوم بلا محفز جديد، الاحتمال للتصحيح أعلى. النفط ينخفض على تراجع علاوة حرب: 2019 Abqaiq، 2020 Soleimani، 2022 أوكرانيا – كلها تلاشت 50-70% خلال أسبوعين إذا لم يُضرب العرض فعلياً؛ اليوم Hormuz مفتوح، النمط يتكرر.
+
+**Chairman:** الأدلة واضحة: الدولار الكندي ضعيف على تعريفات حقيقية (نبقي -0.4)؛ الذهب راكد 11 ساعة بلا محفز جديد (نبقي 0)؛ النفط يفقد علاوة الحرب (نبقي -0.2)؛ الين قوي على BoJ (نبقي 0.3)؛ اليورو معتدل على PMI (نبقي 0.3). بلا تغييرات، كل التوجهات صحيحة. SCORECARD ضعيف (21% 4h، 17% 12h، 27% 24h) يفرض ثقة منخفضة؛ نبقي conf=0.4. نهاية أسبوع، سيولة ضعيفة، لكن بلا خطر فوري: normal 1.0x. بلا flip-flopping، بلا طمع، قرار هادئ.
+
+## Psyche
+
+**Awareness:** fired=yes. قارنت التوجيهات الأخيرة: كل التوجهات ثابتة 90 دقيقة (CAD -0.4، XAU 0، OIL -0.2، JPY 0.3، EUR 0.3)؛ الأسعار لم تتحرك (XAU 4603 ثابت، CAD 1.3767 ثابت، OIL 87.30 ثابت)؛ بلا وقائع جديدة منذ 90 دقيقة؛ بلا flip-flopping، بلا عناد؛ SCORECARD ضعيف (21-27%) يدعم conf منخفضة؛ القرار متسق.
+
+**Greed:** fired=no. الثقة منخفضة (0.4)، معظم التوجهات قريبة من الصفر (|bias| <= 0.4 لكل الأصول)، prefer_symbols=none، risk_mult=1.0 (ليس مرتفعاً)؛ بلا لغة "مال سهل"؛ بلا علامات طمع.
+
+**Fear:** fired=no. بلا رد فعل مبالغ على عنوان واحد؛ بلا انهيار توجهات بعد خسارة (SHOCK خسر -1.11$ لكن التوجهات ثابتة)؛ risk_mode=normal (ليس halt أو danger بدون سبب)؛ بلا خوف مفرط.
+
+**Prudence:** fired=yes. كل التوجهات القوية (|bias| >= 0.3: CAD -0.4، JPY 0.3، EUR 0.3) لها مصدرين مستقلين + تشابه تاريخي من Market Historian (CAD: IBD+Politico+تاريخ NAFTA؛ JPY: CryptoRank+FOREX.com+تاريخ BoJ؛ EUR: Seeking Alpha+Kuwait Times+تاريخ PMI)؛ كل القرارات مبررة.
+
+**Intuition:** fired=no. السوق راكد، نهاية أسبوع، بلا حدس قوي؛ الأدلة كافية، بلا حاجة للحدس.
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=1.0
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=0.0
+bias_JPY=0.3
+bias_AUD=0.1
+bias_NZD=0.0
+bias_CAD=-0.4
+bias_CHF=0.0
+bias_XAU=0.0
+bias_XAG=0.0
+bias_OIL=-0.2
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=0.2
+conf=0.4
+allow_books=ALL
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=All biases unchanged 90min; CAD weak on Trump tariffs, XAU stalled 11h near ATH, OIL fading war premium; weekend thin liquidity; normal 1.0x
+summary_ar=كل التوجهات ثابتة 90 دقيقة؛ الكندي ضعيف على تعريفات ترامب، الذهب راكد 11 ساعة قرب ATH، النفط يفقد علاوة الحرب؛ سيولة ضعيفة نهاية أسبوع؛ عادي 1.0x
 mind=calm
 psyche_flags=awareness,prudence
 intuition=none
