@@ -1,5 +1,5 @@
-ts=1787390713
-generated=2026-08-22 09:25 UTC
+ts=1787391465
+generated=2026-08-22 09:37 UTC (watchman heartbeat; council 12 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.9
@@ -31,3 +31,4 @@ mind=focused
 psyche_flags=awareness,fear,prudence,intuition
 intuition=الذهب 4615$ خلال 6 ساعات ثم توقف؛ الفضة تصحيح 2-3% الاثنين؛ AUD يصل 0.72 ثم يتراجع؛ Canada-US trade war يضغط CAD بعد 24-48 ساعة
 news_events=none
+watchman=quiet (sev0)
