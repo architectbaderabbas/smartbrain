@@ -1,40 +1,4 @@
- Treasury buyback theme fading (8h old), AUD jobs non-event, next driver Thursday PMIs (31h away); all biases downgraded to 0.0-0.1 per Prudence; caution maintained through Asian deadzone
-summary_ar=فراغ محفزات: موضوع إعادة شراء الخزانة يتلاشى (8 ساعات)، وظائف AUD لا حدث، المحرك التالي PMIs الخميس (31 ساعة)؛ كل التحيزات خُفّضت إلى 0.0-0.1 حسب Prudence؛ حذر مستمر خلال المنطقة الميتة الآسيوية
-mind=calm
-psyche_flags=awareness,prudence,intuition
-intuition=The calm before Thursday's PMI storm – if European data disappoints, EUR/GBP will break down and safe-havens will bid; position for that by keeping gold/CHF slightly positive but don't force trades in the deadzone
-
-
-# 2026-08-20 03:38 UTC
-## Council debate
-
-**Chief Macro Economist:** KOSPI "shock" is a non-event for our FX/gold/oil universe – Korean equity bounce after tech oversold doesn't change US/EU/UK macro. Treasury buyback theme now 9 hours stale, no fresh inflation/growth data until Thursday PMIs (30h away). We're in a catalyst void; biases should stay near zero.
-
-**Central-Bank Watcher:** Fed minutes (9h old) showed "many officials" want higher rates if inflation persists – mildly hawkish but priced in. No CB speeches until Thursday. The Treasury buyback was Bessent's move, not Warsh's Fed; it capped long yields but doesn't change the rate path. Neutral USD until next data.
-
-**Geopolitical & Crisis Analyst:** Kyiv attack (5h ago) faded; UAE-Iran trade suspension (1h old) is a diplomatic move, not a supply shock – oil unmoved at $85. No active escalation. The "danger" mode from 15min ago was triggered by a KOSPI headline that doesn't threaten our assets. Downgrade to caution.
-
-**FX Strategist:** All currencies range-bound in Asian deadzone. EURUSD 1.1676 (unchanged 4h), USDJPY 158.47 (flat), GBPUSD 1.361 (flat). CAD's tariff-relief bid is 24h old and fading (USDCAD 1.3802 vs 1.38 yesterday). CHF 0.7999 – the carry-shift theme is exhausted. No directional edge; all biases to 0.0 except mild EUR weakness (drought/competitiveness headlines).
-
-**Gold & Oil Trader:** Gold $4495, down $27 from the $4522 peak 6h ago – the Treasury buyback spike is retracing. No safe-haven demand (geopolitics quiet), no fresh real-yield drop. Downgrade to 0.0. Oil $85.11, flat for 12h; UAE-Iran news didn't move it. Bias 0.0.
-
-**Equity / Risk-Sentiment Desk:** SPX 7726, NDX 29536 – both flat overnight. KOSPI bounce is a local Korean story (chip stocks oversold), not a global risk-on signal. US indices in holding pattern until Thursday data. Bias 0.0.
-
-**Risk Manager:** REVERT has lost 5/5 trades today (-$31.53), all stopped out – it's bleeding in this low-volatility chop. Remove it from allow_books. SHOCK had 6/8 SLs yesterday; the one "shock" directive (KOSPI) is irrelevant to our assets – cancel it. Daily loss -0.45% is manageable, but we're 3.5 hours into Asian deadzone with zero edge. Stay in caution, keep risk_mult 0.6, allow only COUNCIL/SWING (SWING has 1 winner, net +$1.52).
-
-**Market Historian:** The last time we sat in a catalyst void like this (Aug 15-17, 2026, between CPI and Jackson Hole), FX pairs chopped in 20-pip ranges and mean-reversion bled. REVERT's 5-loss streak mirrors that episode. Gold's $27 pullback from $4522 is normal profit-taking after a 4% spike; it typically consolidates 2-3 days before the next leg. The KOSPI bounce rhymes with Feb 2025 Nvidia earnings relief – local tech story, no macro follow-through. Lean: stay flat until Thursday PMIs; if German services miss (forecast 50.1), EUR will break down and safe-havens will bid.
-
-**Chairman:** The "danger" mode was an over-reaction to a Korean equity headline that doesn't affect our assets. Downgrade to caution. All themes are stale: Treasury buyback 9h old, CAD tariff relief 24h old, CHF carry-shift exhausted, geopolitics quiet. REVERT is a proven loser today (5/5 SLs) – remove it. SHOCK's KOSPI directive is irrelevant – cancel it. Biases: everything to 0.0 except EUR -0.1 (drought/competitiveness structural drag). Conf 0.3 (no edge). Allow COUNCIL/SWING only. Next catalyst: Thursday 08:30 UTC PMIs (28.5h away). Intuition's hunch about EUR/GBP breakdown is noted but premature – we need the data first.
-
----
-
-## Psyche
-
-**Awareness (fired=yes):** Comparing to 15min-ago directives: we had "danger" mode and a KOSPI shock that the council now calls irrelevant. This is flip-flopping without new facts – the KOSPI move was known 15min ago. However, the Chairman is correct that "danger" was over-reaction; the correction is justified. REVERT's removal is overdue (5-loss streak is emergency-protocol trigger). No flip-flop on biases (all were already near zero). Mental state: correcting a recent error, not inventing new ones.
-
-**Greed (fired=no):** All biases at or near zero, conf 0.3, prefer_symbols none, risk_mult unchanged at 0.6. No greed language. Clear.
-
-**Fear (fired=yes):** The "danger" mode 15min ago was fear – over-reacting to a KOSPI headline. Now correcting to caution, which is appropriate. The council is restoring balance, not collapsing into paralysis. REVERT's removal is prudent (5 SLs), not panic. Fear detector acknowledges the prior over-reaction but approves the correction.
+which is appropriate. The council is restoring balance, not collapsing into paralysis. REVERT's removal is prudent (5 SLs), not panic. Fear detector acknowledges the prior over-reaction but approves the correction.
 
 **Prudence (fired=yes):** All biases ≤0.1 in absolute value, conf 0.3 – no strong calls, so no need for two sources. The EUR -0.1 bias is supported by ECB competitiveness warnings (19 Aug) and drought headlines (19 Aug) – two independent sources, plus it's a mild call. KOSPI shock cancellation is correct (no relevance to our assets). Prudence approves.
 
@@ -3284,6 +3248,81 @@ shock=none
 prefer_symbols=XAUUSD,EURUSD,USDJPY
 summary=All 8h biases accurate; gold near ATH on US debt fears; JPY/EUR firm; GBP fades; oil loses Iran premium slowly; risk raised to 1.0; SHOCK re-enabled
 summary_ar=كل التوجهات دقيقة منذ 8 ساعات؛ الذهب قرب ATH على مخاوف الديون؛ الين واليورو أقوياء؛ الجنيه يتراجع؛ النفط يفقد علاوة إيران ببطء؛ الخطر ارتفع إلى 1.0؛ SHOCK مُفعّل مجدداً
+mind=focused
+psyche_flags=prudence
+intuition=none
+
+
+# 2026-08-22 01:55 UTC
+## Council debate
+
+**Chief Macro Economist:**  
+الدولار عند أدنى مستوى في 3 أشهر بسبب مخاوف الديون الأمريكية وعمليات إعادة شراء السندات من Bessent. عوائد السندات ارتفعت مجدداً رغم التدخل، مما يضعف USD. اليورو يستفيد من PMI قوي (أسرع نمو منذ نوفمبر). الين يرتفع على توقعات BoJ المتشددة. الاقتصاد الكلي يدعم ضعف USD المستمر.
+
+**Central-Bank Watcher:**  
+لا أحداث مجدولة في الـ48 ساعة القادمة. BoJ يحافظ على نبرة متشددة (الين +0.3 bias دقيق). Fed في فراغ بيانات. ECB مستقر. خطاب Trump انتهى بدون تأثير. لا محفزات جديدة للـ24 ساعة القادمة.
+
+**Geopolitical & Crisis Analyst:**  
+إيران تشير إلى إنهاء الحرب "من موقع قوة" – هذا تخفيف تصعيد تدريجي. Trump يهدد بعقوبات على شركاء إيران لكن بدون إجراءات فورية. السويد: هجوم بالسيف (1 قتيل) حدث محلي لا تأثير على الأسواق. أوكرانيا: ضربة روسية (16 قتيل) – روتين مؤسف، لا صدمة جديدة. المخاطر الجيوسياسية تتراجع ببطء، مما يضعف علاوة الأمان على الذهب والنفط.
+
+**FX Strategist:**  
+USD ضعيف عبر كل الأزواج (DXY عند أدنى مستوى 3 أشهر). EUR قوي على PMI (+0.3 دقيق). GBP يتراجع (-0.4 دقيق، الآن 1.3644 من 1.366). JPY قوي على توقعات BoJ (+0.3 دقيق). AUD عند أعلى مستوى 10 أسابيع (+0.2 دقيق). CAD قرب أعلى مستوى 3 أشهر (+0.1 دقيق). CHF يرتفع كملاذ آمن بديل (+0.2 دقيق). كل التوجهات دقيقة منذ 8 ساعات – لا داعي للتغيير.
+
+**Gold & Oil Trader:**  
+الذهب 4603 (من ATH 4623 قبل 8 ساعات) – تماسك قرب القمة على مخاوف الديون الأمريكية وضعف USD. Kaplan يقول "الذهب سيرتفع 10 أضعاف" – bullish لكن مبالغ فيه. الفضة 68.9 قوية. النفط 87.3 (من 87.5) – علاوة إيران تتلاشى ببطء مع تلميحات إيران لإنهاء الحرب. Brent 94.2 مستقر. bias الذهب +0.5 لا يزال صحيحاً، النفط +0.2 يجب خفضه إلى +0.1 مع تراجع التوتر.
+
+**Equity / Risk-Sentiment Desk:**  
+US500 عند 7677 (من 7683) – انخفاض طفيف. Dow ارتفع 517 نقطة يوم الجمعة لكن خسر للأسبوع. عوائد السندات المرتفعة تضغط على الأسهم. DAX 26106 قوي على PMI الأوروبي. النظام mixed: الأسهم الأمريكية ضعيفة (-0.2 bias دقيق)، الأوروبية قوية (+0.2 bias دقيق). لا تغيير مطلوب.
+
+**Risk Manager:**  
+لا أحداث tier-1 في الـ48 ساعة القادمة. السيولة نهاية الأسبوع منخفضة لكن ليست خطيرة. SHOCK خسر 3 من آخر 9 صفقات (صافي -2.46$) لكن أعيد تفعيله قبل ساعة – أراقب عن كثب. BREAKOUT خسر مرتين قبل البيانات (الدروس واضحة: يجب تعطيله قبل الأحداث). الحساب مستقر (457$، لا خسائر يومية). risk_mode=caution مع risk_mult=1.0 مناسب – لا تهديدات فورية لكن السوق هادئ.
+
+**Market Historian:**  
+الذهب عند ATH: آخر مرة كسر الذهب ATH على مخاوف ديون أمريكية (2011، 2020) استمر الاتجاه لأسابيع. الآن 4603 (99% من نطاق السنة) – الزخم قوي لكن التماسك لـ8 ساعات يشير إلى توحيد قبل الحركة التالية. USD عند أدنى مستوى 3 أشهر: آخر مرة انهار USD على مخاوف الديون (2020-2021) استمر لشهور. النفط يفقد علاوة الحرب: نمط 2020 Soleimani (ارتفاع ثم تلاشي في 48 ساعة) – الآن 36 ساعة منذ ذروة إيران، التلاشي طبيعي. GBP يتراجع من 1.366 إلى 1.3644 – نمط ضعف بريطاني بدون محفز واضح، قد يستمر. التاريخ يدعم: ذهب +0.5، USD 0.0، نفط خفض إلى +0.1.
+
+**Chairman:**  
+الإجماع واضح: كل التوجهات دقيقة منذ 8 ساعات، لا أحداث جديدة، السوق في توحيد. التغيير الوحيد: خفض bias النفط من +0.2 إلى +0.1 (إيران تخفف التصعيد). الذهب يحافظ على +0.5 (مخاوف الديون مستمرة). risk_mode يبقى caution (سيولة نهاية الأسبوع)، risk_mult يبقى 1.0 (لا تهديدات). conf يبقى 0.8 (سجل 8 ساعات قوي). allow_books الكل (SHOCK تحت المراقبة لكن لا سبب لإزالته بعد). prefer_symbols: XAUUSD (زخم ATH)، EURUSD (قوة EUR)، USDJPY (قوة JPY).
+
+## Psyche
+
+**Awareness:** fired=no. قارنت التوجيهات السابقة: كل التوجهات ثابتة منذ 8 ساعات ودقيقة (الذهب قرب ATH، الين/يورو أقوياء، الجنيه ضعيف، النفط يتراجع). التغيير الوحيد (نفط +0.2 إلى +0.1) مبرر بحقائق جديدة (تصريحات إيران). لا تقلب، لا عناد.
+
+**Greed:** fired=no. الثقة 0.8 معتدلة، معظم التوجهات 0.1-0.5، prefer_symbols قصير (3 فقط)، risk_mult 1.0 محايد. لا علامات جشع.
+
+**Fear:** fired=no. لا رد فعل مبالغ فيه، لا تراجع بدون سبب. caution له مبرر ملموس (سيولة نهاية الأسبوع، لا أحداث). متوازن.
+
+**Prudence:** fired=yes. bias الذهب +0.5 قوي: مدعوم بمصدرين (Reuters عن الديون، Barron's عن Bessent، Forbes عن الأسعار) + تاريخ (2011/2020 ATH استمر). bias الين +0.3: مدعوم بـCryptoRank عن BoJ + تاريخ. bias اليورو +0.3: مدعوم بـReuters PMI + تاريخ. كل التوجهات القوية لها دليل مزدوج. موافق.
+
+**Intuition:** fired=no. السوق في توحيد واضح، لا حدس مطلوب. none.
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=1.0
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=-0.4
+bias_JPY=0.3
+bias_AUD=0.2
+bias_NZD=0.0
+bias_CAD=0.1
+bias_CHF=0.2
+bias_XAU=0.5
+bias_XAG=0.3
+bias_OIL=0.1
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=0.2
+conf=0.8
+allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT,SHOCK
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=XAUUSD,EURUSD,USDJPY
+summary=All 8h biases accurate; gold holds near ATH on US debt fears; JPY/EUR firm; GBP fades; oil loses Iran premium (bias cut to 0.1); weekend consolidation
+summary_ar=كل التوجهات دقيقة منذ 8 ساعات؛ الذهب قرب ATH على مخاوف الديون؛ الين واليورو أقوياء؛ الجنيه يتراجع؛ النفط يفقد علاوة إيران (خُفض إلى 0.1)؛ توحيد نهاية الأسبوع
 mind=focused
 psyche_flags=prudence
 intuition=none
