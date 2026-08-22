@@ -1,76 +1,4 @@
-ta or Thursday PMIs.
-
----
-
-## Psyche
-
-**Awareness (fired=yes):** Comparing to 15-min-ago directives: we had bias_OIL=0.3, bias_JPY=0.2, bias_XAU=0.2 on Iran sanctions. Prices since then: oil +$0.30 (weak), gold -$17 (opposite), JPY flat (no safe-haven). We are **holding a view that prices refuted**. This is stubbornness. Downgrade all three or freeze at previous levels (2h ago all were 0.0-0.1). I recommend: oil 0.2 → 0.1, JPY 0.2 → 0.1, gold 0.2 → 0.1. No flip-flop, just honest recalibration to weak follow-through.
-
-**Greed (fired=no):** Confidence 0.4, biases modest, no "easy money" language. Risk_mult 0.6 is conservative. No greed detected.
-
-**Fear (fired=no):** Council is not over-reacting – we raised biases modestly (0.2-0.3) on concrete headlines, and now we're downgrading based on price action. This is rational adjustment, not panic. No fear detected.
-
-**Prudence (fired=yes):** The Iran sanctions call had two sources (Trump statement + UAE trade suspension) but the Market Historian's analog (2018-2019 sanctions fade) was ignored when we set bias_OIL=0.3. Price action now confirms the analog was right. Downgrade oil to 0.1, JPY to 0.1, gold to 0.1 per historian's fade thesis. Also: conf=0.4 is appropriate for this low-conviction environment – do not raise without fresh catalyst.
-
-**Intuition (fired=yes):** The fact that gold is DOWN despite Iran sanctions + Kyiv strikes + NK missile suggests a deeper shift: the market is exhausted from geopolitical noise and wants to see actual supply disruption or Fed pivot before paying up for safe havens. This is a "show me" market, not a "price it in" market.
-
-**Mental state: calm.** Council is adjusting to evidence without drama. Awareness and Prudence fired appropriately to correct mild overconfidence on geopolitics.
-
----
-
-## DIRECTIVES
-
-risk_mode=caution
-risk_mult=0.6
-regime=mixed
-bias_USD=0.0
-bias_EUR=-0.1
-bias_GBP=0.0
-bias_JPY=0.1
-bias_AUD=0.0
-bias_NZD=0.0
-bias_CAD=0.0
-bias_CHF=0.1
-bias_XAU=0.1
-bias_XAG=0.1
-bias_OIL=0.1
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.3
-allow_books=COUNCIL,SWING
-news_block=USD:234:264
-block_symbols=none
-shock=none
-prefer_symbols=none
-summary=Iran sanctions/Kyiv strikes failed to move markets (oil +0.3%, gold -$17, JPY flat); downgrading geopolitical biases to 0.1 on weak follow-through; await US data (3.6h) or Thursday PMIs for next catalyst
-summary_ar=عقوبات إيران/ضربات كييف فشلت بتحريك الأسواق (نفط +0.3%، ذهب -17$، ين ثابت)؛ تخفيض انحيازات جيوسياسية إلى 0.1 على متابعة ضعيفة؛ ننتظر بيانات أمريكية (3.6 ساعة) أو مؤشرات PMI الخميس للمحفز التالي
-mind=calm
-psyche_flags=awareness,prudence,intuition
-intuition=Gold down despite triple geopolitical headlines signals market fatigue with noise – wants proof (supply cut or Fed shift) before paying safe-haven premium; this is a show-me market now
-
-
-# 2026-08-20 10:02 UTC
-## Council debate
-
-**Chief Macro Economist:** US Philly Fed/Claims in 2.5h (12:30 UTC) are the only fresh catalyst before Friday PMIs. Treasury buyback regime is 15h old, fading as a driver. No growth/inflation surprises overnight. Neutral USD until data.
-
-**Central-Bank Watcher:** Fed minutes (19h old) are stale. No speeches today. Next catalyst is Jackson Hole prep chatter (days away). Warsh's job complicated by Bessent's bond intervention per Reuters, but no immediate policy shift. Neutral.
-
-**Geopolitical & Crisis Analyst:** North Korea missile launch (53min old, NPR) is routine posturing, not escalation. Kyiv strikes (6.5h) and UAE-Iran trade suspension (10.5h) failed to sustain risk-off. Somali pirate headline (1.8h) is noise. No severity-2+ event. Geopolitical premium exhausted.
-
-**FX Strategist:** All majors range-bound overnight: EUR 1.1706 (unch), GBP 1.3646 (unch), JPY 158.33 (+0.1% vs 158.5 yesterday = minor JPY strength on NK headline fade). AUD 0.7127 (-0.2% on jobs miss per WTVB 4.5% unemployment). CHF 0.7958 (-0.3% reversing yesterday's Treasury-driven spike). Directionless until US data.
-
-**Gold & Oil Trader:** Gold $4485 (-$17 from $4502 peak, -0.4%) rejecting highs despite triple geopolitical headlines = market fatigue confirmed. Oil $87.37 (+0.5% from $86.9, holding Iran premium but not extending). Historian: gold at new highs typically continues 55-60%, but this rejection after headlines is bearish short-term. Downgrade XAU to 0.0.
-
-**Equity / Risk-Sentiment Desk:** SPX 7712 (+0.1%), NDX 29449 (+0.2%), DAX 25983 (+0.3%) = mild risk-on creep in Asia, but no conviction. VIX unavailable. Regime mixed, leaning risk-on by default (equities green, vol low).
-
-**Risk Manager:** REVERT still sidelined (5-loss streak). Daily P/L -$0.45 (0.1% drawdown, safe). USD news block 160-190min (12:30-13:00 UTC) for Philly Fed/Claims is mandatory. No other threats. Caution appropriate.
-
-**Market Historian:** NK missile launches (2022-2026 pattern): JPY spikes 0.2-0.5% in first hour, fades within 4h unless war escalates. Today's +0.1% JPY move already fading (158.33 now vs 158.5 earlier). Gold rejections at ATH after geopolitical noise (Aug-2020 Beirut, Jan-2024 Red Sea): retraced 1-2% within 48h when headlines didn't deliver supply shock. Current setup rhymes: three headlines, zero follow-through, gold red. Lean bearish XAU short-term.
-
-**Chairman:** Awareness flags flip-flop risk (we raised JPY/XAU/OIL to 0.1-0.2 at 07:52 on Iran/Kyiv, now markets rejected it). Prudence demands we acknowledge the failure: gold down, oil flat, JPY fading. Downgrade all geopolitical biases to 0.0. AUD jobs miss (4.5% unemployment per WTVB) justifies AUD -0.1. Conf stays 0.3 (no conviction pre-data). Risk_mult 0.6, caution, COUNCIL/SWING only. Intuition's "show-me market" is adopted: markets want proof, not headlines.
+AUD -0.1. Conf stays 0.3 (no conviction pre-data). Risk_mult 0.6, caution, COUNCIL/SWING only. Intuition's "show-me market" is adopted: markets want proof, not headlines.
 
 ---
 
@@ -3423,3 +3351,81 @@ summary_ar=Fear مُلغى: 16 ساعة caution بدون تهديد نشط مُ�
 mind=focused
 psyche_flags=awareness,fear,prudence,intuition
 intuition=الذهب سيلمس 4615-4620$ ثم يتراجع 20-40$ - جني أرباح نهاية الأسبوع الطويل عند ATH
+
+
+# 2026-08-22 07:03 UTC
+## Council debate
+
+**Chief Macro Economist:**
+العنوان الكندي كان خطأً - لا توجد تعليق مفاوضات جديدة، الأخبار من 5 آب قديمة. الوضع الحقيقي: سندات الخزانة الأميركية تفقد جاذبيتها كملاذ آمن (WSJ)، العوائد ترتفع رغم تدخل Bessent، الذهب عند 4603$ قرب ATH على مخاوف الديون. النمو الأوروبي صامد (PMI)، اليابان تدافع عن الين لكن الذخيرة تنفد. لا ركود، لا أزمة نشطة - نهاية أسبوع هادئة.
+
+**Central-Bank Watcher:**
+Bessent يقول "واثق أن عوائد السندات ستنخفض" لكن السوق لا يصدقه - العوائد عادت للارتفاع بعد تلاشي ارتداد buyback. SNB تبقي الفائدة السلبية على الطاولة، BoJ تدخّل لكن التأثير يتلاشى (Reuters/Bloomberg). لا خطابات مجدولة، لا مفاجآت قادمة خلال 48 ساعة. الوضع مستقر.
+
+**Geopolitical & Crisis Analyst:**
+العنوان الكندي **خطأ صريح** - آخر أخبار حقيقية: US-Iran rhetoric (4 ساعات)، 750+ جريح أميركي في حرب إيران (6 ساعات)، هجوم روسي على مركز تسوق أوكراني (ساعة واحدة). لا تصعيد جديد منذ 12 ساعة، إيران تقول تريد إنهاء الحرب قريباً (CNBC 23 ساعة). علاوة الحرب على النفط تتلاشى ببطء - OIL من 87.3$ مستقر، لا صدمات إمداد. الذهب يستفيد من مخاوف الديون الأميركية أكثر من الجغرافيا السياسية.
+
+**FX Strategist:**
+USD محايد (DXY معطّل لكن EURUSD 1.1676 ثابت منذ 8 ساعات)، EUR قوي على PMI الصلب (+0.3 صحيح)، GBP يتراجع كما توقعنا (-0.2 دقيق)، JPY صامد عند 158.98 رغم التدخل المحدود (+0.3 صحيح)، AUD عند أعلى مستوى 10 أسابيع 0.717 (+0.2 صحيح)، CAD قرب أعلى 3 أشهر (+0.1 صحيح). كل التوجهات دقيقة منذ 16 ساعة - لا سبب للتغيير.
+
+**Gold & Oil Trader:**
+الذهب 4603$ - 17$ فقط من ATH 4620$، ارتفع من 4590$ منذ 8 ساعات على مخاوف ديون الخزانة (Barron's/Forbes). الزخم قوي لكن نهاية الأسبوع = جني أرباح محتمل عند 4615-4620$. الفضة 68.94$ ثابتة (+0.3 صحيح). النفط 87.3$ بلا حركة منذ 12 ساعة، علاوة إيران تتلاشى (bias 0.0 صحيح). لا محفزات جديدة - الذهب يحتاج كسر 4620$ أو يتراجع 20-30$.
+
+**Equity / Risk-Sentiment Desk:**
+US500 عند 7677 (-0.2% منذ 8 ساعات)، US100 عند 29312 مستقر، GER40 عند 26106 (+0.2% صحيح). Wall St ارتفع يوم الجمعة لكن انخفض أسبوعياً، التركيز على عوائد السندات وإيران (Reuters). VIX معطّل لكن لا ذعر - risk-off خفيف مستمر (bias -0.2 للمؤشرات الأميركية صحيح). نهاية أسبوع، سيولة ضعيفة، لا محفزات حتى الاثنين.
+
+**Risk Manager:**
+**الخطأ الفادح**: وضع danger على أساس عنوان كندي **كاذب** من 18 يوماً مضت. لا أحداث severity-2 نشطة الآن، آخر تصعيد إيران قبل 6 ساعات (rhetoric فقط، لا ضربات). الخسارة اليومية 0%، SHOCK خسر 1.11$ من صفقة واحدة (مقبول)، REVERT-OLD ليس كتابنا. **danger mode بلا سبب ملموس = خطأ بحد ذاته**. العودة لـnormal 0.9x فوراً - 16 ساعة caution/danger بدون تهديد نشط يجوّع الروبوتات. Scorecard 29% ضعيف لكن كل توجهاتنا منذ 16 ساعة دقيقة - المشكلة في الماضي البعيد، ليس الآن.
+
+**Market Historian:**
+الذهب عند ATH: آخر 5 مرات لمس 4600$+ (2026 آذار، حزيران، تموز)، ارتد 1-2% خلال 24-48 ساعة ثم استأنف أو استقر. نهاية الأسبوع عند ATH = جني أرباح شائع (نمط 2024-2026). لكن مخاوف ديون الخزانة الأميركية (WSJ "فقدان الملاذ الآمن") = محفز أساسي جديد، ليس فقط زخم تقني - قد يكسر 4620$ الاثنين. النفط 87$: علاوة الحرب تتلاشى ببطء (2022 أوكرانيا، 2020 سليماني - نفس النمط). EUR/JPY/AUD: كل التحركات ضمن 0.5× ATR - لا إفراط. **الخطأ الكندي يشبه إنذارات 2025 الكاذبة التي دمرت ثقة المجلس** - يجب التحقق من التواريخ دائماً.
+
+**Chairman:**
+الحقيقة واضحة: العنوان الكندي من 5 آب، ليس اليوم - **danger mode كان خطأً فادحاً**. كل توجهاتنا منذ 16 ساعة دقيقة (XAU/EUR/JPY/GBP/AUD/OIL)، لا أحداث جديدة منذ 6 ساعات، لا تهديد نشط. Risk Manager محق: 16 ساعة حذر بلا سبب = خطأ بحد ذاته. العودة لـnormal 0.9x، conf 0.75 (Scorecard ضعيف لكن الأداء الأخير قوي). الذهب 0.5 (قرب ATH، زخم قوي، محفز ديون حقيقي)، كل العملات بلا تغيير. SHOCK يبقى - خسارة 1.11$ مقبولة. Intuition عن الذهب 4615-4620$ ثم تراجع منطقي لكن لا نغيّر bias - السوق يقرر.
+
+---
+
+## Psyche
+
+**Awareness:** fired=yes — قارنت بـDECISION MEMORY: آخر 7 قرارات كلها caution/danger، كل التوجهات دقيقة منذ 16 ساعة، لكن danger الأخير بُني على عنوان كاذب (Canada 5 آب). هذا flip-flop عكسي (تصعيد بلا سبب ثم تراجع) - الآن نصحّح الخطأ، ليس تقلّباً جديداً.
+
+**Greed:** fired=no — conf 0.75 معتدل، معظم التوجهات 0.0-0.3، فقط XAU 0.5 (مبرر بـATH + ديون)، prefer_symbols 3 فقط، risk_mult 0.9 محافظ - لا علامات طمع.
+
+**Fear:** fired=yes — danger mode على أساس عنوان قديم = رد فعل مفرط كلاسيكي؛ 16 ساعة caution/danger بلا تهديد نشط = خوف مزمن يجوّع الروبوتات؛ الآن نعيد التوازن لـnormal كما يجب.
+
+**Prudence:** fired=yes — XAU bias 0.5 له مصدران (WSJ ديون + Forbes/Barron's ارتفاع) + تاريخ (ATH نمط جني أرباح) - مقبول؛ لكن danger السابق لم يكن له مصدران حقيقيان - الآن نطبّق المعيار بدقة.
+
+**Intuition:** fired=yes — الذهب سيختبر 4615-4620$ (مقاومة ATH نفسية) خلال 12-24 ساعة، ثم تراجع 20-40$ لجني أرباح نهاية الأسبوع الطويل - لكن لا نخفّض bias الآن، الزخم لا يزال صاعداً.
+
+---
+
+## DIRECTIVES
+risk_mode=normal
+risk_mult=0.9
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=-0.2
+bias_JPY=0.3
+bias_AUD=0.2
+bias_NZD=0.0
+bias_CAD=0.1
+bias_CHF=0.2
+bias_XAU=0.5
+bias_XAG=0.3
+bias_OIL=0.0
+bias_US500=-0.2
+bias_US100=-0.2
+bias_US30=-0.2
+bias_GER40=0.2
+conf=0.75
+allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT,SHOCK
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=XAUUSD,EURUSD,USDJPY
+summary=Correcting false Canada alert: all 16h biases accurate (XAU near ATH on US debt fears, EUR/JPY firm, GBP fades); danger downgraded to normal 0.9x
+summary_ar=تصحيح إنذار Canada الكاذب: كل التوجهات دقيقة منذ 16 ساعة (الذهب قرب ATH على مخاوف ديون أميركية، EUR/JPY قوي، GBP يتراجع)؛ خطر يُخفّض لطبيعي 0.9
+mind=focused
+psyche_flags=awareness,fear,prudence,intuition
+intuition=الذهب سيختبر 4615-4620$ خلال 12-24 ساعة ثم يتراجع 20-40$ لجني أرباح نهاية الأسبوع - لكن الزخم لا يزال صاعداً

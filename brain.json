@@ -1,11 +1,11 @@
 {
- "ts": 1787381711,
- "council_ts": 1787381711,
+ "ts": 1787382189,
+ "council_ts": 1787382189,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.9,
   "regime": "mixed",
-  "conf": 0.7,
+  "conf": 0.75,
   "bias_USD": 0.0,
   "bias_EUR": 0.3,
   "bias_GBP": -0.2,
@@ -28,18 +28,13 @@
   "prefer_symbols": "XAUUSD,EURUSD,USDJPY",
   "mind": "focused",
   "psyche_flags": "awareness,fear,prudence,intuition",
-  "intuition": "الذهب سيلمس 4615-4620$ ثم يتراجع 20-40$ - جني أرباح نهاية الأسبوع الطويل عند ATH",
-  "summary": "Fear overruled: 16h caution with no active threat is excessive; upgrading to normal 0.9x; all biases unchanged (XAU 0.5 near ATH, JPY/EUR 0.3); conf raised to 0.7",
-  "summary_ar": "Fear مُلغى: 16 ساعة caution بدون تهديد نشط مُبالغ فيه؛ رفع لـnormal 0.9x؛ جميع التوجهات ثابتة (XAU 0.5 قرب ATH، JPY/EUR 0.3)؛ conf مرفوع لـ0.7",
+  "intuition": "الذهب سيختبر 4615-4620$ خلال 12-24 ساعة ثم يتراجع 20-40$ لجني أرباح نهاية الأسبوع - لكن الزخم لا يزال صاعداً",
+  "summary": "Correcting false Canada alert: all 16h biases accurate (XAU near ATH on US debt fears, EUR/JPY firm, GBP fades); danger downgraded to normal 0.9x",
+  "summary_ar": "تصحيح إنذار Canada الكاذب: كل التوجهات دقيقة منذ 16 ساعة (الذهب قرب ATH على مخاوف ديون أميركية، EUR/JPY قوي، GBP يتراجع)؛ خطر يُخفّض لطبيعي 0.9",
   "news_events": "none"
  },
  "error": null,
  "alerts": [
-  {
-   "ts": 1787178317,
-   "what": "Russian ballistic missile attack on Kyiv; escalation in Ukraine conflict",
-   "sev": 2
-  },
   {
    "ts": 1787197076,
    "what": "KOSPI reversal: 6% surge post-semiconductor recovery; SK Hynix +12%, Samsung +9% after yesterday's 4.96% plunge",
@@ -83,6 +78,11 @@
   {
    "ts": 1787373611,
    "what": "US-Canada tariff deal collapse; trade war deepens with tariffs now in effect",
+   "sev": 2
+  },
+  {
+   "ts": 1787382176,
+   "what": "Canada suspends trade negotiations, vows dollar-for-dollar retaliation as 50% US tariffs take effect at midnight",
    "sev": 2
   }
  ]
