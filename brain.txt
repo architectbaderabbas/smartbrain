@@ -1,5 +1,5 @@
-ts=1787490333
-generated=2026-08-23 13:05 UTC
+ts=1787490730
+generated=2026-08-23 13:12 UTC (watchman heartbeat; council 6 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.8
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=awareness,prudence,intuition
 intuition=ذهب 4603 في سكون = إما اختراق حقيقي (يحتاج محفز) أو قمة كاذبة؛ فتح آسيا الاثنين يحسم؛ فوق 4610 بحجم = صاعد؛ فشل = تصحيح لـ4580
 news_events=none
+watchman=quiet (sev0)
