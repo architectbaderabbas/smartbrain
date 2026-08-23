@@ -1,6 +1,6 @@
 {
- "ts": 1787510530,
- "council_ts": 1787506932,
+ "ts": 1787511325,
+ "council_ts": 1787511325,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.7,
@@ -22,19 +22,18 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "ALL",
-  "news_block": "none",
+  "news_block": "USD:1370:1430",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
   "psyche_flags": "awareness,prudence,intuition",
-  "intuition": "فتح آسيا الاثنين (8 ساعات) يحسم: USDJPY فوق 160 = خطر تدخل BoJ؛ ذهب فوق 4610 بحجم = صعود حقيقي؛ الآن نراقب فقط",
-  "summary": "All biases unchanged 75min; weekend dead liquidity, Kashkari supports USD, USDJPY drifts toward 159, CAD weak, oil/gold flat; await Asia open; normal 0.7x",
-  "summary_ar": "كل التوجهات ثابتة 75 دقيقة؛ سيولة ميتة نهاية أسبوع، Kashkari يدعم USD، USDJPY ينجرف نحو 159، CAD ضعيف، نفط/ذهب ثابت؛ ننتظر فتح آسيا؛ عادي 0.7x",
+  "intuition": "فتح آسيا (7 ساعات) يحسم: USDJPY فوق 160 = خطر تدخل؛ ذهب فوق 4610 بحجم = اختراق حقيقي؛ نفط تحت 86 = تأكيد ضعف؛ الآن نراقب فقط",
+  "summary": "All biases unchanged 90min; weekend dead liquidity, Kashkari supports USD, USDJPY drifts 158.98, CAD weak on Trump, oil/gold flat; await Asia open; normal 0.7x",
+  "summary_ar": "كل التوجهات ثابتة 90 دقيقة؛ سيولة ميتة نهاية أسبوع، Kashkari يدعم USD، USDJPY ينجرف 158.98، CAD ضعيف على Trump، نفط/ذهب ثابت؛ ننتظر فتح آسيا؛ عادي 0.7x",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787275316,

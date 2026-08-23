@@ -1,5 +1,5 @@
 {
- "decisions_scored": 53,
+ "decisions_scored": 54,
  "overall_hit_rate%": {
   "4h": 24,
   "12h": 20,
@@ -29,10 +29,10 @@
   "JPY": {
    "4h": 7,
    "12h": 8,
-   "24h": 12
+   "24h": 11
   },
   "OIL": {
-   "4h": 14,
+   "4h": 25,
    "12h": 0,
    "24h": 0
   },
@@ -50,7 +50,7 @@
  "by_mind_state%": {
   "focused": 17,
   "?": 17,
-  "calm": 37
+  "calm": 38
  },
  "note": "hit = price moved in the direction of a bias with |bias|>=0.3 after the horizon; None = not enough data yet"
 }
