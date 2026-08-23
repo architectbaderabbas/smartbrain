@@ -1,12 +1,12 @@
-ts=1787522419
-generated=2026-08-23 22:00 UTC
+ts=1787523131
+generated=2026-08-23 22:12 UTC (watchman heartbeat; council 11 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.7
 regime=mixed
 conf=0.5
 allow_books=ALL
-news_block=USD:1199:1259
+news_block=USD:1188:1248
 block_symbols=none
 shock=none
 prefer_symbols=none
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=awareness,prudence,intuition
 intuition=فتح طوكيو (6 ساعات) يحسم: USDJPY فوق 160 = خطر تدخل BoJ؛ ذهب فوق 4610 بحجم = اختراق حقيقي؛ نفط تحت 87 = تأكيد ضعف Goldman؛ الآن نراقب فقط
 news_events=none
+watchman=quiet (sev0)
