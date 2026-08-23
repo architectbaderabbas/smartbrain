@@ -3,7 +3,7 @@
  "overall_hit_rate%": {
   "4h": 24,
   "12h": 20,
-  "24h": 19
+  "24h": 18
  },
  "per_asset_hit_rate%": {
   "XAU": {
@@ -12,9 +12,9 @@
    "24h": 0
   },
   "XAG": {
-   "4h": 16,
-   "12h": 19,
-   "24h": 21
+   "4h": 13,
+   "12h": 16,
+   "24h": 18
   },
   "EUR": {
    "4h": 5,
@@ -48,9 +48,9 @@
   }
  },
  "by_mind_state%": {
-  "calm": 36,
   "focused": 19,
-  "?": 17
+  "?": 17,
+  "calm": 35
  },
  "note": "hit = price moved in the direction of a bias with |bias|>=0.3 after the horizon; None = not enough data yet"
 }
