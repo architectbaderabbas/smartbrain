@@ -1,6 +1,6 @@
 {
- "ts": 1787497931,
- "council_ts": 1787494332,
+ "ts": 1787498831,
+ "council_ts": 1787498831,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.8,
@@ -27,14 +27,13 @@
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "prudence,intuition",
-  "intuition": "فتح آسيا الاثنين يحسم ذهب: فوق 4610 بحجم = صاعد؛ فشل = تصحيح 4580؛ USDJPY فوق 160 يستدعي تدخل BoJ مجدداً",
-  "summary": "JPY bias to 0 as USDJPY drifts toward 160 (Bessent fade); CAD weak on trade war; oil pressured; gold at ATH awaits Monday open; normal 0.8x",
-  "summary_ar": "JPY إلى 0 مع اقتراب USDJPY من 160 (تلاشي Bessent)؛ CAD ضعيف على حرب تجارية؛ نفط مضغوط؛ ذهب عند قمة ينتظر فتح الاثنين؛ عادي 0.8x",
+  "psyche_flags": "awareness,prudence,intuition",
+  "intuition": "فتح آسيا الاثنين يحسم: ذهب فوق 4610 بحجم = صاعد؛ USDJPY فوق 160 = تدخل BoJ؛ نراقب فقط، لا نتصرف الآن",
+  "summary": "All biases unchanged 495min; weekend dead liquidity, no catalysts 26.5h; CAD weak on trade war, oil pressured, gold/JPY await Asia open; normal 0.8x",
+  "summary_ar": "كل التوجهات ثابتة 495 دقيقة؛ سيولة weekend ميتة، لا محفزات 26.5 ساعة؛ CAD ضعيف على حرب تجارية، نفط مضغوط، ذهب/JPY ينتظران فتح آسيا؛ عادي 0.8x",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787275316,
