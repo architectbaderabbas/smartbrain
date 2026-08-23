@@ -1,110 +1,4 @@
-block ضروري. القرار: caution mode، risk_mult 0.6، REVERT محظور، biases محافظة (fade EUR/GBP/CHF -0.2، AUD +0.2، oil/gold -0.3)، conf 0.35.
-
----
-
-## Psyche
-
-**Awareness:** fired=yes. قارنت مع 15 دقيقة الماضية: danger mode كان overreaction (KOSDAQ 11 دقيقة لا يستدعيه)، الآن نصحح. قارنت مع DECISION MEMORY: EUR/GBP/CHF fade bias ثابت منذ 6 ساعات (-0.3 → -0.2 → -0.1 → -0.2)، لا flip-flop، لكن السعر لم يتحرك (still at highs) – stubbornness خفيف. REVERT losses واضحة في JOURNAL – إزالته صحيح.
-
-**Greed:** fired=no. لا ثقة عالية (conf 0.35)، biases متنوعة (fade/long)، لا "easy money" language.
-
-**Fear:** fired=yes. danger mode السابق كان over-reaction لـ KOSDAQ (11 دقيقة circuit breaker)، الآن نصحح لكن يجب تجنب التطرف العكسي – caution صحيح، ليس normal.
-
-**Prudence:** fired=yes. fade EUR/GBP/CHF -0.2 له مصدرين (Market Historian: 80% تصحح، FX Strategist: 21h stall) + analog تاريخي – مقبول. oil/gold -0.3 له مصدرين (Geopolitical: China/Russia flow، Historian: 2018/2019 sanctions fade) – مقبول. AUD +0.2 له مصدر واحد (RBA) بدون analog قوي – downgrade إلى +0.1.
-
-**Intuition:** الأسواق في "pre-PMI limbo" – كل شيء ينتظر البيانات الأوروبية. الحركة الحقيقية ستأتي بعد 6-8 ساعات، الآن وقت الحذر ليس الإقدام.
-
-**Mind state:** calm (صححنا overreaction، biases منطقية، ننتظر catalyst).
-
----
-
-## DIRECTIVES
-
-risk_mode=caution
-risk_mult=0.6
-regime=mixed
-bias_USD=0.0
-bias_EUR=-0.2
-bias_GBP=-0.2
-bias_JPY=0.0
-bias_AUD=0.1
-bias_NZD=0.0
-bias_CAD=0.0
-bias_CHF=-0.2
-bias_XAU=-0.3
-bias_XAG=-0.3
-bias_OIL=-0.3
-bias_US500=-0.2
-bias_US100=-0.2
-bias_US30=-0.2
-bias_GER40=-0.2
-conf=0.35
-allow_books=INTRADAY,SWING,POSITION,SHOCK,COUNCIL
-news_block=GBP:277:307;EUR:352:457
-block_symbols=none
-shock=none
-prefer_symbols=AUDUSD,AUDNZD
-summary=KOSDAQ alert false (11min only); EUR/GBP/CHF fade -0.2 (21h stall, 80% historical retrace), oil/gold war premium decay -0.3, AUD strongest +0.1 (RBA), REVERT banned (5-loss streak), await EU PMIs 5-7h
-summary_ar=إنذار KOSDAQ كان false (11 دقيقة فقط)؛ EUR/GBP/CHF fade ناعم -0.2 (stall 21 ساعة، 80% تاريخياً تصحح)، نفط/ذهب حرب premium يتلاشى -0.3، AUD الأقوى +0.1 (RBA)، REVERT محظور (5 خسائر)، ننتظر PMIs أوروبية 5-7 ساعات
-mind=calm
-psyche_flags=awareness,fear,prudence
-intuition=الأسواق في pre-PMI limbo – الحركة الحقيقية بعد 6-8 ساعات، الآن وقت حذر ليس إقدام
-
-
-# 2026-08-21 02:36 UTC
-## Council debate
-
-**Chief Macro Economist:** الوضع الكلي ثابت منذ ساعة – سندات الخزينة الأمريكية لا تزال تحت ضغط (yields مرتفعة)، لكن لا جديد؛ PMIs أوروبية بعد 4.5 ساعة هي المحرك الوحيد؛ حتى ذلك الحين السوق في limbo؛ لا تغيير في التوقعات.
-
-**Central-Bank Watcher:** لا خطابات ولا بيانات جديدة منذ آخر قرار؛ RBA hawkish من أمس لا يزال يدعم AUD؛ BoJ intervention zone عند USDJPY 159 قريب (الآن 158.93) لكن لا تحرك بعد؛ PMIs الأوروبية قد تحرك ECB expectations إذا جاءت ضعيفة.
-
-**Geopolitical & Crisis Analyst:** Trump يهدد إيران بـ"economic D-Day" لكن هذا rhetoric قديم 12 ساعة؛ لا تصعيد عسكري جديد؛ كوريا الشمالية أطلقت صواريخ أمس لكن routine؛ الأسواق تجاهلت كل شيء؛ war premium على النفط/الذهب يتلاشى كما قلنا – لا تغيير.
-
-**FX Strategist:** EUR/GBP/CHF لا تزال عند قمم multi-month لكن stall الآن 23 ساعة (لا breakdown ولا breakout)؛ fade bias -0.2 صحيح لكن لا confirmation؛ AUD قوي +0.1 من RBA لكن لا momentum جديد؛ USD/JPY عند 158.93 قرب intervention 159 – حذر؛ كل شيء ينتظر PMIs.
-
-**Gold & Oil Trader:** ذهب 4527$ ثابت آخر ساعتين، نفط WTI 87.24$ ثابت؛ war premium يتلاشى ببطء (Trump economic threats لا تحرك السوق بعد الآن)؛ fade bias -0.3 لا يزال صحيحاً لكن لا volatility؛ Morgan Stanley يقول ذهب $5000 لكن هذا long-term، الآن ranging.
-
-**Equity / Risk-Sentiment Desk:** SPX 7661 ثابت، Nasdaq 29329 ثابت؛ Wall Street أغلق منخفضاً أمس على bond yields لكن Asia/Europe الآن flat؛ risk-off خفيف لكن لا panic؛ KOSDAQ alert كان false؛ mixed regime صحيح.
-
-**Risk Manager:** account $459، لا positions مفتوحة، REVERT محظور بعد 5 خسائر متتالية – صحيح؛ news_block لـ GBP/EUR قبل PMIs صحيح؛ caution mode + 0.6 risk_mult مناسب؛ لا خطر جديد؛ نبقى كما نحن حتى PMIs.
-
-**Market Historian:** آخر مرة EUR/GBP/CHF stalled عند قمم 20+ ساعة بدون catalyst (يوليو 2025، مارس 2024)، تصحح 50-80% خلال 2-5 أيام؛ الآن 23 ساعة stall، لا breakdown بعد لكن pattern يشبه؛ fade -0.2 conservative صحيح؛ pre-PMI voids تاريخياً = ranging ثم breakout/breakdown بعد الرقم؛ لا edge الآن.
-
-**Chairman:** لا جديد منذ 01:22 UTC؛ كل المعطيات stale؛ EUR/GBP/CHF stall الآن 23 ساعة (fade -0.2 يبقى)، AUD +0.1 من RBA يبقى، ذهب/نفط fade -0.3 يبقى؛ REVERT محظور، news_block صحيح؛ conf ينخفض إلى 0.3 (لا evidence جديد)؛ننتظر PMIs؛ لا تغيير في التوجيهات.
-
-## Psyche
-
-**Awareness:** fired=yes – قارنت مع 01:22 UTC: لا تغيير في الأسعار (EUR 1.1695 ثابت، GBP 1.3649 ثابت، XAU 4527 ثابت، OIL 87.24 ثابت)؛ لا headlines جديدة مؤثرة؛ نحن نكرر نفس التوجيهات منذ ساعتين – هذا صحيح (consistency في pre-event void)، ليس flip-flopping.
-
-**Greed:** fired=no – conf منخفض 0.3، معظم biases ضعيفة (|bias|<=0.3)، prefer_symbols قصير (AUD فقط)، لا لغة "easy money"؛ لا علامات طمع.
-
-**Fear:** fired=yes – المجلس يكرر "await PMIs" منذ 4 قرارات لكن لا يتحرك؛ هذا ليس over-reaction بل prudence صحيحة؛ لكن خفض conf من 0.35 إلى 0.3 بدون سبب جديد = خوف خفيف من الجمود؛ نبقى caution لكن لا نخفض أكثر.
-
-**Prudence:** fired=yes – كل biases |<=0.3| لا تحتاج مصدرين (ضعيفة)؛ Market Historian أعطى analog لـ EUR/GBP/CHF stall؛ لا strong calls؛ كل شيء متوازن.
-
-**Intuition:** الأسواق في "dead zone" قبل PMIs – أي حركة الآن هي noise؛ الفرصة الحقيقية بعد 4-6 ساعات عندما تنكسر ranges؛ الآن وقت صبر ليس action.
-
-**Mind state:** calm – لا تغيير، لا ضغط، ننتظر catalyst؛ المجلس متفق ومنضبط.
-
-## DIRECTIVES
-
-risk_mode=caution
-risk_mult=0.6
-regime=mixed
-bias_USD=0.0
-bias_EUR=-0.2
-bias_GBP=-0.2
-bias_JPY=0.0
-bias_AUD=0.1
-bias_NZD=0.0
-bias_CAD=0.0
-bias_CHF=-0.2
-bias_XAU=-0.3
-bias_XAG=-0.3
-bias_OIL=-0.3
-bias_US500=-0.2
-bias_US100=-0.2
-bias_US30=-0.2
+_US30=-0.2
 bias_GER40=-0.2
 conf=0.3
 allow_books=INTRADAY,SWING,POSITION,SHOCK,COUNCIL
@@ -3913,3 +3807,69 @@ summary_ar=كل التوجهات ثابتة 195 دقيقة؛ سيولة ميتة
 mind=calm
 psyche_flags=awareness,prudence,intuition
 intuition=الاثنين صباحاً سيحمل الحركة الحقيقية: إما XAU يكسر 4650 أو يتصحح لـ4550، وCAD سيتفاعل مع ردود كندا على التعريفات
+
+
+# 2026-08-23 05:50 UTC
+## Council debate
+
+**Chief Macro Economist:** السيولة ميتة منذ 210 دقائق، لا محفزات 36 ساعة (Bessent يتكلم بعد 2169 دقيقة = 36 ساعة). الأسواق جامدة: EURUSD/GBPUSD/USDJPY ثابتة تماماً منذ 5 ساعات. النمو العالمي مختلط (أوروبا ضعيفة، أميركا معتدلة)، لكن لا بيانات جديدة. الوضع كما هو.
+
+**Central-Bank Watcher:** لا خطابات، لا مفاجآت. آخر حدث: Bessent تدخل لدعم JPY (الأسبوع الماضي)، الأثر باقٍ (USDJPY 158.98 مستقر). BoJ hawkish، Fed/ECB/BoE على hold. bias_JPY=0.3 صحيح لكن السعر لم يتحرك منذ يوم كامل. لا سبب للتغيير.
+
+**Geopolitical & Crisis Analyst:** أوكرانيا: Macron يركز على صواريخ اعتراضية، روسيا تضرب أهداف اقتصادية – تصعيد تدريجي لكن لا صدمة جديدة منذ 48 ساعة. إيران تحذر من "حرب اقتصادية" أميركية لكن لا عقوبات جديدة اليوم. كندا-أميركا: تعريفات Trump الجديدة (WSJ/MarketWatch أمس)، كندا أعلنت تعريفات انتقامية – لكن USDCAD 1.3767 ثابت منذ 12 ساعة، السوق هضم الخبر. لا حدث severity-2/3 نشط الآن.
+
+**FX Strategist:** كل الأزواج ميتة: EURUSD 1.1676 (±0 منذ 5 ساعات)، GBPUSD 1.3644 (±0)، USDJPY 158.98 (±0)، USDCAD 1.3767 (±0). bias_CAD=-0.4 صحيح (تعريفات Trump) لكن السعر لم يتفاعل منذ 12 ساعة = السوق ينتظر رد فعل كندا الرسمي يوم الاثنين. bias_JPY=0.3 صحيح (تدخل Bessent) لكن لا زخم جديد. bias_AUD=-0.1 ضعيف جداً، لا دليل قوي. كل شيء آخر 0.0 منطقي.
+
+**Gold & Oil Trader:** XAU 4603.45 ثابت منذ 18 ساعة بالقرب من ATH 4650 – لا اختراق، لا تصحيح، bias=0.0 صحيح. XAG 68.94 هادئ. OIL: WTI 87.30، Brent 94.18 – Morgan Stanley خفضت التوقعات بعد اتفاق أميركا-إيران (أمس)، Citi ترى 150$ إذا استمر إغلاق Hormuz لكن لا إغلاق الآن. bias_OIL=-0.2 صحيح (تلاشي علاوة الحرب) لكن السعر ثابت منذ 24 ساعة. لا حركة حقيقية.
+
+**Equity / Risk-Sentiment Desk:** US500 7677، US100 29312، GER40 26106 – كلها ثابتة منذ 6 ساعات. Dow futures "تصلح بعض الضرر" (IBD) لكن لا حجم، لا volatility. regime=mixed صحيح. bias_US500=0.0 منطقي (كنا -0.2 لكن لا follow-through). VIX منخفض (لا بيانات لكن الأسهم هادئة). risk-on/risk-off معلق.
+
+**Risk Manager:** حالة الحساب: رصيد 457.93$، لا مراكز مفتوحة، يوم P/L=0، أسبوع P/L=0. SHOCK خسر 1.11$ أمس (1 صفقة، 0 أرباح)، OTHER ربح 0.35$ (1 صفقة، 1 ربح). لا loss streak خطير. الـSCORECARD ضعيف (22% hit rate 4h) لكن مستقر منذ 3 ساعات. risk_mode=normal، risk_mult=0.8 مناسب لنهاية أسبوع بلا محفزات. لا خطر نشط، لا سبب لـhalt/danger. السيولة رقيقة لكن لا whipsaw فعلي منذ 12 ساعة.
+
+**Market Historian:** **السياق التاريخي:** نهايات الأسبوع في آب (thin liquidity) عادةً تنتج false breakouts – آخر 5 سنوات، 70% من تحركات السبت-الأحد >0.3% انعكست يوم الاثنين. XAU عند ATH بدون زخم = نمط "stall before breakout or reversal" – تاريخياً 55% اختراق، 45% تصحيح، لكن القرار يأتي خلال 24-72 ساعة من الركود. USDCAD ثابت بعد أخبار تعريفات = "news already priced" – مثل تعريفات Trump 2025 على المكسيك (USDMXN قفز ثم استقر خلال 48 ساعة). **التشابه:** الآن يشبه 15 آب 2025 (نهاية أسبوع قبل Jackson Hole، كل الأزواج ±0.1% لمدة 36 ساعة، ثم انفجرت الحركة يوم الاثنين). **التحذير:** السعر الحالي (XAU 4603، USDJPY 159، USDCAD 1.377) في منتصف النطاقات – لا extended، لا oversold. الحركة الحقيقية ستأتي الاثنين صباحاً آسيا/لندن، ليس الآن.
+
+**Chairman:** أشكر الجميع. **الحقائق:** 1) لا حدث جديد منذ 3 ساعات (آخر تحديث: تعريفات كندا الانتقامية أمس، السعر لم يتفاعل). 2) كل الأسعار ثابتة (EURUSD/GBPUSD/USDJPY/XAU/OIL ±0 منذ 5-18 ساعة). 3) السيولة ميتة (نهاية أسبوع، لا محفزات 36 ساعة). 4) SCORECARD ضعيف (22%) لكن مستقر. 5) الحساب آمن (لا خسائر اليوم، لا مراكز). **القرار:** نبقي كل التوجهات ثابتة (bias_JPY=0.3، bias_CAD=-0.4، bias_OIL=-0.2، الباقي 0.0). conf=0.35 (منخفض بسبب scorecard ضعيف + عدم وجود محفزات). risk_mode=normal، risk_mult=0.8 (محافظ لنهاية أسبوع). allow_books=ALL (لا سبب لإزالة أي كتاب). لا news_block (Bessent بعد 36 ساعة). **المنطق:** المؤرخ محق – الحركة الحقيقية ستأتي الاثنين، ليس الآن. نحافظ على الانضباط.
+
+## Psyche
+
+**Awareness:** fired=yes · قارنت آخر 8 قرارات: كل التوجهات ثابتة منذ 210 دقائق (bias_JPY=0.3، bias_CAD=-0.4، bias_OIL=-0.2 لم تتغير منذ 22:42 أمس)، والأسعار أكدت صحتها (USDJPY مستقر، USDCAD لم يرتفع رغم التعريفات، OIL ثابت). لا flip-flopping، لا عناد – الثبات مبرر بغياب حقائق جديدة. الدروس المستفادة (BREAKOUT يفشل قبل البيانات، SHOCK يتاجر في الضوضاء) لا تنطبق الآن (لا بيانات قريبة، لا صفقات نشطة).
+
+**Greed:** fired=no · الثقة منخفضة (conf=0.35)، معظم التوجهات 0.0، risk_mult=0.8 (أقل من 1.0)، لا prefer_symbols. لا علامات طمع.
+
+**Fear:** fired=no · risk_mode=normal مبرر (لا حدث نشط، لا خسائر اليوم، السيولة رقيقة لكن لا whipsaw فعلي). المجلس لم يبالغ في رد الفعل.
+
+**Prudence:** fired=yes · bias_JPY=0.3 مدعوم بمصدرين (تدخل Bessent + BoJ hawkish) + تشابه تاريخي (تدخلات 2022/2024 استمرت أسابيع). bias_CAD=-0.4 مدعوم بمصدرين (تعريفات Trump + رد كندا) + سياق (USDCAD ثابت = السوق ينتظر). bias_OIL=-0.2 مدعوم بمصدر واحد فقط (Morgan Stanley) لكن ضعيف (0.2)، مقبول. كل التوجهات القوية (|bias|>=0.3) لها أساس صلب.
+
+**Intuition:** fired=yes · الاثنين صباحاً سيحمل قرار XAU (اختراق 4650 أو تصحيح لـ4550) وتفاعل CAD مع ردود كندا الرسمية – الآن هدوء ما قبل العاصفة، لا تطارد الأشباح.
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.8
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.0
+bias_GBP=0.0
+bias_JPY=0.3
+bias_AUD=-0.1
+bias_NZD=0.0
+bias_CAD=-0.4
+bias_CHF=0.0
+bias_XAU=0.0
+bias_XAG=0.0
+bias_OIL=-0.2
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.35
+allow_books=ALL
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=All biases unchanged 210min; weekend dead liquidity, no catalysts 36h; CAD weak on Trump tariffs, JPY supported by intervention; normal 0.8x
+summary_ar=كل التوجهات ثابتة 210 دقائق؛ سيولة ميتة نهاية أسبوع، لا محفزات 36 ساعة؛ CAD ضعيف على تعريفات Trump، JPY مدعوم بالتدخل؛ عادي 0.8x
+mind=calm
+psyche_flags=awareness,prudence,intuition
+intuition=الاثنين صباحاً سيحمل قرار XAU (اختراق 4650 أو تصحيح لـ4550) وتفاعل CAD مع ردود كندا الرسمية – الآن هدوء ما قبل العاصفة

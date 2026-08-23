@@ -1,6 +1,6 @@
 {
- "ts": 1787463729,
- "council_ts": 1787460569,
+ "ts": 1787464214,
+ "council_ts": 1787464214,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.8,
@@ -28,13 +28,12 @@
   "prefer_symbols": "none",
   "mind": "calm",
   "psyche_flags": "awareness,prudence,intuition",
-  "intuition": "الاثنين صباحاً سيحمل الحركة الحقيقية: إما XAU يكسر 4650 أو يتصحح لـ4550، وCAD سيتفاعل مع ردود كندا على التعريفات",
-  "summary": "All biases unchanged 195min; weekend dead liquidity, no catalysts 37h; CAD weak on new Trump tariffs, JPY supported by intervention; normal 0.8x",
-  "summary_ar": "كل التوجهات ثابتة 195 دقيقة؛ سيولة ميتة نهاية أسبوع، لا محفزات 37 ساعة؛ CAD ضعيف على تعريفات Trump الجديدة، JPY مدعوم بالتدخل؛ عادي 0.8x",
+  "intuition": "الاثنين صباحاً سيحمل قرار XAU (اختراق 4650 أو تصحيح لـ4550) وتفاعل CAD مع ردود كندا الرسمية – الآن هدوء ما قبل العاصفة",
+  "summary": "All biases unchanged 210min; weekend dead liquidity, no catalysts 36h; CAD weak on Trump tariffs, JPY supported by intervention; normal 0.8x",
+  "summary_ar": "كل التوجهات ثابتة 210 دقائق؛ سيولة ميتة نهاية أسبوع، لا محفزات 36 ساعة؛ CAD ضعيف على تعريفات Trump، JPY مدعوم بالتدخل؛ عادي 0.8x",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787252176,
