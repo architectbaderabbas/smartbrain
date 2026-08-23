@@ -1,6 +1,6 @@
 {
- "ts": 1787518515,
- "council_ts": 1787515030,
+ "ts": 1787518632,
+ "council_ts": 1787518632,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.7,
@@ -29,12 +29,11 @@
   "mind": "calm",
   "psyche_flags": "awareness,prudence,intuition",
   "intuition": "فتح طوكيو (6 ساعات) يحسم: USDJPY فوق 160 = خطر تدخل BoJ؛ ذهب فوق 4610 بحجم = اختراق حقيقي؛ نفط تحت 87 = تأكيد ضعف Goldman؛ الآن نراقب فقط",
-  "summary": "All biases unchanged 105min; weekend dead liquidity, Kashkari supports USD, USDJPY drifts 158.98, CAD weak on Trump, oil/gold flat; await Asia open; normal 0.7x",
-  "summary_ar": "كل التوجهات ثابتة 105 دقيقة؛ سيولة ميتة نهاية أسبوع، Kashkari يدعم USD، USDJPY ينجرف 158.98، CAD ضعيف على Trump، نفط/ذهب ثابت؛ ننتظر فتح آسيا؛ عادي 0.7x",
+  "summary": "All biases unchanged 120min; weekend dead liquidity, Kashkari supports USD, USDJPY 158.98, CAD weak on Trump, oil/gold flat; await Tokyo open; normal 0.7x",
+  "summary_ar": "كل التوجهات ثابتة 120 دقيقة؛ سيولة ميتة نهاية أسبوع، Kashkari يدعم USD، USDJPY 158.98، CAD ضعيف على Trump، نفط/ذهب ثابت؛ ننتظر فتح طوكيو؛ عادي 0.7x",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787275316,
