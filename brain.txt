@@ -1,5 +1,5 @@
-ts=1787453830
-generated=2026-08-23 02:57 UTC
+ts=1787454729
+generated=2026-08-23 03:12 UTC (watchman heartbeat; council 14 min ago)
 version=1
 risk_mode=normal
 risk_mult=1.0
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=awareness,prudence,intuition
 intuition=الاثنين سيحمل الحركة: XAU إما يخترق 4620 أو يهبط لـ4580، CAD سيتفاعل مع التعريفات عند فتح أمريكا الشمالية
 news_events=none
+watchman=quiet (sev0)
