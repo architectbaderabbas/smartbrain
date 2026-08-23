@@ -1,11 +1,11 @@
 {
- "ts": 1787448432,
- "council_ts": 1787445731,
+ "ts": 1787449331,
+ "council_ts": 1787449331,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 1.0,
   "regime": "mixed",
-  "conf": 0.4,
+  "conf": 0.35,
   "bias_USD": 0.0,
   "bias_EUR": 0.3,
   "bias_GBP": 0.0,
@@ -27,14 +27,13 @@
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "awareness,prudence",
-  "intuition": "الاثنين سيحمل حركة - الذهب إما اختراق 4620 أو هبوط 4580، وCAD سيتفاعل مع التعريفات عند فتح السوق",
-  "summary": "All biases unchanged 135min; weekend dead liquidity, no catalysts 48h; prices frozen; normal 1.0x",
-  "summary_ar": "كل التوجهات ثابتة 135 دقيقة؛ سيولة ميتة نهاية أسبوع، لا محفزات 48 ساعة؛ الأسعار متجمدة؛ عادي 1.0x",
+  "psyche_flags": "awareness,prudence,intuition",
+  "intuition": "الاثنين سيحمل القرار: XAU إما اختراق 4620 أو هبوط 4580، وCAD سيتفاعل مع التعريفات عند فتح السوق",
+  "summary": "All biases unchanged 150min; weekend dead liquidity, no catalysts 48h; conf cut to 0.35 on weak scorecard; normal 1.0x",
+  "summary_ar": "كل التوجهات ثابتة 150 دقيقة؛ سيولة ميتة نهاية أسبوع، لا محفزات 48 ساعة؛ الثقة مخفضة لـ0.35 بسبب scorecard ضعيف؛ عادي 1.0x",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787234806,
