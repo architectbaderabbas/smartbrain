@@ -1,5 +1,5 @@
-ts=1787506932
-generated=2026-08-23 17:42 UTC
+ts=1787507594
+generated=2026-08-23 17:53 UTC (watchman heartbeat; council 11 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.7
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=awareness,prudence,intuition
 intuition=فتح آسيا الاثنين (8 ساعات) يحسم: USDJPY فوق 160 = خطر تدخل BoJ؛ ذهب فوق 4610 بحجم = صعود حقيقي؛ الآن نراقب فقط
 news_events=none
+watchman=quiet (sev0)
