@@ -1,5 +1,5 @@
-ts=1787468230
-generated=2026-08-23 06:57 UTC
+ts=1787468853
+generated=2026-08-23 07:07 UTC (watchman heartbeat; council 10 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.8
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=awareness,prudence,intuition
 intuition=الاثنين صباحاً سيحمل قرار XAUUSD (اختراق 4650 أو تصحيح لـ4550) وتفاعل USDCAD مع ردود كندا الرسمية – الآن هدوء ما قبل العاصفة، لا تتاجر في الفراغ
 news_events=none
+watchman=quiet (sev0)
