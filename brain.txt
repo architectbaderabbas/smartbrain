@@ -1,5 +1,5 @@
-ts=1787464214
-generated=2026-08-23 05:50 UTC
+ts=1787464632
+generated=2026-08-23 05:57 UTC (watchman heartbeat; council 6 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.8
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=awareness,prudence,intuition
 intuition=الاثنين صباحاً سيحمل قرار XAU (اختراق 4650 أو تصحيح لـ4550) وتفاعل CAD مع ردود كندا الرسمية – الآن هدوء ما قبل العاصفة
 news_events=none
+watchman=quiet (sev0)
