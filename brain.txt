@@ -1,5 +1,5 @@
-ts=1787485803
-generated=2026-08-23 11:50 UTC (watchman heartbeat; council 7 min ago)
+ts=1787486231
+generated=2026-08-23 11:57 UTC
 version=1
 risk_mode=normal
 risk_mult=0.8
@@ -25,10 +25,9 @@ bias_US500=0.0
 bias_US100=0.0
 bias_US30=0.0
 bias_GER40=0.0
-summary=All biases unchanged 285min; weekend dead liquidity, no catalysts 31h; CAD weak on Trump tariffs, JPY supported by intervention; normal 0.8x
-summary_ar=كل التوجهات ثابتة 285 دقيقة؛ سيولة ميتة نهاية أسبوع، لا محفزات 31 ساعة؛ CAD ضعيف على رسوم Trump، JPY مدعوم بالتدخل؛ عادي 0.8x
+summary=All biases unchanged 300min; weekend dead liquidity, no catalysts 30h; CAD weak on Trump tariffs, JPY supported by intervention; normal 0.8x
+summary_ar=كل التوجهات ثابتة 300 دقيقة؛ سيولة ميتة نهاية أسبوع، لا محفزات 30 ساعة؛ CAD ضعيف على رسوم Trump، JPY مدعوم بالتدخل؛ عادي 0.8x
 mind=calm
 psyche_flags=awareness,prudence,intuition
-intuition=فتح آسيا الاثنين (13 ساعة) سيحسم: ذهب يكسر 4650 أو يصحح 4550؛ USDCAD يتفاعل مع رد كندا؛ الآن سكون قبل قرار
+intuition=ذهب 4603 قرب قمة سنوية بلا دافع جديد = احتمال تصحيح؛ فتح آسيا يحسم؛ USDCAD ينتظر رد كندا؛ سكون قبل عاصفة محتملة
 news_events=none
-watchman=quiet (sev0)

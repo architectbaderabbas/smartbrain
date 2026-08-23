@@ -1,37 +1,4 @@
-n Iran" = السوق لا يصدق أن العرض سيتأثر، أو premium موجود بالفعل في $87. عنوان "oil set for second weekly gain" يؤكد اتجاه صعودي أسبوعي لكن intraday لا momentum. bias -0.3 خاطئ، يجب 0.0 أو +0.1 (أسبوعي صاعد).
-
-**Equity / Risk-Sentiment Desk:**
-US500 7670 هبط 700 نقطة أمس (عنوان) بسبب bond yields + Walmart، لكن الآن مستقر. Asian stocks "set to fall" (عنوان منذ 11 دقيقة) = risk-off خفيف. VIX data مفقودة لكن العناوين تقول "bond market stress" مستمر. regime = risk_off خفيف، ليس mixed. bias -0.2 على indices منطقي.
-
-**Risk Manager:**
-UK PMIs بعد 38 دقيقة = news_block صحيح (GBP:38:68). EUR PMIs انتهت، block يجب إزالته. REVERT محظور بسبب 5 خسائر متتالية = صحيح، يبقى محظوراً. daily loss 0% = لا خطر حساب. risk_mode=caution صحيح (PMIs + bond stress). risk_mult 0.65 معقول، لكن مع conf 0.35 منخفض يجب خفضه إلى 0.6.
-
-**Market Historian:**
-آخر مرة EUR/GBP stalled 24 ساعة قبل PMIs (نمط متكرر): 60% من الوقت breakout يحدث خلال ساعة من البيانات، 40% false breakout ثم reversal في نفس اليوم. French Services ضعيف + German Services أفضل قليلاً = EUR whipsaw نموذجي (صعود ثم هبوط أو العكس خلال 30-60 دقيقة). GBP عند قمة 6 أشهر: تاريخياً، UK PMI miss من هنا = -80 pips في ساعة؛ beat = +50 pips ثم stall. Gold 4565 عند ATH: آخر 3 مرات وصل ATH بدون محفز جديد، تراجع 1-2% خلال 48 ساعة. Oil $87 مع Iran sanctions: 2018-2019 sanctions رفعت oil من $63 إلى $75 في 6 أشهر، لكن هنا السعر بالفعل $87 = premium موجود، upside محدود ما لم يُغلق Hormuz. الخلاصة: EUR/GBP/CHF biases -0.1 ضعيفة (لا دليل على breakdown)، oil bias -0.3 خاطئ (يجب 0.0)، gold -0.3 صحيح.
-
-**Chairman:**
-نستمع. EUR PMIs مختلطة = لا edge، نبقي EUR 0.0. GBP قرب قمة، UK PMIs بعد 38 دقيقة = خطر whipsaw، نبقي GBP 0.0 ونحظر trading حتى بعد البيانات. CHF safe-haven demand خفيف = 0.0 بدلاً من -0.1. AUD لا محفز جديد = نخفض إلى 0.0. Oil: Gold Trader + Historian مقنعان، السوق يتجاهل sanctions = oil 0.0 بدلاً من -0.3. Gold: -0.3 نبقيها (ATH fade pattern). risk_mult نخفض إلى 0.6 (Risk Manager + conf منخفض). allow_books نبقي REVERT محظوراً. conf نرفع إلى 0.4 (وضوح أكثر بعد EUR data).
-
----
-
-## Psyche
-
-**Awareness:** fired=yes — قارنّا آخر 7 قرارات: EUR/GBP/CHF oscillated بين -0.1 و -0.2 لمدة 9 ساعات بدون أن يتحرك السعر (EURUSD 1.169 ثابت، GBPUSD 1.364 ثابت). هذا flip-flopping بدون حقائق جديدة. نُجمّد التغييرات ونضع الكل 0.0. oil تغيّر من -0.3 إلى 0.0 له مبرر (sanctions لم تحرك السعر). Decision memory يُظهر أننا ننتظر PMIs منذ 9 ساعات = الآن وقت التنفيذ لا التخمين.
-
-**Greed:** fired=no — لا ثقة عالية، conf=0.35 منخفض، معظم biases صفر، لا "easy money" language.
-
-**Fear:** fired=yes — council خفّض EUR/GBP/CHF من -0.2 إلى -0.1 قبل 75 دقيقة بسبب "no hard evidence"، الآن يريد تصفيرها بالكامل. هذا over-caution: EUR PMIs صدرت ولم تُعطِ bullish signal، فـ 0.0 منطقي، لكن GBP نخفضه قبل بياناته بـ 38 دقيقة = هذا حذر زائد أم حكمة؟ أرى حكمة (avoid whipsaw)، لكن أُحذّر: إذا UK PMI beat، سنفوّت الحركة.
-
-**Prudence:** fired=yes — oil تغيير من -0.3 إلى 0.0 له مصدران (Gold Trader + Historian) + analog تاريخي (2018 sanctions)، مقبول. EUR/GBP/CHF إلى 0.0 ليس له analog قوي، فقط "no catalyst" = نقبله لكن conf يجب أن يبقى ≤0.4. AUD من +0.1 إلى 0.0 بدون سبب جديد (RBA أمس لا يزال صالحاً) = أرفض، نبقيه +0.1.
-
-**Intuition:** fired=yes — أشعر أن UK Services PMI سيأتي 51.5 (أفضل من 51.8 توقع) لكن Manufacturing 51.0 (أضعف من 51.6) = GBP whipsaw صعوداً ثم هبوطاً خلال ساعة. لا أغيّر أرقاماً، فقط أقول: GBP 0.0 الآن صحيح، لكن بعد البيانات قد نرى +0.3 لمدة 30 دقيقة ثم -0.2.
-
----
-
-**Mental state:** focused (Awareness + Prudence يصححان المسار، Fear يُحذّر لكن لا يشلّ، Greed صامت).
-
-**Chairman final decision:**
-نتبنى Awareness (freeze EUR/GBP/CHF oscillation، الكل 0.0) + Prudence (نبقي AUD +0.1، له مبرر RBA). oil إلى 0.0 (مصدران + analog). conf نرفع إلى 0.4 (وضوح بعد EUR data). risk_mult 0.6 (Risk Manager). Intuition مثير لكن لا نتصرف عليه الآن، ننتظر UK print.
+الآن، ننتظر UK print.
 
 ---
 
@@ -3912,3 +3879,69 @@ summary_ar=كل التوجهات ثابتة 285 دقيقة؛ سيولة ميتة
 mind=calm
 psyche_flags=awareness,prudence,intuition
 intuition=فتح آسيا الاثنين (13 ساعة) سيحسم: ذهب يكسر 4650 أو يصحح 4550؛ USDCAD يتفاعل مع رد كندا؛ الآن سكون قبل قرار
+
+
+# 2026-08-23 11:57 UTC
+## Council debate
+
+**Chief Macro Economist:** الاقتصاد العالمي في وضع انتظار؛ لا بيانات جديدة منذ 300 دقيقة، عوائد الخزانة الأمريكية ارتفعت (El-Erian يحذر من تحول هيكلي)، لكن بدون أرقام جديدة لا نغير شيئاً؛ Bessent يتكلم بعد 30 ساعة (تأثير متوسط فقط).
+
+**Central-Bank Watcher:** BoJ تدخل بالين (Bessent's intervention headlines قديمة 36 ساعة)، USDJPY عند 158.98 مستقر؛ ECB: Lagarde قد تترك للمنتدى الاقتصادي 2027 (محايد للسوق)؛ لا خطابات جديدة، bias_JPY=0.3 يبقى.
+
+**Geopolitical & Crisis Analyst:** إيران تهدد الجيران ("full-scale war"، "economic war enemies") لكن 4-8 ساعات قديمة، الأسعار لم تتحرك (XAU ثابت 4603، OIL 87.3)؛ روسيا-أوكرانيا مستمر (Putin يريد 300k جندي، drone على Ozon)؛ كل هذا ضوضاء مزمنة، لا صدمة جديدة.
+
+**FX Strategist:** USDCAD 1.3767 (CAD ضعيف على رسوم Trump الجديدة، bias=-0.4 صحيح)؛ USDJPY 158.98 (تدخل Bessent يدعم JPY، bias=0.3 صحيح)؛ باقي العملات في نطاقات ضيقة نهاية أسبوع؛ لا تغيير مبرر.
+
+**Gold & Oil Trader:** XAU 4603 (ثابت 5 ساعات، عند 95% من نطاق السنة، headlines إيران قديمة لم تحرك السعر)؛ OIL 87.3 (Goldman يقول الطلب ضعيف، bias=-0.2 منطقي)؛ لا محفز جديد، نبقى كما نحن.
+
+**Equity / Risk-Sentiment Desk:** US500=7677، US100=29312، GER40=26106 (كلها ثابتة نهاية أسبوع)؛ لا VIX data، لا حركة؛ regime=mixed صحيح؛ فتح آسيا الاثنين (13 ساعة) سيحدد الاتجاه.
+
+**Risk Manager:** حساب 457$، لا مراكز مفتوحة، يوم P/L=0؛ SHOCK خسر 1.11$ اليوم (1 صفقة)، OTHER ربح 0.35$ (1 صفقة)؛ scorecard ضعيف 24h=19%، لكن عطلة نهاية أسبوع؛ risk_mult=0.8 آمن، لا سبب للتغيير.
+
+**Market Historian:** آخر مرة ذهب عند 4600+ بدون محفز جديد (أغسطس 2025)، صحح 2-3% خلال أسبوع؛ USDCAD فوق 1.37 على رسوم (2024 USMCA)، استمر أسابيع حتى رد كندا؛ نهايات أسبوع أغسطس: سيولة رقيقة، breakouts كاذبة؛ الآن نفس النمط.
+
+**Chairman:** 300 دقيقة بدون حقائق جديدة؛ كل ما تغير: headlines إيران (قديمة، لم تحرك الأسعار)، Lagarde قد تترك ECB 2027 (غير مادي)؛ الأسعار ثابتة (XAU/OIL/FX في نطاقات 0.1%)؛ scorecard ضعيف لكن عطلة؛ **قرار: نبقي كل شيء كما هو** (biases، risk_mult=0.8، normal)؛ فتح آسيا الاثنين سيعطي إشارات حقيقية.
+
+## Psyche
+
+**Awareness:** fired=yes · قارنت آخر 8 قرارات: **كلها متطابقة 300 دقيقة** (biases لم تتغير منذ 03:42 UTC)؛ هذا ليس عناد (الأسعار لم تدحضنا: XAU/JPY/CAD ثابتة)، لكن أيضاً ليس تحليلاً جديداً؛ نحن في "وضع الانتظار الصادق"؛ لا flip-flop، لا مشكلة.
+
+**Greed:** fired=no · conf=0.35 منخفضة، biases متواضعة (أقوى واحد CAD=-0.4)، prefer_symbols=none؛ لا علامات طمع؛ المجلس حذر بشكل صحيح.
+
+**Fear:** fired=no · لا رد فعل زائد؛ المجلس تجاهل headlines إيران القديمة (صحيح)، بقي في normal (صحيح)؛ لا ذعر، لا تجميد غير مبرر.
+
+**Prudence:** fired=yes · bias_CAD=-0.4 (أقوى call) مدعوم بمصدرين (Trump tariffs headlines، USDCAD price 1.3767)، لكن **لا analog تاريخي جديد** (Historian ذكر 2024 USMCA لكن قديم)؛ يجب أن يبقى -0.4 لا يرتفع.
+
+**Intuition:** fired=yes · أشعر أن **ذهب عند 4603 (95% نطاق سنة) بدون محفز جديد = قمة مؤقتة**؛ فتح آسيا إما يكسر 4650 (momentum) أو يصحح 4550؛ USDCAD ينتظر رد كندا الرسمي؛ الآن سكون قبل قرار.
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.8
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.0
+bias_GBP=0.0
+bias_JPY=0.3
+bias_AUD=0.0
+bias_NZD=0.0
+bias_CAD=-0.4
+bias_CHF=0.0
+bias_XAU=0.0
+bias_XAG=0.0
+bias_OIL=-0.2
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.35
+allow_books=ALL
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=All biases unchanged 300min; weekend dead liquidity, no catalysts 30h; CAD weak on Trump tariffs, JPY supported by intervention; normal 0.8x
+summary_ar=كل التوجهات ثابتة 300 دقيقة؛ سيولة ميتة نهاية أسبوع، لا محفزات 30 ساعة؛ CAD ضعيف على رسوم Trump، JPY مدعوم بالتدخل؛ عادي 0.8x
+mind=calm
+psyche_flags=awareness,prudence,intuition
+intuition=ذهب 4603 قرب قمة سنوية بلا دافع جديد = احتمال تصحيح؛ فتح آسيا يحسم؛ USDCAD ينتظر رد كندا؛ سكون قبل عاصفة محتملة

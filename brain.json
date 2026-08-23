@@ -1,6 +1,6 @@
 {
- "ts": 1787485803,
- "council_ts": 1787482631,
+ "ts": 1787486231,
+ "council_ts": 1787486231,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.8,
@@ -28,13 +28,12 @@
   "prefer_symbols": "none",
   "mind": "calm",
   "psyche_flags": "awareness,prudence,intuition",
-  "intuition": "فتح آسيا الاثنين (13 ساعة) سيحسم: ذهب يكسر 4650 أو يصحح 4550؛ USDCAD يتفاعل مع رد كندا؛ الآن سكون قبل قرار",
-  "summary": "All biases unchanged 285min; weekend dead liquidity, no catalysts 31h; CAD weak on Trump tariffs, JPY supported by intervention; normal 0.8x",
-  "summary_ar": "كل التوجهات ثابتة 285 دقيقة؛ سيولة ميتة نهاية أسبوع، لا محفزات 31 ساعة؛ CAD ضعيف على رسوم Trump، JPY مدعوم بالتدخل؛ عادي 0.8x",
+  "intuition": "ذهب 4603 قرب قمة سنوية بلا دافع جديد = احتمال تصحيح؛ فتح آسيا يحسم؛ USDCAD ينتظر رد كندا؛ سكون قبل عاصفة محتملة",
+  "summary": "All biases unchanged 300min; weekend dead liquidity, no catalysts 30h; CAD weak on Trump tariffs, JPY supported by intervention; normal 0.8x",
+  "summary_ar": "كل التوجهات ثابتة 300 دقيقة؛ سيولة ميتة نهاية أسبوع، لا محفزات 30 ساعة؛ CAD ضعيف على رسوم Trump، JPY مدعوم بالتدخل؛ عادي 0.8x",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787275316,
