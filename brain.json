@@ -1,6 +1,6 @@
 {
- "ts": 1787478462,
- "council_ts": 1787475024,
+ "ts": 1787479031,
+ "council_ts": 1787479031,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.8,
@@ -28,13 +28,12 @@
   "prefer_symbols": "none",
   "mind": "calm",
   "psyche_flags": "awareness,fear,prudence,intuition",
-  "intuition": "الأسواق نائمة الآن، لكن الاثنين صباحاً (فتح آسيا) سيحمل قرار الذهب (اختراق 4650 أو تصحيح لـ4550) وتفاعل USDCAD مع ردود كندا – الآن هدوء قبل العاصفة، انتظر",
-  "summary": "All biases unchanged 255min; weekend dead liquidity, no catalysts 33h; CAD weak on Trump tariffs, JPY supported by intervention; normal 0.8x",
-  "summary_ar": "كل التوجهات ثابتة 255 دقيقة؛ سيولة ميتة نهاية أسبوع، لا محفزات 33 ساعة؛ CAD ضعيف على رسوم Trump، JPY مدعوم بالتدخل؛ عادي 0.8x",
+  "intuition": "الأسواق نائمة الآن، لكن فتح آسيا الاثنين (14 ساعة) سيحمل قرار الذهب (اختراق 4650 أو تصحيح 4550) وتفاعل USDCAD مع رد كندا – الآن هدوء قبل عاصفة، انتظر",
+  "summary": "All biases unchanged 270min; weekend dead liquidity, no catalysts 32h; CAD weak on Trump tariffs, JPY supported by intervention; normal 0.8x",
+  "summary_ar": "كل التوجهات ثابتة 270 دقيقة؛ سيولة ميتة نهاية أسبوع، لا محفزات 32 ساعة؛ CAD ضعيف على رسوم Trump، JPY مدعوم بالتدخل؛ عادي 0.8x",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787275316,
