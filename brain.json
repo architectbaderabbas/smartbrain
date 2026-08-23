@@ -1,6 +1,6 @@
 {
- "ts": 1787452930,
- "council_ts": 1787449331,
+ "ts": 1787453830,
+ "council_ts": 1787453830,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 1.0,
@@ -28,13 +28,12 @@
   "prefer_symbols": "none",
   "mind": "calm",
   "psyche_flags": "awareness,prudence,intuition",
-  "intuition": "الاثنين سيحمل القرار: XAU إما اختراق 4620 أو هبوط 4580، وCAD سيتفاعل مع التعريفات عند فتح السوق",
-  "summary": "All biases unchanged 150min; weekend dead liquidity, no catalysts 48h; conf cut to 0.35 on weak scorecard; normal 1.0x",
-  "summary_ar": "كل التوجهات ثابتة 150 دقيقة؛ سيولة ميتة نهاية أسبوع، لا محفزات 48 ساعة؛ الثقة مخفضة لـ0.35 بسبب scorecard ضعيف؛ عادي 1.0x",
+  "intuition": "الاثنين سيحمل الحركة: XAU إما يخترق 4620 أو يهبط لـ4580، CAD سيتفاعل مع التعريفات عند فتح أمريكا الشمالية",
+  "summary": "All biases unchanged 165min; weekend dead liquidity, no catalysts 48h; prices frozen; normal 1.0x",
+  "summary_ar": "كل التوجهات ثابتة 165 دقيقة؛ سيولة ميتة نهاية أسبوع، لا محفزات 48 ساعة؛ أسعار جامدة؛ عادي 1.0x",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787234806,
