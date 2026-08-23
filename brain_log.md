@@ -1,85 +1,4 @@
-ases ضعيفة (max 0.3)، prefer_symbols قصير (AUD فقط)، لا لغة "easy money". الحالة حذرة بشكل صحيح.
-
-**Fear:** fired=yes - **الـ council عالق في caution mode منذ 9 ساعات** (من 18:21 UTC) رغم عدم وجود أي severity-2 event نشط الآن. الخوف من REVERT losses (5 متتالية) يمنع رفع risk_mult، لكن الـ account -6% من peak ليس كارثة. يجب التوازن: caution صح، لكن 0.6 risk_mult يمكن يبقى.
-
-**Prudence:** fired=yes - كل الـ biases |≤0.3| = أقل من 0.7 threshold للـ strong calls، لا shock directives، كل شيء مدعوم بـ stall/RBA/war premium decay. القرار محافظ بشكل صحيح.
-
-**Intuition:** الـ 24-hour stall هو **coiled spring** - أول PMI surprise (فرنسا 218min) سيطلق 50-100 pip move في 30 دقيقة؛ الاتجاه غير واضح الآن لكن الانفجار قادم.
-
-**Mental state:** calm (الـ council مرتاح بانتظار الـ catalyst، لا greed ولا panic، الـ fear خفيف ومبرر بالـ drawdown).
-
-## DIRECTIVES
-
-risk_mode=caution
-risk_mult=0.6
-regime=mixed
-bias_USD=0.0
-bias_EUR=-0.2
-bias_GBP=-0.2
-bias_JPY=0.0
-bias_AUD=0.1
-bias_NZD=0.0
-bias_CAD=0.0
-bias_CHF=-0.2
-bias_XAU=-0.3
-bias_XAG=-0.3
-bias_OIL=-0.3
-bias_US500=-0.2
-bias_US100=-0.2
-bias_US30=-0.2
-bias_GER40=-0.2
-conf=0.3
-allow_books=INTRADAY,SWING,POSITION,SHOCK,COUNCIL
-news_block=GBP:143:173;EUR:218:323
-block_symbols=none
-shock=none
-prefer_symbols=AUDUSD,AUDNZD
-summary=No change: EUR/GBP/CHF 24h stall (fade -0.2), AUD +0.1 (RBA), gold/oil war premium decay -0.3, REVERT banned, await EU PMIs 2.5-5h for breakout
-summary_ar=لا تغيير: EUR/GBP/CHF stall 24 ساعة (fade -0.2)، AUD +0.1 (RBA)، ذهب/نفط war premium يتلاشى -0.3، REVERT محظور، ننتظر PMIs أوروبية 2.5-5 ساعات
-mind=calm
-psyche_flags=awareness,fear,prudence
-intuition=الـ 24h stall هو coiled spring - أول PMI surprise سيطلق 50-100 pip move خلال 30 دقيقة
-
-
-# 2026-08-21 04:51 UTC
-## Council debate
-
-**Chief Macro Economist:**
-الاقتصاد الأميركي قوي (Treasury yields مرتفعة رغم التدخل)، لكن bond market stress يزيد المخاطر. أوروبا: PMIs خلال ساعة واحدة (GBP retail sales 68 دقيقة، French/German PMIs 143-158 دقيقة) - هذه هي الـ catalyst الوحيد اليوم. نبقى caution حتى نرى الأرقام.
-
-**Central-Bank Watcher:**
-Fed minutes أمس أظهرت September hike لا يزال محتمل (yields ارتفعت). ECB hawkish حسب headlines أمس (Euro gains on hawkish outlook). RBA hawkish أمس دعم AUD. لكن كل هذا stale (12-24 ساعة) - الـ fresh catalyst هو PMIs خلال 68-218 دقيقة.
-
-**Geopolitical & Crisis Analyst:**
-Trump "economic D-Day" على إيران (toughest sanctions in history) - لكن oil ارتفع أمس ثم faded (WTI 87، Brent 93.8 الآن). إيران dismissed threats. هذا economic war مش military escalation - oil premium يتلاشى صح (bias -0.3 صحيح). لا جديد منذ 3 ساعات.
-
-**FX Strategist:**
-EUR 1.1692، GBP 1.3642، CHF 0.7999 - كلهم stalled 24 ساعة عند highs (council fade -0.2 منذ 5 ساعات لكن ما في breakdown). AUD 0.7141 strongest (+0.1 RBA). USDJPY 159.05 (Japan intervention turbo-charged carry trade حسب CNBC). الـ 24h stall هو indecision قبل PMIs - direction غير واضح، نبقى -0.2 fade.
-
-**Gold & Oil Trader:**
-XAU 4541 (-0.3 bias صحيح، war premium fading). XAG 69 (same). Oil: WTI 87، Brent 93.8 - Trump economic sanctions مش supply shock، premium يتلاشى. Reuters: "oil set for second weekly rise" لكن momentum ضعيف. نبقى -0.3.
-
-**Equity / Risk-Sentiment Desk:**
-SPX 7659، NDX 29297، DAX 26025 - كلهم -0.2 bias (bond stress). Wall Street sank أمس (Dow -700). KOSDAQ alert كان false. Risk-off خفيف مش crisis. نبقى -0.2.
-
-**Risk Manager:**
-GBP retail sales 68 دقيقة، EUR PMIs 143-218 دقيقة - news_block صحيح. REVERT محظور (5 losses متتالية). Account 459$ (stable، لا خسائر اليوم). نبقى caution، risk_mult 0.6. لا خطر فوري.
-
-**Market Historian:**
-الـ 24h stall قبل tier-1 data (PMIs) historically ينتج breakout/breakdown خلال 30-60 دقيقة من الـ print. EUR/GBP/CHF عند 1-year highs (EUR 1.169 قرب top of range) - إذا PMIs disappointed، retrace 50-80 pips خلال ساعات (pattern 2024/2025). إذا beat، continuation 30-50 pips ثم stall. الـ fade bias -0.2 منطقي لكن ما تأكد - نحتاج PMI catalyst.
-
-**Chairman:**
-لا جديد منذ 3 ساعات. EUR/GBP/CHF stall 24h (fade -0.2 يبقى)، AUD +0.1 (RBA)، gold/oil -0.3 (war premium decay)، indices -0.2 (bond stress). PMIs خلال 68-218 دقيقة هي الـ catalyst الوحيد. نبقى caution، risk_mult 0.6، conf 0.3 (low لأن waiting for data). REVERT محظور. لا تغيير.
-
----
-
-## Psyche
-
-**Awareness:** fired=yes. قارنت مع PREVIOUS: لا تغيير منذ 3 ساعات (8 decisions متتالية نفس الـ biases تقريباً). هذا مش flip-flop، هذا patience صحيح قبل PMIs. SCORECARD: overall hit rate 49% 4h، XAU 50% 4h لكن 82% 24h (fade bias -0.3 قد يكون مبكر). REVERT 0% wins (5/5 losses) - الحظر صحيح. لا مشكلة.
-
-**Greed:** fired=no. Conf 0.3 منخفض، biases ضعيفة (max 0.3)، prefer_symbols قصير (AUD only). لا علامات greed.
-
-**Fear:** fired=yes. Council يكرر "await PMIs" منذ 8 ساعات دون تغيير - هذا over-caution خفيف. الـ 24h stall مش خطر، هو indecision طبيعي. لكن caution mode صحيح (PMIs قريبة). Fear خفيف مش مشكلة.
+er-caution خفيف. الـ 24h stall مش خطر، هو indecision طبيعي. لكن caution mode صحيح (PMIs قريبة). Fear خفيف مش مشكلة.
 
 **Prudence:** fired=yes. كل الـ biases |<=0.3| - لا strong calls. هذا صحيح (no fresh evidence منذ 3 ساعات). لكن EUR/GBP/CHF fade -0.2 منذ 5 ساعات دون breakdown يحتاج re-check: إذا ما في breakdown خلال 1 ساعة قبل PMIs، downgrade ل -0.1.
 
@@ -3899,3 +3818,78 @@ summary_ar=كل التوجهات ثابتة 225 دقيقة؛ سيولة ميتة
 mind=calm
 psyche_flags=awareness,prudence,intuition
 intuition=الاثنين صباحاً سيحمل قرار XAUUSD (اختراق 4650 أو تصحيح لـ4550) وتفاعل USDCAD مع ردود كندا الرسمية – الآن هدوء ما قبل العاصفة، لا تتاجر في الفراغ
+
+
+# 2026-08-23 07:42 UTC
+## Council debate
+
+**Chief Macro Economist:**
+العناوين الإيرانية (تهديدات حرب اقتصادية، تحذيرات للجيران) **قديمة 2-7 ساعات** ولم تُحرّك الأسعار إطلاقاً – النفط ثابت عند 87.3$، الذهب عند 4603$، لا تغيير منذ 4 ساعات. هذا **ليس حدث severity-2**، بل خطاب سياسي روتيني. الاقتصاد العالمي في نهاية أسبوع هادئة، لا بيانات كبرى 34 ساعة، السيولة ميتة.
+
+**Central-Bank Watcher:**
+Bessent يتكلم بعد 34 ساعة (medium impact) – لا يستحق news_block الآن. تدخل الين (Bessent/Warsh) **انتهى منذ أيام**، USDJPY مستقر عند 159 (لا حركة 12 ساعة). ECB: تبريد الأجور يدعم التوقف عن الرفع (EUR محايد). لا مفاجآت قادمة.
+
+**Geopolitical & Crisis Analyst:**
+إيران تهدد "الحرب الاقتصادية" منذ **7 ساعات** (05:37 UTC) – **الأسواق تجاهلتها تماماً**: النفط لم يتحرك، الذهب لم يتحرك، لا إغلاق لمضيق هرمز، لا ضربات. هذا **خطاب داخلي** لا فعل عسكري. القرار السابق (danger mode + shock على النفط) كان **مبالغة** – نلغيه الآن. الحريق في نيفادا والإعصار في هاواي **محليان**، لا تأثير عالمي.
+
+**FX Strategist:**
+كندا أعلنت رسوماً انتقامية على أمريكا منذ 11 ساعة – CAD ضعيف بحق (bias -0.4 صحيح). الين مدعوم بالتدخل (bias +0.3 صحيح). باقي العملات **ميتة** في سيولة نهاية الأسبوع – EUR/GBP/AUD/NZD لا محفزات، نبقيها صفر. USD محايد (لا بيانات، لا Fed).
+
+**Gold & Oil Trader:**
+الذهب عند 4603$ (قمة تاريخية) **بلا زخم** – ثابت 8 ساعات، لا safe-haven demand جديد رغم عناوين إيران. النفط 87.3$ ثابت 6 ساعات – تهديد هرمز **لم يُسعّر** لأن الأسواق لا تصدقه. Morgan Stanley خفّضت توقعات النفط بعد اتفاق أمريكا-إيران (عنوان قديم) – الاتجاه هبوطي متوسط الأجل. نبقي bias -0.2 للنفط، صفر للذهب.
+
+**Equity / Risk-Sentiment Desk:**
+المؤشرات ثابتة (SPX 7677، NDX 29312، DAX 26106) منذ 5 ساعات – **لا risk-off، لا risk-on**، سوق ميت. Dow futures تتعافى قليلاً قبل Nvidia earnings الأسبوع القادم – محايد. نبقي bias صفر لكل المؤشرات.
+
+**Risk Manager:**
+القرار السابق (danger mode 0.6x + shock على النفط) كان **خطأ فادح** – أعلنّا severity-2 على خطاب سياسي لم يُحرّك سعراً واحداً في 7 ساعات. **البروتوكول يُنتهك**: danger mode يتطلب "أزمة نشطة" – لا يوجد. نعود فوراً لـnormal mode 0.8x (كما كان قبل الإنذار الكاذب). SHOCK خسر -1.11$ على GER40 بسبب إشارة وهمية – نُبقيه في allow_books لكن ننزع shock directive.
+
+**Market Historian:**
+آخر مرة إيران هدّدت بإغلاق هرمز بدون فعل (2019، 2022، 2024): النفط ارتفع 1-3% لساعات ثم تلاشى في 24-48 ساعة. **هذه المرة لم يرتفع إطلاقاً** – السوق تعلّم. الذهب عند قمة 1y (4603$ = 99th percentile) بلا زخم جديد – التاريخ يقول: القمم المسطحة تُصحّح 1-2% خلال أيام. CAD ضعيف على رسوم ترامب – آخر مرة (2018 NAFTA) استمر الضعف أسابيع.
+
+**Chairman:**
+المجلس محق: القرار السابق كان **رد فعل مبالغ** على عنوان قديم. نُلغي danger mode ونعود لـnormal 0.8x. نُلغي shock directive (النفط لم يتحرك = لا صدمة). نُبقي bias_CAD -0.4 (رسوم حقيقية)، bias_JPY +0.3 (تدخل قائم)، bias_OIL -0.2 (اتجاه هبوطي)، الباقي صفر (سيولة ميتة). conf=0.35 (scorecard ضعيف). allow_books=ALL. لا news_block (Bessent بعد 34 ساعة).
+
+## Psyche
+
+**Awareness (fired=yes):** قارنتُ القرار السابق بالأسعار – أعلنّا danger + shock على إيران منذ ساعة، **الأسعار لم تتحرك نقطة واحدة**، هذا flip-flop (تضخيم ثم إلغاء بلا حقائق جديدة). نُجمّد التغيير المبالغ ونعود للوضع قبل الإنذار الكاذب (normal 0.8x).
+
+**Greed (fired=no):** لا ثقة عالية، لا biases قوية، لا prefer_symbols طويلة – لا جشع.
+
+**Fear (fired=yes):** المجلس بالغ في رد فعله على عنوان واحد (Iran war rhetoric) ورفع الوضع لـdanger بدون تهديد ملموس مستمر – هذا خوف زائد. نعيد التوازن: نعود لـnormal (ليس halt)، ونشرح السبب.
+
+**Prudence (fired=yes):** shock directive السابق (CL:1:30) لم يكن له مصدران مستقلان ولا analog تاريخي حقيقي (Market Historian قال: تهديدات هرمز السابقة تلاشت، وهذه المرة لم ترتفع الأسعار أصلاً) – نُلغيه.
+
+**Intuition (fired=yes):** الأسواق نائمة الآن، لكن الاثنين صباحاً (فتح آسيا) سيحمل قرار الذهب (اختراق 4650 أو تصحيح لـ4550) وتفاعل USDCAD مع ردود كندا – الآن هدوء، لا تتاجر في الفراغ.
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.8
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.0
+bias_GBP=0.0
+bias_JPY=0.3
+bias_AUD=0.0
+bias_NZD=0.0
+bias_CAD=-0.4
+bias_CHF=0.0
+bias_XAU=0.0
+bias_XAG=0.0
+bias_OIL=-0.2
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.35
+allow_books=ALL
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=False alarm cancelled: Iran rhetoric 7h old, prices unmoved, back to normal 0.8x; weekend dead liquidity, CAD weak on tariffs, JPY supported
+summary_ar=إنذار كاذب أُلغي: خطاب إيران عمره 7 ساعات، الأسعار لم تتحرك، عودة لوضع عادي 0.8x؛ سيولة ميتة نهاية أسبوع، CAD ضعيف على الرسوم، JPY مدعوم
+mind=calm
+psyche_flags=awareness,fear,prudence,intuition
+intuition=الأسواق نائمة الآن، لكن الاثنين صباحاً (فتح آسيا) سيحمل قرار الذهب (اختراق 4650 أو تصحيح لـ4550) وتفاعل USDCAD مع ردود كندا – الآن هدوء، لا تتاجر في الفراغ

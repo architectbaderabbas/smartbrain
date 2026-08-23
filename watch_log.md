@@ -826,3 +826,5 @@
 - 2026-08-23 07:07 UTC · heartbeat · quiet (sev0)
 - 2026-08-23 07:12 UTC · heartbeat · quiet (sev0)
 - 2026-08-23 07:27 UTC · heartbeat · quiet (sev0)
+- 2026-08-23 07:42 UTC · heartbeat · ALERT sev2: Iran President declares 'full-scale war' status; threatens oil route blockade and regional escalation -> protocol applied, council convening
+- 2026-08-23 07:42 UTC · FULL COUNCIL triggered: ALERT sev2: Iran President declares 'full-scale war' status; threatens oil route blockade and regional escalation
