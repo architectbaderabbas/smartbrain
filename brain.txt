@@ -1,5 +1,5 @@
-ts=1787470945
-generated=2026-08-23 07:42 UTC
+ts=1787471169
+generated=2026-08-23 07:46 UTC (watchman heartbeat; council 3 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.8
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=awareness,fear,prudence,intuition
 intuition=الأسواق نائمة الآن، لكن الاثنين صباحاً (فتح آسيا) سيحمل قرار الذهب (اختراق 4650 أو تصحيح لـ4550) وتفاعل USDCAD مع ردود كندا – الآن هدوء، لا تتاجر في الفراغ
 news_events=none
+watchman=quiet (sev0)
