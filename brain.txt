@@ -1,5 +1,5 @@
-ts=1787460569
-generated=2026-08-23 04:49 UTC
+ts=1787461029
+generated=2026-08-23 04:57 UTC (watchman heartbeat; council 7 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.8
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=awareness,prudence,intuition
 intuition=الاثنين صباحاً سيحمل الحركة الحقيقية: إما XAU يكسر 4650 أو يتصحح لـ4550، وCAD سيتفاعل مع ردود كندا على التعريفات
 news_events=none
+watchman=quiet (sev0)
