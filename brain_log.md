@@ -1,99 +1,4 @@
-الآن، ننتظر UK print.
-
----
-
-## DIRECTIVES
-risk_mode=caution
-risk_mult=0.6
-regime=risk_off
-bias_USD=0.0
-bias_EUR=0.0
-bias_GBP=0.0
-bias_JPY=0.0
-bias_AUD=0.1
-bias_NZD=0.0
-bias_CAD=0.0
-bias_CHF=0.0
-bias_XAU=-0.3
-bias_XAG=-0.3
-bias_OIL=0.0
-bias_US500=-0.2
-bias_US100=-0.2
-bias_US30=-0.2
-bias_GER40=-0.2
-conf=0.4
-allow_books=INTRADAY,SWING,POSITION,SHOCK,COUNCIL
-news_block=GBP:38:68
-block_symbols=none
-shock=none
-prefer_symbols=AUDUSD
-summary=EUR/GBP/CHF all to 0.0 (PMI data mixed, no edge), AUD holds +0.1 (RBA), oil to 0.0 (sanctions priced), gold -0.3 (ATH fade), await UK PMIs 38min
-summary_ar=EUR/GBP/CHF كلها 0.0 (بيانات PMI مختلطة، لا أفضلية)، AUD
-
-
-# 2026-08-21 08:22 UTC
-## Council debate
-
-**Chief Macro Economist:**
-أرقام PMI الأوروبية أقوى من المتوقع (Composite 9 أشهر أعلى)، لكن German Services 50.1 vs 49.6 سابق ضعيف. French Services 49.4 vs 49.8 تراجع. النمو الأوروبي هش، ليس انفجار. UK PMIs بعد 7 دقائق – إذا جاءت ضعيفة GBP ينهار، إذا قوية EUR/GBP يضغط. لا edge واضح قبل البيانات.
-
-**Central-Bank Watcher:**
-US Treasury yields لا تزال مرتفعة (عناوين 20-year highs)، Fed في Jackson Hole قريب، لكن لا كلام اليوم. ECB لن يتحرك على PMI واحد. BoE: UK PMIs forecast 51.6/51.8 (Manufacturing/Services) – إذا beat تدعم GBP، إذا miss تضعفه. 7 دقائق فقط، انتظر البيانات.
-
-**Geopolitical & Crisis Analyst:**
-Trump يهاجم حلفاء (عنوان Washington Post "lashing out at allies")، عقوبات إيران "toughest in history" لكن 6 أشهر حرب بلا نصر واضح. Oil $86.9 مستقر، لا صدمة جديدة. Ukraine/Russia مستمر (عناوين روتينية). Peru زلزال 6.7 لا يؤثر الأسواق. لا severity-2/3 event الآن.
-
-**FX Strategist:**
-EURUSD 1.16918 (+0.5% من أمس بعد PMI)، لكن الآن مستقر. GBP 1.36386 ينتظر PMI (7 دقائق). USD ضعيف (yields عالية لكن debt concerns مستمرة). JPY 158.84 (intervention fears تمنع صعود كبير). AUD 0.71567 (RBA hawkish أمس) الأقوى. CHF 0.80036 (carry trade demand). NZD/CAD محايدين. EUR/GBP 0.85723 – إذا UK PMI ضعيف ينزل، إذا قوي يرتفع.
-
-**Gold & Oil Trader:**
-XAUUSD 4575 (ATH، لكن 48h stall)، عناوين "war premium decay" صحيحة – لا escalation جديد، fade مستمر. XAGUSD 69.4 يتبع. Oil 86.9 (عقوبات Iran مسعّرة، OPEC+ لا جديد)، عناوين "second weekly gain" لكن momentum ضعيف. bias -0.3 XAU صحيح، OIL إلى 0.0 صحيح (لا edge).
-
-**Equity / Risk-Sentiment Desk:**
-US500 7671 (-700 points أمس على yields)، عناوين "bond market stress" و"bubble" warnings. Risk-off واضح (yields vs stocks). GER40 26075 (+war-hit Europe recovering). VIX data missing لكن headlines تقول stress. Regime = risk_off صحيح. Indices bias -0.2 معقول.
-
-**Risk Manager:**
-UK PMI في 7 دقائق – news_block GBP صحيح. REVERT محظور (5 losses)، صحيح. Daily P/L 0، لا emergency. لكن danger mode من 15 دقيقة بسبب "ALERT sev2 Eurozone PMI" – هذا مبالغة: PMI أقوى قليلاً ليس severity-2. يجب خفض إلى caution. risk_mult 0.6 مناسب قبل UK data.
-
-**Market Historian:**
-آخر مرة Eurozone PMI beat (يوليو 2025)، EURUSD ارتفع 0.3% يوم واحد ثم تلاشى 50% خلال أسبوع. الآن EURUSD +0.5% من أمس، pattern مشابه – fade محتمل. UK PMI beats تاريخياً تدفع GBP +0.4-0.7% في 4 ساعات؛ misses تسقطه -0.5-0.9%. Gold عند ATH: آخر 3 مرات وصل ATH بدون USD ضعف قوي، تراجع 1-2% خلال 3-5 أيام. XAU -0.3 bias منطقي. Oil $86-89: نطاق 3 أسابيع، breakout يحتاج supply shock حقيقي – لا يوجد، 0.0 bias صحيح.
-
-**Chairman:**
-PMI الأوروبي أقوى لكن ليس game-changer (Services ضعيف). danger mode مبالغة – نعود caution. UK PMI خلال 7 دقائق: نبقي news_block GBP، نرفع conf قليلاً (0.45) لأن EUR data أعطى clarity. EUR bias يبقى 0.0 (beat واحد لا يكفي لـ +0.5). GBP يبقى 0.0 (ننتظر بيانات). AUD +0.1 (RBA). XAU -0.3 (ATH fade). OIL 0.0. Indices -0.2 (yields stress). risk_mult 0.6. allow_books نفس (REVERT محظور). prefer_symbols: AUDUSD (الأنظف).
-
----
-
-## Psyche
-
-**Awareness:** fired=yes. قارنت آخر 8 قرارات: EUR/GBP/CHF biases تغيّرت 6 مرات (0 → -0.1 → -0.2 → -0.1 → 0 → -0.2 → -0.1 → 0) بدون حقائق جديدة قوية – flip-flopping. الآن EUR 0.0 صحيح (PMI beat واحد لا يكفي). danger mode من 15 دقيقة كان مبالغة (sev2 غير صحيح)، نعود caution.
-
-**Greed:** fired=no. conf 0.45 منخفض، biases ضعيفة، لا لغة "easy money".
-
-**Fear:** fired=yes. danger mode من PMI beat كان over-reaction (ليس severity-2). نعود caution، نشرح: PMI أقوى قليلاً ليس أزمة.
-
-**Prudence:** fired=yes. كل |bias| < 0.5، لا strong calls، لا حاجة downgrade. لكن تطلب: UK PMI إذا beat قوي (>1σ) يمكن GBP +0.3-0.4، لكن ننتظر البيانات أولاً.
-
-**Intuition:** fired=yes. EURUSD سيتلاشى إلى 1.165 خلال 12 ساعة (PMI fade pattern تاريخي)، لكن Chairman لا يتبنّى (ننتظر UK data أولاً).
-
-**Mind state:** calm (عدنا من fear/danger إلى caution، biases محايدة، ننتظر UK PMI).
-
----
-
-## DIRECTIVES
-
-risk_mode=caution
-risk_mult=0.6
-regime=risk_off
-bias_USD=0.0
-bias_EUR=0.0
-bias_GBP=0.0
-bias_JPY=0.0
-bias_AUD=0.1
-bias_NZD=0.0
-bias_CAD=0.0
-bias_CHF=0.0
-bias_XAU=-0.3
-bias_XAG=-0.3
+ias_XAG=-0.3
 bias_OIL=0.0
 bias_US500=-0.2
 bias_US100=-0.2
@@ -3945,3 +3850,82 @@ summary_ar=كل التوجهات ثابتة 300 دقيقة؛ سيولة ميتة
 mind=calm
 psyche_flags=awareness,prudence,intuition
 intuition=ذهب 4603 قرب قمة سنوية بلا دافع جديد = احتمال تصحيح؛ فتح آسيا يحسم؛ USDCAD ينتظر رد كندا؛ سكون قبل عاصفة محتملة
+
+
+# 2026-08-23 13:05 UTC
+## Council debate
+
+**Chief Macro Economist:**
+الاقتصاد العالمي في فراغ بيانات؛ عوائد الخزانة الأمريكية ترتفع رغم عمليات الشراء (yields rising despite buybacks) = إشارة هيكلية لضغط طويل الأمد على USD؛ لا تغيير في الدورة حتى بيانات جديدة؛ نبقى محايدين.
+
+**Central-Bank Watcher:**
+Bessent يتحدث بعد 28.9 ساعة (تأثير متوسط) = لا حاجة لحجب؛ تدخل الين (Bessent intervention) ما زال يدعم JPY لكن المقالات تسأل "نقطة تحول أم راحة مؤقتة؟" = الدعم يتلاشى؛ Lagarde قد تترك ECB 2027 للمنتدى الاقتصادي = لا تأثير فوري؛ لا تغيير.
+
+**Geopolitical & Crisis Analyst:**
+إيران ترد على عقوبات أمريكية جديدة (12:33 UTC = منذ 32 دقيقة) بـ"desperate US will fail" = خطاب روتيني لا تصعيد؛ هاكرز إيرانيون أغلقوا محطة طاقة بريطانية (20:50 أمس) = حدث أمني لكن بلا تأثير على الأسواق؛ حرب تجارية US-Canada تتصاعد (Trump: "No more!!!" 11:17 UTC) = CAD يبقى ضعيفاً؛ Putin يريد تجنيد 300k جندي جديد = تصعيد لكن مُسعّر؛ لا صدمات جديدة.
+
+**FX Strategist:**
+USDCAD 1.3767 قرب أعلى مستوى سنوي؛ الحرب التجارية تدعم USD ضد CAD؛ bias_CAD=-0.4 صحيح؛ USDJPY 158.978 = تدخل Bessent يتلاشى (المقالات تقول "yen poised to test 160 again")؛ bias_JPY=+0.3 يضعف؛ باقي العملات في نطاقات ضيقة؛ لا تغيير.
+
+**Gold & Oil Trader:**
+ذهب 4603.45 = قرب قمة تاريخية بلا محفز جديد منذ 5 ساعات؛ المقالات تقول "rally faces reversal test" و"gold rising but does it protect from inflation?" = شك في الاستمرارية؛ bias=0.0 صحيح لكن خطر تصحيح؛ نفط 87.30 (WTI) مستقر؛ Goldman تقول "demand takes big hit" = ضغط هبوطي؛ bias_OIL=-0.2 صحيح؛ لا تغيير.
+
+**Equity / Risk-Sentiment Desk:**
+US500 7677 مستقر؛ Equal-weight S&P يقود السوق 2026 ووصل 100 مليار$ = اتساع صحي؛ لكن مقالات تحذر "biggest bubble may be popping" و"indicator close to breaking 150-year record" (Burry) = خطر تصحيح؛ regime=mixed صحيح؛ bias_US500=0.0 مناسب؛ لا تغيير.
+
+**Risk Manager:**
+لا أحداث tier-1 قبل 28.9 ساعة؛ سيولة نهاية أسبوع ضعيفة لكن مستقرة؛ الحساب +0$ اليوم، لا مراكز مفتوحة؛ SHOCK خسر -1.11$ أمس (1 صفقة، 0 أرباح) = أداء ضعيف لكن عينة صغيرة؛ risk_mode=normal مع risk_mult=0.8 مناسب؛ لا خطر فوري.
+
+**Market Historian:**
+ذهب عند قمم تاريخية بلا محفز = آخر 5 مرات (2020، 2024، 2025) تصحح 1-2% خلال 48 ساعة إلا إذا جاء حدث جديد؛ الآن لا حدث؛ تدخل الين (Bessent) = تاريخياً يتلاشى خلال 2-6 أسابيع (BoJ 2022/2024)؛ USDJPY يقترب من 160 مجدداً يؤكد ذلك؛ حرب تجارية US-Canada = CAD ضعف 2018 بنفس النمط؛ bias_CAD=-0.4 منطقي؛ نفط مع "demand hit" = شبيه 2019 (تراجع طلب الصين)، هبط 5-8% خلال شهر؛ bias_OIL=-0.2 قد يُعمّق لـ-0.3.
+
+**Chairman:**
+الأدلة: (1) لا محفزات جديدة منذ 5 ساعات؛ (2) ذهب عند قمة بلا دافع = خطر تصحيح؛ (3) JPY يضعف (مقالات تقول "test 160 again")؛ (4) CAD ضعيف على حرب تجارية؛ (5) نفط تحت ضغط طلب. القرار: نُعمّق bias_OIL لـ-0.3 (Goldman + تاريخ)؛ نُخفّض bias_JPY لـ+0.2 (تلاشي التدخل)؛ نُبقي bias_XAU=0.0 (محايد قرب قمة)؛ باقي التوجهات ثابتة؛ risk_mode=normal 0.8x؛ conf=0.4 (أدلة متوسطة الجودة).
+
+---
+
+## Psyche
+
+**Awareness:** fired=yes — المجلس يُكرر نفس التوجهات منذ 315 دقيقة (5.25 ساعة)؛ الأسعار تحركت: USDJPY +0.3% (يؤكد ضعف bias_JPY)، ذهب ثابت عند 4603 (يؤكد 0.0)، نفط -0.2% (يؤكد bias سلبي)؛ التغييرات المقترحة (JPY +0.3→+0.2، OIL -0.2→-0.3) مبنية على أدلة جديدة (مقالات Bessent، Goldman) = ليست تقلباً؛ مقبول.
+
+**Greed:** fired=no — conf=0.4 معتدل، لا توجهات قوية (أقصى |bias|=0.4)، لا prefer_symbols، لا لغة "فرصة سهلة"؛ آمن.
+
+**Fear:** fired=no — لا رد فعل مبالغ؛ القرار يُعدّل توجهين بناءً على أدلة (مقالات حديثة + تاريخ)؛ متوازن.
+
+**Prudence:** fired=yes — تعميق bias_OIL لـ-0.3 مبني على مصدرين (Goldman + Market Historian)؛ تخفيض bias_JPY لـ+0.2 مبني على مصدرين (مقالات "test 160" + تاريخ تلاشي التدخل)؛ مقبول؛ لكن ذهب عند 4603 (قمة تاريخية) بـbias=0.0 بلا analog واضح = يجب حذر؛ نبقيه 0.0.
+
+**Intuition:** fired=yes — ذهب 4603 في سكون نهاية أسبوع = إما اختراق حقيقي (يحتاج محفز) أو قمة كاذبة؛ فتح آسيا الاثنين يحسم؛ إن ارتفع فوق 4610 بحجم = اتجاه صاعد؛ إن فشل = تصحيح لـ4580؛ نراقب.
+
+---
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.8
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.0
+bias_GBP=0.0
+bias_JPY=0.2
+bias_AUD=0.0
+bias_NZD=0.0
+bias_CAD=-0.4
+bias_CHF=0.0
+bias_XAU=0.0
+bias_XAG=0.0
+bias_OIL=-0.3
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.4
+allow_books=ALL
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=JPY weakens as Bessent intervention fades (toward 160); CAD weak on trade war; oil pressured by demand hit (Goldman); gold at ATH awaits catalyst; normal 0.8x
+summary_ar=JPY يضعف مع تلاشي تدخل Bessent (نحو 160)؛ CAD ضعيف على حرب تجارية؛ نفط مضغوط بتراجع طلب (Goldman)؛ ذهب عند قمة ينتظر محفز؛ عادي 0.8x
+mind=calm
+psyche_flags=awareness,prudence,intuition
+intuition=ذهب 4603 في سكون = إما اختراق حقيقي (يحتاج محفز) أو قمة كاذبة؛ فتح آسيا الاثنين يحسم؛ فوق 4610 بحجم = صاعد؛ فشل = تصحيح لـ4580
