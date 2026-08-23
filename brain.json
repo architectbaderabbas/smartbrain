@@ -1,46 +1,40 @@
 {
- "ts": 1787455630,
- "council_ts": 1787453830,
+ "ts": 1787456541,
+ "council_ts": 1787456541,
  "directives": {
   "risk_mode": "normal",
-  "risk_mult": 1.0,
+  "risk_mult": 0.8,
   "regime": "mixed",
   "conf": 0.35,
   "bias_USD": 0.0,
-  "bias_EUR": 0.3,
+  "bias_EUR": 0.0,
   "bias_GBP": 0.0,
   "bias_JPY": 0.3,
-  "bias_AUD": 0.1,
+  "bias_AUD": -0.1,
   "bias_NZD": 0.0,
   "bias_CAD": -0.4,
   "bias_CHF": 0.0,
   "bias_XAU": 0.0,
   "bias_XAG": 0.0,
   "bias_OIL": -0.2,
-  "bias_US500": -0.2,
-  "bias_US100": -0.2,
-  "bias_US30": -0.2,
-  "bias_GER40": 0.2,
+  "bias_US500": 0.0,
+  "bias_US100": 0.0,
+  "bias_US30": 0.0,
+  "bias_GER40": 0.0,
   "allow_books": "ALL",
   "news_block": "none",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "awareness,prudence,intuition",
-  "intuition": "الاثنين سيحمل الحركة: XAU إما يخترق 4620 أو يهبط لـ4580، CAD سيتفاعل مع التعريفات عند فتح أمريكا الشمالية",
-  "summary": "All biases unchanged 165min; weekend dead liquidity, no catalysts 48h; prices frozen; normal 1.0x",
-  "summary_ar": "كل التوجهات ثابتة 165 دقيقة؛ سيولة ميتة نهاية أسبوع، لا محفزات 48 ساعة؛ أسعار جامدة؛ عادي 1.0x",
+  "psyche_flags": "awareness,fear,prudence,intuition",
+  "intuition": "الاثنين سيحمل الحركة: XAU إما ي",
+  "summary": "False alarm cancelled: no cyber-attack confirmed, prices static 3h, back to normal 0.8x; weekend thin liquidity, no catalysts 48h; CAD weak on tariffs, JPY supported",
+  "summary_ar": "إنذار كاذب أُلغي: لا هجوم سيبراني مؤكد، الأسعار ثابتة 3 ساعات، عودة لوضع عادي 0.8x؛ سيولة ضعيفة نهاية أسبوع، لا محفزات 48 ساعة؛ CAD ضعيف على التعريفات، JPY مدعوم",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
-  {
-   "ts": 1787234806,
-   "what": "US Treasury intervention (Bessent) fails to contain bond selloff; yields jump despite action, signaling market stress",
-   "sev": 2
-  },
   {
    "ts": 1787252176,
    "what": "North Korea fires barrage of missiles toward sea after dismissing Trump overture; geopolitical escalation",
@@ -84,6 +78,11 @@
   {
    "ts": 1787410918,
    "what": "U.S. Army Secretary reportedly rebelling against Trump/Hegseth over Iran War; potential resignation signal amid military-civilian command crisis",
+   "sev": 2
+  },
+  {
+   "ts": 1787456530,
+   "what": "British Power Plants shut down in Iranian cyber-attack; Iran security chief threatens 'earthquake-like' retaliation amid US pressure",
    "sev": 2
   }
  ]
