@@ -1,5 +1,5 @@
-ts=1787445731
-generated=2026-08-23 00:42 UTC
+ts=1787446632
+generated=2026-08-23 00:57 UTC (watchman heartbeat; council 15 min ago)
 version=1
 risk_mode=normal
 risk_mult=1.0
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=awareness,prudence
 intuition=الاثنين سيحمل حركة - الذهب إما اختراق 4620 أو هبوط 4580، وCAD سيتفاعل مع التعريفات عند فتح السوق
 news_events=none
+watchman=quiet (sev0)
