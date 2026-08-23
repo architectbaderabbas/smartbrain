@@ -1,35 +1,4 @@
-ً الآن (Kent قال رفع ممكن، تضخم صاعد) = AUD قوي. ECB لا تغيير متوقع قريباً (PMI جيد لكن ليس صدمة). BoE محايد (PMI مختلط). Fed: سندات الخزانة فشلت بوقف ارتفاع العوائد (10-year rebound رغم buybacks Bessent) = USD ضعيف هيكلياً. BoJ: CPI متماشي، تدخل ممكن فوق 160 لكن الآن 158.5 = JPY محايد.
-
-**Geopolitical & Crisis Analyst:**
-إيران تهدد برد "مدمّر" لكن أمريكا تهدد بـ"economic D-Day" (عقوبات أقسى). حصار أمريكي قطع صادرات إيران للصين = نفط +2% أمس لكن اليوم مستقر $87-88 (السوق تجاهل تهديدات Trump حسب Axios). روسيا تختبر صواريخ قرب جزر متنازع عليها مع اليابان = توتر لكن ليس تصعيد حاد. الهدنة المحتملة تُضعف ذهب/نفط. خطر: Trump يتكلم بعد 12 ساعة قد يُصعّد أو يُهدّئ.
-
-**FX Strategist:**
-AUD الأقوى (RBA + نحاس/حديد ارتفع، AUDUSD عند 0.716 قرب أعلى 3 أشهر). CAD قوي (نفط $87، USDCAD عند 1.373 أدنى 3 أشهر). EUR صاعد (PMI قوي، EURUSD 1.170 يختبر مقاومة). GBP ضعيف من ذروة 1.366 (retail sales سلبي، PMI تباطأ). CHF ضعيف (carry trade، USDCHF 0.798 صاعد). JPY محايد (158.5، تدخل بعيد). USD ضعيف عموماً (سندات فاشلة، دين).
-
-**Gold & Oil Trader:**
-XAUUSD عند $4590 = ATH جديد لكن momentum يتباطأ (3 أيام عند 4580-4600، لا اختراق حاسم). الهدنة المحتملة + عوائد أمريكية صاعدة = ضغط سلبي. تاريخياً ATH بدون محفز جديد يتراجع 1-2% خلال أسبوع. USOIL $87.4 مستقر (حصار إيران مُسعّر، OPEC+ لا تغيير). اتجاه: ذهب fade -0.3، نفط محايد 0.0.
-
-**Equity / Risk-Sentiment Desk:**
-US500 عند 7677 (-700 نقطة أمس حسب IBD، اليوم مستقر). سندات ترتفع عوائدها = ضغط على أسهم. "bond market will burst stock bubble" (MarketWatch). Eurozone stocks صاعدة (PMI قوي). VIX غير متاح لكن sentiment مختلط. regime: mixed (أوروبا risk-on، أمريكا risk-off من سندات). indices bias -0.2 (حذر من فقاعة).
-
-**Risk Manager:**
-daily P/L +$0.23، equity $459 (حساب صغير). REVERT خسر 5 صفقات متتالية (-$31) = يجب إزالته من allow_books (قاعدة طوارئ). BREAKOUT خسر مرتين pre-data (درس واضح: تعطيل قبل أحداث). Trump speech بعد 12 ساعة = news_block USD ضروري. سيولة جيدة الآن (London active). خطر: flip-flopping (EUR كان 0.0 ثم 0.2 بدون حقائق جديدة قوية). risk_mult يبقى 0.6، caution mode.
-
-**Market Historian:**
-**Eurozone PMI beats:** آخر مرة composite قفز لـ9mo high (مثلاً Q2 2025)، EUR ارتفع 0.5-0.8% خلال 3-5 أيام ثم استقر. الآن EURUSD عند 1.170 (فوق 1.165 بـ50 نقطة منذ أمس) = الحركة بدأت، لكن مقاومة 1.175 قوية تاريخياً. **GBP من ذروة:** آخر مرة GBPUSD وصل 1.366 ثم تراجع (2024 Q3)، خسر 100-150 نقطة خلال أسبوعين. الآن عند 1.366 = ذروة، fade منطقي. **Gold ATH stall:** 2025 عدة مرات ذهب وصل ATH وتوقف 2-3 أيام، تراجع 1-2% ثم استأنف أو انهار حسب USD. الآن USD ضعيف لكن عوائد صاعدة = ذهب fade صحيح. **Oil $87 مع حرب:** 2022-2024 كل مرة نفط فوق $85 بسبب جيوسياسي بدون قطع إمداد حقيقي، تراجع 5-8% خلال شهر. الآن حصار إيران مُسعّر = نفط 0.0 أو fade طفيف.
-
-**Chairman:**
-أستمع للجميع. **الحقائق الصلبة:** Eurozone PMI أقوى 9 أشهر (مصدر: CryptoRank، ING)، RBA Kent متشدد (investingLive)، GBPUSD عند ذروة 6 أشهر، ذهب ATH $4590 لكن stall 3 أيام، نفط $87 مستقر، Trump يتكلم بعد 12 ساعة. **الأدلة القديمة:** EUR 0.2 كان بناءً على PMI = صحيح، نُبقيه. GBP -0.2 من ذروة = صحيح تاريخياً. AUD 0.2 (RBA) قوي. **المشكلة:** REVERT خسر 5 صفقات = يجب حظره (قاعدة). Awareness سيحذر من EUR flip (كان 0.0 ثم 0.2) لكن PMI حقيقة جديدة = مقبول. Greed لن يُطلق (biases متوازنة). Prudence سيطلب مصدرين لكل bias قوي = موجود. **القرار:** نُبقي EUR 0.2، GBP -0.2، AUD 0.2، CAD 0.1، ذهب -0.3، نفط 0.0. نحظر REVERT. conf 0.55 (أدلة جيدة لكن Trump غامض). risk_mult 0.6. caution mode. news_block لـTrump.
-
----
-
-## Psyche
-
-**Awareness:** fired=yes. قارنت القرار السابق: EUR قفز من 0.0 لـ0.2 قبل 6 ساعات بناءً على PMI preview، الآن PMI actual يؤكد = ليس flip-flopping بل تأكيد. REVERT خسر 5 صفقات متتالية (-$31) = يجب حظره حسب قاعدة الطوارئ (3 خسائر متتالية). SCORECARD يُظهر REVERT 0% hit rate = دليل إضافي. لا تناقض.
-
-**Greed:** fired=no. biases متوازنة (EUR/AUD/CAD إيجابي، GBP/CHF/ذهب/indices سلبي، باقي 0.0). prefer_symbols ثلاثة فقط. conf 0.55 معتدل. risk_mult 0.6 منخفض. لا لغة "easy money". الطمع غير موجود.
-
-**Fear:** fired=no. المجلس لم يتفاعل بشكل مفرط مع عنوان واحد. إيران تهدد لكن السوق تجاهل (Axios) = المجلس لم يُصعّد. REVERT حُظر بناءً على قاعدة (5 خسائر) ليس خوف. التوازن موجود.
+د.
 
 **Prudence:** fired=yes. كل bias قوي (|bias|>=0.5) يحتاج مصدرين + تاريخ: EUR 0.2 (PMI CryptoRank + ING + تاريخ 2025)، AUD 0.2 (RBA Kent investingLive + CAD 3mo high Reuters)، GBP -0.2 (ذروة 6mo Bloomberg + تاريخ 2024)، ذهب -0.3 (ATH stall FXStreet + تاريخ 2025). كلها مدعومة. مقبول.
 
@@ -3965,3 +3934,82 @@ summary_ar=Kashkari يدعم USD قليلاً، USDJPY ينجرف نحو 160 (ت
 mind=calm
 psyche_flags=awareness,fear,prudence,intuition
 intuition=فتح آسيا الاثنين يحسم: USDJPY فوق 160 قد يجلب تدخل BoJ (صدمة)؛ ذهب فوق 4610 بحجم = اتجاه صاعد؛ نراقب، لا نتصرف الآن
+
+
+# 2026-08-23 17:42 UTC
+## Council debate
+
+**Chief Macro Economist:**
+نهاية الأسبوع، سيولة ميتة. Kashkari قال سوق السندات يعمل "كما يجب" – يدعم USD قليلاً لكن لا يغير شيئاً. لا محفزات حقيقية حتى Bessent غداً (24 ساعة) وثقة المستهلك الثلاثاء. الاقتصادات في وضع انتظار.
+
+**Central-Bank Watcher:**
+Kashkari لا يقلق من عوائد السندات المرتفعة – هذا يعني Fed لن يتحرك قريباً، USD محايد. تدخل Bessent في JPY يتلاشى (USDJPY الآن 158.98، كان 155 يوم الجمعة)، BoJ قد يتدخل مجدداً فوق 160 لكن ليس الآن. ECB/BoE/BoJ كلهم صامتون نهاية الأسبوع.
+
+**Geopolitical & Crisis Analyst:**
+إيران تحذر دول الخليج من الانضمام لـ"الحرب الاقتصادية" لترامب – تصعيد كلامي فقط، لا صدمة. باكستان ترسل رئيس الجيش لطهران غداً – دبلوماسية، ليست أزمة. أوكرانيا/روسيا مستقر. لا خطر فوري على نفط/ذهب.
+
+**FX Strategist:**
+USDJPY ينجرف نحو 159 (تلاشي Bessent)، لكن بطيء – JPY bias يبقى -0.1 (ضعيف قليلاً). CAD ضعيف على تهديدات ترامب بالتعريفات (Pence حذّر من حرب تجارية) – bias -0.4 صحيح. EUR/GBP/AUD/NZD/CHF كلهم في نطاق ضيق، لا اتجاه. USD +0.05 من Kashkari يبقى.
+
+**Gold & Oil Trader:**
+ذهب 4603، فضة 68.9 – عند قمم تاريخية لكن بلا حجم نهاية الأسبوع، ينتظر فتح آسيا. UBS تتوقع 5000$ مارس – bullish طويل الأمد لكن الآن راكد، bias 0.0 صحيح. نفط 87.3 (WTI)، Goldman قالت الطلب ضعيف – bias -0.3 يبقى. إيران تهدد لكن لا تأثير على الإمدادات.
+
+**Equity / Risk-Sentiment Desk:**
+US500 عند 7677، Nasdaq 29312 – قرب قمم لكن حجم منخفض (نهاية أسبوع). Nvidia أرباحها هذا الأسبوع ستحرك السوق. الآن mixed regime صحيح، bias 0.0 للمؤشرات منطقي.
+
+**Risk Manager:**
+لا أحداث 24 ساعة القادمة، scorecard ضعيف (24% فقط)، خسارة SHOCK أمس -1.11$ (1 صفقة، 0 أرباح). risk_mult 0.7 صحيح. لا خطر فوري، لكن لا edge واضح – ابقَ محافظاً حتى فتح آسيا الاثنين يعطي اتجاه.
+
+**Market Historian:**
+نهايات الأسبوع بسيولة ميتة: تاريخياً، biases تحت 0.3 تبقى ثابتة، تحركات الأحد تُلغى الاثنين 60% من الوقت. USDJPY قرب 159: آخر مرة تلاشى تدخل (2024)، وصل 162 في أسبوعين قبل تدخل ثانٍ. ذهب عند ATH بلا حجم: 2020/2024 – اختراقات ATH في نهاية أسبوع فشلت 40% يوم الاثنين. CAD ضعيف على تعريفات: 2018 USMCA – USDCAD ارتفع 2% في شهر. النمط الآن: انتظار، لا إشارات قوية.
+
+**Chairman:**
+المجلس متفق: لا شيء تغيّر منذ 75 دقيقة. Kashkari دعم USD قليلاً (+0.05 يبقى)، JPY ينجرف (-0.1 يبقى)، CAD ضعيف (-0.4 يبقى)، نفط ضعيف (-0.3 يبقى)، ذهب/مؤشرات راكدة (0.0 يبقى). Scorecard ضعيف (24%)، SHOCK خسر أمس، risk_mult 0.7 صحيح. conf نرفعها قليلاً لـ0.5 لأن الصورة واضحة (انتظار)، لكن لا نتصرف. allow_books=ALL، لا blocks، لا shocks. نراقب فتح آسيا.
+
+---
+
+## Psyche
+
+**Awareness:** fired=yes. قارنت آخر 8 قرارات: biases ثابتة 9 ساعات (USD 0→0.05، JPY 0.3→-0.1، OIL -0.2→-0.3 فقط). لا flip-flopping، لكن الأسعار لم تتحرك (USDJPY 158.98 ثابت، XAU 4603 ثابت) – الثبات صحيح. SHOCK خسر -1.11$ أمس، لكن 1 صفقة فقط، لا نمط بعد. لا تناقض.
+
+**Greed:** fired=no. conf=0.5 معتدل، معظم biases قرب 0، prefer_symbols=none، risk_mult=0.7 منخفض. لا علامات طمع.
+
+**Fear:** fired=no. لا over-reaction، لا halt بلا سبب. risk_mode=normal صحيح (لا أحداث فورية). المجلس هادئ، ليس خائفاً.
+
+**Prudence:** fired=yes. كل biases تحت 0.5، لا calls قوية، لا حاجة لمصدرين. المجلس محافظ بشكل مناسب.
+
+**Intuition:** fired=yes. فتح آسيا الاثنين (8 ساعات) سيحسم: USDJPY فوق 160 قد يجلب تدخل BoJ ثانٍ (صدمة JPY)؛ ذهب فوق 4610 بحجم = اتجاه صاعد حقيقي؛ تحت 4590 = تصحيح. الآن نراقب فقط.
+
+---
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.7
+regime=mixed
+bias_USD=0.05
+bias_EUR=0.0
+bias_GBP=0.0
+bias_JPY=-0.1
+bias_AUD=0.0
+bias_NZD=0.0
+bias_CAD=-0.4
+bias_CHF=0.0
+bias_XAU=0.0
+bias_XAG=0.0
+bias_OIL=-0.3
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.5
+allow_books=ALL
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=All biases unchanged 75min; weekend dead liquidity, Kashkari supports USD, USDJPY drifts toward 159, CAD weak, oil/gold flat; await Asia open; normal 0.7x
+summary_ar=كل التوجهات ثابتة 75 دقيقة؛ سيولة ميتة نهاية أسبوع، Kashkari يدعم USD، USDJPY ينجرف نحو 159، CAD ضعيف، نفط/ذهب ثابت؛ ننتظر فتح آسيا؛ عادي 0.7x
+mind=calm
+psyche_flags=awareness,prudence,intuition
+intuition=فتح آسيا الاثنين (8 ساعات) يحسم: USDJPY فوق 160 = خطر تدخل BoJ؛ ذهب فوق 4610 بحجم = صعود حقيقي؛ الآن نراقب فقط

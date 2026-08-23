@@ -1,11 +1,11 @@
 {
- "ts": 1787506408,
- "council_ts": 1787503330,
+ "ts": 1787506932,
+ "council_ts": 1787506932,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.7,
   "regime": "mixed",
-  "conf": 0.45,
+  "conf": 0.5,
   "bias_USD": 0.05,
   "bias_EUR": 0.0,
   "bias_GBP": 0.0,
@@ -27,14 +27,13 @@
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "awareness,fear,prudence,intuition",
-  "intuition": "فتح آسيا الاثنين يحسم: USDJPY فوق 160 قد يجلب تدخل BoJ (صدمة)؛ ذهب فوق 4610 بحجم = اتجاه صاعد؛ نراقب، لا نتصرف الآن",
-  "summary": "Kashkari supports USD slightly, USDJPY drifts toward 160 (Bessent fade), CAD weak on trade war, oil/gold flat; normal 0.7x on weak scorecard",
-  "summary_ar": "Kashkari يدعم USD قليلاً، USDJPY ينجرف نحو 160 (تلاشي Bessent)، CAD ضعيف على حرب تجارية، نفط/ذهب ثابت؛ عادي 0.7x على scorecard ضعيف",
+  "psyche_flags": "awareness,prudence,intuition",
+  "intuition": "فتح آسيا الاثنين (8 ساعات) يحسم: USDJPY فوق 160 = خطر تدخل BoJ؛ ذهب فوق 4610 بحجم = صعود حقيقي؛ الآن نراقب فقط",
+  "summary": "All biases unchanged 75min; weekend dead liquidity, Kashkari supports USD, USDJPY drifts toward 159, CAD weak, oil/gold flat; await Asia open; normal 0.7x",
+  "summary_ar": "كل التوجهات ثابتة 75 دقيقة؛ سيولة ميتة نهاية أسبوع، Kashkari يدعم USD، USDJPY ينجرف نحو 159، CAD ضعيف، نفط/ذهب ثابت؛ ننتظر فتح آسيا؛ عادي 0.7x",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787275316,
