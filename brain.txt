@@ -1,5 +1,5 @@
-ts=1787494332
-generated=2026-08-23 14:12 UTC
+ts=1787495232
+generated=2026-08-23 14:27 UTC (watchman heartbeat; council 15 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.8
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=prudence,intuition
 intuition=فتح آسيا الاثنين يحسم ذهب: فوق 4610 بحجم = صاعد؛ فشل = تصحيح 4580؛ USDJPY فوق 160 يستدعي تدخل BoJ مجدداً
 news_events=none
+watchman=quiet (sev0)

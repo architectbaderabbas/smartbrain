@@ -1,5 +1,5 @@
 {
- "ts": 1787494332,
+ "ts": 1787495232,
  "council_ts": 1787494332,
  "directives": {
   "risk_mode": "normal",
@@ -34,6 +34,7 @@
   "news_events": "none"
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787275316,
