@@ -12,19 +12,19 @@
    "24h": 0
   },
   "XAG": {
-   "4h": 4,
-   "12h": 7,
-   "24h": 7
+   "4h": 0,
+   "12h": 4,
+   "24h": 4
   },
   "EUR": {
    "4h": 5,
-   "12h": 2,
+   "12h": 3,
    "24h": 3
   },
   "GBP": {
-   "4h": 82,
-   "12h": 76,
-   "24h": 76
+   "4h": 81,
+   "12h": 75,
+   "24h": 75
   },
   "JPY": {
    "4h": 7,
@@ -32,7 +32,7 @@
    "24h": 11
   },
   "OIL": {
-   "4h": 25,
+   "4h": 33,
    "12h": 0,
    "24h": 0
   },
@@ -48,9 +48,9 @@
   }
  },
  "by_mind_state%": {
-  "focused": 17,
+  "focused": 16,
   "?": 17,
-  "calm": 38
+  "calm": 39
  },
  "note": "hit = price moved in the direction of a bias with |bias|>=0.3 after the horizon; None = not enough data yet"
 }
