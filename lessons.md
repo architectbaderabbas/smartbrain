@@ -1,28 +1,5 @@
 # SmartBrain lessons (post-mortems on real trades, newest last)
 
-### 2026-08-19 16:06 UTC
-**USOIL SHOCK SELL 0.01 lots · 1 min · exit SL · P/L -1.72$ · council bias 0.1 (CAUTION)**
-## POST-MORTEM ANALYSIS
-
-**TRADE SUMMARY:**
-SHOCK book sold USOIL at 86.025, held just 1 minute, hit stop-loss at 86.197 for -$1.72 (0.01 lots). Independent robot operating during extended price context outage. Council bias mildly bullish OIL (+0.1), mode CAUTION, allows SHOCK book – permitted but fifth SHOCK loss in recent sequence.
-
-**ALIGNMENT & BIAS ACCURACY:**
-SHOCK sold oil **against council's +0.1 bullish bias** (summary notes "gold consolidates $4492 spike" but no oil-specific bearish catalyst). Price spiked 172 pips in 60 seconds – classic stop-hunt or micro news flash SHOCK tried to fade. Council's mild bullish lean was directionally correct (WTI now 85.866, up from entry). **Brain_bias at +0.1 suggested risk-on tilt favouring commodities; SHOCK's SELL was counter-trend**.
-
-**ROOT CAUSE OF LOSS:**
-**SHOCK chasing volatility noise without structural edge in data-blind CAUTION mode**. One-minute hold = caught in whipsaw or micro-event (possibly FOMC Minutes leak, tariff headline, or algo spike 2h11min before official release). This is **third SHOCK trade in 2 hours, all losses/scratches** (GER40 -$0.13, USOIL earlier -$0.22, now -$1.72). Pattern clear: **SHOCK hunting shocks that don't exist or fading spikes it can't contextualize**. Not council error (bias was right), but **strategy failure: SHOCK has no edge trading blind into random volatility bursts**.
-
-**CONCRETE LESSON:**
-**After 10+ hours of price context outage and 3/3 SHOCK failures in 2 hours, SHOCK book must be suspended on ALL symbols until data restored or major event passes**. The "shock detection" logic requires context to distinguish tradeable moves from noise. One-minute stop-loss hits = pure coin-flip. Lesson: **"allow_books=SHOCK" in CAUTION mode during data blackouts is gambling, not trading – council must enforce COUNCIL-only until situational awareness returns**.
-
-**DIRECTIVE CHANGE:**
-Balance dropped $2.26 in 2 hours on SHOCK alone (475.10→472.99), following $19.39 REVERT bleed earlier. **Immediate action required: allow_books=COUNCIL** (remove SHOCK). Risk_mult stays 0.6 (appropriate for CAUTION). SHOCK has proven it cannot operate without price context – three trades, zero edge, pure variance. Council's biases are sound (CHF/CAD/OIL calls correct), but **execution layer is broken without data feeds**.
-
-**LESSON:** SHOCK book trading during extended data outages produces random entries into unexplained volatility – suspend until context restored, regardless of "independence."
-
-**ACTION:** allow_
-
 ### 2026-08-19 16:09 UTC
 **GER40 SHOCK BUY 0.09 lots · 7 min · exit SL · P/L 0.9$ · council bias 0 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -360,4 +337,17 @@ INTRADAY باع NZDUSD عند 0.59618 (0.01 لوت)، أُغلق بعد 435 دق
 
 **3) السبب الجذري للربح الصغير:**
 **صبر طويل في سوق راكد + ستوب متحرك محافظ.** الروبوت أمسك 7.25 ساعة (أطول صفقة INTRADAY في السجل) بستوب 10.8 نقطة وهدف 16.2 نقطة، لكن السوق تحرك 5.4 نقطة فقط لصالحه قبل أن يُغلق الستوب المتحرك (reason=SL لكن بربح). **هذا ليس فوز حقيقي، بل نجاة**: السعر الآن أقل بـ7.2 نقطة من الدخول – لو بقي المركز مفتوحاً لحقق +0.72$ بدلاً من +0.54$. **الدرس**: في الأسواق ال
+
+### 2026-08-24 21:01 UTC
+**EURUSD SWING SELL 0.01 lots · 720 min · exit EA · P/L -0.01$ · council bias 0.1 (NORMAL)**
+# تحليل ما بعد الصفقة
+
+**1) ما فعله الروبوت:**
+SWING باع EURUSD عند 1.16632 (0.01 لوت)، أُغلق بعد 720 دقيقة (12 ساعة) بخسارة -0.01$ عند 1.16633. الدخول 21:00 UTC أمس، الخروج 21:01 UTC اليوم. السعر الآن 1.16639 – أي الزوج ثابت تماماً في نطاق 0.7 نقطة طوال 12 ساعة.
+
+**2) التوافق مع توجه المجلس:**
+الصفقة **متوافقة تماماً** مع المجلس: bias_EUR=0.1 (إيجابي)، bias_USD=-0.1 (سلبي) – أي المجلس يدعم شراء EUR لا بيعه. **توجه المجلس صحيح**: EUR قوي فعلاً (ثابت فوق 1.166)، والسعر لم ينخفض رغم 12 ساعة. SWING تاجر **عكس** توجه المجلس، لكن هذا ليس انتهاكاً (الكتب تقرأ التوجهات كمرشحات لا أوامر مطلقة).
+
+**3) السبب الجذري للخسارة الرمزية:**
+**سوق ميت تماماً.** EURUSD تحرك 0.7 نقطة في 12 ساعة (أقل من spread) – هذا ليس سوقاً، بل خط مستقيم. الستوب 29 نقطة والهدف 58 نقطة معقولان لـSWING، لكن **لا حدث، لا تقلب، لا اتجاه**. الخسارة -0.01$ رمزية (spread فقط)، والخروج بـ"EA" يعني إغلاق يدوي أو time-stop بعد 12 ساعة من الركود. **هذه خامس صفقة متتالية في أسواق راكدة** (NZDJPY، EURNZD، NZDUSD كلها نطاقات ضيقة). النمط واضح: **منذ 21 أغسطس، الأسواق في فراغ
 
