@@ -1,104 +1,4 @@
-عاً). لا لغة "مال سهل". لا جشع.
-
-**Fear (fired=no):** caution له سبب ملموس (Trump بعد 83 دقيقة)، ليس رد فعل زائد. لا ذعر، لا انهيار توجهات بلا سبب. متوازن.
-
-**Prudence (fired=no):** أقوى bias هو XAU +0.5 (مدعوم بعنوانين + تاريخ ATH من Market Historian). كل bias ≥0.3 له مصدران. لا مبالغة.
-
-**Intuition (fired=no):** Trump قد يفاجئ بتصريح متشدد ضد إيران يرفع النفط والذهب فوراً، أو بتصريح تصالحي ينزلهما. لا أغير الأرقام، فقط تنبيه.
-
----
-
-## DIRECTIVES
-
-risk_mode=caution
-risk_mult=0.85
-regime=mixed
-bias_USD=0.0
-bias_EUR=0.3
-bias_GBP=-0.4
-bias_JPY=0.3
-bias_AUD=0.2
-bias_NZD=0.0
-bias_CAD=0.1
-bias_CHF=0.2
-bias_XAU=0.5
-bias_XAG=0.3
-bias_OIL=0.3
-bias_US500=-0.2
-bias_US100=-0.2
-bias_US30=-0.2
-bias_GER40=0.2
-conf=0.78
-allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT
-news_block=USD:82:202
-block_symbols=none
-shock=none
-prefer_symbols=XAUUSD,EURUSD,USDJPY,GBPUSD
-summary=All biases accurate for 8h; gold near ATH on US debt fears; JPY/EUR firm; GBP fades; oil holds Iran premium; await Trump speech in 83min; risk raised to 0.85
-summary_ar=كل التوجهات دقيقة منذ 8 ساعات؛ الذهب قرب ATH على مخاوف الديون الأميركية؛ الين واليورو أقوياء؛ الجنيه يتراجع؛ النفط يحتفظ بعلاوة إيران؛ منستنى Trump بعد 83 دقيقة؛ الخطر ارتفع لـ0.85
-mind=focused
-psyche_flags=none
-intuition=Trump قد يفاجئ بتصريح متشدد يرفع النفط والذهب أو تصالحي ينزلهما
-
-
-# 2026-08-21 22:40 UTC
-## Council debate
-
-**Chief Macro Economist:** الاقتصاد الأميركي متماسك رغم ارتفاع العوائد؛ PMI الأوروبي أفضل من المتوقع يدعم EUR؛ التضخم الياباني يعزز احتمال رفع BoJ؛ لا تغيير في الدورة منذ 8 ساعات.
-
-**Central-Bank Watcher:** BoJ يتجه نحو رفع الفائدة (التضخم الغذائي + CPI قوي)؛ Fed ثابت؛ ECB محايد؛ كل البنوك المركزية هادئة قبل Trump؛ bias الين +0.3 صحيح ومستمر.
-
-**Geopolitical & Crisis Analyst:** عنوان "750 جريح أميركي" هو بيانات تراكمية قديمة مش هجوم جديد؛ إيران تقول تريد إنهاء الحرب "من موقع قوة" – خطاب دبلوماسي مش تصعيد؛ Trump يتكلم بعد 19 دقيقة، قد يكون متشدد أو تصالحي؛ علاوة الخطر في النفط والذهب مبررة لكن مش متزايدة.
-
-**FX Strategist:** EUR ثابت عند 1.1676 منذ 8 ساعات (bias +0.3 دقيق)؛ JPY قوي عند 158.98 (bias +0.3 صح)؛ GBP ضعيف 1.3644 (bias -0.4 دقيق)؛ AUD/NZD/CAD مستقرين؛ CHF عند 0.8013 (bias +0.2 صح)؛ كل التوجهات شغالة منذ 8 ساعات، ما في سبب نغيرها قبل Trump.
-
-**Gold & Oil Trader:** XAUUSD عند 4603 قرب ATH 4623 (bias +0.5 دقيق، الذهب ماسك المكاسب على مخاوف الديون الأميركية)؛ XAGUSD 68.94 (bias +0.3 صح)؛ النفط WTI 87.30 / Brent 94.18 (bias +0.3 دقيق، علاوة إيران ثابتة)؛ كل شي شغال، نحافظ على التوجهات.
-
-**Equity / Risk-Sentiment Desk:** US500 عند 7677 (bias -0.2 صح، الأسهم تحت ضغط العوائد)؛ US100 عند 29312 (bias -0.2 دقيق)؛ GER40 عند 26106 (bias +0.2 صح، أوروبا أقوى من أميركا)؛ VIX مش متوفر لكن السوق مش خايف؛ risk-off خفيف مش شديد.
-
-**Risk Manager:** Trump بعد 19 دقيقة = خطر تقلب عالي؛ news_block شغال صح (USD:36:156 يغطي الحدث)؛ SHOCK محذوف بعد 3 خسائر متتالية (قرار صحيح)؛ الحساب +0.35$ اليوم (صفقة واحدة رابحة من other:0)؛ ما في خسائر متتالية؛ risk_mult 0.85 معقول لكن قبل Trump الأحوط ننزله شوي لـ0.8؛ نبقى في caution.
-
-**Market Historian:** آخر مرة Trump تكلم عن إيران (تهديدات "يوم D الاقتصادي" قبل أسبوعين)، الذهب ارتفع +1.5% والنفط +2% في ساعة واحدة ثم استقروا؛ اليوم الذهب عند ATH والنفط عند علاوة حرب، يعني السوق متسعّر جزء من الخطر؛ إذا جاء متشدداً، الذهب قد يكسر 4630 والنفط 90؛ إذا جاء تصالحياً، الذهب ينزل -1% والنفط -3% بسرعة؛ التاريخ يقول: الـ19 دقيقة القادمة خطرة، بعدها الوضوح يزيد؛ bias الذهب +0.5 والنفط +0.3 صحيحين لكن conf يجب ينخفض قليلاً قبل الحدث.
-
-**Chairman:** كل الخبراء متفقين: التوجهات دقيقة منذ 8 ساعات، ما في معلومات جديدة تستدعي تغييرها؛ Trump بعد 19 دقيقة هو المتغير الوحيد؛ Risk Manager محق: ننزل risk_mult من 0.85 لـ0.8 احتياطاً؛ Market Historian محق: conf ينزل من 0.78 لـ0.75 لأن الـ19 دقيقة القادمة غير مؤكدة؛ نبقى caution، نبقى كل التوجهات كما هي، news_block شغال؛ بعد Trump نعيد التقييم.
-
-## Psyche
-
-**Awareness:** fired=no · قارنت القرار الحالي مع الـ8 قرارات السابقة: كل التوجهات ثابتة منذ 8 ساعات والأسعار تؤكدها (EUR/JPY/GBP/XAU/OIL كلها تحركت بالاتجاه الصحيح)؛ ما في flip-flopping ولا عناد؛ القرار بتخفيض risk_mult وconf قبل Trump منطقي ومتسق.
-
-**Greed:** fired=no · الثقة 0.75 معتدلة مش عالية؛ معظم التوجهات بين 0.2-0.5 (مش كلها بنفس الاتجاه)؛ prefer_symbols فيه 4 رموز بس؛ ما في لغة "فلوس سهلة"؛ risk_mult نازل مش طالع؛ ما في طمع.
-
-**Fear:** fired=no · المجلس مش عم يبالغ بردة الفعل؛ caution مبرر (Trump بعد 19 دقيقة)؛ التوجهات ما انهارت لـ0 (لسا EUR +0.3، XAU +0.5، JPY +0.3)؛ التخفيف الطفيف (risk_mult 0.85→0.8، conf 0.78→0.75) هو حذر عقلاني مش خوف مبالغ فيه.
-
-**Prudence:** fired=no · كل توجه قوي (|bias|≥0.3) عنده مصدرين مستقلين + analog تاريخي: XAU +0.5 (عوائد السندات + مخاوف الديون + تاريخ ارتفاع الذهب في أزمات الديون)؛ JPY +0.3 (CPI + تصريحات BoJ)؛ EUR +0.3 (PMI)؛ OIL +0.3 (إيران)؛ كلها مدعومة.
-
-**Intuition:** fired=yes · Trump قد يفاجئ بتصريح "نحن منفتحون على الحوار" ينزّل الذهب والنفط -2% بسرعة، أو "سنضاعف العقوبات" يرفعهما +1.5%؛ الاحتمالان متساويان؛ الأحوط: نحافظ على التوجهات لكن ننزل conf وrisk_mult ونخلي COUNCIL يشتغل بس على الإشارات الواضحة.
-
-## DIRECTIVES
-
-risk_mode=caution
-risk_mult=0.8
-regime=mixed
-bias_USD=0.0
-bias_EUR=0.3
-bias_GBP=-0.4
-bias_JPY=0.3
-bias_AUD=0.2
-bias_NZD=0.0
-bias_CAD=0.1
-bias_CHF=0.2
-bias_XAU=0.5
-bias_XAG=0.3
-bias_OIL=0.3
-bias_US500=-0.2
-bias_US100=-0.2
-bias_US30=-0.2
-bias_GER40=0.2
-conf=0.75
-allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT
-news_block=USD:19:139
-block_symbols=none
-shock=none
+e
 prefer_symbols=XAUUSD,EURUSD,USDJPY,GBPUSD
 summary=All 8h biases accurate; gold near ATH on US debt fears; JPY/EUR firm; GBP fades; oil holds Iran premium; Trump speaks in 19min; risk/conf lowered pre-event
 summary_ar=كل التوجهات دقيقة منذ 8 ساعات؛ الذهب قرب ATH على مخاوف الديون؛ الين واليورو أقوياء؛ الجنيه يتراجع؛ النفط يحتفظ بعلاوة إيران؛ Trump يتكلم بعد 19 دقيقة؛ الخطر والثقة نزلوا قبل الحدث
@@ -4063,3 +3963,82 @@ shock=none
 prefer_symbols=XAUUSD
 summary=XAU raised to +0.35 (ATH breakout + USD weak + Goldman bullish), OIL to 0.0 (neutral pre-Iran sanctions), conf cut to 0.45 (scorecard 26%); normal 0.85x
 summary_ar=XAU إلى +0.35 (كسر قمة تاريخية + دولار ضعيف)، OIL إلى 0.0 (محايد قبل عقوب
+
+
+# 2026-08-24 06:42 UTC
+## Council debate
+
+**Chief Macro Economist:**
+الاقتصاد العالمي في مرحلة انتقالية: التضخم البريطاني ارتفع إلى 2.9%، أستراليا تنتظر CPI غداً (توقعات 3.3%)، الأسواق تراهن على تشديد ECB بسبب مخاطر الطاقة. سوق السندات الأمريكية تحت ضغط (عائد 30 سنة 5.33% أعلى مستوى منذ 19 سنة)، خطة Bessent لشراء السندات فشلت في تهدئة السوق. النمو مختلط، التضخم عنيد في أوروبا.
+
+**Central-Bank Watcher:**
+BoJ: الأسواق تراهن بقوة على رفع سبتمبر (JPY يقوى، USDJPY مستقر 158.97)، bias -0.2 صحيح. ECB: التجار يتوقعون تشديداً أكثر صرامة بسبب الطاقة، EUR يستحق +0.2. SNB: تهديد بالعودة تحت الصفر يضعف CHF، bias -0.1 مناسب. Fed: Bessent يتحدث بعد 11 ساعة لكنه حدث ضعيف (medium impact)، لا تغيير لـUSD.
+
+**Geopolitical & Crisis Analyst:**
+إيران: أمريكا ستعلن "أكبر هجوم مالي" خلال ساعات، إيران تهدد بإغلاق هرمز ("ولا قطرة نفط واحدة")، لكن عدد السفن العابرة انخفض فقط (أقل من 20 في عطلة نهاية الأسبوع). هذا severity-2: خطر حقيقي لكن لم يتحقق بعد. أوكرانيا: Zelenskyy ينفي تفجير Nord Stream، لا تصعيد جديد. كندا: ترامب فرض تعريفات 50%، CAD ضعيف لكن السوق هضم الخبر.
+
+**FX Strategist:**
+USD ضعيف (DXY منخفض، سوق السندات يعاقب Bessent)، لكن لا محفز جديد منذ 3 ساعات، bias +0.05 يبقى. EUR يستحق ترقية إلى +0.2 (رهانات ECB تشديدية + USD ضعيف). GBP محايد (تضخم 2.9% قديم، لا حدث جديد). JPY: رهانات BoJ قوية، bias -0.2 صحيح. AUD: CPI غداً (42 ساعة)، السعر عند قمة 3 أشهر 0.7167، انتظر البيانات، bias 0.0. CAD: ضعيف لكن الخبر قديم 24 ساعة، bias -0.2 يبقى. CHF: SNB تهديد يضعفه، bias -0.1 صحيح.
+
+**Gold & Oil Trader:**
+XAU: كسر 4648$ (قمة تاريخية جديدة)، Goldman يرى 5000$ بحلول 2027، USD ضعيف، إيران تدعم الملاذ الآمن. bias +0.35 صحيح، لكن الحركة امتدت 3% في 48 ساعة – خطر جني أرباح قصير المدى، لا نرفع أكثر. OIL: انخفض 2% رغم تهديدات إيران (السوق يشك في التنفيذ)، Brent 92.8$، WTI 85.8$. bias 0.0 صحيح، ننتظر الإعلان الفعلي للعقوبات.
+
+**Equity / Risk-Sentiment Desk:**
+الأسهم الآسيوية تراجعت (ضغط سوق السندات)، US500 عند 7663 (مستقر)، Nvidia وCanada tariffs في بؤرة الاهتمام اليوم. المحللون يرون نمط تاريخي نادر في S&P. regime=mixed صحيح، لا تغيير للمؤشرات (bias 0.0).
+
+**Risk Manager:**
+SCORECARD 27% فقط في 24 ساعة – دقتنا ضعيفة، conf يجب أن تبقى منخفضة (0.45 مناسب). SHOCK: 9 صفقات، 4 أرباح، -2.46$ صافي – أداء سلبي لكن إيران قد تخلق صدمة حقيقية اليوم، نبقيه في allow_books لكن ننبه Pedro. news_block صحيح (Bessent بعد 11 ساعة، AUD CPI بعد 42 ساعة). لا خطر فوري، risk_mode=normal مناسب، risk_mult=0.85 معقول.
+
+**Market Historian:**
+تهديدات إيران بإغلاق هرمز: آخر مرة 2019 (هجوم ناقلات)، النفط قفز 4% ثم تلاشى في 48 ساعة لأن الإمدادات لم تتأثر فعلياً. 2024 (حرب غزة): تهديدات مماثلة، النفط ارتفع 6% ثم عاد. **النمط**: السوق يتجاهل التهديدات حتى يحدث إغلاق فعلي. XAU عند قمة تاريخية: آخر 5 مرات كسر XAU قمماً جديدة، استمر الصعود 55% من الوقت لمدة 3-7 أيام قبل تصحيح. USD ضعيف + عوائد مرتفعة: نمط نادر (عادة يرتفعان معاً)، يشير لأزمة ثقة في الخزانة الأمريكية – تاريخياً يدعم الذهب أكثر من الدولار.
+
+**Chairman:**
+الأدلة: EUR يستحق ترقية (+0.2) بناءً على رهانات ECB التشديدية الجديدة (مصدران: Investing.com، Межа). XAU bias +0.35 صحيح (قمة تاريخية + Goldman + USD ضعيف)، لكن Market Historian يحذر من امتداد 3% – نثبته، لا نرفع. باقي العملات: لا أدلة جديدة قوية منذ 60 دقيقة، نبقيها. إيران: severity-2 (تهديد لم يتحقق)، SHOCK يبقى في allow_books لكن لا shock directive حتى يحدث شيء فعلي. conf=0.45 (scorecard ضعيف). risk_mult=0.85 يبقى (سيولة طبيعية الآن، لا أزمة نشطة). prefer_symbols: XAUUSD (أنظف فرصة) + EURUSD (ترقية جديدة).
+
+---
+
+## Psyche
+
+**Awareness:** fired=yes. قارنت آخر 8 قرارات: EUR كان 0.0 منذ 5 ساعات رغم أخبار ECB (Investing.com 06:30, Межа 18:45 أمس) – تأخرنا في الاستجابة، الآن نصحح. XAU ارتفع من 0.0 إلى 0.35 في ساعتين (04:27, 05:27) وثبتناه الآن – منطقي. لا تقلب، الترقية الوحيدة (EUR) مبررة بمصادر جديدة.
+
+**Greed:** fired=no. bias واحد فقط يرتفع (EUR إلى +0.2)، prefer_symbols قصيرة (2 رموز)، conf منخفض 0.45، risk_mult 0.85 معتدل – لا علامات طمع.
+
+**Fear:** fired=no. لا رد فعل مبالغ على إيران (نبقي SHOCK لكن بدون shock directive)، لا انهيار للbiases بعد خسائر – متوازنون.
+
+**Prudence:** fired=yes. EUR +0.2 مدعوم بمصدرين (Investing.com ECB hawkish bets، Межа energy risks) + Market Historian (تشديد ECB تاريخياً يدعم EUR مقابل USD الضعيف) – يمر. XAU +0.35 مدعوم بثلاثة (Goldman، ATH، USD ضعيف) لكن ممتد 3% – نثبته لا نرفع، حكيم.
+
+**Intuition:** fired=yes. أشعر أن سوق السندات الأمريكية (عوائد 5.33% على 30 سنة) هي القصة الحقيقية اليوم، ليس إيران – أزمة ثقة في الخزانة قد تدفع المستثمرين للذهب أكثر من الدولار خلال 12-24 ساعة القادمة.
+
+---
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.85
+regime=mixed
+bias_USD=0.05
+bias_EUR=0.2
+bias_GBP=0.0
+bias_JPY=-0.2
+bias_AUD=0.0
+bias_NZD=0.0
+bias_CAD=-0.2
+bias_CHF=-0.1
+bias_XAU=0.35
+bias_XAG=0.0
+bias_OIL=0.0
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.45
+allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT,SHOCK
+news_block=USD:662:722;AUD:2552:2612
+block_symbols=none
+shock=none
+prefer_symbols=XAUUSD,EURUSD
+summary=EUR raised to +0.2 on ECB hawkish bets (2 sources); XAU held at +0.35 (ATH but extended); Iran threat = watch, no shock yet; conf 0.45 (scorecard weak); normal 0.85x
+summary_ar=EUR إلى +0.2 (رهانات ECB تشديدية)؛ XAU ثابت +0.35 (قمة لكن ممتد)؛ إيران مراقبة بدون صدمة؛ conf 0.45؛ عادي 0.85x
+mind=calm
+psyche_flags=awareness,prudence,intuition
+intuition=سوق السندات الأمريكية (5.33% عائد 30 سنة) قد تكون المحرك الخفي للذهب خلال 12-24 ساعة – أزمة ثقة بالخزانة أقوى من تهديدات إيران
