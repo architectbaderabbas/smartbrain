@@ -3,7 +3,7 @@
  "overall_hit_rate%": {
   "4h": 30,
   "12h": 26,
-  "24h": 25
+  "24h": 26
  },
  "per_asset_hit_rate%": {
   "XAU": {
@@ -18,13 +18,13 @@
   },
   "OIL": {
    "4h": 73,
-   "12h": 43,
+   "12h": 57,
    "24h": 0
   },
   "EUR": {
    "4h": 0,
    "12h": 0,
-   "24h": 12
+   "24h": 13
   },
   "GBP": {
    "4h": 100,
@@ -32,8 +32,8 @@
    "24h": 100
   },
   "JPY": {
-   "4h": 2,
-   "12h": 10,
+   "4h": 0,
+   "12h": 8,
    "24h": 21
   },
   "AUD": {
@@ -48,9 +48,9 @@
   }
  },
  "by_mind_state%": {
-  "focused": 14,
+  "focused": 12,
   "?": 17,
-  "calm": 55
+  "calm": 56
  },
  "note": "hit = price moved in the direction of a bias with |bias|>=0.3 after the horizon; None = not enough data yet"
 }
