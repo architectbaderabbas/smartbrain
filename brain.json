@@ -1,6 +1,6 @@
 {
- "ts": 1787575352,
- "council_ts": 1787572011,
+ "ts": 1787576124,
+ "council_ts": 1787576124,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.75,
@@ -12,7 +12,7 @@
   "bias_JPY": -0.2,
   "bias_AUD": 0.0,
   "bias_NZD": 0.0,
-  "bias_CAD": -0.3,
+  "bias_CAD": -0.4,
   "bias_CHF": -0.1,
   "bias_XAU": 0.25,
   "bias_XAG": 0.15,
@@ -22,19 +22,18 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT",
-  "news_block": "USD:309:369;AUD:2199:2259",
+  "news_block": "USD:304:364;AUD:2194:2254",
   "block_symbols": "none",
   "shock": "none",
-  "prefer_symbols": "EURUSD,USDJPY,USDCAD",
+  "prefer_symbols": "USDCAD,EURUSD,USDJPY",
   "mind": "calm",
-  "psyche_flags": "awareness,prudence,intuition",
-  "intuition": "أشعر أن عقوبات إيران ستُعلن خلال 24-48 ساعة؛ إذا حدث: النفط +5%، الذهب +2%، USD قد يرتفع",
-  "summary": "AUD bias cut to 0.0 (no catalyst today, CPI 37h away); all else stable; Iran sanctions watch (no announcement yet); Bessent 6h; normal 0.75x",
-  "summary_ar": "AUD إلى 0.0 (لا محفز اليوم، CPI بعد 37 ساعة)؛ الباقي ثابت؛ نراقب عقوبات إيران (لا إعلان بعد)؛ Bessent بعد 6 ساعات؛ عادي 0.75x",
+  "psyche_flags": "prudence,intuition",
+  "intuition": "أشعر أن عقوبات Bessent ستكون مالية لا نفطية – السوق سيبيع الخبر (النفط ينزل، الذهب يثبت، USD يرتد مؤقتاً ثم يضعف)",
+  "summary": "CAD bias raised to -0.4 (trade war escalation, 3 sources + price confirms); all else stable; Iran sanctions watch (Bessent 5h); normal 0.75x",
+  "summary_ar": "CAD إلى -0.4 (حرب تجارية تتصاعد، 3 مصادر + السعر يؤكد)؛ الباقي ثابت؛ نراقب عقوبات إيران (Bessent بعد 5 ساعات)؛ عادي 0.75x",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787300516,
