@@ -1,26 +1,5 @@
 # SmartBrain lessons (post-mortems on real trades, newest last)
 
-### 2026-08-19 15:45 UTC
-**GER40 SHOCK SELL 0.02 lots · 10 min · exit EA · P/L -0.13$ · council bias 0 (CAUTION)**
-## POST-MORTEM ANALYSIS
-
-**TRADE SUMMARY:**
-SHOCK book sold GER40 at 26103.36, held 10 minutes, time-stopped at 26108.74 for -$0.13 (0.02 lots). Independent robot operating during 10+ hour price context outage. Council bias neutral (0.0) for GER40, mode CAUTION, allows only COUNCIL/SHOCK books – SHOCK permitted but questionable in current conditions.
-
-**ALIGNMENT & BIAS ACCURACY:**
-SHOCK sold with council's neutral GER40 bias (0.0) in CAUTION mode. Price drifted up 5 points (+0.02%) then time-stopped – **no directional conviction either way**. Council bias was appropriately neutral (no strong view), but neutrality ≠ tradeable edge. DAX at 26107 is near current levels, no obvious shock/event. SHOCK's premise is to catch violent moves around news/events; **in a dead-calm CAUTION mode with FOMC Minutes 3h32min away, there was no shock to trade**.
-
-**ROOT CAUSE OF LOSS:**
-**SHOCK robot trading in a non-shock environment during data blackout**. Loss is tiny (-$0.13), but the *logic failure* is significant: SHOCK fired on GER40 with no fresh catalyst, no volatility spike, no event – just chopping 10 minutes before timing out. This is the **second SHOCK time-exit in 11 trades** (USOIL earlier, also -$0.22). Pattern: SHOCK hunting for moves that don't exist in CAUTION mode between events. Not a council error (bias was correct), but **book selection error: SHOCK shouldn't trade indices in low-conviction windows**.
-
-**CONCRETE LESSON:**
-**In CAUTION mode with no active shock/event and price context offline, SHOCK book should be restricted to FX pairs or disabled on indices**. GER40/US indices need clear catalysts (data, headlines, breakouts) to justify SHOCK's aggressive entry logic. Trading them in a 3.5-hour news vacuum = fishing for variance. Lesson: **"allow_books=SHOCK" should be conditional: SHOCK on FX only when regime=mixed + no imminent tier-1 event; indices require active catalyst or regime=trending**.
-
-**DIRECTIVE CHANGE:**
-Council currently allows SHOCK, but **two time-exits in calm conditions suggest edge erosion**. Recommend tightening: **allow_books=COUNCIL only** until FOMC Minutes pass (18:17 UTC) or price context restored. If operator insists on keeping SHOCK active, **add directive: block_symbols=GER40,US500,US100,US30** (restrict SHOCK to FX where it has better time-exit ratio). Risk_mult at 0.6 is appropriate for CAUTION.
-
-**LESSON:** SHOCK book trading indices in CAUTION mode with no catalyst produces time-exits, not edge – restrict to FX or disable until event/volat
-
 ### 2026-08-19 16:06 UTC
 **USOIL SHOCK SELL 0.01 lots · 1 min · exit SL · P/L -1.72$ · council bias 0.1 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -368,4 +347,17 @@ INTRADAY اشترى NZDJPY عند 95.039 (0.01 لوت)، أُغلق بعد 103 �
 
 **3) السبب الجذري للربح:**
 **صبر + توقيت جيد + حجم محافظ.** عكس الروبوتات الأخرى التي فشلت في الأسواق الراكدة، هذا الروبوت أمسك 4.5 ساعة بستوب 27.7 نقطة وهدف 41.6 نقطة، وأغلق يدوياً (reason=EA) عند +8.2 نقطة (0.3R فقط). **الربح متواضع لكن نظيف**: لا ضوضاء، لا صدمات وهمية، فقط اتجاه EUR الثابت. **الدرس الإيجابي**: الروبوتات المستقلة (other:0) حققت 4 أرباح من 4 صفقات (+1.58$) بينما BREAKOUT خسر (-3.39$) وSHOCK تعثر (+0.21$ من 5 صفقات). السبب: **other:0 لا يتاج
+
+### 2026-08-24 18:15 UTC
+**NZDUSD INTRADAY SELL 0.01 lots · 435 min · exit SL · P/L 0.54$ · council bias 0.05 (NORMAL)**
+# تحليل ما بعد الصفقة
+
+**1) ما فعله الروبوت:**
+INTRADAY باع NZDUSD عند 0.59618 (0.01 لوت)، أُغلق بعد 435 دقيقة (7.25 ساعة) عند الستوب 0.59564 بربح +0.54$. الدخول 10:00 UTC، الخروج 18:10 UTC. السعر الآن 0.59546 – أي 1.8 نقطة تحت نقطة الخروج، مما يعني أن الستوب المتحرك أغلق قرب القاع المحلي والاتجاه استمر.
+
+**2) التوافق مع توجه المجلس:**
+الصفقة **متوافقة تماماً** مع المجلس: bias_NZD=0.0 (محايد)، bias_USD=-0.1 (ضعف الدولار يدعم البيع)، وضع NORMAL (0.75x)، INTRADAY مسموح. المجلس **محق جزئياً**: USD ضعيف فعلاً (DXY منخفض)، لكن NZD راكد – الزوج تحرك 7.2 نقطة فقط في 7 ساعات (نطاق ضيق جداً). الملخص حذّر "ننتظر Warsh وNvidia غداً" – أي لا محفزات اليوم.
+
+**3) السبب الجذري للربح الصغير:**
+**صبر طويل في سوق راكد + ستوب متحرك محافظ.** الروبوت أمسك 7.25 ساعة (أطول صفقة INTRADAY في السجل) بستوب 10.8 نقطة وهدف 16.2 نقطة، لكن السوق تحرك 5.4 نقطة فقط لصالحه قبل أن يُغلق الستوب المتحرك (reason=SL لكن بربح). **هذا ليس فوز حقيقي، بل نجاة**: السعر الآن أقل بـ7.2 نقطة من الدخول – لو بقي المركز مفتوحاً لحقق +0.72$ بدلاً من +0.54$. **الدرس**: في الأسواق ال
 
