@@ -1,5 +1,5 @@
 {
- "ts": 1787585266,
+ "ts": 1787585393,
  "council_ts": 1787583595,
  "directives": {
   "risk_mode": "normal",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT",
-  "news_block": "USD:132:162;AUD:2040:2100",
+  "news_block": "USD:130:160;AUD:2038:2098",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDCAD,GBPUSD,USDJPY",
@@ -34,7 +34,7 @@
   "news_events": "none"
  },
  "error": null,
- "watchman": "صفقة EURNZD other:0 0.49$ ← تحليل مكتوب",
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787300516,

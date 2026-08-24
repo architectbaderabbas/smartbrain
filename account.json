@@ -1,6 +1,6 @@
 {
   "account": 10225,
-  "balance": 456.44,
+  "balance": 456.93,
   "books": [
     {
       "loss_streak": 1,
@@ -8,17 +8,24 @@
       "net": -1.09,
       "trades": 1,
       "wins": 0
+    },
+    {
+      "loss_streak": 0,
+      "name": "OTHER",
+      "net": 0.49,
+      "trades": 1,
+      "wins": 1
     }
   ],
   "brain_mode": "NORMAL",
-  "day_pl": -1.57,
-  "equity": 456.36,
+  "day_pl": 0.76,
+  "equity": 456.05,
   "positions": [
     {
       "book": "SWING",
       "lots": 0.01,
       "opened": 1787572801,
-      "pl": -0.63,
+      "pl": -0.79,
       "symbol": "EURUSD",
       "type": "SELL"
     },
@@ -26,42 +33,34 @@
       "book": "INTRADAY",
       "lots": 0.01,
       "opened": 1787580000,
-      "pl": 0.03,
+      "pl": -0.09,
       "symbol": "NZDUSD",
       "type": "SELL"
-    },
-    {
-      "book": "INTRADAY",
-      "lots": 0.01,
-      "opened": 1787580000,
-      "pl": 0.52,
-      "symbol": "EURNZD",
-      "type": "BUY"
     }
   ],
   "prices": {
-    "AUDJPY": 113.855,
-    "AUDUSD": 0.71544,
-    "CHFJPY": 198.404,
+    "AUDJPY": 113.839,
+    "AUDUSD": 0.71559,
+    "CHFJPY": 198.412,
     "EURGBP": 0.85549,
-    "EURJPY": 185.702,
-    "EURNZD": 1.95738,
-    "EURUSD": 1.16694,
-    "GBPJPY": 217.066,
-    "GBPUSD": 1.36404,
-    "GER40": 26115.36,
-    "NZDJPY": 94.863,
-    "NZDUSD": 0.59614,
-    "UKOIL": 92.496,
-    "US100": 29031.85,
-    "US500": 7657.68,
-    "USDCAD": 1.38339,
-    "USDCHF": 0.80205,
-    "USDJPY": 159.136,
-    "USOIL": 85.434,
-    "XAGUSD": 69.181,
-    "XAUUSD": 4674.82
+    "EURJPY": 185.67,
+    "EURNZD": 1.95725,
+    "EURUSD": 1.1671,
+    "GBPJPY": 217.033,
+    "GBPUSD": 1.36425,
+    "GER40": 26129.56,
+    "NZDJPY": 94.852,
+    "NZDUSD": 0.59626,
+    "UKOIL": 92.224,
+    "US100": 29064.01,
+    "US500": 7663.68,
+    "USDCAD": 1.3832,
+    "USDCHF": 0.80176,
+    "USDJPY": 159.087,
+    "USOIL": 85.124,
+    "XAGUSD": 69.223,
+    "XAUUSD": 4676.11
   },
-  "ts": 1787585242,
-  "week_pl": -1.57
+  "ts": 1787585406,
+  "week_pl": 0.76
 }
