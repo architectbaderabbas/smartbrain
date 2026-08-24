@@ -1,5 +1,5 @@
 {
- "ts": 1787560049,
+ "ts": 1787560950,
  "council_ts": 1787560049,
  "directives": {
   "risk_mode": "normal",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT",
-  "news_block": "USD:572:632;AUD:2462:2522",
+  "news_block": "USD:557:617;AUD:2447:2507",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "XAUUSD,EURUSD,AUDUSD",
@@ -34,6 +34,7 @@
   "news_events": "none"
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787300516,
