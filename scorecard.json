@@ -1,9 +1,9 @@
 {
  "decisions_scored": 55,
  "overall_hit_rate%": {
-  "4h": 28,
-  "12h": 24,
-  "24h": 22
+  "4h": 29,
+  "12h": 25,
+  "24h": 23
  },
  "per_asset_hit_rate%": {
   "XAU": {
@@ -16,10 +16,15 @@
    "12h": 0,
    "24h": 0
   },
+  "OIL": {
+   "4h": 60,
+   "12h": 25,
+   "24h": 0
+  },
   "EUR": {
    "4h": 0,
    "12h": 0,
-   "24h": 6
+   "24h": 9
   },
   "GBP": {
    "4h": 100,
@@ -29,12 +34,7 @@
   "JPY": {
    "4h": 7,
    "12h": 14,
-   "24h": 18
-  },
-  "OIL": {
-   "4h": 57,
-   "12h": 14,
-   "24h": 0
+   "24h": 21
   },
   "AUD": {
    "4h": 0,
@@ -42,7 +42,7 @@
    "24h": 0
   },
   "CAD": {
-   "4h": 100,
+   "4h": 97,
    "12h": 100,
    "24h": 100
   }
@@ -50,7 +50,7 @@
  "by_mind_state%": {
   "focused": 16,
   "?": 17,
-  "calm": 50
+  "calm": 52
  },
  "note": "hit = price moved in the direction of a bias with |bias|>=0.3 after the horizon; None = not enough data yet"
 }

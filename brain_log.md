@@ -1,80 +1,4 @@
-H على مخاوف ديون (2020 COVID، 2011 debt ceiling): استمر الصعود 2-4 أسابيع ثم تصحيح. الآن: 4623$ (95th percentile من 1y range)، momentum قوي، volatility منخفضة – النمط يقول "trend يستمر 1-2 أسبوع". EUR/USD آخر مرة عند 1.168 (أوائل 2026): استمر لـ1.18 خلال شهر. GBP: الهبوط من 6mo high عادة يعطي 100-150 نقطة خلال أسبوع (الآن -50 نقطة فقط). JPY: CPI قوي + USD ضعيف = صعود 1-2 big figures خلال أيام (2022، 2024 analogs). oil: Trump threats بدون supply impact = fade خلال 48 ساعة (2020 Soleimani analog).
-
-**Chairman:**
-الأدلة واضحة: الذهب breakout حقيقي (debt fears + dollar weakness)، EUR قوي (PMI)، GBP ضعيف (fade مستمر)، JPY صاعد (CPI). أرفع bias_XAU لـ+0.5، bias_JPY لـ+0.3، bias_CHF لـ+0.2. أزيل SHOCK (يخسر في الضوضاء). risk_mult يبقى 0.8 (محافظ قبل Trump). conf=0.7 (أدلة قوية، لكن Trump بعد 5 ساعات = حذر).
-
----
-
-## Psyche
-
-**Awareness:** fired=yes. قارنت بالتوجيهات السابقة: bias_XAU تغيّر من -0.3 (stall) لـ+0.4 (breakout) خلال 7 ساعات – هذا ليس flip-flop، بل استجابة لحركة سعر حقيقية (+$80، ATH جديد). bias_GBP من -0.2 لـ-0.4 منطقي (50 نقطة هبوط). SHOCK خسر 3/4 – المجلس يزيله، صحيح. لا تناقضات.
-
-**Greed:** fired=no. معظم biases إيجابية (EUR، JPY، AUD، CAD، CHF، XAU، XAG، OIL)، لكن conf=0.7 وrisk_mult=0.8 (ليس 1.0+) – المجلس حذر رغم الثقة. لا لغة "easy money". متوازن.
-
-**Fear:** fired=no. لا over-reaction لخسائر SHOCK (قرار منطقي بناء على 3 خسائر)، لا انهيار biases بدون سبب. caution mode مبرر (Trump بعد 5 ساعات). متوازن.
-
-**Prudence:** fired=yes. bias_XAU=+0.5 مدعوم بمصدرين (Reuters gold rally، debt fears) + analog تاريخي (2020/2011 ATH breakouts). bias_JPY=+0.3 مدعوم بـCPI + USD weakness + analog 2022/2024. bias_GBP=-0.4 مدعوم بـfade من 6mo high + 50 نقطة هبوط. كل call قوي له دليلان+ وanalog. مقبول.
-
-**Intuition:** fired=yes. أشعر أن EURUSD قد يصل 1.175 خلال 48 ساعة (PMI momentum + dollar weakness تتسارع)؛ XAUUSD قد يلامس 4700$ قبل تصحيح (breakout euphoria).
-
----
-
-## DIRECTIVES
-
-risk_mode=caution
-risk_mult=0.8
-regime=mixed
-bias_USD=0.0
-bias_EUR=0.3
-bias_GBP=-0.4
-bias_JPY=0.3
-bias_AUD=0.2
-bias_NZD=0.0
-bias_CAD=0.1
-bias_CHF=0.2
-bias_XAU=0.5
-bias_XAG=0.3
-bias_OIL=0.2
-bias_US500=-0.2
-bias_US100=-0.2
-bias_US30=-0.2
-bias_GER40=0.2
-conf=0.7
-allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT
-news_block=USD:315:435
-block_symbols=none
-shock=none
-prefer_symbols=XAUUSD,EURUSD,USDJPY,GBPUSD
-summary=Gold ATH breakout to 4623 on US debt fears; JPY/CHF rise on CPI/safe-haven; EUR holds on PMI; GBP fade deepens; oil steady on Iran rhetoric; SHOCK removed
-summary_ar=الذهب يخترق ATH لـ4623$ (مخاوف ديون US)؛ JPY/CHF يرتفعان (CPI/safe-haven)؛ EUR يثبت (PMI)؛ GBP ينزل؛ النفط مستقر (إيران rhetoric)؛ SHOCK مُزال
-mind=focused
-psyche_flags=awareness,prudence,intuition
-intuition=EURUSD قد يصل 1.175 خلال 48 ساعة؛ XAUUSD قد يلامس 4700$ قبل تصحيح
-
-
-# 2026-08-21 18:36 UTC
-## Council debate
-
-**Chief Macro Economist:**
-الذهب عند 4622$ (+2.3% يومياً) يعكس قلق حقيقي من ديون أميركا؛ عوائد السندات ترتفع رغم برنامج الشراء (فشل Bessent)؛ EUR قوي على PMI أفضل من المتوقع (9 أشهر)؛ النمو الأوروبي يتسارع بينما أميركا تواجه ضغوط ديون؛ لكن كل هذا قديم (آخر 6 ساعات)، لا جديد الآن.
-
-**Central-Bank Watcher:**
-BoJ: CPI اليابان يدعم رفع الفائدة قريباً، JPY عند 159 قوي نسبياً؛ SNB تبقي باب الفائدة السلبية مفتوحاً (CHF محايد)؛ Fed: لا تغيير، لكن مخاوف الديون تضعف USD بدون قرار رسمي؛ Trump يتكلم بعد 4.4 ساعة – قد يُصعّد على إيران أو يعلن عقوبات جديدة؛ حتى ذلك الوقت، السوق ينتظر.
-
-**Geopolitical & Crisis Analyst:**
-إيران: الرئيس يقول "نريد إنهاء الحرب من موقع قوة" لكن Trump يهدد بـ"يوم D اقتصادي" وعقوبات على شركاء إيران؛ هذا rhetoric متصاعد لكن بدون فعل جديد (آخر 3 ساعات)؛ النفط عند 87.7$ مستقر؛ الذهب يستفيد من التوتر؛ خطاب Trump بعد 4.4 ساعة قد يُشعل أو يُطفئ – الآن فراغ.
-
-**FX Strategist:**
-EUR 1.168 يثبت فوق 1.165 (PMI قوي)؛ GBP 1.365 ينزل من قمة 1.370 (UK economy مفاجأة لكن momentum يتلاشى)؛ JPY 159 قوي على CPI؛ AUD 0.718 ثابت (RBA hawkish)؛ NZD 0.598 ضعيف؛ CAD 1.376 قوي على نفط؛ CHF 0.801 محايد؛ USD ضعيف عموماً لكن بدون اتجاه واضح الآن – كل شيء ينتظر Trump.
-
-**Gold & Oil Trader:**
-XAUUSD 4622$ اخترق ATH (كان 4580$ صباحاً)؛ momentum قوي (+40$ في 6 ساعات)؛ لكن الآن sideways منذ ساعة؛ XAGUSD 69.6$ يتبع؛ النفط 87.7$ مستقر (Iran rhetoric بدون supply shock حقيقي)؛ الذهب قد يواصل لـ4650-4700$ إذا Trump صعّد، أو يُصحح لـ4580$ إذا هدأ؛ الآن consolidation قبل الحدث.
-
-**Equity / Risk-Sentiment Desk:**
-US500 7678 (-0.3% يومياً)، US100 29300 (-0.4%)؛ السوق ينزل بهدوء على مخاوف عوائد السندات؛ GER40 26104 (+0.5%) أقوى (أوروبا تتفوق)؛ VIX منخفض (لا panic)؛ risk-off خفيف لكن ليس crisis؛ Bitcoin يقفز (ملاذ بديل؟)؛ السوق ينتظر Trump – إذا صعّد على إيران، indices تنزل؛ إذا لم يفعل، ترتد.
-
-**Risk Manager:**
-daily loss -0.3% (مقبول)؛ SHOCK خسر 3 من آخر 4 صفقات (صافي -1.11$ اليوم) – أزلناه قبل ساعة، صحيح؛ REVERT خسر 4/4 أمس لكن اليوم لا صفقات (نظيف)؛ news_block لـUSD بعد 4.3 ساعة صحيح؛ لكن risk_mult 0.85 مرتفع قليلاً: نحن في فراغ أحداث، كل biases قديمة (آخر 1-6 ساعات)، لا محفز جديد؛ أقترح تخفيض لـ0.75 حتى Trump يتكلم.
+يتكلم.
 
 **Market Historian:**
 الذهب: آخر مرة اخترق ATH على مخاوف ديون US (2011، 2020) واصل 3-7 أيام ثم صحّح 2-5%؛ الآن عند 4622$ (أعلى 1.5% من ATH القديم)، momentum قوي لكن consolidation منذ ساعة؛ تاريخياً، قبل خطاب رئيس أميركي عن عقوبات (Iran 2018-2020)، الأسواق تنتظر ثم تتفاعل بعد الكلام؛ الآن السعر يعكس 70% احتمال تصعيد؛ إذا Trump كان أقل حدة، ذهب ينزل 1-2%؛ إذا صعّد، يقفز 1-3%؛ EUR/GBP: EUR قوي على PMI (مثل 2017، 2021 بعد بيانات eurozone إيجابية، واصل 2-5 أيام)؛ GBP ينزل من قمة (مثل 2019 بعد BoE dovish surprise، نزل 1% في 3 أيام)؛ الآن GBP -0.5% من قمة، قد يواصل لـ1.355-1.360.
@@ -4083,3 +4007,78 @@ summary_ar=كل التوجهات ثابتة 75 دقيقة؛ سيولة ميتة 
 mind=calm
 psyche_flags=awareness,prudence,intuition
 intuition=طوكيو (3.5 ساعات) المفتاح: USDJPY فوق 160 بحجم = bias_JPY ينزل لـ-0.4؛ ذهب فوق 4650 بحجم = bias_XAU يصعد لـ+0.4؛ الآن ننتظر فقط
+
+
+# 2026-08-24 02:27 UTC
+## Council debate
+
+**Chief Macro Economist:**
+السيولة الميتة انتهت؛ طوكيو فتح قبل ساعتين، USDJPY ثابت 158.84 (لا اختراق 160)، ذهب 4651 (لا حركة)، AUD CPI بعد 47 ساعة المحرك الوحيد؛ Bessent بعد 15.5 ساعة لكن weekend speech = ضوضاء غالباً؛ النمو العالمي مختلط، لا محفز جديد.
+
+**Central-Bank Watcher:**
+Kashkari أمس دعم USD ("yields لا تقلق Fed")، BOJ Bloomberg يقول سبتمبر hike محتمل لكن هذا speculation قديم؛ لا خطابات جديدة منذ 3 ساعات، كل البنوك صامتة؛ bias_JPY=-0.1 صحيح (ين ضعيف لكن لا انهيار)؛ لا تغيير.
+
+**Geopolitical & Crisis Analyst:**
+إيران: Bessent سيعلن عقوبات "الأقسى" بعد 15.5 ساعة، لكن Reuters/WSJ/CNBC كلهم يقولون "oil يهبط لأن السوق يشك بالتأثير"؛ Fortune تقول "حرب إيران قد تمتد لـ2027 لكن Hormuz ليس مغلقاً تماماً"؛ النفط 86.04 (-0.5% من أمس) = السوق يتجاهل الخطر؛ bias_OIL=-0.3 ما زال صحيح؛ ذهب 4651 ثابت (لا safe-haven panic).
+
+**FX Strategist:**
+USDJPY 158.84 (ثابت 6 ساعات)، EURUSD 1.1682 (لا حركة)، GBPUSD 1.3650 (ثابت)، USDCAD 1.3790 (CAD ضعيف على Trump tariffs لكن لا أخبار جديدة منذ 12 ساعة)؛ كل الأزواج في نطاق 10 pips؛ bias_CAD=-0.4 مبالغ فيه (الخبر قديم)، أنزله لـ-0.2؛ الباقي 0.0 صحيح.
+
+**Gold & Oil Trader:**
+ذهب 4651 (ثابت 24 ساعة، Goldman يقول $4900 ممكن لكن هذا forecast طويل الأجل)؛ نفط 86.04 (هبط من 86.3 على شك بعقوبات إيران)؛ India gold demand recovering لكن هذا أسابيع ليس ساعات؛ bias_XAU=0.0 و bias_OIL=-0.3 صحيحين؛ لا تغيير.
+
+**Equity / Risk-Sentiment Desk:**
+US500=7686 (ثابت)، US100=29304 (ثابت)، GER40=26145 (ثابت)؛ futures "waver" (MarketWatch) على Nvidia earnings الأسبوع القادم لكن هذا بعيد؛ لا VIX data؛ regime=mixed صحيح؛ bias كلها 0.0 صحيح.
+
+**Risk Manager:**
+24h scorecard=23% فقط، 4h=29%، accuracy ضعيفة جداً؛ daily P/L=0 (لا خسائر لكن لا أرباح)؛ SHOCK 9 صفقات صافي -2.46$ (4 أرباح، 7 SL)؛ REVERT-OLD خسر -24.63$ لكن هذا retired robot؛ AUD CPI بعد 47 ساعة = news_block يتغير من USD:948 إلى AUD:2822؛ risk_mult=0.7 منخفض جداً لـ6 ساعات بلا حركة، ارفعه لـ0.85 (ما زال conservative لكن يعطي الروبوتات فرصة).
+
+**Market Historian:**
+USDJPY 158.84 = 92% من 1y range (قريب من القمة لكن ثابت 6 ساعات)؛ آخر مرة USDJPY ثبت فوق 158 لـ6+ ساعات (يوليو 2024) انفجر لـ162 في 48 ساعة ثم BOJ تدخل؛ لكن الآن لا تدخل، لا momentum (ATR منخفض)؛ ذهب 4651 = 98% من 1y range (extended) لكن Goldman/India demand يدعمان؛ تاريخياً ذهب فوق 4600 يبقى هناك أسابيع إلا إذا USD ارتفع فجأة؛ نفط 86 مع Iran war premium عادةً يهبط على de-escalation لكن الآن السوق يتجاهل Bessent (stale news)؛ CAD ضعف على Trump tariffs (PBS أمس) لكن 12 ساعة مرت، bias=-0.4 مبالغ، أنزله لـ-0.2.
+
+**Chairman:**
+الإجماع: **لا أخبار جديدة منذ 3 ساعات، كل الأسعار ثابتة، accuracy 23% تفرض تواضع**؛ Risk Manager محق: risk_mult=0.7 لـ6 ساعات سكون = نجوّع الروبوتات، ارفعه لـ0.85؛ FX Strategist + Historian محقان: bias_CAD=-0.4 مبالغ (الخبر قديم)، أنزله لـ-0.2؛ الباقي ثابت (USD=0.05, JPY=-0.1, OIL=-0.3, كل شيء آخر 0.0)؛ news_block يتحدث لـAUD:2822 (CPI بعد 47 ساعة)؛ conf=0.45 (منخفض بسبب scorecard)؛ regime=mixed؛ allow_books=ALL؛ risk_mode=normal.
+
+## Psyche
+
+**Awareness:** fired=yes — Decision Memory يظهر 8 قرارات متطابقة منذ 17:42 أمس (كل biases ثابتة 8.75 ساعة)؛ السعر USDJPY تحرك 158.98→158.84 (14 pips فقط)، ذهب 4651 ثابت، نفط 86.3→86.04 (-0.3%)؛ **عدم التغيير كان صحيحاً** (لا flip-flop)؛ لكن bias_CAD=-0.4 منذ 12+ ساعة على خبر Trump قديم = stubbornness خفيف، Chairman صححه لـ-0.2.
+
+**Greed:** fired=no — لا ثقة عالية (conf=0.45)، لا biases قوية (أقوى واحد CAD=-0.2)، prefer_symbols=none؛ لا علامات طمع.
+
+**Fear:** fired=no — risk_mode=normal منذ 8 ساعات، لا halt/danger بدون سبب، لا انهيار biases؛ لا خوف مبالغ.
+
+**Prudence:** fired=yes — Chairman رفع risk_mult من 0.7 لـ0.85 بدون حدث جديد؛ Prudence تقول: **0.85 مقبول لأن scorecard=23% يفرض حذر، ولا يوجد shock قريب**؛ لكن أي رفع فوق 0.9 يحتاج دليلين مستقلين (ما زلنا ما عندنا).
+
+**Intuition:** fired=yes — طوكيو فتح ساعتين، لا حركة؛ **حدسي: Bessent speech بعد 15 ساعة سيكون ضوضاء (weekend talk)، الحركة الحقيقية ستأتي مع AUD CPI (47 ساعة) أو BOJ speculation (أسبوع)؛ الـ24 ساعة القادمة = range-bound، REVERT هو الكتاب الصحيح، لكن المجلس لا يعطيه biases قوية بما يكفي**.
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.85
+regime=mixed
+bias_USD=0.05
+bias_EUR=0.0
+bias_GBP=0.0
+bias_JPY=-0.1
+bias_AUD=0.0
+bias_NZD=0.0
+bias_CAD=-0.2
+bias_CHF=0.0
+bias_XAU=0.0
+bias_XAG=0.0
+bias_OIL=-0.3
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.45
+allow_books=ALL
+news_block=AUD:2822:2882
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=CAD bias cut to -0.2 (stale Trump news), risk_mult raised to 0.85 (dead liquidity ending), all else flat; await Bessent 15.5h, AUD CPI 47h; normal 0.85x
+summary_ar=bias_CAD نزل لـ-0.2 (خبر Trump قديم)، risk_mult صعد لـ0.85 (سيولة ميتة تنتهي)، الباقي ثابت؛ ننتظر Bessent 15.5 ساعة، AUD CPI 47 ساعة؛ عادي 0.85x
+mind=calm
+psyche_flags=awareness,prudence,intuition
+intuition=Bessent speech ضوضاء؛ الحركة الحقيقية مع AUD CPI أو BOJ؛ الـ24 ساعة القادمة range، REVERT يحتاج biases أقوى لكن ما عندنا دليل
