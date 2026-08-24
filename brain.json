@@ -1,6 +1,6 @@
 {
- "ts": 1787614948,
- "council_ts": 1787611520,
+ "ts": 1787615705,
+ "council_ts": 1787615705,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.75,
@@ -22,19 +22,18 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT",
-  "news_block": "AUD:1541:1601",
+  "news_block": "AUD:1526:1586",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDCAD,XAUUSD",
   "mind": "calm",
   "psyche_flags": "prudence,intuition",
-  "intuition": "أشعر أن CPI أستراليا سيأتي أعلى من المتوقع (+1.0%) ويدفع AUD للارتفاع 0.5% خلال ساعة",
-  "summary": "All biases held; markets quiet pre-data; await AUD CPI 26h, Warsh/PCE/GDP 38h; normal 0.75x",
-  "summary_ar": "كل التوجهات ثابتة؛ الأسواق هادئة قبل البيانات؛ ننتظر CPI أستراليا 26س، Warsh/PCE/GDP 38س؛ عادي 0.75x",
+  "intuition": "الهدوء الحالي خادع – جلسة آسيا غداً ستبقى ميتة، لكن بعد CPI أستراليا سنرى حركة حقيقية أول مرة منذ 3 أيام",
+  "summary": "All biases held; markets dead quiet pre-data; await AUD CPI 25.5h, Warsh/PCE/GDP 37h; normal 0.75x",
+  "summary_ar": "كل التوجهات ثابتة؛ الأسواق ميتة تماماً قبل البيانات؛ ننتظر CPI أستراليا 25.5س، Warsh/PCE/GDP 37س؛ عادي 0.75x",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787300516,
