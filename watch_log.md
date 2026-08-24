@@ -989,3 +989,4 @@
 - 2026-08-24 11:12 UTC · heartbeat · quiet (sev0)
 - 2026-08-24 11:14 UTC · heartbeat · quiet (sev0)
 - 2026-08-24 11:27 UTC · heartbeat · quiet (sev0)
+- 2026-08-24 11:42 UTC · FULL COUNCIL triggered: scheduled full council (last 60 min ago)
