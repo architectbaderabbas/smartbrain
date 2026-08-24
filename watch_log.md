@@ -965,3 +965,5 @@
 - 2026-08-24 06:42 UTC · FULL COUNCIL triggered: scheduled full council (last 74 min ago)
 - 2026-08-24 06:57 UTC · heartbeat · quiet (sev0)
 - 2026-08-24 07:12 UTC · heartbeat · quiet (sev0)
+- 2026-08-24 07:16 UTC · heartbeat · ALERT sev2: Treasury Secretary Bessent emergency press conference 2:00 PM ET today; major economic action against Iran expected -> protocol applied, council convening
+- 2026-08-24 07:16 UTC · FULL COUNCIL triggered: ALERT sev2: Treasury Secretary Bessent emergency press conference 2:00 PM ET today; major economic action against Iran expected

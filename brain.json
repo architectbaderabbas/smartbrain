@@ -1,46 +1,40 @@
 {
- "ts": 1787555552,
- "council_ts": 1787553750,
+ "ts": 1787555792,
+ "council_ts": 1787555792,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.85,
   "regime": "mixed",
   "conf": 0.45,
   "bias_USD": 0.05,
-  "bias_EUR": 0.2,
+  "bias_EUR": 0.1,
   "bias_GBP": 0.0,
   "bias_JPY": -0.2,
   "bias_AUD": 0.0,
   "bias_NZD": 0.0,
   "bias_CAD": -0.2,
   "bias_CHF": -0.1,
-  "bias_XAU": 0.35,
-  "bias_XAG": 0.0,
+  "bias_XAU": 0.25,
+  "bias_XAG": 0.15,
   "bias_OIL": 0.0,
   "bias_US500": 0.0,
   "bias_US100": 0.0,
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
-  "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT,SHOCK",
-  "news_block": "USD:632:692;AUD:2522:2582",
+  "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT",
+  "news_block": "USD:626:686;AUD:2516:2576",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "XAUUSD,EURUSD",
   "mind": "calm",
-  "psyche_flags": "awareness,prudence,intuition",
-  "intuition": "سوق السندات الأمريكية (5.33% عائد 30 سنة) قد تكون المحرك الخفي للذهب خلال 12-24 ساعة – أزمة ثقة بالخزانة أقوى من تهديدات إيران",
-  "summary": "EUR raised to +0.2 on ECB hawkish bets (2 sources); XAU held at +0.35 (ATH but extended); Iran threat = watch, no shock yet; conf 0.45 (scorecard weak); normal 0.85x",
-  "summary_ar": "EUR إلى +0.2 (رهانات ECB تشديدية)؛ XAU ثابت +0.35 (قمة لكن ممتد)؛ إيران مراقبة بدون صدمة؛ conf 0.45؛ عادي 0.85x",
+  "psyche_flags": "awareness,fear,prudence,intuition",
+  "intuition": "أشعر أن أزمة السندات الأمريكية (5.33% عائد 30 سنة) ستكون المحرك الخفي للأسواق خلال 48-72 ساعة أكثر من تهديدات إيران",
+  "summary": "Corrected error: Bessent speech is scheduled (medium), not emergency - back to normal 0.85x; XAU bias cut to 0.25 (extended), EUR to 0.1 (Cipollone dovish today); SHOCK removed",
+  "summary_ar": "تصحيح خطأ: خطاب Bessent مجدول (medium)، ليس طارئ – عودة إلى normal 0.85x؛ XAU إلى 0.25 (ممتد)، EUR إلى 0.1 (Cipollone حمائمي اليوم)؛ SHOCK مُزال",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
-  {
-   "ts": 1787275316,
-   "what": "KOSDAQ sell-side circuit breaker triggered at 01:07-01:18 UTC; sharp decline in Korean tech index",
-   "sev": 2
-  },
   {
    "ts": 1787300516,
    "what": "Eurozone PMI Composite hits nine-month high; stronger-than-expected European PMIs; EURUSD approaches 1.17",
@@ -84,6 +78,11 @@
   {
    "ts": 1787470932,
    "what": "Iran President declares 'full-scale war' status; threatens oil route blockade and regional escalation",
+   "sev": 2
+  },
+  {
+   "ts": 1787555775,
+   "what": "Treasury Secretary Bessent emergency press conference 2:00 PM ET today; major economic action against Iran expected",
    "sev": 2
   }
  ]
