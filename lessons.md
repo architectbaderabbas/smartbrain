@@ -1,28 +1,5 @@
 # SmartBrain lessons (post-mortems on real trades, newest last)
 
-### 2026-08-19 15:33 UTC
-**CHFJPY REVERT SELL 0.02 lots · 33 min · exit SL · P/L -5.34$ · council bias 0.2 (CAUTION)**
-## POST-MORTEM ANALYSIS
-
-**TRADE SUMMARY:**
-REVERT sold CHFJPY at 197.569, held 33 minutes, hit stop-loss at 197.992 for -$5.34 (0.02 lots). Independent robot, fourth consecutive REVERT loss in 4 hours. Direction was SELL CHF/JPY when council strongly favours CHF (+0.4, strongest bias) and neutral JPY (0.0) – **directly against council's structural view**.
-
-**ALIGNMENT & BIAS ACCURACY:**
-REVERT sold the council's **most preferred currency** (CHF +0.4, "carry shift" theme, prefer_symbols includes CHFJPY). Price rallied 197.569→197.992 (+42 pips), confirming **council bias was correct** – CHF had genuine strength post-Treasury buyback news and falling yields. Brain_bias flipped to +0.2 (mild risk-on) by entry time. REVERT's mean-reversion logic faded CHF strength and got run over. Council nailed the macro; REVERT ignored it.
-
-**ROOT CAUSE OF LOSS:**
-**Blind mean-reversion fading a macro-driven trend the council correctly identified**. REVERT has no context that CHF is the strongest currency today, no awareness of the carry-shift narrative, no way to know 197.569 wasn't resistance but mid-rally. This is the **fourth identical failure pattern**: fade strength → hit stop → repeat. Total REVERT damage now -$19.39 (3 trades, 0 wins, 3 SL hits). Not variance – **systematic edge failure without price context**.
-
-**CONCRETE LESSON:**
-**After 3+ consecutive stop-losses on the same strategy, human operator MUST intervene regardless of "independence"**. REVERT is bleeding the account (-$19.39 = 4% of balance) while council-aligned strategies would have bought CHF. The "independent by design" excuse doesn't justify ignoring a 0% win rate over 4 hours. Lesson: **risk management overrides robot autonomy – disable strategies showing systematic failure, not just "disallow" them in config**.
-
-**DIRECTIVE CHANGE:**
-Council cannot control REVERT, but **balance has dropped $16.78 in 4 hours (492.03→475.25)**. Recommend **immediate operator action: disable REVERT EA or cut lot size to 0.005 (1/4 current)**. If REVERT trades again before price context restored, it's operator negligence, not robot malfunction.
-
-**LESSON:** Four consecutive losses fading macro trends = strategy has no edge in current regime – human must override "independent" status and shut it down.
-
-**ACTION:** none (council directives correct; REVERT shutdown is operator's responsibility, but balance protection now critical)
-
 ### 2026-08-19 15:45 UTC
 **GER40 SHOCK SELL 0.02 lots · 10 min · exit EA · P/L -0.13$ · council bias 0 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -378,4 +355,17 @@ INTRADAY اشترى NZDJPY عند 95.039 (0.01 لوت)، أُغلق بعد 103 �
 
 **3) السبب الجذري للخسارة:**
 **منطق INTRADAY في سوق بلا حدث.** الروبوت دخل في جلسة آسيا الهادئة (09:00 UTC = 21:00 طوكيو) بدون أخبار NZD أو JPY. الستوب 17.4 نقطة والهدف 25.8 نقطة (1.5R) معقولان، لكن **السوق لم يتحرك**: NZDJPY تذبذب 20 نقطة فقط في ساعتين قبل أن يصطاد الستوب. **هذه رابع خسارة متتالية لكتب SmartMulti في أسواق راكدة** (BREAKOUT فشل مرتين في NZDUSD/NZDCAD، SHOCK خسر في US500). النمط واضح: **في
+
+### 2026-08-24 15:27 UTC
+**EURNZD other:0 BUY 0.01 lots · 267 min · exit EA · P/L 0.49$ · council bias 0.05 (NORMAL)**
+# تحليل ما بعد الصفقة
+
+**1) ما فعله الروبوت:**
+روبوت مستقل (other:0) اشترى EURNZD عند 1.95651 (0.01 لوت)، أُغلق بعد 267 دقيقة (4.5 ساعة) بربح +0.49$ عند 1.95733. الدخول 10:00 UTC، الخروج 15:27 UTC. السعر الآن 1.9579 – أي 5.7 نقطة فوق نقطة الخروج، مما يعني أن الروبوت أغلق مبكراً قبل امتداد إضافي.
+
+**2) التوافق مع توجه المجلس:**
+الروبوت مستقل (لا يقرأ المجلس بالتصميم). المجلس كان محايداً تقريباً: bias_EUR=0.1 (إيجابي خفيف)، bias_NZD=0.0 (محايد) = صافي +0.1 لصالح الشراء. **توجه المجلس صحيح**: EUR فعلاً أقوى (EURUSD عند 1.1668 مستقر)، وNZD راكد (NZDUSD عند 0.596). السعر ارتفع 8.2 نقطة ثم 5.7 نقطة إضافية بعد الخروج = **15 نقطة إجمالاً تؤكد الاتجاه**.
+
+**3) السبب الجذري للربح:**
+**صبر في سوق هادئ + خروج محافظ.** عكس INTRADAY الذي خسر -1.09$ في NZDJPY بستوب سريع، هذا الروبوت أمسك 4.5 ساعة بستوب 27.7 نقطة وهدف 41.6 نقطة (1.5R)، وأغلق يدوياً عند +8.2 نقطة (0.3R فقط). **الربح جزئي، ليس كامل**: ترك 7.4 نقطة على الطاولة (60% من الحركة الفعلية). لكن **الدرس الإيجابي**: في وضع NORMAL بدون أحداث، الروبوت المستقل تفوق على INTRADAY (الذ
 

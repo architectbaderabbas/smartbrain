@@ -1020,4 +1020,4 @@
 - 2026-08-24 15:02 UTC · heartbeat · quiet (sev0)
 - 2026-08-24 15:12 UTC · heartbeat · quiet (sev0)
 - 2026-08-24 15:14 UTC · heartbeat · quiet (sev0)
-- 2026-08-24 15:27 UTC · heartbeat · quiet (sev0)
+- 2026-08-24 15:27 UTC · heartbeat · صفقة EURNZD other:0 0.49$ ← تحليل مكتوب
