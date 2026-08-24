@@ -538,5 +538,25 @@
   "t_out": 1787326450,
   "tp": 0.5995,
   "ts": 1787315650
+ },
+ {
+  "balance": 456.44,
+  "book": "INTRADAY",
+  "brain_bias": 0.1,
+  "brain_mode": "NORMAL",
+  "dir": "BUY",
+  "in": 95.039,
+  "lots": 0.01,
+  "mins": 103,
+  "out": 94.865,
+  "pl": -1.09,
+  "pos": 29754186,
+  "reason": "SL",
+  "sl": 94.865,
+  "symbol": "NZDJPY",
+  "t_in": 1787576400,
+  "t_out": 1787582610,
+  "tp": 95.297,
+  "ts": 1787571810
  }
 ]

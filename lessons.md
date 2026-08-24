@@ -1,28 +1,5 @@
 # SmartBrain lessons (post-mortems on real trades, newest last)
 
-### 2026-08-19 14:11 UTC
-**NZDUSD REVERT SELL 0.05 lots · 50 min · exit SL · P/L -7.15$ · council bias -0.05 (CAUTION)**
-## POST-MORTEM ANALYSIS
-
-**TRADE SUMMARY:**
-REVERT book sold NZDUSD at 0.59164, held 50 minutes, hit stop-loss at 0.59307 for -$7.15 (0.05 lots). **Third REVERT loss in 3 hours, second on NZDUSD in 84 minutes** (previous: -$6.90). Independent robot operating during 10+ hour price context outage. Council allows only COUNCIL book; REVERT ignores this by design.
-
-**ALIGNMENT & BIAS ACCURACY:**
-REVERT sold into council's mild NZD-positive bias (NZD +0.1, USD +0.2). Price rallied 0.59009→0.59307 (+30 pips), confirming **council bias directionally correct** – NZD had relative strength. REVERT's mean-reversion logic systematically faded this twice and lost both times. Not a council error; **independent robot trading blind**.
-
-**ROOT CAUSE OF LOSS:**
-**Mean-reversion without price context = fading unmeasured trends**. REVERT has no support/resistance data, no regime filter, no way to know if 0.59164 was overbought or mid-rally. Two identical stop-losses in 84 minutes on same pair = **zero edge in current conditions**. This isn't variance – it's structural: fade-the-move logic requires knowing *what* you're fading. Total REVERT damage: -$14.05 while human discretionary won +$6.75 same window.
-
-**CONCRETE LESSON:**
-**Config changes don't disable independent EAs – operator must physically suspend them in MT4**. Council identified this 3 hours ago; enforcement failed. REVERT has now proven it cannot trade profitably without price context (3/3 losses). Lesson: during extended data blackouts, **systematic mean-reversion must be manually switched off, not just "disallowed"**.
-
-**DIRECTIVE CHANGE:**
-Council directives cannot control REVERT. **Urgent recommendation for human operator: disable REVERT EA in MT4 terminal immediately**. If operator refuses, force-reduce REVERT lot size to 0.01 (currently 0.05) to contain damage until data restored. This is enforcement failure, not strategy failure.
-
-**LESSON:** Independent mean-reversion robots trading blind will systematically lose by fading unmeasured trends – physical EA suspension required, config insufficient.
-
-**ACTION:** none (directives correct; escalate to operator for manual REVERT shutdown)
-
 ### 2026-08-19 15:33 UTC
 **CHFJPY REVERT SELL 0.02 lots · 33 min · exit SL · P/L -5.34$ · council bias 0.2 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -388,4 +365,17 @@ SHOCK باع US500 عند 7683 (0.5 لوت)، أُغلقت بعد دقيقتين
 
 **3) السبب الجذري للربح:**
 **صبر في الخروج + حجم صغير.** عكس BREAKOUT (ستوب 11-15 نقطة، خسائر سريعة)، هذا الروبوت أمسك 214 دقيقة بستوب 10.5 نقطة وهدف 16 نقطة (1.5R)، وأغلق يدوياً (reason=EA) عند +3.5 نقطة (0.35R فقط). **الربح حظ، ليس مهارة**: السوق كان راكداً (0.2% ATR)، والخروج المبكر ترك 3.2 نقطة إضافية على الطاولة. لكن **الدرس الإيجابي**: الروبوت لم يُصطاد بالضوضاء ك
+
+### 2026-08-24 11:43 UTC
+**NZDJPY INTRADAY BUY 0.01 lots · 103 min · exit SL · P/L -1.09$ · council bias 0.1 (NORMAL)**
+# تحليل ما بعد الصفقة
+
+**1) ما فعله الروبوت:**
+INTRADAY اشترى NZDJPY عند 95.039 (0.01 لوت)، أُغلق بعد 103 دقائق عند الستوب 94.865 بخسارة -1.09$. الدخول 09:00 UTC، الخروج 10:43 UTC. السعر الآن 94.903 – أي 3.8 نقطة فوق الستوب، مما يعني أن الستوب أُصيب في قاع محلي ثم ارتد السعر قليلاً.
+
+**2) التوافق مع توجه المجلس:**
+الصفقة **متوافقة جزئياً** مع المجلس: bias_NZD=0.0 (محايد)، bias_JPY=-0.2 (ضعف الين يدعم الشراء). المجلس في وضع NORMAL (0.75x)، وINTRADAY مسموح في allow_books. لكن المجلس حذّر من "ننتظر Warsh وNvidia غداً" – أي لا محفزات اليوم. **توجه المجلس نصف صحيح**: JPY ضعيف فعلاً (USDJPY عند 159.18)، لكن NZD راكد (NZDUSD ثابت عند 0.596) – الزوج في نطاق ضيق بلا اتجاه.
+
+**3) السبب الجذري للخسارة:**
+**منطق INTRADAY في سوق بلا حدث.** الروبوت دخل في جلسة آسيا الهادئة (09:00 UTC = 21:00 طوكيو) بدون أخبار NZD أو JPY. الستوب 17.4 نقطة والهدف 25.8 نقطة (1.5R) معقولان، لكن **السوق لم يتحرك**: NZDJPY تذبذب 20 نقطة فقط في ساعتين قبل أن يصطاد الستوب. **هذه رابع خسارة متتالية لكتب SmartMulti في أسواق راكدة** (BREAKOUT فشل مرتين في NZDUSD/NZDCAD، SHOCK خسر في US500). النمط واضح: **في
 

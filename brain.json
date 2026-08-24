@@ -1,6 +1,6 @@
 {
- "ts": 1787571751,
- "council_ts": 1787571751,
+ "ts": 1787571823,
+ "council_ts": 1787568151,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.75,
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT",
-  "news_block": "USD:377:437;AUD:2267:2327",
+  "news_block": "USD:363:423;AUD:2253:2313",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "EURUSD,USDJPY,USDCAD",
@@ -34,6 +34,7 @@
   "news_events": "none"
  },
  "error": null,
+ "watchman": "صفقة NZDJPY INTRADAY -1.09$ ← تحليل مكتوب",
  "alerts": [
   {
    "ts": 1787300516,
