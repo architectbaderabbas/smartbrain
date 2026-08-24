@@ -1,6 +1,6 @@
 {
- "ts": 1787571823,
- "council_ts": 1787568151,
+ "ts": 1787572011,
+ "council_ts": 1787572011,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.75,
@@ -10,7 +10,7 @@
   "bias_EUR": 0.15,
   "bias_GBP": 0.0,
   "bias_JPY": -0.2,
-  "bias_AUD": 0.1,
+  "bias_AUD": 0.0,
   "bias_NZD": 0.0,
   "bias_CAD": -0.3,
   "bias_CHF": -0.1,
@@ -28,13 +28,12 @@
   "prefer_symbols": "EURUSD,USDJPY,USDCAD",
   "mind": "calm",
   "psyche_flags": "awareness,prudence,intuition",
-  "intuition": "أشعر أن عقوبات إيران ستُعلن خلال 24-48 ساعة؛ إذا حدث: النفط سيقفز +5% في ساعات",
-  "summary": "CAD bias cut to -0.3 (trade war escalation, 3 sources); all else stable; Iran sanctions watch (no shock yet); Bessent 6h, AUD CPI 37h; normal 0.75x",
-  "summary_ar": "CAD إلى -0.3 (حرب تجارية تتصاعد، 3 مصادر)؛ الباقي ثابت؛ نراقب عقوبات إيران (لا صدمة بعد)؛ Bessent بعد 6 ساعات، AUD CPI بعد 37 ساعة؛ عادي 0.75x",
+  "intuition": "أشعر أن عقوبات إيران ستُعلن خلال 24-48 ساعة؛ إذا حدث: النفط +5%، الذهب +2%، USD قد يرتفع",
+  "summary": "AUD bias cut to 0.0 (no catalyst today, CPI 37h away); all else stable; Iran sanctions watch (no announcement yet); Bessent 6h; normal 0.75x",
+  "summary_ar": "AUD إلى 0.0 (لا محفز اليوم، CPI بعد 37 ساعة)؛ الباقي ثابت؛ نراقب عقوبات إيران (لا إعلان بعد)؛ Bessent بعد 6 ساعات؛ عادي 0.75x",
   "news_events": "none"
  },
  "error": null,
- "watchman": "صفقة NZDJPY INTRADAY -1.09$ ← تحليل مكتوب",
  "alerts": [
   {
    "ts": 1787300516,
