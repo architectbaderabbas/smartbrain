@@ -1,5 +1,5 @@
 {
- "ts": 1787605267,
+ "ts": 1787605953,
  "council_ts": 1787604150,
  "directives": {
   "risk_mode": "normal",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT",
-  "news_block": "AUD:1677:1737",
+  "news_block": "AUD:1666:1726",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDCAD,XAUUSD",
@@ -34,7 +34,7 @@
   "news_events": "none"
  },
  "error": null,
- "watchman": "صفقة EURUSD SWING -0.01$ ← تحليل مكتوب",
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787300516,
