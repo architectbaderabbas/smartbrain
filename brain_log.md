@@ -1,70 +1,4 @@
-ntion decay) ✓. CHF +0.2 له مصدر واحد (funding) – أطلب تخفيض لـ+0.1. Chairman يقبل. النفط +0.2 له مصدر واحد (Iran) – يبقى لكن بحذر.
-
-**Intuition:** fired=yes. أشعر أن USDJPY سينزل لـ157 خلال 12 ساعة (CPI + USD ضعيف + intervention echo). GBPUSD قد يصل 1.355 (fade يتسارع). لكن لا أغيّر أرقاماً – Chairman يقرر.
-
-**Mental state:** focused. الأدلة واضحة، التغييرات مبررة، لا تطرف. Prudence خفّض CHF، الباقي سليم.
-
----
-
-## DIRECTIVES
-
-risk_mode=caution
-risk_mult=0.8
-regime=mixed
-bias_USD=0.0
-bias_EUR=0.3
-bias_GBP=-0.4
-bias_JPY=0.2
-bias_AUD=0.2
-bias_NZD=0.0
-bias_CAD=0.1
-bias_CHF=0.1
-bias_XAU=0.4
-bias_XAG=0.3
-bias_OIL=0.2
-bias_US500=-0.2
-bias_US100=-0.2
-bias_US30=-0.2
-bias_GER40=0.2
-conf=0.65
-allow_books=INTRADAY,SWING,POSITION,SHOCK,COUNCIL,REVERT
-news_block=USD:371:491
-block_symbols=none
-shock=none
-prefer_symbols=XAUUSD,EURUSD,USDJPY
-summary=Gold breaks ATH on US debt fears +0.4; JPY/CHF rise on CPI/funding +0.2/+0.1; EUR holds +0.3; GBP fade deepens -0.4; oil +0.2 on Iran; await Trump 6.6h
-summary_ar=الذهب يخترق ATH بسبب مخاوف ديون US +0.4؛ JPY/CHF يرتفعان (CPI/funding) +0.2/+0.1؛ EUR يثبت +0.3؛ GBP ينزل −0.4؛ النفط +0.2 (إيران)؛ ننتظر Trump بعد 6.6 ساعات
-mind=focused
-psyche_flags=awareness,prudence,intuition
-intuition=USDJPY قد ينزل لـ157 خلال 12 ساعة (CPI قوي + USD ضعيف)؛ GBPUSD قد يصل 1.355 (الهبوط يتسارع)
-
-
-# 2026-08-21 17:36 UTC
-## Council debate
-
-**Chief Macro Economist:**
-الذهب عند 4623$ (أعلى مستوى 3 أشهر)، الدولار عند أدنى مستوى 3 أشهر – هذا ليس ضوضاء، بل تحول هيكلي. مخاوف الديون الأميركية (Treasury buyback فشل، العوائد ترتفع مجدداً) تدفع المستثمرين للذهب. EUR/USD عند 1.168 (أعلى مستوى منذ أشهر)، PMI منطقة اليورو الأقوى منذ 9 أشهر يدعم EUR. النمو الأوروبي يتسارع بينما الثقة بالدولار تتآكل.
-
-**Central-Bank Watcher:**
-BoJ: CPI اليابان قوي (Food inflation يضغط للرفع)، لكن JPY عند 158.98 – لا تدخل جديد بعد التدخل التاريخي. Fed: لا أحداث جديدة، لكن السوق يسعّر احتمال خفض أعلى (الدولار ضعيف). SNB: Tschudin قالت "مستعدون للسالب إذا لزم" – CHF funding role يكبر، لكن السعر 0.800 (شهرين high) يعني safe-haven bid أقوى من carry.
-
-**Geopolitical & Crisis Analyst:**
-Trump يهدد بـ"economic D-Day" ضد إيران (عقوبات جديدة على الشركاء)، لكن السوق يتجاهل (oil +0.5% فقط، ليس spike). إيران تقول "ننهي الحرب من موقع قوة" – rhetoric، ليس تصعيد فعلي. Colombia زلزال 5.2، Philippines زلزال 5.2 – لا تأثير على الأسواق. الوضع مستقر نسبياً، war premium يتلاشى.
-
-**FX Strategist:**
-EUR الأقوى (PMI beat + rally مستمر)، bias +0.3 صحيح. GBP ينزل من 1.3648 (6mo high) – الهبوط يتسارع، bias -0.4 مناسب. JPY يرتفع على CPI + USD ضعيف، bias +0.2 محافظ (يمكن +0.3). AUD/NZD: AUD عند 0.7178 (10wk high)، NZD عند 0.598 (rally مستمر) – كلاهما قوي، bias +0.2/0.0 منطقي. CAD عند 1.375 (3mo high) على oil، bias +0.1 صحيح. CHF عند 0.800 (2mo high)، bias +0.1 يمكن رفعه لـ+0.2.
-
-**Gold & Oil Trader:**
-الذهب 4623$ (ATH جديد)، +2.28% اليوم، اخترق 200-day MA – هذا breakout حقيقي، ليس stall. كل العناوين (US debt fears، dollar weakness، safe-haven) تدعم. bias +0.4 صحيح، لكن الزخم يقول +0.5. الفضة 69.62$ (rally مستمر)، bias +0.3 مناسب. النفط 87.94$ (WTI)، 94.78$ (Brent) – Trump threats على إيران لكن السوق هادئ، bias +0.2 صحيح (ليس shock).
-
-**Equity / Risk-Sentiment Desk:**
-US500 عند 7681 (-0.1% اليوم، يتجه لخسارة أسبوعية)، US100 عند 29321 (ضعيف)، GER40 عند 26113 (+0.5%) – أوروبا أقوى من أميركا. Bitcoin يقفز (short squeeze) – risk appetite مختلط. bias -0.2 للمؤشرات الأميركية صحيح، +0.2 لـGER40 صحيح. regime=mixed دقيق.
-
-**Risk Manager:**
-SHOCK خسر 3 من آخر 4 صفقات (net -2.46$)، يتاجر في الضوضاء لا الصدمات الحقيقية – أزيله من allow_books. REVERT خسر 4 متتالية ثم ربح 1 – لا يزال ضعيفاً في هذا النظام، لكن السوق trending الآن (EUR، gold، JPY)، يمكن إبقاؤه بحذر. daily loss -1.36$ (0.3%) – مقبول. risk_mult=0.8 مناسب، لا داعي للرفع قبل Trump (بعد 5.4 ساعة). news_block صحيح.
-
-**Market Historian:**
-آخر مرة الذهب اخترق ATH على مخاوف ديون (2020 COVID، 2011 debt ceiling): استمر الصعود 2-4 أسابيع ثم تصحيح. الآن: 4623$ (95th percentile من 1y range)، momentum قوي، volatility منخفضة – النمط يقول "trend يستمر 1-2 أسبوع". EUR/USD آخر مرة عند 1.168 (أوائل 2026): استمر لـ1.18 خلال شهر. GBP: الهبوط من 6mo high عادة يعطي 100-150 نقطة خلال أسبوع (الآن -50 نقطة فقط). JPY: CPI قوي + USD ضعيف = صعود 1-2 big figures خلال أيام (2022، 2024 analogs). oil: Trump threats بدون supply impact = fade خلال 48 ساعة (2020 Soleimani analog).
+H على مخاوف ديون (2020 COVID، 2011 debt ceiling): استمر الصعود 2-4 أسابيع ثم تصحيح. الآن: 4623$ (95th percentile من 1y range)، momentum قوي، volatility منخفضة – النمط يقول "trend يستمر 1-2 أسبوع". EUR/USD آخر مرة عند 1.168 (أوائل 2026): استمر لـ1.18 خلال شهر. GBP: الهبوط من 6mo high عادة يعطي 100-150 نقطة خلال أسبوع (الآن -50 نقطة فقط). JPY: CPI قوي + USD ضعيف = صعود 1-2 big figures خلال أيام (2022، 2024 analogs). oil: Trump threats بدون supply impact = fade خلال 48 ساعة (2020 Soleimani analog).
 
 **Chairman:**
 الأدلة واضحة: الذهب breakout حقيقي (debt fears + dollar weakness)، EUR قوي (PMI)، GBP ضعيف (fade مستمر)، JPY صاعد (CPI). أرفع bias_XAU لـ+0.5، bias_JPY لـ+0.3، bias_CHF لـ+0.2. أزيل SHOCK (يخسر في الضوضاء). risk_mult يبقى 0.8 (محافظ قبل Trump). conf=0.7 (أدلة قوية، لكن Trump بعد 5 ساعات = حذر).
@@ -4074,3 +4008,78 @@ summary_ar=كل التوجهات ثابتة 180 دقيقة؛ سيولة ميتة
 mind=calm
 psyche_flags=awareness,prudence,intuition
 intuition=طوكيو (4.8 ساعات) يحسم: USDJPY فوق 160 بحجم = bias_JPY ينزل لـ-0.4؛ ذهب فوق 4650 بحجم = bias_XAU يصعد لـ+0.4؛ الآن نراقب فقط، لا نتحرك
+
+
+# 2026-08-24 01:27 UTC
+## Council debate
+
+**Chief Macro Economist:**
+السيولة ميتة منذ 3 ساعات؛ لا بيانات جديدة؛ Kashkari قال yields لا تقلقه = USD مستقر؛ Bessent يتكلم بعد 16 ساعة؛ CB Consumer Confidence بعد 36 ساعة؛ لا تغيير في الدورة؛ ننتظر طوكيو بعد 3.5 ساعة
+
+**Central-Bank Watcher:**
+BOJ Bloomberg يقول سبتمبر hike محتمل؛ لكن هذا ليس جديد (نُشر قبل ساعتين)؛ USDJPY عند 158.90 ثابت؛ Kashkari يدعم USD قليلاً؛ لا مفاجآت؛ bias_JPY=-0.1 صحيح؛ لا تغيير
+
+**Geopolitical & Crisis Analyst:**
+إيران: Bessent سيعلن عقوبات جديدة (CNBC قبل 3 ساعات)؛ إيران ترد "سنفشل"؛ Fortune تقول حرب إيران قد تستمر حتى 2027؛ لكن النفط نزل -0.5% (CNBC قبل ساعة)؛ السوق يتجاهل؛ bias_OIL=-0.3 صحيح؛ لا صدمة جديدة
+
+**FX Strategist:**
+USDJPY 158.90 (ثابت منذ ساعة)؛ EURUSD 1.1678 (ثابت)؛ GBPUSD 1.3644 (ثابت)؛ USDCAD 1.3797 (ثابت)؛ AUDUSD 0.7168 (ثابت)؛ لا حركة؛ bias كلها 0 أو قريبة من 0 صحيح؛ لا تغيير
+
+**Gold & Oil Trader:**
+ذهب 4616 (ثابت منذ ساعتين)؛ فضة 68.7 (ثابت)؛ نفط 85.6 (نزل من 86.0 قبل ساعة على خبر عقوبات إيران الجديدة = السوق يتوقع فشلها)؛ bias_OIL=-0.3 صحيح؛ bias_XAU=0.0 صحيح؛ لا تغيير
+
+**Equity / Risk-Sentiment Desk:**
+US500=7690 (ثابت)؛ US100=29366 (ثابت)؛ GER40=26149 (ثابت)؛ لا حركة؛ Shein IPO $27B (BBC قبل ساعة) = خبر إيجابي لكن بعيد عن FX؛ bias_US500=0.0 صحيح؛ لا تغيير
+
+**Risk Manager:**
+scorecard 24h=22% فقط؛ لكن 4 ساعات الأخيرة لا صفقات؛ daily P/L=0؛ لا خسائر جديدة؛ risk_mode=normal صحيح؛ risk_mult=0.7 صحيح على scorecard ضعيف؛ news_block USD:1010:1070 (Bessent بعد 16 ساعة) صحيح؛ لا خطر جديد؛ لا تغيير
+
+**Market Historian:**
+آخر مرة BOJ hike تسريب قبل أسابيع (يوليو 2024): USDJPY نزل 5% في 3 أيام؛ الآن Bloomberg يقول سبتمبر محتمل لكن ليس مفاجأة؛ USDJPY عند 158.90 ثابت = السوق يعرف؛ آخر مرة عقوبات إيران جديدة (2023): نفط صعد 2% ثم نزل في أسبوع؛ الآن نفط نزل مباشرة = السوق يتوقع فشل؛ نهاية أسبوع آسيوية بعد 3 ساعات: عادة حركة ضعيفة حتى لندن؛ لا analog قوي؛ أبقي كل شيء كما هو
+
+**Chairman:**
+9 خبراء؛ 9 أصوات "لا تغيير"؛ لا حقائق جديدة منذ 01:27-00:12=75 دقيقة؛ scorecard ضعيف لكن لا خسائر جديدة؛ risk_mult=0.7 صحيح؛ طوكيو بعد 3.5 ساعة قد يحرك؛ نبقي كل التوجهات ثابتة؛ conf=0.45 (ضعيف على scorecard)؛ mind=calm؛ normal 0.7x
+
+## Psyche
+
+**Awareness:** fired=yes · Decision Memory يظهر 8 قرارات متطابقة منذ 16:42 (9 ساعات)؛ لا flip-flop؛ لكن stubbornness محتمل: الأسعار لم تتحرك والمجلس لم يتحرك = منطقي؛ لا خطأ؛ نمرر
+
+**Greed:** fired=no · لا ثقة عالية (conf=0.45)؛ كل biases قريبة من 0؛ prefer_symbols=none؛ لا لغة "easy money"؛ لا جشع؛ نمرر
+
+**Fear:** fired=no · لا over-reaction؛ لا halt بدون سبب؛ المجلس هادئ منذ 9 ساعات؛ لا خوف؛ نمرر
+
+**Prudence:** fired=yes · كل biases أقل من 0.7؛ لا shock؛ لا block؛ لا strong calls؛ لكن أحذر: scorecard 22% ضعيف جداً؛ conf يجب أن يبقى 0.45 أو أقل؛ Chairman صحيح؛ نمرر
+
+**Intuition:** fired=yes · طوكيو (3.5 ساعات) المفتاح: إذا USDJPY كسر 160 بحجم كبير = BOJ hike قريب؛ bias_JPY ينزل لـ-0.4؛ إذا ذهب كسر 4650 بحجم = safe-haven؛ bias_XAU يصعد لـ+0.4؛ الآن لا شيء؛ ننتظر
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.7
+regime=mixed
+bias_USD=0.05
+bias_EUR=0.0
+bias_GBP=0.0
+bias_JPY=-0.1
+bias_AUD=0.0
+bias_NZD=0.0
+bias_CAD=-0.4
+bias_CHF=0.0
+bias_XAU=0.0
+bias_XAG=0.0
+bias_OIL=-0.3
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.45
+allow_books=ALL
+news_block=USD:992:1052
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=All biases unchanged 75min; weekend dead liquidity, USDJPY stable 158.90, CAD weak on Trump, oil dips on Iran sanctions skepticism; await Tokyo open 3.5h; normal 0.7x
+summary_ar=كل التوجهات ثابتة 75 دقيقة؛ سيولة ميتة نهاية أسبوع، USDJPY مستقر 158.90، CAD ضعيف على Trump، نفط ينزل على شك بعقوبات إيران؛ ننتظر فتح طوكيو 3.5 ساعة؛ عادي 0.7x
+mind=calm
+psyche_flags=awareness,prudence,intuition
+intuition=طوكيو (3.5 ساعات) المفتاح: USDJPY فوق 160 بحجم = bias_JPY ينزل لـ-0.4؛ ذهب فوق 4650 بحجم = bias_XAU يصعد لـ+0.4؛ الآن ننتظر فقط
