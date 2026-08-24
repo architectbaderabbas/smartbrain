@@ -11,14 +11,14 @@
     }
   ],
   "brain_mode": "NORMAL",
-  "day_pl": -2.7,
-  "equity": 455.23,
+  "day_pl": -0.32,
+  "equity": 454.97,
   "positions": [
     {
       "book": "SWING",
       "lots": 0.01,
       "opened": 1787572801,
-      "pl": -0.16,
+      "pl": -0.5,
       "symbol": "EURUSD",
       "type": "SELL"
     },
@@ -26,7 +26,7 @@
       "book": "INTRADAY",
       "lots": 0.01,
       "opened": 1787580000,
-      "pl": -0.36,
+      "pl": -0.43,
       "symbol": "NZDUSD",
       "type": "SELL"
     },
@@ -34,34 +34,34 @@
       "book": "INTRADAY",
       "lots": 0.01,
       "opened": 1787580000,
-      "pl": -0.69,
+      "pl": -0.54,
       "symbol": "EURNZD",
       "type": "BUY"
     }
   ],
   "prices": {
-    "AUDJPY": 113.978,
+    "AUDJPY": 113.967,
     "AUDUSD": 0.71618,
-    "CHFJPY": 198.308,
-    "EURGBP": 0.8552,
-    "EURJPY": 185.635,
-    "EURNZD": 1.95536,
-    "EURUSD": 1.16647,
-    "GBPJPY": 217.066,
-    "GBPUSD": 1.36395,
+    "CHFJPY": 198.351,
+    "EURGBP": 0.85538,
+    "EURJPY": 185.677,
+    "EURNZD": 1.9556,
+    "EURUSD": 1.16681,
+    "GBPJPY": 217.06,
+    "GBPUSD": 1.36405,
     "GER40": 26070.56,
-    "NZDJPY": 94.936,
-    "NZDUSD": 0.59653,
-    "UKOIL": 93.063,
-    "US100": 28903.35,
-    "US500": 7652.93,
-    "USDCAD": 1.38323,
-    "USDCHF": 0.80251,
-    "USDJPY": 159.147,
-    "USOIL": 85.954,
-    "XAGUSD": 69.009,
-    "XAUUSD": 4665.79
+    "NZDJPY": 94.937,
+    "NZDUSD": 0.5966,
+    "UKOIL": 92.999,
+    "US100": 28932.22,
+    "US500": 7655.43,
+    "USDCAD": 1.38304,
+    "USDCHF": 0.80225,
+    "USDJPY": 159.131,
+    "USOIL": 85.859,
+    "XAGUSD": 68.962,
+    "XAUUSD": 4666.32
   },
-  "ts": 1787580742,
-  "week_pl": -2.7
+  "ts": 1787580906,
+  "week_pl": -0.32
 }
