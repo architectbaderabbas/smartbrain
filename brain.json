@@ -1,6 +1,6 @@
 {
- "ts": 1787587194,
- "council_ts": 1787583595,
+ "ts": 1787587950,
+ "council_ts": 1787587950,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.75,
@@ -22,19 +22,18 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT",
-  "news_block": "USD:103:133;AUD:2011:2071",
+  "news_block": "USD:47:77;AUD:2011:2071",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDCAD,GBPUSD,USDJPY",
   "mind": "calm",
-  "psyche_flags": "awareness,prudence,intuition",
+  "psyche_flags": "prudence,intuition",
   "intuition": "أشعر أن Bessent سيعلن عقوبات مالية لا نفطية – السوق سيبيع الخبر: النفط ينزل، الذهب يثبت، USD يرتد مؤقتاً ثم يضعف",
-  "summary": "All biases held; SHOCK removed (3 losses in range-bound markets); Bessent Iran sanctions in 3h (news_block added); normal 0.75x",
-  "summary_ar": "كل ال biases ثابتة؛ SHOCK محذوف (3 خسائر في أسواق راكدة)؛ عقوبات Bessent على إيران بعد 3 ساعات (news_block مضاف)؛ عادي 0.75x",
+  "summary": "All biases held; Bessent Iran sanctions in 47min (priced in: oil -2% today); news_block updated; normal 0.75x",
+  "summary_ar": "كل ال biases ثابتة؛ عقوبات Bessent على إيران بعد 47 دقيقة (مسعّرة: النفط نزل -2% اليوم)؛ news_block محدّث؛ عادي 0.75x",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787300516,

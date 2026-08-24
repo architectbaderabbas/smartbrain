@@ -1,73 +1,4 @@
- فقط، risk_mult 0.9 محافظ - لا علامات طمع.
-
-**Fear:** fired=yes — danger mode على أساس عنوان قديم = رد فعل مفرط كلاسيكي؛ 16 ساعة caution/danger بلا تهديد نشط = خوف مزمن يجوّع الروبوتات؛ الآن نعيد التوازن لـnormal كما يجب.
-
-**Prudence:** fired=yes — XAU bias 0.5 له مصدران (WSJ ديون + Forbes/Barron's ارتفاع) + تاريخ (ATH نمط جني أرباح) - مقبول؛ لكن danger السابق لم يكن له مصدران حقيقيان - الآن نطبّق المعيار بدقة.
-
-**Intuition:** fired=yes — الذهب سيختبر 4615-4620$ (مقاومة ATH نفسية) خلال 12-24 ساعة، ثم تراجع 20-40$ لجني أرباح نهاية الأسبوع الطويل - لكن لا نخفّض bias الآن، الزخم لا يزال صاعداً.
-
----
-
-## DIRECTIVES
-risk_mode=normal
-risk_mult=0.9
-regime=mixed
-bias_USD=0.0
-bias_EUR=0.3
-bias_GBP=-0.2
-bias_JPY=0.3
-bias_AUD=0.2
-bias_NZD=0.0
-bias_CAD=0.1
-bias_CHF=0.2
-bias_XAU=0.5
-bias_XAG=0.3
-bias_OIL=0.0
-bias_US500=-0.2
-bias_US100=-0.2
-bias_US30=-0.2
-bias_GER40=0.2
-conf=0.75
-allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT,SHOCK
-news_block=none
-block_symbols=none
-shock=none
-prefer_symbols=XAUUSD,EURUSD,USDJPY
-summary=Correcting false Canada alert: all 16h biases accurate (XAU near ATH on US debt fears, EUR/JPY firm, GBP fades); danger downgraded to normal 0.9x
-summary_ar=تصحيح إنذار Canada الكاذب: كل التوجهات دقيقة منذ 16 ساعة (الذهب قرب ATH على مخاوف ديون أميركية، EUR/JPY قوي، GBP يتراجع)؛ خطر يُخفّض لطبيعي 0.9
-mind=focused
-psyche_flags=awareness,fear,prudence,intuition
-intuition=الذهب سيختبر 4615-4620$ خلال 12-24 ساعة ثم يتراجع 20-40$ لجني أرباح نهاية الأسبوع - لكن الزخم لا يزال صاعداً
-
-
-# 2026-08-22 08:10 UTC
-## Council debate
-
-**Chief Macro Economist:**
-الاقتصاد الأميركي يواجه قلق ديون متزايد (عوائد السندات ترتفع رغم تدخل Bessent)؛ أوروبا تُظهر نمواً ثابتاً (PMI أعلى في 9 أشهر)؛ اليابان تُنسّق مع أميركا على الين (تحالف عملات جديد)؛ النمو العالمي مختلط لكن التضخم تحت السيطرة.
-
-**Central-Bank Watcher:**
-Fed محايد (لا أحداث مجدولة)؛ ECB إيجابي (نمو التصنيع يدعم اليورو)؛ BoJ نشط (تدخل محتمل إذا تجاوز USDJPY 160)؛ RBA متشدد (Westpac يرى تثبيت الفائدة)؛ كل البنوك في وضع انتظار نهاية الأسبوع.
-
-**Geopolitical & Crisis Analyst:**
-إيران تهدد برد "مدمّر" على عقوبات Trump الجديدة (لكن لا تصعيد عسكري فوري)؛ روسيا تضرب مركز تسوق أوكراني (16 قتيل، لكن روتين حرب)؛ كندا-أميركا: محادثات تعريفات فشلت (تصعيد تجاري لكن ليس صدمة)؛ كل الأحداث severity-1 كحد أقصى، لا حاجة لـhalt.
-
-**FX Strategist:**
-EUR قوي (PMI + ضعف USD)؛ JPY قوي (تحالف عملات + تدخل محتمل)؛ GBP ضعيف (لا محفزات إيجابية)؛ AUD/NZD محايد (RBA متشدد لكن الصين بطيئة)؛ CHF معتدل (SNB يُبقي فائدة سلبية على الطاولة)؛ USD محايد (بيانات قوية لكن قلق ديون).
-
-**Gold & Oil Trader:**
-XAU عند 4603$ (17$ من ATH 4620$)؛ الزخم صاعد على مخاوف ديون أميركية + ضعف USD؛ تاريخياً: اختراق ATH يستمر 55-60% من الوقت؛ XAG يتبع عند 68.9$؛ OIL مستقر عند 87$ (إيران تهدد لكن لا تصعيد فعلي، علاوة الحرب تتلاشى).
-
-**Equity / Risk-Sentiment Desk:**
-US500/US100/US30 تراجعت الجمعة (عوائد سندات + قلق ديون)؛ GER40 صامد (أوروبا أقوى)؛ VIX منخفض (لا ذعر)؛ risk-off معتدل (ليس أزمة)؛ نهاية الأسبوع = سيولة ضعيفة، تجنب مراكز كبيرة.
-
-**Risk Manager:**
-لا أحداث tier-1 خلال 48 ساعة؛ نهاية الأسبوع = سيولة ضعيفة (حذر معتدل)؛ SHOCK خسر 1.11$ اليوم (8 صفقات، 4 أرباح، صافي -2.46$ منذ 20 أغسطس)؛ REVERT-OLD خسر 24.63$ (4 صفقات، 0 أرباح) لكنه روبوت متقاعد؛ الكتب الجديدة (COUNCIL/SWING) مربحة؛ risk_mode=normal مقبول لكن risk_mult يبقى 0.9 للسيولة الضعيفة.
-
-**Market Historian:**
-آخر مرة XAU اقترب من ATH بزخم قوي (يوليو 2020، مارس 2022): استمر 3-7 أيام ثم تراجع 2-4%؛ اليوم: XAU عند 99.6% من نطاق السنة، زخم قوي، لكن نهاية الأسبوع = جني أرباح محتمل؛ EUR/JPY قوي يُشبه يناير 2026 (PMI أوروبا + BoJ حذر)؛ GBP ضعيف بلا محفز يُشبه أغسطس 2025؛ تحذير: نهاية الأسبوع = فجوات كاذبة تُملأ بحلول الأربعاء.
-
-**Chairman:**
+irman:**
 الأدلة واضحة: XAU زخم صاعد (0.5 يبقى)، EUR/JPY قوي (0.3 لكل)، GBP ضعيف (-0.2)، USD محايد (قلق ديون يُلغي بيانات قوية)، OIL محايد (0.0)؛ المؤرخ يحذر من جني أرباح نهاية الأسبوع لكن الزخم لا يزال صاعداً؛ مدير المخاطر محق: نهاية الأسبوع = سيولة ضعيفة لكن لا أزمة؛ القرار: risk_mode=normal، risk_mult=0.9 (بدون تغيير)، conf=0.75 (scorecard 30% يمنع رفعها)، allow_books=ALL (SHOCK يبقى رغم خسارة صغيرة، Fear مبالغ)، biases بدون تغيير.
 
 ## Psyche
@@ -4001,4 +3932,79 @@ summary=All biases held; SHOCK removed (3 losses in range-bound markets); Bessen
 summary_ar=كل ال biases ثابتة؛ SHOCK محذوف (3 خسائر في أسواق راكدة)؛ عقوبات Bessent على إيران بعد 3 ساعات (news_block مضاف)؛ عادي 0.75x
 mind=calm
 psyche_flags=awareness,prudence,intuition
+intuition=أشعر أن Bessent سيعلن عقوبات مالية لا نفطية – السوق سيبيع الخبر: النفط ينزل، الذهب يثبت، USD يرتد مؤقتاً ثم يضعف
+
+
+# 2026-08-24 16:12 UTC
+## Council debate
+
+**Chief Macro Economist:**
+الدولار ضعيف (-0.1 صحيح): سوق السندات قلق، Bessent يعد بشراء تريليون لكن العوائد لا تستجيب. اليورو 0.1 معقول (تجارة الانحطاط)، الجنيه 0.2 قوي عند قمم 6 أشهر. لا تغيير مطلوب.
+
+**Central-Bank Watcher:**
+الين -0.2 دقيق: BoJ سيرفع في سبتمبر (الرهانات 75%)، لكن USDJPY عند 159 = تدخل BoJ قريب. الفرنك -0.1 صحيح (SNB مستعد للسلبية). لا تغيير.
+
+**Geopolitical & Crisis Analyst:**
+Bessent يعلن عقوبات إيران خلال 47 دقيقة – لكن الريال الإيراني انهار مسبقاً (قاع تاريخي)، السوق يعرف. هذا ليس مفاجأة = لا صدمة. النفط نزل -2% اليوم توقعاً للخبر. الذهب عند 4656 (قمة 3 أشهر) لكن لا محفز جديد الآن.
+
+**FX Strategist:**
+USDCAD عند 1.384 – الكندي ضعيف (-0.4 صحيح، ترامب يهدد بـ50% تعرفة). GBPUSD عند 1.363 (قمم 6 أشهر، 0.2 صحيح). USDJPY 159 = منطقة خطر تدخل. لا تغيير مطلوب.
+
+**Gold & Oil Trader:**
+الذهب 4656 (+3% في 3 أيام) – ممتد لكن الزخم قوي (Citi رفع الهدف لـ4800). 0.25 محافظ وصحيح. النفط 85.4 (نزل -2% اليوم) – عقوبات Bessent مسعّرة مسبقاً. 0.0 صحيح.
+
+**Equity / Risk-Sentiment Desk:**
+S&P 7671 ثابت، Nasdaq 29109 ثابت – السوق ينتظر Warsh غداً وNvidia. لا اتجاه اليوم. 0.0 للمؤشرات صحيح. نظام mixed معقول.
+
+**Risk Manager:**
+Bessent خلال 47 دقيقة – news_block USD:47:77 ضروري. daily loss -0.24% (آمن)، لكن INTRADAY خسر (-1.09$) = خسارة واحدة فقط، لا نحذفه. SHOCK محذوف صح (3 خسائر في أسواق راكدة). risk_mult 0.75 مناسب (scorecard 41%).
+
+**Market Historian:**
+عقوبات إيران السابقة (2018-2019): النفط ارتفع أولاً ثم تلاشى خلال أسبوعين (OPEC عوّض). اليوم النفط نزل -2% قبل الإعلان = السوق يبيع الخبر مسبقاً. الذهب في عقوبات 2019 ارتفع +8% في شهر (ملاذ آمن)، لكن اليوم الذهب عند قمة 3 أشهر = ممتد. التاريخ يقول: fade oil spike إن حدث، hold gold bias لكن لا ترفعه.
+
+**Chairman:**
+الإجماع: لا تغيير. Bessent خلال 47 دقيقة لكن السوق سعّر العقوبات (النفط نزل، الريال انهار). news_block USD:47:77 يحمينا. الذهب ممتد لكن الزخم قوي (0.25 يبقى). الكندي ضعيف (-0.4 صحيح). SHOCK يبقى محذوفاً. conf 0.45، risk_mult 0.75، normal.
+
+## Psyche
+
+**Awareness:** fired=no. القرار متطابق مع السابق (لا flip-flop). السجل: INTRADAY خسر مرة واحدة فقط (-1.09$)، other:0 ربح (+0.49$) = لا نمط فشل. Bessent مسعّر مسبقاً (النفط نزل -2%). قرار متسق.
+
+**Greed:** fired=no. الثقة 0.45 (معتدلة)، أقوى bias هو -0.4 (CAD) = لا تطرف. risk_mult 0.75 محافظ. لا علامات طمع.
+
+**Fear:** fired=no. لا رد فعل زائد. Bessent ليس صدمة (مسعّر مسبقاً)، news_block منطقي. لا انهيار biases بدون سبب. متوازن.
+
+**Prudence:** fired=yes. الذهب 0.25 عند قمة 3 أشهر – ممتد لكن مدعوم بمصدرين (Citi target 4800، bond anxiety). CAD -0.4 مدعوم بـ3 مصادر (ترامب، Bloomberg، FXStreet) + السعر يؤكد (1.384). كل bias قوي له دليل. موافق.
+
+**Intuition:** fired=yes. أشعر أن Bessent سيعلن عقوبات مالية (ثانوية) لا نفطية – السوق سيبيع الخبر: النفط ينزل أكثر، الذهب يثبت، USD يرتد 20 نقطة ثم يضعف خلال ساعتين.
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.75
+regime=mixed
+bias_USD=-0.1
+bias_EUR=0.1
+bias_GBP=0.2
+bias_JPY=-0.2
+bias_AUD=0.0
+bias_NZD=0.0
+bias_CAD=-0.4
+bias_CHF=-0.1
+bias_XAU=0.25
+bias_XAG=0.15
+bias_OIL=0.0
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.45
+allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT
+news_block=USD:47:77;AUD:2011:2071
+block_symbols=none
+shock=none
+prefer_symbols=USDCAD,GBPUSD,USDJPY
+summary=All biases held; Bessent Iran sanctions in 47min (priced in: oil -2% today); news_block updated; normal 0.75x
+summary_ar=كل ال biases ثابتة؛ عقوبات Bessent على إيران بعد 47 دقيقة (مسعّرة: النفط نزل -2% اليوم)؛ news_block محدّث؛ عادي 0.75x
+mind=calm
+psyche_flags=prudence,intuition
 intuition=أشعر أن Bessent سيعلن عقوبات مالية لا نفطية – السوق سيبيع الخبر: النفط ينزل، الذهب يثبت، USD يرتد مؤقتاً ثم يضعف
