@@ -1,49 +1,4 @@
-=0.2
-conf=0.65
-allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT,SHOCK
-news_block=none
-block_symbols=none
-shock=none
-prefer_symbols=XAUUSD,EURUSD,USDJPY
-summary=All 8h biases accurate; gold 17$ from ATH on US debt fears; weekend thin liquidity; conf cut to 0.65 on weak scorecard; SHOCK kept (Fear overruled)
-summary_ar=جميع التوجهات دقيقة منذ 8 ساعات؛ الذهب 17$ من ATH بسبب مخاوف الديون؛ سيولة ضعيفة نهاية الأسبوع؛ conf مُخفّض لـ0.65 بسبب scorecard ضعيف؛ SHOCK مُبقى (Fear مُلغى)
-mind=focused
-psyche_flags=awareness,fear,prudence,intuition
-intuition=الذهب سيلمس 4620$ ثم يتصحح 1-2% - نهاية الأسبوع تجلب جني أرباح
-
-
-# 2026-08-22 06:55 UTC
-## Council debate
-
-**Chief Macro Economist:** الاقتصاد الأميركي يُظهر بيانات متينة (Philly Fed، Claims) لكن مخاوف الديون تُبقي عوائد السندات مرتفعة رغم تدخل Bessent. منطقة اليورو PMI أفضل من المتوقع (تصنيع قوي)، لكن ألمانيا تتباطأ. لا تغيير في دورة النمو/التضخم منذ 8 ساعات.
-
-**Central-Bank Watcher:** لا خطابات ولا مفاجآت منذ آخر قرار. Fed ثابت، ECB/BoJ/RBA على hold. Bessent "واثق" من انخفاض العوائد لكن السوق لا يُصدّقه (yields ارتفعت مجدداً). BoJ تدخّل الين يفقد زخمه (Bloomberg: "rescue running out of steam"). لا محفزات جديدة.
-
-**Geopolitical & Crisis Analyst:** US-Iran: تصعيد كلامي (عقوبات جديدة قريبة، إيران تتوعد برد "مدمّر") لكن لا أفعال عسكرية جديدة منذ 48 ساعة. أوكرانيا: ضربة روسية على مول (16 قتيل) – روتين مؤسف، لا تأثير على الأسواق. Canada-US: NYT تقول "محادثات انهارت" لكن لا تأكيد رسمي ولا تعريفات جديدة فعلياً. كل هذا **stale** (> 2 ساعات)، لا severity-2/3.
-
-**FX Strategist:** EURUSD 1.1676 (ثابت)، USDJPY 158.98 (ثابت)، GBPUSD 1.3644 (ثابت). لا حركة منذ 8 ساعات. EUR قوي على PMI، JPY يحافظ على مكاسب التدخل، GBP يتلاشى ببطء، USD محايد (DXY معطّل لكن الأزواج تقول 0.0). AUD 0.717 قرب أعلى 10 أسابيع. كل التوجهات السابقة دقيقة.
-
-**Gold & Oil Trader:** XAU 4603$ – **17$ فقط من ATH 4620$** (وصلها أمس). كل عنوان يقول "US debt concerns" و"Bessent rally fizzles". الزخم قوي لكن نحن في منطقة مقاومة تاريخية. OIL 87.3$ (WTI) – فقد علاوة إيران ببطء (كان 89$ قبل يومين)، الآن محايد. XAG 68.9$ يتبع الذهب.
-
-**Equity / Risk-Sentiment Desk:** SPX 7677، NDX 29312، DAX 26106 – كلها ثابتة منذ 8 ساعات. VIX معطّل لكن Reuters تقول "stocks rose Friday but fell for the week". مخاوف السندات تضغط على المؤشرات الأميركية قليلاً، أوروبا أفضل. Risk-off خفيف مستمر.
-
-**Risk Manager:** لا أحداث tier-1 لـ48 ساعة. نهاية أسبوع، سيولة رقيقة. SHOCK خسر -1.11$ أمس (صفقة واحدة)، other:0 ربح +0.35$ – صافي اليوم -0.76$، لا يُقارب حد -3%. Scorecard 29% ضعيف لكن ليس كارثياً. Caution مبرّر بالسيولة الرقيقة، لكن لا داعي لخفض risk_mult أكثر من 0.85.
-
-**Market Historian:** آخر مرة وصل الذهب ATH جديد (2020، 2024): استمر 1-3 أيام ثم تصحح 1-2%. الآن 17$ من القمة، الزخم قوي لكن نهاية الأسبوع عادة تجلب جني أرباح. USDJPY بعد تدخل BoJ: التأثير يتلاشى بعد 2-6 أسابيع (نحن في الأسبوع 3-4)، الارتفاع البطيء طبيعي. EUR/GBP: GBP يتلاشى بعد ارتفاع قوي = نمط معتاد بعد 2-3 أيام من القمة.
-
-**Chairman:** الوضع **مستقر تماماً** منذ 8 ساعات. كل التوجهات دقيقة (XAU +0.5، JPY +0.3، EUR +0.3، GBP -0.2، OIL 0.0، US500 -0.2). لا أحداث جديدة، لا مفاجآت، لا تغيير في الأساسيات. Scorecard 29% يُبرر conf=0.65 و caution، لكن Awareness ستفحص إذا كنا نُبالغ في الحذر. نُبقي كل شيء كما هو إلا إذا اعترضت Psyche.
-
----
-
-## Psyche
-
-**Awareness:** fired=yes · قارنت آخر 8 قرارات: **صفر تغييرات في التوجهات منذ 23:43 UTC أمس** (16 ساعة!). كل bias ثابت، كل سبب ثابت ("gold ATH"، "weekend thin liquidity"). السعر لم يُكذّبنا (XAU +17$، JPY ثابت، EUR ثابت) لكن **الجمود نفسه خطر**: نحن نُكرر نفس الجملة 8 مرات. هذا ليس flip-flop، بل **تجمّد**. لكن لا توجد حقائق جديدة تُبرر التغيير، فالثبات صحيح هنا.
-
-**Greed:** fired=no · conf=0.65 منخفض، risk_mult=0.85 معتدل، لا لغة "easy money". لا علامات طمع.
-
-**Fear:** fired=yes · **caution منذ 16 ساعة بدون حدث نشط**. آخر مبرر حقيقي كان "Trump speech" (انتهى قبل 17 ساعة بلا تأثير). الآن المبرر "weekend thin liquidity" + "scorecard 29%" – لكن لا خسائر حديثة (يوم +0$ تقريباً)، لا أحداث قادمة، لا تقلب. **نحن نخاف من الظل**. يجب العودة لـnormal مع risk_mult=0.9.
-
-**Prudence:** fired=yes · كل bias قوي (XAU 0.5، JPY 0.3، EUR 0.3) له مصدران (US debt headlines + price action لـXAU؛ BoJ intervention fade + yields لـJPY؛ PMI لـEUR) + analog تاريخي من Market Historian. **مُوافق**.
+ce action لـXAU؛ BoJ intervention fade + yields لـJPY؛ PMI لـEUR) + analog تاريخي من Market Historian. **مُوافق**.
 
 **Intuition:** fired=yes · الذهب سيلمس 4615-4620$ في الساعات القادمة (آسيا الاثنين) ثم يتراجع 20-40$ – نهاية الأسبوع الطويل تجلب جني أرباح دائماً عند ATH.
 
@@ -3986,3 +3941,69 @@ summary_ar=CAD إلى -0.4 (حرب تجارية تتصاعد، 3 مصادر + ا
 mind=calm
 psyche_flags=prudence,intuition
 intuition=أشعر أن عقوبات Bessent ستكون مالية لا نفطية – السوق سيبيع الخبر (النفط ينزل، الذهب يثبت، USD يرتد مؤقتاً ثم يضعف)
+
+
+# 2026-08-24 13:57 UTC
+## Council debate
+
+**Chief Macro Economist:** الاقتصاد الأميركي يواجه أزمة سندات (yields مرتفعة، Bessent يحاول buybacks بـ$1T من الخزينة)؛ هذا ضعف هيكلي للـUSD رغم أن السوق قد يرتد مؤقتاً على أي إعلان؛ bias_USD يبقى -0.1 منطقي.
+
+**Central-Bank Watcher:** BoJ hike bets قوية (JGB 10y عند أعلى مستوى منذ 30 سنة)، السوق يسعّر رفع سبتمبر؛ JPY bias -0.2 صحيح؛ ECB Cipollone قال "خطر الركود والتضخم بعيد" = dovish خفيف، EUR 0.15 مبالغ فيه قليلاً، أقترح 0.1.
+
+**Geopolitical & Crisis Analyst:** Bessent سيعلن عقوبات إيران بعد 4 ساعات (NPR/Guardian/Euronews تسميها "economic D-Day")؛ إيران تهدد بالرد؛ لكن لا صدمة حتى الآن – السوق ينتظر التفاصيل؛ النفط نزل -2% اليوم (86.06) يعني السوق يتوقع عقوبات مالية لا نفطية؛ الذهب عند 4667 (ATH) = safe-haven bid قوي.
+
+**FX Strategist:** USDCAD عند 1.383 (ارتفع 50 نقطة منذ 12:55) = CAD ضعيف فعلاً، bias -0.4 مؤكد؛ EURUSD عند 1.166 ثابت، EUR 0.15 مقبول لكن بلا زخم؛ USDJPY 159.13 (JPY ضعيف)، GBP 1.364 (قرب أعلى 6 أشهر)، bias_GBP يجب أن يرتفع إلى 0.2.
+
+**Gold & Oil Trader:** XAU 4667 (+$10 منذ 12:55، +3% من أمس) = momentum قوي لكن extended جداً؛ bias 0.25 صحيح؛ النفط 86.06 (-2% اليوم) رغم تهديد إيران = السوق لا يخاف نقص العرض، bias 0.0 أو -0.1؛ الفضة 68.95 تتبع الذهب، bias 0.15 ok.
+
+**Equity / Risk-Sentiment Desk:** US500 7662، US100 28970، GER40 26112 – كلها ثابتة؛ لا risk-on ولا risk-off واضح؛ regime=mixed صحيح؛ السوق ينتظر Warsh غداً وNvidia؛ bias 0.0 للمؤشرات منطقي.
+
+**Risk Manager:** daily loss -0.6% (ضمن الحد)، INTRADAY خسر 1 من 1 اليوم (NZDJPY -1.09$) = loss streak 1؛ لا داعي لإزالته بعد؛ scorecard 24h ضعيف (35-39%) لكن CAD/OIL 100% = نثق بـCAD bias؛ Bessent بعد 4 ساعات = news_block ضروري؛ risk_mult 0.75 مناسب.
+
+**Market Historian:** آخر مرة أميركا أعلنت عقوبات "قاسية" على إيران (2018 Trump)، النفط ارتفع +8% في أسبوع ثم تراجع؛ لكن اليوم النفط نزل -2% قبل الإعلان = السوق يسعّر عقوبات مالية لا حظر نفط؛ الذهب في 2018 ارتفع 1% ثم استقر؛ اليوم XAU عند ATH (+3% في يومين) = أقوى بكثير، لكن extended؛ USDCAD في 2018 ارتفع (CAD ضعف) = نفس النمط اليوم؛ bias_CAD -0.4 تاريخياً صحيح.
+
+**Chairman:** الأدلة متسقة: CAD ضعيف (3 مصادر + سعر يؤكد)، JPY ضعيف (BoJ hike bets)، USD ضعيف هيكلياً (أزمة سندات) لكن قد يرتد على Bessent، XAU قوي لكن extended، النفط محايد؛ نبقي معظم التوجهات، نرفع GBP إلى 0.2 (قرب 6-month high)، نخفض EUR إلى 0.1 (Cipollone dovish)، نضيف news_block لـBessent؛ conf 0.45 (scorecard ضعيف)، risk_mult 0.75 (حذر قبل الحدث).
+
+## Psyche
+
+**Awareness:** fired=no – القرارات متسقة مع السابق (CAD -0.4 ثابت، XAU 0.25 ثابت، USD -0.1 ثابت)؛ التغييرات صغيرة (GBP 0→0.2، EUR 0.15→0.1) ومبررة بأدلة جديدة (GBP price، Cipollone)؛ لا flip-flop.
+
+**Greed:** fired=no – معظم التوجهات ضعيفة (|bias|<0.3)، risk_mult منخفض (0.75)، conf منخفض (0.45)؛ لا لغة "فرصة سهلة".
+
+**Fear:** fired=no – لا over-reaction؛ Bessent حدث مجدول (ليس مفاجأة)، المجلس يراقب بهدوء؛ normal mode مناسب.
+
+**Prudence:** fired=yes – GBP 0.2 له مصدر واحد فقط (FXStreet "near 6-month highs") + سعر؛ Market Historian لم يعطِ analog قوي؛ لكن 0.2 ليس قوياً (< 0.5)، مقبول.
+
+**Intuition:** fired=yes – أشعر أن Bessent سيعلن عقوبات مالية (تجميد أصول، منع معاملات) لا حظر نفط؛ السوق سيبيع الخبر: النفط ينزل أكثر، الذهب يثبت أو يتراجع قليلاً، USD يرتد لساعات ثم يضعف.
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.75
+regime=mixed
+bias_USD=-0.1
+bias_EUR=0.1
+bias_GBP=0.2
+bias_JPY=-0.2
+bias_AUD=0.0
+bias_NZD=0.0
+bias_CAD=-0.4
+bias_CHF=-0.1
+bias_XAU=0.25
+bias_XAG=0.15
+bias_OIL=0.0
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.45
+allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT
+news_block=USD:242:302;AUD:2132:2192
+block_symbols=none
+shock=none
+prefer_symbols=USDCAD,GBPUSD,USDJPY
+summary=GBP raised to 0.2 (6-month highs), EUR cut to 0.1 (Cipollone dovish); CAD/JPY/XAU/USD stable; Bessent Iran sanctions 4h (watch); normal 0.75x
+summary_ar=GBP إلى 0.2 (أعلى 6 أشهر)، EUR إلى 0.1 (Cipollone dovish)؛ CAD/JPY/XAU/USD ثابتة؛ عقوبات Bessent على إيران بعد 4 ساعات (نراقب)؛ عادي 0.75x
+mind=calm
+psyche_flags=prudence,intuition
+intuition=أشعر أن Bessent سيعلن عقوبات مالية لا نفطية – السوق سيبيع الخبر: النفط ينزل، الذهب يثبت، USD يرتد مؤقتاً ثم يضعف
