@@ -1,12 +1,12 @@
-ts=1787534849
-generated=2026-08-24 01:27 UTC
+ts=1787535749
+generated=2026-08-24 01:42 UTC (watchman heartbeat; council 15 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.7
 regime=mixed
 conf=0.45
 allow_books=ALL
-news_block=USD:992:1052
+news_block=USD:977:1037
 block_symbols=none
 shock=none
 prefer_symbols=none
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=awareness,prudence,intuition
 intuition=طوكيو (3.5 ساعات) المفتاح: USDJPY فوق 160 بحجم = bias_JPY ينزل لـ-0.4؛ ذهب فوق 4650 بحجم = bias_XAU يصعد لـ+0.4؛ الآن ننتظر فقط
 news_events=none
+watchman=quiet (sev0)
