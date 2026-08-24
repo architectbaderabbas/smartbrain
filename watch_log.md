@@ -1039,4 +1039,4 @@
 - 2026-08-24 17:43 UTC · heartbeat · quiet (sev0)
 - 2026-08-24 17:57 UTC · heartbeat · quiet (sev0)
 - 2026-08-24 18:12 UTC · heartbeat · quiet (sev0)
-- 2026-08-24 18:15 UTC · heartbeat · صفقة NZDUSD INTRADAY 0.54$ ← تحليل مكتوب
+- 2026-08-24 18:15 UTC · FULL COUNCIL triggered: scheduled full council (last 62 min ago)

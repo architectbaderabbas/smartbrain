@@ -1,19 +1,19 @@
-ts=1787595347
-generated=2026-08-24 18:15 UTC (watchman heartbeat; council 3 min ago)
+ts=1787595313
+generated=2026-08-24 18:15 UTC
 version=1
 risk_mode=normal
 risk_mult=0.75
 regime=mixed
-conf=0.45
+conf=0.42
 allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT
 news_block=AUD:1884:1944
 block_symbols=none
 shock=none
-prefer_symbols=USDCAD,XAUUSD,GBPUSD
+prefer_symbols=USDCAD,XAUUSD
 bias_USD=-0.1
 bias_EUR=0.1
-bias_GBP=0.2
-bias_JPY=-0.2
+bias_GBP=0.1
+bias_JPY=-0.15
 bias_AUD=0.0
 bias_NZD=0.0
 bias_CAD=-0.5
@@ -25,10 +25,9 @@ bias_US500=0.0
 bias_US100=0.0
 bias_US30=0.0
 bias_GER40=0.0
-summary=XAU raised to 0.3 (Citi 4800 target, Iran safe-haven), CAD to -0.5 (trade war + oil weak), OIL to 0.1 (diesel warning); Bessent done; normal 0.75x
-summary_ar=XAU لـ0.3 (Citi هدف 4800، إيران ملاذ آمن)، CAD لـ-0.5 (حرب تجارية + نفط ضعيف)، OIL لـ0.1 (تحذير ديزل)؛ Bessent انتهى؛ عادي 0.75x
+summary=GBP cut to 0.1 (extended, historian warns reversal), JPY to -0.15 (BoJ hike bets vs weak price = contradiction); XAU/CAD/OIL held; Bessent done, await Warsh tomorrow; normal 0.75x
+summary_ar=GBP لـ0.1 (ممتد، المؤرخ يحذر انعكاس)، JPY لـ-0.15 (رهانات BoJ قوية لكن السعر ضعيف = تناقض)؛ XAU/CAD/OIL ثابتة؛ Bessent انتهى، ننتظر Warsh غداً؛ عادي 0.75x
 mind=calm
 psyche_flags=awareness,prudence,intuition
-intuition=أشعر أن الذهب سيكسر 4700 خلال 12 ساعة إذا Warsh غداً كان dovish – momentum + ملاذ آمن + USD ضعيف = عاصفة كاملة
+intuition=أشعر أن JPY سيقوى فجأة خلال 24 ساعة إذا Warsh كان أقل تشدداً – السوق يراهن BoJ hawk + Fed dove = ين يجب أن يرتفع لكنه ضعيف الآن = فرصة
 news_events=none
-watchman=صفقة NZDUSD INTRADAY 0.54$ ← تحليل مكتوب
