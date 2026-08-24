@@ -1,11 +1,11 @@
 {
- "ts": 1787529485,
- "council_ts": 1787526749,
+ "ts": 1787530351,
+ "council_ts": 1787530351,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.7,
   "regime": "mixed",
-  "conf": 0.5,
+  "conf": 0.45,
   "bias_USD": 0.05,
   "bias_EUR": 0.0,
   "bias_GBP": 0.0,
@@ -22,19 +22,18 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "ALL",
-  "news_block": "USD:1084:1144",
+  "news_block": "USD:1067:1127",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
   "psyche_flags": "awareness,prudence,intuition",
-  "intuition": "فتح طوكيو (5.8 ساعات) يحسم: USDJPY فوق 160 = خطر تدخل BoJ؛ ذهب فوق 4610 بحجم = اختراق حقيقي؛ نفط تحت 86.5 = تأكيد ضعف؛ الآن نراقب فقط",
-  "summary": "All biases unchanged 165min; weekend dead liquidity, Kashkari supports USD, USDJPY 158.95 stable, CAD weak on Trump, oil/gold flat; await Tokyo open 5.8h; normal 0.7x",
-  "summary_ar": "كل التوجهات ثابتة 165 دقيقة؛ سيولة ميتة نهاية أسبوع، Kashkari يدعم USD، USDJPY 158.95 مستقر، CAD ضعيف على Trump، نفط/ذهب ثابت؛ ننتظر فتح طوكيو 5.8 ساعة؛ عادي 0.7x",
+  "intuition": "طوكيو (4.8 ساعات) يحسم: USDJPY فوق 160 بحجم = bias_JPY ينزل لـ-0.4؛ ذهب فوق 4650 بحجم = bias_XAU يصعد لـ+0.4؛ الآن نراقب فقط، لا نتحرك",
+  "summary": "All biases unchanged 180min; weekend dead liquidity, USDJPY drifts 158.83, CAD weak on Trump, oil/gold flat; await Tokyo open 4.8h; normal 0.7x",
+  "summary_ar": "كل التوجهات ثابتة 180 دقيقة؛ سيولة ميتة نهاية أسبوع، USDJPY ينزلق 158.83، CAD ضعيف على Trump، نفط/ذهب ثابت؛ ننتظر فتح طوكيو 4.8 ساعة؛ عادي 0.7x",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787275316,
