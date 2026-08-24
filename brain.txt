@@ -1,12 +1,12 @@
-ts=1787598751
-generated=2026-08-24 19:12 UTC (watchman heartbeat; council 7 min ago)
+ts=1787599653
+generated=2026-08-24 19:27 UTC
 version=1
 risk_mode=normal
 risk_mult=0.75
 regime=mixed
 conf=0.42
 allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT
-news_block=AUD:1829:1889
+news_block=AUD:1769:1829
 block_symbols=none
 shock=none
 prefer_symbols=USDCAD,XAUUSD
@@ -25,10 +25,9 @@ bias_US500=0.0
 bias_US100=0.0
 bias_US30=0.0
 bias_GER40=0.0
-summary=GBP cut to 0.1 (extended, historian warns reversal), JPY to -0.15 (BoJ hike bets vs weak price = contradiction); XAU/CAD/OIL held; Bessent done, await Warsh tomorrow; normal 0.75x
-summary_ar=GBP لـ0.1 (ممتد، المؤرخ يحذر انعكاس)، JPY لـ-0.15 (رهانات BoJ قوية لكن السعر ضعيف = تناقض)؛ XAU/CAD/OIL ثابتة؛ Bessent انتهى، ننتظر Warsh غداً؛ عادي 0.75x
+summary=All biases held; Bessent Iran sanctions priced (oil -2% pre-announcement); await Warsh tomorrow 23h, AUD CPI 30h; normal 0.75x
+summary_ar=كل التوجهات ثابتة؛ عقوبات إيران مسعّرة (نفط -2% قبل الإعلان)؛ ننتظر Warsh غداً 23 ساعة، AUD CPI 30 ساعة؛ عادي 0.75x
 mind=calm
-psyche_flags=awareness,prudence,intuition
-intuition=أشعر أن JPY سيقوى فجأة خلال 24 ساعة إذا Warsh كان أقل تشدداً – السوق يراهن BoJ hawk + Fed dove = ين يجب أن يرتفع لكنه ضعيف الآن = فرصة
+psyche_flags=prudence,intuition
+intuition=
 news_events=none
-watchman=quiet (sev0)
