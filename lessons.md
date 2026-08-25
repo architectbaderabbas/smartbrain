@@ -1,24 +1,5 @@
 # SmartBrain lessons (post-mortems on real trades, newest last)
 
-### 2026-08-19 17:14 UTC
-**USOIL SHOCK SELL 0.01 lots · 1 min · exit SL · P/L 0.18$ · council bias 0.1 (CAUTION)**
-## POST-MORTEM ANALYSIS
-
-**TRADE SUMMARY:**
-SHOCK book sold USOIL at 86.336 (0.01 lots), held 1 minute, hit stop-loss at 86.318 for +$0.18. Independent robot operating during 10+ hour price context outage, 41 minutes before FOMC Minutes release. Council bias mildly bullish OIL (+0.1), mode CAUTION, allows SHOCK – **sixth SHOCK trade in 3 hours, fifth stop-loss hit, second USOIL trade in 4 minutes**.
-
-**ALIGNMENT & BIAS ACCURACY:**
-SHOCK sold USOIL **against council's +0.1 bullish OIL bias** (risk-on regime, Treasury buyback support). Price dropped 18 pips before reversing – **accidental scratch win, not validated edge**. Council bias was directionally sound (WTI now 86.366, up from entry) but SHOCK traded opposite direction. This contradicts nothing because **SHOCK doesn't read council biases by design** – but exposes the flaw: firing both directions into noise without context = coin-flip.
-
-**ROOT CAUSE OF WIN (LUCK, NOT EDGE):**
-**Stop-loss hit for profit = SL placed below entry on a SELL, capturing random 18-pip jitter before FOMC-driven reversal**. This is **sixth SHOCK trade in 3 hours** (GER40 -$0.13, USOIL -$1.72, GER40 +$0.9, UKOIL -$1.72, USOIL +$0.18) – **machine-gunning oil twice in 4 minutes, both stopped out for ±$1.72 net zero**. Pattern conclusive: SHOCK is broken, hunting phantom volatility in a data-blind, event-risk minefield. The +$0.18 is **noise masking strategy failure**: 6 trades, 5 SL hits, net -$2.71 = negative edge confirmed.
-
-**CONCRETE LESSON:**
-**Two opposite USOIL trades in 4 minutes (BUY -$1.72, SELL +$0.18) = SHOCK has zero directional conviction, just reacting to tick noise without context**. "Independent robot" status is now a liability – it's bleeding account death-by-a-thousand-cuts while council watches helplessly. Lesson: **"After 5 stop-loss hits in one session, SHOCK must be force-suspended regardless of magic number independence – treat as malfunctioning hardware, pull the plug"**.
-
-**DIRECTIVE CHANGE:**
-Balance effectively flat after 6 SHOCK trades ($475.10→$472.15 net, -$2.95 including this), but **psychological damage severe: account down $19.88 from session high (492.03), REVERT purged, SHOCK now demonstrably broken**. With FOMC Minutes 41 minutes away and price feeds dead, **continued
-
 ### 2026-08-19 17:27 UTC
 **EURGBP REVERT SELL 0.07 lots · 147 min · exit SL · P/L -6.85$ · council bias -0.1 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -340,4 +321,17 @@ SWING اشترى US500 عند 7689.54 (0.05 لوت)، أُغلق بعد 125 دق
 
 **3) السبب الجذري للنتيجة:**
 **ستوب متحرك محافظ أنقذ الصفقة من خسارة أكبر.** الستوب الأصلي 32 نقطة (7657.58) والهدف 64.3 نقطة (7753.83) معقولان لـSWING، لكن السعر هبط 32 نقطة كاملة قبل أن يرتد. الخروج بـ+0.05$ يعني أن **Profit Guard حرّك الستوب إلى BE+** بعد تحقيق 0.5R، ثم أُصيب في تصحيح صغير. **هذا نجاح للحماية لا للإشارة**: بدون BE المبكر، الخسارة كانت -1.6$. **النمط المتكرر**: هذه سابع صفقة SmartMulti في أسواق راكدة منذ 21 أغسطس
+
+### 2026-08-25 17:00 UTC
+**EURUSD SWING SELL 0.01 lots · 720 min · exit EA · P/L -1.56$ · council bias 0 (NORMAL)**
+# تحليل ما بعد الصفقة
+
+**1) ما فعله الروبوت:**
+SWING باع EURUSD عند 1.16557 (0.01 لوت)، أُغلق بعد 720 دقيقة (12 ساعة) بخسارة -1.56$ عند 1.16713. الدخول 01:00 UTC، الخروج 17:00 UTC. السعر الآن 1.16708 – أي الزوج ارتفع 15.6 نقطة ضد الصفقة ثم استقر.
+
+**2) التوافق مع توجه المجلس:**
+الصفقة **مخالفة تماماً** لتوجه المجلس: bias_EUR=0.0 (محايد)، bias_USD=0.0 (محايد) – المجلس محايد على الزوج، لكن السياق السعري يُظهر **EUR قوي** (ثابت فوق 1.165 منذ أيام). SWING باع في قاع نطاق 1.1655-1.1675، وهذا **خطأ تكتيكي**: البيع كان يجب أن يكون من 1.1670+ لا من القاع. توجه المجلس المحايد **صحيح** (لا اتجاه واضح)، لكن SWING تجاهل السياق السعري.
+
+**3) السبب الجذري للخسارة:**
+**دخول في قاع نطاق ضيق + سوق راكد بلا محفز.** EURUSD في نطاق 20 نقطة منذ 48 ساعة (1.1655-1.1675)، والبيع من 1.16557 (أدنى النطاق) ضد منطق mean reversion. الستوب 23.6 نقطة (1.16793) معقول، لكن الهدف 47.1 نقطة (1.16086) يتطلب كسر النطاق – وهذا لم يحدث. **هذه ثامن صفقة SWING/INTRADAY خاسرة في أسواق راكدة منذ 21 أغسطس** (صافي SWING الآن 0.0$ من 4 صفقات). النمط واضح: **في غياب الأحداث، كتب SmartMulti تصطاد ستوبات في ال
 
