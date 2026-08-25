@@ -618,5 +618,25 @@
   "t_out": 1787616060,
   "tp": 1.16052,
   "ts": 1787605260
+ },
+ {
+  "balance": 456.55,
+  "book": "INTRADAY",
+  "brain_bias": 0,
+  "brain_mode": "NORMAL",
+  "dir": "SELL",
+  "in": 0.82476,
+  "lots": 0.01,
+  "mins": 24,
+  "out": 0.82574,
+  "pl": -0.71,
+  "pos": 29897580,
+  "reason": "SL",
+  "sl": 0.8257,
+  "symbol": "NZDCAD",
+  "t_in": 1787655600,
+  "t_out": 1787657090,
+  "tp": 0.82335,
+  "ts": 1787646290
  }
 ]

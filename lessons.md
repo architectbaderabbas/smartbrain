@@ -1,24 +1,5 @@
 # SmartBrain lessons (post-mortems on real trades, newest last)
 
-### 2026-08-19 16:09 UTC
-**GER40 SHOCK BUY 0.09 lots · 7 min · exit SL · P/L 0.9$ · council bias 0 (CAUTION)**
-## POST-MORTEM ANALYSIS
-
-**TRADE SUMMARY:**
-SHOCK book bought GER40 at 26131.74 (0.09 lots), held 7 minutes, hit stop-loss at 26140.26 for +$0.9. Independent robot operating during 10+ hour price context outage. Council bias neutral (0.0) for GER40, mode CAUTION, allows SHOCK – permitted but **fourth SHOCK trade in 27 minutes, all stopped out or scratched**.
-
-**ALIGNMENT & BIAS ACCURACY:**
-SHOCK bought with council's neutral GER40 bias (0.0). Price rose 8.52 points (+0.03%), hit SL above entry for tiny profit – **stop was trailing or badly placed below entry, creating accidental win**. Council bias neutral was appropriate (DAX now 26137, choppy ±30 points). No directional error, but **neutrality in CAUTION mode = "don't trade" signal, not "trade both ways" permission**. SHOCK ignored the implicit "stand aside" message.
-
-**ROOT CAUSE OF LOSS (WIN BY LUCK):**
-**Stop-loss placed *above* entry on a BUY = configuration error or trailing stop that locked scratch profit**. This is a **win by accident, not edge**. SHOCK fired fourth time in 27 minutes (GER40 SELL -$0.13 at 16:02, USOIL SELL -$1.72 at 16:06, now GER40 BUY +$0.9 at 16:09) – **machine-gunning a dead market 1h51min before FOMC Minutes with zero context**. Pattern: SHOCK is broken, hunting phantom volatility. This +$0.9 masks the strategy failure: **4 trades, 3.5% account risk deployed, net -$0.95 in 27 minutes = pure churn**.
-
-**CONCRETE LESSON:**
-**SHOCK book in CAUTION mode during data blackouts is a random entry generator – even "wins" are stop-placement flukes, not validated edge**. Four rapid-fire trades on same symbol (GER40 twice in 7 minutes) = desperation, not discipline. Lesson: **"Independent robot" status does NOT exempt SHOCK from suspension when it demonstrates zero situational awareness – council must override and disable after 3 consecutive context-free failures, regardless of magic number autonomy"**.
-
-**DIRECTIVE CHANGE:**
-Balance flat after 4 SHOCK trades ($472.99→$473.89, net -$0.95 + spread bleed), but **risk exposure is reckless: 0.09 lots on $473 account = 19% risk if full SL hit**. Combined with REVERT's -$19.39 earlier, account is in **survival mode, not trading mode**. Recommend **allow_books=COUNCIL** (remove SHOCK immediately). Risk_mult must drop to **0.4** (minimum) until price context restored AND post-FOMC
-
 ### 2026-08-19 17:12 UTC
 **UKOIL SHOCK BUY 0.01 lots · 0 min · exit SL · P/L -1.72$ · council bias 0.1 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -350,4 +331,19 @@ SWING باع EURUSD عند 1.16632 (0.01 لوت)، أُغلق بعد 720 دقي�
 
 **3) السبب الجذري للخسارة الرمزية:**
 **سوق ميت تماماً.** EURUSD تحرك 0.7 نقطة في 12 ساعة (أقل من spread) – هذا ليس سوقاً، بل خط مستقيم. الستوب 29 نقطة والهدف 58 نقطة معقولان لـSWING، لكن **لا حدث، لا تقلب، لا اتجاه**. الخسارة -0.01$ رمزية (spread فقط)، والخروج بـ"EA" يعني إغلاق يدوي أو time-stop بعد 12 ساعة من الركود. **هذه خامس صفقة متتالية في أسواق راكدة** (NZDJPY، EURNZD، NZDUSD كلها نطاقات ضيقة). النمط واضح: **منذ 21 أغسطس، الأسواق في فراغ
+
+### 2026-08-25 08:24 UTC
+**NZDCAD INTRADAY SELL 0.01 lots · 24 min · exit SL · P/L -0.71$ · council bias 0 (NORMAL)**
+# تحليل ما بعد الصفقة
+
+**1) ما فعله الروبوت:**
+INTRADAY باع NZDCAD عند 0.82476 (0.01 لوت)، أُغلق بعد 24 دقيقة فقط عند الستوب 0.8257 بخسارة -0.71$. الدخول 06:00 UTC، الخروج 06:24 UTC. السعر الآن 0.82574 – أي الستوب أُصيب في القمة المحلية ثم استقر السعر عندها.
+
+**2) التوافق مع توجه المجلس:**
+الصفقة **متوافقة** مع المجلس: bias_NZD=0.0 (محايد)، bias_CAD=0.0 (محايد)، وضع NORMAL (0.6x)، INTRADAY مسموح. المجلس **محايد تماماً** على الزوج، وهذا **صحيح**: NZDCAD في نطاق ضيق (0.825-0.826)، لا اتجاه واضح. الملخص حذّر "احتفظ بالبارود الجاف، Warsh غداً سيحرك الأسواق أكثر من أي بيان اليوم" – أي لا تتاجر في الفراغ.
+
+**3) السبب الجذري للخسارة:**
+**INTRADAY يتاجر في جلسة آسيا الميتة بلا محفز.** الدخول 06:00 UTC (18:00 نيوزيلندا، 02:00 كندا) – الجلستان مغلقتان. الستوب 9.4 نقطة ضيق جداً لزوج تقلبه الطبيعي 15 نقطة/ساعة، وأُصيب في 24 دقيقة بضوضاء عشوائية. **هذه سادس خسارة متتالية لكتب SmartMulti في أسواق راكدة منذ 21 أغسطس** (BREAKOUT -3.39$، INTRADAY -2.8$، SHOCK -1.11$). النمط واضح: **في وضع NORMAL بلا أحداث، INTRADAY يصطاد ستوبات في الضوضاء لا في الإشارات.**
+
+**4) الدرس المحد
 
