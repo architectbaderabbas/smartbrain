@@ -1,20 +1,20 @@
 {
  "decisions_scored": 52,
  "overall_hit_rate%": {
-  "4h": 60,
-  "12h": 72,
-  "24h": 82
+  "4h": 61,
+  "12h": 75,
+  "24h": 83
  },
  "per_asset_hit_rate%": {
   "EUR": {
    "4h": 0,
    "12h": 0,
-   "24h": 60
+   "24h": 75
   },
   "JPY": {
    "4h": 0,
-   "12h": 21,
-   "24h": 50
+   "12h": 23,
+   "24h": 46
   },
   "CAD": {
    "4h": 83,
@@ -27,14 +27,14 @@
    "24h": 87
   },
   "XAU": {
-   "4h": 46,
-   "12h": 40,
+   "4h": 43,
+   "12h": 50,
    "24h": 100
   }
  },
  "by_mind_state%": {
-  "calm": 71,
-  "?": 60
+  "calm": 72,
+  "?": 58
  },
  "note": "hit = price moved in the direction of a bias with |bias|>=0.3 after the horizon; None = not enough data yet"
 }
