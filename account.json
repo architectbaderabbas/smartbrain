@@ -18,7 +18,7 @@
     }
   ],
   "brain_mode": "NORMAL",
-  "day_pl": -1.52,
+  "day_pl": 0.05,
   "equity": 455.94,
   "positions": [
     {
@@ -31,28 +31,28 @@
     }
   ],
   "prices": {
-    "AUDJPY": 113.972,
-    "AUDUSD": 0.71552,
-    "CHFJPY": 198.455,
-    "EURGBP": 0.85555,
-    "EURJPY": 185.754,
-    "EURNZD": 1.95452,
+    "AUDJPY": 113.94,
+    "AUDUSD": 0.71542,
+    "CHFJPY": 198.421,
+    "EURGBP": 0.85529,
+    "EURJPY": 185.72,
+    "EURNZD": 1.95466,
     "EURUSD": 1.16617,
-    "GBPJPY": 217.114,
-    "GBPUSD": 1.36307,
-    "GER40": 26327.16,
-    "NZDJPY": 95.033,
-    "NZDUSD": 0.59663,
-    "UKOIL": 89.783,
-    "US100": 29304.1,
-    "US500": 7694.33,
-    "USDCAD": 1.38538,
-    "USDCHF": 0.80261,
-    "USDJPY": 159.286,
-    "USOIL": 82.836,
-    "XAGUSD": 68.111,
-    "XAUUSD": 4642.74
+    "GBPJPY": 217.139,
+    "GBPUSD": 1.36342,
+    "GER40": 26325.16,
+    "NZDJPY": 95.01,
+    "NZDUSD": 0.59657,
+    "UKOIL": 89.317,
+    "US100": 29323.72,
+    "US500": 7696.46,
+    "USDCAD": 1.38583,
+    "USDCHF": 0.8026,
+    "USDJPY": 159.257,
+    "USOIL": 82.416,
+    "XAGUSD": 68.141,
+    "XAUUSD": 4644.63
   },
-  "ts": 1787658142,
-  "week_pl": -1.99
+  "ts": 1787658994,
+  "week_pl": 0.05
 }
