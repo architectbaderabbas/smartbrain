@@ -1164,3 +1164,5 @@
 - 2026-08-25 15:27 UTC · heartbeat · quiet (sev0)
 - 2026-08-25 15:42 UTC · FULL COUNCIL triggered: scheduled full council (last 74 min ago)
 - 2026-08-25 15:52 UTC · heartbeat · quiet (sev0)
+- 2026-08-25 15:57 UTC · heartbeat · ALERT sev2: U.S. Consumer Confidence falls to 89.4 (lowest since January); home sales miss estimates—soft demand signal amid trade war/geopolitical stress -> protocol applied, council convening
+- 2026-08-25 15:57 UTC · FULL COUNCIL triggered: ALERT sev2: U.S. Consumer Confidence falls to 89.4 (lowest since January); home sales miss estimates—soft demand signal amid trade war/geopolitical stress

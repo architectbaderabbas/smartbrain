@@ -1,46 +1,40 @@
 {
- "ts": 1787673144,
- "council_ts": 1787672550,
+ "ts": 1787673469,
+ "council_ts": 1787673469,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.8,
   "regime": "mixed",
-  "conf": 0.35,
+  "conf": 0.4,
   "bias_USD": 0.0,
   "bias_EUR": 0.0,
-  "bias_GBP": 0.0,
+  "bias_GBP": 0.3,
   "bias_JPY": 0.0,
   "bias_AUD": 0.0,
   "bias_NZD": 0.0,
   "bias_CAD": 0.0,
   "bias_CHF": 0.0,
-  "bias_XAU": -0.1,
-  "bias_XAG": -0.1,
+  "bias_XAU": 0.0,
+  "bias_XAG": 0.0,
   "bias_OIL": -0.2,
   "bias_US500": 0.0,
   "bias_US100": 0.0,
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "SWING,POSITION,SHOCK,COUNCIL,REVERT",
-  "news_block": "AUD:518:638",
+  "news_block": "AUD:508:628",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "prudence",
+  "psyche_flags": "awareness,fear,prudence",
   "intuition": "none",
-  "summary": "Gold/silver extended (cut to -0.1), oil fading war premium (-0.2), FX dead flat; await AUD CPI 10h, Nvidia/PCE 21-24h; normal 0.8x",
-  "summary_ar": "ذهب/فضة ممتدان (-0.1)، نفط يفقد علاوة الحرب (-0.2)، عملات ميتة؛ ننتظر CPI أستراليا 10 ساعات، Nvidia/PCE 21-24 ساعة؛ عادي 0.8x",
+  "summary": "Corrected overreaction: normal mode restored; GBP raised to 0.3 (BoE hike bets, 6mo high); XAU/OIL held; await AUD CPI 9.5h, Nvidia/PCE 21-24h",
+  "summary_ar": "تصحيح رد الفعل الزائد: العودة إلى الوضع الطبيعي؛ GBP يُرفع إلى 0.3 (توقعات رفع BoE، أعلى 6 أشهر)؛ XAU/OIL ثابتان؛ ننتظر AUD CPI بعد 9.5 ساعة، Nvidia/PCE بعد 21-24 ساعة",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
-  {
-   "ts": 1787305016,
-   "what": "Iran-US conditional two-week ceasefire agreed; major de-escalation in Middle East conflict",
-   "sev": 2
-  },
   {
    "ts": 1787344516,
    "what": "750+ US service members wounded in Iran war — major casualty escalation not previously disclosed",
@@ -84,6 +78,11 @@
   {
    "ts": 1787616751,
    "what": "KOSPI opens down 2.4% at 00:05 UTC; Asia risk-off spillover from overnight geopolitical/trade shock cascade",
+   "sev": 2
+  },
+  {
+   "ts": 1787673451,
+   "what": "U.S. Consumer Confidence falls to 89.4 (lowest since January); home sales miss estimates—soft demand signal amid trade war/geopolitical stress",
    "sev": 2
   }
  ]
