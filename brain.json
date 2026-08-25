@@ -1,6 +1,6 @@
 {
- "ts": 1787644650,
- "council_ts": 1787641052,
+ "ts": 1787645549,
+ "council_ts": 1787645549,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.6,
@@ -14,7 +14,7 @@
   "bias_NZD": 0.0,
   "bias_CAD": 0.0,
   "bias_CHF": 0.0,
-  "bias_XAU": 0.25,
+  "bias_XAU": 0.2,
   "bias_XAG": 0.0,
   "bias_OIL": 0.0,
   "bias_US500": 0.0,
@@ -27,14 +27,13 @@
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "none",
-  "intuition": "none",
-  "summary": "Markets dead flat pre-data; AUD CPI 18h, Warsh/PCE/GDP 29h; hold all biases, normal 0.6x",
-  "summary_ar": "الأسواق ميتة تماماً قبل البيانات؛ CPI أستراليا بعد 18 ساعة، Warsh/PCE/GDP بعد 29 ساعة؛ نُبقي كل التوجهات، عادي 0.6x",
+  "psyche_flags": "prudence,intuition",
+  "intuition": "Warsh غداً سيحرك الأسواق أكثر من أي بيان اليوم. احتفظ بالبارود الجاف",
+  "summary": "XAU cut to 0.2 (extended, historian warns); all else held; markets dead flat; await AUD CPI 17h, Warsh/PCE 28h; normal 0.6x",
+  "summary_ar": "الذهب خُفّض إلى 0.2 (ممتد، المؤرخ يحذر)؛ كل شيء آخر ثابت؛ الأسواق ميتة تماماً؛ ننتظر CPI أستراليا 17 ساعة، Warsh/PCE 28 ساعة؛ عادي 0.6x",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787305016,
