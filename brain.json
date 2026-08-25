@@ -1,5 +1,5 @@
 {
- "ts": 1787693251,
+ "ts": 1787693996,
  "council_ts": 1787693251,
  "directives": {
   "risk_mode": "normal",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "ALL",
-  "news_block": "AUD:220:260",
+  "news_block": "AUD:208:248",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
@@ -31,9 +31,10 @@
   "intuition": "الأسواق ميتة؛ Nvidia غداً أهم من CPI أستراليا، لكن لا نتاجر مباشرة؛ أشعر بتصحيح EUR/GBP قريب لكن لا دليل",
   "summary": "EUR raised to 0.2 (ECB Sept hike confirmed, Ifo beat); AUD 0.2 (CPI in 4h, blocked 220-260min); OIL held -0.2 (war premium fading); XAU/GBP neutral (extended); await CPI, Nvidia, PCE",
   "summary_ar": "EUR إلى 0.2 (ECB سبتمبر مؤكد، Ifo)؛ AUD 0.2 (CPI بعد 4 ساعات، محجوب 220-260 دقيقة)؛ نفط -0.2 (علاوة حرب تتلاشى)؛ ذهب/جنيه محايدان (ممتدان)؛ ننتظر CPI، Nvidia، PCE",
-  "news_events": "none"
+  "news_events": "AUD:1787707800:CPI_mm;AUD:1787707800:CPI_yy;AUD:1787707800:Trimmed_Mean_CPI_mm"
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787344516,
