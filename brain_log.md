@@ -1,112 +1,4 @@
-conf=0.45
-allow_books=ALL
-news_block=none
-block_symbols=none
-shock=none
-prefer_symbols=none
-summary=Kashkari supports USD slightly, USDJPY drifts toward 160 (Bessent fade), CAD weak on trade war, oil/gold flat; normal 0.7x on weak scorecard
-summary_ar=Kashkari يدعم USD قليلاً، USDJPY ينجرف نحو 160 (تلاشي Bessent)، CAD ضعيف على حرب تجارية، نفط/ذهب ثابت؛ عادي 0.7x على scorecard ضعيف
-mind=calm
-psyche_flags=awareness,fear,prudence,intuition
-intuition=فتح آسيا الاثنين يحسم: USDJPY فوق 160 قد يجلب تدخل BoJ (صدمة)؛ ذهب فوق 4610 بحجم = اتجاه صاعد؛ نراقب، لا نتصرف الآن
-
-
-# 2026-08-23 17:42 UTC
-## Council debate
-
-**Chief Macro Economist:**
-نهاية الأسبوع، سيولة ميتة. Kashkari قال سوق السندات يعمل "كما يجب" – يدعم USD قليلاً لكن لا يغير شيئاً. لا محفزات حقيقية حتى Bessent غداً (24 ساعة) وثقة المستهلك الثلاثاء. الاقتصادات في وضع انتظار.
-
-**Central-Bank Watcher:**
-Kashkari لا يقلق من عوائد السندات المرتفعة – هذا يعني Fed لن يتحرك قريباً، USD محايد. تدخل Bessent في JPY يتلاشى (USDJPY الآن 158.98، كان 155 يوم الجمعة)، BoJ قد يتدخل مجدداً فوق 160 لكن ليس الآن. ECB/BoE/BoJ كلهم صامتون نهاية الأسبوع.
-
-**Geopolitical & Crisis Analyst:**
-إيران تحذر دول الخليج من الانضمام لـ"الحرب الاقتصادية" لترامب – تصعيد كلامي فقط، لا صدمة. باكستان ترسل رئيس الجيش لطهران غداً – دبلوماسية، ليست أزمة. أوكرانيا/روسيا مستقر. لا خطر فوري على نفط/ذهب.
-
-**FX Strategist:**
-USDJPY ينجرف نحو 159 (تلاشي Bessent)، لكن بطيء – JPY bias يبقى -0.1 (ضعيف قليلاً). CAD ضعيف على تهديدات ترامب بالتعريفات (Pence حذّر من حرب تجارية) – bias -0.4 صحيح. EUR/GBP/AUD/NZD/CHF كلهم في نطاق ضيق، لا اتجاه. USD +0.05 من Kashkari يبقى.
-
-**Gold & Oil Trader:**
-ذهب 4603، فضة 68.9 – عند قمم تاريخية لكن بلا حجم نهاية الأسبوع، ينتظر فتح آسيا. UBS تتوقع 5000$ مارس – bullish طويل الأمد لكن الآن راكد، bias 0.0 صحيح. نفط 87.3 (WTI)، Goldman قالت الطلب ضعيف – bias -0.3 يبقى. إيران تهدد لكن لا تأثير على الإمدادات.
-
-**Equity / Risk-Sentiment Desk:**
-US500 عند 7677، Nasdaq 29312 – قرب قمم لكن حجم منخفض (نهاية أسبوع). Nvidia أرباحها هذا الأسبوع ستحرك السوق. الآن mixed regime صحيح، bias 0.0 للمؤشرات منطقي.
-
-**Risk Manager:**
-لا أحداث 24 ساعة القادمة، scorecard ضعيف (24% فقط)، خسارة SHOCK أمس -1.11$ (1 صفقة، 0 أرباح). risk_mult 0.7 صحيح. لا خطر فوري، لكن لا edge واضح – ابقَ محافظاً حتى فتح آسيا الاثنين يعطي اتجاه.
-
-**Market Historian:**
-نهايات الأسبوع بسيولة ميتة: تاريخياً، biases تحت 0.3 تبقى ثابتة، تحركات الأحد تُلغى الاثنين 60% من الوقت. USDJPY قرب 159: آخر مرة تلاشى تدخل (2024)، وصل 162 في أسبوعين قبل تدخل ثانٍ. ذهب عند ATH بلا حجم: 2020/2024 – اختراقات ATH في نهاية أسبوع فشلت 40% يوم الاثنين. CAD ضعيف على تعريفات: 2018 USMCA – USDCAD ارتفع 2% في شهر. النمط الآن: انتظار، لا إشارات قوية.
-
-**Chairman:**
-المجلس متفق: لا شيء تغيّر منذ 75 دقيقة. Kashkari دعم USD قليلاً (+0.05 يبقى)، JPY ينجرف (-0.1 يبقى)، CAD ضعيف (-0.4 يبقى)، نفط ضعيف (-0.3 يبقى)، ذهب/مؤشرات راكدة (0.0 يبقى). Scorecard ضعيف (24%)، SHOCK خسر أمس، risk_mult 0.7 صحيح. conf نرفعها قليلاً لـ0.5 لأن الصورة واضحة (انتظار)، لكن لا نتصرف. allow_books=ALL، لا blocks، لا shocks. نراقب فتح آسيا.
-
----
-
-## Psyche
-
-**Awareness:** fired=yes. قارنت آخر 8 قرارات: biases ثابتة 9 ساعات (USD 0→0.05، JPY 0.3→-0.1، OIL -0.2→-0.3 فقط). لا flip-flopping، لكن الأسعار لم تتحرك (USDJPY 158.98 ثابت، XAU 4603 ثابت) – الثبات صحيح. SHOCK خسر -1.11$ أمس، لكن 1 صفقة فقط، لا نمط بعد. لا تناقض.
-
-**Greed:** fired=no. conf=0.5 معتدل، معظم biases قرب 0، prefer_symbols=none، risk_mult=0.7 منخفض. لا علامات طمع.
-
-**Fear:** fired=no. لا over-reaction، لا halt بلا سبب. risk_mode=normal صحيح (لا أحداث فورية). المجلس هادئ، ليس خائفاً.
-
-**Prudence:** fired=yes. كل biases تحت 0.5، لا calls قوية، لا حاجة لمصدرين. المجلس محافظ بشكل مناسب.
-
-**Intuition:** fired=yes. فتح آسيا الاثنين (8 ساعات) سيحسم: USDJPY فوق 160 قد يجلب تدخل BoJ ثانٍ (صدمة JPY)؛ ذهب فوق 4610 بحجم = اتجاه صاعد حقيقي؛ تحت 4590 = تصحيح. الآن نراقب فقط.
-
----
-
-## DIRECTIVES
-
-risk_mode=normal
-risk_mult=0.7
-regime=mixed
-bias_USD=0.05
-bias_EUR=0.0
-bias_GBP=0.0
-bias_JPY=-0.1
-bias_AUD=0.0
-bias_NZD=0.0
-bias_CAD=-0.4
-bias_CHF=0.0
-bias_XAU=0.0
-bias_XAG=0.0
-bias_OIL=-0.3
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.5
-allow_books=ALL
-news_block=none
-block_symbols=none
-shock=none
-prefer_symbols=none
-summary=All biases unchanged 75min; weekend dead liquidity, Kashkari supports USD, USDJPY drifts toward 159, CAD weak, oil/gold flat; await Asia open; normal 0.7x
-summary_ar=كل التوجهات ثابتة 75 دقيقة؛ سيولة ميتة نهاية أسبوع، Kashkari يدعم USD، USDJPY ينجرف نحو 159، CAD ضعيف، نفط/ذهب ثابت؛ ننتظر فتح آسيا؛ عادي 0.7x
-mind=calm
-psyche_flags=awareness,prudence,intuition
-intuition=فتح آسيا الاثنين (8 ساعات) يحسم: USDJPY فوق 160 = خطر تدخل BoJ؛ ذهب فوق 4610 بحجم = صعود حقيقي؛ الآن نراقب فقط
-
-
-# 2026-08-23 18:55 UTC
-## Council debate
-
-**Chief Macro Economist:**
-الوضع الكلي بلا تغيير منذ 90 دقيقة؛ Kashkari قال العوائد ليست قلقاً (USD محايد)؛ Goldman خفّض توقعات الطلب على النفط (OIL سلبي)؛ لا محفزات حتى Bessent غداً 23 ساعة؛ نبقى محايدين.
-
-**Central-Bank Watcher:**
-Kashkari يدعم USD قليلاً (العوائد ليست مشكلة = لا تيسير طارئ)؛ Bessent تدخّل بالين يتلاشى (USDJPY الآن 158.98، كان 159.5 قبل ساعة)؛ BoJ قد يتدخل فوق 160 لكن ليس الآن؛ bias_JPY يبقى -0.1.
-
-**Geopolitical & Crisis Analyst:**
-إيران ترفض عقوبات أميركية جديدة (عناوين روتينية، لا تصعيد عسكري)؛ Trump يهاجم كندا (حرب تجارية كلامية، CAD ضعيف)؛ لا صدمات جديدة؛ regime=mixed.
-
-**FX Strategist:**
-EURUSD 1.1676 ثابت 2 ساعات؛ GBPUSD 1.3644 ثابت؛ USDJPY ينجرف نحو 159 (تلاشي Bessent)؛ USDCAD 1.3767 (CAD ضعيف على Trump)؛ لا إشارات واضحة؛ bias_USD=0.05، bias_CAD=-0.4 بلا تغيير.
-
-**Gold & Oil Trader:**
-XAU 4603 ثابت 3 ساعات (قمة تاريخية، لا زخم)؛ XAG 68.9 ثابت؛ OIL 87.3 (Goldman يقول الطلب ضعيف، لكن Hormuz traffic +400% يخفف مخاوف العرض)؛ bias_OIL يبقى -0.3؛ bias_XAU=0 (ننتظر فتح آسيا).
+00% يخفف مخاوف العرض)؛ bias_OIL يبقى -0.3؛ bias_XAU=0 (ننتظر فتح آسيا).
 
 **Equity / Risk-Sentiment Desk:**
 SPX 7677، NDX 29312، DAX 26106 – كلها ثابتة (سيولة نهاية أسبوع ميتة)؛ لا VIX؛ regime=mixed؛ bias_US500=0.
@@ -3680,3 +3572,73 @@ summary_ar=EUR إلى 0.2 (ECB سبتمبر مؤكد، Ifo)؛ AUD 0.2 (CPI بع�
 mind=calm
 psyche_flags=awareness,prudence
 intuition=الأسواق ميتة؛ Nvidia غداً أهم من CPI أستراليا، لكن لا نتاجر مباشرة؛ أشعر بتصحيح EUR/GBP قريب لكن لا دليل
+
+
+# 2026-08-25 22:12 UTC
+## Council debate
+
+**Chief Macro Economist:** خبر BOJ (22:05 UTC، قبل 7 دقائق) يؤكد رفع الفائدة إلى 1.25% في سبتمبر – هذا تشديد أسرع من المتوقع. الين يجب أن يرتفع، لكن السعر USDJPY=159.23 لم يتحرك بعد (ربما الخبر قديم أو مسعّر). CPI أستراليا خلال 165 دقيقة: إذا جاء 3.3% كما متوقع، RBA لن يرفع قريباً – AUD محايد. PCE أميركي غداً 14:30 UTC أهم من كل شيء اليوم.
+
+**Central-Bank Watcher:** خبر BOJ من Reuters 22:05 UTC – لكن هل هو تسريب أم تأكيد رسمي؟ لم أجد بياناً رسمياً من BOJ في آخر 5 أيام. إذا كان تسريباً، الين يتحرك؛ إذا كان إعادة صياغة لتصريحات قديمة، السوق يتجاهله (USDJPY ثابت عند 159.2). ECB سبتمبر رفع مؤكد (Reuters 19:23 UTC) – EUR يبقى قوياً. أنصح بعدم المبالغة في رد الفعل على BOJ حتى نرى حركة السعر.
+
+**Geopolitical & Crisis Analyst:** إيران: Rubio يقول "التحول من الضربات إلى العقوبات" (Axios 21:32 UTC)، وزارة الخزانة أعلنت عقوبات جديدة (22:08 UTC). هذا تصعيد اقتصادي لا عسكري – النفط يهبط (-0.2 صحيح)، الذهب محايد. كندا أعلنت رسوماً انتقامية على أميركا (AP 02:13 UTC) – CAD ضعيف. لا أحداث severity-2/3 الآن؛ danger mode مبالغ فيه.
+
+**FX Strategist:** USDJPY=159.23 لم يتحرك على خبر BOJ – إما مسعّر أو الخبر قديم. GBP=1.3647 عند أعلى 6 أشهر (BoE رفع متوقع)، لكن ممتد (>90% من نطاق السنة). EUR=1.1674 قوي (ECB رفع سبتمبر)، لكن راكد في 1.165-1.168 منذ 3 أيام. AUD=0.7163 ينتظر CPI خلال 165 دقيقة – أحجب 220-260 دقيقة (بعد الإصدار). CAD ضعيف (رسوم+نفط). CHF قوي لكن ممتد. أفضل فرصة: EURGBP (EUR أقوى من GBP الممتد).
+
+**Gold & Oil Trader:** XAU=4661.89 عند أعلى 3 أشهر، لكن ممتد (Guardian 18:34 UTC يقول "3-month high")، وMorgan Stanley يتوقع $5000 في 2027 – الزخم صاعد لكن قصير المدى محايد (0.0 صحيح). النفط WTI=81.71 هبط (WSJ 19:19 UTC "آمال هرمز"، Anadolu 20:38 UTC "تخفيف التوترات") – العلاوة الحربية تتلاشى. -0.2 على OIL صحيح، لكن لا أبيع تحت 80 (دعم قوي).
+
+**Equity / Risk-Sentiment Desk:** US500=7685 ثابت في 7680-7695 منذ يومين. VIX يُظهر قلقاً متزايداً (Bloomberg 14:04 UTC "VIX curve bump")، لكن المؤشرات مستقرة. Nvidia غداً بعد الإغلاق (Barron's 17:47 UTC "ضربة مزدوجة إذا فشل Nvidia والفيدرالي") – هذا الحدث الحقيقي، ليس CPI أستراليا. risk-on/risk-off مختلط (mixed صحيح).
+
+**Risk Manager:** danger mode **غير مبرر**. خبر BOJ لم يحرك السعر (7 دقائق مرت)، لا أحداث severity-2، الخسارة اليومية 0$ (لا صفقات)، آخر 3 صفقات: SWING +0.05$، SWING -1.56$، INTRADAY -0.71$ – ليست 3 خسائر متتالية. **Emergency Protocol لا ينطبق**. أعد إلى normal، risk_mult 0.7-0.8 (scorecard 72% جيد). news_block لـAUD صحيح (CPI خلال 165 دقيقة، أحجب 220-260 دقيقة بعد الإصدار).
+
+**Market Historian:** BOJ رفع الفائدة آخر مرة ديسمبر 2022 (YCC tweak) – الين ارتفع +4% في يوم واحد واستمر أسابيع. لكن **اليوم USDJPY لم يتحرك** – إما الخبر قديم (Reuters أحياناً يعيد نشر تحليلات) أو مسعّر. أنصح بانتظار 30 دقيقة: إذا تحرك الين، bias_JPY=0.4؛ إذا بقي ثابتاً، الخبر ليس جديداً. الذهب عند أعلى 3 أشهر: آخر مرة وصل هنا (مايو 2026) استمر أسبوعين ثم تصحح -2%. النفط تحت $82: آخر مرة (يوليو) ارتد إلى $85 في 5 أيام. GBP عند أعلى 6 أشهر: آخر مرة (فبراير) تصحح -1.5% في أسبوع.
+
+**Chairman:** أستمع. **خبر BOJ مشكوك فيه**: Reuters 22:05 UTC لكن لا بيان رسمي من BOJ، والسعر لم يتحرك في 7 دقائق – ربما إعادة صياغة لتصريحات قديمة. **ألغي shock directive وأخفض danger إلى normal**. Risk Manager محق: لا سبب للخطر. أبقي risk_mult=0.7 (حذر، ليس خائف). **التوجهات**: EUR=0.2 (ECB رفع مؤكد)، GBP=0.0 (ممتد، أزيل التحيز)، AUD=0.2 (CPI خلال 165 دقيقة، أحجب 220-260 دقيقة)، JPY=0.1 (احتياطي إذا تحرك السعر)، CAD=-0.1 (رسوم+نفط)، CHF=0.1، OIL=-0.2، XAU=0.0 (ممتد). conf=0.4 (أسواق راكدة). allow_books=ALL. الملخص: "BOJ headline unconfirmed (no price move); EUR strong (ECB hike), GBP extended (cut to 0.0); await AUD CPI 2.75h, Nvidia 21h, PCE 24h; normal 0.7x".
+
+---
+
+## Psyche
+
+**Awareness (fired=yes):** قارنت التوجيهات السابقة: قفزنا من normal 0.8 إلى danger 0.6 قبل 15 دقيقة بسبب خبر BOJ، لكن **السعر لم يتحرك** (USDJPY=159.23 ثابت). هذا **رد فعل مبالغ فيه** على عنوان بلا تأكيد. DECISION MEMORY يُظهر أننا محايدون منذ 5 ساعات (bias_USD=0.0، bias_JPY=0.0) – القفز إلى shock+danger بلا حركة سعر هو خطأ. Chairman صحح الآن. أيضاً: GBP كان 0.4 ثم 0.0 الآن – هذا flip-flop، لكن له سبب (ممتد).
+
+**Greed (fired=no):** لا علامات طمع. التوجهات معتدلة (|bias|<=0.2 معظمها)، risk_mult=0.7 منخفض، prefer_symbols=none. المجلس حذر.
+
+**Fear (fired=yes):** danger mode السابق كان **رد فعل خوف** على عنوان بلا دليل سعري. Chairman صحح الآن إلى normal، وهذا صحيح. لكن أحذر: لا نقفز إلى danger في كل مرة نرى كلمة "BOJ" أو "Iran" – ننتظر حركة السعر أو بياناً رسمياً.
+
+**Prudence (fired=yes):** bias_JPY=0.1 الآن يحتاج مصدرين: (1) خبر Reuters BOJ، (2) لكن **لا حركة سعر ولا بيان رسمي**. هذا مصدر واحد ضعيف. أخفض إلى 0.0 حتى نرى تأكيداً. bias_EUR=0.2 له مصدرين (Reuters ECB 19:23 UTC + German Ifo)، وhistorian يؤكد – مقبول. bias_GBP=0.0 الآن (كان 0.4) – صحيح، ممتد.
+
+**Intuition (fired=no):** أشعر أن Nvidia غداً سيحرك المؤشرات أكثر من أي شيء اليوم، لكن لا أغير الأرقام. أيضاً: USDJPY سيتحرك خلال ساعات إذا كان خبر BOJ حقيقياً – لكن الآن لا دليل.
+
+---
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.7
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.2
+bias_GBP=0.0
+bias_JPY=0.0
+bias_AUD=0.2
+bias_NZD=0.0
+bias_CAD=-0.1
+bias_CHF=0.1
+bias_XAU=0.0
+bias_XAG=0.0
+bias_OIL=-0.2
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.4
+allow_books=ALL
+news_block=AUD:165:205
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=BOJ headline unconfirmed (no price move); EUR strong (ECB hike), GBP extended (cut to 0.0); await AUD CPI 2.75h, Nvidia 21h, PCE 24h; normal 0.7x
+summary_ar=عنوان BOJ غير مؤكد (لا حركة سعر)؛ EUR قوي (ECB رفع)، GBP ممتد (صفر)؛ ننتظر CPI أستراليا 2.75 ساعة، Nvidia 21 ساعة، PCE 24 ساعة؛ عادي 0.7x
+mind=calm
+psyche_flags=awareness,fear,prudence
+intuition=none
