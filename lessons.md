@@ -1,24 +1,5 @@
 # SmartBrain lessons (post-mortems on real trades, newest last)
 
-### 2026-08-19 17:12 UTC
-**UKOIL SHOCK BUY 0.01 lots · 0 min · exit SL · P/L -1.72$ · council bias 0.1 (CAUTION)**
-## POST-MORTEM ANALYSIS
-
-**TRADE SUMMARY:**
-SHOCK book bought UKOIL at 93.256 (0.01 lots), held <1 minute, hit stop-loss at 93.084 for -$1.72. Independent robot operating during extended price context outage (10+ hours). Council bias mildly bullish OIL (+0.1), mode CAUTION, allows SHOCK – **fifth SHOCK trade in 3 hours, fourth stop-loss hit**.
-
-**ALIGNMENT & BIAS ACCURACY:**
-SHOCK bought Brent **aligned with council's +0.1 bullish OIL bias** (summary notes risk-on regime, Treasury buyback support). Price immediately collapsed 172 pips in <60 seconds – likely caught wrong side of FOMC Minutes leak/headline 41 minutes before official release (news_block shows USD event imminent). **Council bias directionally reasonable given risk-on context, but timing catastrophically wrong** – trading into known high-impact event window without price feeds is suicide.
-
-**ROOT CAUSE OF LOSS:**
-**SHOCK trading blind into tier-1 event risk with zero context = structural insanity, not bad luck**. This is **fifth SHOCK loss/scratch in 3 hours** (GER40 -$0.13, USOIL -$1.72, GER40 +$0.9 fluke, USOIL -$1.72 again, now UKOIL -$1.72). Pattern unmistakable: **SHOCK's "edge" requires volatility context to distinguish signal from noise – without price feeds, it's firing randomly into event-driven whipsaws**. The 10+ hour data blackout means SHOCK cannot see the setup it thinks it's trading. Not a council bias error (risk-on/OIL+ was sound), but **catastrophic execution failure: allowing SHOCK to operate data-blind 41 minutes before FOMC = negligence**.
-
-**CONCRETE LESSON:**
-**"Independent robot" design does NOT justify letting SHOCK commit suicide during data outages and tier-1 event windows – council has duty-of-care to suspend malfunctioning systems regardless of magic number autonomy**. Five trades, four stop-outs, net -$2.89 in 3 hours = SHOCK has negative edge without context. Lesson: **"allow_books must exclude SHOCK whenever: (1) price context outage >2 hours, OR (2) tier-1 event <60 minutes away, OR (3) 3 consecutive SL hits in same session – treat as circuit-breaker, not suggestion"**.
-
-**DIRECTIVE CHANGE:**
-Balance bled $17.82 since session start (489.89→472.07), **SHOCK responsible for -$2.89, REVERT for -$19.39 before removal**. Account now at **critical threshold** (started ~$492, down 4%). **Immediate action: allow_books=COUNCIL** (remove SHOCK entirely until price context restored AND 24 hours
-
 ### 2026-08-19 17:14 UTC
 **USOIL SHOCK SELL 0.01 lots · 1 min · exit SL · P/L 0.18$ · council bias 0.1 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -346,4 +327,17 @@ INTRADAY باع NZDCAD عند 0.82476 (0.01 لوت)، أُغلق بعد 24 دق�
 **INTRADAY يتاجر في جلسة آسيا الميتة بلا محفز.** الدخول 06:00 UTC (18:00 نيوزيلندا، 02:00 كندا) – الجلستان مغلقتان. الستوب 9.4 نقطة ضيق جداً لزوج تقلبه الطبيعي 15 نقطة/ساعة، وأُصيب في 24 دقيقة بضوضاء عشوائية. **هذه سادس خسارة متتالية لكتب SmartMulti في أسواق راكدة منذ 21 أغسطس** (BREAKOUT -3.39$، INTRADAY -2.8$، SHOCK -1.11$). النمط واضح: **في وضع NORMAL بلا أحداث، INTRADAY يصطاد ستوبات في الضوضاء لا في الإشارات.**
 
 **4) الدرس المحد
+
+### 2026-08-25 11:05 UTC
+**US500 SWING BUY 0.05 lots · 125 min · exit SL · P/L 0.05$ · council bias 0 (NORMAL)**
+# تحليل ما بعد الصفقة
+
+**1) ما فعله الروبوت:**
+SWING اشترى US500 عند 7689.54 (0.05 لوت)، أُغلق بعد 125 دقيقة (ساعتان) عند الستوب 7657.58 بخسارة +0.05$ (ربح رمزي). الدخول 11:00 UTC، الخروج 13:05 UTC. السعر الآن 7694.83 – أي 4.25 نقطة فوق الدخول، مما يعني أن الستوب المتحرك أغلق في قاع محلي ثم ارتد المؤشر.
+
+**2) التوافق مع توجه المجلس:**
+الصفقة **متوافقة تماماً** مع المجلس: bias_US500=0.0 (محايد)، وضع NORMAL (0.5x)، SWING مسموح. المجلس **محايد وصحيح**: US500 في نطاق 7680-7695 منذ يومين بلا اتجاه واضح. الملخص حذّر "ننتظر AUD CPI 15h، Warsh/Nvidia/PCE 26h" – أي لا محفزات الآن. السوق فعلاً راكد: تذبذب 32 نقطة في ساعتين فقط.
+
+**3) السبب الجذري للنتيجة:**
+**ستوب متحرك محافظ أنقذ الصفقة من خسارة أكبر.** الستوب الأصلي 32 نقطة (7657.58) والهدف 64.3 نقطة (7753.83) معقولان لـSWING، لكن السعر هبط 32 نقطة كاملة قبل أن يرتد. الخروج بـ+0.05$ يعني أن **Profit Guard حرّك الستوب إلى BE+** بعد تحقيق 0.5R، ثم أُصيب في تصحيح صغير. **هذا نجاح للحماية لا للإشارة**: بدون BE المبكر، الخسارة كانت -1.6$. **النمط المتكرر**: هذه سابع صفقة SmartMulti في أسواق راكدة منذ 21 أغسطس
 
