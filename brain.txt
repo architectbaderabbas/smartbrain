@@ -1,5 +1,5 @@
-ts=1787664450
-generated=2026-08-25 13:27 UTC
+ts=1787665352
+generated=2026-08-25 13:42 UTC (watchman heartbeat; council 15 min ago)
 version=1
 risk_mode=normal
 risk_mult=1.0
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=none
 intuition=none
 news_events=none
+watchman=quiet (sev0)
