@@ -1172,3 +1172,4 @@
 - 2026-08-25 16:42 UTC · heartbeat · quiet (sev0)
 - 2026-08-25 16:57 UTC · heartbeat · quiet (sev0)
 - 2026-08-25 17:00 UTC · heartbeat · صفقة EURUSD SWING -1.56$ ← تحليل مكتوب
+- 2026-08-25 17:07 UTC · FULL COUNCIL triggered: scheduled full council (last 69 min ago)
