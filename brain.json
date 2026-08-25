@@ -1,20 +1,20 @@
 {
- "ts": 1787635964,
- "council_ts": 1787632950,
+ "ts": 1787636551,
+ "council_ts": 1787636551,
  "directives": {
   "risk_mode": "normal",
-  "risk_mult": 1.0,
+  "risk_mult": 0.6,
   "regime": "mixed",
   "conf": 0.3,
-  "bias_USD": 0.0,
+  "bias_USD": -0.1,
   "bias_EUR": 0.0,
   "bias_GBP": 0.0,
   "bias_JPY": 0.0,
-  "bias_AUD": 0.0,
+  "bias_AUD": 0.2,
   "bias_NZD": 0.0,
   "bias_CAD": 0.0,
   "bias_CHF": 0.0,
-  "bias_XAU": 0.0,
+  "bias_XAU": 0.25,
   "bias_XAG": 0.0,
   "bias_OIL": 0.0,
   "bias_US500": 0.0,
@@ -34,7 +34,6 @@
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787305016,
