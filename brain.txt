@@ -1,5 +1,5 @@
-ts=1787700450
-generated=2026-08-25 23:27 UTC
+ts=1787700825
+generated=2026-08-25 23:33 UTC (watchman heartbeat; council 6 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.8
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=none
 intuition=none
 news_events=AUD:1787707800:CPI_mm;AUD:1787707800:CPI_yy;AUD:1787707800:Trimmed_Mean_CPI_mm
+watchman=quiet (sev0)
