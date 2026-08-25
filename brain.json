@@ -1,9 +1,9 @@
 {
- "ts": 1787648250,
- "council_ts": 1787645549,
+ "ts": 1787649149,
+ "council_ts": 1787649149,
  "directives": {
   "risk_mode": "normal",
-  "risk_mult": 0.6,
+  "risk_mult": 0.5,
   "regime": "mixed",
   "conf": 0.3,
   "bias_USD": -0.1,
@@ -14,7 +14,7 @@
   "bias_NZD": 0.0,
   "bias_CAD": 0.0,
   "bias_CHF": 0.0,
-  "bias_XAU": 0.2,
+  "bias_XAU": 0.1,
   "bias_XAG": 0.0,
   "bias_OIL": 0.0,
   "bias_US500": 0.0,
@@ -27,14 +27,13 @@
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "prudence,intuition",
-  "intuition": "Warsh غداً سيحرك الأسواق أكثر من أي بيان اليوم. احتفظ بالبارود الجاف",
-  "summary": "XAU cut to 0.2 (extended, historian warns); all else held; markets dead flat; await AUD CPI 17h, Warsh/PCE 28h; normal 0.6x",
-  "summary_ar": "الذهب خُفّض إلى 0.2 (ممتد، المؤرخ يحذر)؛ كل شيء آخر ثابت؛ الأسواق ميتة تماماً؛ ننتظر CPI أستراليا 17 ساعة، Warsh/PCE 28 ساعة؛ عادي 0.6x",
+  "psyche_flags": "awareness,prudence,intuition",
+  "intuition": "اليوم ليس يوم التداول، غداً هو. Warsh سيحدد اتجاه USD والذهب للأسبوع",
+  "summary": "XAU cut to 0.1 (extended, no new momentum); risk_mult to 0.5 (INTRADAY losses); await AUD CPI 16h, Warsh/Nvidia/PCE 27h; normal 0.5x",
+  "summary_ar": "الذهب خُفّض إلى 0.1 (ممتد، لا زخم جديد)؛ risk_mult إلى 0.5 (خسائر INTRADAY)؛ ننتظر CPI أستراليا 16 ساعة، Warsh/Nvidia/PCE 27 ساعة؛ عادي 0.5x",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787305016,
