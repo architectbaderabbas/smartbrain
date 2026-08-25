@@ -1,5 +1,5 @@
 {
- "ts": 1787675254,
+ "ts": 1787675319,
  "council_ts": 1787673469,
  "directives": {
   "risk_mode": "normal",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "SWING,POSITION,SHOCK,COUNCIL,REVERT",
-  "news_block": "AUD:479:599",
+  "news_block": "AUD:478:598",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
