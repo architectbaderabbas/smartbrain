@@ -1135,3 +1135,4 @@
 - 2026-08-25 10:42 UTC · heartbeat · quiet (sev0)
 - 2026-08-25 10:57 UTC · heartbeat · quiet (sev0)
 - 2026-08-25 11:05 UTC · heartbeat · صفقة US500 SWING 0.05$ ← تحليل مكتوب
+- 2026-08-25 11:12 UTC · FULL COUNCIL triggered: scheduled full council (last 60 min ago)

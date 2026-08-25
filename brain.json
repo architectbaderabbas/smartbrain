@@ -1,11 +1,11 @@
 {
- "ts": 1787655921,
- "council_ts": 1787652751,
+ "ts": 1787656351,
+ "council_ts": 1787656351,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.5,
   "regime": "mixed",
-  "conf": 0.3,
+  "conf": 0.35,
   "bias_USD": -0.1,
   "bias_EUR": 0.0,
   "bias_GBP": 0.0,
@@ -14,7 +14,7 @@
   "bias_NZD": 0.0,
   "bias_CAD": 0.0,
   "bias_CHF": 0.0,
-  "bias_XAU": 0.1,
+  "bias_XAU": 0.05,
   "bias_XAG": 0.0,
   "bias_OIL": 0.0,
   "bias_US500": 0.0,
@@ -27,14 +27,13 @@
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "awareness,prudence,intuition",
-  "intuition": "أشعر أن SWING سيفتح صفقة مربحة على AUD بعد CPI غداً إذا جاء الرقم كما متوقع أو أقل",
-  "summary": "INTRADAY removed (3 losses in dead markets); all biases held; await AUD CPI 15h, Warsh/Nvidia/PCE 26h; normal 0.5x",
-  "summary_ar": "INTRADAY أُزيل (3 خسائر في أسواق ميتة)؛ كل التوجهات ثابتة؛ ننتظر CPI أستراليا 15 ساعة، Warsh/Nvidia/PCE 26 ساعة؛ عادي 0.5x",
+  "psyche_flags": "awareness,prudence",
+  "intuition": "none",
+  "summary": "XAU cut to 0.05 (extended, historian warns); all else held; markets dead flat; await AUD CPI 14h, Warsh/Nvidia/PCE 25-27h; normal 0.5x",
+  "summary_ar": "XAU خُفض إلى 0.05 (ممتد، المؤرخ يحذر)؛ كل شيء آخر ثابت؛ الأسواق ميتة تماماً؛ ننتظر CPI أستراليا 14 ساعة، Warsh/Nvidia/PCE 25-27 ساعة؛ عادي 0.5x",
   "news_events": "none"
  },
  "error": null,
- "watchman": "صفقة US500 SWING 0.05$ ← تحليل مكتوب",
  "alerts": [
   {
    "ts": 1787305016,

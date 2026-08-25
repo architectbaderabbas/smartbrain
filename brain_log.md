@@ -1,85 +1,4 @@
-المصادر الرسمية. هذا **تقلّب بدون حقائق جديدة** (flip-flopping). الأسعار لم تتحرك (XAU/CAD/JPY ثابتة) = الخبر كاذب. أُلغي danger وأعيد normal.
-
-**Greed:** fired=no — لا ثقة عالية، لا biases قوية، لا prefer_symbols طويلة.
-
-**Fear:** fired=yes — المجلس قفز لـdanger بسبب عنوان واحد بدون تأكيد رسمي ولا حركة أسعار. هذا **رد فعل مبالغ فيه** (over-reaction). استعدت التوازن: danger → normal، risk_mult 0.6 → 0.8.
-
-**Prudence:** fired=yes — danger كان قراراً قوياً (severity-2) لكن بدون مصدرين مستقلين ولا تناظر تاريخي من Market Historian. خفّضته لـnormal وطلبت risk_mult 0.8 (ليس 1.0) لأن نهاية الأسبوع تستحق حذراً معتدلاً.
-
-**Intuition:** fired=yes — الاثنين سيحمل الحركة الحقيقية: XAU إما يخترق 4620 (إذا جاء طلب ملاذ آمن جديد) أو يهبط لـ4580 (إذا استقرت الأوضاع)؛ CAD سيتفاعل مع التعريفات عند فتح أمريكا الشمالية؛ JPY قد يختبر 160 إذا ضعف الدولار.
-
----
-
-## DIRECTIVES
-
-risk_mode=normal
-risk_mult=0.8
-regime=mixed
-bias_USD=0.0
-bias_EUR=0.0
-bias_GBP=0.0
-bias_JPY=0.3
-bias_AUD=-0.1
-bias_NZD=0.0
-bias_CAD=-0.4
-bias_CHF=0.0
-bias_XAU=0.0
-bias_XAG=0.0
-bias_OIL=-0.2
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.35
-allow_books=ALL
-news_block=none
-block_symbols=none
-shock=none
-prefer_symbols=none
-summary=False alarm cancelled: no cyber-attack confirmed, prices static 3h, back to normal 0.8x; weekend thin liquidity, no catalysts 48h; CAD weak on tariffs, JPY supported
-summary_ar=إنذار كاذب أُلغي: لا هجوم سيبراني مؤكد، الأسعار ثابتة 3 ساعات، عودة لوضع عادي 0.8x؛ سيولة ضعيفة نهاية أسبوع، لا محفزات 48 ساعة؛ CAD ضعيف على التعريفات، JPY مدعوم
-mind=calm
-psyche_flags=awareness,fear,prudence,intuition
-intuition=الاثنين سيحمل الحركة: XAU إما ي
-
-
-# 2026-08-23 04:49 UTC
-## Council debate
-
-**Chief Macro Economist:**
-الأسواق ميتة منذ 3 ساعات، نهاية أسبوع بلا بيانات حتى الاثنين. الاقتصاد الأميركي مستقر (عوائد الخزانة ارتفعت لكن بلا أزمة)، أوروبا تعاني من صدمة الصين، لا تغيير في الدورة.
-
-**Central-Bank Watcher:**
-لا خطابات مهمة 48 ساعة (Bessent بعد 37 ساعة = ضوضاء). BoJ متشدد (bias JPY 0.3 صحيح)، Fed/ECB/BoE على وقفة، لا مفاجآت قريبة.
-
-**Geopolitical & Crisis Analyst:**
-تصعيد أميركا-كندا (تعريفات جمركية جديدة، WSJ/AP تؤكد)، لكن السعر لم يتحرك منذ 4 ساعات (USDCAD ثابت 1.3767). إيران تهدد الجيران (Guardian قبل ساعة)، روسيا-أوكرانيا مستمر، لكن لا صدمة جديدة. M5.9 زلزال اليابان (Kyodo 11 ساعة مضت) = لا تأثير على الأسواق.
-
-**FX Strategist:**
-JPY الأقوى (تدخل Bessent + BoJ متشدد، bias 0.3 مبرر)، CAD الأضعف (تعريفات Trump، bias -0.4 صحيح)، الباقي محايد. لكن الأسعار جامدة 3 ساعات = لا edge الآن.
-
-**Gold & Oil Trader:**
-XAU عند 4603 (قرب ATH 4650)، ثابت 13 ساعة، لا اتجاه واضح (bias 0.0 صحيح). OIL عند 87.3 (ارتفع من 83 بسبب إيران)، لكن Morgan Stanley تتوقع تعافي بطيء، bias -0.2 معقول لتلاشي علاوة الحرب.
-
-**Equity / Risk-Sentiment Desk:**
-US500 عند 7677، ثابت منذ الجمعة، لا VIX data، لا حركة. Dow futures تصلح بعض الضرر (IBD قبل ساعتين)، لكن نهاية أسبوع = لا سيولة، bias 0.0 للمؤشرات صحيح.
-
-**Risk Manager:**
-حساب $457، لا مراكز مفتوحة، يوم +0$، أسبوع +0$. SHOCK خسر -1.11$ آخر صفقة (GER40)، لكن OTHER ربح +0.35$. لا خسائر متتالية 3، لا -3% يومي. السيولة ميتة نهاية أسبوع، لكن لا خطر فوري. risk_mode=normal مقبول، لكن risk_mult يجب أن يبقى 0.8 (ليس 1.0) حتى الاثنين.
-
-**Market Historian:**
-نهايات الأسبوع بعد تصعيد جيوسياسي (تعريفات/إيران): الأسعار تتجمد 12-48 ساعة ثم تتحرك الاثنين صباحاً. آخر مرة Trump أعلن تعريفات على كندا (2025): USDCAD ارتفع 0.8% في يومين، لكن هنا السعر لم يتحرك 4 ساعات = السوق ينتظر. XAU قرب ATH بدون momentum جديد: 55% من الوقت يكسر لأعلى، لكن يحتاج محفز (ضعف USD أو تصعيد). الآن لا محفز = احتمال تماسك أو تصحيح صغير. JPY: تدخل Bessent (CryptoRank/Investing.com) عادة يدعم 2-6 أسابيع إذا لم تتغير الأساسيات، bias 0.3 تاريخياً معقول.
-
-**Chairman:**
-الأدلة: تعريفات كندا جديدة (4 مصادر)، لكن السعر ثابت 4 ساعات. إيران تهدد (Guardian قبل ساعة)، لكن لا تأثير على النفط/الذهب. JPY مدعوم (تدخل + BoJ)، CAD ضعيف (تعريفات)، الباقي محايد. السيولة ميتة، لا بيانات 37 ساعة. القرار: **نبقي كل biases بلا تغيير** (JPY 0.3، CAD -0.4، الباقي 0/-0.1/-0.2 كما هي)، risk_mode=normal، risk_mult=0.8 (ليس 1.0 لأن السيولة ضعيفة + scorecard 24%)، conf=0.35 (لا أدلة جديدة قوية). لا صدمات، لا حظر.
-
-## Psyche
-
-**Awareness:** fired=yes — نفس biases 195 دقيقة (8 قرارات متتالية)، لكن الأسعار ثابتة تماماً (XAU/CAD/JPY لم تتحرك)، لا flip-flop، لا عناد، الثبات مبرر بغياب الحقائق الجديدة.
-
-**Greed:** fired=no — conf منخفض 0.35، risk_mult محافظ 0.8، لا prefer_symbols، لا لغة "مال سهل"، الحذر سليم.
-
-**Fear:** fired=no — ألغينا الإنذار الكاذب قبل ساعة، عدنا لـnormal بدون رد فعل زائد، لا انهيار biases، التوازن موجود.
+د.
 
 **Prudence:** fired=yes — كل biases القوية (JPY 0.3، CAD -0.4، OIL -0.2) لها مصدران+ (تدخل Bessent + BoJ لـJPY، تعريفات Trump + WSJ لـCAD، إيران + Morgan Stanley لـOIL)، مقبول.
 
@@ -3895,3 +3814,82 @@ summary_ar=INTRADAY أُزيل (3 خسائر في أسواق ميتة)؛ كل ا
 mind=calm
 psyche_flags=awareness,prudence,intuition
 intuition=أشعر أن SWING سيفتح صفقة مربحة على AUD بعد CPI غداً إذا جاء الرقم كما متوقع أو أقل
+
+
+# 2026-08-25 11:12 UTC
+## Council debate
+
+**Chief Macro Economist:**
+الأسواق في فراغ تام قبل البيانات الكبرى. USD ضعيف (سندات الخزانة عند 4.70%، Bessent يخسر معركته مع السوق)، لكن لا محرك جديد. AUD CPI غداً 14 ساعة (متوقع 3.3% من 3.8%) – إذا جاء كما متوقع أو أقل، RBA قد تؤجل الرفع وAUD ينخفض. PCE الأمريكي 25 ساعة (متوقع 0.2%) هو المفتاح الحقيقي لـUSD.
+
+**Central-Bank Watcher:**
+RBA minutes أمس كانت hawkish (عدة أعضاء يفكرون برفع إضافي)، لكن CPI غداً سيحسم: إذا انخفض التضخم، الرفع يُلغى وAUD يهبط. Fed: لا كلام جديد، السوق ينتظر Warsh غداً وPCE بعد غد. ECB: Lagarde تتحدث عن رفع محتمل (eKathimerini)، EUR ثابت فوق 1.166. BoJ: الشركات تتحوط لضعف ين طويل الأمد (Reuters) – JPY محايد.
+
+**Geopolitical & Crisis Analyst:**
+إيران: عقوبات أمريكية جديدة (BBC, Reuters) لكن النفط هبط (WTI 83.1، أدنى مستوى أسبوعي) – السوق يتجاهل التصعيد لأن الإمدادات لم تُضرب فعلياً. الصين تحذر من رد (FT) لكن لا إجراء بعد. حرب تجارية أمريكية-كندية (NYT, Politico) – CAD محايد. لا صدمة جديدة، الأسواق تنتظر بيانات لا أحداث.
+
+**FX Strategist:**
+USD ضعيف (DXY منخفض، سندات ضعيفة)، EUR ثابت (1.1662)، GBP ثابت (1.3631)، JPY ضعيف (159.29 – الشركات تتحوط لضعف طويل)، AUD قوي مؤقتاً (0.7153) لكن CPI غداً سيقلب الاتجاه إذا جاء منخفضاً، NZD/CAD/CHF راكدون. لا اتجاه واضح في أي زوج – الكل ينتظر البيانات.
+
+**Gold & Oil Trader:**
+XAU عند 4641 (قمة 3 أشهر أمس، Guardian) لكن تراجع قليلاً اليوم (Reuters: profit-taking). ممتد جداً (>90% من نطاق السنة)، لا زخم جديد، bias يجب أن يبقى 0.1 أو أقل. OIL هبط رغم عقوبات إيران (WTI 83.1، Reuters) – السوق يقول "لا تأثير حقيقي على الإمدادات". bias يبقى 0.0.
+
+**Equity / Risk-Sentiment Desk:**
+US500 عند 7690 (راكد في نطاق 7680-7695 منذ يومين)، US100 عند 29287، GER40 عند 26327. لا اتجاه، لا تقلب، الكل ينتظر Nvidia غداً وPCE بعد غد. VIX منخفض (لا بيانات لكن الأسواق هادئة). risk-on/off محايد تماماً.
+
+**Risk Manager:**
+daily loss -1.58% (ضمن الحد)، INTRADAY خسر 3 مرات متتالية (أُزيل صح)، SWING ربح مرتين من 3 (يبقى). CB Consumer Confidence USD بعد 159 دقيقة (medium impact) – news_block USD:159:204 يبقى. لا خطر فوري، لكن الأسواق ميتة: risk_mult 0.5 صحيح، لا نرفعه بلا سبب.
+
+**Market Historian:**
+آخر مرة كانت الأسواق راكدة هكذا قبل بيانات كبرى (أغسطس 2024 قبل Jackson Hole، ديسمبر 2025 قبل Fed): الأزواج تحركت <0.3% يومياً، ثم انفجرت ±1-2% بعد البيانات. **XAU عند قمة 3 أشهر بلا زخم جديد**: آخر 5 مرات حدث هذا (2024, 2025), تراجع 1-2% خلال أسبوع قبل أن يستأنف. **AUD CPI**: آخر 3 مرات جاء الرقم أقل من المتوقع (2025, 2026), AUD هبط 0.5-0.8% في 24 ساعة. النمط الحالي يشبه أغسطس 2024: ركود تام ثم تحرك عنيف بعد البيانات.
+
+**Chairman:**
+الأدلة واضحة: الأسواق في فراغ تام قبل AUD CPI (14h) وPCE/Warsh/Nvidia (25-27h). لا حدث جديد يبرر تغيير التوجهات. XAU ممتد، المؤرخ يحذر من تراجع – نخفض bias إلى 0.05. AUD: RBA hawkish لكن CPI غداً سيحسم – نبقي 0.2 لكن نستعد لقلبه إذا جاء الرقم منخفضاً. كل شيء آخر يبقى. risk_mult 0.5 صحيح (INTRADAY فشل 3 مرات). conf ترتفع قليلاً إلى 0.35 (24h scorecard 81%). allow_books كما هو (INTRADAY مُزال). normal 0.5x حتى تتحرك الأسواق.
+
+---
+
+## Psyche
+
+**Awareness (fired=yes):** قارنت القرار الحالي بالسابق: XAU كان 0.1، نخفضه إلى 0.05 (صحيح، المؤرخ حذّر من امتداد). كل التوجهات الأخرى ثابتة منذ 3 ساعات بلا وقائع جديدة – هذا ثبات لا عناد. SCORECARD: 24h=81% جيد، لكن JPY=25% ضعيف (نبقيه 0.0 صح). لا تقلب.
+
+**Greed (fired=no):** الثقة منخفضة (conf=0.35)، معظم التوجهات قرب الصفر، risk_mult=0.5 منخفض. لا علامات طمع.
+
+**Fear (fired=no):** لا رد فعل زائد على خسائر INTRADAY (أُزيل بعد 3 خسائر متتالية – قرار منطقي). لا هلع، لا تجميد بلا سبب.
+
+**Prudence (fired=yes):** XAU bias=0.05 ضعيف، لا يحتاج مصدرين (مجرد تخفيض من 0.1). AUD bias=0.2 له مصدران (RBA minutes + سعر ثابت) ومثال تاريخي (المؤرخ: CPI منخفض → AUD يهبط). كل شيء متوازن.
+
+**Intuition (fired=no):** أشعر أن الأسواق ستبقى ميتة حتى AUD CPI غداً، ثم تنفجر. لا تغيير مطلوب الآن.
+
+---
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.5
+regime=mixed
+bias_USD=-0.1
+bias_EUR=0.0
+bias_GBP=0.0
+bias_JPY=0.0
+bias_AUD=0.2
+bias_NZD=0.0
+bias_CAD=0.0
+bias_CHF=0.0
+bias_XAU=0.05
+bias_XAG=0.0
+bias_OIL=0.0
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.35
+allow_books=SWING,POSITION,SHOCK,COUNCIL,REVERT
+news_block=USD:159:204
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=XAU cut to 0.05 (extended, historian warns); all else held; markets dead flat; await AUD CPI 14h, Warsh/Nvidia/PCE 25-27h; normal 0.5x
+summary_ar=XAU خُفض إلى 0.05 (ممتد، المؤرخ يحذر)؛ كل شيء آخر ثابت؛ الأسواق ميتة تماماً؛ ننتظر CPI أستراليا 14 ساعة، Warsh/Nvidia/PCE 25-27 ساعة؛ عادي 0.5x
+mind=calm
+psyche_flags=awareness,prudence
+intuition=none
