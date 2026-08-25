@@ -1,6 +1,6 @@
 {
- "ts": 1787615852,
- "council_ts": 1787615705,
+ "ts": 1787616766,
+ "council_ts": 1787616766,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.75,
@@ -22,25 +22,19 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT",
-  "news_block": "AUD:1524:1584",
+  "news_block": "AUD:1497:1557",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDCAD,XAUUSD",
   "mind": "calm",
-  "psyche_flags": "prudence,intuition",
-  "intuition": "الهدوء الحالي خادع – جلسة آسيا غداً ستبقى ميتة، لكن بعد CPI أستراليا سنرى حركة حقيقية أول مرة منذ 3 أيام",
-  "summary": "All biases held; markets dead quiet pre-data; await AUD CPI 25.5h, Warsh/PCE/GDP 37h; normal 0.75x",
-  "summary_ar": "كل التوجهات ثابتة؛ الأسواق ميتة تماماً قبل البيانات؛ ننتظر CPI أستراليا 25.5س، Warsh/PCE/GDP 37س؛ عادي 0.75x",
+  "psyche_flags": "awareness,fear,prudence,intuition",
+  "intuition": "الهدوء الحالي حقيقي – جلسة آسيا ميتة حتى AUD CPI، ثم Warsh/PCE؛ USDCAD عند 1.384 قرب مقاومة 1.39 قد يرتد",
+  "summary": "KOSPI gap -2.4% faded to -0.8% (false alarm); all biases held; back to normal 0.75x; await AUD CPI 25h, Warsh/PCE 37h",
+  "summary_ar": "KOSPI gap -2.4% تلاشى إلى -0.8% (إنذار كاذب)؛ كل التوجهات ثابتة؛ عودة لـnormal 0.75x؛ ننتظر AUD CPI بعد 25 ساعة، Warsh/PCE بعد 37 ساعة",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
-  {
-   "ts": 1787300516,
-   "what": "Eurozone PMI Composite hits nine-month high; stronger-than-expected European PMIs; EURUSD approaches 1.17",
-   "sev": 2
-  },
   {
    "ts": 1787305016,
    "what": "Iran-US conditional two-week ceasefire agreed; major de-escalation in Middle East conflict",
@@ -84,6 +78,11 @@
   {
    "ts": 1787555775,
    "what": "Treasury Secretary Bessent emergency press conference 2:00 PM ET today; major economic action against Iran expected",
+   "sev": 2
+  },
+  {
+   "ts": 1787616751,
+   "what": "KOSPI opens down 2.4% at 00:05 UTC; Asia risk-off spillover from overnight geopolitical/trade shock cascade",
    "sev": 2
   }
  ]

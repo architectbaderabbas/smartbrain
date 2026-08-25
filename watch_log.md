@@ -1075,3 +1075,5 @@
 - 2026-08-24 23:42 UTC · heartbeat · quiet (sev0)
 - 2026-08-24 23:55 UTC · FULL COUNCIL triggered: scheduled full council (last 69 min ago)
 - 2026-08-24 23:57 UTC · heartbeat · quiet (sev0)
+- 2026-08-25 00:12 UTC · heartbeat · ALERT sev2: KOSPI opens down 2.4% at 00:05 UTC; Asia risk-off spillover from overnight geopolitical/trade shock cascade -> protocol applied, council convening
+- 2026-08-25 00:12 UTC · FULL COUNCIL triggered: ALERT sev2: KOSPI opens down 2.4% at 00:05 UTC; Asia risk-off spillover from overnight geopolitical/trade shock cascade
