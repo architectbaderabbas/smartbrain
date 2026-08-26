@@ -1,11 +1,11 @@
 {
- "ts": 1787730270,
- "council_ts": 1787726672,
+ "ts": 1787731171,
+ "council_ts": 1787731171,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.8,
   "regime": "mixed",
-  "conf": 0.4,
+  "conf": 0.35,
   "bias_USD": 0.0,
   "bias_EUR": 0.3,
   "bias_GBP": 0.0,
@@ -22,19 +22,18 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "SWING,POSITION,SHOCK,COUNCIL,REVERT",
-  "news_block": "none",
+  "news_block": "USD:240:300",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "none",
+  "psyche_flags": "prudence",
   "intuition": "none",
-  "summary": "",
-  "summary_ar": "",
+  "summary": "No change since 06:44 UTC; EUR 0.3 (ECB hike), JPY 0.2, OIL -0.2 (Hormuz deal); USD blocked 12:00-13:00 for PCE; conf 0.35 on weak scorecard; normal 0.8x",
+  "summary_ar": "لا تغيير منذ 06:44؛ EUR 0.3 (رفع ECB)، JPY 0.2، نفط -0.2 (اتفاق هرمز)؛ USD محجوب 12:00-13:00 لـPCE؛ ثقة 0.35؛ عادي 0.8x",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787382176,
