@@ -1,5 +1,5 @@
 {
- "ts": 1787747374,
+ "ts": 1787748269,
  "council_ts": 1787745570,
  "directives": {
   "risk_mode": "normal",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "SWING,POSITION,SHOCK,COUNCIL,REVERT",
-  "news_block": "USD:0:60",
+  "news_block": "USD:-14:46",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "AUDCAD",
@@ -31,7 +31,7 @@
   "intuition": "إذا PCE جاء 0.1% (أقل من توقعات)، USD ينهار 0.5% في 15 دقيقة و ذهب يخترق 4650$ – لكن هذا سيناريو 30% احتمال فقط",
   "summary": "Removed BREAKOUT/INTRADAY (losing in dead markets); EUR 0.3 (ECB hike), AUD 0.3 (hot CPI), CAD -0.3 (tariffs+oil); await PCE 12:30; normal 0.9x",
   "summary_ar": "أزلنا BREAKOUT/INTRADAY (خاسران في أسواق ميتة)؛ EUR 0.3 (رفع ECB)، AUD 0.3 (CPI حار)، CAD -0.3 (تعرفة+نفط)؛ ننتظر PCE 12:30؛ normal 0.9x",
-  "news_events": "USD:1787747400:Core_PCE_Price_Index_mm;USD:1787747400:Prelim_GDP_qq"
+  "news_events": "none"
  },
  "error": null,
  "watchman": "quiet (sev0)",
