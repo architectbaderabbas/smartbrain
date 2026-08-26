@@ -1,5 +1,5 @@
 {
- "ts": 1787731171,
+ "ts": 1787731525,
  "council_ts": 1787731171,
  "directives": {
   "risk_mode": "normal",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "SWING,POSITION,SHOCK,COUNCIL,REVERT",
-  "news_block": "USD:240:300",
+  "news_block": "USD:230:290",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
@@ -34,6 +34,7 @@
   "news_events": "none"
  },
  "error": null,
+ "watchman": "صفقة EURNZD SWING 0.14$ ← تحليل مكتوب",
  "alerts": [
   {
    "ts": 1787382176,

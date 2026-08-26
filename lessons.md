@@ -1,26 +1,5 @@
 # SmartBrain lessons (post-mortems on real trades, newest last)
 
-### 2026-08-19 17:27 UTC
-**EURGBP REVERT SELL 0.07 lots · 147 min · exit SL · P/L -6.85$ · council bias -0.1 (CAUTION)**
-## POST-MORTEM ANALYSIS
-
-**TRADE SUMMARY:**
-REVERT book sold EURGBP at 0.85705 (0.07 lots), held 147 minutes, hit stop-loss at 0.85777 for -$6.85. Independent robot operating during 10+ hour price context outage, spanning FOMC Minutes release. Council bias mildly bearish EUR (-0.1), bullish GBP (+0.1), mode CAUTION – **fourth consecutive REVERT stop-loss, book already removed from allow_books after third loss**.
-
-**ALIGNMENT & BIAS ACCURACY:**
-REVERT sold EURGBP **perfectly aligned with council bias** (EUR -0.1, GBP +0.1 = net -0.2 bearish EURGBP). Price rallied 72 pips against position over 2.5 hours. **Council bias was directionally WRONG** – EURGBP now 0.85746, up from entry despite EUR weakness thesis. Post-FOMC price action suggests GBP underperformed USD more than EUR did, invalidating the cross-pair setup. Council's EUR/GBP bias spread looked logical but missed the actual flow dynamics.
-
-**ROOT CAUSE OF LOSS:**
-**REVERT trading a blocked symbol (EURGBP explicitly in block_symbols list) = robot malfunction, not strategy failure**. This trade should never have fired – council directive clearly states "block_symbols: EURGBP" yet REVERT opened position 2 hours AFTER directive issued. Root cause: **independent robot ignoring council blocks + trading into tier-1 event (FOMC) + 10-hour data blackout = triple failure**. The -$6.85 loss is secondary to the compliance breach. REVERT's mean-reversion logic requires stable context; firing into FOMC with no price feeds = blind gambling.
-
-**CONCRETE LESSON:**
-**"Independent robot" architecture has catastrophic flaw: REVERT/BREAKOUT/other:<magic> can violate block_symbols because they don't read council directives**. Four consecutive REVERT losses (-$26.24 total) prove the book has negative edge in current regime, yet it kept trading 2+ hours after council removal. Lesson: **"block_symbols must be enforced at broker/EA level, not just council allow_books – independent robots need hard symbol blacklist in code, not advisory directives they ignore"**.
-
-**DIRECTIVE CHANGE:**
-Balance now $465.30 (down $27.64 from session high), REVERT responsible for -$26.24 across 4 trades. Book already removed from allow_books after third loss, so **no further council action possible** – this is a **human operator issue**: REVERT EA must be manually disabled or symbol blacklist hardcoded. Risk_mult already at 0.6 (appropriate for CAUTION). Recommend operator intervention to stop REVERT EA entirely until data feeds restored.
-
-**LESSON:** Independent robots ignoring block_symbols directive =
-
 ### 2026-08-19 18:01 UTC
 **UKOIL other:0 BUY 0.01 lots · 1 min · exit EA · P/L 0.45$ · council bias 0.1 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -334,4 +313,17 @@ SWING باع EURUSD عند 1.16557 (0.01 لوت)، أُغلق بعد 720 دقي�
 
 **3) السبب الجذري للخسارة:**
 **دخول في قاع نطاق ضيق + سوق راكد بلا محفز.** EURUSD في نطاق 20 نقطة منذ 48 ساعة (1.1655-1.1675)، والبيع من 1.16557 (أدنى النطاق) ضد منطق mean reversion. الستوب 23.6 نقطة (1.16793) معقول، لكن الهدف 47.1 نقطة (1.16086) يتطلب كسر النطاق – وهذا لم يحدث. **هذه ثامن صفقة SWING/INTRADAY خاسرة في أسواق راكدة منذ 21 أغسطس** (صافي SWING الآن 0.0$ من 4 صفقات). النمط واضح: **في غياب الأحداث، كتب SmartMulti تصطاد ستوبات في ال
+
+### 2026-08-26 08:05 UTC
+**EURNZD SWING BUY 0.01 lots · 185 min · exit SL · P/L 0.14$ · council bias 0.15 (NORMAL)**
+# تحليل ما بعد الصفقة
+
+**1) ما فعله الروبوت:**
+SWING اشترى EURNZD عند 1.95896 (0.01 لوت)، أُغلق بعد 185 دقيقة (3 ساعات) عند الستوب 1.95919 بربح رمزي +0.14$. الدخول 00:00 UTC، الخروج 03:05 UTC. السعر الآن 1.95978 – أي 8.2 نقطة فوق الدخول، مما يعني أن الستوب المتحرك أغلق مبكراً والاتجاه استمر.
+
+**2) التوافق مع توجه المجلس:**
+الصفقة **متوافقة جزئياً** مع المجلس: bias_EUR=0.3 (قوي بعد رفع ECB)، bias_NZD=0.0 (محايد)، وضع NORMAL (0.8x)، SWING مسموح. المجلس **محق تماماً**: EUR قوي فعلاً (السعر ارتفع من 1.959 إلى 1.960)، والشراء منطقي. لكن **التوقيت سيء**: الدخول 00:00 UTC (جلسة آسيا الميتة)، وNZD بلا محفز – الزوج تحرك 8 نقاط فقط في 3 ساعات.
+
+**3) السبب الجذري للربح الرمزي:**
+**Profit Guard أغلق مبكراً في سوق بطيء.** الستوب الأصلي 58.9 نقطة (1.95307) والهدف 117.9 نقطة (1.97075) معقولان لـSWING، لكن السعر تحرك 2.3 نقطة فقط لصالح الصفقة قبل أن يُغلق الستوب المتحرك عند BE. **هذا نجاة لا فوز**: الإشارة صحيحة (EUR صاعد)، لكن **التنفيذ في جلسة آسيا بلا سيولة حوّل صفقة سوينغ إلى سكالبينغ**. النمط المتكرر: تاسع صفقة SmartMulti في أسواق راكدة منذ 21 أ
 
