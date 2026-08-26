@@ -1,81 +1,4 @@
-ks=INTRADAY,SWING,POSITION,COUNCIL,REVERT
-news_block=USD:377:437;AUD:2267:2327
-block_symbols=none
-shock=none
-prefer_symbols=EURUSD,USDJPY,USDCAD
-summary=CAD bias cut to -0.3 (trade war escalation, 3 sources); all else stable; Iran sanctions watch (no shock yet); Bessent 6h, AUD CPI 37h; normal 0.75x
-summary_ar=CAD إلى -0.3 (حرب تجارية تتصاعد، 3 مصادر)؛ الباقي ثابت؛ نراقب عقوبات إيران (لا صدمة بعد)؛ Bessent بعد 6 ساعات، AUD CPI بعد 37 ساعة؛ عادي 0.75x
-mind=calm
-psyche_flags=awareness,prudence,intuition
-intuition=أشعر أن عقوبات إيران ستُعلن خلال 24-48 ساعة؛ إذا حدث: النفط سيقفز +5% في ساعات
-
-
-# 2026-08-24 11:46 UTC
-## Council debate
-
-**Chief Macro Economist:** الوضع الكلي ثابت منذ ساعة. أميركا: سندات الخزينة تتراجع قليلاً (yields ease)، لكن القلق البنيوي باقٍ. أوروبا: موجة حر تضغط على النمو، لكن ECB لا يزال متشدداً. كندا: حرب تجارية مع واشنطن تهدد النمو – CAD bias -0.3 صحيح. أستراليا: CPI غداً (37 ساعة) – السوق يتوقع تراجع التضخم من 3.8% إلى 3.3%، لكن لا محفز اليوم. لا تغيير.
-
-**Central-Bank Watcher:** BoJ: رهانات رفع سبتمبر قوية (JGB 10y عند أعلى مستوى منذ 30 سنة)، JPY bias -0.2 صحيح. Fed: Warsh يتكلم غداً في Jackson Hole – السوق قلق من السندات، لكن لا حدث اليوم. ECB: Cipollone قال "خطر الركود والتضخم الحاد بعيد" – هذا حمائمي قليلاً، لكن EUR bias 0.15 معقول (debasement trade أقوى). SNB: تهديد sub-zero قديم (أمس)، CHF -0.1 كافٍ. لا تغيير.
-
-**Geopolitical & Crisis Analyst:** إيران: عناوين "أقسى عقوبات أميركية" منذ ساعة، لكن لا إعلان رسمي بعد. الصين تقول "ملتزمة بالمحادثات". بريطانيا تحذر من هجمات سيبرانية مرتبطة بإيران. **هذا تصعيد، لكن ليس صدمة فورية** – العقوبات قد تُعلن خلال 24-48 ساعة (intuition صحيح). كندا-أميركا: "حرب تجارية شاملة" (3 مصادر: CNBC, Bloomberg, Fortune) – CAD يهبط، bias -0.3 صحيح. لا صدمة الآن، لكن نراقب.
-
-**FX Strategist:** USD: ضعيف (debasement trade مستمر)، bias -0.1 صحيح. EUR: قوي نسبياً (0.15 معقول). GBP: راكد (0.0 صحيح). JPY: ضعيف رغم رهانات BoJ (USDJPY عند 159.06)، -0.2 صحيح. AUD: راكد قبل CPI (0.71668 ثابت)، bias 0.1 مبالغ – أقترح 0.0. NZD: راكد (0.59661)، 0.0 صحيح. CAD: ينهار (1.38414 = أضعف منذ أسابيع)، -0.3 صحيح أو حتى -0.4. CHF: قوي قليلاً (0.80173)، -0.1 كافٍ. **أقترح: AUD إلى 0.0، CAD يبقى -0.3 (أو -0.35).**
-
-**Gold & Oil Trader:** XAU: 4660.77 = ATH جديد (+0.5% اليوم). الزخم قوي (Goldman bullish، USD ضعيف، قلق السندات)، لكن **ممتد جداً** (>99% من نطاق السنة). bias 0.25 صحيح – لا نرفع أكثر. XAG: 69.30 يتبع الذهب، 0.15 كافٍ. OIL: 85.65 WTI، 92.85 Brent – هبط -2% أمس على توقعات عقوبات إيران (paradox: العقوبات تقلل المعروض، لكن السوق يخاف الركود). bias 0.0 صحيح – ننتظر الإعلان الفعلي. **لا تغيير.**
-
-**Equity / Risk-Sentiment Desk:** US500: 7675 ثابت (0.0 صحيح). US100: 29209 ثابت. GER40: 26165 ثابت. الأسواق تنتظر Nvidia غداً وWarsh. **risk-on/risk-off مختلط** – لا اتجاه واضح اليوم. regime=mixed صحيح. لا تغيير.
-
-**Risk Manager:** الحساب: -2.77$ اليوم (-0.6%)، 4 مراكز مفتوحة (EURUSD SELL، NZDJPY BUY، NZDUSD SELL، EURNZD BUY) كلها بخسائر صغيرة. **لا خطر فوري.** INTRADAY خسر -1.09$ اليوم (NZDJPY)، لكن ليس 3 خسائر متتالية – نبقيه في allow_books. scorecard ضعيف (32-35%)، لكن risk_mult 0.75 يحمينا. Bessent يتكلم بعد 6 ساعات (medium impact) – news_block صحيح. **لا تغيير.**
-
-**Market Historian:** **السياق التاريخي:** 1) حروب تجارية أميركا-كندا: آخر مرة (2018 NAFTA renegotiation) CAD هبط -3% في أسبوعين – الآن -0.8% في يومين، الاتجاه صحيح لكن ليس ممتداً. 2) عقوبات إيران: 2018 (Trump withdrew from JCPOA) النفط قفز +15% في شهرين، لكن **بعد الإعلان الفعلي** – الآن لا إعلان، bias 0.0 صحيح. 3) XAU عند ATH: آخر 5 مرات كسر ATH (2020، 2024، 2025) استمر الصعود 2-5 أيام ثم تصحيح -2% – الآن يوم 2، bias 0.25 حذر صحيح. 4) BoJ hike bets: 2022 (YCC tweak) JPY قفز +4% في يوم – الآن رهانات فقط، لا قرار، JPY لا يزال ضعيفاً (159.06) – bias -0.2 صحيح. **الخلاصة: كل biases متوافقة مع التاريخ، لا تغيير مطلوب.**
-
-**Chairman:** شكراً للجميع. **الوضع ثابت منذ ساعة:** لا أخبار جديدة، لا أحداث فورية، الأسعار في نطاقات ضيقة. FX Strategist اقترح AUD إلى 0.0 (منطقي: CPI بعد 37 ساعة، لا محفز اليوم) – **أوافق**. CAD -0.3 كافٍ (حرب تجارية مؤكدة، لكن السعر هبط فعلاً -0.8% = جزء من الحركة تم). XAU 0.25 صحيح (ممتد لكن زخم قوي). OIL 0.0 صحيح (ننتظر إعلان العقوبات). **التغيير الوحيد: AUD من 0.1 إلى 0.0.** risk_mode=normal، risk_mult=0.75 (scorecard ضعيف)، conf=0.45 (لا يقين عالٍ). allow_books كما هو (SHOCK محذوف لأن لا صدمة فعلية). **القرار: تغيير طفيف فقط (AUD).**
-
----
-
-## Psyche
-
-**Awareness:** fired=yes · قارنت القرار الحالي بالقرار السابق (11:42 UTC): الفرق الوحيد AUD من 0.1 إلى 0.0 – **هذا منطقي** (لا أخبار AUD اليوم، CPI بعد 37 ساعة). لا flip-flopping، لا عناد. الأسعار لم تتحرك (AUDUSD ثابت عند 0.71668)، القرار يعكس الواقع. scorecard ضعيف (32%) يبرر conf=0.45 و risk_mult=0.75. **لا مشكلة.**
-
-**Greed:** fired=no · معظم biases صغيرة (|bias| <= 0.3)، prefer_symbols قصير (3 أزواج)، conf=0.45 منخفض، risk_mult=0.75 محافظ. لا لغة "فرصة سهلة". **لا جشع.**
-
-**Fear:** fired=no · لا رد فعل مبالغ على عنوان واحد، لا انهيار biases بعد خسارة (الحساب -0.6% فقط اليوم). risk_mode=normal صحيح (لا أزمة فورية). **لا خوف.**
-
-**Prudence:** fired=yes · AUD bias 0.0 (من 0.1) لا يحتاج مصدرين (تغيير صغير، منطق واضح: لا محفز). CAD -0.3 له 3 مصادر (CNBC, Bloomberg, Fortune) + Market Historian (2018 analog). XAU 0.25 له مصدرين (Goldman, ATH breakout) + Historian (ATH pattern). **كل القرارات القوية مدعومة.**
-
-**Intuition:** fired=yes · أشعر أن عقوبات إيران ستُعلن خلال 24-48 ساعة؛ إذا حدث: النفط سيقفز +5% في ساعات، الذهب +2%، USD قد يرتفع (safe-haven يتغلب على debasement). **لكن الآن لا إعلان = لا نتصرف.**
-
-**Mind state:** calm  
-**Psyche flags:** awareness,prudence,intuition
-
----
-
-## DIRECTIVES
-
-risk_mode=normal
-risk_mult=0.75
-regime=mixed
-bias_USD=-0.1
-bias_EUR=0.15
-bias_GBP=0.0
-bias_JPY=-0.2
-bias_AUD=0.0
-bias_NZD=0.0
-bias_CAD=-0.3
-bias_CHF=-0.1
-bias_XAU=0.25
-bias_XAG=0.15
-bias_OIL=0.0
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.45
-allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT
-news_block=USD:363:423;AUD:2253:2313
-block_symbols=none
-shock=none
-prefer_symbols=EURUSD,USDJPY,USDCAD
+ls=EURUSD,USDJPY,USDCAD
 summary=AUD bias cut to 0.0 (no catalyst today, CPI 37h away); all else stable; Iran sanctions watch (no announcement yet); Bessent 6h; normal 0.75x
 summary_ar=AUD إلى 0.0 (لا محفز اليوم، CPI بعد 37 ساعة)؛ الباقي ثابت؛ نراقب عقوبات إيران (لا إعلان بعد)؛ Bessent بعد 6 ساعات؛ عادي 0.75x
 mind=calm
@@ -3498,3 +3421,80 @@ summary_ar=PCE مر بلا أثر؛ أسواق متجمدة قبل Jackson Hole 
 mind=calm
 psyche_flags=prudence,intuition
 intuition=إذا Warsh غداً شدد، USD ينفجر +1% و AUD ينهار رغم CPI الحار – الآن الجميع ينتظر، لا أحد يراهن
+
+
+# 2026-08-26 13:59 UTC
+## Council debate
+
+**Chief Macro Economist:**
+تحديث GDP Deflator إلى 6.4% (من 6.2%) يؤكد ضغط تضخمي مستمر، لكن Real Consumer Spending راكد في يوليو – هذا stagflation خفيف. النمو 1.5% ضعيف مع تضخم 6%+. الاقتصاد الأميركي يتباطأ لكن التضخم لم يُهزم. EUR قوي (ECB سيرفع سبتمبر)، AUD قوي (CPI حار)، لكن كلاهما ضعيف أمام خطر Warsh غداً.
+
+**Central-Bank Watcher:**
+PCE الأساسي 0.2% كما متوقع – لا مفاجأة، لكن GDP Deflator 6.4% يعطي Warsh ذخيرة للتشديد غداً في Jackson Hole. السوق يتجمد انتظاراً له (27 ساعة). ECB سيرفع سبتمبر (Schnabel أكدت)، RBA الآن في خطر رفع (CPI أستراليا حار). Fed لن يتحرك قبل Warsh، لكن إذا شدد الخطاب غداً USD ينفجر.
+
+**Geopolitical & Crisis Analyst:**
+إيران-عُمان يتفاوضان على Hormuz – هذا يُضعف علاوة الحرب على النفط (-0.3 صحيح). لا تصعيد جديد منذ 48 ساعة. كندا فرضت 50% تعريفات لكن السوق تجاهلها (CAD ثابت). لا أزمة نشطة الآن، لكن خطر Warsh غداً يُجمّد كل شيء. danger mode مبالغ فيه – لا حدث severity-2 نشط الآن.
+
+**FX Strategist:**
+EUR 0.3 صحيح (ECB hawkish + ثابت فوق 1.166)، AUD 0.3 صحيح (CPI حار + RBA hike risk)، CAD -0.3 صحيح (تعريفات + نفط هابط)، JPY 0.2 صحيح (تدخل BoJ + yields أميركية صاعدة). USD محايد (0.0) صحيح – ينتظر Warsh. لكن **AUDCAD الآن 0.5172 (صعد 60 نقطة منذ 06:00)** – الفرصة نصف مستهلكة. GBP محايد (لا أخبار). CHF محايد. NZD محايد (لا CPI حار مثل AUD).
+
+**Gold & Oil Trader:**
+XAU 4630 (-1% من قمة 4700 صباحاً) – تراجع على GDP Deflator (yields صعدت قليلاً). bias -0.1 صحيح (علاوة الحرب تتلاشى + yields صاعدة). OIL 82 (-0.3 صحيح، Hormuz deal + لا supply shock). XAG محايد (يتبع XAU). لا صدمة نشطة، لكن إذا Warsh شدد غداً yields ترتفع و XAU يهبط أكثر.
+
+**Equity / Risk-Sentiment Desk:**
+US500 7692 (ثابت منذ يومين)، US100 29271 (ثابت)، GER40 26444 (ثابت). السوق **متجمد تماماً** انتظاراً لـ Warsh (27h) و Nvidia earnings (18h). لا risk-on ولا risk-off – mixed صحيح. VIX منخفض (complacency). إذا Warsh hawkish غداً، indices تهبط -1..-2%. الآن: لا اتجاه.
+
+**Risk Manager:**
+**danger mode خطأ.** لا حدث severity-2 نشط الآن: GDP Deflator تحديث روتيني لا صدمة، PCE كما متوقع، لا تصعيد حرب، لا flash crash. Emergency Protocol يقول danger فقط لحدث severity-2 **نشط** – وهذا غير موجود. الخطر الحقيقي غداً (Warsh)، لكن الآن السوق هادئ. **العودة إلى normal 0.8x**. shock على DXY انتهى (18 دقيقة validity مضت). daily loss 0.6% (لا خطر)، 4 مراكز مفتوحة (SWING) كلها ربحية أو BE. allow_books صحيح (أزلنا BREAKOUT/INTRADAY البارحة).
+
+**Market Historian:**
+**GDP Deflator revisions مثل هذه (2024 Q1: 3.1%→3.4%) لا تحرك الأسواق – تأثير < 0.2% على USD/indices في 24h.** آخر مرة stagflation خفيف (نمو ضعيف + تضخم مرتفع) كان 2022 H1: USD صعد، indices هبطت، لكن **التحرك بدأ بعد Fed hawkish pivot لا قبله**. الآن السوق ينتظر Warsh – **تاريخياً، قبل Jackson Hole بـ24h الأسواق تتجمد (2023/2024/2025 نفس النمط: volatility < 50% من المعتاد).** AUDCAD صعد 60 نقطة منذ صباحاً (0.5112→0.5172) – **هذا 75% من متوسط مدى يومي (80 نقطة)، الفرصة نصف مستهلكة.** XAU عند 4630 (قرب وسط مدى 4600-4700) – لا extended. danger mode **لا analog تاريخي** – آخر مرة استخدمناه كان لحدث severity-2 نشط (تصعيد حرب)، وهذا غير موجود الآن.
+
+**Chairman:**
+أشكر الجميع. **Risk Manager و Market Historian محقان: danger mode خطأ – لا حدث severity-2 نشط الآن.** GDP Deflator تحديث روتيني، PCE كما متوقع، الحرب هادئة، السوق متجمد انتظاراً لـ Warsh غداً. **نعود إلى normal 0.8x.** shock على DXY انتهى (validity 18 min مضت). التوجهات صحيحة: EUR 0.3 (ECB hike)، AUD 0.3 (CPI حار)، CAD -0.3 (تعريفات + نفط)، JPY 0.2 (تدخل)، OIL -0.3 (Hormuz deal)، XAU -0.1 (yields). **لكن FX Strategist محق: AUDCAD صعد 60 نقطة – الفرصة نصف مستهلكة، نزيله من prefer_symbols.** conf 0.55 (scorecard 50% فقط). allow_books كما هو (SWING,POSITION,SHOCK,COUNCIL,REVERT). news_block انتهى (PCE مضى). **القرار: normal 0.8x، كل التوجهات ثابتة، لا prefer_symbols (الفرص مستهلكة)، ننتظر Warsh غداً.**
+
+## Psyche
+
+**Awareness:** fired=yes. قارنت مع PREVIOUS: قبل 15 دقيقة وضعنا danger 0.6x بسبب GDP Deflator 6.4% – لكن هذا **flip-flop**: قبلها كنا normal 0.9x لـ7 ساعات، ثم danger فجأة بلا حدث severity-2 نشط. Risk Manager صحيح: Emergency Protocol يقول danger فقط لحدث نشط، وهذا غير موجود. **نصحح الخطأ: نعود إلى normal 0.8x.** التوجهات ثابتة منذ 06:44 (EUR/AUD 0.3، CAD/OIL -0.3، JPY 0.2) – لا flip-flop هنا، الأسعار تؤكدها.
+
+**Greed:** fired=no. conf 0.55 متواضع، معظم التوجهات 0.2-0.3 (ليست قوية)، prefer_symbols فارغ الآن (أزلنا AUDCAD لأن الفرصة مستهلكة). risk_mult 0.8 (لا رفع). لا علامات طمع.
+
+**Fear:** fired=yes. danger mode قبل 15 دقيقة كان **over-reaction** لتحديث GDP Deflator روتيني – Market Historian قال "لا analog تاريخي لـdanger mode بلا حدث severity-2". نعود إلى normal لأن الخطر الحقيقي غداً (Warsh) لا الآن. هذا تصحيح خوف مبالغ فيه.
+
+**Prudence:** fired=yes. كل توجه قوي (EUR/AUD 0.3، CAD -0.3) له مصدران+ و analog تاريخي (ECB hike cycles، RBA hike cycles، Canada tariffs 2025). لكن **danger mode قبل 15 دقيقة لم يكن له مصدران – فقط GDP Deflator revision واحد**، لذا Prudence ترفضه. الآن normal 0.8x له أساس (لا حدث نشط + scorecard 50%).
+
+**Intuition:** fired=no. لا حدس جديد – الوضع واضح (انتظار Warsh).
+
+**Mind state:** calm (صححنا خطأ danger mode، عدنا إلى normal، التوجهات مستقرة، لا طمع ولا خوف مبالغ).
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.8
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=0.0
+bias_JPY=0.2
+bias_AUD=0.3
+bias_NZD=0.0
+bias_CAD=-0.3
+bias_CHF=0.0
+bias_XAU=-0.1
+bias_XAG=0.0
+bias_OIL=-0.3
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.55
+allow_books=SWING,POSITION,SHOCK,COUNCIL,REVERT
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=Corrected false danger mode: GDP Deflator revision routine, no sev-2 event; back to normal 0.8x; all biases unchanged (EUR/AUD 0.3, CAD/OIL -0.3, JPY 0.2); markets frozen pre-Warsh (27h)
+summary_ar=صححنا danger mode الخاطئ: تحديث GDP Deflator روتيني، لا حدث خطورة-2؛ عودة إلى normal 0.8x؛ كل التوجهات ثابتة (EUR/AUD 0.3، CAD/OIL -0.3، JPY 0.2)؛ الأسواق متجمدة قبل Warsh (27 ساعة)
+mind=calm
+psyche_flags=awareness,fear,prudence
+intuition=none

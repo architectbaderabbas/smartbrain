@@ -1289,3 +1289,5 @@
 - 2026-08-26 13:14 UTC · heartbeat · quiet (sev0)
 - 2026-08-26 13:29 UTC · heartbeat · quiet (sev0)
 - 2026-08-26 13:44 UTC · heartbeat · quiet (sev0)
+- 2026-08-26 13:59 UTC · heartbeat · ALERT sev2: US Q2 GDP Deflator Revised Up to 6.4%; July Real Consumer Spending Stagnates—stagflation signal ahead of Jackson Hole -> protocol applied, council convening
+- 2026-08-26 13:59 UTC · FULL COUNCIL triggered: ALERT sev2: US Q2 GDP Deflator Revised Up to 6.4%; July Real Consumer Spending Stagnates—stagflation signal ahead of Jackson Hole
