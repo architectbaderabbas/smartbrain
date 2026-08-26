@@ -1304,3 +1304,4 @@
 - 2026-08-26 17:05 UTC · FULL COUNCIL triggered: scheduled full council (last 68 min ago)
 - 2026-08-26 17:09 UTC · heartbeat · صفقة CHFJPY SWING 0$ ← تحليل مكتوب
 - 2026-08-26 17:15 UTC · heartbeat · quiet (sev0)
+- 2026-08-26 17:20 UTC · heartbeat · quiet (sev0)
