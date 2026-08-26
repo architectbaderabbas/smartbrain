@@ -1,6 +1,6 @@
 {
- "ts": 1787783399,
- "council_ts": 1787780687,
+ "ts": 1787784299,
+ "council_ts": 1787784299,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.8,
@@ -12,7 +12,7 @@
   "bias_JPY": 0.2,
   "bias_AUD": 0.3,
   "bias_NZD": 0.0,
-  "bias_CAD": -0.3,
+  "bias_CAD": -0.25,
   "bias_CHF": 0.0,
   "bias_XAU": 0.0,
   "bias_XAG": 0.0,
@@ -22,19 +22,18 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "INTRADAY,SWING,POSITION,SHOCK,COUNCIL,REVERT",
-  "news_block": "USD:-10:20",
+  "news_block": "USD:15:45",
   "block_symbols": "US100,US500,US30",
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "awareness,fear,prudence",
+  "psyche_flags": "none",
   "intuition": "none",
-  "summary": "Cancelled false danger: oil at $82 not $100, no new escalation; back to normal 0.8x; EUR/AUD 0.3 (ECB/CPI), CAD -0.3, JPY 0.2; Nvidia block 34-64min",
-  "summary_ar": "أُلغي danger الكاذب: النفط عند 82$ لا 100$، لا تصعيد جديد؛ عودة لـnormal 0.8x؛ EUR/AUD 0.3 (ECB/CPI)، CAD -0.3، JPY 0.2؛ حظر Nvidia 34-64 دقيقة",
+  "summary": "EUR/AUD 0.3 (ECB/CPI), CAD -0.25 (tariffs, scorecard weak), JPY 0.2; indices blocked for Nvidia (15-45min); normal 0.8x; Warsh in 39h is the real mover",
+  "summary_ar": "EUR/AUD 0.3 (ECB/CPI)، CAD -0.25 (تعريفات، سجل ضعيف)،",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787555775,
