@@ -1,6 +1,6 @@
 {
- "ts": 1787775271,
- "council_ts": 1787771689,
+ "ts": 1787776172,
+ "council_ts": 1787776172,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.8,
@@ -27,14 +27,13 @@
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "awareness,fear,prudence",
+  "psyche_flags": "awareness,prudence",
   "intuition": "none",
-  "summary": "Cancelled danger mode: cyberattack had zero price impact (XAU/JPY/SPX flat 20min); back to normal 0.8x; EUR/AUD 0.3, CAD -0.3, JPY 0.2; Nvidia block 22:00-22:30 UTC",
-  "summary_ar": "ألغينا وضع الخطر: الاختراق الإلكتروني بلا تأثير سعري (XAU/JPY/SPX ثابتة 20 دقيقة)؛ عودة إلى normal 0.8x؛ EUR/AUD 0.3، CAD -0.3، JPY 0.2؛ حظر Nvidia 22:00-22:30 UTC",
+  "summary": "No change: EUR/AUD 0.3 (ECB/CPI), CAD -0.3 (tariffs), JPY 0.2; markets frozen pre-Nvidia (107min) & Warsh (41.5h); normal 0.8x, conf 0.55",
+  "summary_ar": "لا تغيير: EUR/AUD 0.3 (ECB/CPI)، CAD -0.3 (تعرفات)، JPY 0.2؛ الأسواق متجمدة قبل Nvidia (107 دقيقة) وWarsh (41.5 ساعة)؛ normal 0.8x، conf 0.55",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787470932,
