@@ -698,5 +698,25 @@
   "t_out": 1787742318,
   "tp": 1.97075,
   "ts": 1787731518
+ },
+ {
+  "balance": 455.59,
+  "book": "SWING",
+  "brain_bias": -0.1,
+  "brain_mode": "NORMAL",
+  "dir": "SELL",
+  "in": 197.9,
+  "lots": 0.01,
+  "mins": 720,
+  "out": 197.9,
+  "pl": 0,
+  "pos": 30019301,
+  "reason": "EA",
+  "sl": 198.442,
+  "symbol": "CHFJPY",
+  "t_in": 1787731200,
+  "t_out": 1787774423,
+  "tp": 196.816,
+  "ts": 1787763623
  }
 ]

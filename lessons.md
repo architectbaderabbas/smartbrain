@@ -1,26 +1,5 @@
 # SmartBrain lessons (post-mortems on real trades, newest last)
 
-### 2026-08-19 18:01 UTC
-**UKOIL other:0 BUY 0.01 lots · 1 min · exit EA · P/L 0.45$ · council bias 0.1 (CAUTION)**
-## POST-MORTEM ANALYSIS
-
-**TRADE SUMMARY:**
-Independent robot "other:0" bought UKOIL at 92.691 (0.01 lots), held 1 minute, EA-exit at 92.736 for +$0.45. Council bias mildly bullish OIL (+0.1), mode CAUTION, allows SHOCK/COUNCIL only. **Third oil trade in 48 minutes** (UKOIL SHOCK -$1.72, USOIL SHOCK +$0.18, now UKOIL other:0 +$0.45). Price context feeds dead 10+ hours, FOMC Minutes released 18 minutes prior.
-
-**ALIGNMENT & BIAS ACCURACY:**
-Trade direction **aligned with council's +0.1 bullish OIL bias** (risk-on regime, Treasury buyback support). Price moved 45 pips in favor before EA exit. **Council bias directionally correct** – UKOIL now 92.586, consolidating near entry after initial spike. Post-FOMC volatility created brief opportunity window. However, "other:0" doesn't read council biases by design, so alignment is coincidental.
-
-**ROOT CAUSE OF WIN:**
-**EA quick-exit captured post-FOMC volatility spike before reversal** – classic scalp in event-driven chop. The +$0.45 is **tactical luck, not strategic edge**: "other:0" fired into the same blind context that killed SHOCK twice on oil (net -$1.54 on USOIL/UKOIL in prior hour). Root cause of profit = FOMC-induced volatility expansion + 1-minute hold prevented give-back. But **three oil trades in 48 minutes across two independent robots = system fragmentation, not coordinated strategy**. No human would scalp oil three times during data blackout.
-
-**CONCRETE LESSON:**
-**Multiple independent robots trading same commodity family (USOIL/UKOIL) without coordination = position overlap risk and strategy incoherence**. SHOCK lost -$1.54 on oil, "other:0" won +$0.45 – net -$1.09 across 3 trades that should have been ONE position if council-coordinated. Lesson: **"Independent robots on correlated symbols (WTI/Brent) must share position limits – max 1 oil trade across all magic numbers simultaneously, enforced at account level"**.
-
-**DIRECTIVE CHANGE:**
-Balance recovered to $465.98 but still -$26.91 from session high. The win doesn't validate "other:0" – it's a **random profitable tick in a losing session** (account down 5.5% today). No change to allow_books (already excludes non-council books). Risk_mult stays 0.6. Real issue requires **human operator action: disable all independent EAs until price context restored** – council cannot control them via directives.
-
-**LESSON:** Three oil trades in 48 minutes across fragmented robots = uncoordinated system
-
 ### 2026-08-19 19:09 UTC
 **CHFJPY REVERT SELL 0.02 lots · 191 min · exit SL · P/L -5.29$ · council bias 0.2 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -326,4 +305,19 @@ SWING اشترى EURNZD عند 1.95896 (0.01 لوت)، أُغلق بعد 185 د�
 
 **3) السبب الجذري للربح الرمزي:**
 **Profit Guard أغلق مبكراً في سوق بطيء.** الستوب الأصلي 58.9 نقطة (1.95307) والهدف 117.9 نقطة (1.97075) معقولان لـSWING، لكن السعر تحرك 2.3 نقطة فقط لصالح الصفقة قبل أن يُغلق الستوب المتحرك عند BE. **هذا نجاة لا فوز**: الإشارة صحيحة (EUR صاعد)، لكن **التنفيذ في جلسة آسيا بلا سيولة حوّل صفقة سوينغ إلى سكالبينغ**. النمط المتكرر: تاسع صفقة SmartMulti في أسواق راكدة منذ 21 أ
+
+### 2026-08-26 17:09 UTC
+**CHFJPY SWING SELL 0.01 lots · 720 min · exit EA · P/L 0$ · council bias -0.1 (NORMAL)**
+# تحليل ما بعد الصفقة
+
+**1) ما فعله الروبوت:**
+SWING باع CHFJPY عند 197.90 (0.01 لوت)، أُغلق بعد 720 دقيقة (12 ساعة) عند نفس السعر 197.90 بنتيجة 0.00$ (خروج EA). الدخول 00:00 UTC، الخروج 12:04 UTC. السعر الآن 197.82 – أي الزوج تحرك 8 نقاط فقط في 12 ساعة كاملة.
+
+**2) التوافق مع توجه المجلس:**
+الصفقة **مخالفة** لتوجه المجلس: bias_CHF=0.0 (محايد)، bias_JPY=0.2 (قوي) – المجلس يدعم شراء JPY لا بيعه. توجه المجلس **صحيح جزئياً**: JPY فعلاً قوي (USDJPY هبط من 159.5 إلى 159.3)، لكن CHF ثابت أيضاً – الزوج في نطاق ميت 197.8-198.0 منذ يومين. SWING باع في منتصف نطاق ضيق بلا محفز، متجاهلاً قوة JPY.
+
+**3) السبب الجذري للنتيجة الصفرية:**
+**سوق ميت تماماً + time-stop أنقذ من خسارة محتملة.** CHFJPY تحرك 8 نقاط فقط في 12 ساعة (أقل من spread الطبيعي) – هذا ليس سوقاً قابلاً للتداول. الستوب 54.2 نقطة والهدف 108.4 نقطة معقولان لـSWING، لكن **لا حدث، لا تقلب، لا اتجاه**. الخروج بـ0.00$ يعني إغلاق time-stop بعد 12 ساعة من الركود المطلق. **هذه عاشر صفقة متتالية في أسواق راكدة منذ 21 أغسطس** – النمط صارخ: SmartMulti يتاجر في فراغ كامل منذ 5 أيام.
+
+**4) الدرس
 
