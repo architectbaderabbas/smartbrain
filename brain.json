@@ -1,6 +1,6 @@
 {
- "ts": 1787756372,
- "council_ts": 1787752781,
+ "ts": 1787759812,
+ "council_ts": 1787759812,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.8,
@@ -27,14 +27,13 @@
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "awareness,fear,prudence",
-  "intuition": "none",
-  "summary": "Corrected false danger mode: GDP Deflator revision routine, no sev-2 event; back to normal 0.8x; all biases unchanged (EUR/AUD 0.3, CAD/OIL -0.3, JPY 0.2); markets frozen pre-Warsh (27h)",
-  "summary_ar": "صححنا danger mode الخاطئ: تحديث GDP Deflator روتيني، لا حدث خطورة-2؛ عودة إلى normal 0.8x؛ كل التوجهات ثابتة (EUR/AUD 0.3، CAD/OIL -0.3، JPY 0.2)؛ الأسواق متجمدة قبل Warsh (27 ساعة)",
+  "psyche_flags": "prudence",
+  "intuition": "الأسواق ستبقى ميتة حتى Nvidia (ساعات) ثم Warsh (24 ساعة) – لا تتوقع حركة حقيقية قبلهما",
+  "summary": "No change: EUR/AUD 0.3 (ECB hike/hot CPI), CAD/OIL -0.3 (tariffs/Hormuz deal), JPY 0.2; markets frozen pre-Nvidia/Warsh; normal 0.8x, conf 0.55",
+  "summary_ar": "لا تغيير: EUR/AUD 0.3 (رفع ECB/CPI حار)، CAD/OIL -0.3 (تعرفات/اتفاق Hormuz)، JPY 0.2؛ الأسواق متجمدة قبل Nvidia/Warsh؛ normal 0.8x، conf 0.55",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787456530,

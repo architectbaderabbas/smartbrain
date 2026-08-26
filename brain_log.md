@@ -1,37 +1,4 @@
-ls=EURUSD,USDJPY,USDCAD
-summary=AUD bias cut to 0.0 (no catalyst today, CPI 37h away); all else stable; Iran sanctions watch (no announcement yet); Bessent 6h; normal 0.75x
-summary_ar=AUD إلى 0.0 (لا محفز اليوم، CPI بعد 37 ساعة)؛ الباقي ثابت؛ نراقب عقوبات إيران (لا إعلان بعد)؛ Bessent بعد 6 ساعات؛ عادي 0.75x
-mind=calm
-psyche_flags=awareness,prudence,intuition
-intuition=أشعر أن عقوبات إيران ستُعلن خلال 24-48 ساعة؛ إذا حدث: النفط +5%، الذهب +2%، USD قد يرتفع
-
-
-# 2026-08-24 12:55 UTC
-## Council debate
-
-**Chief Macro Economist:** الاقتصاد الأميركي يواجه ضغط سندات (yields ترتفع رغم نزول النفط)، لكن لا ركود بعد. أوروبا: موجة حر تضرب النمو لكن ECB قد ترفع مرة أخرى. أستراليا: CPI غداً مفتاح – إذا جاء 3.3% كما متوقع، RBA قد تؤجل التخفيض.
-
-**Central-Bank Watcher:** Warsh يتكلم في Jackson Hole غداً (الحدث الأهم)، Bessent اليوم بعد 5 ساعات (متوسط الأهمية). BoJ: رهانات على رفع سبتمبر قوية (JGB عند أعلى مستوى منذ 30 سنة). ECB: Cipollone قال "خطر الركود والتضخم الحاد بعيد" – إشارة حذرة لا حمائمية صريحة. Fed: السوق يراهن على buybacks من حساب الخزينة ($1 تريليون) – هذا يدعم السندات لكن يضعف الدولار قليلاً.
-
-**Geopolitical & Crisis Analyst:** عقوبات إيران: 4 مصادر تؤكد أن Bessent سيعلن "أقسى عقوبات" اليوم، إيران هددت بالرد على الدول المتعاونة. هذا severity-2 محتمل لكن **لم يُعلن بعد** – ننتظر الساعة 18:00 UTC (بعد 5 ساعات). حرب تجارية كندا-أميركا: تصعيد (تعريفات 50%، CAD هبط 1.5% في يومين) – هذا مؤكد وجاري. لا أحداث عسكرية جديدة.
-
-**FX Strategist:** USD ضعيف (debasement trade مستمر، yields تنزل صباحاً رغم قلق السندات) – bias سالب خفيف صحيح. EUR: قوي نسبياً لكن بلا محفز اليوم. GBP: راكد. JPY: ضعيف جداً (USDJPY 159، تدخل الأسبوع الماضي فشل) – bias -0.2 صحيح. AUD: راكد تماماً قبل CPI غداً – bias 0.0 صحيح. CAD: ضعيف جداً (حرب تجارية) – bias -0.3 قليل، يجب -0.4. CHF: قوي قليلاً (safe haven خفيف) – bias -0.1 صحيح.
-
-**Gold & Oil Trader:** XAU عند 4667 (ATH جديد، +$100 في 3 أيام) – momentum قوي لكن RSI فوق 70، extended. bias 0.25 معقول لكن حذر. XAG يتبع الذهب (+3% هذا الأسبوع). OIL: هبط -2% اليوم (86.1 WTI) رغم توقع عقوبات إيران – السوق يراهن أن العقوبات لن تقطع الإمداد فعلياً. bias 0.0 صحيح، لكن إذا أُعلنت العقوبات اليوم قد يرتد +3-5% سريعاً.
-
-**Equity / Risk-Sentiment Desk:** SPX 7670 (ثابت)، NDX 29163 (ثابت) – الأسهم تنتظر Nvidia غداً وWarsh. لا risk-off اليوم، لكن لا risk-on أيضاً – mixed صحيح. GER40 عند 26130 (أوروبا أقوى من أميركا بسبب موجة الحر تنتهي + نفط أرخص).
-
-**Risk Manager:** daily loss -0.05% (تافه)، INTRADAY خسر 1 صفقة (-1.09$) لكن هذا طبيعي. لا خطر حالي. Bessent بعد 5 ساعات: news_block صحيح (USD:304:364). عقوبات إيران: إذا أُعلنت مفاجئة (بدون تسريب قبل 30 دقيقة)، ندخل danger فوراً. الآن: لا داعي لتغيير risk_mode، لكن risk_mult 0.75 صحيح (scorecard 35% ضعيف).
-
-**Market Historian:** آخر مرة أميركا أعلنت عقوبات "تاريخية" على إيران (2018 Trump): النفط قفز +8% في يومين ثم تراجع نصف المكسب في أسبوع (OPEC عوّض). الذهب ارتفع +2% ثم ثبت. USD ارتفع أول يوم (+0.5%) ثم انعكس (safe-haven flow ذهب لـCHF/JPY). **اليوم مختلف**: النفط هبط -2% **قبل** الإعلان – السوق يراهن أن العقوبات "اقتصادية" (بنوك/تأمين) لا "نفطية" (حظر تصدير). إذا كان الإعلان أقوى من المتوقع: shock حقيقي. إذا كان كما متوقع: "sell the news" (النفط ينزل أكثر). XAU عند ATH: آخر 5 مرات كسر ATH بـ+2% في 3 أيام، استمر 60% من الوقت لـ5-10 أيام إضافية، لكن pullback -1% حدث دائماً خلال 48 ساعة. USDCAD: حرب تجارية 2018-2019 دفعت CAD لخسارة 6% في 3 أشهر – الآن خسر 1.5% في يومين، يمكن أن يستمر.
-
-**Chairman:** أستمع. الصورة: أسواق تنتظر (Bessent 5h، Warsh غداً، Nvidia غداً، AUD CPI غداً). لا حدث فوري الآن. عقوبات إيران: 4 مصادر تؤكد لكن **لم تُعلن** – ننتظر. CAD ضعيف فعلاً (3 مصادر + سعر يؤكد) – نرفع bias إلى -0.4. XAU extended لكن momentum قوي – نبقي 0.25. USD ضعيف خفيف – نبقي -0.1. الباقي ثابت. risk_mode=normal، risk_mult=0.75 (scorecard ضعيف). conf=0.45 (لا دليل قوي على تغيير). allow_books: INTRADAY خسر 1 صفقة فقط، نبقيه؛ SHOCK أزلناه أمس، يبقى خارج.
-
-## Psyche
-
-**Awareness (fired=no):** قارنت التوجيهات السابقة: CAD كان -0.3، الآن نرفعه لـ-0.4 (3 مصادر جديدة + سعر هبط 40 نقطة منذ 11:46). هذا تطور منطقي لا تقلب. XAU ثابت عند 0.25 منذ 10:42 رغم ارتفاع +$15 – حذر صحيح. لا flip-flopping، لا عناد.
-
-**Greed (fired=no):** المجلس هادئ، معظم biases بين -0.4 و+0.25، prefer_symbols 3 فقط، conf=0.45. لا علامات طمع. risk_mult 0.75 محافظ. كل شيء متوازن.
+75 محافظ. كل شيء متوازن.
 
 **Fear (fired=no):** لا رد فعل مبالغ. عقوبات إيران لم تُعلن بعد فلم ندخل halt. خسارة INTRADAY (-1.09$) لم تسبب panic. المجلس ينتظر الحقائق. لا خوف زائد.
 
@@ -3498,3 +3465,78 @@ summary_ar=صححنا danger mode الخاطئ: تحديث GDP Deflator روتي
 mind=calm
 psyche_flags=awareness,fear,prudence
 intuition=none
+
+
+# 2026-08-26 15:56 UTC
+## Council debate
+
+**Chief Macro Economist:**
+الاقتصاد الأميركي ينمو 1.5% Q2 كما متوقع، PCE الأساسي 3.3% (ثابت) – لا مفاجآت. التضخم عنيد لكن ليس متسارعاً. أوروبا: Schnabel تطالب برفع إضافي (PMI 52.1)، EUR قوي. أستراليا: CPI حار يدعم AUD. كندا: GDP غداً، لكن الحرب التجارية تضغط CAD.
+
+**Central-Bank Watcher:**
+Schnabel (ECB) تدفع لرفع سبتمبر – EUR يستحق 0.3. Warsh يتكلم غداً Jackson Hole (24 ساعة) – الأسواق متجمدة تنتظره. BoJ: تقارير عن blockchain لتسوية السندات، لكن لا تغيير سياسة – JPY 0.2 معقول. RBA: CPI حار يرفع احتمال رفع – AUD 0.3 صحيح.
+
+**Geopolitical & Crisis Analyst:**
+Rubio يحوّل من ضربات إلى عقوبات على إيران – تهدئة. عُمان-إيران يتفاوضان على Hormuz – علاوة الحرب تتلاشى، النفط هبط إلى 82.78 WTI. كندا-أميركا: حرب تجارية تتصاعد (تعرفة 50%)، لكن لا تأثير على الأسعار – ضوضاء سياسية. لا أحداث خطورة-2.
+
+**FX Strategist:**
+EUR قوي (ECB hike + PMI)، AUD قوي (CPI حار)، CAD ضعيف (تعرفات + نفط)، JPY معتدل القوة (تدفقات). USD محايد (PCE كما متوقع، Warsh غداً). GBP/NZD/CHF بلا محفزات – 0.0. التوجهات الحالية (EUR/AUD 0.3، CAD -0.3، JPY 0.2) صحيحة تماماً.
+
+**Gold & Oil Trader:**
+النفط -0.3 صحيح: WTI 82.78 (هبط من 84)، Hormuz deal يُزيل علاوة الحرب، المخزونات الأميركية ثابتة. الذهب -0.1 معقول: 4603 (هبط من 4620 بعد PCE)، لا safe-haven demand، العوائد الأميركية ثابتة. لا صدمات نفط/ذهب.
+
+**Equity / Risk-Sentiment Desk:**
+US500 7686 (ثابت)، US100 29239 (ثابت) – الأسواق متجمدة قبل Nvidia earnings (اليوم بعد الإغلاق) و Warsh غداً. لا risk-on ولا risk-off، فقط انتظار. bias_US500=0.0 صحيح.
+
+**Risk Manager:**
+الحساب 455.59$ (+2.51$ اليوم)، 3 مراكز SWING مفتوحة (CHFJPY/GBPJPY بربح +1.91$ إجمالي). BREAKOUT/INTRADAY محذوفان بحق (خسائر في أسواق ميتة). لا أحداث خطورة، لا خسائر متتالية. normal 0.8x آمن. Warsh غداً 24 ساعة – لا news_block الآن (بعيد جداً).
+
+**Market Historian:**
+آخر مرة ECB رفعت بشكل مفاجئ (2022-2023): EUR ارتفع 1-2% في أسبوع. Schnabel الآن تدفع لرفع سبتمبر – EUR 0.3 منطقي. آخر مرة Hormuz deal تقدّم (2019): النفط هبط 5-8% في أسبوع – OIL -0.3 صحيح. آخر مرة Jackson Hole قبل 24 ساعة (كل سنة): الأسواق تتجمد ±0.3% – هذا ما نراه الآن (EURUSD نطاق 1.1650-1.1670، US500 نطاق 7680-7695). التوجهات الحالية تطابق التاريخ.
+
+**Chairman:**
+المجلس متفق: لا تغيير. EUR/AUD قويان (ECB/RBA)، CAD/OIL ضعيفان (تعرفات/Hormuz)، JPY معتدل، USD محايد. الأسواق متجمدة قبل Warsh (24 ساعة) و Nvidia (ساعات). الـscorecard 56% (4h) معتدل، لا flip-flop، لا جشع، لا خوف. نبقي normal 0.8x، conf 0.55، كل التوجهات ثابتة. SWING يربح اليوم (+1.91$)، BREAKOUT/INTRADAY محذوفان بحق. لا تغيير.
+
+## Psyche
+
+**Awareness:** fired=no · قارنت التوجهات بـDECISION MEMORY (آخر 8 ساعات): كل التوجهات ثابتة (EUR/AUD 0.3، CAD/OIL -0.3، JPY 0.2، USD 0.0) منذ 06:44 UTC. الأسعار تؤكد: EUR ثابت 1.165-1.167، AUD ثابت 0.716-0.717، CAD ضعيف 1.388، النفط هبط 82.78. لا flip-flop، لا عناد – المجلس متسق والأسعار توافق.
+
+**Greed:** fired=no · conf 0.55 معتدل، معظم التوجهات 0.0-0.3 (ليست قوية)، prefer_symbols=none، risk_mult 0.8 (ليس مرتفعاً). لا علامات جشع.
+
+**Fear:** fired=no · المجلس يقترح normal 0.8x بلا تغيير، لا over-reaction لأي عنوان، لا انهيار توجهات بعد خسارة (SWING يربح اليوم +1.91$). لا خوف.
+
+**Prudence:** fired=yes · كل التوجهات القوية (EUR/AUD 0.3، CAD/OIL -0.3) مدعومة بمصدرين+ (Schnabel+PMI لـEUR، CPI لـAUD، Hormuz+tariffs لـCAD/OIL) وأمثلة تاريخية من Market Historian. لا مشكلة.
+
+**Intuition:** الأسواق ستبقى ميتة حتى Nvidia (ساعات) ثم Warsh (24 ساعة) – لا تتوقع حركة حقيقية قبلهما.
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.8
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=0.0
+bias_JPY=0.2
+bias_AUD=0.3
+bias_NZD=0.0
+bias_CAD=-0.3
+bias_CHF=0.0
+bias_XAU=-0.1
+bias_XAG=0.0
+bias_OIL=-0.3
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.55
+allow_books=SWING,POSITION,SHOCK,COUNCIL,REVERT
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=No change: EUR/AUD 0.3 (ECB hike/hot CPI), CAD/OIL -0.3 (tariffs/Hormuz deal), JPY 0.2; markets frozen pre-Nvidia/Warsh; normal 0.8x, conf 0.55
+summary_ar=لا تغيير: EUR/AUD 0.3 (رفع ECB/CPI حار)، CAD/OIL -0.3 (تعرفات/اتفاق Hormuz)، JPY 0.2؛ الأسواق متجمدة قبل Nvidia/Warsh؛ normal 0.8x، conf 0.55
+mind=calm
+psyche_flags=prudence
+intuition=الأسواق ستبقى ميتة حتى Nvidia (ساعات) ثم Warsh (24 ساعة) – لا تتوقع حركة حقيقية قبلهما
