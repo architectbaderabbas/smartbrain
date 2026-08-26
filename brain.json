@@ -1,11 +1,11 @@
 {
- "ts": 1787778869,
- "council_ts": 1787776172,
+ "ts": 1787779773,
+ "council_ts": 1787779773,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.8,
   "regime": "mixed",
-  "conf": 0.55,
+  "conf": 0.4,
   "bias_USD": 0.0,
   "bias_EUR": 0.3,
   "bias_GBP": 0.0,
@@ -23,18 +23,17 @@
   "bias_GER40": 0.0,
   "allow_books": "ALL",
   "news_block": "USD:64:94",
-  "block_symbols": "none",
+  "block_symbols": "US100,US500,US30",
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "awareness,prudence",
-  "intuition": "none",
-  "summary": "No change: EUR/AUD 0.3 (ECB/CPI), CAD -0.3 (tariffs), JPY 0.2; markets frozen pre-Nvidia (107min) & Warsh (41.5h); normal 0.8x, conf 0.55",
-  "summary_ar": "لا تغيير: EUR/AUD 0.3 (ECB/CPI)، CAD -0.3 (تعرفات)، JPY 0.2؛ الأسواق متجمدة قبل Nvidia (107 دقيقة) وWarsh (41.5 ساعة)؛ normal 0.8x، conf 0.55",
+  "psyche_flags": "awareness,prudence,intuition",
+  "intuition": "أشعر أن Warsh سيفاجئ بتشديد أقوى من المتوقع بعد 40 ساعة – هذا سيقوي USD ويضعف الذهب",
+  "summary": "EUR/AUD 0.3 (ECB hike/hot CPI), CAD -0.3 (tariffs), JPY 0.2; markets frozen pre-Nvidia (92min, indices blocked) & Warsh (40.5h); normal 0.8x, conf 0.4",
+  "summary_ar": "EUR/AUD 0.3 (رفع ECB/CPI حار)، CAD -0.3 (تعرفات)، JPY 0.2؛ الأسواق متجمدة قبل Nvidia (92 دقيقة، المؤشرات محجوبة) وWarsh (40.5 ساعة)؛ normal 0.8x، conf 0.4",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787470932,
