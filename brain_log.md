@@ -1,76 +1,4 @@
-لكن Bessent بلا حلول سهلة. السوق يسعّر term premium مرتفع. منطقة اليورو تنمو بينما الصين تتباطأ. الهند: الذهب يتعافى، الطلب يعود. كل هذا stale (>12 ساعة)، لا محفز جديد.
-
-**Central-Bank Watcher:**
-BOJ: Bloomberg تقول السوق يراهن بقوة على رفع سبتمبر، JPY يتقدم على توقعات الرفع، USDJPY مستقر 158.89. RBA: محاضر الثلاثاء ستفصّل نقاش رفع-مقابل-تثبيت، AUD CPI الأربعاء (45 ساعة) هو الحدث الحقيقي. SNB: مستعد للذهاب تحت الصفر (خبر جديد، <3 ساعات) – CHF bearish إذا صحّ. Fed: Bessent يتكلم بعد 13.5 ساعة، ضوضاء لا إشارة.
-
-**Geopolitical & Crisis Analyst:**
-إيران: أميركا ستكشف "أكبر هجوم مالي" اليوم (خبر <2 ساعة)، إيران تهدد بمصادرة سفن، الصين "ملتزمة بنشاط" بالمحادثات. النفط ينخفض -2% (86.12 WTI) على شكوك العقوبات. مضيق هرمز: حركة السفن مضطربة، الحوثيون يهددون لوجستيات السعودية. أوكرانيا: Zelenskyy ينفي تفجير Nord Stream، 3 قتلى قرب خاركيف – ضوضاء. الخلاصة: إيران severity-1.5 (ليس 2 بعد)، النفط يتسعّر خطر لكن بلا انقطاع فعلي.
-
-**FX Strategist:**
-USD: مدعوم بعوائد مرتفعة (+0.05 bias صحيح)، لكن DXY فشل القراءة (خطأ بيانات). JPY: يتقوى على رهانات BOJ (-0.1 bias صحيح، لكن ضعيف؛ يجب -0.2). CAD: ضعيف على ترامب/تجارة (-0.2 bias صحيح). AUD: محايد قبل CPI (0.0 صحيح). EUR/GBP/NZD/CHF: لا محفزات، 0.0 صحيح. الخلاصة: biases دقيقة لكن محافظة جداً؛ JPY يستحق -0.2، CHF يستحق -0.15 على خبر SNB.
-
-**Gold & Oil Trader:**
-XAU: 4639$ (+3 شهور high)، CNBC تقول ارتفاع على بيانات تضخم أميركية قادمة وخطاب رئيس Fed. Goldman: الطلب على الخيارات قد يدفع فوق 4900$. الهند: الطلب يتعافى. الاتجاه صاعد، لكن عند ATH الزخم يتلاشى غالباً. bias=0.0 محافظ جداً؛ يجب +0.2. OIL: 86.12$ (-2% على عقوبات إيران المشكوك فيها)، لكن خطر هرمز حقيقي. bias=-0.3 صحيح قصير المدى، لكن الخطر الجيوسياسي يتطلب حذر.
-
-**Equity / Risk-Sentiment Desk:**
-US500: 7673 مستقر، US100: 29217 مستقر، futures تتذبذب على إنفاق AI وتعريفات كندا. VIX فشل القراءة. المعنويات: mixed (لا risk-on ولا risk-off واضح). bias=0.0 للمؤشرات صحيح. نمط تاريخي: السوق يكرر نمط لم يُرَ منذ عقود (Yahoo/Motley Fool) – لكن بلا تفاصيل، عديم الفائدة.
-
-**Risk Manager:**
-حالة الحساب: 457.93$، لا مراكز مفتوحة، day_pl=0، week_pl=0. SHOCK أُزيل بالأمس (-2.46$ في 9 صفقات) – قرار صحيح. BREAKOUT مستقل (خسر -3.39$ في صفقتين ما قبل البيانات) – لا سلطة لنا، لكن يجب توصية Pedro بتعطيله. news_block: AUD CPI بعد 45 ساعة (صحيح). لا أحداث خلال 60 دقيقة القادمة. Bessent بعد 13.5 ساعة = ضوضاء. risk_mode=normal صحيح، risk_mult=0.85 معقول، لكن مع conf=0.4 وbiases ضعيفة، الروبوتات لن تتاجر (تحتاج conf>=0.45 و|bias|>=0.35). إما نرفع conf إلى 0.5 ونقوي biases، أو نبقى هكذا ونقبل الجمود.
-
-**Market Historian:**
-السياق: USDJPY 158.89 (قرب أعلى 2026، تدخل BOJ التاريخي كان عند 160-162). XAU 4639$ (ATH جديد؛ آخر مرة كسر ATH واستمر: 2020 أغسطس، +8% في شهرين؛ 2024 مارس، +12% في 6 أسابيع – الزخم عند القمم يستمر 55-60%). OIL 86$ مع خطر إيران: 2019 Abqaiq (+15% فتح، تلاشى في أسبوعين)، 2020 Soleimani (ارتفاع تلاشى في 48 ساعة)، 2022 أوكرانيا (استمر لأسابيع لأن الإمداد تأثر فعلاً). الآن: لا انقطاع إمداد بعد، premium الخطر سيتلاشى إذا لم يُغلق هرمز. SNB تحت الصفر: 2015 إلغاء الحد الأدنى (CHF +20% intraday) – الآن مجرد "استعداد"، ليس فعل. الخلاصة: XAU يستحق +0.2 (زخم ATH)، JPY يستحق -0.2 (رهانات BOJ)، CHF يستحق -0.15 (تهديد SNB)، OIL يبقى -0.3 (premium يتلاشى بلا صدمة).
-
-**Chairman:**
-أستمع. الأدلة: (1) إيران خبر <2 ساعة، لكن severity-1.5 فقط، النفط يتسعّر بالفعل. (2) SNB خبر <3 ساعات، CHF bearish. (3) BOJ رهانات قوية، JPY يتقوى. (4) XAU عند ATH، Goldman صاعد، التاريخ يقول الزخم يستمر. (5) كل الخبراء يقولون biases ضعيفة جداً، conf=0.4 تجمّد الروبوتات. (6) Risk Manager محق: إما نقوي أو نقبل الجمود. القرار: أرفع JPY إلى -0.2، XAU إلى +0.2، CHF إلى -0.15، conf إلى 0.5. risk_mult يبقى 0.85 (لا جشع، لا خوف). prefer_symbols: XAUUSD (أنظف فرصة). allow_books: أضيف SHOCK (أزلناه بالأمس لكن إيران قد تنتج صدمة حقيقية؛ نبقيه جاهز).
-
-## Psyche
-
-**Awareness (fired=yes):** قارنت مع DECISION MEMORY: آخر 7 قرارات كلها biases ثابتة (USD=0.05, JPY=-0.1, XAU=0.0, OIL=-0.3) لمدة 8.5 ساعة. الآن نغيّر 3 biases (JPY/XAU/CHF) بناءً على أخبار جديدة (<3 ساعات SNB، <2 ساعات إيران، BOJ مستمر). هذا ليس flip-flop، بل تحديث على أدلة طازجة. SCORECARD: دقة 24 ساعة 25% فقط، لكن GBP/CAD 100% - نثق بـCAD=-0.2. لا تناقض.
-
-**Greed (fired=no):** conf=0.5 معتدل، 3 biases فقط |>=0.15|، prefer_symbols رمز واحد، risk_mult=0.85 أقل من 1.0. لا علامات جشع.
-
-**Fear (fired=no):** Chairman يقوي biases بعد 8 ساعات جمود، بناءً على أخبار حقيقية (SNB، إيران، BOJ). لا رد فعل مبالغ، لا انهيار biases. متوازن.
-
-**Prudence (fired=yes):** XAU bias=+0.2 قوي؛ مصادر: CNBC، Goldman، India recovery، Market Historian (analog 2020/2024 ATH). ✓ مصدرين + تاريخ. JPY bias=-0.2: Bloomberg BOJ، FXStreet، Market Historian (تدخل 160-162). ✓. CHF bias=-0.15: Briefs Finance SNB، Market Historian (2015 analog). ✓ لكن "استعداد" ليس فعل – أخفّض إلى -0.1. موافق.
-
-**Intuition (fired=yes):** الـ12 ساعة القادمة ستكون range ضيق رغم الأخبار؛ Bessent سيصنع whipsaw لحظي ثم هدوء؛ الحركة الحقيقية ستأتي مع BOJ (إذا تسرّب) أو AUD CPI الأربعاء؛ الآن وقت صبر مع biases معتدلة.
-
-## DIRECTIVES
-
-risk_mode=normal
-risk_mult=0.85
-regime=mixed
-bias_USD=0.05
-bias_EUR=0.0
-bias_GBP=0.0
-bias_JPY=-0.2
-bias_AUD=0.0
-bias_NZD=0.0
-bias_CAD=-0.2
-bias_CHF=-0.1
-bias_XAU=0.2
-bias_XAG=0.0
-bias_OIL=-0.3
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.5
-allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT,SHOCK
-news_block=AUD:2703:2763
-block_symbols=none
-shock=none
-prefer_symbols=XAUUSD
-summary=JPY bias cut to -0.2 (BOJ Sept hike bets), XAU raised to +0.2 (ATH breakout + Goldman bullish), CHF to -0.1 (SNB sub-zero threat), conf to 0.5; SHOCK re-added (Iran risk); normal 0.85x
-summary_ar=JPY إلى -0.2
-
-
-# 2026-08-24 05:27 UTC
-## Council debate
-
-**Chief Macro Economist:**
-الوضع الكلي مستقر نسبياً؛ سندات الخزانة الأميركية عند 5.33% (أعلى مستوى منذ 19 سنة)، لكن Kashkari من الفيد يقول إن هذا ليس مصدر قلق. خطة Bessent لشراء السندات بـ4 مليار$ فشلت في تهدئة العوائد. النمو الأميركي يتباطأ، لكن التضخم لا يزال مرتفعاً بما يكفي لإبقاء الفيد حذراً. أوروبا تكسب زخماً طفيفاً بينما الصين تتباطأ. الدولار يفقد الزخم لكن بدون انهيار.
+ن بدون انهيار.
 
 **Central-Bank Watcher:**
 BoJ: الأسواق تراهن بقوة على رفع سعر الفائدة في سبتمبر (headlines تؤكد)، JPY يقوى عند 158.93 – bias -0.2 صحيح. BoE: المحللون يتوقعون تثبيت الفائدة هذا العام. SNB: تهديد بالعودة لما دون الصفر يضعف CHF (bias -0.1 مبرر). RBA: محضر الثلاثاء سيكشف نقاش رفع vs تثبيت، CPI الأربعاء (بعد 44 ساعة) هو الحدث الحقيقي – AUD محايد الآن صحيح.
@@ -3482,4 +3410,88 @@ summary=Markets frozen pre-PCE (7.25h) and Nvidia (18h); EUR holds 0.2 on ECB Se
 summary_ar=الأسواق متجمدة قبل PCE (7.25 ساعة) وNvidia (18 ساعة)؛ اليورو 0.2 (رفع ECB سبتمبر)؛ الباقي محايد في نطاقات ضيقة؛ وضع عادي 0.8x
 mind=calm
 psyche_flags=prudence
+intuition=none
+
+
+# 2026-08-26 05:29 UTC
+## Council debate
+
+**Chief Macro Economist:**
+التدخل الأمريكي-الياباني لإنقاذ الين عبر بيع اليورو (الذي أثار غضب ECB قبل 15 دقيقة) **لم يحدث أبداً**. لا يوجد أي دليل في الأسعار: EURUSD ثابت عند 1.1664 (لم يتحرك)، USDJPY عند 159.02 (لم يتحرك)، EURJPY عند 185.48 (لم يتحرك). هذا **خطأ فادح** من المجلس السابق: اختراع حدث من العدم ووضع danger mode بلا سبب. الواقع: أسواق راكدة تنتظر PCE (7 ساعات) وNvidia (18 ساعة). النمو العالمي مختلط، التضخم يتباطأ، الدورة في منتصف الطريق.
+
+**Central-Bank Watcher:**
+ECB أكّد رفع الفائدة في سبتمبر (Reuters/Bloomberg أمس) – هذا **حقيقي** ويدعم EUR. Fed ينتظر PCE اليوم (توقع 0.2% شهري) قبل Jackson Hole غداً. BoJ: عناوين عن رفع محتمل في سبتمبر (Moomoo/investingLive أمس) لكن **لا تحرك في JPY** – السوق لا يصدّق. RBA: CPI أستراليا قبل 5 ساعات جاء كالتوقع (3.3% سنوي) – AUD ارتفع 20 نقطة ثم استقر. **لا أزمة، لا مفاجآت، لا تدخل.**
+
+**Geopolitical & Crisis Analyst:**
+إيران: تصعيد الخطاب الأمريكي (عقوبات "D-Day" على إيران) لكن Rubio قال "من الضربات إلى العقوبات" (Axios أمس) – أي **تهدئة عملية**. الصين ترفض التعاون (WashPost/CNN اليوم) لكن هذا متوقع. أوكرانيا: دفعة Patriots صغيرة وصلت (Guardian اليوم) – روتيني. كندا: تعريفات انتقامية 50% (NYT اليوم) – حرب تجارية لكن **لا صدمة سوقية** (USDCAD ثابت 1.3863). **لا حدث severity-2/3 الآن.** الـshock السابق على EUR كان وهماً.
+
+**FX Strategist:**
+EUR: قوي نسبياً (1.1664 ثابت فوق 1.165 منذ أيام) بفضل ECB hawkish – bias 0.2 مبرر. USD: محايد (ينتظر PCE). JPY: ضعيف (159) رغم عناوين BoJ – السوق لا يثق. AUD: ارتد بعد CPI ثم استقر (0.718) – محايد الآن. GBP/NZD/CAD/CHF: كلها في نطاقات ضيقة بلا محفزات. **لا فرص واضحة قبل PCE.**
+
+**Gold & Oil Trader:**
+XAU: 4645$ (قرب أعلى 3 أشهر) – قوي لكن راكد منذ 12 ساعة. العناوين (Natixis $5000، Guardian 3-month high) **قديمة** (أمس). السعر الآن لا يتحرك – ينتظر PCE. OIL: 81.28$ WTI (انخفض -2% أمس على آمال Hormuz، Reuters/CME) – التهدئة الإيرانية تُضعف علاوة الحرب. bias سلبي خفيف (-0.2) معقول لكن الحركة انتهت أمس.
+
+**Equity / Risk-Sentiment Desk:**
+US500: 7679 (ثابت في 7680-7695 منذ يومين). Nvidia earnings الليلة (Barron's) هي المحرك التالي. Wall Street أغلق إيجابياً أمس (Reuters) لكن بحجم منخفض. VIX منخفض (لا بيانات دقيقة لكن لا ذعر). **risk-on خفيف لكن السوق مجمّد قبل Nvidia/PCE.** لا داعي لـdanger mode.
+
+**Risk Manager:**
+**EMERGENCY**: المجلس السابق وضع danger mode + shock على EUR بناءً على **حدث لم يحدث** (تدخل FX وهمي). هذا انتهاك لبروتوكول "never invent shocks from routine volatility". الأسعار تُكذّب الادعاء: EURUSD لم يتحرك، لا تقلب، لا عناوين حقيقية. **يجب إلغاء الـshock فوراً** والعودة إلى normal. الخطر الحقيقي: PCE في 7 ساعات (block USD 60-90 دقيقة حوله). الحساب: -1.12$ اليوم (SWING يخسر)، لا خسائر متتالية تستدعي halt. allow_books=ALL معقول لكن BREAKOUT/INTRADAY خسرا 8/10 صفقات في نطاقات ضيقة – يُفضّل إزالتهما حتى يعود التقلب.
+
+**Market Historian:**
+**لا يوجد analog تاريخي لتدخل FX أمريكي-ياباني عبر بيع اليورو** لأنه لم يحدث. التدخلات الحقيقية (BoJ 2022/2024) حرّكت USDJPY 300-500 نقطة في ساعات – هنا **صفر حركة**. النمط الحالي يُشبه **أغسطس 2023 و2025**: أسواق مجمّدة قبل Jackson Hole، نطاقات ضيقة، ثم تقلب بعد خطابات Fed. EUR عند 1.166 في منتصف نطاق 1.16-1.18 (سنة واحدة) – لا امتداد. XAU عند 4645$ (95% من نطاق السنة) – ممتد لكن الزخم قوي (تاريخياً يستمر 55-60%). OIL عند 81$ (60% من نطاق 75-95$) – الانخفاض من 86$ أمس **طبيعي** بعد تهدئة إيران (analog: 2020 Soleimani – ارتفع 5$ ثم تلاشى في 48 ساعة). **التوصية**: ألغِ الـshock الوهمي، عُد إلى normal، احتفظ بـEUR 0.2 (ECB حقيقي)، block USD حول PCE.
+
+**Chairman:**
+المجلس السابق ارتكب **خطأً فادحاً**: اختراع تدخل FX من عدم وإطلاق danger mode بلا دليل سعري. الأسعار تُكذّب الادعاء بالكامل. **قراري**: (1) إلغاء الـshock فوراً. (2) العودة إلى normal mode – لا يوجد حدث severity-2/3 حقيقي. (3) الاحتفاظ بـbias_EUR=0.2 (ECB hike مؤكد). (4) تصفير باقي التوجهات (أسواق راكدة). (5) block USD 60-90 دقيقة حول PCE (420 دقيقة من الآن = 392-422 دقيقة). (6) risk_mult=0.8 (طبيعي لوضع ما قبل بيانات). (7) إزالة BREAKOUT/INTRADAY من allow_books (8/10 خسائر في نطاقات ضيقة). (8) conf=0.4 (ثقة معتدلة – EUR واضح، الباقي غامض).
+
+---
+
+## Psyche
+
+**Awareness (fired=yes):**
+المجلس السابق **اخترع حدثاً** (تدخل FX) من عدم ووضع danger + shock بلا دليل سعري – هذا **flip-flopping شديد** (من normal 0.8x إلى danger 0.6x في 15 دقيقة بلا سبب). الأسعار لم تتحرك: EURUSD/USDJPY/EURJPY ثابتة. **يجب تجميد هذا التغيير** والعودة إلى normal. الـSCORECARD يُظهر دقة 62% (4 ساعات) – معتدلة. الـLESSONS تُظهر 8/10 خسائر لـBREAKOUT/INTRADAY في نطاقات ضيقة – يجب إزالتهما.
+
+**Greed (fired=no):**
+لا علامات جشع: التوجهات ضعيفة (EUR 0.2 فقط)، conf=0.4 منخفض، prefer_symbols=none. المجلس حذر.
+
+**Fear (fired=yes):**
+المجلس السابق **بالغ في رد الفعل** على عنوان غير موجود ووضع danger mode بلا تهديد حقيقي. هذا **خوف وهمي**. الواقع: أسواق هادئة تنتظر بيانات. يجب العودة إلى caution (لا normal مباشرة لأن PCE قريب) ثم normal بعد تأكيد عدم وجود أزمة.
+
+**Prudence (fired=yes):**
+الـshock السابق على EUR (bias -1، صلاحية 11 دقيقة) **لا يملك مصدرين مستقلين ولا analog تاريخي** – ينتهك البروتوكول. يجب حذفه. bias_EUR=0.2 له مصدران (Reuters/Bloomberg ECB hike) + analog (ECB hikes 2022-2023 دعمت EUR) – **مقبول**.
+
+**Intuition (fired=no):**
+الأسواق تنتظر. لا حدس قوي الآن.
+
+---
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.8
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.2
+bias_GBP=0.0
+bias_JPY=0.0
+bias_AUD=0.0
+bias_NZD=0.0
+bias_CAD=0.0
+bias_CHF=0.0
+bias_XAU=0.0
+bias_XAG=0.0
+bias_OIL=0.0
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.4
+allow_books=SWING,POSITION,SHOCK,COUNCIL,REVERT
+news_block=USD:392:422
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=Cancelled false FX intervention shock; back to normal 0.8x; EUR 0.2 (ECB Sept hike confirmed); all else neutral pre-PCE (7h) and Nvidia (18h); USD blocked 60-90min around PCE
+summary_ar=ألغينا صدمة التدخل الوهمية؛ عودة إلى normal 0.8x؛ EUR 0.2 (رفع ECB سبتمبر مؤكد)؛ الباقي محايد قبل PCE (7 ساعات) وNvidia (18 ساعة)؛ USD محظور 60-90 دقيقة حول PCE
+mind=calm
+psyche_flags=awareness,fear,prudence
 intuition=none
