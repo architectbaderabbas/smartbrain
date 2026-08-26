@@ -1,6 +1,6 @@
 {
- "ts": 1787703150,
- "council_ts": 1787700450,
+ "ts": 1787704051,
+ "council_ts": 1787704051,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.8,
@@ -22,19 +22,18 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "ALL",
-  "news_block": "none",
+  "news_block": "AUD:33:93",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "none",
-  "intuition": "none",
-  "summary": "",
-  "summary_ar": "",
+  "psyche_flags": "awareness,prudence,intuition",
+  "intuition": "أتوقع CPI أسترالي أقل من 3.3% وانهيار AUD بـ50+ نقطة – أول فرصة حقيقية منذ أيام",
+  "summary": "All biases zeroed; markets range-bound awaiting AUD CPI (1h), Nvidia (21h), PCE (24h); AUD blocked 01:00-02:00 UTC; normal 0.8x",
+  "summary_ar": "كل التوجهات صُفّرت؛ الأسواق في نطاقات تنتظر CPI أستراليا (ساعة)، Nvidia (21 ساعة)، PCE (24 ساعة)؛ AUD محجوب 01:00-02:00؛ عادي 0.8",
   "news_events": "AUD:1787707800:CPI_mm;AUD:1787707800:CPI_yy;AUD:1787707800:Trimmed_Mean_CPI_mm"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787364610,
