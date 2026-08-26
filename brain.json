@@ -1,5 +1,5 @@
 {
- "ts": 1787707654,
+ "ts": 1787708549,
  "council_ts": 1787705860,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "SWING,COUNCIL,SHOCK,REVERT",
-  "news_block": "AUD:-37:23",
+  "news_block": "AUD:-51:9",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
@@ -31,7 +31,7 @@
   "intuition": "أتوقع CPI أسترالي 3.1-3.2% (أقل من 3.3%) وانهيار AUD بـ60+ نقطة خلال 15 دقيقة – لكن ننتظر الرقم أولاً",
   "summary": "Corrected danger->caution: southcom strike unrelated to Mideast; Iran shows de-escalation; AUD CPI in 32min (blocked); removed BREAKOUT/INTRADAY (8/10 losses in tight ranges); EUR 0.2 (ECB hike), CAD/",
   "summary_ar": "تصحيح danger->caution: ضربة southcom لا علاقة بالشرق الأوسط؛ إيران تُظهر تهدئة؛ CPI أسترالي بعد 32 دقيقة (محظور)؛ أزلنا BREAKOUT/INTRADAY (8 خسائر من 10 في نطاقات ضيقة)؛ EUR 0.2 (رفع ECB)، CAD/OIL -0.",
-  "news_events": "AUD:1787707800:CPI_mm;AUD:1787707800:CPI_yy;AUD:1787707800:Trimmed_Mean_CPI_mm"
+  "news_events": "none"
  },
  "error": null,
  "watchman": "quiet (sev0)",
