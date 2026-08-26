@@ -1,6 +1,6 @@
 {
- "ts": 1787767170,
- "council_ts": 1787763932,
+ "ts": 1787768078,
+ "council_ts": 1787768078,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.8,
@@ -14,7 +14,7 @@
   "bias_NZD": 0.0,
   "bias_CAD": -0.3,
   "bias_CHF": 0.0,
-  "bias_XAU": -0.1,
+  "bias_XAU": 0.0,
   "bias_XAG": 0.0,
   "bias_OIL": 0.0,
   "bias_US500": 0.0,
@@ -27,14 +27,13 @@
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "none",
-  "intuition": "none",
-  "summary": "",
-  "summary_ar": "",
+  "psyche_flags": "intuition",
+  "intuition": "الأسواق تحبس أنفاسها – التقلب سينفجر خلال 12-24 ساعة، لكن الآن: صمت مطلق",
+  "summary": "Oil bias zeroed (price stabilized at $83); EUR/AUD 0.3, CAD -0.3, JPY 0.2 unchanged; markets frozen pre-Nvidia/Warsh; normal 0.8x, conf 0.3",
+  "summary_ar": "النفط صُفّر (السعر استقر عند 83$)؛ EUR/AUD 0.3، CAD -0.3، JPY 0.2 بلا تغيير؛ الأسواق متجمدة قبل Nvidia/Warsh؛ عادي 0.8x، ثقة 0.3",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787456530,
