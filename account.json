@@ -1,16 +1,24 @@
 {
   "account": 10225,
-  "balance": 454.49,
-  "books": [],
+  "balance": 454.63,
+  "books": [
+    {
+      "loss_streak": 0,
+      "name": "SWING",
+      "net": 0.14,
+      "trades": 1,
+      "wins": 1
+    }
+  ],
   "brain_mode": "NORMAL",
-  "day_pl": -0.96,
-  "equity": 454.03,
+  "day_pl": -1.79,
+  "equity": 453.2,
   "positions": [
     {
       "book": "SWING",
       "lots": 0.01,
       "opened": 1787731200,
-      "pl": -0.89,
+      "pl": -1.27,
       "symbol": "EURUSD",
       "type": "SELL"
     },
@@ -26,15 +34,7 @@
       "book": "SWING",
       "lots": 0.01,
       "opened": 1787731200,
-      "pl": 0.49,
-      "symbol": "EURNZD",
-      "type": "BUY"
-    },
-    {
-      "book": "SWING",
-      "lots": 0.01,
-      "opened": 1787731200,
-      "pl": 0.25,
+      "pl": 0.2,
       "symbol": "GBPJPY",
       "type": "SELL"
     },
@@ -42,34 +42,34 @@
       "book": "SWING",
       "lots": 0.01,
       "opened": 1787731200,
-      "pl": 0.25,
+      "pl": 0.2,
       "symbol": "GBPJPY",
       "type": "SELL"
     }
   ],
   "prices": {
-    "AUDJPY": 114.174,
-    "AUDUSD": 0.71802,
+    "AUDJPY": 114.215,
+    "AUDUSD": 0.71846,
     "CHFJPY": 197.981,
-    "EURGBP": 0.85614,
-    "EURJPY": 185.575,
-    "EURNZD": 1.95978,
-    "EURUSD": 1.16709,
-    "GBPJPY": 216.756,
-    "GBPUSD": 1.36318,
-    "GER40": 26274.76,
-    "NZDJPY": 94.691,
-    "NZDUSD": 0.5955,
-    "UKOIL": 86.722,
-    "US100": 29159.96,
-    "US500": 7678.98,
-    "USDCAD": 1.38635,
-    "USDCHF": 0.80313,
-    "USDJPY": 159.01,
-    "USOIL": 80.403,
-    "XAGUSD": 68.684,
-    "XAUUSD": 4629.49
+    "EURGBP": 0.85619,
+    "EURJPY": 185.593,
+    "EURNZD": 1.95894,
+    "EURUSD": 1.16747,
+    "GBPJPY": 216.758,
+    "GBPUSD": 1.36355,
+    "GER40": 26269.76,
+    "NZDJPY": 94.737,
+    "NZDUSD": 0.59595,
+    "UKOIL": 87.05,
+    "US100": 29165.51,
+    "US500": 7679.98,
+    "USDCAD": 1.3859,
+    "USDCHF": 0.80292,
+    "USDJPY": 158.968,
+    "USOIL": 80.733,
+    "XAGUSD": 68.614,
+    "XAUUSD": 4626.57
   },
-  "ts": 1787731161,
-  "week_pl": -3.9
+  "ts": 1787732061,
+  "week_pl": -4.73
 }
