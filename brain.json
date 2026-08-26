@@ -1,11 +1,11 @@
 {
- "ts": 1787779773,
- "council_ts": 1787779773,
+ "ts": 1787780687,
+ "council_ts": 1787780687,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.8,
   "regime": "mixed",
-  "conf": 0.4,
+  "conf": 0.55,
   "bias_USD": 0.0,
   "bias_EUR": 0.3,
   "bias_GBP": 0.0,
@@ -21,25 +21,20 @@
   "bias_US100": 0.0,
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
-  "allow_books": "ALL",
-  "news_block": "USD:64:94",
+  "allow_books": "INTRADAY,SWING,POSITION,SHOCK,COUNCIL,REVERT",
+  "news_block": "USD:34:64",
   "block_symbols": "US100,US500,US30",
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "awareness,prudence,intuition",
-  "intuition": "أشعر أن Warsh سيفاجئ بتشديد أقوى من المتوقع بعد 40 ساعة – هذا سيقوي USD ويضعف الذهب",
-  "summary": "EUR/AUD 0.3 (ECB hike/hot CPI), CAD -0.3 (tariffs), JPY 0.2; markets frozen pre-Nvidia (92min, indices blocked) & Warsh (40.5h); normal 0.8x, conf 0.4",
-  "summary_ar": "EUR/AUD 0.3 (رفع ECB/CPI حار)، CAD -0.3 (تعرفات)، JPY 0.2؛ الأسواق متجمدة قبل Nvidia (92 دقيقة، المؤشرات محجوبة) وWarsh (40.5 ساعة)؛ normal 0.8x، conf 0.4",
+  "psyche_flags": "awareness,fear,prudence",
+  "intuition": "none",
+  "summary": "Cancelled false danger: oil at $82 not $100, no new escalation; back to normal 0.8x; EUR/AUD 0.3 (ECB/CPI), CAD -0.3, JPY 0.2; Nvidia block 34-64min",
+  "summary_ar": "أُلغي danger الكاذب: النفط عند 82$ لا 100$، لا تصعيد جديد؛ عودة لـnormal 0.8x؛ EUR/AUD 0.3 (ECB/CPI)، CAD -0.3، JPY 0.2؛ حظر Nvidia 34-64 دقيقة",
   "news_events": "none"
  },
  "error": null,
  "alerts": [
-  {
-   "ts": 1787470932,
-   "what": "Iran President declares 'full-scale war' status; threatens oil route blockade and regional escalation",
-   "sev": 2
-  },
   {
    "ts": 1787555775,
    "what": "Treasury Secretary Bessent emergency press conference 2:00 PM ET today; major economic action against Iran expected",
@@ -83,6 +78,11 @@
   {
    "ts": 1787771674,
    "what": "Chinese state hackers breached DOJ, NASA, Federal Reserve, Senate systems (19:00 UTC)",
+   "sev": 2
+  },
+  {
+   "ts": 1787780673,
+   "what": "Oil prices cross $100/bbl amid Iran war escalation; UK energy exposure warning signals systemic risk",
    "sev": 2
   }
  ]

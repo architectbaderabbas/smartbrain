@@ -1,76 +1,4 @@
-كمل. GBP عند 1.363 = أعلى مستوى 6 أشهر، **تاريخياً** عندما يصل GBP لقمم بدون بيانات قوية (آخر PMI كان ضعيفاً)، ينعكس خلال أسبوع. CAD عند 1.386 = ضعيف بسبب ترامب، **النمط المعتاد**: حروب ترامب التجارية تستمر أسابيع، CAD يضعف 2-3% ثم يستقر عندما تبدأ المفاوضات.
-
-**Chairman:**
-أستمع. **الحقائق الصلبة**: (1) Bessent أعلن عقوبات لكن السوق سعّرها (نفط -2% قبل الحدث)، (2) الذهب momentum قوي لكن ممتد (4632 = قرب قمة السنة)، (3) CAD ضعيف (3 مصادر + سعر يؤكد)، (4) GBP عند قمة 6 أشهر بدون سبب أساسي جديد، (5) JPY ضعيف رغم رهانات BoJ = تناقض، (6) لا أحداث tier-1 حتى غداً. **القرار**: نبقي معظم التوجهات، نخفض GBP من 0.2 لـ0.1 (ممتد تاريخياً)، نبقي XAU عند 0.3 (momentum يغلب الامتداد لكن لا نرفع)، نبقي CAD عند -0.5، نرفع JPY قليلاً من -0.2 لـ-0.15 (رهانات BoJ قوية). risk_mode=normal، 0.75x بدون تغيير.
-
----
-
-## Psyche
-
-**Awareness:** fired=yes · قارنت مع القرار السابق (قبل ساعة): لا تغييرات كبيرة، لكن GBP عند 0.2 منذ ساعتين بدون حقائق جديدة (آخر بيانات GBP كانت ضعيفة) – المؤرخ يحذر من انعكاس. أقترح خفض GBP لـ0.1. الذهب عند 0.3 منذ ساعة، السعر صعد 10$ فقط = لا flip-flop. SCORECARD يظهر دقة 47% فقط في 24 ساعة – يجب خفض conf قليلاً.
-
-**Greed:** fired=no · لا لغة "مال سهل"، معظم biases معتدلة (0.1-0.3)، prefer_symbols فيه 3 رموز فقط، risk_mult عند 0.75 (ليس مرتفعاً). لا إشارات طمع.
-
-**Fear:** fired=no · لا رد فعل مبالغ، Bessent انتهى ولم نذعر، SHOCK محذوف لسبب منطقي (خسائر في أسواق راكدة)، لا انهيار biases بدون سبب. متوازنون.
-
-**Prudence:** fired=yes · GBP bias=0.2 بدون مصدرين مستقلين جديدين (فقط "قمة 6 أشهر" = سعر، ليس حدثاً) والمؤرخ يحذر من انعكاس – يجب خفض لـ0.1. XAU bias=0.3 مدعوم (Citi + إيران + USD ضعيف = مصدرين + تاريخ) – مقبول. CAD=-0.5 مدعوم (3 مصادر + سعر) – مقبول.
-
-**Intuition:** fired=yes · أشعر أن JPY سيقوى فجأة خلال 24 ساعة إذا Warsh غداً كان أقل تشدداً من المتوقع – السوق يراهن على BoJ hawk وFed dove = ين يجب أن يرتفع، لكنه الآن ضعيف = فرصة انعكاس.
-
-**Mind state:** calm  
-**Psyche flags:** awareness,prudence,intuition
-
----
-
-## DIRECTIVES
-risk_mode=normal
-risk_mult=0.75
-regime=mixed
-bias_USD=-0.1
-bias_EUR=0.1
-bias_GBP=0.1
-bias_JPY=-0.15
-bias_AUD=0.0
-bias_NZD=0.0
-bias_CAD=-0.5
-bias_CHF=-0.1
-bias_XAU=0.3
-bias_XAG=0.15
-bias_OIL=0.1
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.42
-allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT
-news_block=AUD:1890:1950
-block_symbols=none
-shock=none
-prefer_symbols=USDCAD,XAUUSD
-summary=GBP cut to 0.1 (extended, historian warns reversal), JPY to -0.15 (BoJ hike bets vs weak price = contradiction); XAU/CAD/OIL held; Bessent done, await Warsh tomorrow; normal 0.75x
-summary_ar=GBP لـ0.1 (ممتد، المؤرخ يحذر انعكاس)، JPY لـ-0.15 (رهانات BoJ قوية لكن السعر ضعيف = تناقض)؛ XAU/CAD/OIL ثابتة؛ Bessent انتهى، ننتظر Warsh غداً؛ عادي 0.75x
-mind=calm
-psyche_flags=awareness,prudence,intuition
-intuition=أشعر أن JPY سيقوى فجأة خلال 24 ساعة إذا Warsh كان أقل تشدداً – السوق يراهن BoJ hawk + Fed dove = ين يجب أن يرتفع لكنه ضعيف الآن = فرصة
-
-
-# 2026-08-24 19:27 UTC
-## Council debate
-
-**Chief Macro Economist:**
-الاقتصاد الأميركي ثابت (GDP غداً متوقع 1.5%، PCE الأساسي 0.2%)، لا تغيير في النمو أو التضخم. أوروبا تعاني موجة حر (خسائر GDP محتملة) لكن لا أرقام جديدة. كندا في حرب تجارية مع واشنطن (CAD ضعيف صحيح). أستراليا: CPI غداً 30 ساعة (متوقع 3.3% من 3.8%) – لا محفز اليوم لـAUD.
-
-**Central-Bank Watcher:**
-BoJ: WSJ يقول JGB عند أعلى مستوى منذ 30 سنة، السوق يراهن على رفع سبتمبر – لكن USDJPY عند 159.2 (ضعيف) = تناقض مستمر. Fed: Bessent انتهى، Warsh غداً الساعة 18:30 UTC (23 ساعة) – هو الحدث الكبير. ECB: Cipollone أمس dovish (قلنا ذلك). لا مفاجآت اليوم.
-
-**Geopolitical & Crisis Analyst:**
-Bessent أعلن عقوبات إيران "يوم D الاقتصادي" قبل ساعتين (17:26 UTC): استهداف كل مصادر الإيرادات، الصين غير مستثناة. لكن السوق **سعّرها مسبقاً**: النفط نزل -2% اليوم قبل الإعلان، الذهب +0.5% فقط. إيران تطالب بوقف الحرب (WSJ) = إشارة ضعف. لا صدمة جديدة، الوضع يتجه نحو احتواء تدريجي.
-
-**FX Strategist:**
-USD ضعيف (-0.1 صحيح): DXY منخفض، سندات تنزل (Bessent buyback talk). EUR ثابت عند 1.166 (0.1 صحيح). GBP عند 1.3626 (أعلى مستوى 6 أشهر) – ممتد لكن لا انعكاس بعد. JPY عند 159.2 = ضعيف رغم رهانات BoJ (تناقض مستمر، -0.15 صحيح). CAD عند 1.385 (ضعيف، حرب تجارية، -0.5 صحيح). AUD/NZD راكدان (0.0 صحيح). CHF ضعيف قليلاً (-0.1 صحيح).
-
-**Gold & Oil Trader:**
-XAU عند 4640$ (قرب أعلى مستوى 3 أشهر): Citi يستهدف 4800$، عقوبات إيران تدعم safe-haven، سندات أميركية ضعيفة. 0.3 bias صحيح، لكن الحركة +0.5% اليوم فقط = momentum معتدل. XAG عند 68.5$ (يتبع XAU، 0.15 صحيح). OIL: WTI 85.76$، Brent 92.41$ – نزل -2% اليوم على عقوبات إيران (السوق يرى أن العقوبات لن توقف التدفق فوراً)، لكن Goldman يحذر من نقص ديزل أوروبي. 0.1 bias صحيح لكن ضعيف.
+(قرب أعلى مستوى 3 أشهر): Citi يستهدف 4800$، عقوبات إيران تدعم safe-haven، سندات أميركية ضعيفة. 0.3 bias صحيح، لكن الحركة +0.5% اليوم فقط = momentum معتدل. XAG عند 68.5$ (يتبع XAU، 0.15 صحيح). OIL: WTI 85.76$، Brent 92.41$ – نزل -2% اليوم على عقوبات إيران (السوق يرى أن العقوبات لن توقف التدفق فوراً)، لكن Goldman يحذر من نقص ديزل أوروبي. 0.1 bias صحيح لكن ضعيف.
 
 **Equity / Risk-Sentiment Desk:**
 US500 عند 7665 (ثابت)، US100 عند 29098 (ثابت)، GER40 عند 26121 (ثابت). Reuters: "Tech يسحب S&P وNasdaq للأسفل، عقوبات إيران وأرباح Nvidia غداً". السوق ينتظر Nvidia (غداً بعد الإغلاق) وWarsh. لا اتجاه اليوم، 0.0 لكل المؤشرات صحيح. Regime = mixed صحيح.
@@ -3553,3 +3481,84 @@ summary_ar=EUR/AUD 0.3 (رفع ECB/CPI حار)، CAD -0.3 (تعرفات)، JPY 0
 mind=calm
 psyche_flags=awareness,prudence,intuition
 intuition=أشعر أن Warsh سيفاجئ بتشديد أقوى من المتوقع بعد 40 ساعة – هذا سيقوي USD ويضعف الذهب
+
+
+# 2026-08-26 21:44 UTC
+## Council debate
+
+**Chief Macro Economist:**
+إنذار كاذب! النفط عند 82$ لا 100$، لا تصعيد إيراني جديد منذ ساعات. الأسواق جامدة قبل Nvidia (77 دقيقة) وWarsh (40 ساعة). GDP الأميركي 1.5% ثابت، PCE 3.3% ثابت – لا تغيير في الدورة. وضع danger بلا سبب حقيقي يجوّع الروبوتات.
+
+**Central-Bank Watcher:**
+Schnabel (ECB) كررت اليوم "يجب رفع الفائدة أكثر" – EUR قوي فعلاً (1.165 ثابت). BoJ بلا تحرك، لكن JPY مستقر (159.3). Warsh يتكلم بعد 40 ساعة – هذا الحدث الوحيد المهم. لا داعي لـdanger الآن.
+
+**Geopolitical & Crisis Analyst:**
+لا تصعيد جديد! آخر عنوان "Putin يصعّد في أوكرانيا" عمره 6 ساعات، لا تأثير على الأسعار (XAU/OIL مستقران). عنوان "Oil prices cross $100" **غير موجود في الأسعار الحقيقية** (WTI=82.4، Brent=88.3). هذا خطأ في القراءة – يجب إلغاء danger فوراً.
+
+**FX Strategist:**
+EUR ثابت عند 1.165 (قوة ECB)، AUD عند 0.717 (CPI حار)، CAD ضعيف عند 1.388 (نزاع تجاري). JPY مستقر 159.3. لا حركة منذ 12 ساعة – الأسواق منتظرة Nvidia. bias_EUR=0.3، bias_AUD=0.3، bias_CAD=-0.3، bias_JPY=0.2 كلها صحيحة.
+
+**Gold & Oil Trader:**
+XAU عند 4592$ (ثابت منذ 6 ساعات)، OIL عند 82$ (هبط من 83$ صباحاً بعد محادثات عُمان-إيران). لا علاوة حرب، لا ارتفاع – bias_XAU=0.0، bias_OIL=0.0 صحيحان. عنوان "$100 oil" **كاذب**.
+
+**Equity / Risk-Sentiment Desk:**
+SPX=7703، NDX=29385 – ثابتان منذ ساعات. الأسواق متجمدة قبل Nvidia (77 دقيقة). VIX منخفض، لا ذعر. block_symbols للمؤشرات صحيح حتى 22:30 UTC، لكن danger mode مبالغ فيه.
+
+**Risk Manager:**
+**danger mode خطأ فادح**: لا حدث sev-2 حقيقي (النفط عند 82$ لا 100$)، لا خسائر حسابية (يوم +3$، أسبوع +0.12$)، scorecard 24h=43% متوسط. القاعدة تقول: danger فقط لحدث حقيقي أو خسارة -3%. هنا لا شيء – يجب العودة لـnormal 0.8x فوراً.
+
+**Market Historian:**
+آخر مرة أُعلن danger بلا سبب حقيقي: 26 أغسطس 13:59 UTC (GDP Deflator)، أُلغي بعد ساعة. قبلها: 26 أغسطس 19:14 UTC (cyberattack بلا تأثير)، أُلغي بعد ساعة. **النمط واضح: المجلس يبالغ في ردة الفعل على عناوين لا تحرّك الأسعار**. النفط عند 82$ منذ أيام، لا قفزة لـ100$. Nvidia earnings تُحدث تقلباً 15-30 دقيقة ثم تستقر – block_symbols كافٍ، danger زائد.
+
+**Chairman:**
+**القرار: إلغاء danger فوراً، العودة لـnormal 0.8x.** السبب: النفط عند 82$ لا 100$ (عنوان كاذب أو قديم)، لا تصعيد جديد منذ ساعات، لا خسائر حسابية، لا حدث sev-2 حقيقي. Nvidia block كافٍ (34-64 دقيقة). الـbiases صحيحة (EUR/AUD 0.3، CAD -0.3، JPY 0.2)، conf=0.55 (أعلى من 0.4 لأن ECB/CPI واضحان). allow_books=ALL عدا BREAKOUT (خسر -3.39$ في أسواق راكدة). news_block لـNvidia فقط.
+
+---
+
+## Psyche
+
+**Awareness (fired=yes):** هذه المرة الثالثة في 8 ساعات نُعلن danger ثم نُلغيه (13:59، 19:14، الآن 21:44). النمط: **نبالغ في ردة الفعل على عناوين لا تحرّك الأسعار الحقيقية**. السعر الحقيقي WTI=82.4$ يُكذّب عنوان "$100 oil". يجب التجميد: نُبقي الـbiases كما هي (EUR/AUD 0.3، CAD -0.3، JPY 0.2) ونرفع conf لـ0.55 (ECB/CPI واضحان). نُزيل BREAKOUT من allow_books (خسر -3.39$ في ركود).
+
+**Greed (fired=no):** لا ثقة عالية، لا biases متطرفة، لا prefer_symbols طويلة – لا جشع.
+
+**Fear (fired=yes):** المجلس يرى "oil $100" فيُعلن danger، لكن السعر الحقيقي 82$. هذا **خوف من عنوان لا من واقع**. نُصحح: caution كافٍ لو كان هناك شك، لكن لا سبب حتى لـcaution – normal 0.8x هو الصحيح.
+
+**Prudence (fired=yes):** danger mode يحتاج حدث sev-2 حقيقي (قاعدة ثابتة). لا يوجد: النفط لم يقفز، لا هجوم جديد، لا خسائر حسابية. نُخفّض لـnormal 0.8x ونُبقي block_symbols للمؤشرات فقط حتى 22:30 UTC.
+
+**Intuition (fired=no):** لا حدس هذه المرة – الأرقام واضحة.
+
+**Mind state:** fearful → calm (بعد التصحيح)
+
+---
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.8
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=0.0
+bias_JPY=0.2
+bias_AUD=0.3
+bias_NZD=0.0
+bias_CAD=-0.3
+bias_CHF=0.0
+bias_XAU=0.0
+bias_XAG=0.0
+bias_OIL=0.0
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.55
+allow_books=INTRADAY,SWING,POSITION,SHOCK,COUNCIL,REVERT
+news_block=USD:34:64
+block_symbols=US100,US500,US30
+shock=none
+prefer_symbols=none
+summary=Cancelled false danger: oil at $82 not $100, no new escalation; back to normal 0.8x; EUR/AUD 0.3 (ECB/CPI), CAD -0.3, JPY 0.2; Nvidia block 34-64min
+summary_ar=أُلغي danger الكاذب: النفط عند 82$ لا 100$، لا تصعيد جديد؛ عودة لـnormal 0.8x؛ EUR/AUD 0.3 (ECB/CPI)، CAD -0.3، JPY 0.2؛ حظر Nvidia 34-64 دقيقة
+mind=calm
+psyche_flags=awareness,fear,prudence
+intuition=none
