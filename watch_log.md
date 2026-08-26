@@ -1265,3 +1265,5 @@
 - 2026-08-26 09:00 UTC · FULL COUNCIL triggered: scheduled full council (last 61 min ago)
 - 2026-08-26 09:14 UTC · heartbeat · quiet (sev0)
 - 2026-08-26 09:29 UTC · heartbeat · quiet (sev0)
+- 2026-08-26 09:44 UTC · heartbeat · ALERT sev2: Canada imposes 50% retaliatory tariffs on hundreds of US products (09:40 UTC) -> protocol applied, council convening
+- 2026-08-26 09:44 UTC · FULL COUNCIL triggered: ALERT sev2: Canada imposes 50% retaliatory tariffs on hundreds of US products (09:40 UTC)

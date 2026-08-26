@@ -1,18 +1,18 @@
 {
- "ts": 1787736570,
- "council_ts": 1787734845,
+ "ts": 1787737483,
+ "council_ts": 1787737483,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.8,
   "regime": "mixed",
-  "conf": 0.35,
+  "conf": 0.4,
   "bias_USD": 0.0,
   "bias_EUR": 0.3,
   "bias_GBP": 0.0,
   "bias_JPY": 0.2,
   "bias_AUD": 0.0,
   "bias_NZD": 0.0,
-  "bias_CAD": -0.1,
+  "bias_CAD": -0.3,
   "bias_CHF": 0.0,
   "bias_XAU": -0.1,
   "bias_XAG": 0.0,
@@ -22,25 +22,19 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "SWING,POSITION,SHOCK,COUNCIL,REVERT",
-  "news_block": "USD:151:211",
+  "news_block": "USD:121:181",
   "block_symbols": "none",
   "shock": "none",
-  "prefer_symbols": "none",
+  "prefer_symbols": "EURCAD,USDCAD",
   "mind": "calm",
-  "psyche_flags": "prudence",
+  "psyche_flags": "awareness,fear,prudence",
   "intuition": "none",
-  "summary": "Deepened OIL to -0.3 on Iran-Oman Hormuz deal (war premium fading); EUR 0.3 (ECB hike), JPY 0.2; USD blocked 12:00-13:00 for PCE; conf 0.35; normal 0.8x",
-  "summary_ar": "عمّقنا النفط إلى -0.3 (اتفاق هرمز يلغي علاوة الحرب)؛ EUR 0.3 (رفع ECB)، JPY 0.2؛ USD محجوب 12:00-13:00 لـPCE؛ ثقة 0.35؛ عادي 0.8x",
+  "summary": "Canada 50% tariffs (09:40) had no price impact; back to normal 0.8x; EUR 0.3 (ECB hike), CAD -0.3 (tariffs+oil), await PCE 12:29 UTC",
+  "summary_ar": "تعرفة كندا 50% (09:40) لم تحرّك الأسعار؛ عودة إلى normal 0.8x؛ EUR 0.3 (رفع ECB)، CAD -0.3 (تعرفة+نفط)، ننتظر PCE 12:29 UTC",
   "news_events": "USD:1787747400:Core_PCE_Price_Index_mm;USD:1787747400:Prelim_GDP_qq"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
-  {
-   "ts": 1787382176,
-   "what": "Canada suspends trade negotiations, vows dollar-for-dollar retaliation as 50% US tariffs take effect at midnight",
-   "sev": 2
-  },
   {
    "ts": 1787410918,
    "what": "U.S. Army Secretary reportedly rebelling against Trump/Hegseth over Iran War; potential resignation signal amid military-civilian command crisis",
@@ -84,6 +78,11 @@
   {
    "ts": 1787722169,
    "what": "U.S.-Japan FX intervention sold euros without ECB coordination; ECB fury over broken trust signals major policy rift",
+   "sev": 2
+  },
+  {
+   "ts": 1787737470,
+   "what": "Canada imposes 50% retaliatory tariffs on hundreds of US products (09:40 UTC)",
    "sev": 2
   }
  ]
