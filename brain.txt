@@ -1,5 +1,5 @@
-ts=1787764145
-generated=2026-08-26 17:09 UTC (watchman heartbeat; council 3 min ago)
+ts=1787764537
+generated=2026-08-26 17:15 UTC (watchman heartbeat; council 6 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.8
@@ -31,4 +31,4 @@ mind=calm
 psyche_flags=none
 intuition=none
 news_events=none
-watchman=صفقة CHFJPY SWING 0$ ← تحليل مكتوب
+watchman=quiet (sev0)
