@@ -1,110 +1,4 @@
-75 محافظ. كل شيء متوازن.
-
-**Fear (fired=no):** لا رد فعل مبالغ. عقوبات إيران لم تُعلن بعد فلم ندخل halt. خسارة INTRADAY (-1.09$) لم تسبب panic. المجلس ينتظر الحقائق. لا خوف زائد.
-
-**Prudence (fired=yes):** CAD bias -0.4 يعتمد على 3 مصادر مستقلة (CNBC، Bloomberg، Yahoo) + سعر يؤكد (USDCAD +150 نقطة في يومين) + Market Historian أعطى analog (2018). هذا يستوفي الشرط. XAU 0.25 له مصدران (Goldman، ATH breakout) + analog. كل شيء مدعوم.
-
-**Intuition (fired=yes):** أشعر أن Bessent سيعلن العقوبات اليوم لكنها ستكون "مالية" (بنوك) لا "نفطية" (حظر) – السوق سيبيع الخبر (oil ينزل، gold يثبت أو ينزل قليلاً، USD يرتد +0.3% لساعات ثم يعود للضعف).
-
-**Mind state:** calm
-
-## DIRECTIVES
-
-risk_mode=normal
-risk_mult=0.75
-regime=mixed
-bias_USD=-0.1
-bias_EUR=0.15
-bias_GBP=0.0
-bias_JPY=-0.2
-bias_AUD=0.0
-bias_NZD=0.0
-bias_CAD=-0.4
-bias_CHF=-0.1
-bias_XAU=0.25
-bias_XAG=0.15
-bias_OIL=0.0
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.45
-allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT
-news_block=USD:304:364;AUD:2194:2254
-block_symbols=none
-shock=none
-prefer_symbols=USDCAD,EURUSD,USDJPY
-summary=CAD bias raised to -0.4 (trade war escalation, 3 sources + price confirms); all else stable; Iran sanctions watch (Bessent 5h); normal 0.75x
-summary_ar=CAD إلى -0.4 (حرب تجارية تتصاعد، 3 مصادر + السعر يؤكد)؛ الباقي ثابت؛ نراقب عقوبات إيران (Bessent بعد 5 ساعات)؛ عادي 0.75x
-mind=calm
-psyche_flags=prudence,intuition
-intuition=أشعر أن عقوبات Bessent ستكون مالية لا نفطية – السوق سيبيع الخبر (النفط ينزل، الذهب يثبت، USD يرتد مؤقتاً ثم يضعف)
-
-
-# 2026-08-24 13:57 UTC
-## Council debate
-
-**Chief Macro Economist:** الاقتصاد الأميركي يواجه أزمة سندات (yields مرتفعة، Bessent يحاول buybacks بـ$1T من الخزينة)؛ هذا ضعف هيكلي للـUSD رغم أن السوق قد يرتد مؤقتاً على أي إعلان؛ bias_USD يبقى -0.1 منطقي.
-
-**Central-Bank Watcher:** BoJ hike bets قوية (JGB 10y عند أعلى مستوى منذ 30 سنة)، السوق يسعّر رفع سبتمبر؛ JPY bias -0.2 صحيح؛ ECB Cipollone قال "خطر الركود والتضخم بعيد" = dovish خفيف، EUR 0.15 مبالغ فيه قليلاً، أقترح 0.1.
-
-**Geopolitical & Crisis Analyst:** Bessent سيعلن عقوبات إيران بعد 4 ساعات (NPR/Guardian/Euronews تسميها "economic D-Day")؛ إيران تهدد بالرد؛ لكن لا صدمة حتى الآن – السوق ينتظر التفاصيل؛ النفط نزل -2% اليوم (86.06) يعني السوق يتوقع عقوبات مالية لا نفطية؛ الذهب عند 4667 (ATH) = safe-haven bid قوي.
-
-**FX Strategist:** USDCAD عند 1.383 (ارتفع 50 نقطة منذ 12:55) = CAD ضعيف فعلاً، bias -0.4 مؤكد؛ EURUSD عند 1.166 ثابت، EUR 0.15 مقبول لكن بلا زخم؛ USDJPY 159.13 (JPY ضعيف)، GBP 1.364 (قرب أعلى 6 أشهر)، bias_GBP يجب أن يرتفع إلى 0.2.
-
-**Gold & Oil Trader:** XAU 4667 (+$10 منذ 12:55، +3% من أمس) = momentum قوي لكن extended جداً؛ bias 0.25 صحيح؛ النفط 86.06 (-2% اليوم) رغم تهديد إيران = السوق لا يخاف نقص العرض، bias 0.0 أو -0.1؛ الفضة 68.95 تتبع الذهب، bias 0.15 ok.
-
-**Equity / Risk-Sentiment Desk:** US500 7662، US100 28970، GER40 26112 – كلها ثابتة؛ لا risk-on ولا risk-off واضح؛ regime=mixed صحيح؛ السوق ينتظر Warsh غداً وNvidia؛ bias 0.0 للمؤشرات منطقي.
-
-**Risk Manager:** daily loss -0.6% (ضمن الحد)، INTRADAY خسر 1 من 1 اليوم (NZDJPY -1.09$) = loss streak 1؛ لا داعي لإزالته بعد؛ scorecard 24h ضعيف (35-39%) لكن CAD/OIL 100% = نثق بـCAD bias؛ Bessent بعد 4 ساعات = news_block ضروري؛ risk_mult 0.75 مناسب.
-
-**Market Historian:** آخر مرة أميركا أعلنت عقوبات "قاسية" على إيران (2018 Trump)، النفط ارتفع +8% في أسبوع ثم تراجع؛ لكن اليوم النفط نزل -2% قبل الإعلان = السوق يسعّر عقوبات مالية لا حظر نفط؛ الذهب في 2018 ارتفع 1% ثم استقر؛ اليوم XAU عند ATH (+3% في يومين) = أقوى بكثير، لكن extended؛ USDCAD في 2018 ارتفع (CAD ضعف) = نفس النمط اليوم؛ bias_CAD -0.4 تاريخياً صحيح.
-
-**Chairman:** الأدلة متسقة: CAD ضعيف (3 مصادر + سعر يؤكد)، JPY ضعيف (BoJ hike bets)، USD ضعيف هيكلياً (أزمة سندات) لكن قد يرتد على Bessent، XAU قوي لكن extended، النفط محايد؛ نبقي معظم التوجهات، نرفع GBP إلى 0.2 (قرب 6-month high)، نخفض EUR إلى 0.1 (Cipollone dovish)، نضيف news_block لـBessent؛ conf 0.45 (scorecard ضعيف)، risk_mult 0.75 (حذر قبل الحدث).
-
-## Psyche
-
-**Awareness:** fired=no – القرارات متسقة مع السابق (CAD -0.4 ثابت، XAU 0.25 ثابت، USD -0.1 ثابت)؛ التغييرات صغيرة (GBP 0→0.2، EUR 0.15→0.1) ومبررة بأدلة جديدة (GBP price، Cipollone)؛ لا flip-flop.
-
-**Greed:** fired=no – معظم التوجهات ضعيفة (|bias|<0.3)، risk_mult منخفض (0.75)، conf منخفض (0.45)؛ لا لغة "فرصة سهلة".
-
-**Fear:** fired=no – لا over-reaction؛ Bessent حدث مجدول (ليس مفاجأة)، المجلس يراقب بهدوء؛ normal mode مناسب.
-
-**Prudence:** fired=yes – GBP 0.2 له مصدر واحد فقط (FXStreet "near 6-month highs") + سعر؛ Market Historian لم يعطِ analog قوي؛ لكن 0.2 ليس قوياً (< 0.5)، مقبول.
-
-**Intuition:** fired=yes – أشعر أن Bessent سيعلن عقوبات مالية (تجميد أصول، منع معاملات) لا حظر نفط؛ السوق سيبيع الخبر: النفط ينزل أكثر، الذهب يثبت أو يتراجع قليلاً، USD يرتد لساعات ثم يضعف.
-
-## DIRECTIVES
-
-risk_mode=normal
-risk_mult=0.75
-regime=mixed
-bias_USD=-0.1
-bias_EUR=0.1
-bias_GBP=0.2
-bias_JPY=-0.2
-bias_AUD=0.0
-bias_NZD=0.0
-bias_CAD=-0.4
-bias_CHF=-0.1
-bias_XAU=0.25
-bias_XAG=0.15
-bias_OIL=0.0
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.45
-allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT
-news_block=USD:242:302;AUD:2132:2192
-block_symbols=none
-shock=none
-prefer_symbols=USDCAD,GBPUSD,USDJPY
-summary=GBP raised to 0.2 (6-month highs), EUR cut to 0.1 (Cipollone dovish); CAD/JPY/XAU/USD stable; Bessent Iran sanctions 4h (watch); normal 0.75x
-summary_ar=GBP إلى 0.2 (أعلى 6 أشهر)، EUR إلى 0.1 (Cipollone dovish)؛ CAD/JPY/XAU/USD ثابتة؛ عقوبات Bessent على إيران بعد 4 ساعات (نراقب)؛ عادي 0.75x
-mind=calm
-psyche_flags=prudence,intuition
-intuition=أشعر أن Bessent سيعلن عقوبات مالية لا نفطية – السوق سيبيع الخبر: النفط ينزل، الذهب يثبت، USD يرتد مؤقتاً ثم يضعف
+ع الخبر: النفط ينزل، الذهب يثبت، USD يرتد مؤقتاً ثم يضعف
 
 
 # 2026-08-24 14:59 UTC
@@ -3540,3 +3434,62 @@ summary_ar=لا تغيير: EUR/AUD 0.3 (رفع ECB/CPI حار)، CAD/OIL -0.3 (
 mind=calm
 psyche_flags=prudence
 intuition=الأسواق ستبقى ميتة حتى Nvidia (ساعات) ثم Warsh (24 ساعة) – لا تتوقع حركة حقيقية قبلهما
+
+
+# 2026-08-26 17:05 UTC
+## Council debate
+
+**Chief Macro Economist:**
+الاقتصاد الأميركي نما 1.5% Q2 كما متوقع، PCE الأساسي 0.2% شهرياً (3.3% سنوياً) – التضخم عنيد لكن بلا مفاجآت. أستراليا CPI حار يدعم رفع RBA. منطقة اليورو قوية (Schnabel تطالب برفع إضافي). كندا تحت ضغط التعرفات. النمو العالمي مختلط، التضخم لا يزال فوق الأهداف.
+
+**Central-Bank Watcher:**
+ECB: Schnabel تؤكد رفع سبتمبر + المزيد (EUR قوي). RBA: CPI الحار يدعم رفع قريب (AUD قوي). Fed: Warsh يتكلم غداً 44 ساعة – هذا الحدث الوحيد المهم، الأسواق متجمدة بانتظاره. BoJ: تكهنات برفع لكن لا جديد اليوم. كل البنوك في وضع تشديد أو انتظار.
+
+**Geopolitical & Crisis Analyst:**
+إيران-عُمان اتفقتا على مشاركة Hormuz والإيرادات (Reuters 12:16) – علاوة الحرب تتلاشى، OIL هبط. كندا فرضت تعرفات 50% انتقامية (09:40) لكن السوق تجاهلها تماماً – CAD ضعيف على أي حال. بوتين يصعّد أوكرانيا (Bloomberg 15:51) لكن بلا تأثير على الأسعار (قصة قديمة). لا أحداث severity-2/3 جديدة.
+
+**FX Strategist:**
+EUR الأقوى (1.165 ثابت، ECB متشدد) – bias 0.3 صحيح. AUD قوي (CPI حار، 0.717 مستقر) – bias 0.3 صحيح. CAD الأضعف (تعرفات + نفط هابط، 1.3875) – bias -0.3 صحيح. JPY مختلط (159.4، لا محفز جديد) – bias 0.2 معقول. USD محايد (DXY غير متاح لكن EUR/GBP/AUD ثابتة) – bias 0.0 صحيح. GBP/NZD/CHF بلا قصة – 0.0 منطقي.
+
+**Gold & Oil Trader:**
+XAUUSD 4587 (-1% اليوم بعد PCE، -60$ من قمة 4700 الصباح) – اتفاق Hormuz + عوائد أميركية صاعدة تضغطان الذهب. Natixis رفعت الهدف لـ5000$ لكن هذا رأي طويل الأجل لا محفز فوري. bias -0.1 معقول (ضغط قصير الأجل). OIL 83.6 (-3% اليوم على اتفاق Hormuz، NBC/WSJ تؤكدان تفاؤل إعادة الفتح) – bias -0.3 صحيح، لكن الهبوط امتد – هل نعمّق لـ-0.4؟ لا، الحركة حدثت، الآن انتظار.
+
+**Equity / Risk-Sentiment Desk:**
+US500 7665 (ثابت)، US100 29123 (ثابت)، GER40 26246 (ثابت) – الأسهم متجمدة تماماً قبل Nvidia (بعد ساعات) وWarsh (غداً). CNN تحذر "ارتفاع العوائد خطر على الأسهم"، لكن لا بيع حقيقي. regime مختلط (لا risk-on ولا risk-off، فقط انتظار). bias 0.0 على المؤشرات صحيح.
+
+**Risk Manager:**
+حساب 455$، يوم +3.46$ (ممتاز)، أسبوع +0.52$، 3 مراكز SWING مفتوحة (CHFJPY/GBPJPY بيع، ربح عائم +2.86$). BREAKOUT/INTRADAY محذوفان بحق (خسائر في أسواق ميتة). scorecard 24h ضعيف 44% – conf 0.55 معقول. لا أحداث خلال 60 دقيقة القادمة. Jackson Hole بعد 23 ساعة، Warsh بعد 45 ساعة – هذان المحركان الوحيدان. risk_mode=normal، risk_mult 0.8 مناسب (لا خطر فوري، لكن الأسواق ميتة).
+
+**Market Historian:**
+**اتفاقات Hormuz السابقة:** لا سابقة مباشرة (هذا نزاع جديد 2025-2026)، لكن نمط "اتفاق ينهي إغلاق مضيق" معروف: 1) Bab el-Mandeb 2024 (Houthis): اتفاق هدنة → OIL -8% في أسبوع. 2) Hormuz 1988 (نهاية حرب الناقلات): OIL -15% في شهر. **النمط:** علاوة الحرب تتبخر سريعاً (-5..-10% في أيام)، ثم استقرار. اليوم OIL -3% – متوافق مع التاريخ، لكن الحركة ليست منتهية (قد يهبط لـ80-81$ إذا تأكد الفتح). **رفع ECB مع اقتصاد قوي:** سبتمبر 2011 (رفع رغم أزمة ديون) → EUR +2% ثم انهار بعد شهر. 2000-2001 (رفع متأخر) → EUR ثابت. **النمط:** EUR يرتفع على الرفع الأول، يستمر إذا كان الاقتصاد قوياً فعلاً (الآن ألمانيا صامدة) – bias 0.3 له أساس تاريخي. **أسواق متجمدة قبل حدث كبير:** قبل FOMC، قبل NFP، قبل خطابات Jackson Hole → نطاقات ضيقة 12-48 ساعة قبل الحدث، ثم انفجار تقلب. **الآن:** 23 ساعة لـJackson Hole، 45 ساعة لـWarsh – التجمد طبيعي تاريخياً. **تحذير:** EURUSD في نطاق 1.164-1.167 منذ 5 أيام (20 نقطة) – هذا أضيق نطاق أسبوعي منذ ديسمبر 2025؛ الاختراق سيكون عنيفاً.
+
+**Chairman:**
+أشكر الجميع. **الوقائع:** 1) PCE مر بلا تأثير (كما توقعنا). 2) اتفاق Hormuz دفع OIL -3% (bias -0.3 صحيح). 3) EUR/AUD قويان على أساسيات البنوك المركزية (biases 0.3 صحيحة). 4) CAD ضعيف (تعرفات + نفط) – bias -0.3 صحيح. 5) الأسواق متجمدة تماماً قبل Nvidia/Warsh (Market Historian يؤكد هذا نمط طبيعي). 6) scorecard 44% ضعيف – conf 0.55 مناسب. 7) الحساب +3.46$ اليوم، SWING يربح، BREAKOUT/INTRADAY محذوفان بحق. **القرار:** لا تغيير. جميع التوجهات صحيحة والأسعار تؤكدها (EUR ثابت فوق 1.165، AUD فوق 0.716، CAD ضعيف، OIL هابط). risk_mode=normal مع risk_mult 0.8 (لا خطر فوري، لكن الأسواق ميتة – لا داعي لرفع المخاطرة). conf 0.55 (ثقة معتدلة رغم scorecard ضعيف، لكن التوجهات الحالية لها أساس قوي). allow_books كما هو (SWING/POSITION/SHOCK/COUNCIL/REVERT). **ملاحظة للمشغل Pedro:** الأسواق لن تتحرك حتى Nvidia (بعد ساعات) ثم Warsh (غداً) – لا تقلق من الهدوء، هذا طبيعي قبل الأحداث الكبرى.
+
+## Psyche
+
+**Awareness:** fired=no · قارنت التوجهات الحالية بالـ15 دقيقة الماضية: صفر تغيير (EUR/AUD/CAD/OIL/JPY كلها ثابتة). قارنت بالـ8 ساعات الماضية: صفر تغيير أيضاً. الأسعار تؤكد التوجهات (EUR 1.165 ثابت، AUD 0.717 ثابت، OIL هبط من 86 لـ83.6 كما توقعنا). لا تقلب، لا عناد، لا انقلاب – المجلس هادئ ومتسق. DECISION MEMORY نظيف.
+
+**Greed:** fired=no · conf 0.55 معتدل، معظم التوجهات 0.0-0.3 (ليست قوية)، prefer_symbols=none، risk_mult 0.8 (ليس مرتفعاً)، لا لغة "فرصة سهلة". لا علامات طمع.
+
+**Fear:** fired=no · لا رد فعل زائد على عناوين، لا halt بلا سبب، لا انهيار توجهات بعد ثقة (التوجهات ثابتة منذ 8 ساعات). المجلس لم يتراجع عن EUR/AUD 0.3 رغم scorecard 44% – هذا توازن لا خوف.
+
+**Prudence:** fired=yes · فحصت التوجهات القوية: EUR 0.3 (مصدران: Schnabel + اقتصاد قوي + Market Historian يؤكد نمط تاريخي ✓)، AUD 0.3 (CPI حار + تكهنات RBA ✓)، CAD -0.3 (تعرفات + نفط هابط ✓)، OIL -0.3 (اتفاق Hormuz + Market Historian يؤكد نمط ✓). كل توجه قوي له مصدران + تاريخ. مقبول.
+
+**Intuition:** الأسواق في "وضع الانتظار المطلق" – حتى الأخبار الكبيرة (تعرفات كندا 50%، اتفاق Hormuz) لا تحرك FX. هذا يعني أن Nvidia/Warsh سيُطلقان تقلباً عنيفاً بعد ضغط النطاق الضيق. توقع اختراقات حادة (لا تدريجية) خلال 24-48 ساعة القادمة.
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.8
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=0.0
+bias_JPY=0.2
+bias_AUD=0.3
+bias_NZD=0.0
+bias_CAD=-0.3
+bias_CHF=0.0
+bias_XAU=-0.1
+bias_XAG=0
