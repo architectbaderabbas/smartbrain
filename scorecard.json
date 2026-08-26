@@ -1,13 +1,13 @@
 {
  "decisions_scored": 45,
  "overall_hit_rate%": {
-  "4h": 62,
-  "12h": 58,
-  "24h": 56
+  "4h": 61,
+  "12h": 56,
+  "24h": 55
  },
  "per_asset_hit_rate%": {
   "OIL": {
-   "4h": 50,
+   "4h": 0,
    "12h": 100,
    "24h": 100
   },
@@ -33,8 +33,8 @@
   }
  },
  "by_mind_state%": {
-  "calm": 61,
-  "?": 48
+  "?": 48,
+  "calm": 59
  },
  "note": "hit = price moved in the direction of a bias with |bias|>=0.3 after the horizon; None = not enough data yet"
 }
