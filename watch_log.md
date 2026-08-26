@@ -1219,3 +1219,4 @@
 - 2026-08-26 00:42 UTC · heartbeat · quiet (sev0)
 - 2026-08-26 00:57 UTC · heartbeat · ALERT sev2: US conducts lethal kinetic strike (southcom.mil 00:56 UTC); Iran president signals openness to US memorandum—potential de-escalation signal vs. prior "full-scale war" rhetoric -> protocol applied, council convening
 - 2026-08-26 00:57 UTC · FULL COUNCIL triggered: ALERT sev2: US conducts lethal kinetic strike (southcom.mil 00:56 UTC); Iran president signals openness to US memorandum—potential de-escalation signal vs. prior "full-scale war" rhetoric
+- 2026-08-26 01:12 UTC · heartbeat · quiet (sev0)
