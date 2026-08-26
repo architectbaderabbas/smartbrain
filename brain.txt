@@ -1,5 +1,5 @@
-ts=1787768078
-generated=2026-08-26 18:14 UTC
+ts=1787768314
+generated=2026-08-26 18:18 UTC (watchman heartbeat; council 3 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.8
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=intuition
 intuition=الأسواق تحبس أنفاسها – التقلب سينفجر خلال 12-24 ساعة، لكن الآن: صمت مطلق
 news_events=none
+watchman=quiet (sev0)
