@@ -1,119 +1,4 @@
-؛ normal mode؛ ننتظر فتح طوكيو.
-
-## Psyche
-
-**Awareness:** fired=yes – قارنت مع 8 قرارات سابقة: biases ثابتة 165 دقيقة (USD +0.05، JPY -0.1، CAD -0.4، OIL -0.3 منذ 16:42 UTC)؛ الأسعار تؤكدها (USDJPY 158.95 ثابت، USDCAD 1.3793 CAD ضعيف، OIL 86.68 ضعيف)؛ **لا flip-flop، لا stubbornness** – القرار السابق كان صحيحاً، نبقيه؛ scorecard 26% ضعيف لكن risk_mult=0.7 مناسب.
-
-**Greed:** fired=no – conf=0.5 معتدل، biases صغيرة (أكبر واحد -0.4)، prefer_symbols=none، لا لغة "easy money"؛ لا علامات طمع.
-
-**Fear:** fired=no – لا over-reaction، لا halt بدون سبب، biases مستقرة منذ ساعات؛ المجلس هادئ.
-
-**Prudence:** fired=yes – أقوى bias هو CAD -0.4: مدعوم بمصدرين (Trump trade war + PBS coercion warning) + تاريخ (USDCAD يرتفع في حروب تجارية)؛ OIL -0.3: مدعوم بـHormuz traffic +400% + Goldman forecast + تاريخ (2019 Abqaiq fade)؛ كل call قوي له analog تاريخي؛ مقبول.
-
-**Intuition:** fired=yes – فتح طوكيو بعد 5.8 ساعة سيحسم: إذا USDJPY فوق 160 = خطر تدخل BoJ (نرفع bias_JPY)؛ إذا ذهب فوق 4610 بحجم = اختراق حقيقي (نرفع bias_XAU إلى +0.3)؛ إذا نفط تحت 86.5 = تأكيد ضعف (نخفض bias_OIL إلى -0.4)؛ الآن نراقب فقط، لا نتحرك.
-
-## DIRECTIVES
-
-risk_mode=normal
-risk_mult=0.7
-regime=mixed
-bias_USD=0.05
-bias_EUR=0.0
-bias_GBP=0.0
-bias_JPY=-0.1
-bias_AUD=0.0
-bias_NZD=0.0
-bias_CAD=-0.4
-bias_CHF=0.0
-bias_XAU=0.0
-bias_XAG=0.0
-bias_OIL=-0.3
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.5
-allow_books=ALL
-news_block=USD:1127:1187
-block_symbols=none
-shock=none
-prefer_symbols=none
-summary=All biases unchanged 165min; weekend dead liquidity, Kashkari supports USD, USDJPY 158.95 stable, CAD weak on Trump, oil/gold flat; await Tokyo open 5.8h; normal 0.7x
-summary_ar=كل التوجهات ثابتة 165 دقيقة؛ سيولة ميتة نهاية أسبوع، Kashkari يدعم USD، USDJPY 158.95 مستقر، CAD ضعيف على Trump، نفط/ذهب ثابت؛ ننتظر فتح طوكيو 5.8 ساعة؛ عادي 0.7x
-mind=calm
-psyche_flags=awareness,prudence,intuition
-intuition=فتح طوكيو (5.8 ساعات) يحسم: USDJPY فوق 160 = خطر تدخل BoJ؛ ذهب فوق 4610 بحجم = اختراق حقيقي؛ نفط تحت 86.5 = تأكيد ضعف؛ الآن نراقب فقط
-
-
-# 2026-08-24 00:12 UTC
-## Council debate
-
-**Chief Macro Economist:**
-الوضع الكلي لم يتغير منذ 180 دقيقة: Kashkari يدعم USD قليلاً (عوائد السندات ليست قلقاً)، لكن لا محفزات جديدة. USDJPY عند 158.835 (نزل 11 نقطة من 158.95 قبل ساعة) = تراجع طفيف. فتح طوكيو بعد 4.8 ساعة هو الحدث الوحيد المهم. نبقى على bias_USD=0.05، bias_JPY=-0.1 بدون تغيير.
-
-**Central-Bank Watcher:**
-BOJ يُتوقع رفع سبتمبر (Bloomberg: "markets bet heavily on September hike")، لكن لا تصريحات جديدة منذ 12 ساعة. Kashkari قال العوائد المرتفعة ليست مشكلة = يدعم USD قليلاً. Bessent يتكلم بعد 17.8 ساعة (غداً)، لا تأثير الآن. لا تغيير في التوجهات.
-
-**Geopolitical & Crisis Analyst:**
-إيران ترفض العقوبات الأمريكية الجديدة ("desperate US will fail")، Bessent سيعلن عقوبات إضافية اليوم. لكن هذا **ليس تصعيداً عسكرياً** = لا صدمة. النفط عند 86.674 (نزل 0.3 من 86.97 قبل ساعة) = ضعف مستمر يؤكد bias_OIL=-0.3. الذهب 4639 (ارتفع 1 دولار من 4638) = حركة صفرية. لا تغيير.
-
-**FX Strategist:**
-USDJPY نزل 11 نقطة في ساعة (158.95→158.835) = JPY أقوى قليلاً، يؤكد bias_JPY=-0.1. EURUSD 1.16853 ثابت، GBPUSD 1.36543 ثابت، AUDUSD 0.71743 ثابت. USDCAD 1.37858 (ارتفع 2 نقطة) = CAD أضعف، يؤكد bias_CAD=-0.4. **لا حركة تستحق تغيير أي bias**.
-
-**Gold & Oil Trader:**
-ذهب 4639 (+1 دولار في ساعة) = ضوضاء صفرية. فضة 69.598 ثابتة. نفط WTI 86.674 (-0.3 في ساعة)، Brent 93.484 (-0.2) = ضعف خفيف يؤكد bias_OIL=-0.3. عناوين "Hormuz traffic surge 400%" (أمس) تعني مخاوف الإمداد تتلاشى. نبقى bias_OIL=-0.3، bias_XAU=0.0.
-
-**Equity / Risk-Sentiment Desk:**
-US500 عند 7690 (ثابت)، US100 عند 29377 (ثابت)، GER40 عند 26149 (ثابت). عناوين "stock futures flat" تؤكد: لا اتجاه. regime=mixed صحيح. لا تغيير في bias_US500=0.0.
-
-**Risk Manager:**
-لا أحداث في الـ60 دقيقة القادمة. news_block لـUSD بعد 18 ساعة (Bessent) صحيح. SCORECARD ضعيف (19-27% فقط)، لكن لا خسائر جديدة منذ 3 أيام = الروبوتات واقفة. risk_mult=0.7 مناسب. **لا سبب لتغيير أي شيء**: السوق ميت، ننتظر طوكيو.
-
-**Market Historian:**
-USDJPY عند 158.835 = في منتصف نطاق الأسبوع (157-160). **آخر مرة USDJPY كان هنا في عطلة نهاية أسبوع** (أغسطس 2024 قبل تدخل BoJ): تحرك ±20 نقطة بدون اتجاه حتى فتح طوكيو، ثم قفز 150 نقطة في ساعتين عند التدخل. **الآن**: لا تدخل متوقع (BOJ ينتظر سبتمبر)، لكن فتح طوكيو (4.8 ساعة) سيحسم. bias_JPY=-0.1 صحيح (ضعف خفيف)، لكن **لا حركة حقيقية حتى Asia open**. ذهب عند 4639 = 99% من نطاق السنة، لكن بدون حجم = لا اختراق. نفط 86.67 = 45% من نطاق السنة، ضعيف. **لا تغيير مبرر**.
-
-**Chairman:**
-8 خبراء، إجماع كامل: **لا شيء تغير في 180 دقيقة**. USDJPY نزل 11 نقطة = ضوضاء. نفط نزل 0.3 = يؤكد bias موجود. ذهب +1 دولار = صفر. **Awareness سيحذر من flip-flopping إذا غيّرنا بدون سبب**. SCORECARD ضعيف (19%) = نخفض conf إلى 0.45، لكن نبقي كل biases ثابتة. risk_mult=0.7 يبقى (حساب صغير، scorecard ضعيف). **القرار: نسخ التوجيهات السابقة بالكامل، نخفض conf من 0.5 إلى 0.45 فقط**.
-
-## Psyche
-
-**Awareness:** fired=yes — قارنت التوجيهات الـ8 الأخيرة: **كل biases ثابتة 495 دقيقة (8 ساعات)**، والأسعار تحركت <0.1% على كل الأصول. المجلس يكرر نفسه بشكل صحيح (لا flip-flopping)، لكن **conf=0.5 مبالغ فيه مع scorecard 19%**. أوصي بخفض conf إلى 0.4-0.45.
-
-**Greed:** fired=no — لا ثقة عالية، لا biases قوية، prefer_symbols=none. الوضع آمن.
-
-**Fear:** fired=no — لا رد فعل زائد، لا تراجع بدون سبب. المجلس هادئ بشكل صحيح.
-
-**Prudence:** fired=yes — كل biases <0.5 (أقوى واحد -0.4 لـCAD)، ولا واحد يملك مصدرين مستقلين جديدين منذ 8 ساعات. هذا صحيح: في سوق ميت، biases ضعيفة منطقية. لا تخفيض مطلوب.
-
-**Intuition:** fired=yes — طوكيو (4.8 ساعة) سيكشف: إذا USDJPY قفز فوق 160 بحجم، bias_JPY يصبح -0.4؛ إذا ذهب اخترق 4650 بحجم، bias_XAU يصبح +0.4؛ الآن نراقب فقط، لا نتحرك.
-
-## DIRECTIVES
-
-risk_mode=normal
-risk_mult=0.7
-regime=mixed
-bias_USD=0.05
-bias_EUR=0.0
-bias_GBP=0.0
-bias_JPY=-0.1
-bias_AUD=0.0
-bias_NZD=0.0
-bias_CAD=-0.4
-bias_CHF=0.0
-bias_XAU=0.0
-bias_XAG=0.0
-bias_OIL=-0.3
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.45
-allow_books=ALL
-news_block=USD:1067:1127
-block_symbols=none
-shock=none
-prefer_symbols=none
-summary=All biases unchanged 180min; weekend dead liquidity, USDJPY drifts 158.83, CAD weak on Trump, oil/gold flat; await Tokyo open 4.8h; normal 0.7x
+l biases unchanged 180min; weekend dead liquidity, USDJPY drifts 158.83, CAD weak on Trump, oil/gold flat; await Tokyo open 4.8h; normal 0.7x
 summary_ar=كل التوجهات ثابتة 180 دقيقة؛ سيولة ميتة نهاية أسبوع، USDJPY ينزلق 158.83، CAD ضعيف على Trump، نفط/ذهب ثابت؛ ننتظر فتح طوكيو 4.8 ساعة؛ عادي 0.7x
 mind=calm
 psyche_flags=awareness,prudence,intuition
@@ -3542,3 +3427,82 @@ summary_ar=تصحيح danger->caution: ضربة southcom لا علاقة بال�
 mind=calm
 psyche_flags=awareness,fear,prudence,intuition
 intuition=أتوقع CPI أسترالي 3.1-3.2% (أقل من 3.3%) وانهيار AUD بـ60+ نقطة خلال 15 دقيقة – لكن ننتظر الرقم أولاً
+
+
+# 2026-08-26 02:12 UTC
+## Council debate
+
+**Chief Macro Economist:**
+CPI أسترالي صدر قبل 42 دقيقة: 3.3% y/y (توقعات 3.3%)، 0.9% m/m (توقعات 0.9%)، Trimmed Mean 0.4% (توقعات 0.4%) – **مطابق تماماً للتوقعات**. لا مفاجأة، لا صدمة. AUDUSD عند 0.71794 (ثابت)، AUDJPY عند 114.098 (ثابت). السوق هضم الرقم بلا رد فعل. PCE أمريكي بعد 10 ساعات (0.2% متوقع)، GDP 1.5% – روتيني. لا محفز حقيقي حتى Nvidia بعد 19 ساعة.
+
+**Central-Bank Watcher:**
+ECB سبتمبر: رفع 25 نقطة مؤكد (Reuters sources)، لكن "no appetite to signal more" – أي آخر رفع. EUR يستحق 0.2 (قوة نسبية). BoE: Sterling عند 6 أشهر high لكن لا حدث جديد منذ 3 ساعات – نبقيه 0.0. BoJ: عناوين "yen bears recalibrate" و"hike to 1.25% in Sept" لكن USDJPY عند 158.924 (ثابت) – لا تأكيد سعري، نبقى 0.0. RBA: "several board members eye another rate rise" بعد CPI – لكن الرقم مطابق للتوقعات، لا ضغط فوري. AUD محايد.
+
+**Geopolitical & Crisis Analyst:**
+إيران: Rubio "shifting from strikes to sanctions" (Axios 21:44)، "US returning staff to Mideast missions" (Reuters 22:41) – **تهدئة واضحة**. Hormuz: "Iran-Oman talks to reopen Strait" (Reuters 23:03) – oil هبط -2% على هذا. لا تصعيد جديد منذ 6 ساعات. Severity-0 الآن. OIL يستحق -0.3 (تلاشي علاوة الحرب)، XAU محايد (لا طلب ملاذ آمن جديد).
+
+**FX Strategist:**
+EUR: قوي (ECB hike + German Ifo)، 0.2 صحيح. GBP: ممتد عند 1.36449 (6mo high) بلا حدث جديد – 0.0 صحيح. AUD: CPI مطابق، لا رد فعل – 0.0 صحيح. CAD: "tariffs + oil weak" – oil الآن 80.903 (-2% اليوم)، USDCAD 1.38464 (CAD ضعيف) – -0.2 صحيح. NZD: تابع لـAUD، محايد. JPY: عناوين صعودية لكن سعر ثابت – 0.0. CHF: "strong CHF casts shadow" لكن لا حدث – 0.0. USD: محايد (ننتظر PCE).
+
+**Gold & Oil Trader:**
+XAU: 4658.14 (3-month high أمس)، الآن ثابت – لا زخم جديد، Morgan Stanley يرى 5000$ في 2027 لكن هذا طويل الأجل. محايد 0.0. XAG: 69.31، تابع لـXAU. OIL: 80.903 (8-session low)، Hormuz talks + "easing geopolitical risk" – **علاوة الحرب تتلاشى**. نرفع bias إلى -0.3 (هبوط واضح). UKOIL 87.027 (نفس الاتجاه).
+
+**Equity / Risk-Sentiment Desk:**
+US500: 7667.32، US100: 29087.23، GER40: 26259.05 – كلها ثابتة في نطاقات ضيقة منذ 48 ساعة. "Markets await Nvidia" (Barron's) – لا أحد يتحرك قبلها. regime=mixed (لا risk-on ولا risk-off، فراغ). US500/US100/US30/GER40 كلها 0.0.
+
+**Risk Manager:**
+daily loss 0.0$ اليوم، week -2.94$ (-0.6%) – ضمن الحدود. SCORECARD: 24h hit rate 51% فقط – **دقتنا ضعيفة على 24 ساعة**. BREAKOUT/INTRADAY أُزيلا بالأمس (8 خسائر من 10) – **قرار صحيح**. allow_books الآن SWING,COUNCIL,SHOCK,REVERT – مقبول. risk_mode=caution منذ ساعة بسبب CPI – **لكن CPI انتهى بلا مفاجأة**، والسوق ميت. أقترح **normal** مع risk_mult=0.8 (نرفعه من 0.7 لأن الخطر زال). لا أحداث حتى PCE بعد 10 ساعات.
+
+**Market Historian:**
+**CPI مطابق للتوقعات + لا رد فعل سعري = نمط "non-event"**. آخر 5 مرات CPI أسترالي طابق التوقعات (2025 Q2-Q4): AUD تحرك <20 نقطة في الساعة الأولى، عاد للنطاق السابق خلال 4 ساعات. اليوم: AUDUSD ثابت عند 0.71794 (±5 نقطة منذ الإصدار) – **نفس النمط**. **Oil de-escalation premium fade**: آخر 3 مرات إيران أظهرت تهدئة بعد توتر (2024 Apr, 2025 Jan, 2025 Jun): oil هبط 3-6% في 48 ساعة ثم استقر. اليوم: oil -2% على عناوين Hormuz talks – **نحن في منتصف الـfade، متبقي -1..-2% خلال 24 ساعة**. OIL bias يجب أن يكون -0.3. **Nvidia earnings**: آخر 4 مرات (2025 Q1-Q4): indices تذبذبت ±1.5% في الساعة الأولى بعد الإصدار، ثم اتجهت حسب المفاجأة. قبل الإصدار (آخر 12 ساعة): indices في نطاق ضيق (<0.5%) – **اليوم نفس النمط**. لا نتاجر indices حتى بعد Nvidia بـ2 ساعة.
+
+**Chairman:**
+أشكر الجميع. **الوقائع**: CPI أسترالي مطابق، AUD لم يتحرك، إيران تهدئة مستمرة، oil يهبط، أسواق ميتة تنتظر Nvidia/PCE. **القرار**: 1) نرفع risk_mode إلى **normal** (caution كان للـCPI، انتهى بلا صدمة). 2) risk_mult إلى **0.8** (نرفعه من 0.7 لأن الخطر زال). 3) OIL bias إلى **-0.3** (Historian + Oil Trader مقنعان: fade مستمر). 4) باقي biases ثابتة (EUR 0.2, CAD -0.2, الباقي 0.0). 5) allow_books ثابت (SWING,COUNCIL,SHOCK,REVERT). 6) conf=0.45 (نرفعه قليلاً: EUR/OIL واضحان، لكن 24h scorecard ضعيف فلا نتجاوز 0.5).
+
+---
+
+## Psyche
+
+**Awareness:** fired=yes. قارنت مع PREVIOUS: كنا caution 0.7x منذ ساعة بسبب CPI، الآن CPI انتهى بلا مفاجأة والسوق ثابت – **العودة لـnormal منطقية، لا flip-flop**. DECISION MEMORY: آخر 8 قرارات كلها normal/caution 0.7-0.8x، biases صغيرة (0.0-0.2) – **نحن متسقون**. LESSONS: "8 خسائر من 10 لـBREAKOUT/INTRADAY في أسواق راكدة" – أزلناهما بالأمس، **قرار صحيح ومطبّق**. SCORECARD: 24h hit rate 51% – **دقتنا ضعيفة على المدى الطويل، يجب أن نبقى محافظين** (conf<=0.5). لا تناقضات.
+
+**Greed:** fired=no. معظم biases عند 0.0، اثنان فقط غير صفر (EUR 0.2, CAD -0.2, OIL -0.3)، conf=0.45، risk_mult=0.8 – **لا ثقة مفرطة**. لا لغة "easy money". متوازن.
+
+**Fear:** fired=yes. كنا في caution منذ ساعة بسبب CPI، لكن CPI انتهى بلا حدث والسوق لم يتحرك – **الخوف كان مبالغاً فيه**. Chairman يعيدنا لـnormal بحق: لا صدمة، لا تقلب، لا خطر حالي. الحذر الزائد يجوّع الروبوتات.
+
+**Prudence:** fired=yes. OIL bias -0.3 (|bias|<0.7) مدعوم بمصدرين (Reuters Hormuz talks + Anadolu "easing geopolitical risk") + Market Historian (نمط fade التاريخي) – **يستوفي الشرط**. EUR 0.2 مدعوم بـReuters ECB sources + German Ifo – **يستوفي**. لا مبالغات.
+
+**Intuition:** fired=no. لا حدس اليوم – الأسواق واضحة (ميتة تنتظر Nvidia/PCE)، لا غموض يستدعي الحدس.
+
+---
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.8
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.2
+bias_GBP=0.0
+bias_JPY=0.0
+bias_AUD=0.0
+bias_NZD=0.0
+bias_CAD=-0.2
+bias_CHF=0.0
+bias_XAU=0.0
+bias_XAG=0.0
+bias_OIL=-0.3
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.45
+allow_books=SWING,COUNCIL,SHOCK,REVERT
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=AUD CPI matched forecasts (no move); Iran de-escalation continues (oil -2%); raised OIL to -0.3 (fade war premium); back to normal 0.8x; await Nvidia 19h, PCE 22h
+summary_ar=CPI أسترالي طابق التوقعات (لا حركة)؛ تهدئة إيران مستمرة (نفط -2%)؛ رفعنا OIL لـ-0.3 (تلاشي علاوة حرب)؛ عودة لـnormal 0.8x؛ ننتظر Nvidia 19 ساعة، PCE 22 ساعة
+mind=calm
+psyche_flags=awareness,fear,prudence
+intuition=none
