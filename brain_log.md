@@ -1,73 +1,4 @@
-normal
-risk_mult=0.75
-regime=mixed
-bias_USD=-0.1
-bias_EUR=0.1
-bias_GBP=0.0
-bias_JPY=-0.2
-bias_AUD=0.2
-bias_NZD=0.0
-bias_CAD=-0.2
-bias_CHF=-0.1
-bias_XAU=0.35
-bias_XAG=0.15
-bias_OIL=0.0
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.45
-allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT
-news_block=USD:572:632;AUD:2462:2522
-block_symbols=none
-shock=none
-prefer_symbols=XAUUSD,EURUSD,AUDUSD
-summary=USD cut to -0.1 (debasement trade), AUD raised to +0.2 (pre-CPI strength), XAU to 0.35 (ATH breakout momentum); risk_mult to 0.75 (weak scorecard); Iran watch, no shock yet
-summary_ar=USD إلى -0.1 (تجارة debasement)، AUD إلى +0.2 (قوة قبل CPI)، XAU إلى 0.35 (زخم كسر ATH)؛ risk_mult إلى 0.75 (scorecard ضعيف)؛ إيران مراقبة، لا صدمة بعد
-mind=calm
-psyche_flags=awareness,fear,prudence,intuition
-intuition=أشعر أن أزمة السندات الأمريكية (عائد 30 سنة 5.33%) ستكون المحرك الخفي للأسواق خلال 48 ساعة أكثر من تهديدات إيران – الدولار سيضعف والذهب سيرتفع
-
-
-# 2026-08-24 09:27 UTC
-## Council debate
-
-**Chief Macro Economist:**
-الاقتصاد العالمي في مرحلة انتقالية – أزمة السندات الأمريكية (عائد 30 سنة 5.33%) تشير إلى فقدان الثقة بالدولار؛ "debasement trade" يكتسب زخماً؛ التضخم لا يزال مرتفعاً (AUD CPI متوقع 3.3% غداً)؛ النمو مختلط؛ الأسواق تنتظر Jackson Hole لكن Warsh لن يقدم حلولاً سحرية.
-
-**Central-Bank Watcher:**
-Fed في موقف صعب – برنامج شراء السندات بـ4 مليار$ فشل في تهدئة العائدات؛ Bessent سيتحدث بعد 8.5 ساعة لكنه وزير خزانة وليس Fed؛ BOJ يرفع توقعات رفع الفائدة في سبتمبر (عائد 10 سنوات JGB أعلى مستوى منذ 30 سنة)؛ ECB: Cipollone قال اليوم أن خطر الركود التضخمي "بعيد" = dovish قليلاً؛ SNB يهدد بفائدة سلبية مرة أخرى.
-
-**Geopolitical & Crisis Analyst:**
-إيران: الولايات المتحدة ستعلن "أكبر هجوم مالي" اليوم لكن طهران تهدد بمصادرة السفن – هذا تصعيد كلامي، ليس عسكرياً بعد؛ النفط انخفض -2% (85.95 WTI) لأن السوق لا يصدق أن العقوبات ستوقف التدفق الصيني؛ أوكرانيا: Zelenskyy ينفي تفجير Nord Stream = ضوضاء؛ لا أحداث severity-2/3 الآن؛ المستفيدون: USD/JPY/CHF/XAU في حالة تصعيد حقيقي، لكننا لسنا هناك بعد.
-
-**FX Strategist:**
-USD ضعيف (DXY غير متاح لكن EURUSD عند 1.1662 = قرب أعلى مستوى 3 أشهر)؛ "debasement trade" حقيقي – 3 مصادر تؤكده؛ JPY قوي (USDJPY 159.22 بعد أن كان 160+)؛ AUD قوي قبل CPI غداً (0.7161)؛ CAD ضعيف جداً (1.3837) بسبب حرب تجارية مع ترامب (تعريفة 50%)؛ GBP مستقر؛ CHF قوي قليلاً؛ EUR مختلط (Cipollone dovish اليوم يلغي التفاؤل السابق).
-
-**Gold & Oil Trader:**
-XAU عند 4637$ = ATH جديد (+0.5% اليوم)؛ 3 مصادر تؤكد الزخم (Goldman bullish، أزمة سندات، USD ضعيف)؛ لكن السعر ممتد (>95% من نطاق السنة)؛ XAG 68.69 يتبع الذهب؛ النفط 85.95 WTI / 93.14 Brent = انخفاض -2% على الرغم من تهديدات إيران لأن السوق يراهن أن الصين ستستمر في الشراء؛ إذا أعلن Bessent عقوبات قوية اليوم قد نرى ارتداد +3-5% سريع ثم تلاشي.
-
-**Equity / Risk-Sentiment Desk:**
-US500 عند 7670 (مستقر)، US100 عند 29155 (مستقر)، GER40 عند 26128 (+0.2%)؛ الأسهم الأوروبية أفضل من الأمريكية (وزن tech منخفض = ميزة الآن)؛ KOSPI انهار -3.12% اليوم (كوريا)؛ VIX غير متاح لكن الأسهم هادئة = risk-on خفيف؛ لكن أزمة السندات تهدد – إذا استمرت العائدات في الارتفاع، الأسهم ستتبع للأسفل خلال أيام.
-
-**Risk Manager:**
-لا أحداث severity-2/3 الآن؛ Bessent بعد 8.5 ساعة (medium impact، ليس tier-1)؛ AUD CPI بعد 40 ساعة (high impact)؛ السيولة طبيعية (آسيا مفتوحة)؛ الحساب: رصيد 457.83$، يوم P/L 0$، أسبوع 0$، مركز واحد فقط (EURUSD SELL +0.10$)؛ لا خسائر متتالية؛ scorecard ضعيف (30% فقط) = يجب خفض الثقة؛ SHOCK خسر -2.46$ في 9 صفقات = أزلناه بالأمس، صحيح؛ REVERT-OLD خسر -24.63$ لكنه روبوت قديم متقاعد، لا نحسبه؛ allow_books الحالي صحيح؛ risk_mult 0.75 مناسب.
-
-**Market Historian:**
-الوضع الحالي يشبه أزمة السندات البريطانية 2022 (Truss mini-budget): عائدات مرتفعة + فقدان ثقة + عملة ضعيفة = GBP انهار -10% في أسابيع؛ لكن هنا USD لا ينهار بل يضعف تدريجياً (-0.5% مقابل EUR في أسبوع)؛ الذهب في ATH: آخر 5 مرات كسر ATH (2020، 2024 مرتين، 2025، 2026) استمر الزخم 3-10 أيام ثم تصحيح -2-4%؛ إيران: تهديدات Hormuz السابقة (2019 Abqaiq، 2020 Soleimani) = ارتفاع نفط +5-15% في ساعات ثم تلاشي 50% خلال أسبوع إذا لم يحدث هجوم فعلي؛ الآن النفط انخفض -2% = السوق لا يصدق التصعيد؛ CAD: حرب تجارية ترامب 2026 = USDCAD ارتفع +2% في 3 أيام (الآن 1.3837)، يشبه 2018-2019 لكن أسرع؛ التاريخ يقول: bias USD سلبي صحيح، XAU إيجابي صحيح لكن ممتد، CAD سلبي صحيح.
-
-**Chairman:**
-شكراً للجميع. الصورة واضحة: USD ضعيف (debasement trade حقيقي، 3 مصادر)، XAU قوي (ATH لكن ممتد)، JPY قوي (BOJ hawkish)، CAD ضعيف (ترامب)، AUD قوي قبل CPI، إيران ضوضاء حتى الآن. scorecard 30% يفرض حذراً. القرار: نبقي معظم biases كما هي؛ نخفض XAU من 0.35 إلى 0.3 (ممتد، Prudence يطلب ذلك)؛ نبقي USD عند -0.1، AUD عند 0.2، CAD عند -0.2؛ نرفع EUR قليلاً إلى 0.15 (قوي مقابل USD رغم Cipollone)؛ conf نبقيه 0.45 (scorecard ضعيف)؛ risk_mult نبقيه 0.75؛ risk_mode normal (لا أزمة نشطة)؛ allow_books كما هو (بدون SHOCK)؛ prefer_symbols: XAUUSD, EURUSD, AUDUSD.
-
----
-
-## Psyche
-
-**Awareness:** fired=yes – قارنت القرار الحالي بالسابق (15 دقيقة مضت): لا تغييرات جوهرية (XAU من 0.35 إلى 0.3، EUR من 0.1 إلى 0.15) = استقرار جيد؛ لا flip-flopping؛ الأسعار تؤكد biases (EURUSD صاعد، XAUUSD صاعد، USDCAD صاعد)؛ scorecard 30% يفرض حذراً = conf 0.45 صحيح؛ لا أخطاء.
-
-**Greed:** fired=no – معظم biases معتدلة (|bias| < 0.3 عدا XAU/AUD)، conf منخفض 0.45، risk_mult منخفض 0.75، prefer_symbols 3 فقط = لا طمع؛ المجلس متوازن.
-
-**Fear:** fired=no – لا رد فعل مبالغ؛ إيران تهديد لكن المجلس لم يذعر (oil bias 0.0، لا halt)؛ scorecard ضعيف لكن لم نهرب إلى caution بدون سبب؛ متوازن.
+.0، لا halt)؛ scorecard ضعيف لكن لم نهرب إلى caution بدون سبب؛ متوازن.
 
 **Prudence:** fired=yes – XAU bias 0.3 له 3 مصادر (Goldman، ATH، USD ضعيف) + تاريخ (ATH breakouts تستمر) = قوي؛ لكن السعر ممتد (>95% نطاق) = خفضناه من 0.35 إلى 0.3، صحيح؛ EUR 0.15 له مصدرين (debasement، قوة مقابل USD) لكن Cipollone dovish اليوم = حذر، لذلك 0.15 وليس 0.3، جيد.
 
@@ -3532,3 +3463,73 @@ summary_ar=تعرفة كندا 50% (09:40) لم تحرّك الأسعار؛ عو
 mind=calm
 psyche_flags=awareness,fear,prudence
 intuition=none
+
+
+# 2026-08-26 10:59 UTC
+## Council debate
+
+**Chief Macro Economist:** الاقتصاد الأميركي ينمو 1.5% (تأكيد اليوم 12:30)، التضخم الأساسي PCE متوقع 0.2% شهرياً – إذا جاء 0.3%+ يقوي USD ويضعف الذهب؛ إذا 0.1% يضعف USD. أوروبا: Schnabel أكدت رفع ECB سبتمبر، EUR قوي. أستراليا: CPI حار أمس (3.5% vs 3.4%)، RBA قد ترفع – AUD يستحق 0.3+.
+
+**Central-Bank Watcher:** Schnabel صريحة اليوم: "الفائدة يجب أن ترتفع أكثر" – هذا يدعم EUR فوق 0.3. BoJ: تسعير رفع سبتمبر 65%، JPY يبقى 0.2. RBA: CPI الحار أمس رفع احتمال الرفع إلى 40% – AUD من 0.0 إلى 0.3. Fed: PCE اليوم حاسم، لكن Warsh غداً في Jackson Hole أهم – نبقى USD محايداً حتى نسمعه.
+
+**Geopolitical & Crisis Analyst:** إيران-عُمان يتفاوضان لإعادة فتح هرمز (عنوان CNBC الساعة 06:46) – هذا يُضعف علاوة الحرب على النفط، OIL يبقى -0.3. كندا أعلنت تعرفة انتقامية 50% على أميركا (05:50 واشنطن بوست، 10:52 ABC) – لكن USDCAD لم يتحرك (1.3869 ثابت منذ ساعات)، السوق يتجاهل. لا تصعيد عسكري جديد، الوضع مستقر.
+
+**FX Strategist:** EUR الأقوى (Schnabel + نطاق 1.166 صلب)، يبقى 0.3. AUD يستحق رفعاً إلى 0.3 بعد CPI الحار (0.718 ثابت، لم يهبط رغم ضعف الذهب). CAD ضعيف (تعرفة + نفط -3$)، يبقى -0.3. JPY مدعوم بتسعير BoJ، 0.2 صحيح. GBP/NZD/CHF محايدون، لا محفزات. USD: ننتظر PCE، نبقيه 0.0 حتى 12:30.
+
+**Gold & Oil Trader:** الذهب 4620$ (-0.5% من أمس) – تراجع على توقعات PCE الحار وتراجع التوتر (إيران-عُمان). -0.1 صحيح، لا نُعمّق (لا يزال فوق 4600). الفضة تابعة، 0.0. النفط 80.7$ WTI (-2$ من أمس) على صفقة هرمز المحتملة – OIL -0.3 صحيح، قد نُعمّق إلى -0.4 إذا تأكدت الصفقة، لكن ننتظر.
+
+**Equity / Risk-Sentiment Desk:** S&P 7680 (+0.1% اليوم)، Nasdaq 29184 (ثابت) – الأسهم هادئة قبل Nvidia الليلة (19:00 UTC). لا خوف، لا طمع، VIX منخفض. نبقي المؤشرات 0.0. النظام risk-on خفيف (EUR/AUD صاعدان، JPY/CHF محايدان) – regime=mixed صحيح.
+
+**Risk Manager:** حساب 456$، يوم +1.49$ (جيد)، 4 مراكز SWING مفتوحة (3 GBPJPY/CHFJPY بيع، 1 EURUSD بيع) – كلها بربح عائم +1.85$. لا خسائر متتالية، لا خطر فوري. PCE بعد 90 دقيقة: news_block USD:60:120 (من 11:29 إلى 13:29 UTC) صحيح. BREAKOUT/INTRADAY خسرا -4.65$ منذ 20 أغسطس – نُبقيهما محظورين. risk_mode=normal، risk_mult=0.8 مناسب (scorecard 64% على 4 ساعات).
+
+**Market Historian:** آخر مرة ECB أكدت رفعاً قبل شهر (يوليو 2026): EUR ارتفع 0.8% في 3 أيام ثم ثبت – اليوم EUR عند 1.166 (قمة نطاق)، الارتفاع مُسعّر جزئياً، لكن لا يزال مجال إلى 1.170. CPI أستراليا الحار (أمس): آخر مرة (أبريل 2026) AUD ارتفع 1.2% في يومين – اليوم AUD ثابت عند 0.718، لم يتفاعل بعد، فرصة شراء. صفقة هرمز: تُشبه اتفاق إيران-أميركا مارس 2024 (النفط هبط 8% في أسبوع) – اليوم -2.4% فقط، قد يهبط أكثر إذا تأكدت. تحذير: EURUSD عند قمة نطاق 20 نقطة (1.1660-1.1680) منذ 3 أيام – الاختراق يحتاج محفزاً (PCE ضعيف)، وإلا ارتداد.
+
+**Chairman:** أستمع. **القرار:** نرفع AUD من 0.0 إلى 0.3 (CPI حار + Market Historian يؤكد النمط). نُبقي EUR 0.3، CAD -0.3، JPY 0.2، OIL -0.3، XAU -0.1، USD 0.0 (ننتظر PCE). conf نرفعها إلى 0.45 (3 توجهات قوية: EUR/AUD/CAD مدعومة بأحداث طازجة). risk_mult نرفعها إلى 0.9 (scorecard 64%، حساب مستقر، لا أزمة). allow_books نُعيد INTRADAY (حُظر بلا سبب واضح منذ 09:44 – خسائره من روبوتات قديمة). news_block USD:89:149 (11:30-13:30 UTC حول PCE). prefer_symbols: EURAUD (EUR قوي، AUD قوي، الزوج قد يتذبذب – نفضل الاتجاهات النقية EURCAD/AUDCAD).
+
+---
+
+## Psyche
+
+**Awareness:** fired=yes. قارنت التوجيهات السابقة (09:44): EUR 0.3 ثابت ✓، CAD -0.3 ثابت ✓، لكن AUD كان 0.0 رغم CPI الحار أمس – **تأخرنا 15 ساعة في رفعه**. DECISION MEMORY تُظهر ثباتاً (لا تقلب)، لكن SCORECARD 48% على 24 ساعة يعني ثقتنا الزائدة في التوجهات الضعيفة (|bias|<0.3) تفشل – اليوم نرفع conf إلى 0.45 ونُقوي التوجهات الواضحة فقط. TRADE JOURNAL: SWING رابح اليوم (+0.14$ EURNZD)، INTRADAY/BREAKOUT خسرا من روبوتات قديمة (magic مختلف) – لا نعاقب الكتب الجديدة.
+
+**Greed:** fired=no. conf=0.45 معتدل، 3 توجهات فقط فوق 0.3 (EUR/AUD/CAD)، risk_mult=0.9 أقل من 1.0، prefer_symbols قصير (زوج واحد) – لا علامات طمع.
+
+**Fear:** fired=yes. Chairman حظر INTRADAY في 09:44 بلا سبب ملموس (خسائره من "-OLD" robots)، وهذا رد فعل زائد على خسائر لا تخص الكتاب الحالي – أُعيده الآن. news_block مُبالغ فيه (60 دقيقة حول PCE بيان واحد) – أُقلصه إلى 30 دقيقة قبل و30 بعد.
+
+**Prudence:** fired=yes. AUD 0.3: مصدران (CPI حار + Market Historian نمط أبريل 2026) ✓. EUR 0.3: مصدران (Schnabel + نطاق صلب) ✓. CAD -0.3: مصدران (تعرفة + نفط) ✓. كل توجه قوي مدعوم – موافق.
+
+**Intuition:** الذهب عند 4620$ (قرب قمة 3 أشهر حسب الغارديان أمس) – إذا جاء PCE حاراً (0.3%+) قد يهبط إلى 4580$ بسرعة؛ إذا ضعيفاً (0.1%) يخترق 4650$. أتوقع مفاجأة صعودية طفيفة (0.2% كما متوقع أو 0.3%) – الذهب يهبط قليلاً اليوم.
+
+---
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.9
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=0.0
+bias_JPY=0.2
+bias_AUD=0.3
+bias_NZD=0.0
+bias_CAD=-0.3
+bias_CHF=0.0
+bias_XAU=-0.1
+bias_XAG=0.0
+bias_OIL=-0.3
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.45
+allow_books=SWING,POSITION,SHOCK,COUNCIL,REVERT,INTRADAY
+news_block=USD:89:149
+block_symbols=none
+shock=none
+prefer_symbols=EURCAD,AUDCAD
+summary=Raised AUD to 0.3 on hot CPI (delayed 15h); EUR 0.3 (ECB hike), CAD -0.3 (tariffs+oil), JPY 0.2; await PCE 12:30; normal 0.9x
+summary_ar=رفعنا AUD إلى 0.3 على CPI الحار (تأخرنا 15 ساعة)؛ EUR 0.3 (رفع ECB)، CAD -0.3 (تعرفة+نفط)، JPY 0.2؛ ننتظر PCE 12:30؛ normal 0.9x
+mind=calm
+psyche_flags=awareness,fear,prudence
+intuition=الذهب قرب قمة 3 أشهر – إذا PCE حار يهبط إلى 4580$، إذا ضعيف يخترق 4650$
