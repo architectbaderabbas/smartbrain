@@ -1327,3 +1327,4 @@
 - 2026-08-26 21:44 UTC · heartbeat · ALERT sev2: Oil prices cross $100/bbl amid Iran war escalation; UK energy exposure warning signals systemic risk -> protocol applied, council convening
 - 2026-08-26 21:44 UTC · FULL COUNCIL triggered: ALERT sev2: Oil prices cross $100/bbl amid Iran war escalation; UK energy exposure warning signals systemic risk
 - 2026-08-26 21:59 UTC · heartbeat · quiet (sev0)
+- 2026-08-26 22:15 UTC · heartbeat · quiet (sev0)
