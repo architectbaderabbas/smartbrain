@@ -1,109 +1,4 @@
-ة)، prefer_symbols ثلاثة فقط، لا لغة "فلوس سهلة". risk_mult ثابت عند 0.75 (أقل من 1.0). لا جشع.
-
-**Fear:** fired=no. لا رد فعل زائد على عنوان واحد، لا انهيار biases بعد خسارة (اليوم -0.7$ فقط = عادي). risk_mode لا يزال normal (صحيح، لا أزمة نشطة). متوازن.
-
-**Prudence:** fired=yes. XAU bias=0.25 (قوي لكن ليس >=0.7)، لكن عندنا مصدرين فقط (Goldman + ATH breakout)، والمؤرخ حذّر من تصحيح بعد +3%. نخفضه لـ0.25 بدل 0.3 = حكيم. JPY bias=-0.2 عندها مصدرين (BoJ bets + JGB yield)، تمام. كل call قوي عنده analog تاريخي. جيد.
-
-**Intuition:** fired=no. لا حدس قوي اليوم. السوق واضح: انتظار أحداث غداً (Warsh, Nvidia, AUD CPI بعد غد). الحدس يقول: إيران ستفعل شيئاً صغيراً (مضايقة سفينة؟) خلال 48 ساعة لإظهار قوة بعد العقوبات، لكن ليس إغلاق هرمز. لا نغير أرقام.
-
-**Mental state:** calm. لا جشع، لا خوف، قرارات مبنية على أدلة، تعديلات صغيرة منطقية.
-
-## DIRECTIVES
-
-risk_mode=normal
-risk_mult=0.75
-regime=mixed
-bias_USD=-0.1
-bias_EUR=0.15
-bias_GBP=0.0
-bias_JPY=-0.2
-bias_AUD=0.1
-bias_NZD=0.0
-bias_CAD=-0.2
-bias_CHF=-0.1
-bias_XAU=0.25
-bias_XAG=0.15
-bias_OIL=0.0
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.45
-allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT
-news_block=USD:437:497;AUD:2327:2387
-block_symbols=none
-shock=none
-prefer_symbols=EURUSD,USDJPY,XAUUSD
-summary=XAU trimmed to 0.25 (extended after +3% rally), AUD cut to 0.1 (CPI 38h away), JPY held at -0.2 (BoJ hike bets strong); await Warsh/Nvidia tomorrow; normal 0.75x
-summary_ar=XAU إلى 0.25 (ممتد بعد +3%)، AUD إلى 0.1 (CPI بعد 38 ساعة)، JPY ثابت -0.2 (رهانات BoJ قوية)؛ ننتظر Warsh وNvidia غداً؛ عادي 0.75x
-mind=calm
-psyche_flags
-
-
-# 2026-08-24 11:42 UTC
-## Council debate
-
-**Chief Macro Economist:**
-الاقتصاد الأميركي يواجه أزمة سندات (yields مرتفعة رغم تدخل Bessent)؛ أوروبا تعاني موجة حر تضرب النمو؛ أستراليا CPI غداً (توقعات 3.3% vs 3.8% سابق) قد يدعم AUD إذا جاء أعلى؛ النمو العالمي مختلط.
-
-**Central-Bank Watcher:**
-Fed: Warsh يتكلم في Jackson Hole غداً (stakes عالية، bond market قلق)؛ BoJ: رهانات سبتمبر hike قوية (JGB yields أعلى مستوى منذ 30 سنة)؛ ECB: Cipollone قال خطر الركود منخفض لكن لا إشارات hike جديدة؛ SNB: تهديد sub-zero قديم (23 أغسطس)، لا جديد اليوم.
-
-**Geopolitical & Crisis Analyst:**
-أميركا تهدد بأقسى عقوبات على إيران (headlines جديدة منذ ساعة)؛ إيران: سياسيون يطالبون بإنهاء الحرب؛ كندا-أميركا: حرب تجارية تتصاعد (CAD ينهار)؛ UK: هجوم سيبراني مرتبط بإيران على قطاع الطاقة؛ خطر severity-2 (عقوبات إيران قد تصدم النفط).
-
-**FX Strategist:**
-USD ضعيف (debasement trade مستمر، yields تنخفض اليوم لكن لا تزال مرتفعة)؛ EUR قوي نسبياً (+0.15 منطقي)؛ GBP محايد؛ JPY: تدخل أميركا-اليابان لدعم الين (headline منذ 2.5 ساعة) + رهانات BoJ = JPY يجب أن يقوى (bias -0.2 صحيح)؛ AUD: قوة ما قبل CPI لكن الحدث بعد 37 ساعة (0.1 معقول)؛ CAD: حرب تجارية تدمره (يجب رفع bias السلبي إلى -0.3 أو -0.4).
-
-**Gold & Oil Trader:**
-XAU عند 4660 (ATH جديد، +0.8% اليوم)؛ momentum قوي لكن ممتد (0.25 bias حذر ومنطقي)؛ XAG يتبع عند 69.3؛ النفط: 85.6 WTI، 92.8 Brent؛ عقوبات إيران "الأقسى" قادمة لكن لا توقيت محدد؛ السوق ينتظر (0.0 bias صحيح الآن، لكن إذا أُعلنت العقوبات فعلياً = صدمة صعودية).
-
-**Equity / Risk-Sentiment Desk:**
-US500 عند 7675 (مستقر)؛ bond market anxiety يضغط على المعنويات؛ Nvidia earnings غداً (خطر كبير)؛ أوروبا مستقرة؛ KOSPI انهار -3.12% (كوريا)؛ risk-off خفيف، ليس panic؛ regime=mixed صحيح.
-
-**Risk Manager:**
-4 مراكز مفتوحة (EURUSD SELL، NZDJPY/NZDUSD/EURNZD من INTRADAY)؛ day P/L -2.77$ (-0.6%)؛ لا emergency؛ scorecard ضعيف (31-35%)؛ SHOCK خسر -2.46$ في 9 صفقات (removed صحيح)؛ REVERT-OLD خسر -24$ (متقاعد، لا يُحسب)؛ allow_books حالياً بدون SHOCK = صحيح؛ Bessent speech بعد 6.3 ساعة (medium impact) = news_block؛ لا حاجة لـhalt، normal 0.75x مناسب.
-
-**Market Historian:**
-عقوبات إيران السابقة (2018-2019): النفط ارتفع 10-15% في أسابيع؛ لكن هذه المرة السوق ينتظر التفاصيل (0.0 bias صحيح حتى الإعلان الفعلي)؛ تدخل USD/JPY (اليوم): آخر مرة (2022-2024) الين قفز 3-5 big figures ثم تلاشى في أسابيع؛ اليوم headline "US-Japan shore up yen" منذ 2.5 ساعة لكن USDJPY عند 159 (لا حركة كبيرة) = تدخل لفظي فقط، ليس فعلي؛ XAU عند ATH: آخر 5 مرات كسر ATH استمر 55-60% لكن بعد +3% rally في أيام عادةً يأتي تصحيح 1-2%؛ CAD في حرب تجارية: 2018 NAFTA renegotiation أسقط CAD 4% في شهرين؛ الآن -0.2 bias ضعيف، يجب -0.3 على الأقل.
-
-**Chairman:**
-الأدلة: (1) عقوبات إيران قادمة (fresh، severity-2 potential) لكن لا توقيت = نراقب، لا shock الآن؛ (2) CAD ينهار (3 مصادر: CNBC، Bloomberg، Globe) = يجب رفع bias السلبي؛ (3) JPY: تدخل لفظي + BoJ bets = -0.2 صحيح؛ (4) XAU ممتد لكن momentum قوي = نبقي 0.25؛ (5) scorecard 31-35% = conf يبقى 0.45، risk_mult 0.75؛ (6) Bessent بعد 6h = news_block. القرار: CAD إلى -0.3، باقي التوجهات ثابتة، نراقب إيران.
-
-## Psyche
-
-**Awareness:** fired=yes — قارنت آخر 8 قرارات: XAU تذبذب 0.0→0.2→0.35→0.25→0.35→0.3→0.25 في 8 ساعات بدون حقائق جديدة (flip-flopping)؛ CAD ثابت عند -0.2 رغم 3 headlines جديدة عن انهياره (stubbornness)؛ أوصي: تجميد XAU عند 0.25، رفع CAD إلى -0.3 أو -0.4.
-
-**Greed:** fired=no — لا ثقة عالية (conf=0.45)، التوجهات متنوعة، prefer_symbols قصير؛ لا علامات طمع.
-
-**Fear:** fired=no — لا over-reaction لخسائر (-2.77$ ضمن الحد)، لا انهيار توجهات بدون سبب؛ متوازن.
-
-**Prudence:** fired=yes — CAD bias -0.3 مدعوم بـ3 مصادر + Market Historian analog (2018 NAFTA) = قوي؛ لكن رفع أي bias فوق 0.5 بدون حدث جديد = ممنوع؛ كل التوجهات ≤0.35 = حذر ومقبول.
-
-**Intuition:** fired=yes — أشعر أن عقوبات إيران ستُعلن خلال 24-48 ساعة (لا دليل)؛ إذا حدث: OIL سيقفز +5% في ساعات؛ لكن لا أغير الأرقام الآن.
-
-## DIRECTIVES
-
-risk_mode=normal
-risk_mult=0.75
-regime=mixed
-bias_USD=-0.1
-bias_EUR=0.15
-bias_GBP=0.0
-bias_JPY=-0.2
-bias_AUD=0.1
-bias_NZD=0.0
-bias_CAD=-0.3
-bias_CHF=-0.1
-bias_XAU=0.25
-bias_XAG=0.15
-bias_OIL=0.0
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.45
-allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT
+ks=INTRADAY,SWING,POSITION,COUNCIL,REVERT
 news_block=USD:377:437;AUD:2267:2327
 block_symbols=none
 shock=none
@@ -3533,3 +3428,73 @@ summary_ar=أزلنا BREAKOUT/INTRADAY (خاسران في أسواق ميتة)�
 mind=calm
 psyche_flags=awareness,fear,prudence,intuition
 intuition=إذا PCE جاء 0.1% (أقل من توقعات)، USD ينهار 0.5% في 15 دقيقة و ذهب يخترق 4650$ – لكن هذا سيناريو 30% احتمال فقط
+
+
+# 2026-08-26 12:59 UTC
+## Council debate
+
+**Chief Macro Economist:** PCE صدر قبل 29 دقيقة: Core PCE m/m فعلي غير متاح بعد، لكن GDP q/q ثابت 1.5% كما متوقع – نمو ضعيف، تضخم مستمر. لا مفاجأة = لا تحرك. الأسواق ميتة: EURUSD تحرك 0.7 نقطة في 12 ساعة، US500 في نطاق 7680-7695 منذ يومين. Jackson Hole بعد 27 ساعة هو المحرك الحقيقي، Warsh سيحدد مسار Fed – الآن فراغ تام.
+
+**Central-Bank Watcher:** ECB Schnabel أكدت صباحاً "الفائدة يجب أن ترتفع أكثر" – هذا يدعم EUR 0.3. BoJ تدخل محتمل فوق 160 يدعم JPY 0.2. RBA الآن 70% احتمال رفع سبتمبر بعد CPI الحار أمس – AUD 0.3 صحيح. Fed: PCE بلا مفاجأة = لا تغيير، Warsh غداً هو الحدث. USD محايد صحيح.
+
+**Geopolitical & Crisis Analyst:** إيران-عُمان يتفاوضان لفتح هرمز (CNBC 06:46) – حرب الخليج تهدأ، علاوة الحرب تتلاشى. OIL -0.3 صحيح: Brent 87.37 (هبط من 92+)، WTI 81.12. كندا رفعت التعرفة 50% على أمريكا (09:40) لكن السعر لم يتحرك – الأسواق تجاهلت. لا أزمة نشطة الآن، كل شيء في انتظار.
+
+**FX Strategist:** EURUSD ثابت 1.1657 (نطاق 1.165-1.167 منذ 48 ساعة)، USDJPY 159.22 (قرب خط تدخل BoJ 160)، AUDUSD 0.7177 (ارتفع من 0.715 بعد CPI). التوجهات الحالية صحيحة: EUR 0.3، AUD 0.3، JPY 0.2، CAD -0.3 (تعرفة+نفط)، USD 0.0. لكن **لا حركة فعلية**: كل زوج في نطاق 20 نقطة. AUDCAD هو الأنظف (AUD صاعد، CAD هابط) – نبقيه في prefer_symbols.
+
+**Gold & Oil Trader:** XAU 4615$ (هبط من 4700$ صباحاً بعد بيانات أمريكا)، XAG 68.36. ذهب فقد علاوة الحرب مع أخبار هرمز – bias -0.1 صحيح. OIL: Brent 87.37، WTI 81.12 – هبطا 5% في 3 أيام على اتفاق إيران-عُمان. OIL -0.3 صحيح، لكن الهبوط امتد 3 أيام – احذر الارتداد الفني قرب 80$.
+
+**Equity / Risk-Sentiment Desk:** US500 7673 (نطاق 7680-7695)، US100 29105، GER40 26385 – كلها مسطحة. VIX منخفض، لا خوف. Nvidia earnings الليلة (18 ساعة) هي المحرك التالي للمؤشرات. الآن: risk-on خامل، لا risk-off. regime=mixed صحيح، bias 0.0 على المؤشرات صحيح.
+
+**Risk Manager:** PCE مر بلا صدمة، USD block انتهى. Jackson Hole غداً 27 ساعة – نضع news_block USD:1575:1695 (26-27 ساعة من الآن). حساب +1.99$ اليوم، أسبوع -0.95$ – مقبول. BREAKOUT/INTRADAY أُزيلا بالأمس (خسارة -4.65$ في أسواق ميتة) – قرار صحيح. SWING +0.14$ من صفقة واحدة، 4 مراكز مفتوحة (3 GBPJPY sell، 1 EURUSD sell، 1 CHFJPY sell) – كلها ضد JPY (صحيح مع bias 0.2). risk_mode=normal، risk_mult 0.9 مناسب – لا خطر نشط.
+
+**Market Historian:** **آخر مرة PCE جاء بلا مفاجأة (يوليو 2025)**: USD تحرك ±0.3% ثم عاد لنطاقه في 6 ساعات – اليوم نفس الشيء. **آخر مرة أسواق FX ماتت هكذا (نطاقات 20 نقطة لأيام)**: أغسطس 2024 قبل Jackson Hole – انفجرت بعد خطاب Powell بـ1.5% في يوم. **تاريخياً**: الأسواق تنام قبل Jackson Hole ثم تستيقظ عنيفة. **OIL هبط 5% في 3 أيام على أخبار سلام**: 2019 بعد Abqaiq ارتد +8% في يومين عند 80$ – الآن WTI 81$، احذر ارتداد فني. **AUDUSD بعد CPI حار**: 2023 ارتفع 0.8% في يومين – الآن +0.3% فقط، الحركة ضعيفة رغم البيانات القوية (علامة سوق ميت).
+
+**Chairman:** الصورة واضحة: **PCE مر بلا أثر، الأسواق في سبات عميق قبل Jackson Hole غداً**. التوجهات الحالية (EUR 0.3، AUD 0.3، JPY 0.2، CAD -0.3، OIL -0.3، XAU -0.1) **كلها صحيحة من حيث الأساسيات**، لكن **لا تنفيذ سعري** – كل أصل في نطاق ضيق. Market Historian محق: هذا نمط Jackson Hole الكلاسيكي. **القرار**: نبقي كل التوجهات بلا تغيير، نرفع conf قليلاً إلى 0.55 (الأساسيات واضحة رغم السوق الميت)، نبقي risk_mult 0.9، نضيف news_block لـJackson Hole غداً. **لا نغير شيئاً** – الروبوتات تنتظر تأكيد سعري، ونحن ننتظر Warsh. الصبر الآن أفضل من التاجر في الفراغ.
+
+---
+
+## Psyche
+
+**Awareness (fired=no):** قارنت التوجهات الحالية بالـ15 دقيقة الماضية – **لا تغيير على الإطلاق** (EUR 0.3، AUD 0.3، CAD -0.3، JPY 0.2، OIL -0.3، XAU -0.1). هذا **ثبات صحيح** لا جمود: PCE جاء بلا مفاجأة، لا حدث جديد منذ 11:59 UTC. DECISION MEMORY يظهر نفس التوجهات منذ 8 ساعات – المجلس متسق مع نفسه ومع الأسعار (EUR ثابت 1.166، AUD ثابت 0.717، OIL هابط). SCORECARD 61% على 4 ساعات يدعم conf 0.5-0.55. لا flip-flop، لا عناد – هادئ.
+
+**Greed (fired=no):** conf 0.55 معتدل، risk_mult 0.9 معتدل، 5 توجهات من 15 غير صفر، prefer_symbols واحد فقط (AUDCAD) – **لا علامات طمع**. المجلس يعترف بسوق ميت ويصبر – هذا حكمة لا خوف.
+
+**Fear (fired=no):** risk_mode=normal صحيح (لا أزمة نشطة، PCE مر، Jackson Hole بعد 27 ساعة)، لا halt، لا danger – **لا خوف زائد**. news_block لـJackson Hole احترازي معقول لا رد فعل مبالغ.
+
+**Prudence (fired=yes):** كل توجه |bias| >= 0.3 (EUR، AUD، CAD، OIL) له مصدران مستقلان + تاريخ: EUR (Schnabel + ECB minutes)، AUD (CPI + RBA odds)، CAD (تعرفة + OIL)، OIL (إيران-عُمان + CNOOC + أسعار فعلية). Market Historian أعطى أمثلة تاريخية لكل حالة. **الشروط مستوفاة** – لكن أحذر: **الأسعار لا تتحرك رغم الأساسيات الصحيحة** – هذا يعني السوق ينتظر محفز أكبر (Warsh غداً). conf 0.55 مناسب لهذا الوضع.
+
+**Intuition (fired=yes):** **إذا Warsh غداً أكد تشديد Fed أو رفع توقعات التضخم، USD ينفجر +1% في ساعة و AUDUSD ينهار من 0.72 إلى 0.71 رغم CPI الحار – لأن الأسواق ستعيد تسعير الفارق النقدي USD-AUD**. لكن إذا Warsh حمامي، USD ينهار و AUD يخترق 0.73. **الآن: الجميع ينتظر، لا أحد يراهن**.
+
+---
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.9
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=0.0
+bias_JPY=0.2
+bias_AUD=0.3
+bias_NZD=0.0
+bias_CAD=-0.3
+bias_CHF=0.0
+bias_XAU=-0.1
+bias_XAG=0.0
+bias_OIL=-0.3
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.55
+allow_books=SWING,POSITION,SHOCK,COUNCIL,REVERT
+news_block=USD:1575:1695
+block_symbols=none
+shock=none
+prefer_symbols=AUDCAD
+summary=PCE passed with no impact; markets frozen pre-Jackson Hole (27h); all biases unchanged (EUR/AUD 0.3, CAD/OIL -0.3, JPY 0.2); conf 0.55; normal 0.9x
+summary_ar=PCE مر بلا أثر؛ أسواق متجمدة قبل Jackson Hole (27 ساعة)؛ كل التوجهات ثابتة (EUR/AUD 0.3، CAD/OIL -0.3، JPY 0.2)؛ conf 0.55؛ normal 0.9x
+mind=calm
+psyche_flags=prudence,intuition
+intuition=إذا Warsh غداً شدد، USD ينفجر +1% و AUD ينهار رغم CPI الحار – الآن الجميع ينتظر، لا أحد يراهن
