@@ -1,5 +1,5 @@
 {
- "ts": 1787737483,
+ "ts": 1787737957,
  "council_ts": 1787737483,
  "directives": {
   "risk_mode": "normal",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "SWING,POSITION,SHOCK,COUNCIL,REVERT",
-  "news_block": "USD:121:181",
+  "news_block": "USD:114:174",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "EURCAD,USDCAD",
@@ -34,6 +34,7 @@
   "news_events": "USD:1787747400:Core_PCE_Price_Index_mm;USD:1787747400:Prelim_GDP_qq"
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787410918,
