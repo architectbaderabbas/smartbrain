@@ -1,5 +1,5 @@
 {
- "ts": 1787704051,
+ "ts": 1787704949,
  "council_ts": 1787704051,
  "directives": {
   "risk_mode": "normal",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "ALL",
-  "news_block": "AUD:33:93",
+  "news_block": "AUD:19:79",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
@@ -34,6 +34,7 @@
   "news_events": "AUD:1787707800:CPI_mm;AUD:1787707800:CPI_yy;AUD:1787707800:Trimmed_Mean_CPI_mm"
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787364610,
