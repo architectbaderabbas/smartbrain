@@ -3,13 +3,13 @@
  "overall_hit_rate%": {
   "4h": 62,
   "12h": 54,
-  "24h": 53
+  "24h": 52
  },
  "per_asset_hit_rate%": {
   "XAU": {
-   "4h": 47,
-   "12h": 27,
-   "24h": 67
+   "4h": 50,
+   "12h": 29,
+   "24h": 64
   },
   "CAD": {
    "4h": 65,
@@ -25,11 +25,16 @@
    "4h": 100,
    "12h": 0,
    "24h": null
+  },
+  "OIL": {
+   "4h": 0,
+   "12h": null,
+   "24h": null
   }
  },
  "by_mind_state%": {
-  "?": 44,
-  "calm": 59
+  "calm": 58,
+  "?": 47
  },
  "note": "hit = price moved in the direction of a bias with |bias|>=0.3 after the horizon; None = not enough data yet"
 }
