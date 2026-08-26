@@ -1,5 +1,5 @@
 {
- "ts": 1787745851,
+ "ts": 1787746473,
  "council_ts": 1787745570,
  "directives": {
   "risk_mode": "normal",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "SWING,POSITION,SHOCK,COUNCIL,REVERT",
-  "news_block": "USD:25:85",
+  "news_block": "USD:15:75",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "AUDCAD",
