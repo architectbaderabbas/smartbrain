@@ -1,83 +1,4 @@
-5)، ال biases متواضعة (أعلى واحد 0.25)، risk_mult 0.75 (أقل من 1.0). لا لغة "فرصة سهلة". لا جشع.
-
-**Fear:** fired=no. المجلس لم يبالغ في رد الفعل. Bessent حدث حقيقي (3 مصادر)، news_block منطقي. لا هلع.
-
-**Prudence:** fired=yes. CAD bias -0.4 له 3 مصادر مستقلة + Market Historian أكد (2018 analog). GBP 0.2 له سعر ATH + لا معارضة. XAU 0.25 له ATH + زخم لكن Market Historian حذّر من الامتداد (صحيح أن نبقيه 0.25 لا نرفع). كل ال strong calls مدعومة. موافق.
-
-**Intuition:** fired=yes. أشعر أن Bessent سيعلن عقوبات مالية (كما تسرب) لا نفطية – السوق سيبيع الخبر: النفط ينزل -1% إضافي، الذهب يثبت، USD يرتد +0.2% لساعتين ثم يستأنف الضعف. لا أغير أرقاماً، فقط حدس.
-
-## DIRECTIVES
-
-risk_mode=normal
-risk_mult=0.75
-regime=mixed
-bias_USD=-0.1
-bias_EUR=0.1
-bias_GBP=0.2
-bias_JPY=-0.2
-bias_AUD=0.0
-bias_NZD=0.0
-bias_CAD=-0.4
-bias_CHF=-0.1
-bias_XAU=0.25
-bias_XAG=0.15
-bias_OIL=0.0
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.45
-allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT
-news_block=USD:170:200;AUD:2078:2138
-block_symbols=none
-shock=none
-prefer_symbols=USDCAD,GBPUSD,USDJPY
-summary=All biases held; SHOCK removed (3 losses in range-bound markets); Bessent Iran sanctions in 3h (news_block added); normal 0.75x
-summary_ar=كل ال biases ثابتة؛ SHOCK محذوف (3 خسائر في أسواق راكدة)؛ عقوبات Bessent على إيران بعد 3 ساعات (news_block مضاف)؛ عادي 0.75x
-mind=calm
-psyche_flags=awareness,prudence,intuition
-intuition=أشعر أن Bessent سيعلن عقوبات مالية لا نفطية – السوق سيبيع الخبر: النفط ينزل، الذهب يثبت، USD يرتد مؤقتاً ثم يضعف
-
-
-# 2026-08-24 16:12 UTC
-## Council debate
-
-**Chief Macro Economist:**
-الدولار ضعيف (-0.1 صحيح): سوق السندات قلق، Bessent يعد بشراء تريليون لكن العوائد لا تستجيب. اليورو 0.1 معقول (تجارة الانحطاط)، الجنيه 0.2 قوي عند قمم 6 أشهر. لا تغيير مطلوب.
-
-**Central-Bank Watcher:**
-الين -0.2 دقيق: BoJ سيرفع في سبتمبر (الرهانات 75%)، لكن USDJPY عند 159 = تدخل BoJ قريب. الفرنك -0.1 صحيح (SNB مستعد للسلبية). لا تغيير.
-
-**Geopolitical & Crisis Analyst:**
-Bessent يعلن عقوبات إيران خلال 47 دقيقة – لكن الريال الإيراني انهار مسبقاً (قاع تاريخي)، السوق يعرف. هذا ليس مفاجأة = لا صدمة. النفط نزل -2% اليوم توقعاً للخبر. الذهب عند 4656 (قمة 3 أشهر) لكن لا محفز جديد الآن.
-
-**FX Strategist:**
-USDCAD عند 1.384 – الكندي ضعيف (-0.4 صحيح، ترامب يهدد بـ50% تعرفة). GBPUSD عند 1.363 (قمم 6 أشهر، 0.2 صحيح). USDJPY 159 = منطقة خطر تدخل. لا تغيير مطلوب.
-
-**Gold & Oil Trader:**
-الذهب 4656 (+3% في 3 أيام) – ممتد لكن الزخم قوي (Citi رفع الهدف لـ4800). 0.25 محافظ وصحيح. النفط 85.4 (نزل -2% اليوم) – عقوبات Bessent مسعّرة مسبقاً. 0.0 صحيح.
-
-**Equity / Risk-Sentiment Desk:**
-S&P 7671 ثابت، Nasdaq 29109 ثابت – السوق ينتظر Warsh غداً وNvidia. لا اتجاه اليوم. 0.0 للمؤشرات صحيح. نظام mixed معقول.
-
-**Risk Manager:**
-Bessent خلال 47 دقيقة – news_block USD:47:77 ضروري. daily loss -0.24% (آمن)، لكن INTRADAY خسر (-1.09$) = خسارة واحدة فقط، لا نحذفه. SHOCK محذوف صح (3 خسائر في أسواق راكدة). risk_mult 0.75 مناسب (scorecard 41%).
-
-**Market Historian:**
-عقوبات إيران السابقة (2018-2019): النفط ارتفع أولاً ثم تلاشى خلال أسبوعين (OPEC عوّض). اليوم النفط نزل -2% قبل الإعلان = السوق يبيع الخبر مسبقاً. الذهب في عقوبات 2019 ارتفع +8% في شهر (ملاذ آمن)، لكن اليوم الذهب عند قمة 3 أشهر = ممتد. التاريخ يقول: fade oil spike إن حدث، hold gold bias لكن لا ترفعه.
-
-**Chairman:**
-الإجماع: لا تغيير. Bessent خلال 47 دقيقة لكن السوق سعّر العقوبات (النفط نزل، الريال انهار). news_block USD:47:77 يحمينا. الذهب ممتد لكن الزخم قوي (0.25 يبقى). الكندي ضعيف (-0.4 صحيح). SHOCK يبقى محذوفاً. conf 0.45، risk_mult 0.75، normal.
-
-## Psyche
-
-**Awareness:** fired=no. القرار متطابق مع السابق (لا flip-flop). السجل: INTRADAY خسر مرة واحدة فقط (-1.09$)، other:0 ربح (+0.49$) = لا نمط فشل. Bessent مسعّر مسبقاً (النفط نزل -2%). قرار متسق.
-
-**Greed:** fired=no. الثقة 0.45 (معتدلة)، أقوى bias هو -0.4 (CAD) = لا تطرف. risk_mult 0.75 محافظ. لا علامات طمع.
-
-**Fear:** fired=no. لا رد فعل زائد. Bessent ليس صدمة (مسعّر مسبقاً)، news_block منطقي. لا انهيار biases بدون سبب. متوازن.
-
-**Prudence:** fired=yes. الذهب 0.25 عند قمة 3 أشهر – ممتد لكن مدعوم بمصدرين (Citi target 4800، bond anxiety). CAD -0.4 مدعوم بـ3 مصادر (ترامب، Bloomberg، FXStreet) + السعر يؤكد (1.384). كل bias قوي له دليل. موافق.
+قوي له دليل. موافق.
 
 **Intuition:** fired=yes. أشعر أن Bessent سيعلن عقوبات مالية (ثانوية) لا نفطية – السوق سيبيع الخبر: النفط ينزل أكثر، الذهب يثبت، USD يرتد 20 نقطة ثم يضعف خلال ساعتين.
 
@@ -3535,3 +3456,78 @@ summary_ar=النفط صُفّر (السعر استقر عند 83$)؛ EUR/AUD 0.
 mind=calm
 psyche_flags=intuition
 intuition=الأسواق تحبس أنفاسها – التقلب سينفجر خلال 12-24 ساعة، لكن الآن: صمت مطلق
+
+
+# 2026-08-26 19:14 UTC
+## Council debate
+
+**Chief Macro Economist:**
+الاختراق الإلكتروني الصيني (19:00 UTC) خطير على الثقة بالنظام المالي الأمريكي، لكن **لا تأثير سعري حتى الآن** (20 دقيقة مرّت): XAUUSD ثابت عند 4593، USDJPY عند 159.37، US500 عند 7694 – **الأسواق تجاهلت الخبر تماماً**. هذا ليس حدث severity-2؛ لا تعطّل في التداول، لا تدخّل طارئ من Fed. الخطر الحقيقي: Warsh غداً (42 ساعة) وNvidia بعد 3 ساعات.
+
+**Central-Bank Watcher:**
+Fed لم يُصدر أي بيان طوارئ بعد الاختراق – **إذا كان الأمر خطيراً، كانوا تكلّموا**. Warsh يتكلّم غداً 15:00 UTC عن yields والتضخّم؛ هذا المحرّك الوحيد للـ48 ساعة القادمة. ECB Schnabel أكّدت رفع الفائدة في سبتمبر – EUR 0.3 صحيح.
+
+**Geopolitical & Crisis Analyst:**
+الاختراق **ليس هجوماً عسكرياً ولا تعطيل بنية تحتية**؛ هذا تجسّس إلكتروني روتيني (يحدث كل شهر). الأسواق لا تتفاعل لأنه لا يُغيّر شيئاً الآن. Putin يُصعّد في أوكرانيا (15:51 UTC) لكن بلا تفاصيل – مجرّد عناوين. **لا حدث severity-2 حقيقي؛ danger mode خطأ**.
+
+**FX Strategist:**
+EUR قوي (ECB رافعة)، AUD قوي (CPI حار)، CAD ضعيف (تعرفة 50%)، JPY قوي (تدخّل BoJ محتمل) – **كل هذا ثابت منذ 6 ساعات**. الأسواق ميتة: EURUSD نطاق 1.1650-1.1655 (5 نقاط)، USDJPY 159.3-159.4 (10 نقاط). لا شيء يتحرّك.
+
+**Gold & Oil Trader:**
+XAU عند 4593 (ثابت منذ ساعتين)، OIL عند 82.5 (ثابت منذ 4 ساعات بعد صفقة Hormuz). **لا رد فعل على الاختراق = لا خطر حقيقي**. Gold لم يرتفع حتى دولار واحد.
+
+**Equity / Risk-Sentiment Desk:**
+US500 عند 7694، US100 عند 29286 – **صفر تحرّك منذ 3 ساعات**. VIX غير متوفّر لكن لو كان هناك خوف حقيقي، المؤشرات كانت هبطت. Nvidia earnings بعد 3 ساعات – **هذا المحرّك الوحيد الليلة**.
+
+**Risk Manager:**
+**danger mode خطأ فادح**: لا حدث severity-2 (لا تعطّل، لا تدخّل CB، لا انهيار سعري)، ولا سبب لـshock directive (USD لم يتحرّك). **Emergency Protocol يقول: severity-2 = danger؛ هذا ليس severity-2**. نعود إلى normal فوراً. الخطر الوحيد: Nvidia بعد 3 ساعات – نضع news_block USD:165:195 (22:00-22:30 UTC).
+
+**Market Historian:**
+**آخر مرّة حدث اختراق إلكتروني كبير بدون تأثير سعري**: SolarWinds 2020 (اكتُشف ديسمبر 2020) – الأسواق تجاهلته تماماً لأنه لم يُعطّل التداول. **آخر مرّة حدث اختراق Fed**: 2016 (SWIFT hack) – USD لم يتحرّك. **القاعدة التاريخية**: الأسواق تتفاعل مع التعطيل الفعلي لا مع الأخبار الأمنية. السعر الآن: XAUUSD 4593 (ثابت)، USDJPY 159.37 (ثابت) – **لا رد فعل = لا خطر**.
+
+**Chairman:**
+**danger mode ملغى فوراً؛ نعود إلى normal 0.8x**. الاختراق خبر أمني لا حدث سوقي؛ الأسعار لم تتحرّك 20 دقيقة = الأسواق حكمت أنه غير مادّي. shock directive ملغى (USD لم يرتفع). نُبقي biases كما هي (EUR/AUD 0.3، CAD -0.3، JPY 0.2) ونضيف news_block لـNvidia. conf 0.55 (ثقة معتدلة بالـbiases، لكن الأسواق ميتة).
+
+## Psyche
+
+**Awareness (fired=yes):** قارنتُ مع DECISION MEMORY: قبل 15 دقيقة وضعنا danger mode بسبب الاختراق، لكن **الأسعار لم تتحرّك إطلاقاً** (XAUUSD/USDJPY/US500 كلها ثابتة) – هذا **رد فعل مبالغ فيه بلا دليل سعري**. نُصحّح الآن.
+
+**Greed (fired=no):** لا علامات جشع؛ المجلس محافظ (conf 0.55، risk_mult 0.8، معظم biases 0.0-0.3).
+
+**Fear (fired=yes):** danger mode السابق كان **خوفاً من عنوان لا من حدث**: لا انهيار، لا تعطّل، لا تدخّل CB. نعود إلى التوازن (normal).
+
+**Prudence (fired=yes):** shock directive السابق على USD كان بلا دليل سعري (USD لم يرتفع) – ألغيناه. كل bias قوي الآن (EUR/AUD/CAD/JPY) له مصدران+ (ECB Schnabel، CPI أستراليا، تعرفة كندا، تدخّل BoJ محتمل).
+
+**Intuition (fired=no):** لا حدس جديد؛ الوضع واضح (أسواق ميتة تنتظر Nvidia/Warsh).
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.8
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=0.0
+bias_JPY=0.2
+bias_AUD=0.3
+bias_NZD=0.0
+bias_CAD=-0.3
+bias_CHF=0.0
+bias_XAU=0.0
+bias_XAG=0.0
+bias_OIL=0.0
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.55
+allow_books=ALL
+news_block=USD:165:195
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=Cancelled danger mode: cyberattack had zero price impact (XAU/JPY/SPX flat 20min); back to normal 0.8x; EUR/AUD 0.3, CAD -0.3, JPY 0.2; Nvidia block 22:00-22:30 UTC
+summary_ar=ألغينا وضع الخطر: الاختراق الإلكتروني بلا تأثير سعري (XAU/JPY/SPX ثابتة 20 دقيقة)؛ عودة إلى normal 0.8x؛ EUR/AUD 0.3، CAD -0.3، JPY 0.2؛ حظر Nvidia 22:00-22:30 UTC
+mind=calm
+psyche_flags=awareness,fear,prudence
+intuition=none

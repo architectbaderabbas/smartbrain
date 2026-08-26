@@ -1,11 +1,11 @@
 {
- "ts": 1787770774,
- "council_ts": 1787768078,
+ "ts": 1787771689,
+ "council_ts": 1787771689,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.8,
   "regime": "mixed",
-  "conf": 0.3,
+  "conf": 0.55,
   "bias_USD": 0.0,
   "bias_EUR": 0.3,
   "bias_GBP": 0.0,
@@ -22,25 +22,19 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "ALL",
-  "news_block": "none",
+  "news_block": "USD:165:195",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "intuition",
-  "intuition": "الأسواق تحبس أنفاسها – التقلب سينفجر خلال 12-24 ساعة، لكن الآن: صمت مطلق",
-  "summary": "Oil bias zeroed (price stabilized at $83); EUR/AUD 0.3, CAD -0.3, JPY 0.2 unchanged; markets frozen pre-Nvidia/Warsh; normal 0.8x, conf 0.3",
-  "summary_ar": "النفط صُفّر (السعر استقر عند 83$)؛ EUR/AUD 0.3، CAD -0.3، JPY 0.2 بلا تغيير؛ الأسواق متجمدة قبل Nvidia/Warsh؛ عادي 0.8x، ثقة 0.3",
+  "psyche_flags": "awareness,fear,prudence",
+  "intuition": "none",
+  "summary": "Cancelled danger mode: cyberattack had zero price impact (XAU/JPY/SPX flat 20min); back to normal 0.8x; EUR/AUD 0.3, CAD -0.3, JPY 0.2; Nvidia block 22:00-22:30 UTC",
+  "summary_ar": "ألغينا وضع الخطر: الاختراق الإلكتروني بلا تأثير سعري (XAU/JPY/SPX ثابتة 20 دقيقة)؛ عودة إلى normal 0.8x؛ EUR/AUD 0.3، CAD -0.3، JPY 0.2؛ حظر Nvidia 22:00-22:30 UTC",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
-  {
-   "ts": 1787456530,
-   "what": "British Power Plants shut down in Iranian cyber-attack; Iran security chief threatens 'earthquake-like' retaliation amid US pressure",
-   "sev": 2
-  },
   {
    "ts": 1787470932,
    "what": "Iran President declares 'full-scale war' status; threatens oil route blockade and regional escalation",
@@ -84,6 +78,11 @@
   {
    "ts": 1787752770,
    "what": "US Q2 GDP Deflator Revised Up to 6.4%; July Real Consumer Spending Stagnates—stagflation signal ahead of Jackson Hole",
+   "sev": 2
+  },
+  {
+   "ts": 1787771674,
+   "what": "Chinese state hackers breached DOJ, NASA, Federal Reserve, Senate systems (19:00 UTC)",
    "sev": 2
   }
  ]
