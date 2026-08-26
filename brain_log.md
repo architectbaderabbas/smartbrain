@@ -1,69 +1,4 @@
-حدث مجدول، ليس طارئ. EUR قوي (1.1674) على رهانات ECB متشددة، لكن النمو ضعيف. AUD ينتظر CPI بعد 42 ساعة (توقعات 3.3% vs 3.8%).
-
-**Central-Bank Watcher:**
-BOJ: رهانات رفع سبتمبر تدعم JPY (USDJPY 159.08 مستقر). ECB: Cipollone يقول "خطر الركود والتضخم الحاد بعيد" – إشارة حمائمية تضعف EUR، لكن السوق يراهن على تشدد (مصدران). Fed: Kashkari يدعم USD قليلاً. SNB تهديد سعر سلبي يضعف CHF. لا مفاجآت قريبة.
-
-**Geopolitical & Crisis Analyst:**
-إيران: Bessent يعلن "أكبر هجوم مالي" بعد 10.5 ساعة – مجدول منذ أمس، ليس طارئ. إيران تهدد بمصادرة سفن، لكن لا تصعيد عسكري جديد منذ 12 ساعة. أوكرانيا: Zelenskyy ينفي تفجير Nord Stream – لا تأثير على السوق. السعودية تتحدث عن تأمين حرب (تكاليف ارتفعت) – يدعم OIL قليلاً. الحدث الوحيد severity-2 كان أمس؛ اليوم لا يوجد تصعيد جديد يبرر danger mode.
-
-**FX Strategist:**
-USD ضعيف (DXY منخفض، EUR/GBP/AUD قرب قمم 3 أشهر) بسبب قلق السندات، ليس ضعف اقتصادي. EUR +0.2 صحيح (رهانات ECB)، لكن Cipollone حمائمي اليوم – خفض إلى +0.1. GBP مستقر 1.3644، لا محفزات – 0.0 صحيح. JPY -0.2 صحيح (رهانات BOJ). AUD 0.7168 قرب قمة 3 أشهر قبل CPI بـ42 ساعة – محايد 0.0 حتى البيانات. CAD ضعيف على Trump tariffs (1.3827) – -0.2 صحيح. CHF: SNB تهديد سلبي يضعفه، لكن safe-haven يدعمه – -0.1 صحيح.
-
-**Gold & Oil Trader:**
-XAU 4648 (ATH، +1.5% من أمس) – Goldman يتوقع 5000$ بحلول 2027، USD ضعيف، أزمة سندات تدعم. لكن +0.35 bias مع السعر ممتد (>95% من نطاق السنة) = خطر. خفض إلى +0.25 (صعود حذر). XAG 69.17 يتبع XAU – +0.15. OIL: WTI 85.73، Brent 92.83 – انخفض -2% أمس على شكوك عقوبات إيران؛ اليوم مستقر قبل إعلان Bessent. 0.0 صحيح (محايد حتى نرى العقوبات الفعلية).
-
-**Equity / Risk-Sentiment Desk:**
-SPX 7669، NDX 29138، DAX 26076 – مستقرة؛ آسيا منخفضة قليلاً على ضغط السندات. VIX منخفض (بيانات مفقودة لكن لا ذعر). risk-on/off مختلط – indices ثابتة، لكن USD ضعيف وذهب قوي = mixed صحيح. US500/US100/GER40 bias 0.0 صحيح (لا اتجاه واضح).
-
-**Risk Manager:**
-danger mode من 15 دقيقة مضت كان **خطأ** – Bessent مجدول منذ أمس (medium impact)، ليس طارئ severity-2. لا تصعيد عسكري جديد منذ 12 ساعة. shock directive "Bessent emergency" **خاطئ** – ليس طارئاً. العودة إلى normal، risk_mult 0.85 (scorecard 28% ضعيف، لكن لا أزمة نشطة). news_block صحيح (Bessent +643 دقيقة، AUD CPI +2533). لا حاجة لـblock_symbols. إزالة shock الخاطئ.
-
-**Market Historian:**
-آخر مرة Treasury yields وصلت 5.3% كانت 2007 (قبل أزمة مالية) – لكن السياق مختلف (لا فقاعة عقارية الآن). ذهب عند ATH: تاريخياً الاختراقات تستمر 55-60% من الوقت، لكن بعد +1.5% في يوم واحد، تصحيح 0.5-1% خلال 24-48 ساعة شائع. عقوبات إيران المجدولة: 2018 Trump أعلن عقوبات، OIL ارتفع +5% ثم تلاشى في أسبوع – لكن هذه المرة السوق يشك (OIL انخفض -2% أمس). EUR: رهانات ECB متشددة vs تصريح Cipollone حمائمي اليوم = تضارب؛ تاريخياً الكلام يفوز على الرهانات قصيرة المدى. USDJPY 159: مستقر 3 أيام رغم رهانات BOJ – يشبه يوليو 2024 قبل التدخل؛ حذر من اختراق 160.
-
-**Chairman:**
-الأدلة: (1) Bessent **مجدول** منذ أمس (medium impact)، ليس طارئ – danger mode و shock directive كانا **خطأ فادح**؛ العودة فوراً إلى normal. (2) XAU ATH مدعوم (Goldman، USD ضعيف، سندات)، لكن ممتد – خفض bias إلى +0.25. (3) EUR: Cipollone حمائمي اليوم يناقض رهانات التشدد – خفض إلى +0.1. (4) scorecard 28% ضعيف – conf تبقى 0.45، risk_mult 0.85. (5) SHOCK خسر -2.46$ في 9 صفقات بلا صدمات حقيقية – إزالته من allow_books. (6) prefer_symbols: XAUUSD (اتجاه واضح رغم الامتداد)، EURUSD (EUR ضعيف قليلاً لكن نظيف). القرار: normal 0.85x، تصحيح الأخطاء، حذر على XAU.
-
-## Psyche
-
-**Awareness (fired=yes):** قارنت القرار السابق (danger mode، shock directive) بالواقع – Bessent كان مجدولاً منذ أمس (medium impact في الجدول الاقتصادي)، ليس حدث طارئ severity-2. المجلس بالغ في رد الفعل على عنوان "emergency press conference" دون التحقق من التوقيت. هذا flip-flop (من normal إلى danger بلا حقائق جديدة، الآن عودة). أجمّد التغييرات المتسرعة وأصحح: العودة إلى normal فوراً.
-
-**Greed (fired=no):** الثقة 0.45 منخفضة، معظم biases ضعيفة (0.0-0.25)، prefer_symbols قصير (2 فقط). لا علامات طمع. risk_mult 0.85 مناسب.
-
-**Fear (fired=yes):** المجلس السابق أفرط في رد الفعل على عنوان "emergency" دون التحقق – danger mode و shock directive بلا تصعيد عسكري جديد منذ 12 ساعة. هذا خوف من الظلال. أستعيد التوازن: caution كان كافياً لو كان هناك شك، لكن الحدث مجدول = normal.
-
-**Prudence (fired=yes):** shock directive السابق ("Bessent emergency") لم يكن له مصدران مستقلان (مصدر واحد فقط: عنوان CNBC)، ولا analog تاريخي من Market Historian. كان يجب رفضه. XAU bias +0.35 الآن له مصدران (Goldman، أزمة سندات) و analog (اختراقات ATH تستمر 55-60%)، لكن الامتداد يستدعي خفضاً إلى +0.25.
-
-**Intuition (fired=yes):** أشعر أن أزمة السندات الأمريكية (5.33% عائد 30 سنة) ستكون المحرك الخفي للأسواق خلال 48-72 ساعة أكثر من تهديدات إيران – إذا فشل Bessent في طمأنة السوق، USD قد ينهار وXAU يقفز +2-3%.
-
-## DIRECTIVES
-
-risk_mode=normal
-risk_mult=0.85
-regime=mixed
-bias_USD=0.05
-bias_EUR=0.1
-bias_GBP=0.0
-bias_JPY=-0.2
-bias_AUD=0.0
-bias_NZD=0.0
-bias_CAD=-0.2
-bias_CHF=-0.1
-bias_XAU=0.25
-bias_XAG=0.15
-bias_OIL=0.0
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.45
-allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT
-news_block=USD:626:686;AUD:2516:2576
-block_symbols=none
-shock=none
-prefer_symbols=XAUUSD,EURUSD
-summary=Corrected error: Bessent speech is scheduled (medium), not emergency - back to normal 0.85x; XAU bias cut to 0.25 (extended), EUR to 0.1 (Cipollone dovish today); SHOCK removed
-summary_ar=تصحيح خطأ: خطاب Bessent مجدول (medium)، ليس طارئ – عودة إلى normal 0.85x؛ XAU إلى 0.25 (ممتد)، EUR إلى 0.1 (Cipollone حمائمي اليوم)؛ SHOCK مُزال
+زال
 mind=calm
 psyche_flags=awareness,fear,prudence,intuition
 intuition=أشعر أن أزمة السندات الأمريكية (5.33% عائد 30 سنة) ستكون المحرك الخفي للأسواق خلال 48-72 ساعة أكثر من تهديدات إيران
@@ -3486,6 +3421,75 @@ shock=none
 prefer_symbols=none
 summary=No change since 06:44 UTC; EUR 0.3 (ECB hike), JPY 0.2, OIL -0.2 (Hormuz deal); USD blocked 12:00-13:00 for PCE; conf 0.35 on weak scorecard; normal 0.8x
 summary_ar=لا تغيير منذ 06:44؛ EUR 0.3 (رفع ECB)، JPY 0.2، نفط -0.2 (اتفاق هرمز)؛ USD محجوب 12:00-13:00 لـPCE؛ ثقة 0.35؛ عادي 0.8x
+mind=calm
+psyche_flags=prudence
+intuition=none
+
+
+# 2026-08-26 09:00 UTC
+## Council debate
+
+**Chief Macro Economist:** الاقتصاد الأميركي ينمو 1.5% (تأكيد اليوم 12:30)، التضخم الأساسي PCE متوقع 0.2% شهرياً – إذا جاء 0.3%+ يقوي USD ويضعف الذهب؛ إذا جاء 0.1% يضعف USD. أوروبا: Schnabel تؤكد رفع سبتمبر (EUR قوي). أستراليا: CPI أمس أعلى من المتوقع لكن AUD لم يتحرك (سوق ميت). الدورة: نمو معتدل، تضخم لزج، البنوك المركزية في وضع تشديد.
+
+**Central-Bank Watcher:** ECB شبه مؤكد رفع سبتمبر (Schnabel صباح اليوم "يجب رفع الفائدة أكثر")، EUR يستحق 0.3-0.4. Fed ينتظر PCE اليوم – إذا جاء ساخناً يعزز رفع يوليو، لكن السوق لا يتحرك قبل الرقم. BoJ يميل للتشديد (Tokyo CPI غداً)، JPY يستحق 0.2. لا مفاجآت متوقعة اليوم.
+
+**Geopolitical & Crisis Analyst:** إيران وعُمان يتفاوضان لإعادة فتح هرمز (عناوين طازجة < 3 ساعات) – هذا تخفيف حاد للتصعيد، علاوة الحرب تتلاشى. النفط هبط -2% أمس، الآن 80.3$ (أدنى مستوى منذ أسبوعين). الذهب عند 4627$ (قرب قمة 3 أشهر) لكن بلا محفز جديد – المكاسب من الأسبوع الماضي. لا أحداث severity-2/3 نشطة الآن. USD/JPY/CHF/XAU كلها في وضع آمن لا safe-haven.
+
+**FX Strategist:** EUR الأقوى (ECB متشدد، 1.167 ثابت)، bias 0.3-0.4 صحيح. JPY معتدل القوة (تدخل الأسبوع الماضي + توقعات BoJ)، 0.2 معقول. GBP محايد (بيانات سوق العمل أمس ناعمة، لا محفز). AUD/NZD/CAD كلها ميتة (نطاقات ضيقة منذ أيام). USD محايد قبل PCE – يمكن أن يتحرك ±0.5% بعد 3.5 ساعة. CHF لا قصة. التوجهات الحالية صحيحة، لا تغيير.
+
+**Gold & Oil Trader:** النفط -0.2 صحيح لكن يمكن تعميقه إلى -0.3: اتفاق هرمز (إذا تأكد) يلغي علاوة 8-10$ كاملة، الهدف 75-77$. الذهب عند 4627$ (قمة 3 أشهر) بلا محفز جديد – المكاسب من الأسبوع الماضي؛ إذا جاء PCE بارداً يقفز، إذا ساخناً يهبط -1.5%. الآن محايد إلى سلبي خفيف (-0.1 صحيح). الفضة تابعة للذهب، لا قصة مستقلة.
+
+**Equity / Risk-Sentiment Desk:** US500 عند 7681 (ثابت منذ يومين)، ينتظر Nvidia بعد 10 ساعات. السوق risk-on خفيف (لا VIX spike، لا هروب)، لكن بلا زخم. Jackson Hole غداً قد يحرك، لكن اليوم ميت. bias 0.0 صحيح – لا اتجاه قبل Nvidia/PCE.
+
+**Risk Manager:** الحساب 454.63$، يوم -0.04$ (مستقر)، 4 مراكز مفتوحة (SWING: EURUSD sell -0.87$، CHFJPY sell +0.09$، GBPJPY sell ×2 +0.55$ لكل). لا loss streak، لا خطر يومي. **لكن**: SWING صافيه 0.14$ من 5 صفقات (60% wins لكن أرباح رمزية)، INTRADAY/BREAKOUT خسرا -4.65$ في 5 صفقات – قرار إزالتهما من allow_books صحيح ويجب الاستمرار. PCE بعد 3.5 ساعة: news_block USD 12:00-13:00 (178-238 دقيقة) صحيح. risk_mult 0.8 آمن، conf 0.35 منخفض بسبب scorecard 50% على 24 ساعة – يجب عدم رفعه. الوضع: normal صحيح (لا أزمة نشطة).
+
+**Market Historian:** **آخر مرة ECB أكد رفعاً قبل شهر** (يوليو 2026 قبل رفع أغسطس): EUR ارتفع 0.3-0.5% في 3-5 أيام – الآن EUR عند 1.167 (ثابت)، أي السوق استوعب الخبر. **آخر مرة إيران وعُمان تفاوضا على هرمز** (مايو 2026): النفط هبط -6% في أسبوع من 92$ إلى 86$ – الآن 80.3$، أي علاوة الحرب تتلاشى؛ bias -0.2 خفيف، يمكن -0.3. **آخر مرة PCE جاء أعلى من المتوقع** (يونيو 2026): USD قفز 0.6% في ساعة، الذهب هبط -1.2% – إذا تكرر اليوم، bias_USD يصبح 0.4+، XAU -0.3. **السياق السعري**: EURUSD عند 1.167 (95% من نطاق السنة)، USDJPY 159 (85%)، XAU 4627$ (98% – قرب قمة تاريخية)، OIL 80.3$ (60% – وسط النطاق). **التحذير**: الذهب ممتد (قرب ATH)، أي حركة صعودية تحتاج محفز قوي؛ بدونه، خطر تصحيح -2%. EUR ممتد أيضاً لكن مدعوم بـECB. التوجهات الحالية معقولة تاريخياً.
+
+**Chairman:** أستمع. **الإجماع**: لا تغيير كبير – EUR 0.3 (ECB)، JPY 0.2، OIL -0.2 (يمكن -0.3)، USD محايد قبل PCE، XAU -0.1، risk_mode normal 0.8x، conf 0.35. **القرار**: أعمّق OIL إلى -0.3 (اتفاق هرمز يلغي علاوة الحرب)، أبقي الباقي ثابتاً. news_block USD 12:00-13:00 يبقى. allow_books يبقى بدون INTRADAY/BREAKOUT (خسائرهما في الأسواق الراكدة واضحة). conf 0.35 (scorecard ضعيف). prefer_symbols: لا شيء (الأسواق ميتة قبل PCE/Nvidia). ننتظر.
+
+## Psyche
+
+**Awareness (fired=no):** قارنت التوجيهات السابقة (07:59 UTC) بالحالية – التغيير الوحيد OIL من -0.2 إلى -0.3 بناءً على عناوين طازجة (اتفاق هرمز) – هذا تطور منطقي لا تقلب. الذاكرة: منذ 21 أغسطس الأسواق راكدة، أزلنا INTRADAY/BREAKOUT بعد 8/10 خسائر – القرار صحيح ومستمر. لا تقلب، لا عناد.
+
+**Greed (fired=no):** الثقة 0.35 منخفضة، معظم التوجهات 0.0-0.3، prefer_symbols فارغ، risk_mult 0.8 معتدل – لا علامات طمع. المجلس حذر ومنضبط.
+
+**Fear (fired=no):** risk_mode normal (لا danger/halt بلا سبب)، التوجهات مستقرة منذ ساعات، لا رد فعل مبالغ على عنوان واحد – لا علامات خوف. المجلس متوازن.
+
+**Prudence (fired=yes):** OIL -0.3 يعتمد على عنوان واحد (اتفاق هرمز) بلا تأكيد رسمي – المؤرخ أعطى سابقة (مايو 2026: -6% في أسبوع)، لكن -0.3 معتدل ومقبول. EUR 0.3 مدعوم بمصدرين (Schnabel + Reuters ECB) + سابقة تاريخية – قوي. لا مشكلة.
+
+**Intuition (fired=no):** أشعر أن PCE اليوم سيأتي على التوقعات (0.2%) ولن يحرك الأسواق – الحركة الحقيقية ستأتي من Nvidia الليلة أو Jackson Hole غداً. لكن هذا حدس، لا أغيّر أرقاماً.
+
+**Mind state:** calm  
+**Psyche flags:** prudence
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.8
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=0.0
+bias_JPY=0.2
+bias_AUD=0.0
+bias_NZD=0.0
+bias_CAD=-0.1
+bias_CHF=0.0
+bias_XAU=-0.1
+bias_XAG=0.0
+bias_OIL=-0.3
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.35
+allow_books=SWING,POSITION,SHOCK,COUNCIL,REVERT
+news_block=USD:178:238
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=Deepened OIL to -0.3 on Iran-Oman Hormuz deal (war premium fading); EUR 0.3 (ECB hike), JPY 0.2; USD blocked 12:00-13:00 for PCE; conf 0.35; normal 0.8x
+summary_ar=عمّقنا النفط إلى -0.3 (اتفاق هرمز يلغي علاوة الحرب)؛ EUR 0.3 (رفع ECB)، JPY 0.2؛ USD محجوب 12:00-13:00 لـPCE؛ ثقة 0.35؛ عادي 0.8x
 mind=calm
 psyche_flags=prudence
 intuition=none
