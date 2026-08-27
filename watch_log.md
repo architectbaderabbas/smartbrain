@@ -1348,3 +1348,4 @@
 - 2026-08-27 02:24 UTC · heartbeat · صفقة GBPJPY other:0 1.32$ ← تحليل مكتوب
 - 2026-08-27 02:30 UTC · heartbeat · quiet (sev0)
 - 2026-08-27 02:44 UTC · heartbeat · quiet (sev0)
+- 2026-08-27 03:00 UTC · FULL COUNCIL triggered: scheduled full council (last 75 min ago)
