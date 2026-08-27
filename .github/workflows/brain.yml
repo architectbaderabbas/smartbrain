@@ -3,7 +3,7 @@ on:
   schedule:
     - cron: "*/5 * * * *"      # watchman every 5 min; full council hourly or on alert
   repository_dispatch:
-    types: [account, trade]    # the robots post the account report / closed trades here
+    types: [account, trade, journal_rebuild]    # the robots post the account report / closed trades / a corrected history rebuild
   workflow_dispatch:
     inputs:
       full:
@@ -43,6 +43,36 @@ jobs:
           json.dump(L, open(p, "w"), ensure_ascii=False, indent=1)
           print("trade", t.get("symbol"), t.get("book"), t.get("pl"), "-> trades.json", len(L))
           PY
+      - name: Journal rebuild (corrected books from the opening deals)
+        if: github.event_name == 'repository_dispatch' && github.event.action == 'journal_rebuild'
+        env:
+          PAYLOAD: ${{ toJson(github.event.client_payload) }}
+        run: |
+          python3 - <<'PY'
+          import json, os
+          pay = json.loads(os.environ["PAYLOAD"])
+          fresh = pay.get("trades", [])
+          p = "trades.json"
+          try: old = json.load(open(p))
+          except Exception: old = []
+          by = {}
+          for t in old:                       # keep whatever the rebuild did not cover
+              if t.get("pos") is not None: by[t["pos"]] = t
+          for t in fresh:                     # the rebuilt entry always wins (correct book)
+              if t.get("pos") is None: continue
+              prev = by.get(t["pos"], {})
+              merged = dict(prev); merged.update(t)
+              if prev.get("balance"): merged["balance"] = prev["balance"]
+              if prev.get("brain_mode") and prev.get("brain_mode") != "REBUILD":
+                  merged["brain_mode"] = prev["brain_mode"]; merged["brain_bias"] = prev.get("brain_bias", 0)
+              by[t["pos"]] = merged
+          L = sorted(by.values(), key=lambda x: (x.get("t_out") or x.get("ts") or 0))[-200:]
+          json.dump(L, open(p, "w"), ensure_ascii=False, indent=1)
+          books = {}
+          for t in L: books[t.get("book","?")] = books.get(t.get("book","?"), 0) + 1
+          print("journal rebuilt:", len(fresh), "sent,", len(L), "total ->", books)
+          PY
+
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - name: Watchman (every run) / council (hourly, on alert, or after a loss)
@@ -51,7 +81,7 @@ jobs:
           BRAIN_MODEL: ${{ vars.BRAIN_MODEL || 'claude-sonnet-4-5' }}
           WATCH_MODEL: ${{ vars.WATCH_MODEL || 'claude-haiku-4-5' }}
           FULL_EVERY_MIN: ${{ vars.FULL_EVERY_MIN || '60' }}
-          FORCE_FULL: ${{ github.event.inputs.full || '0' }}
+          FORCE_FULL: ${{ github.event.inputs.full || (github.event.action == 'journal_rebuild' && '1') || '0' }}
           EVENT: ${{ github.event.action || github.event_name }}
         run: python watchman.py
       - name: Publish
