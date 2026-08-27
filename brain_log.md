@@ -1,68 +1,4 @@
-سعر لم يتحرك = التحذير صحيح. الآن الرئيس يخفضه إلى 0.0 – منطقي، لكن كان يجب فعلها قبل 6 ساعات. AUD: ارتفع من 0.0 إلى 0.2 أمس (محاضر RBA)، الآن إلى 0.3 (CPI غداً) – هذا تصعيد تدريجي معقول مع حقائق جديدة. لا تناقض.
-
-**Greed:** fired=no. bias واحد فقط فوق 0.3 (AUD)، risk_mult=0.5 منخفض، conf=0.4 متواضع، prefer_symbols=none. لا علامات طمع.
-
-**Fear:** fired=no. risk_mode=normal صحيح (لا أزمة نشطة)، risk_mult=0.5 مبرر (خسائر INTRADAY + حساب صغير)، لا مبالغة في الحذر.
-
-**Prudence:** fired=yes. bias_AUD=0.3 له مصدران (محاضر RBA + CPI قادم) ومثال تاريخي (المؤرخ: آخر 3 مرات CPI أقل من التوقع، AUDUSD هبط 40-60 نقطة). مقبول. bias_XAU=0.0 (من 0.05) له 3 تحذيرات من المؤرخ + سعر ممتد 95% + زخم توقف – مبرر تماماً.
-
-**Intuition:** fired=yes. النفط عند 83$ بعد هبوط -3% رغم عقوبات إيران – السوق يقول "لا تأثير حقيقي". إذا استمر الهبوط غداً إلى 81-82$، bias_OIL يجب أن يصبح سلبي (الحرب الاقتصادية فشلت في رفع السعر = bearish). لكن اليوم مبكر جداً، أبقيه 0.0.
-
----
-
-## DIRECTIVES
-
-risk_mode=normal
-risk_mult=0.5
-regime=mixed
-bias_USD=-0.1
-bias_EUR=0.0
-bias_GBP=0.0
-bias_JPY=0.0
-bias_AUD=0.3
-bias_NZD=0.0
-bias_CAD=0.0
-bias_CHF=0.0
-bias_XAU=0.0
-bias_XAG=0.0
-bias_OIL=0.0
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.4
-allow_books=SWING,POSITION,SHOCK,COUNCIL,REVERT
-news_block=USD:88:133;AUD:778:823
-block_symbols=none
-shock=none
-prefer_symbols=none
-summary=XAU cut to 0.0 (extended 3 warnings), AUD raised to 0.3 (RBA+CPI 13h); markets dead flat; await AUD CPI, Warsh/Nvidia/PCE 24-26h; normal 0.5x
-summary_ar=XAU صفر (ممتد 3 تحذيرات)، AUD إلى 0.3 (RBA+CPI 13 ساعة)؛ أسواق ميتة؛ ننتظر CPI أستراليا، Warsh/Nvidia/PCE 24-26 ساعة؛ عادي 0.5x
-mind=calm
-psyche_flags=awareness,prudence,intuition
-intuition=النفط هبط -3% رغم عقوبات إيران – السوق يقول "لا تأثير". إذا استمر الهبوط غداً، bias_OIL سلبي.
-
-
-# 2026-08-25 13:27 UTC
-## Council debate
-
-**Chief Macro Economist:**
-الاقتصاد الأميركي ثابت (GDP prelim غداً 1.5% متوقع)، التضخم تحت السيطرة (PCE core غداً 0.2%)، لكن الأسواق ميتة تماماً منذ 4 أيام – لا نمو ولا انكماش، فقط انتظار. أستراليا: CPI خلال 12 ساعة (3.3% متوقع من 3.8%) – إذا جاء أقل، RBA يؤجل الرفع وAUD ينهار؛ إذا أعلى، AUD يقفز. ألمانيا: Ifo ارتفع (مفاجأة إيجابية) لكن EUR لم يتحرك – السوق لا يصدق التعافي بعد.
-
-**Central-Bank Watcher:**
-RBA أمس قال "نحتفظ بالوقت، مستعدون للتحرك" – كلام فارغ. CPI اليوم هو الحكم: فوق 3.4% = احتمال رفع سبتمبر يقفز إلى 40%، تحت 3.2% = تأجيل حتى 2027. Fed: Warsh يتكلم غداً (23 ساعة) – هو صقر، لكن الأسواق تسعّر تثبيت حتى ديسمبر، كلامه لن يحرك إلا إذا فاجأ. ECB: Lagarde تتحدث عن WEF لا عن السياسة النقدية – لا تأثير. BoJ: الين ضعيف (159.2) رغم كل الكلام عن التدخل – الكلام لا يساوي شيئاً بدون فعل.
-
-**Geopolitical & Crisis Analyst:**
-إيران: أميركا أعلنت "D-Day اقتصادي" أمس (عقوبات موسعة على النفط والبنوك)، لكن الأسواق تجاهلت تماماً – النفط هبط -3%، الذهب ثابت، لا أحد خائف. السبب: العقوبات ليست جديدة (موجودة منذ 2018)، والصين/الهند تشتريان النفط الإيراني بأسعار مخفضة عبر ناقلات الظل. إيران هددت بالرد لكن لم تفعل شيئاً منذ أسبوعين. الخلاصة: **التصعيد الاقتصادي لا يساوي التصعيد العسكري** – لا صدمة، لا premium، السوق محق. مضيق هرمز: سفينة تعطلت أمس لكن لم يُغلق – لا تأثير.
-
-**FX Strategist:**
-USD ضعيف (-0.1 صحيح): DXY منخفض، السندات الأميركية تحت ضغط (Bessent vs bond market)، لكن لا اتجاه واضح – مجرد ضعف تقني. EUR محايد (0.0 صحيح): Ifo إيجابي لكن EURUSD ثابت عند 1.167 منذ 3 أيام – لا momentum. GBP محايد (0.0 صحيح): لا أخبار، GBPUSD عند 1.364 بلا حركة. JPY محايد (0.0 صحيح): USDJPY عند 159.2، الكلام عن التدخل لم يحرك شيئاً. AUD: **0.3 مبالغ فيه** – CPI خلال 12 ساعة، الخطر متساوٍ (أعلى/أقل من المتوقع)، AUDUSD عند 0.716 ثابت منذ يومين. أقترح خفض AUD إلى 0.1 حتى تصدر البيانات. CAD/NZD/CHF: كلها ميتة، 0.0 صحيح.
-
-**Gold & Oil Trader:**
-الذهب عند 4613$ (أعلى مستوى في 3 أشهر) – **ممتد جداً**: فوق 95% من نطاق السنة، momentum يتلاشى (ثابت منذ 24 ساعة رغم عناوين إيران). المؤرخ حذّر 3 مرات، قطعنا bias إلى 0.0 – **صحيح 100%**. الآن: لا محفز جديد، الارتفاع توقف، الخطر هو تصحيح -1.5% إذا جاء PCE غداً هادئاً. bias_XAU يبقى 0.0. النفط: هبط -3% أمس رغم عقوبات إيران (WTI 83$، Brent 89.8$) – **السوق يقول "لا تأثير"**. السبب: العقوبات قديمة، الإمدادات لم تتأثر، OPEC+ لم يتحرك. bias_OIL=-0.1 صحيح، لكن إذا استمر الهبوط اليوم نخفضه إلى -0.2. الفضة 67.5$ (تابعة للذهب) – محايدة.
-
-**Equity / Risk-Sentiment Desk:**
-الأسهم الأميركية ثابتة تماماً: S&P 7691 (±10 نقاط منذ 3 أيام)، Nasdaq 29272، DAX 26288 – **لا اتجاه، لا تقلب، لا حجم**. السبب: الجميع ينتظر Nvidia غداً (23 ساعة) وPCE (24 ساعة). VIX منخفض (بيانات مفقودة لكن السوق هادئ). النظام: **risk-on ضعيف** (الأسهم مرتفعة لكن بلا حماس)، لا risk-off (الذهب/الين لم يقفزا رغم إيران). الخلاصة: **mixed صحيح**، bias_US500=0.0 صحيح. ننتظر Nvidia – إذا فاجأت إيجاباً، risk-on يعود؛ إذا خيبت، -2% سريع.
+ -2% سريع.
 
 **Risk Manager:**
 الحساب: 456$ (−2.33$ اليوم، −2.8$ الأسبوع). SWING خسر -1.42$ في EURUSD مفتوح الآن، INTRADAY خسر -0.71$ صباحاً (أزلناه من allow_books بعد 3 خسائر). **القرار صحيح**: INTRADAY يصطاد ستوبات في أسواق ميتة، إزالته حماية ضرورية. risk_mult=0.5 محافظ جداً لكن **مبرر**: 7 صفقات متتالية في ضوضاء منذ 21 أغسطس، الأسواق ميتة، لا فائدة من المخاطرة قبل البيانات الكبرى. CB Consumer Confidence خلال 32 دقيقة (medium impact) – نضع news_block USD:20:50. AUD CPI خلال 12 ساعة (high impact) – نضع news_block AUD:710:740. لا أحداث severity-2/3، لا halt مطلوب. **risk_mode=normal صحيح**، لكن أقترح رفع risk_mult إلى 0.6 – الحساب مستقر، scorecard 80% على 24 ساعة، الحذر الزائد يجوّع الروبوتات.
@@ -3277,6 +3213,87 @@ shock=none
 prefer_symbols=AUDUSD,AUDJPY
 summary=AUD 0.35 (RBA hike bets 70%, strong spending data); CAD -0.25 (trade dispute); markets frozen pre-Warsh (26h away); normal 0.9x, back to work
 summary_ar=AUD 0.35 (رهانات رفع RBA 70%، بيانات إنفاق قوية)؛ CAD -0.25 (نزاع تجاري)؛ الأسواق متجمدة قبل Warsh (26 ساعة)؛ عادي 0.9x، نعود للعمل
+mind=calm
+psyche_flags=awareness,fear,prudence
+intuition=none
+
+
+# 2026-08-27 12:45 UTC
+## Council debate
+
+**Chief Macro Economist:**
+البيانات الأميركية (Unemployment Claims 208K vs 206K سابق) محايدة تماماً – لا تغيير في الصورة. الأسواق متجمدة 25 ساعة قبل Warsh في Jackson Hole غداً (25:14 من الآن). ECB minutes تُظهر ميل لرفع إضافي في يوليو – EUR يجب أن يكون 0.2-0.3 لا صفر. AUD قوي فعلاً (RBA hike bets 70%)، لكن السعر لم يتحرك منذ 48 ساعة – نحتاج تأكيد سعري.
+
+**Central-Bank Watcher:**
+ECB minutes (نُشرت قبل 75 دقيقة): "further hike likely at July meeting" – هذا hawkish واضح، EUR يستحق 0.25-0.3. BoJ Himino أمس كان حذراً (لا جديد). RBA hike bets 70% في سبتمبر بعد بيانات الإنفاق – AUD 0.35 صحيح. Warsh غداً هو الحدث الوحيد المهم – كل شيء ينتظره.
+
+**Geopolitical & Crisis Analyst:**
+CIA chief زار موسكو ليحذر روسيا من مهاجمة NATO (خبر أمس) – هذا تصعيد دبلوماسي لكن ليس عسكرياً فورياً. حرب إيران 6 أشهر في "stalemate مكلف" – لا تغيير في premium النفط/الذهب. السعودية تدرس رداً على هجمات الحوثيين – مراقبة لكن لا صدمة الآن. كل شيء هادئ نسبياً.
+
+**FX Strategist:**
+EURUSD ثابت 1.1640-1.1645 منذ 36 ساعة (نطاق 5 نقاط!) – هذا تجمد كامل. EUR يجب أن يكون 0.25 بعد ECB minutes الـhawkish، لا صفر. AUD 0.35 صحيح لكن السعر عالق 0.7185-0.7190 منذ يومين – لا confirmation. GBP ثابت، JPY ثابت، CAD -0.25 معقول (trade dispute). نحن نجلس على biases صفرية بينما ECB أعطانا سبباً واضحاً لـEUR.
+
+**Gold & Oil Trader:**
+XAU 4586 (نطاق $5 منذ 18 ساعة) – تجمد تام قبل Warsh. لا حدث جيوسياسي جديد، bond yields مستقرة – الذهب ينتظر. OIL 82.94 ثابت، OPEC+ فقد تأثيره في حرب إيران (حسب Reuters) لكن لا تغيير في السعر. كل شيء bias=0 منطقي هنا.
+
+**Equity / Risk-Sentiment Desk:**
+SPX 7706، DAX 26353 (أرقام قياسية) رغم "bond market strain" – risk-on سطحي. Nvidia earnings أمس كانت قوية (NDX futures صاعد) – هذا يدعم US100 بـ0.2-0.25. لكن "bond yields = new fear index" (Barron's) – حذر مطلوب. regime=mixed صحيح.
+
+**Risk Manager:**
+Account 456$، day P/L +0.12$ (مستقر). SWING خسر -1.57$ اليوم (EURNZD)، لكن net منذ 20 أغسطس +3.74$ (78% hit rate) – الكتاب يعمل. INTRADAY 50% hit rate فقط (-1.99$ net) – مراقبة لكن لا إزالة بعد. Claims مرّ بسلام، Warsh غداً 25 ساعة – normal 0.9x معقول. لا خطر فوري.
+
+**Market Historian:**
+ECB hawkish minutes سابقاً (2023، 2025) حرّكت EUR 0.3-0.5% في 4-12 ساعة – لكن اليوم السعر لم يتحرك (75 دقيقة مرت). هذا يعني: إما السوق ينتظر Warsh، أو الخبر مُسعّر. RBA hike bets 70% شبيهة بأغسطس 2023 – AUD ارتفع 1% في 3 أيام بعد تأكيد البيانات؛ اليوم AUD عالق – نحتاج كسر 0.7195 للتأكيد. Jackson Hole تاريخياً: تجمد 24h قبل الخطاب، ثم تقلب 1-2% بعده – الآن في نافذة التجمد.
+
+**Chairman:**
+الأدلة: (1) ECB minutes hawkish (طازج، 75 دقيقة) – EUR يستحق 0.25 لا صفر. (2) AUD 0.35 صحيح لكن بلا تأكيد سعري منذ 48h. (3) الأسواق متجمدة تماماً (EURUSD نطاق 5 نقاط، XAU $5) قبل Warsh. (4) SWING يعمل (78%)، INTRADAY ضعيف (50%) لكن لا أزمة. (5) لا صدمات، Claims محايد. **القرار**: نرفع EUR من 0 إلى 0.25 (ECB minutes)، نُبقي AUD 0.35، نرفع conf إلى 0.4 (أدلة أوضح)، risk_mult 0.9 (لا تغيير)، normal (لا خطر). prefer_symbols: EURUSD,AUDUSD (فرص أوضح بعد Warsh).
+
+---
+
+## Psyche
+
+**Awareness (fired=yes):** قارنت التوجيهات السابقة (EUR=0 منذ 6 ساعات) بـECB minutes الطازجة (hawkish واضح منذ 75 دقيقة) – كنا نتجاهل دليلاً قوياً. AUD 0.35 ثابت منذ 3 ساعات بلا تأكيد سعري – هذا تمسك بلا حقائق جديدة. أوافق على رفع EUR إلى 0.25 الآن.
+
+**Greed (fired=no):** لا علامات طمع – biases معتدلة (0.25، 0.35)، conf 0.4 منخفض، risk_mult 0.9 محافظ. لا مشكلة.
+
+**Fear (fired=yes):** المجلس بقي على EUR=0 لـ6 ساعات رغم عدم وجود تهديد – هذا خوف من التحرك. ECB minutes سبب كافٍ لـ0.25، والتأخير كان رد فعل زائد على "التجمد قبل Warsh". أدعم الرفع الآن.
+
+**Prudence (fired=yes):** EUR 0.25 له مصدران (ECB minutes + bank lending data)، لكن لا analog تاريخي واضح من Market Historian (قال "السعر لم يتحرك"). أقبل 0.25 لكن أُخفّض conf إلى 0.35 لا 0.4 – الدليل طازج لكن السوق لم يستجب بعد.
+
+**Intuition (fired=no):** حدس: EURUSD سينفجر 0.5% بعد Warsh غداً، لكن الاتجاه غير واضح الآن – انتظر الخطاب. لا تغيير مطلوب.
+
+**Mental state:** calm (أدلة واضحة، لا طمع، لا أزمة، تصحيح هادئ لـEUR).
+
+---
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.9
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.25
+bias_GBP=0.0
+bias_JPY=0.0
+bias_AUD=0.35
+bias_NZD=0.0
+bias_CAD=-0.25
+bias_CHF=0.0
+bias_XAU=0.0
+bias_XAG=0.0
+bias_OIL=0.0
+bias_US500=0.0
+bias_US100=0.2
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.35
+allow_books=ALL
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=EURUSD,AUDUSD
+summary=EUR 0.25 (ECB hawkish minutes), AUD 0.35 (RBA hike bets), US100 0.2 (Nvidia strong); markets frozen 25h pre-Warsh; normal 0.9x
+summary_ar=EUR 0.25 (محاضر ECB متشددة)، AUD 0.35 (رهانات رفع RBA)، US100 0.2 (Nvidia قوي)؛ الأسواق متجمدة 25 ساعة قبل Warsh؛ عادي 0.9x
 mind=calm
 psyche_flags=awareness,fear,prudence
 intuition=none
