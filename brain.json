@@ -1,5 +1,5 @@
 {
- "ts": 1787797472,
+ "ts": 1787797801,
  "council_ts": 1787795099,
  "directives": {
   "risk_mode": "normal",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "ALL",
-  "news_block": "USD:592:622",
+  "news_block": "USD:587:617",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
@@ -34,7 +34,7 @@
   "news_events": "none"
  },
  "error": null,
- "watchman": "صفقة GBPJPY other:0 1.32$ ← تحليل مكتوب",
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787555775,
