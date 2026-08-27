@@ -1,6 +1,6 @@
 {
- "ts": 1787856831,
- "council_ts": 1787853232,
+ "ts": 1787857733,
+ "council_ts": 1787857733,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.8,
@@ -21,20 +21,19 @@
   "bias_US100": 0.2,
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
-  "allow_books": "ALL",
-  "news_block": "none",
+  "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT",
+  "news_block": "USD:1110:1170;JPY:255:285",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
   "psyche_flags": "awareness,prudence",
   "intuition": "none",
-  "summary": "Markets frozen 20h pre-Warsh; EUR 0.2 (ECB hawkish), AUD 0.35 (RBA hike bets), US100 0.2 (Nvidia); CAD -0.25; normal 0.8x, conf 0.25 (low scorecard)",
-  "summary_ar": "الأسواق متجمدة 20 ساعة قبل Warsh؛ EUR 0.2 (ECB متشدد)، AUD 0.35 (رهانات رفع RBA)، US100 0.2 (Nvidia)؛ CAD -0.25؛ عادي 0.8x، ثقة 0.25 (scorecard ضعيف)",
+  "summary": "Markets frozen 19h pre-Warsh; EUR 0.2 (ECB hawkish), AUD 0.35 (RBA hike bets), US100 0.2 (Nvidia); CAD -0.25; removed BREAKOUT/SHOCK (0% success since Aug-20); normal 0.8x, conf 0.25",
+  "summary_ar": "الأسواق متجمدة 19 ساعة قبل Warsh؛ EUR 0.2 (ECB متشدد)، AUD 0.35 (رهانات رفع RBA)، US100 0.2 (Nvidia)؛ CAD -0.25؛ أزلنا BREAKOUT/SHOCK (0% نجاح منذ 20 أغسطس)؛ عادي 0.8x، ثقة 0.25",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787673451,
