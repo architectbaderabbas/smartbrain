@@ -1,6 +1,6 @@
 {
- "ts": 1787845131,
- "council_ts": 1787842240,
+ "ts": 1787845843,
+ "council_ts": 1787845843,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.8,
@@ -22,19 +22,18 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "ALL",
-  "news_block": "USD:15:75",
+  "news_block": "USD:1309:1399",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
   "psyche_flags": "prudence",
   "intuition": "none",
-  "summary": "Markets frozen 24h pre-Warsh (84min away); AUD strong (RBA hike bets 70%, spending data); EUR/US100 mild positive; USD news_block 60-120min; normal 0.8x",
-  "summary_ar": "الأسواق متجمدة 24 ساعة قبل Warsh (84 دقيقة)؛ AUD قوي (رهانات رفع RBA 70%، بيانات إنفاق)؛ EUR/US100 إيجابي خفيف؛ حظر أخبار USD 60-120 دقيقة؛ عادي 0.8x",
+  "summary": "Markets frozen 22h pre-Warsh; EUR 0.2 (ECB hawkish minutes), AUD 0.35 (RBA hike bets), US100 0.2 (Nvidia); CAD -0.25 (trade dispute); normal 0.8x",
+  "summary_ar": "الأسواق متجمدة 22 ساعة قبل Warsh؛ EUR 0.2 (محاضر ECB متشددة)، AUD 0.35 (رهانات رفع RBA)، US100 0.2 (Nvidia)؛ CAD -0.25 (نزاع تجاري)؛ عادي 0.8x",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787673451,
