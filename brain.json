@@ -1,6 +1,6 @@
 {
- "ts": 1787823901,
- "council_ts": 1787822100,
+ "ts": 1787824818,
+ "council_ts": 1787824818,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 1.0,
@@ -34,13 +34,7 @@
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
-  {
-   "ts": 1787555775,
-   "what": "Treasury Secretary Bessent emergency press conference 2:00 PM ET today; major economic action against Iran expected",
-   "sev": 2
-  },
   {
    "ts": 1787616751,
    "what": "KOSPI opens down 2.4% at 00:05 UTC; Asia risk-off spillover from overnight geopolitical/trade shock cascade",
@@ -84,6 +78,11 @@
   {
    "ts": 1787780673,
    "what": "Oil prices cross $100/bbl amid Iran war escalation; UK energy exposure warning signals systemic risk",
+   "sev": 2
+  },
+  {
+   "ts": 1787824802,
+   "what": "Mexican peso hits record low 61.88/USD; currency crisis signal amid trade war/geopolitical stress",
    "sev": 2
   }
  ]

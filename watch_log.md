@@ -1377,3 +1377,5 @@
 - 2026-08-27 09:15 UTC · FULL COUNCIL triggered: scheduled full council (last 60 min ago)
 - 2026-08-27 09:29 UTC · heartbeat · quiet (sev0)
 - 2026-08-27 09:45 UTC · heartbeat · quiet (sev0)
+- 2026-08-27 10:00 UTC · heartbeat · ALERT sev2: Mexican peso hits record low 61.88/USD; currency crisis signal amid trade war/geopolitical stress -> protocol applied, council convening
+- 2026-08-27 10:00 UTC · FULL COUNCIL triggered: ALERT sev2: Mexican peso hits record low 61.88/USD; currency crisis signal amid trade war/geopolitical stress
