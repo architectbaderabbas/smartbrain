@@ -1,5 +1,5 @@
 {
- "ts": 1787837000,
+ "ts": 1787837018,
  "council_ts": 1787834737,
  "directives": {
   "risk_mode": "normal",
@@ -34,7 +34,7 @@
   "news_events": "none"
  },
  "error": null,
- "watchman": "صفقة EURJPY SWING -1.29$ ← تحليل مكتوب",
+ "watchman": "صفقة EURJPY SWING -1.1$ ← تحليل مكتوب",
  "alerts": [
   {
    "ts": 1787673451,

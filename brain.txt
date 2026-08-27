@@ -1,4 +1,4 @@
-ts=1787837000
+ts=1787837018
 generated=2026-08-27 13:23 UTC (watchman heartbeat; council 1 min ago)
 version=1
 risk_mode=normal
@@ -31,4 +31,4 @@ mind=calm
 psyche_flags=awareness,fear,prudence
 intuition=none
 news_events=none
-watchman=صفقة EURJPY SWING -1.29$ ← تحليل مكتوب
+watchman=صفقة EURJPY SWING -1.1$ ← تحليل مكتوب
