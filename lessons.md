@@ -1,26 +1,5 @@
 # SmartBrain lessons (post-mortems on real trades, newest last)
 
-### 2026-08-19 19:09 UTC
-**CHFJPY REVERT SELL 0.02 lots · 191 min · exit SL · P/L -5.29$ · council bias 0.2 (CAUTION)**
-## POST-MORTEM ANALYSIS
-
-**TRADE SUMMARY:**
-REVERT book sold CHFJPY at 198.049 (0.02 lots), held 191 minutes (3h 11min), hit stop-loss at 198.468 for -$5.29. Independent robot operating during council CAUTION mode with bullish CHF bias (+0.4, strongest currency). **CHFJPY explicitly blocked in council directives**, yet trade fired anyway. Fifth consecutive REVERT stop-loss; book net -$31.53 across 5 trades today.
-
-**ALIGNMENT & BIAS ACCURACY:**
-REVERT sold CHFJPY **directly against council's +0.4 CHF bias** (strongest bullish call) and neutral JPY (0.0). Council expected CHF strength on carry-trade shifts – **bias was RIGHT**: CHFJPY rallied 419 pips from entry, now 198.375 vs 198.049 entry. Price context confirms CHF leading on carry flows post-Treasury buyback. REVERT's mean-reversion logic catastrophically misread a genuine directional move as "overbought noise."
-
-**ROOT CAUSE OF LOSS:**
-**REVERT trading a blocked symbol (CHFJPY in block_symbols) = critical robot malfunction, sixth violation today**. This is the second CHFJPY REVERT loss in 3 hours (previous -$5.34 at 16:24 UTC), both after explicit council block. Root cause: **independent robot architecture allows directive violations + REVERT's mean-reversion edge destroyed in strong trend regime** (CHF carry-shift = directional, not mean-reverting). The robot is algorithmically incapable of recognizing regime change – it sees 400-pip rally as "reversion opportunity."
-
-**CONCRETE LESSON:**
-**REVERT book has structural negative edge in current macro regime: 5 trades, 0 wins, 100% stop-loss hit rate = strategy invalidation, not bad luck**. Mean-reversion requires range-bound markets; risk-on with clear currency leadership (CHF +0.4) creates trends that punish fade entries. Lesson: **"In CAUTION mode with any currency bias >0.3, REVERT must be force-disabled – strong biases signal directional regime incompatible with mean-reversion logic"**.
-
-**DIRECTIVE CHANGE:**
-Balance now $460.69 (down $31.34 from session high, -6.4%). REVERT responsible for -$31.53 today despite being removed from allow_books hours ago. **Council directives are powerless against independent robots** – this requires human operator intervention. No change to allow_books/risk_mult (already optimal). Operator must: 1) manually disable REVERT EA immediately, 2) hardcode symbol blacklist into robot, 3) add regime filter (no mean-reversion when max|bias|>0.3).
-
-**LESSON:** REVERT's 100% stop-loss rate in strong-bias regime proves mean-reversion edge
-
 ### 2026-08-19 19:10 UTC
 **CHFJPY REVERT SELL 0.02 lots · 191 min · exit SL · P/L -5.29$ · council bias 0.2 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -320,4 +299,17 @@ SWING باع CHFJPY عند 197.90 (0.01 لوت)، أُغلق بعد 720 دقيق
 **سوق ميت تماماً + time-stop أنقذ من خسارة محتملة.** CHFJPY تحرك 8 نقاط فقط في 12 ساعة (أقل من spread الطبيعي) – هذا ليس سوقاً قابلاً للتداول. الستوب 54.2 نقطة والهدف 108.4 نقطة معقولان لـSWING، لكن **لا حدث، لا تقلب، لا اتجاه**. الخروج بـ0.00$ يعني إغلاق time-stop بعد 12 ساعة من الركود المطلق. **هذه عاشر صفقة متتالية في أسواق راكدة منذ 21 أغسطس** – النمط صارخ: SmartMulti يتاجر في فراغ كامل منذ 5 أيام.
 
 **4) الدرس
+
+### 2026-08-27 02:24 UTC
+**GBPJPY other:0 SELL 0.01 lots · 1284 min · exit EA · P/L 1.32$ · council bias 0 (NORMAL)**
+# تحليل ما بعد الصفقة
+
+**1) ما فعله الروبوت:**
+روبوت مستقل قديم (other:0) باع GBPJPY عند 216.805 (0.01 لوت)، أُغلق بعد 1284 دقيقة (21 ساعة) عند 216.595 بربح +1.32$. الدخول 00:00 UTC يوم 26 أغسطس، الخروج 21:24 UTC يوم 27 أغسطس. السعر الآن 216.503 – أي هبط 30 نقطة إجمالاً، والروبوت حصد 21 نقطة منها.
+
+**2) التوافق مع توجه المجلس:**
+الصفقة من **روبوت مستقل لا يقرأ المجلس** – لا مخالفة بالتصميم. توجه المجلس وقت الدخول: bias_GBP=0.0، bias_JPY=0.0 (محايد تام)، وضع NORMAL. المجلس **كان محقاً**: الأسواق متجمدة 12 ساعة بانتظار Warsh (36 ساعة)، لا اتجاه واضح. لكن السياق السعري يُظهر **GBP ضعيف نسبياً** (GBPUSD هبط من 1.360 إلى 1.359)، وJPY مستقر – البيع كان منطقياً رغم حياد المجلس.
+
+**3) السبب الجذري للربح:**
+**صبر + اتجاه بطيء ظهر بعد 12 ساعة.** الروبوت المستقل دخل في قمة محلية (216.80)، والسعر هبط تدريجياً 30 نقطة في 21 ساعة (1.4 نقطة/ساعة – حركة سلحفاة). الستوب 55.6 نقطة والهدف 111.3 نقطة معقولان، لكن **الخروج EA بعد 21 ساعة يعني time-stop أو Profit Guard**. هذا **ليس edge قوياً، بل حظ في توقيت**: لو دخل قبل 6 ساعات أو بعدها، كان سيُصاب الستوب في
 
