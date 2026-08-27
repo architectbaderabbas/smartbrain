@@ -1,26 +1,5 @@
 # SmartBrain lessons (post-mortems on real trades, newest last)
 
-### 2026-08-19 19:10 UTC
-**CHFJPY REVERT SELL 0.02 lots · 191 min · exit SL · P/L -5.29$ · council bias 0.2 (CAUTION)**
-## POST-MORTEM ANALYSIS
-
-**TRADE SUMMARY:**
-REVERT book sold CHFJPY at 198.049 (0.02 lots), held 191 minutes, hit stop-loss at 198.468 for -$5.29. **Second CHFJPY REVERT loss in 3 hours** (previous -$5.34), both after symbol explicitly blocked in council directives. Independent robot operating in CAUTION mode with council's +0.4 CHF bias (strongest bullish call). **Sixth consecutive REVERT stop-loss today; book net -$31.53 across 5 trades, 100% SL hit rate.**
-
-**ALIGNMENT & BIAS ACCURACY:**
-REVERT sold CHFJPY **directly against council's +0.4 CHF bias** (strongest currency) and neutral JPY (0.0). Council expected CHF strength on carry-trade shifts post-Treasury buyback – **bias was RIGHT**: CHFJPY rallied 419 pips from entry (198.049→198.468 SL, now 198.375). Price context confirms CHF leading on carry flows in risk-on regime. REVERT's mean-reversion logic catastrophically misread a genuine directional breakout as "overbought noise to fade."
-
-**ROOT CAUSE OF LOSS:**
-**REVERT trading blocked symbol (CHFJPY in block_symbols) = critical robot malfunction**. Root cause is **structural edge destruction**: mean-reversion requires range-bound markets, but risk-on regime with clear currency leadership (+0.4 CHF bias) creates trends that punish fade entries. REVERT is algorithmically blind to regime – it sees 400-pip rally as "reversion opportunity," not trend continuation. The 100% SL hit rate (5/5 trades today) proves **strategy invalidation, not variance**. Independent robot architecture allows directive violations by design, but the real failure is deploying mean-reversion logic in a trending macro environment.
-
-**CONCRETE LESSON:**
-**"In CAUTION mode with any single-currency bias magnitude >0.3, REVERT must be force-disabled – strong biases signal directional regime fundamentally incompatible with mean-reversion edge."** The council's +0.4 CHF call was a regime flag REVERT should never have ignored. Operator must hardcode: if max(|bias_any_currency|) > 0.3 AND mode=CAUTION, disable all mean-reversion books.
-
-**DIRECTIVE CHANGE:**
-Balance $460.69 (-6.4% today), REVERT responsible for -$31.53 despite removal from allow_books hours ago. Council directives are powerless against independent robots. **No council action possible** – this requires human operator intervention: 1) manually disable REVERT EA immediately, 2) hardcode symbol blacklist + regime filter (no mean-reversion when max|bias|>0.3), 3) backtest REVERT performance in trending vs ranging regimes before re-enabling.
-
-**LESSON:** RE
-
 ### 2026-08-19 19:20 UTC
 **UKOIL SHOCK SELL 0.01 lots · 1 min · exit TP · P/L 1.62$ · council bias 0.1 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -315,4 +294,19 @@ SWING باع CHFJPY عند 197.90 (0.01 لوت)، أُغلق بعد 720 دقيق
 
 **4) الدرس المحدد:**
 **في الأسواق
+
+### 2026-08-27 10:11 UTC
+**EURNZD INTRADAY BUY 0.01 lots · 131 min · exit SL · P/L -1.57$ · council bias 0 (NORMAL)**
+# تحليل ما بعد الصفقة
+
+**1) ما فعله الروبوت:**
+INTRADAY اشترى EURNZD عند 1.96209 (0.01 لوت)، أُغلق بعد 131 دقيقة (ساعتان وربع) عند الستوب 1.95943 بخسارة -1.57$. الدخول 00:00 UTC، الخروج 02:11 UTC. السعر الآن 1.96024 – أي 18.5 نقطة تحت الدخول، الاتجاه الهابط استمر بعد الخروج.
+
+**2) التوافق مع توجه المجلس:**
+الصفقة **متوافقة شكلياً** مع المجلس: bias_EUR=0.0، bias_NZD=0.0 (محايد)، وضع NORMAL، INTRADAY مسموح. لكن توجه المجلس **محايد بلا رؤية**: EURNZD في نطاق ضيق 1.959-1.962 منذ يومين، والشراء من 1.96209 (قرب قمة النطاق) **ضد منطق mean reversion**. المجلس لم يخطئ، لكنه لم يساعد – والروبوت دخل في أسوأ نقطة بالنطاق.
+
+**3) السبب الجذري للخسارة:**
+**دخول أعمى في قمة نطاق راكد + جلسة آسيا بلا سيولة.** EURNZD تحرك 26.6 نقطة ضد الصفقة في ساعتين فقط (00:00-02:11 UTC = جلسة طوكيو الميتة)، ثم ارتد قليلاً بعد الخروج. **هذه الصفقة رقم 11 من SmartMulti في أسواق راكدة منذ 21 أغسطس**: INTRADAY الآن 1 فوز من 4 صفقات (-2.83$)، بينما الروبوت القديم other:0 حقق 3 أفواز من 3 (+2.16$) في نفس الفترة. **النمط صارخ**: INTRADAY يصطاد ستوبات في الضوضاء، لا في الإشارات.
+
+**4) الدرس
 
