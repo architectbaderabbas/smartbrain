@@ -1,19 +1,19 @@
 {
  "decisions_scored": 46,
  "overall_hit_rate%": {
-  "4h": 59,
-  "12h": 36,
+  "4h": 60,
+  "12h": 38,
   "24h": 50
  },
  "per_asset_hit_rate%": {
   "XAU": {
-   "4h": 33,
-   "12h": 33,
-   "24h": 67
+   "4h": 50,
+   "12h": 50,
+   "24h": 100
   },
   "CAD": {
-   "4h": 80,
-   "12h": 67,
+   "4h": 79,
+   "12h": 75,
    "24h": 100
   },
   "AUD": {
@@ -38,7 +38,7 @@
   }
  },
  "by_mind_state%": {
-  "?": 58,
+  "?": 69,
   "calm": 48
  },
  "note": "hit = price moved in the direction of a bias with |bias|>=0.3 after the horizon; None = not enough data yet"

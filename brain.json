@@ -1,11 +1,11 @@
 {
- "ts": 1787805899,
- "council_ts": 1787803200,
+ "ts": 1787806800,
+ "council_ts": 1787806800,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.8,
   "regime": "mixed",
-  "conf": 0.3,
+  "conf": 0.25,
   "bias_USD": 0.0,
   "bias_EUR": 0.0,
   "bias_GBP": 0.0,
@@ -27,14 +27,13 @@
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "none",
-  "intuition": "none",
-  "summary": "",
-  "summary_ar": "",
+  "psyche_flags": "awareness",
+  "intuition": "الأسواق ستنفجر بعد Warsh – انتظر الانفجار ثم اتبعه بسرعة",
+  "summary": "All biases 0: markets frozen 18h pre-Warsh (33h away); EURUSD 2-pip, XAU $5 range; Himino/AUD data ignored; normal 0.8x, conf 0.25",
+  "summary_ar": "كل التحيزات 0: الأسواق متجمدة 18 ساعة قبل Warsh (33 ساعة متبقية)؛ EURUSD نطاق 2 نقطة، XAU 5$؛ بيانات Himino وأستراليا مُتجاهَلة؛ عادي 0.8x، ثقة 0.25",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787555775,
