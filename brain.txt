@@ -1,5 +1,5 @@
-ts=1787806800
-generated=2026-08-27 05:00 UTC
+ts=1787807204
+generated=2026-08-27 05:06 UTC (watchman heartbeat; council 6 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.8
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=awareness
 intuition=الأسواق ستنفجر بعد Warsh – انتظر الانفجار ثم اتبعه بسرعة
 news_events=none
+watchman=quiet (sev0)
