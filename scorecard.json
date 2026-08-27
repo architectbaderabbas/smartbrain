@@ -1,9 +1,9 @@
 {
- "decisions_scored": 44,
+ "decisions_scored": 45,
  "overall_hit_rate%": {
   "4h": 56,
   "12h": 54,
-  "24h": 20
+  "24h": 21
  },
  "per_asset_hit_rate%": {
   "GBP": {
@@ -24,16 +24,16 @@
   "CAD": {
    "4h": 75,
    "12h": 100,
-   "24h": 100
+   "24h": 75
   },
   "AUD": {
    "4h": 57,
    "12h": 83,
-   "24h": 50
+   "24h": 67
   }
  },
  "by_mind_state%": {
-  "calm": 46,
+  "calm": 45,
   "?": 77
  },
  "note": "hit = price moved in the direction of a bias with |bias|>=0.3 after the horizon; None = not enough data yet"
