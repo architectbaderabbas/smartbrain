@@ -1,11 +1,11 @@
 {
- "ts": 1787828656,
- "council_ts": 1787828656,
+ "ts": 1787829220,
+ "council_ts": 1787829220,
  "directives": {
-  "risk_mode": "normal",
+  "risk_mode": "caution",
   "risk_mult": 0.8,
   "regime": "mixed",
-  "conf": 0.25,
+  "conf": 0.3,
   "bias_USD": 0.0,
   "bias_EUR": 0.0,
   "bias_GBP": 0.0,
@@ -21,25 +21,20 @@
   "bias_US100": 0.0,
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
-  "allow_books": "SWING,POSITION,SHOCK,COUNCIL,REVERT",
-  "news_block": "USD:70:100",
+  "allow_books": "ALL",
+  "news_block": "USD:52:82",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "AUDUSD,AUDJPY",
-  "mind": "calm",
-  "psyche_flags": "none",
-  "intuition": "none",
-  "summary": "Markets frozen 27h pre-Warsh; all biases 0 except AUD 0.35",
-  "summary_ar": "",
+  "mind": "fearful",
+  "psyche_flags": "awareness,fear,prudence,intuition",
+  "intuition": "أشعر أن Warsh سيكون أكثر تشدداً من المتوقع، لكن هذا بعد يوم كامل – ننتظر",
+  "summary": "Cancelled false RUB shock (no evidence); AUD 0.35 (RBA hike bets), CAD -0.25 (trade talks collapsed); markets frozen pre-Warsh; caution 0.8x until Claims pass",
+  "summary_ar": "ألغينا shock كاذب على RUB (لا دليل)؛ AUD 0.35 (رهانات رفع RBA)، CAD -0.25 (المحادثات انهارت)؛ الأسواق متجمدة قبل Warsh؛ حذر 0.8x حتى تمر البطالة",
   "news_events": "none"
  },
  "error": null,
  "alerts": [
-  {
-   "ts": 1787616751,
-   "what": "KOSPI opens down 2.4% at 00:05 UTC; Asia risk-off spillover from overnight geopolitical/trade shock cascade",
-   "sev": 2
-  },
   {
    "ts": 1787673451,
    "what": "U.S. Consumer Confidence falls to 89.4 (lowest since January); home sales miss estimates—soft demand signal amid trade war/geopolitical stress",
@@ -83,6 +78,11 @@
   {
    "ts": 1787824802,
    "what": "Mexican peso hits record low 61.88/USD; currency crisis signal amid trade war/geopolitical stress",
+   "sev": 2
+  },
+  {
+   "ts": 1787829205,
+   "what": "Russian ruble plummeting amid new Ukraine war escalation fears; geopolitical shock pre-Jackson Hole",
    "sev": 2
   }
  ]
