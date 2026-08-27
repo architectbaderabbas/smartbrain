@@ -2,7 +2,7 @@
  "decisions_scored": 45,
  "overall_hit_rate%": {
   "4h": 53,
-  "12h": 60,
+  "12h": 62,
   "24h": 35
  },
  "per_asset_hit_rate%": {
@@ -22,14 +22,14 @@
    "24h": 25
   },
   "AUD": {
-   "4h": 59,
-   "12h": 86,
+   "4h": 57,
+   "12h": 88,
    "24h": 92
   }
  },
  "by_mind_state%": {
   "calm": 46,
-  "?": 74,
+  "?": 75,
   "fearful": 100
  },
  "note": "hit = price moved in the direction of a bias with |bias|>=0.3 after the horizon; None = not enough data yet"
