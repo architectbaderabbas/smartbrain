@@ -1,24 +1,5 @@
 # SmartBrain lessons (post-mortems on real trades, newest last)
 
-### 2026-08-19 19:20 UTC
-**UKOIL SHOCK SELL 0.01 lots · 1 min · exit TP · P/L 1.62$ · council bias 0.1 (CAUTION)**
-## POST-MORTEM ANALYSIS
-
-**TRADE SUMMARY:**
-SHOCK book sold UKOIL (Brent) at 91.966 (0.01 lots), held 1 minute, hit take-profit at 91.804 for +$1.62. Council-approved book (allow_books="COUNCIL,SHOCK") operating in CAUTION mode with +0.1 oil bias. **First SHOCK win after 3 consecutive losses** (-$1.72 USOIL, -$1.72 UKOIL, +$0.18 USOIL earlier today). SHOCK now 3 wins / 6 trades today, net -$0.87 (break-even after this win).
-
-**ALIGNMENT & BIAS ACCURACY:**
-SHOCK sold oil **aligned with council's +0.1 bias** (mildly bullish = expect pullbacks in uptrend to fade). Council bias was **directionally correct**: Brent at 91.936 now vs 91.966 entry confirms the dip-buy thesis (oil holding gains post-Treasury buyback, risk-on intact). The +0.1 bias signals "bullish but take quick profits on counter-moves" – SHOCK's 1-minute scalp captured exactly that: a 16.2-pip mean-reversion move in a bullish regime. **This was skill, not luck** – shock logic correctly identified micro-exhaustion in a macro uptrend.
-
-**ROOT CAUSE OF WIN:**
-Entry logic worked: SHOCK detected short-term volatility spike (likely news/algo flush) and faded it with tight TP (14.7 pips) in a bullish regime where dips get bought. The 1-minute hold suggests **genuine shock-reversion edge** vs earlier losses that hit SL (those were likely false signals in choppy, event-less periods). Root cause: **SHOCK's edge activates in genuine volatility events, not random noise** – this win came 2 hours after prior oil trades, suggesting fresh catalyst (check if any 19:06 UTC oil inventory/geopolitical headline). Stop placement (9 pips) and TP (14.7 pips) gave 1.6R – textbook risk/reward.
-
-**CONCRETE LESSON:**
-**"SHOCK's 50% win rate today (3/6) with break-even P/L proves edge exists but requires volatility catalyst – in CAUTION mode, SHOCK should only trade oil/indices within 15 minutes of scheduled data or confirmed headline, not on random price spikes."** The three losses likely came from trading noise as "shock"; the three wins came from real events. Operator should add **event-proximity filter**: SHOCK enabled only if (news_block active OR shock!="none" OR <15min since top-tier release).
-
-**DIRECTIVE CHANGE:**
-None. SHOCK is council-approved, risk_mult=0.6 appropriate for CAUTION mode, oil bias +0.1 remains valid (Brent holding 91.9 support,
-
 ### 2026-08-19 19:33 UTC
 **US500 SHOCK BUY 0.31 lots · 2 min · exit SL · P/L 0.95$ · council bias 0.2 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -309,4 +290,17 @@ INTRADAY اشترى EURNZD عند 1.96209 (0.01 لوت)، أُغلق بعد 131 
 **دخول أعمى في قمة نطاق راكد + جلسة آسيا بلا سيولة.** EURNZD تحرك 26.6 نقطة ضد الصفقة في ساعتين فقط (00:00-02:11 UTC = جلسة طوكيو الميتة)، ثم ارتد قليلاً بعد الخروج. **هذه الصفقة رقم 11 من SmartMulti في أسواق راكدة منذ 21 أغسطس**: INTRADAY الآن 1 فوز من 4 صفقات (-2.83$)، بينما الروبوت القديم other:0 حقق 3 أفواز من 3 (+2.16$) في نفس الفترة. **النمط صارخ**: INTRADAY يصطاد ستوبات في الضوضاء، لا في الإشارات.
 
 **4) الدرس
+
+### 2026-08-27 13:23 UTC
+**EURJPY SWING SELL 0.01 lots · 263 min · exit EA · P/L -1.29$ · council bias 0.13 (NORMAL)**
+# تحليل ما بعد الصفقة
+
+**1) ما فعله الروبوت:**
+SWING باع EURJPY عند 185.583 (0.01 لوت)، أُغلق بعد 263 دقيقة (4 ساعات وربع) عند 185.788 بخسارة -1.29$. الدخول 00:00 UTC، الخروج 04:23 UTC (إغلاق EA). السعر الآن 185.743 – أي الزوج ارتفع 20.5 نقطة ضد الصفقة ثم استقر قرب سعر الخروج.
+
+**2) التوافق مع توجه المجلس:**
+الصفقة **مخالفة** لتوجه المجلس: bias_EUR=0.25 (قوي بعد محاضر ECB المتشددة)، bias_JPY=0.0 (محايد) – المجلس يدعم شراء EUR لا بيعه. توجه المجلس **صحيح تماماً**: EUR قوي فعلاً (EURUSD ثابت فوق 1.165، EURJPY صاعد من 185.5 إلى 185.7)، والبيع كان **ضد الاتجاه الواضح**. SWING تجاهل bias_EUR=0.25 ودخل بيعاً في قاع نطاق صاعد.
+
+**3) السبب الجذري للخسارة:**
+**بيع عملة قوية في جلسة آسيا الميتة + تجاهل توجه المجلس الواضح.** EURJPY في اتجاه صاعد منذ يومين (من 185.0 إلى 185.7)، والبيع من 185.583 كان **ضد التيار**. الستوب 34.8 نقطة معقول، لكن الإشارة خاطئة أصلاً. **هذه الصفقة رقم 12 من SmartMulti في أسواق راكدة منذ 21 أغسطس**: SWING الآن 6 أفواز من 9 صفقات لكن صافي +0.93$ فقط (أرباح ضئيلة، خسائر كبيرة). النمط المتكرر: **SWING يبيع في قيعان ويشتري في قمم نطاقات
 
