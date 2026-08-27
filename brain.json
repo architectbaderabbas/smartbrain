@@ -1,15 +1,15 @@
 {
- "ts": 1787813999,
- "council_ts": 1787811298,
+ "ts": 1787814898,
+ "council_ts": 1787814898,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.8,
   "regime": "mixed",
-  "conf": 0.25,
+  "conf": 0.3,
   "bias_USD": 0.0,
   "bias_EUR": 0.2,
   "bias_GBP": 0.0,
-  "bias_JPY": 0.25,
+  "bias_JPY": 0.15,
   "bias_AUD": 0.35,
   "bias_NZD": 0.0,
   "bias_CAD": -0.25,
@@ -28,13 +28,12 @@
   "prefer_symbols": "AUDUSD,AUDJPY",
   "mind": "calm",
   "psyche_flags": "awareness,prudence",
-  "intuition": "none",
-  "summary": "AUD 0.35 (RBA hike bets+strong data), JPY 0.25 (Himino hawkish), CAD -0.25 (tariffs); markets frozen pre-Warsh (31.5h); normal 0.8x, conf 0.25",
-  "summary_ar": "AUD 0.35 (رهانات رفع RBA + بيانات قوية)، JPY 0.25 (Himino تشديدي)، CAD -0.25 (تعريفات)؛ الأسواق متجمدة قبل Warsh (31.5 ساعة)؛ عادي 0.8x، ثقة 0.25",
+  "intuition": "السوق يُخبّئ طاقة – Warsh سيُفجّرها؛ الحركة الأولى ستكون فخاً، الاتجاه الحقيقي عكس التوقعات",
+  "summary": "AUD 0.35 (RBA hike bets, awaiting price confirm), JPY 0.15 (Himino cautious), CAD -0.25 (trade talks collapsed); markets frozen pre-Warsh (30.75h); normal 0.8x, conf 0.3",
+  "summary_ar": "AUD 0.35 (رهانات رفع RBA، ننتظر تأكيد السعر)، JPY 0.15 (Himino حذر)، CAD -0.25 (انهيار المحادثات)؛ الأسواق متجمدة قبل Warsh (30.75 ساعة)؛ عادي 0.8x، ثقة 0.3",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787555775,
