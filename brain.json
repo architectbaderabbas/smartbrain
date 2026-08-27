@@ -1,5 +1,5 @@
 {
- "ts": 1787872127,
+ "ts": 1787873029,
  "council_ts": 1787871233,
  "directives": {
   "risk_mode": "normal",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "INTRADAY,SWING,COUNCIL,REVERT",
-  "news_block": "JPY:6:36;USD:876:936;CAD:786:866",
+  "news_block": "JPY:-9:21;USD:861:921;CAD:771:851",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",

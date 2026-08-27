@@ -1,12 +1,12 @@
-ts=1787872127
-generated=2026-08-27 23:08 UTC (watchman heartbeat; council 14 min ago)
+ts=1787873029
+generated=2026-08-27 23:23 UTC (watchman heartbeat; council 15 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.8
 regime=mixed
 conf=0.15
 allow_books=INTRADAY,SWING,COUNCIL,REVERT
-news_block=JPY:6:36;USD:876:936;CAD:786:866
+news_block=JPY:-9:21;USD:861:921;CAD:771:851
 block_symbols=none
 shock=none
 prefer_symbols=none
