@@ -1,11 +1,11 @@
 {
- "ts": 1787848730,
- "council_ts": 1787845843,
+ "ts": 1787849631,
+ "council_ts": 1787849631,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.8,
   "regime": "mixed",
-  "conf": 0.3,
+  "conf": 0.25,
   "bias_USD": 0.0,
   "bias_EUR": 0.2,
   "bias_GBP": 0.0,
@@ -22,19 +22,18 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "ALL",
-  "news_block": "USD:1262:1352",
+  "news_block": "USD:1200:1350",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "prudence",
+  "psyche_flags": "awareness,prudence",
   "intuition": "none",
-  "summary": "Markets frozen 22h pre-Warsh; EUR 0.2 (ECB hawkish minutes), AUD 0.35 (RBA hike bets), US100 0.2 (Nvidia); CAD -0.25 (trade dispute); normal 0.8x",
-  "summary_ar": "الأسواق متجمدة 22 ساعة قبل Warsh؛ EUR 0.2 (محاضر ECB متشددة)، AUD 0.35 (رهانات رفع RBA)، US100 0.2 (Nvidia)؛ CAD -0.25 (نزاع تجاري)؛ عادي 0.8x",
+  "summary": "Markets frozen 21h pre-Warsh; EUR 0.2 (ECB hawkish), AUD 0.35 (RBA hike bets), US100 0.2 (Nvidia); CAD -0.25; normal 0.8x, conf 0.25 (low scorecard)",
+  "summary_ar": "الأسواق متجمدة 21 ساعة قبل Warsh؛ EUR 0.2 (ECB متشدد)، AUD 0.35 (رهانات رفع RBA)، US100 0.2 (Nvidia)؛ CAD -0.25؛ عادي 0.8x، ثقة 0.25 (scorecard ضعيف)",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787673451,
