@@ -1,5 +1,5 @@
-ts=1787825473
-generated=2026-08-27 10:11 UTC (watchman heartbeat; council 10 min ago)
+ts=1787825700
+generated=2026-08-27 10:15 UTC (watchman heartbeat; council 3 min ago)
 version=1
 risk_mode=normal
 risk_mult=1.0
@@ -31,4 +31,4 @@ mind=calm
 psyche_flags=none
 intuition=none
 news_events=none
-watchman=صفقة EURNZD INTRADAY -1.57$ ← تحليل مكتوب
+watchman=quiet (sev0)

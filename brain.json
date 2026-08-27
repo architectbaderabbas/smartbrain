@@ -1,5 +1,5 @@
 {
- "ts": 1787825473,
+ "ts": 1787825700,
  "council_ts": 1787824818,
  "directives": {
   "risk_mode": "normal",
@@ -34,7 +34,7 @@
   "news_events": "none"
  },
  "error": null,
- "watchman": "صفقة EURNZD INTRADAY -1.57$ ← تحليل مكتوب",
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787616751,
