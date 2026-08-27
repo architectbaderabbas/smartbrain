@@ -1,12 +1,12 @@
-ts=1787833836
-generated=2026-08-27 12:30 UTC (watchman heartbeat; council 6 min ago)
+ts=1787834341
+generated=2026-08-27 12:39 UTC (watchman heartbeat; council 8 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.9
 regime=mixed
 conf=0.35
 allow_books=ALL
-news_block=USD:-26:4
+news_block=USD:-34:-4
 block_symbols=none
 shock=none
 prefer_symbols=AUDUSD,AUDJPY
