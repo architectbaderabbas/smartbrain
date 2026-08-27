@@ -1,5 +1,5 @@
 {
- "ts": 1787829220,
+ "ts": 1787829328,
  "council_ts": 1787829220,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "ALL",
-  "news_block": "USD:52:82",
+  "news_block": "USD:51:81",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "AUDUSD,AUDJPY",
@@ -34,6 +34,7 @@
   "news_events": "none"
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787673451,
