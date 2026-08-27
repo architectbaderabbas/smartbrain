@@ -269,8 +269,41 @@ def read_trades(n=25):
             # old standalone robot, deleted 2026-08-19/20; its record must NOT be charged
             # against the new council-aware SmartMulti books of the same name
             t["book"] = b + "-OLD(retired robot, do not count against the new book)"
+        elif b.startswith("other:"):
+            # v12.52 fix: before that build the CLOSING deal carried the book magic, and an EA/guard
+            # close (or a manual close) left it at 0 -> the trade was filed as "other:N".
+            # These are OUR robot's trades with a lost label, NOT external or manual trades.
+            t["book"] = "ROBOT-UNTAGGED(our robot; label lost on close - pre-v12.52 bug)"
         out.append(t)
     return out
+
+def full_book_audit():
+    """Per-book audit over the WHOLE journal (old + new), so the council judges books on
+    complete corrected data instead of the last few trades."""
+    p = os.path.join(OUT_DIR, "trades.json")
+    try: raw = json.load(open(p, encoding="utf-8"))
+    except Exception: return {}
+    era = {"since_merge": {}, "before_merge": {}}
+    for t in raw:
+        ts = int(t.get("ts", 0) or 0) or int(t.get("t_out", 0) or 0)
+        b  = t.get("book", "?") or "?"
+        if b.startswith("other:"): b = "ROBOT-UNTAGGED"
+        k = "since_merge" if ts >= MERGE_TS else "before_merge"
+        s = era[k].setdefault(b, {"trades": 0, "wins": 0, "net": 0.0, "sl_hits": 0, "ea_exits": 0, "avg_min": 0})
+        pl = float(t.get("pl", 0) or 0)
+        s["trades"] += 1; s["net"] = round(s["net"] + pl, 2)
+        if pl >= 0: s["wins"] += 1
+        if t.get("reason") == "SL": s["sl_hits"] += 1
+        if t.get("reason") == "EA": s["ea_exits"] += 1
+        s["avg_min"] += int(t.get("mins", 0) or 0)
+    for k in era:
+        for b, s in era[k].items():
+            s["avg_min"] = round(s["avg_min"] / s["trades"]) if s["trades"] else 0
+            s["hit_rate%"] = round(100 * s["wins"] / s["trades"]) if s["trades"] else None
+    era["note"] = ("since_merge = the current SmartMulti books (from 2026-08-20). before_merge = the retired "
+                   "standalone robots. ROBOT-UNTAGGED = our own robot's trades whose book label was lost by the "
+                   "pre-v12.52 closing-magic bug: count them as robot performance, never as manual/external trades.")
+    return era
 
 def trade_stats(trades):
     """Per-book stats over the journal: trades, wins, net, avg minutes, against-bias count."""
@@ -453,6 +486,11 @@ Rules for the directives:
    Remove a book ONLY for a concrete current reason stated in the debate (e.g. losses of THAT book since 2026-08-20, or a
    regime it is known to fail in). NEVER remove REVERT or INTRADAY because of trades tagged "-OLD(retired robot...)" — those
    belong to deleted standalone robots, not to the current council-aware books, whose record starts fresh on 2026-08-20.
+   Judge every book from the FULL BOOK AUDIT section (all trades, corrected labels) — not from the last handful of trades.
+ - Trades labelled "ROBOT-UNTAGGED" are OUR robot's own trades whose book label was lost by a reporting bug fixed in
+   v12.52 (the closing deal carried magic 0 when the guard/time-stop closed the position). Count them as robot
+   performance when judging how the machine is doing, but do NOT charge them to any single book, and never treat them
+   as manual or external trades.
  - IMPORTANT: a COUNCIL book opens a real trade (0.5% risk, price-confirmed, max 1/day/symbol, max 2 open) whenever
    conf >= 0.45 AND |bias| >= 0.35 on a symbol. Give such a bias when fresh, concrete evidence supports a move that should
    persist for the next 4-12 hours; the robot still demands price confirmation before entering. Prefer fewer, stronger calls
@@ -495,6 +533,7 @@ def council(calendar, headlines, prev, prices=None, playbook="", official=None, 
     user += "\n\n## HISTORICAL PLAYBOOK (for the Market Historian)\n" + (playbook or "")
     user += "\n\n## SCORECARD (how accurate our past calls were; use it to weight voices and calibrate confidence)\n" + json.dumps(scorecard or {}, ensure_ascii=False)[:4000]
     user += "\n\n## ACCOUNT STATE (live report from the robots, if available)\n" + json.dumps(account or {}, ensure_ascii=False)[:3000]
+    user += "\n\n## FULL BOOK AUDIT (EVERY closed trade we have, corrected labels, split old robots vs current books)\n" + json.dumps(full_book_audit(), ensure_ascii=False)[:4000]
     user += "\n\n## TRADE JOURNAL (last real closed trades, oldest -> newest) + PER-BOOK STATS\n" + json.dumps(trades or [], ensure_ascii=False)[:5000] + "\n" + json.dumps(trade_stats(trades or []), ensure_ascii=False)
     user += "\n\n## LESSONS (post-mortems on our real trades; apply the ones relevant now)\n" + (lessons or "")
     user += "\n\n## DECISION MEMORY (our last decisions, oldest -> newest; compare with PRICE CONTEXT chg_1d/5d)\n" + decision_memory(prices)
