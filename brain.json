@@ -1,5 +1,5 @@
 {
- "ts": 1787918039,
+ "ts": 1787918930,
  "council_ts": 1787918039,
  "directives": {
   "risk_mode": "normal",
@@ -22,7 +22,7 @@
   "bias_US30": 0.1,
   "bias_GER40": 0.1,
   "allow_books": "INTRADAY,SWING,POSITION,SHOCK,COUNCIL,REVERT",
-  "news_block": "CAD:20:50;USD:110:150",
+  "news_block": "CAD:6:36;USD:96:136",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
@@ -34,6 +34,7 @@
   "news_events": "CAD:1787920200:GDP_mm;USD:1787925600:Fed_Chairman_Warsh_Speaks;USD:1787925600:Prelim_Benchmark_Payrolls_Revision"
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787695950,
