@@ -1,6 +1,6 @@
 {
- "ts": 1787878429,
- "council_ts": 1787874836,
+ "ts": 1787879102,
+ "council_ts": 1787879102,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.6,
@@ -22,19 +22,18 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "INTRADAY,SWING,COUNCIL,REVERT",
-  "news_block": "USD:788:848;CAD:698:778",
+  "news_block": "USD:764:824;CAD:674:754",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "none",
-  "intuition": "none",
-  "summary": "Markets frozen 14h pre-Warsh; Tokyo CPI 1.8% no surprise (JPY 0.0); AUD 0.1 (fading at 0.72 resistance); EUR 0.2 (ECB hawkish); US100 0.2 (Nvidia); CAD -0.25; risk_mult cut to 0.6 (SmartMulti losing i",
-  "summary_ar": "الأسواق متجمدة 14 ساعة قبل Warsh؛ CPI طوكيو 1.8% لا مفاجأة (JPY 0.0)؛ AUD 0.1 (يتلاشى عند مقاومة 0.72)؛ EUR 0.2 (ECB متشدد)؛ US100 0.2 (",
+  "psyche_flags": "intuition",
+  "intuition": "أشعر أن AUD سيتراجع من 0.72 بعد Warsh إذا لم يكن حمائمياً جداً – المقاومة قوية والزخم ميت",
+  "summary": "Markets frozen 13h pre-Warsh; EUR 0.2 (ECB hawkish), AUD 0.1 (stalled at 0.72 resistance), US100 0.2 (Nvidia); CAD -0.25; risk_mult 0.6; conf 0.15",
+  "summary_ar": "الأسواق متجمدة 13 ساعة قبل Warsh؛ EUR 0.2 (ECB متشدد)، AUD 0.1 (متوقف عند مقاومة 0.72)، US100 0.2 (Nvidia)؛ CAD -0.25؛ risk_mult 0.6؛ conf 0.15",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787673451,

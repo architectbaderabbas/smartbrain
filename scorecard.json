@@ -2,7 +2,7 @@
  "decisions_scored": 45,
  "overall_hit_rate%": {
   "4h": 53,
-  "12h": 62,
+  "12h": 63,
   "24h": 35
  },
  "per_asset_hit_rate%": {
@@ -22,13 +22,13 @@
    "24h": 25
   },
   "AUD": {
-   "4h": 57,
-   "12h": 88,
+   "4h": 58,
+   "12h": 89,
    "24h": 92
   }
  },
  "by_mind_state%": {
-  "calm": 46,
+  "calm": 47,
   "?": 75,
   "fearful": 100
  },
