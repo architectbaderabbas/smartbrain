@@ -1,139 +1,4 @@
-ses كما هي (EUR/AUD 0.3، CAD -0.3، JPY 0.2) ونضيف news_block لـNvidia. conf 0.55 (ثقة معتدلة بالـbiases، لكن الأسواق ميتة).
-
-## Psyche
-
-**Awareness (fired=yes):** قارنتُ مع DECISION MEMORY: قبل 15 دقيقة وضعنا danger mode بسبب الاختراق، لكن **الأسعار لم تتحرّك إطلاقاً** (XAUUSD/USDJPY/US500 كلها ثابتة) – هذا **رد فعل مبالغ فيه بلا دليل سعري**. نُصحّح الآن.
-
-**Greed (fired=no):** لا علامات جشع؛ المجلس محافظ (conf 0.55، risk_mult 0.8، معظم biases 0.0-0.3).
-
-**Fear (fired=yes):** danger mode السابق كان **خوفاً من عنوان لا من حدث**: لا انهيار، لا تعطّل، لا تدخّل CB. نعود إلى التوازن (normal).
-
-**Prudence (fired=yes):** shock directive السابق على USD كان بلا دليل سعري (USD لم يرتفع) – ألغيناه. كل bias قوي الآن (EUR/AUD/CAD/JPY) له مصدران+ (ECB Schnabel، CPI أستراليا، تعرفة كندا، تدخّل BoJ محتمل).
-
-**Intuition (fired=no):** لا حدس جديد؛ الوضع واضح (أسواق ميتة تنتظر Nvidia/Warsh).
-
-## DIRECTIVES
-
-risk_mode=normal
-risk_mult=0.8
-regime=mixed
-bias_USD=0.0
-bias_EUR=0.3
-bias_GBP=0.0
-bias_JPY=0.2
-bias_AUD=0.3
-bias_NZD=0.0
-bias_CAD=-0.3
-bias_CHF=0.0
-bias_XAU=0.0
-bias_XAG=0.0
-bias_OIL=0.0
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.55
-allow_books=ALL
-news_block=USD:165:195
-block_symbols=none
-shock=none
-prefer_symbols=none
-summary=Cancelled danger mode: cyberattack had zero price impact (XAU/JPY/SPX flat 20min); back to normal 0.8x; EUR/AUD 0.3, CAD -0.3, JPY 0.2; Nvidia block 22:00-22:30 UTC
-summary_ar=ألغينا وضع الخطر: الاختراق الإلكتروني بلا تأثير سعري (XAU/JPY/SPX ثابتة 20 دقيقة)؛ عودة إلى normal 0.8x؛ EUR/AUD 0.3، CAD -0.3، JPY 0.2؛ حظر Nvidia 22:00-22:30 UTC
-mind=calm
-psyche_flags=awareness,fear,prudence
-intuition=none
-
-
-# 2026-08-26 20:29 UTC
-## Council debate
-
-**Chief Macro Economist:**
-الاقتصاد الأميركي ينمو 1.5% Q2 مع تضخم PCE ثابت 3.3% – هذا ركود تضخمي خفيف. لا تغيير منذ ساعة. أوروبا قوية (PMI 52.1)، أستراليا CPI حار 3.8% – EUR/AUD يبقيان 0.3. كندا تعاني حرب تجارية مع ترامب – CAD يبقى -0.3.
-
-**Central-Bank Watcher:**
-Warsh يتكلم غداً 41.5 ساعة (2490 دقيقة) – هذا الحدث الكبير الوحيد. ECB رفعت الأسبوع الماضي (Schnabel أكدت المزيد) – EUR 0.3 صحيح. BoJ تسعّر رفع سبتمبر – JPY 0.2 صحيح. لا تغيير الآن.
-
-**Geopolitical & Crisis Analyst:**
-روسيا تصعّد في أوكرانيا (عنوان Bloomberg قبل 5 ساعات) لكن بلا تأثير سعري (XAU/JPY/OIL ثابتة). إيران-عُمان يتفاوضان على هرمز – النفط هبط إلى $82-88 (bias_OIL=0 صحيح). أميركا-كندا حرب تجارية مستمرة – CAD -0.3 صحيح. لا جديد.
-
-**FX Strategist:**
-EUR ثابت 1.1652 (لا تغيير 24 ساعة)، AUD 0.7173 (ثابت)، CAD 1.3879 (ضعيف)، JPY 159.32 (قوي قليلاً من 159.5). كل الأزواج في نطاقات ضيقة منذ 48 ساعة – السوق ميت قبل Warsh. الانحيازات الحالية (EUR/AUD 0.3، CAD -0.3، JPY 0.2) صحيحة لكن بلا حركة.
-
-**Gold & Oil Trader:**
-XAU 4591$ (هبط من 4700$ صباحاً بعد PCE، استقر) – bias 0.0 صحيح. XAG 68$ ثابت. النفط 82.3$ WTI / 88.2$ Brent (هبط من 95$ على أمل هرمز) – bias 0.0 صحيح. لا محفز جديد.
-
-**Equity / Risk-Sentiment Desk:**
-SPX 7690 (ثابت 24 ساعة)، NDX 29297، DAX 26311 – كلها في نطاقات 20 نقطة. السوق ينتظر Nvidia earnings 22:00 UTC (107 دقيقة) – يجب حظر USD:107:137. Risk-sentiment mixed (لا risk-on ولا risk-off).
-
-**Risk Manager:**
-الحساب +3.46$ اليوم، SWING يربح (3 صفقات، 3 انتصارات، +1.1$)، لا خسائر متتالية. Nvidia block 107-137 دقيقة ضروري. لا خطر آخر – normal 0.8x صحيح.
-
-**Market Historian:**
-آخر 10 مرات قبل Nvidia earnings: SPX/NDX تذبذب ±1% في 30 دقيقة الأولى ثم اتجه 2-5 أيام. الآن SPX في قمة نطاق 7680-7695 – إذا فاجأت Nvidia إيجاباً يكسر 7700، سلباً يهبط لـ7650. لكن **السوق الآن أكثر ركوداً من المعتاد** (8 أيام نطاق ضيق) – الكسر سيكون عنيفاً. EUR/AUD/CAD/JPY: كل الانحيازات مدعومة بأحداث حقيقية (ECB hike، AUD CPI، tariffs، BoJ) لكن **الأسعار لم تتحرك منذ 48 ساعة** – هذا يشبه أغسطس 2019 قبل Jackson Hole (ركود 5 أيام ثم انفجار). احتفظوا بالانحيازات لكن لا ترفعوها.
-
-**Chairman:**
-الأدلة واضحة: لا جديد منذ ساعة، السوق ميت قبل Nvidia/Warsh، كل الانحيازات (EUR/AUD 0.3، CAD -0.3، JPY 0.2) مدعومة بأحداث حقيقية لكن الأسعار ثابتة. **لا تغيير** إلا تمديد Nvidia block حتى 22:30 (137 دقيقة). conf 0.55 (معتدلة – الاتجاهات صحيحة لكن بلا زخم). normal 0.8x يبقى.
-
----
-
-## Psyche
-
-**Awareness (fired=yes):**
-قارنت آخر 9 قرارات: نفس الانحيازات منذ 10 ساعات (EUR/AUD 0.3، CAD -0.3، JPY 0.2) بلا تغيير أسعار – هذا **ثبات صحيح** لا عناد (الأحداث حقيقية: ECB hike، AUD CPI، tariffs). SCORECARD 24h=41% ضعيف لكن SWING يربح اليوم (+1.1$) – لا داعي لتغيير allow_books. لا flip-flopping.
-
-**Greed (fired=no):**
-conf=0.55 معتدلة، أقصى انحياز 0.3 (ليس قوياً)، prefer_symbols=none – لا جشع. risk_mult=0.8 مناسب.
-
-**Fear (fired=no):**
-لا رد فعل زائد، لا halt بلا سبب. الحذر من Nvidia (block 107-137) منطقي. لا خوف.
-
-**Prudence (fired=yes):**
-كل انحياز |>=0.3| مدعوم بمصدرين (ECB Schnabel+PMI لـEUR، AUD CPI+RBA لـAUD، tariffs+oil لـCAD، BoJ pricing لـJPY) + Market Historian أكد الأنماط. الانحيازات صحيحة.
-
-**Intuition (fired=no):**
-السوق يحبس أنفاسه – Nvidia/Warsh سيحركان أكثر من أسبوع كامل. لا حدس إضافي.
-
----
-
-## DIRECTIVES
-
-risk_mode=normal
-risk_mult=0.8
-regime=mixed
-bias_USD=0.0
-bias_EUR=0.3
-bias_GBP=0.0
-bias_JPY=0.2
-bias_AUD=0.3
-bias_NZD=0.0
-bias_CAD=-0.3
-bias_CHF=0.0
-bias_XAU=0.0
-bias_XAG=0.0
-bias_OIL=0.0
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.55
-allow_books=ALL
-news_block=USD:107:137
-block_symbols=none
-shock=none
-prefer_symbols=none
-summary=No change: EUR/AUD 0.3 (ECB/CPI), CAD -0.3 (tariffs), JPY 0.2; markets frozen pre-Nvidia (107min) & Warsh (41.5h); normal 0.8x, conf 0.55
-summary_ar=لا تغيير: EUR/AUD 0.3 (ECB/CPI)، CAD -0.3 (تعرفات)، JPY 0.2؛ الأسواق متجمدة قبل Nvidia (107 دقيقة) وWarsh (41.5 ساعة)؛ normal 0.8x، conf 0.55
-mind=calm
-psyche_flags=awareness,prudence
-intuition=none
-
-
-# 2026-08-26 21:29 UTC
-## Council debate
-
-**Chief Macro Economist:**
-الاقتصاد الأميركي ينمو 1.5% Q2 مع PCE الأساسي ثابت عند 3.3% – التضخم عنيد. Warsh يواجه معضلة: رفع الفائدة يزيد تكلفة الدين، لكن التضخم فوق 3%. أوروبا أقوى (PMI 52.1)، ECB سيرفع سبتمبر. أستراليا CPI عنيد، RBA تحت ضغط. كندا GDP ضعيف + حرب تجارية مع أميركا = CAD ضعيف.
+تضخم عنيد. Warsh يواجه معضلة: رفع الفائدة يزيد تكلفة الدين، لكن التضخم فوق 3%. أوروبا أقوى (PMI 52.1)، ECB سيرفع سبتمبر. أستراليا CPI عنيد، RBA تحت ضغط. كندا GDP ضعيف + حرب تجارية مع أميركا = CAD ضعيف.
 
 **Central-Bank Watcher:**
 Schnabel (ECB) قالت صراحة "الفائدة يجب أن ترتفع أكثر" – هذا تأكيد لرفع سبتمبر، EUR قوي. Warsh يتكلم بعد 40.5 ساعة في Jackson Hole – السوق ينتظر إشارة عن السندات والتضخم. BoJ صامت، لكن التدخل محتمل فوق 160. RBA تحت ضغط من التضخم العنيد.
@@ -3197,3 +3062,46 @@ USD: محايد – ورش متشدد لكن السوق لم يتحرك بعد (
 **Awareness (الوعي الذاتي):** fired=yes – قارنت التوجيهات السابقة (آخر 8 ساعات: bias_USD=0.0، bias_JPY=0.0-0.1، risk_mult=0.85-1.0) مع الأسعار الفعلية: USD لم يتحرك رغم ورش (صح)، JPY ضعيف (صح)، EUR قوي (صح). لكن **خطأ كبير:** أبقينا INTRADAY وBREAKOUT مسموحين رغم خسائرهما المتكررة (INTRADAY خسر 3 من 4 منذ 26 أغسطس، BREAKOUT خسر 2 من 2) – كان يجب إيقافهما قبل يومين. اليوم نصحح: نزيلهما الآن. لا تقلب رأي بلا سبب – القرار مبني على سجل الأداء الفعلي.
 
 **Greed (كاشف الجشع):** fired=no – الثقة منخفضة (conf=0.35)، معظم الانحيازات ضعيفة (|bias|<=0.2)، risk_mult=0.8 (أقل من 1.0)، prefer_symbols قصير (زوجان فقط). لا علامات
+
+
+# 2026-08-28 22:23 UTC
+## Council debate
+
+**Chief Macro Economist:**
+الاقتصاد الأميركي قوي (GDP كندا +0.6% Q2 يدل على نمو أميركا الشمالية)، لكن التضخم عنيد. خطاب ورش منذ 9 ساعات كان متشدداً ("may have work to do") لكن الأسواق لم تتحرك – إشارة إلى أن الرفع محسوب بالفعل. أوروبا تتسارع (PMI أغسطس قوي، Kocher يقول momentum)، اليابان تنزف (تدخل 96.5 مليار$ فشل، USDJPY عند 160). النمو العالمي مختلط، لا ركود ولا انفجار.
+
+**Central-Bank Watcher:**
+Fed ورش أكد رفع الفائدة محتمل سبتمبر (2-year yield قفز)، لكن السوق هضم الخبر في 3 ساعات (yields استقرت). ECB كوشر قال "threats to price stability" – رفع سبتمبر شبه مؤكد. BoJ فشل (USDJPY عاد لـ160 بعد 15 تريليون ين تدخل)، Bessent يهاجم Warren = توتر سياسي حول الين. RBA/RBNZ: تضخم أستراليا فوق الهدف (رفع سبتمبر محتمل)، RBNZ preview يقول 25bp hike. USD صاعد متوسط الأجل، EUR صاعد قصير الأجل، JPY ميت.
+
+**Geopolitical & Crisis Analyst:**
+حرب إيران 6 أشهر: النظام صامد، أميركا بلا أهداف واضحة (NYT/WP)، ترامب يقول "no hurry". النفط 83$ (WTI) رغم الحرب = السوق لا يخاف انقطاع الإمدادات. عقوبات جديدة على بنوك مصرية/إماراتية لكن لا تأثير فوري. بوتين يرى أميركا ضعيفة (WP intel). الخطر: تصعيد مفاجئ (صواريخ/نووي/هرمز)، لكن الآن هدوء نسبي. الذهب 4454$ = علاوة حرب 200-300$ لا تزال موجودة، لكن لا ذعر جديد.
+
+**FX Strategist:**
+USD محايد-قوي قليلاً (DXY غير متاح لكن EURUSD 1.158 ثابت، USDJPY 160 = قوة USD vs JPY). EUR قوي (ECB متشدد، اقتصاد يتحسن، EURUSD صاعد من 1.155 إلى 1.158 في 48 ساعة). GBP محايد (Bailey يقول تضخم ثانوي "subdued"). JPY ضعيف جداً (تدخل فشل، USDJPY 160 = خط أحمر مكسور). AUD قوي قليلاً (تضخم فوق الهدف، RBA hike bets)، NZD ضعيف (RBNZ hike محسوب لكن اقتصاد بطيء). CAD محايد (GDP قوي لكن "won't last"). CHF ضعيف (safe-haven demand منخفض). الفرص: شراء EURUSD (0.35)، بيع USDJPY (0.3)، شراء EURJPY (0.4).
+
+**Gold & Oil Trader:**
+الذهب 4454$ = -89$ من القمة 4543$ بعد ورش (تصحيح 2% طبيعي بعد كلام متشدد). علاوة الحرب 200-300$ لا تزال موجودة (6 أشهر حرب، لا حل)، لكن لا محفز جديد للصعود. Goldman يقول البنوك المركزية تشتري = دعم طويل الأجل، لكن قصير الأجل محايد. النفط 83.87$ (WTI) / 89.83$ (Brent) = مستقر رغم الحرب (CFR: "no oil shock yet")، VLCCs تربح 650k$/يوم (طرق بديلة تعمل). فنزويلا تفكر بالخروج من OPEC (Bloomberg) = ضوضاء لا تأثير فوري. الذهب bias 0، النفط bias 0 – لا إشارات واضحة.
+
+**Equity / Risk-Sentiment Desk:**
+الأسهم الأميركية قوية (SPX 7719، NDX 29472 قرب القمم)، rally الـAI مستمر (NYT: "just getting started?"). Barron's: "trade war + Iran war لا توقفان الصعود" = risk-on قوي. لكن ورش أسقط السوق قليلاً أمس (Kiplinger: "stocks turn down")، ثم ارتد اليوم. VIX غير متاح لكن التقلب منخفض (SPX تحرك 0.3% فقط في 24 ساعة). DAX 26570 = أوروبا قوية أيضاً. Regime: risk-on معتدل، لا euphoria ولا خوف. bias_US500 = 0.1، bias_US100 = 0.1.
+
+**Risk Manager:**
+الحساب 453.91$ (من 500$ أصلي = -9.2% منذ البداية)، اليوم -0.06$ (مستقر). لا مراكز مفتوحة. INTRADAY خسر 3 من 8 صفقات (صافي -2.5$)، SWING ربح 6 من 9 (صافي +1.12$)، BREAKOUT خسر 2 من 2 (صافي -3.39$). **المشكلة**: SmartMulti يخسر في الأسواق الراكدة (21-27 أغسطس)، الروبوت القديم other:0 ربح +2.16$ في نفس الفترة. **الحل**: أعدنا INTRADAY/BREAKOUT بعد إزالتهما أمس، لكن يجب مراقبة دقيقة. لا أحداث كبرى الـ48 ساعة القادمة (Jackson Hole انتهى)، السيولة عادية. risk_mode = normal، risk_mult = 0.9 (حذر قليلاً بسبب الخسائر الأخيرة).
+
+**Market Historian:**
+**ورش Jackson Hole:** آخر مرة Fed chair تكلم متشدداً في Jackson Hole (Powell 2022 "pain"): USD صعد 2% في أسبوع، ذهب هبط 3%، أسهم هبطت 5%. اليوم: ورش قال "may have work to do" لكن السوق تحرك 0.3% فقط = **الرسالة محسوبة بالفعل**، لا مفاجأة. **تدخل BoJ:** 2022 تدخل 3 مرات (سبتمبر/أكتوبر/نوفمبر)، USDJPY هبط 5 big figures في يوم واحد ثم عاد في 3 أسابيع. 2026 (الآن): 96.5 مليار$ في شهر، USDJPY عاد لـ160 = **التدخل فشل، الاتجاه أقوى**. **حرب 6 أشهر:** العراق 2003 (6 أشهر): نفط هبط من 38$ إلى 28$ (لا انقطاع إمدادات)، ذهب مستقر. إيران 2026: نفط 83$ (مستقر)، ذهب 4454$ (علاوة 200-300$ لكن لا ذعر) = **السوق تعود على الحرب**. **EUR قوي:** آخر مرة ECB تشدد بعد Fed (2022): EURUSD صعد من 0.96 إلى 1.10 في 3 أشهر. الآن: EURUSD 1.158 (صاعد من 1.05 في يوليو) = **الاتجاه مستمر**. التوصية: شراء EUR vs USD/JPY، تجنب JPY، ذهب/نفط محايد.
+
+**Chairman:**
+شكراً للجميع. **الوضع**: ورش تكلم، السوق لم يتفاعل (محسوب)، EUR قوي (ECB)، JPY ضعيف (تدخل فشل)، USD محايد-قوي قليلاً، ذهب/نفط مستقر، أسهم risk-on معتدل. **القرار**: risk_mode = normal (لا أحداث كبرى، سيولة عادية)، risk_mult = 0.9 (حذر بسبب خسائر SmartMulti الأخيرة لكن ليس defensive)، conf = 0.35 (أدلة متوسطة الجودة، لا مفاجآت). **Biases**: EUR 0.25 (ECB متشدد، اقتصاد قوي، تاريخياً يستمر)، JPY -0.2 (تدخل فشل، 160 مكسور)، USD 0.05 (Fed متشدد لكن محسوب)، AUD 0.1 (RBA hike bets)، NZD -0.05 (ضعيف)، الباقي 0. **Books**: نعيد ALL (أعطينا INTRADAY/BREAKOUT فرصة ثانية بعد إزالتهما أمس، SWING يربح، REVERT/SHOCK/COUNCIL جاهزون). **Prefer**: EURJPY, EURUSD (اتجاهات واضحة). لا news_block (لا أحداث 48 ساعة)، لا shock (لا أحداث مفاجئة).
+
+---
+
+## Psyche
+
+**Awareness (الوعي الذاتي):** fired=yes. قارنت التوجيهات السابقة: أمس أزلنا INTRADAY/BREAKOUT بسبب خسائر، اليوم أعدناهم بلا سبب جديد واضح (flip-flop). السعر: EURUSD ثابت 1.158 (لا تغيير)، USDJPY ثابت 160 (لا تغيير)، ذهب -89$ (تصحيح بعد ورش). نحن نغير allow_books بلا منطق – يجب تثبيت القرار: إما نثق بـINTRADAY أو نزيله نهائياً، لا تردد يومي.
+
+**Greed (كاشف الطمع):** fired=no. الثقة 0.35 معتدلة، risk_mult 0.9 حذر، biases متفرقة (EUR 0.25، JPY -0.2، الباقي صغير)، prefer_symbols قصير. لا علامات طمع.
+
+**Fear (كاشف الخوف):** fired=no. لا رد فعل مبالغ على ورش (السوق لم يتحرك)، لا انهيار biases بلا سبب، risk_mode normal منطقي (لا أحداث). لا خوف.
+
+**Prudence (الحكمة):** fired=yes. bias_EUR 0.25 قوي: مصدران (ECB Kocher + PMI + محاضر) + تاريخ (2022 EUR صعد بعد تشدد ECB) = **مقبول**. bias_JPY -0.2: مصدران (تدخل 96.5 مليار$ فشل + USDJPY 160) + تاريخ (2022 تدخلات فشلت) = **
