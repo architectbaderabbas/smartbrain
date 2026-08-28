@@ -1,91 +1,4 @@
-CK,COUNCIL,REVERT,INTRADAY
-news_block=USD:89:149
-block_symbols=none
-shock=none
-prefer_symbols=EURCAD,AUDCAD
-summary=Raised AUD to 0.3 on hot CPI (delayed 15h); EUR 0.3 (ECB hike), CAD -0.3 (tariffs+oil), JPY 0.2; await PCE 12:30; normal 0.9x
-summary_ar=رفعنا AUD إلى 0.3 على CPI الحار (تأخرنا 15 ساعة)؛ EUR 0.3 (رفع ECB)، CAD -0.3 (تعرفة+نفط)، JPY 0.2؛ ننتظر PCE 12:30؛ normal 0.9x
-mind=calm
-psyche_flags=awareness,fear,prudence
-intuition=الذهب قرب قمة 3 أشهر – إذا PCE حار يهبط إلى 4580$، إذا ضعيف يخترق 4650$
-
-
-# 2026-08-26 11:59 UTC
-## Council debate
-
-**Chief Macro Economist:** PCE بعد 30 دقيقة – التوقعات 0.2% شهري (أعلى من 0.1% السابق)، GDP 1.5% كما متوقع. الاقتصاد الأميركي يتباطأ لكن التضخم لا يزال عنيد. EUR قوي على تأكيد رفع ECB سبتمبر، AUD قوي على CPI الحار 3.5% (أعلى من 3.0%)، CAD ضعيف على تعرفة 50% الكندية + نفط هابط.
-
-**Central-Bank Watcher:** Schnabel (ECB) قالت صباحاً "يجب رفع الفائدة أكثر لمنع آثار الجولة الثانية" – هذا يؤكد رفع سبتمبر ويفتح باب أكتوبر. RBA الآن تحت ضغط للرفع بعد CPI 3.5%. Fed ينتظر PCE – إذا جاء 0.2% أو أعلى، Warsh في Jackson Hole غداً سيكون متشدداً. JPY يستفيد من رهانات رفع BoJ.
-
-**Geopolitical & Crisis Analyst:** إيران-عُمان يحضّران اتفاق هرمز (CNBC 06:46) – الحرب تتحول من ضربات إلى عقوبات (Rubio). حرب تجارية أميركا-كندا تصاعدت (تعرفة 50%) لكن الأسواق تجاهلتها تماماً. لا صدمات جديدة منذ 24 ساعة.
-
-**FX Strategist:** EUR أقوى عملة (ECB متشدد)، AUD ثاني أقوى (RBA سيرفع)، CAD أضعف عملة (تعرفة+نفط -3% منذ أمس). USD محايد قبل PCE. JPY قوي على رهانات BoJ لكن USDJPY عالق عند 159. GBP/NZD/CHF بلا محفزات – نطاقات ضيقة.
-
-**Gold & Oil Trader:** ذهب 4624$ قرب قمة 3 أشهر لكن **راكد منذ 48 ساعة** (نطاق 4610-4630). اتفاق هرمز يُذيب علاوة الحرب – نفط هبط من 84$ إلى 81$ في يومين. إذا PCE حار، ذهب يهبط إلى 4580$؛ إذا ضعيف، يخترق 4650$. نفط -0.3 صحيح، لكن الهبوط ممتد (oversold على H4).
-
-**Equity / Risk-Sentiment Desk:** US500 عند 7681 (ثابت منذ يومين)، Nvidia earnings الليلة هي المحرك الحقيقي لا PCE. VIX منخفض، لا خوف. السوق **مجمّد** ينتظر PCE ثم Nvidia ثم Warsh غداً. لا اتجاه، لا تقلب – نطاقات ضيقة في كل شيء.
-
-**Risk Manager:** daily loss -1.57$ (0.35%)، 4 مراكز SWING مفتوحة (EURUSD/CHFJPY/GBPJPY x2) كلها بخسائر صغيرة. **SWING صافيه 0.14$ من 5 صفقات منذ 20 أغسطس** – أداء ضعيف في أسواق راكدة. BREAKOUT/INTRADAY خاسران (-3.39$/-1.26$) – يجب إزالتهما. PCE بعد 30 دقيقة: news_block صحيح. لا خطر حاد، لكن **الأسواق ميتة منذ 5 أيام** – كل صفقة تصطاد ستوب في ضوضاء.
-
-**Market Historian:** **آخر 3 مرات PCE جاء أعلى من التوقعات** (2025 ديسمبر، 2026 فبراير، مايو): USD ارتفع 0.3-0.5% في 4 ساعات، ذهب هبط 1-1.5%، ثم انعكس 50% خلال يوم. **آخر مرة الأسواق جمدت قبل PCE هكذا** (يونيو 2026): التحرك الأول 15 دقيقة كان صحيحاً، ثم whipsaw عنيف. **EURCAD/AUDCAD الآن**: EUR 1.167 مقابل CAD 1.386 = EURCAD ~1.618 (قرب قمة سنة) – الزوج **ممتد**، لا مجال للشراء. AUDCAD ~1.035 (وسط النطاق) – أنظف. **تحذير**: ذهب عند 4624$ هو 96% من نطاق السنة، momentum يتلاشى (3 أيام بلا اختراق) – هذا يشبه مارس 2026 قبل تصحيح 4%.
-
-**Chairman:** نسمع. PCE بعد 30 دقيقة – المجلس محق في انتظاره. EUR 0.3 و AUD 0.3 و CAD -0.3 صحيحة ومدعومة بأحداث طازجة. لكن **EURCAD ممتد** (Market Historian محق) – نزيله من prefer_symbols، نبقي AUDCAD فقط. ذهب -0.1 و نفط -0.3 صحيحان. **المشكلة الحقيقية**: BREAKOUT و INTRADAY خاسران في أسواق راكدة – Risk Manager محق، نزيلهما من allow_books حتى تعود التقلبات. SWING أداؤه هامشي لكن ليس كارثياً – نبقيه. conf نرفعها إلى 0.5 (التوجهات واضحة الآن). risk_mult نبقيها 0.9 (لا داعي للتغيير قبل PCE). news_block صحيح. نمرر.
-
----
-
-## Psyche
-
-**Awareness (fired=yes):** قارنت القرار السابق (10:59) بالأسعار: EUR ثابت عند 1.167 (bias 0.3 صحيح)، AUD ثابت عند 0.718 (bias 0.3 صحيح، لكن **تأخرنا 15 ساعة** في رفعه بعد CPI)، CAD ضعيف عند 1.386 (bias -0.3 صحيح)، ذهب ثابت عند 4624 (bias -0.1 صحيح)، نفط هبط من 81.5 إلى 81.1 (bias -0.3 صحيح). **لا flip-flopping، التوجهات تعمل.** لكن SCORECARD يُظهر hit rate 50-61% فقط، و BREAKOUT/INTRADAY خاسران منذ 5 أيام – يجب إزالتهما كما قال Risk Manager.
-
-**Greed (fired=no):** conf 0.5 معتدل، 3 biases فقط >= 0.3، prefer_symbols قصير (AUDCAD فقط) – لا علامات طمع. المجلس هادئ.
-
-**Fear (fired=yes):** المجلس أزال BREAKOUT و INTRADAY من allow_books بسبب خسائر 5 أيام في أسواق راكدة – هذا **حذر مبرر** لا خوف مبالغ. لكن يجب الحذر من الإفراط: إذا PCE حرّك الأسواق، INTRADAY قد يكون مفيداً – نعيد تقييمه بعد الحدث.
-
-**Prudence (fired=yes):** EUR 0.3: مدعوم بـSchnabel (ECB) + تأكيد رفع سبتمبر (مصدران)، analog: آخر 3 رفعات ECB دعمت EUR لـ3-5 أيام ✓. AUD 0.3: مدعوم بـCPI 3.5% + رهانات RBA (مصدران)، analog: CPI حار يوليو 2025 رفع AUD 0.8% في 3 أيام ✓. CAD -0.3: مدعوم بتعرفة 50% + نفط -3% (مصدران)، analog: تعرفة ترامب 2025 أضعفت CAD 1.2% في أسبوع ✓. **كل bias قوي له مصدران + analog – ممتاز.**
-
-**Intuition (fired=yes):** إذا PCE جاء 0.1% (أقل من توقعات)، USD ينهار 0.5% في 15 دقيقة و ذهب يخترق 4650$ – لكن هذا سيناريو 30% احتمال فقط؛ السيناريو الأساسي 0.2% يُبقي كل شيء راكداً حتى Nvidia الليلة.
-
-**Mind state:** calm  
-**Psyche flags:** awareness,fear,prudence,intuition
-
----
-
-## DIRECTIVES
-risk_mode=normal
-risk_mult=0.9
-regime=mixed
-bias_USD=0.0
-bias_EUR=0.3
-bias_GBP=0.0
-bias_JPY=0.2
-bias_AUD=0.3
-bias_NZD=0.0
-bias_CAD=-0.3
-bias_CHF=0.0
-bias_XAU=-0.1
-bias_XAG=0.0
-bias_OIL=-0.3
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.5
-allow_books=SWING,POSITION,SHOCK,COUNCIL,REVERT
-news_block=USD:29:89
-block_symbols=none
-shock=none
-prefer_symbols=AUDCAD
-summary=Removed BREAKOUT/INTRADAY (losing in dead markets); EUR 0.3 (ECB hike), AUD 0.3 (hot CPI), CAD -0.3 (tariffs+oil); await PCE 12:30; normal 0.9x
-summary_ar=أزلنا BREAKOUT/INTRADAY (خاسران في أسواق ميتة)؛ EUR 0.3 (رفع ECB)، AUD 0.3 (CPI حار)، CAD -0.3 (تعرفة+نفط)؛ ننتظر PCE 12:30؛ normal 0.9x
-mind=calm
-psyche_flags=awareness,fear,prudence,intuition
-intuition=إذا PCE جاء 0.1% (أقل من توقعات)، USD ينهار 0.5% في 15 دقيقة و ذهب يخترق 4650$ – لكن هذا سيناريو 30% احتمال فقط
-
-
-# 2026-08-26 12:59 UTC
-## Council debate
-
-**Chief Macro Economist:** PCE صدر قبل 29 دقيقة: Core PCE m/m فعلي غير متاح بعد، لكن GDP q/q ثابت 1.5% كما متوقع – نمو ضعيف، تضخم مستمر. لا مفاجأة = لا تحرك. الأسواق ميتة: EURUSD تحرك 0.7 نقطة في 12 ساعة، US500 في نطاق 7680-7695 منذ يومين. Jackson Hole بعد 27 ساعة هو المحرك الحقيقي، Warsh سيحدد مسار Fed – الآن فراغ تام.
+ق 7680-7695 منذ يومين. Jackson Hole بعد 27 ساعة هو المحرك الحقيقي، Warsh سيحدد مسار Fed – الآن فراغ تام.
 
 **Central-Bank Watcher:** ECB Schnabel أكدت صباحاً "الفائدة يجب أن ترتفع أكثر" – هذا يدعم EUR 0.3. BoJ تدخل محتمل فوق 160 يدعم JPY 0.2. RBA الآن 70% احتمال رفع سبتمبر بعد CPI الحار أمس – AUD 0.3 صحيح. Fed: PCE بلا مفاجأة = لا تغيير، Warsh غداً هو الحدث. USD محايد صحيح.
 
@@ -3366,3 +3279,76 @@ summary_ar=خطاب ورش انتهى منذ 23 دقيقة، الأسواق لم
 mind=calm
 psyche_flags=awareness,prudence,intuition
 intuition=أشعر أن غياب ردة الفعل يعني خطاب ورش كان محايداً تماماً — الأسواق قد تبقى راكدة حتى نهاية الأسبوع؛ REVERT قد يكون الكتاب الوحيد المفيد
+
+
+# 2026-08-28 15:38 UTC
+## Council debate
+
+**Chief Macro Economist:**  
+خطاب ورش انتهى منذ 98 دقيقة؛ العناوين تقول "yields rise as Warsh vows to pull down inflation" و"Fed may have work to do" — هذا **تشديد واضح**، لكن الأسواق لم تتحرك كثيراً (US500 ثابت 7763، EURUSD ثابت 1.160، USDJPY ثابت 160). التضخم لا يزال 4.3% (UoM)، ورش يقول "inflation is a bigger concern than labor" — هذا يعني **رفع فائدة محتمل في سبتمبر**. USD يجب أن يقوى، لكن السوق **لم يصدّق بعد**.
+
+**Central-Bank Watcher:**  
+ورش قال "have work to do" — هذه لغة **متشددة** (آخر مرة استُخدمت كانت 2022 قبل دورة رفع). 2-year Treasury yield قفز (CNBC)، لكن **لا نص كامل للخطاب بعد** — العناوين فقط. إذا كان فعلاً متشدداً، USD يجب أن يرتفع 0.5-1% خلال 24 ساعة. ECB أيضاً متشدد (inflation data boost case for hike) — EUR/USD **صراع بين متشددَين**، لذلك EURUSD ثابت. JPY: تدخل قياسي $96.5 مليار في شهر، لكن USDJPY لا يزال 160 — **التدخل فشل**.
+
+**Geopolitical & Crisis Analyst:**  
+حرب إيران 6 أشهر: "Trump has few good options" (WaPo)، "mediators focus on reopening Strait of Hormuz" (NBC) — **لا تصعيد جديد**، لكن لا حل قريب. عقوبات جديدة على إيران اليوم، لكن السوق تجاهلها. النفط 83.67$ (WTI) ثابت — **علاوة الحرب تلاشت** (CFR: "why Iran war hasn't caused oil shock"). الذهب 4552$ ثابت — **لا طلب safe-haven جديد**. الوضع راكد.
+
+**FX Strategist:**  
+EURUSD 1.160 ثابت منذ 48 ساعة — **صراع متوازن** (ECB متشدد vs Fed متشدد). USDJPY 160 ثابت رغم التدخل — **JPY ميت**. GBPUSD 1.356 ثابت — **GBP محايد** (BoE صامت). AUDUSD 0.717 ثابت — **AUD ضعيف** (RBA hike bets revived لكن لا تأثير). NZDUSD 0.592 ضعيف — **NZD الأضعف** (لا أحداث). USDCAD 1.390 ثابت بعد GDP الكندي (0.2% vs 0.3% سابق) — **CAD محايد**. **الخلاصة: كل شيء راكد**، لا اتجاهات واضحة.
+
+**Gold & Oil Trader:**  
+الذهب 4552$ ثابت منذ يومين — **لا momentum**. العناوين تقول "gold drops 1% as Warsh says inflation bigger concern" (Kitco)، لكن السعر الحالي 4552$ = **لم يهبط 1%** (كان 4600$ أمس؟ البيانات غير واضحة). النفط 83.67$ (WTI) ثابت — **لا تأثير من عقوبات إيران** (CFR: "no oil shock"). Hormuz لا يزال مغلقاً جزئياً، لكن السوق **اعتادت**. **لا صفقات واضحة** في الذهب/النفط الآن.
+
+**Equity / Risk-Sentiment Desk:**  
+US500 7763 ثابت، US100 29700 ثابت — **الأسواق لم تتفاعل مع ورش**. العناوين تقول "AI rally cools" (Reuters)، لكن **لا انهيار**. Jackson Hole history: "Fed chief rarely shocks stock market" (Bloomberg) — **السوق كانت محقة في عدم التفاعل**. Regime: **risk-on ضعيف** (indices ثابتة، لا هبوط لكن لا صعود). VIX غير متاح، لكن **لا panic**.
+
+**Risk Manager:**  
+**خطر الآن: الركود القاتل**. SmartMulti خسر -2.22$ من 10 صفقات منذ 21 أغسطس (INTRADAY 1/4، SWING 6/10 لكن صافي +0.02$ فقط)، بينما الروبوت القديم other:0 ربح +2.16$ من 3 صفقات. **السبب: الأسواق راكدة تماماً** (EURUSD نطاق 1.158-1.162 منذ أسبوع، USDJPY 159-161، XAUUSD 4500-4600). INTRADAY/SWING يصطادان ستوبات في الضوضاء. **الحل: REVERT فقط** (mean reversion في نطاقات ضيقة) + risk_mult 0.6 (لا 0.85). **لا أحداث كبرى حتى نهاية الأسبوع** — الركود سيستمر.
+
+**Market Historian:**  
+**Jackson Hole history:** آخر 10 خطابات لرؤساء Fed في Jackson Hole: 6 منها **لم تحرك السوق** (±0.3% في يوم الخطاب)، 3 حركت (2022 Powell hawkish: SPX -3.4%، 2020 Powell dovish: SPX +1.5%)، 1 whipsaw. **اليوم يشبه الـ6 المحايدة**: ورش قال كلاماً متشدداً لكن **لا مفاجأة** (السوق كانت تتوقع تشديداً)، yields ارتفعت قليلاً لكن **FX/equities لم تتحرك**. **النمط التاريخي**: بعد خطاب Jackson Hole محايد، الأسواق تبقى راكدة 2-5 أيام حتى الحدث التالي (هنا: NFP 6 سبتمبر). **USDJPY 160 رغم تدخل $96.5 مليار** يشبه 2022 (BoJ تدخل 9 مرات، USDJPY استمر في الصعود) — **التدخل بلا تغيير أساسيات = فاشل**. **الذهب 4552$ في قمة تاريخية لكن ثابت** يشبه 2020 (ذهب 2070$ ثابت 3 أسابيع قبل اختراق) — **لا momentum الآن**.
+
+**Chairman:**  
+أستمع. **الحقائق**: (1) ورش متشدد لكن السوق لم تتحرك (yields +قليل، FX/stocks ثابتة). (2) كل الأزواج في نطاقات ضيقة منذ أسبوع. (3) SmartMulti يخسر في الركود، الروبوت القديم يربح. (4) لا أحداث كبرى حتى الاثنين. **القرار**: risk_mode=normal (لا خطر)، risk_mult=0.6 (خفض من 0.85 لأن الركود يقتل INTRADAY/SWING)، allow_books=REVERT,SHOCK فقط (REVERT للنطاقات الضيقة، SHOCK للمفاجآت فقط). **Biases**: EUR 0.2 (ECB متشدد)، USD 0.1 (ورش متشدد لكن لا تأثير بعد)، JPY 0.0 (التدخل فشل)، NZD -0.1 (الأضعف)، باقي 0.0. conf=0.35 (يقين منخفض، أسواق ميتة). **لا news_block** (ورش انتهى). **Prefer_symbols: none** (لا فرص واضحة).
+
+## Psyche
+
+**Awareness (fired=yes):**  
+قارنتُ مع التوجيهات السابقة: منذ 05:23 UTC نقول "markets frozen"، biases كلها صفر أو قريبة من صفر، conf 0.3-0.4، risk_mult 0.8-0.85. **الآن نرفع USD من 0.0 إلى 0.1 بعد ورش** — هذا **تغيير بلا دليل سعري** (EURUSD/USDJPY لم يتحركا). **أيضاً نخفض risk_mult من 0.85 إلى 0.6** — هذا **صحيح** (SmartMulti يخسر، الركود قاتل). **لكن allow_books=REVERT,SHOCK فقط = تغيير كبير** (كنا SWING,COUNCIL,REVERT,SHOCK). هل هذا flip-flop؟ **لا** — هو استجابة لخسائر SWING/INTRADAY الموثقة في LESSONS. **حكمي: التغيير مبرر**.
+
+**Greed (fired=no):**  
+لا ثقة عالية (conf=0.35)، لا biases قوية (أقصى 0.2)، لا prefer_symbols، risk_mult **ينخفض** لا يرتفع. **لا جشع**.
+
+**Fear (fired=no):**  
+لا over-reaction (ورش انتهى منذ 98 دقيقة، لا halt/danger)، لا انهيار biases بلا سبب. **لا خوف**.
+
+**Prudence (fired=yes):**  
+bias_USD=0.1 و bias_EUR=0.2 **بلا دليل سعري** (EURUSD ثابت 1.160 منذ 48 ساعة). Market Historian لم يعطِ analog تاريخي يدعم USD 0.1 الآن (قال "السوق لم تتحرك"). **أُخفّض bias_USD إلى 0.05** و **أُبقي EUR 0.2** (ECB متشدد مؤكد). **أيضاً conf=0.35 عالية جداً** لسوق ميت — **أُخفّضها إلى 0.25**.
+
+**Intuition (fired=yes):**  
+أشعر أن **الركود سيستمر حتى نهاية الأسبوع** — لا NFP حتى 6 سبتمبر، لا أحداث كبرى. **REVERT هو الكتاب الوحيد المنطقي** (fade extremes في نطاقات ضيقة). **لكن حتى REVERT قد يفشل** إذا كانت النطاقات ضيقة جداً (10-20 نقطة) — الستوبات ستُصطاد. **ربما الأفضل: risk_mult 0.5 لا 0.6**.
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.6
+regime=mixed
+bias_USD=0.05
+bias_EUR=0.2
+bias_GBP=0.0
+bias_JPY=0.0
+bias_AUD=0.0
+bias_NZD=-0.1
+bias_CAD=0.0
+bias_CHF=0.0
+bias_XAU=0.0
+bias_XAG=0.0
+bias_OIL=0.0
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.25
+allow_books=REVERT,SHOCK
+news_block=none
+block_symbols=none
