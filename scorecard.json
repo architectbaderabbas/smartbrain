@@ -2,7 +2,7 @@
  "decisions_scored": 45,
  "overall_hit_rate%": {
   "4h": 53,
-  "12h": 63,
+  "12h": 64,
   "24h": 35
  },
  "per_asset_hit_rate%": {
@@ -28,7 +28,7 @@
   }
  },
  "by_mind_state%": {
-  "calm": 47,
+  "calm": 48,
   "?": 75,
   "fearful": 100
  },

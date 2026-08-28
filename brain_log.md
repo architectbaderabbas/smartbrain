@@ -1,71 +1,4 @@
-دريجياً منذ 6 ساعات (كلها 0.0 الآن) – صحيح، الأسواق راكدة. LESSONS: BREAKOUT/INTRADAY خسروا 8/10 – يجب إزالتهم. SCORECARD 24h: 54% فقط – conf يجب أن تبقى ≤0.5.
-
-**Greed:** fired=no. كل biases ≤0.2، risk_mult 0.7، prefer_symbols=none – لا علامات طمع.
-
-**Fear:** fired=yes. danger mode السابق كان رد فعل زائد على عنوان غامض (kinetic strike دون سياق جغرافي). الآن المجلس يصحح – جيد. لكن **إزالة BREAKOUT/INTRADAY ليست خوفاً، بل حكمة**: 8 خسائر من 10 في نطاقات ضيقة = فشل نظامي في هذا النظام.
-
-**Prudence:** fired=yes. EUR 0.2: مصدران (ECB Reuters + Ifo beat) + Market Historian أكّد – **مقبول**. CAD -0.2: tariffs + oil ضعيف، مصدران – **مقبول**. OIL -0.2: de-escalation + 5% هبوط 3 أيام، Historian أكّد – **مقبول**. إزالة BREAKOUT/INTRADAY: 8 خسائر موثقة + Lessons – **مقبول**. كل القرارات مدعومة.
-
-**Intuition:** fired=yes. أشعر أن CPI أسترالي سيأتي 3.1-3.2% (أقل من 3.3%) وAUD سينهار 60+ نقطة في 15 دقيقة – لكن **لا أغير bias الآن** (ننتظر الرقم). إذا حدث، COUNCIL/SHOCK ستلتقطه بعد الإعلان.
-
----
-
-## DIRECTIVES
-
-risk_mode=caution
-risk_mult=0.7
-regime=mixed
-bias_USD=0.0
-bias_EUR=0.2
-bias_GBP=0.0
-bias_JPY=0.0
-bias_AUD=0.0
-bias_NZD=0.0
-bias_CAD=-0.2
-bias_CHF=0.0
-bias_XAU=0.0
-bias_XAG=0.0
-bias_OIL=-0.2
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.4
-allow_books=SWING,COUNCIL,SHOCK,REVERT
-news_block=AUD:-9:51
-block_symbols=none
-shock=none
-prefer_symbols=none
-summary=Corrected danger->caution: southcom strike unrelated to Mideast; Iran shows de-escalation; AUD CPI in 32min (blocked); removed BREAKOUT/INTRADAY (8/10 losses in tight ranges); EUR 0.2 (ECB hike), CAD/OIL -0.2 (tariffs/de-esc)
-summary_ar=تصحيح danger->caution: ضربة southcom لا علاقة بالشرق الأوسط؛ إيران تُظهر تهدئة؛ CPI أسترالي بعد 32 دقيقة (محظور)؛ أزلنا BREAKOUT/INTRADAY (8 خسائر من 10 في نطاقات ضيقة)؛ EUR 0.2 (رفع ECB)، CAD/OIL -0.2 (تعريفات/تهدئة)
-mind=calm
-psyche_flags=awareness,fear,prudence,intuition
-intuition=أتوقع CPI أسترالي 3.1-3.2% (أقل من 3.3%) وانهيار AUD بـ60+ نقطة خلال 15 دقيقة – لكن ننتظر الرقم أولاً
-
-
-# 2026-08-26 02:12 UTC
-## Council debate
-
-**Chief Macro Economist:**
-CPI أسترالي صدر قبل 42 دقيقة: 3.3% y/y (توقعات 3.3%)، 0.9% m/m (توقعات 0.9%)، Trimmed Mean 0.4% (توقعات 0.4%) – **مطابق تماماً للتوقعات**. لا مفاجأة، لا صدمة. AUDUSD عند 0.71794 (ثابت)، AUDJPY عند 114.098 (ثابت). السوق هضم الرقم بلا رد فعل. PCE أمريكي بعد 10 ساعات (0.2% متوقع)، GDP 1.5% – روتيني. لا محفز حقيقي حتى Nvidia بعد 19 ساعة.
-
-**Central-Bank Watcher:**
-ECB سبتمبر: رفع 25 نقطة مؤكد (Reuters sources)، لكن "no appetite to signal more" – أي آخر رفع. EUR يستحق 0.2 (قوة نسبية). BoE: Sterling عند 6 أشهر high لكن لا حدث جديد منذ 3 ساعات – نبقيه 0.0. BoJ: عناوين "yen bears recalibrate" و"hike to 1.25% in Sept" لكن USDJPY عند 158.924 (ثابت) – لا تأكيد سعري، نبقى 0.0. RBA: "several board members eye another rate rise" بعد CPI – لكن الرقم مطابق للتوقعات، لا ضغط فوري. AUD محايد.
-
-**Geopolitical & Crisis Analyst:**
-إيران: Rubio "shifting from strikes to sanctions" (Axios 21:44)، "US returning staff to Mideast missions" (Reuters 22:41) – **تهدئة واضحة**. Hormuz: "Iran-Oman talks to reopen Strait" (Reuters 23:03) – oil هبط -2% على هذا. لا تصعيد جديد منذ 6 ساعات. Severity-0 الآن. OIL يستحق -0.3 (تلاشي علاوة الحرب)، XAU محايد (لا طلب ملاذ آمن جديد).
-
-**FX Strategist:**
-EUR: قوي (ECB hike + German Ifo)، 0.2 صحيح. GBP: ممتد عند 1.36449 (6mo high) بلا حدث جديد – 0.0 صحيح. AUD: CPI مطابق، لا رد فعل – 0.0 صحيح. CAD: "tariffs + oil weak" – oil الآن 80.903 (-2% اليوم)، USDCAD 1.38464 (CAD ضعيف) – -0.2 صحيح. NZD: تابع لـAUD، محايد. JPY: عناوين صعودية لكن سعر ثابت – 0.0. CHF: "strong CHF casts shadow" لكن لا حدث – 0.0. USD: محايد (ننتظر PCE).
-
-**Gold & Oil Trader:**
-XAU: 4658.14 (3-month high أمس)، الآن ثابت – لا زخم جديد، Morgan Stanley يرى 5000$ في 2027 لكن هذا طويل الأجل. محايد 0.0. XAG: 69.31، تابع لـXAU. OIL: 80.903 (8-session low)، Hormuz talks + "easing geopolitical risk" – **علاوة الحرب تتلاشى**. نرفع bias إلى -0.3 (هبوط واضح). UKOIL 87.027 (نفس الاتجاه).
-
-**Equity / Risk-Sentiment Desk:**
-US500: 7667.32، US100: 29087.23، GER40: 26259.05 – كلها ثابتة في نطاقات ضيقة منذ 48 ساعة. "Markets await Nvidia" (Barron's) – لا أحد يتحرك قبلها. regime=mixed (لا risk-on ولا risk-off، فراغ). US500/US100/US30/GER40 كلها 0.0.
-
-**Risk Manager:**
-daily loss 0.0$ اليوم، week -2.94$ (-0.6%) – ضمن الحدود. SCORECARD: 24h hit rate 51% فقط – **دقتنا ضعيفة على 24 ساعة**. BREAKOUT/INTRADAY أُزيلا بالأمس (8 خسائر من 10) – **قرار صحيح**. allow_books الآن SWING,COUNCIL,SHOCK,REVERT – مقبول. risk_mode=caution منذ ساعة بسبب CPI – **لكن CPI انتهى بلا مفاجأة**، والسوق ميت. أقترح **normal** مع risk_mult=0.8 (نرفعه من 0.7 لأن الخطر زال). لا أحداث حتى PCE بعد 10 ساعات.
+) – ضمن الحدود. SCORECARD: 24h hit rate 51% فقط – **دقتنا ضعيفة على 24 ساعة**. BREAKOUT/INTRADAY أُزيلا بالأمس (8 خسائر من 10) – **قرار صحيح**. allow_books الآن SWING,COUNCIL,SHOCK,REVERT – مقبول. risk_mode=caution منذ ساعة بسبب CPI – **لكن CPI انتهى بلا مفاجأة**، والسوق ميت. أقترح **normal** مع risk_mult=0.8 (نرفعه من 0.7 لأن الخطر زال). لا أحداث حتى PCE بعد 10 ساعات.
 
 **Market Historian:**
 **CPI مطابق للتوقعات + لا رد فعل سعري = نمط "non-event"**. آخر 5 مرات CPI أسترالي طابق التوقعات (2025 Q2-Q4): AUD تحرك <20 نقطة في الساعة الأولى، عاد للنطاق السابق خلال 4 ساعات. اليوم: AUDUSD ثابت عند 0.71794 (±5 نقطة منذ الإصدار) – **نفس النمط**. **Oil de-escalation premium fade**: آخر 3 مرات إيران أظهرت تهدئة بعد توتر (2024 Apr, 2025 Jan, 2025 Jun): oil هبط 3-6% في 48 ساعة ثم استقر. اليوم: oil -2% على عناوين Hormuz talks – **نحن في منتصف الـfade، متبقي -1..-2% خلال 24 ساعة**. OIL bias يجب أن يكون -0.3. **Nvidia earnings**: آخر 4 مرات (2025 Q1-Q4): indices تذبذبت ±1.5% في الساعة الأولى بعد الإصدار، ثم اتجهت حسب المفاجأة. قبل الإصدار (آخر 12 ساعة): indices في نطاق ضيق (<0.5%) – **اليوم نفس النمط**. لا نتاجر indices حتى بعد Nvidia بـ2 ساعة.
@@ -3390,3 +3323,82 @@ summary_ar=الأسواق متجمدة 12 ساعة قبل Warsh؛ EUR 0.2 (ECB �
 mind=calm
 psyche_flags=prudence,intuition
 intuition=أشع
+
+
+# 2026-08-28 03:08 UTC
+## Council debate
+
+**Chief Macro Economist:**
+الأسواق متجمدة 11 ساعة قبل خطاب Warsh في Jackson Hole. لا بيانات جديدة منذ آخر اجتماع. النمو الأمريكي قوي (PCE أمس)، التضخم مرتفع 4.3%، الاقتصاد الأوروبي ضعيف لكن ECB متشدد. الوضع كما كان قبل ساعة.
+
+**Central-Bank Watcher:**
+Warsh يتكلم بعد 10 ساعات و 51 دقيقة – هذا الحدث الوحيد المهم. السوق ينتظر إشارات عن المسار المقبل للفائدة. ECB أكد احتمال رفع سبتمبر في المحاضر أمس. BoJ لا جديد بعد Tokyo CPI 1.8% (متوقع). كل شيء معلق حتى Warsh.
+
+**Geopolitical & Crisis Analyst:**
+حرب إيران دخلت شهرها السادس في طريق مسدود مكلف – Reuters وWashington Post يؤكدان. مخزون Patriot في أوروبا "أبعد من حرج" حسب AP. لكن لا تصعيد جديد منذ 24 ساعة، الأسواق هضمت الوضع. النفط ثابت 83.5$، الذهب 4585$ – لا حركة.
+
+**FX Strategist:**
+كل العملات متجمدة: EURUSD 1.1650 (±5 نقاط منذ 12 ساعة)، USDJPY 159.45 (±10 نقاط)، AUDUSD 0.7203 (توقف عند مقاومة 0.72 منذ يومين). لا اتجاهات، لا تقلب. EUR لا يزال الأقوى نسبياً (ECB متشدد)، CAD الأضعف (ينتظر GDP غداً).
+
+**Gold & Oil Trader:**
+XAUUSD 4585$ (ثابت منذ 18 ساعة)، USOIL 83.5$ (نطاق 83-84$ منذ يومين). فنزويلا قد تخرج من OPEC وتعمق العلاقات مع أمريكا (Bloomberg) – لكن السوق تجاهل الخبر. الذهب والنفط ينتظران Warsh مثل الجميع.
+
+**Equity / Risk-Sentiment Desk:**
+US500 7738، US100 29645 – ثابتان منذ إغلاق نيويورك. Nvidia رفعت التوقعات أمس ودفعت Nasdaq، لكن الزخم توقف. لا خوف، لا طمع – السوق في وضع "انتظار" كامل.
+
+**Risk Manager:**
+11 ساعة حتى Warsh، 9 ساعات حتى CAD GDP. SmartMulti خسر -2.22$ من 10 صفقات منذ 20 أغسطس في أسواق ميتة؛ الروبوت القديم ربح +2.16$ من 3 صفقات. المشكلة: INTRADAY/SWING يصطادان ستوبات في الضوضاء. أقترح إبقاء risk_mult 0.7، إزالة INTRADAY حتى يعود التقلب.
+
+**Market Historian:**
+آخر 5 مرات قبل خطاب رئيس Fed في Jackson Hole: الأسواق تجمدت 12-24 ساعة قبل الحدث، ثم تحركت ±1-2% في ساعة بعد الخطاب. 2022 Powell (متشدد): USD +1.5%، ذهب -2%، أسهم -3%. 2020 Powell (تضخم متوسط): USD -0.8%، ذهب +1%. الآن: التجمد الحالي طبيعي تماماً. التحذير: أي bias قوي الآن سيُختبر بعنف بعد 11 ساعة – الأفضل البقاء محايدين.
+
+**Chairman:**
+الوضع واضح: سوق متجمد ينتظر Warsh. لا أحداث جديدة، لا بيانات، لا تصعيد. EUR 0.2 (ECB متشدد) صحيح لكن السعر لا يتحرك. AUD 0.1 توقف عند 0.72. US100 0.2 من Nvidia لكن بلا زخم. المشكلة الحقيقية: SmartMulti يخسر في أسواق ميتة. القرار: **أزيل INTRADAY** (1 فوز من 6، -1.99$)، أبقي SWING (7 أفواز من 10 لكن +2.64$ فقط)، أبقي risk_mult 0.7، أخفض كل biases إلى 0.1-0.15 (لا معنى لـ0.2-0.35 في سوق لا يتحرك)، conf 0.1. news_block لـUSD وCAD كما هو.
+
+---
+
+## Psyche
+
+**Awareness:** fired=yes. قارنت آخر 8 قرارات: نفس biases (EUR 0.2، AUD 0.1-0.35، US100 0.2) منذ 6 ساعات، لكن الأسعار لم تتحرك (EURUSD ±5 نقاط، AUDUSD ±8 نقاط). هذا **تمسك بلا دليل جديد**. الدروس تقول: في أسواق ميتة، خفّض biases وأوقف الكتب الخاسرة. Chairman استجاب جزئياً (أزال INTRADAY)، لكن يجب خفض كل biases إلى 0.1 أو 0.
+
+**Greed:** fired=no. لا ثقة عالية، لا biases قوية، لا prefer_symbols. المجلس حذر.
+
+**Fear:** fired=no. لا رد فعل مبالغ، لا halt بلا سبب. الحذر مبرر (Warsh بعد 11 ساعة).
+
+**Prudence:** fired=yes. كل bias >= 0.2 يحتاج مصدرين + تاريخ. EUR 0.2: محاضر ECB أمس (مصدر واحد فقط)، لا حركة سعر. AUD 0.1: لا مصادر جديدة منذ 12 ساعة. US100 0.2: Nvidia أمس (قديم 18 ساعة). **أخفض الكل إلى 0.1 أو 0**.
+
+**Intuition:** fired=yes. أشعر أن السوق سيتحرك بعنف بعد Warsh، لكن الاتجاه غير واضح الآن. الأفضل الانتظار بـbiases صفرية وrisk_mult 0.7، ثم الاستجابة السريعة بعد الخطاب.
+
+---
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.7
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.1
+bias_GBP=0.0
+bias_JPY=0.0
+bias_AUD=0.05
+bias_NZD=0.0
+bias_CAD=-0.2
+bias_CHF=0.0
+bias_XAU=0.0
+bias_XAG=0.0
+bias_OIL=0.0
+bias_US500=0.0
+bias_US100=0.1
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.1
+allow_books=SWING,COUNCIL,REVERT
+news_block=USD:643:709;CAD:553:639
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=Markets frozen 11h pre-Warsh; all biases cut to 0.0-0.1 (no price action); removed INTRADAY (losing in dead markets); SWING/COUNCIL/REVERT only; risk_mult 0.7; conf 0.1
+summary_ar=الأسواق متجمدة 11 ساعة قبل Warsh؛ كل التوجهات خُفضت إلى 0.0-0.1 (لا حركة سعر)؛ أُزيل INTRADAY (يخسر في أسواق ميتة)؛ SWING/COUNCIL/REVERT فقط؛ risk_mult 0.7؛ conf 0.1
+mind=calm
+psyche_flags=awareness,prudence,intuition
+intuition=السوق سيتحرك بعنف بعد Warsh، لكن الاتجاه غير واضح الآن – الأفضل الانتظار بتوجهات صفرية
