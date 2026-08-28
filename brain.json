@@ -1,9 +1,9 @@
 {
- "ts": 1787882028,
- "council_ts": 1787879102,
+ "ts": 1787882929,
+ "council_ts": 1787882929,
  "directives": {
   "risk_mode": "normal",
-  "risk_mult": 0.6,
+  "risk_mult": 0.7,
   "regime": "mixed",
   "conf": 0.15,
   "bias_USD": 0.0,
@@ -22,19 +22,18 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "INTRADAY,SWING,COUNCIL,REVERT",
-  "news_block": "USD:717:777;CAD:627:707",
+  "news_block": "USD:711:777;CAD:621:707",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "intuition",
-  "intuition": "أشعر أن AUD سيتراجع من 0.72 بعد Warsh إذا لم يكن حمائمياً جداً – المقاومة قوية والزخم ميت",
-  "summary": "Markets frozen 13h pre-Warsh; EUR 0.2 (ECB hawkish), AUD 0.1 (stalled at 0.72 resistance), US100 0.2 (Nvidia); CAD -0.25; risk_mult 0.6; conf 0.15",
-  "summary_ar": "الأسواق متجمدة 13 ساعة قبل Warsh؛ EUR 0.2 (ECB متشدد)، AUD 0.1 (متوقف عند مقاومة 0.72)، US100 0.2 (Nvidia)؛ CAD -0.25؛ risk_mult 0.6؛ conf 0.15",
+  "psyche_flags": "prudence,intuition",
+  "intuition": "أشع",
+  "summary": "Markets frozen 12h pre-Warsh; EUR 0.2 (ECB hawkish), AUD 0.1 (stalled at 0.72), US100 0.2 (Nvidia); CAD -0.25; risk_mult raised to 0.7 for post-Warsh opportunities; conf 0.15",
+  "summary_ar": "الأسواق متجمدة 12 ساعة قبل Warsh؛ EUR 0.2 (ECB متشدد)، AUD 0.1 (متوقف عند 0.72)، US100 0.2 (Nvidia)؛ CAD -0.25؛ risk_mult رُفع إلى 0.7 استعداداً لفرص ما بعد Warsh؛ conf 0.15",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787673451,
