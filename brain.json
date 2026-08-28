@@ -1,11 +1,11 @@
 {
- "ts": 1787926128,
- "council_ts": 1787922531,
+ "ts": 1787927031,
+ "council_ts": 1787927031,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.85,
   "regime": "mixed",
-  "conf": 0.25,
+  "conf": 0.3,
   "bias_USD": 0.0,
   "bias_EUR": 0.2,
   "bias_GBP": 0.1,
@@ -22,19 +22,18 @@
   "bias_US30": 0.1,
   "bias_GER40": 0.1,
   "allow_books": "SWING,COUNCIL,REVERT,SHOCK",
-  "news_block": "USD:-58:62",
+  "news_block": "none",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
   "psyche_flags": "awareness,prudence,intuition",
-  "intuition": "أشعر أن ورش قد يكون أكثر حمائمية من المتوقع (يذكر ضعف سوق العمل) — USD قد يهبط، XAU يقفز",
-  "summary": "Markets frozen 51min pre-Warsh Jackson Hole; removed INTRADAY (lost in dead markets); EUR 0.2 (ECB hawkish), NZD -0.1; conf 0.25; wait 60-90min post-speech",
-  "summary_ar": "الأسواق متجمدة 51 دقيقة قبل ورش Jackson Hole؛ أزلنا INTRADAY (خسر في أسواق ميتة)؛ EUR 0.2 (ECB متشدد)، NZD -0.1؛ ثقة 0.25؛ ننتظر 60-90 دقيقة بعد الخطاب",
-  "news_events": "USD:1787925600:Fed_Chairman_Warsh_Speaks;USD:1787925600:Prelim_Benchmark_Payrolls_Revision;All:1787933700:Jackson_Hole_Symposium"
+  "intuition": "أشعر أن غياب ردة الفعل يعني خطاب ورش كان محايداً تماماً — الأسواق قد تبقى راكدة حتى نهاية الأسبوع؛ REVERT قد يكون الكتاب الوحيد المفيد",
+  "summary": "Warsh speech ended 23min ago, markets unmoved (no text yet); EUR 0.2 (ECB hawkish), JPY 0.1 (record intervention), NZD -0.1; normal 0.85x, conf 0.3; wait 30-60min for details",
+  "summary_ar": "خطاب ورش انتهى منذ 23 دقيقة، الأسواق لم تتحرك (لا نص بعد)؛ EUR 0.2 (ECB متشدد)، JPY 0.1 (تدخل قياسي)، NZD -0.1؛ عادي 0.85x، ثقة 0.3؛ ننتظر 30-60 دقيقة للتفاصيل",
+  "news_events": "All:1787933700:Jackson_Hole_Symposium"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787695950,
