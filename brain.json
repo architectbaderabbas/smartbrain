@@ -1,5 +1,5 @@
 {
- "ts": 1787908131,
+ "ts": 1787909030,
  "council_ts": 1787906329,
  "directives": {
   "risk_mode": "normal",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "ALL",
-  "news_block": "CAD:196:226;USD:286:346",
+  "news_block": "CAD:182:212;USD:272:332",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
