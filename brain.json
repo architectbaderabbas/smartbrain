@@ -1,6 +1,6 @@
 {
- "ts": 1787901827,
- "council_ts": 1787898229,
+ "ts": 1787902729,
+ "council_ts": 1787902729,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.8,
@@ -22,19 +22,18 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "ALL",
-  "news_block": "none",
+  "news_block": "CAD:280:310;USD:430:490",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "none",
+  "psyche_flags": "prudence",
   "intuition": "none",
-  "summary": "",
-  "summary_ar": "",
+  "summary": "Markets frozen 7h pre-Warsh Jackson Hole; EUR 0.1 (ECB hawkish), AUD 0.05 (fading); CAD GDP 4:51h, Warsh 7:21h; normal 0.8x, conf 0.35",
+  "summary_ar": "الأسواق متجمدة 7 ساعات قبل Warsh؛ EUR 0.1 (ECB متشدد)، AUD 0.05 (يتلاشى)؛ GDP كندا 4:51 ساعة، Warsh 7:21 ساعة؛ عادي 0.8x، ثقة 0.35",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787673451,
