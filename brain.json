@@ -1,5 +1,5 @@
 {
- "ts": 1787917128,
+ "ts": 1787918090,
  "council_ts": 1787914429,
  "directives": {
   "risk_mode": "normal",
@@ -34,7 +34,7 @@
   "news_events": "CAD:1787920200:GDP_mm;USD:1787925600:Fed_Chairman_Warsh_Speaks;USD:1787925600:Prelim_Benchmark_Payrolls_Revision"
  },
  "error": null,
- "watchman": "quiet (sev0)",
+ "watchman": "صفقة NZDUSD INTRADAY 1.35$ ← تحليل مكتوب",
  "alerts": [
   {
    "ts": 1787673451,

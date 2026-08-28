@@ -1,5 +1,5 @@
-ts=1787917128
-generated=2026-08-28 11:38 UTC (watchman heartbeat; council 15 min ago)
+ts=1787918090
+generated=2026-08-28 11:54 UTC (watchman heartbeat; council 16 min ago)
 version=1
 risk_mode=normal
 risk_mult=1.0
@@ -31,4 +31,4 @@ mind=calm
 psyche_flags=none
 intuition=none
 news_events=CAD:1787920200:GDP_mm;USD:1787925600:Fed_Chairman_Warsh_Speaks;USD:1787925600:Prelim_Benchmark_Payrolls_Revision
-watchman=quiet (sev0)
+watchman=صفقة NZDUSD INTRADAY 1.35$ ← تحليل مكتوب

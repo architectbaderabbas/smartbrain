@@ -1,24 +1,5 @@
 # SmartBrain lessons (post-mortems on real trades, newest last)
 
-### 2026-08-19 19:33 UTC
-**US500 SHOCK BUY 0.31 lots · 2 min · exit SL · P/L 0.95$ · council bias 0.2 (CAUTION)**
-## POST-MORTEM ANALYSIS
-
-**TRADE SUMMARY:**
-SHOCK book bought US500 at 7728.31 (0.31 lots), held 2 minutes, hit stop-loss at 7725.06 for +$0.95. Council-approved book (allow_books="COUNCIL,SHOCK") operating in CAUTION mode with +0.2 US500 bias. **Oversized position** (0.31 lots = 31% of $462 balance at risk) suggests shock-volatility sizing. Exit marked "SL" but P/L positive indicates stop moved to breakeven or small profit-lock by Profit Guard.
-
-**ALIGNMENT & BIAS ACCURACY:**
-SHOCK bought US500 **perfectly aligned with council's +0.2 bias** (bullish indices on Treasury buyback/risk-on). Council bias was **RIGHT**: SPX now 7727.73 vs 7728.31 entry, holding near highs despite this quick exit. The +0.2 bias reflects "Treasury buyback won't tolerate bond crisis, yields down = equities supported." SHOCK correctly read directional bias but got shaken out by micro-chop – the 3.05-point stop (0.04%) was hit in 2 minutes, then price recovered immediately (now only -0.58 points from entry).
-
-**ROOT CAUSE OF WIN (small):**
-**Profit Guard saved a loss.** Entry logic was sound (buy dip in bullish regime), but the 3.25-point stop was too tight for US500's normal 2-5 point noise at this hour (19:33 UTC = low liquidity, post-NY close). The +$0.95 P/L on a 0.31-lot position that hit "SL" proves **breakeven stop activation** – Profit Guard moved SL to +3 pips profit after brief favorable move, then volatility spike closed it. Root cause: **variance, not edge failure** – correct bias, correct direction, killed by noise in thin market. The 0.31-lot size (10x normal SHOCK risk) suggests genuine volatility event detected, but 19:33 UTC is **post-session deadzone** with no catalyst.
-
-**CONCRETE LESSON:**
-**"SHOCK must not trade indices after 19:00 UTC in CAUTION mode unless shock!='none' – post-NY-close thin liquidity creates false volatility signals that trigger oversized positions into noise, not genuine edge opportunities."** The $0.95 win was luck (Profit Guard rescue); the real error was deploying shock-sizing (0.31 lots) in a low-volume period with no event. Seven SHOCK trades today, 5 hit SL – pattern shows **SHOCK bleeding on false signals in event-less CAUTION regime**.
-
-**DIRECTIVE CHANGE:**
-SHOCK net +$0.08 today (7 trades, 57% SL hit rate) = **edge erosion in low-conviction environment**. Council should add time filter: `"shock_hours": "06
-
 ### 2026-08-19 19:38 UTC
 **US100 other:0 SELL 0.04 lots · 3 min · exit EA · P/L 0.29$ · council bias 0.2 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -303,4 +284,17 @@ SWING باع EURJPY عند 185.618 (0.01 لوت)، أُغلق بعد 128 دقي�
 
 **3) السبب الجذري للخسارة:**
 **بيع عملة قوية في سوق راكد + توقيت كارثي.** EURJPY في نطاق ضيق 185.5-186.0 منذ 24 ساعة، والبيع من 185.618 (وسط النطاق) بلا محفز في جلسة طوكيو = **اصطياد ستوب مضمون**. الستوب 34.8 نقطة (185.966) ضُرب في ساعتين فقط بحركة عشوائية 17.6 نقطة. **هذه الصفقة رقم 12 من SmartMulti في أسواق راكدة منذ 21 أغسطس**: SWING الآن 6 أفواز من 10 صفقات لكن صافي +0.02$ فقط (أرباح رمزية + خسائر حقيقية). النمط متكرر: **SWING ي
+
+### 2026-08-28 11:54 UTC
+**NZDUSD INTRADAY SELL 0.03 lots · 174 min · exit EA · P/L 1.35$ · council bias 0 (NORMAL)**
+# تحليل ما بعد الصفقة
+
+**1) ما فعله الروبوت:**
+INTRADAY باع NZDUSD عند 0.59503 (0.03 لوت)، أُغلق بعد 174 دقيقة (ساعتان و54 دقيقة) عند 0.59458 بربح +1.35$. الدخول 08:00 UTC، الخروج 10:54 UTC (إغلاق EA). السعر الآن 0.5948 – أي الاتجاه الهابط استمر قليلاً بعد الخروج.
+
+**2) التوافق مع توجه المجلس:**
+الصفقة **متوافقة** مع المجلس: bias_USD=0.0، bias_NZD=0.0 (محايد)، وضع NORMAL، INTRADAY مسموح. توجه المجلس **محايد صحيح**: NZDUSD في نطاق ضيق 0.594-0.596 منذ يومين، والبيع من 0.59503 (وسط النطاق) التقط حركة هبوط صغيرة 4.5 نقطة. لا خطأ في توجه المجلس – السوق فعلاً بلا اتجاه واضح.
+
+**3) السبب الجذري للربح:**
+**حظ + حجم مضاعف (0.03 لوت) حوّل حركة صغيرة إلى ربح.** NZDUSD تحرك 4.5 نقطة فقط لصالح الصفقة في ساعتين (08:00-10:54 UTC = جلسة لندن المبكرة)، لكن **الحجم 0.03 لوت (ثلاثة أضعاف المعتاد) ضخّم الربح إلى 1.35$**. الستوب 8.9 نقطة والهدف 13.3 نقطة ضيقان جداً لـINTRADAY، والخروج بـ0.34R فقط يعني **سكالبينغ لا تداول اتجاه**. هذا **أول ربح حقيقي لـINTRADAY منذ 5 أيام** (1 فوز من 5 صفقات، صافي -1.64$)، لكنه **نجاة بالحظ
 
