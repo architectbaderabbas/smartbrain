@@ -1521,3 +1521,4 @@
 - 2026-08-28 12:43 UTC · heartbeat · quiet (sev0)
 - 2026-08-28 12:53 UTC · heartbeat · quiet (sev0)
 - 2026-08-28 12:56 UTC · heartbeat · صفقة EURNZD INTRADAY -2.37$ ← تحليل مكتوب
+- 2026-08-28 13:08 UTC · FULL COUNCIL triggered: scheduled full council (last 74 min ago)

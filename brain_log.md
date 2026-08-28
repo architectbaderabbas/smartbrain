@@ -1,103 +1,4 @@
-as_AUD=0.0
-bias_NZD=0.0
-bias_CAD=-0.1
-bias_CHF=0.0
-bias_XAU=-0.1
-bias_XAG=0.0
-bias_OIL=-0.3
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.35
-allow_books=SWING,POSITION,SHOCK,COUNCIL,REVERT
-news_block=USD:178:238
-block_symbols=none
-shock=none
-prefer_symbols=none
-summary=Deepened OIL to -0.3 on Iran-Oman Hormuz deal (war premium fading); EUR 0.3 (ECB hike), JPY 0.2; USD blocked 12:00-13:00 for PCE; conf 0.35; normal 0.8x
-summary_ar=عمّقنا النفط إلى -0.3 (اتفاق هرمز يلغي علاوة الحرب)؛ EUR 0.3 (رفع ECB)، JPY 0.2؛ USD محجوب 12:00-13:00 لـPCE؛ ثقة 0.35؛ عادي 0.8x
-mind=calm
-psyche_flags=prudence
-intuition=none
-
-
-# 2026-08-26 09:44 UTC
-## Council debate
-
-**Chief Macro Economist:**
-كندا فرضت تعرفة انتقامية 50% على مئات المنتجات الأميركية قبل 4 دقائق (09:40 UTC) – هذا تصعيد تجاري حقيقي لكن ليس صدمة سيولة. التأثير: CAD سلبي (تصعيد تجاري يضر الاقتصاد الكندي أكثر)، USD محايد (السوق يعرف أن ترامب سيرد). PCE بعد ساعتين (12:29 UTC) هو الحدث الأهم – إذا جاء 0.2% كما متوقع، لا تغيير في مسار Fed.
-
-**Central-Bank Watcher:**
-Schnabel (ECB) أكدت صباحاً "الفائدة يجب أن ترتفع أكثر بسبب مرونة الاقتصاد" – هذا تثبيت لرفع سبتمبر، EUR يستحق 0.3. Fed: PCE اليوم + Jackson Hole غداً – إذا جاء PCE ساخناً (>0.2%) يقفز USD، إذا بارداً (0.1%) ينخفض. BoJ: لا جديد، JPY يبقى 0.2 على رهانات الرفع.
-
-**Geopolitical & Crisis Analyst:**
-التعرفة الكندية severity-2 لكن ليست severity-3 – لا إغلاق حدود، لا صدمة سيولة، لا هجوم عسكري. هذه حرب تجارية تدريجية بدأت منذ أسابيع. التأثير: CAD سلبي (الاقتصاد الكندي أصغر ويخسر أكثر)، USD محايد (السوق متعود). إيران-عُمان يتفاوضان على هرمز – النفط يواصل الهبوط (-0.3 صحيح). لا أحداث severity-3 في الأفق – danger mode مبالغ فيه.
-
-**FX Strategist:**
-EUR 0.3 صحيح (Schnabel + نطاق 1.166-1.167 ثابت). CAD يجب أن ينخفض إلى -0.3 (التعرفة + النفط الهابط ضربة مزدوجة). USD محايد 0.0 حتى PCE – إذا جاء 0.2% لا تغيير، إذا 0.3% يقفز إلى 0.4. JPY 0.2 معقول. AUD/NZD/GBP محايدون – لا محفزات.
-
-**Gold & Oil Trader:**
-النفط -0.3 صحيح – إيران-عُمان يتفاوضان، علاوة الحرب تتلاشى، Brent عند 86.5 (هبط من 92). الذهب -0.1 خفيف جداً – XAU عند 4622 (قرب قمة 3 أشهر)، لكن إذا جاء PCE ساخناً ينهار، إذا بارداً يقفز. أبقيه -0.1 حتى PCE.
-
-**Equity / Risk-Sentiment Desk:**
-US500 عند 7680 (نطاق ضيق)، ينتظر Nvidia (19h) و PCE (12:29h). التعرفة الكندية لا تحرك الأسهم الأميركية – السوق يعرف أن ترامب سيرد. US500 محايد 0.0. VIX منخفض – لا ذعر.
-
-**Risk Manager:**
-danger mode خطأ – لا صدمة سيولة، لا حدث severity-3، الحساب +2.16$ اليوم، لا خسائر متتالية. التعرفة الكندية severity-2 لكن حدثت قبل 4 دقائق والأسعار لم تتحرك (EUR/CAD/USD ثابتة). **العودة إلى normal 0.8x فوراً**. news_block USD 121-181 دقيقة (12:00-13:00 UTC) صحيح لـPCE. INTRADAY خسر -2.8$ منذ 21 أغسطس – أزله من allow_books.
-
-**Market Historian:**
-التعرفات الانتقامية الكندية السابقة (2018-2019 حرب ترامب الأولى): CAD هبط 1-2% في أسبوع ثم استقر – التأثير تدريجي لا فوري. اليوم USDCAD عند 1.3869 (لم يتحرك منذ الإعلان 09:40) – السوق يهضم ببطء. PCE: آخر 5 مرات جاء كما متوقع (0.2%)، USD تحرك ±0.3% ثم عاد – إلا إذا فاجأ بـ0.3%+ يقفز USD 0.5%. الذهب عند 4622 (95% من نطاق السنة) – آخر 3 مرات وصل هنا تصحح -1.5% خلال أسبوع إلا إذا جاء محفز جديد (PCE بارد أو تصعيد إيران).
-
-**Chairman:**
-danger mode كان رد فعل مبالغ – التعرفة الكندية severity-2 لكن الأسعار لم تتحرك (4 دقائق مرت، لا قفزات). **العودة إلى normal 0.8x**. التوجهات: EUR 0.3 (Schnabel)، CAD -0.3 (تعرفة + نفط)، JPY 0.2، OIL -0.3، الباقي 0.0. conf 0.4 (أدلة واضحة لكن scorecard ضعيف 50%). news_block USD 121-181 دقيقة. إزالة INTRADAY (خسر -2.8$ في أسواق راكدة). allow_books: SWING,POSITION,SHOCK,COUNCIL,REVERT.
-
----
-
-## Psyche
-
-**Awareness:** fired=yes — قبل 15 دقيقة قفزنا إلى danger 0.6x بسبب التعرفة الكندية، لكن الأسعار لم تتحرك إطلاقاً (USDCAD ثابت عند 1.3869، EUR/USD/JPY لم تقفز) – هذا خوف زائد من عنوان. الآن نعود إلى normal 0.8x بعد 4 دقائق فقط – هذا تذبذب لكنه مبرر (لا صدمة سيولة فعلية). CAD كان -0.1، الآن -0.3 – منطقي (تعرفة + نفط). لا تقلب غير مبرر.
-
-**Greed:** fired=no — conf 0.4، معظم التوجهات 0.0-0.3، risk_mult 0.8 معتدل، لا لغة "فرصة سهلة".
-
-**Fear:** fired=yes — القفزة إلى danger قبل 15 دقيقة كانت رد فعل مفرط لعنوان بلا تأثير سعري فوري. الآن نصحح – جيد.
-
-**Prudence:** fired=yes — CAD -0.3 له مصدران (تعرفة + نفط -0.3) + تاريخ (2018-2019 CAD هبط تدريجياً). EUR 0.3 له مصدران (Schnabel + استقرار سعري). لكن إزالة INTRADAY بعد -2.8$ فقط قاسية – أبقه مع تحذير.
-
-**Intuition:** fired=no — لا حدس اليوم.
-
----
-
-## DIRECTIVES
-
-risk_mode=normal
-risk_mult=0.8
-regime=mixed
-bias_USD=0.0
-bias_EUR=0.3
-bias_GBP=0.0
-bias_JPY=0.2
-bias_AUD=0.0
-bias_NZD=0.0
-bias_CAD=-0.3
-bias_CHF=0.0
-bias_XAU=-0.1
-bias_XAG=0.0
-bias_OIL=-0.3
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.4
-allow_books=SWING,POSITION,SHOCK,COUNCIL,REVERT
-news_block=USD:121:181
-block_symbols=none
-shock=none
-prefer_symbols=EURCAD,USDCAD
-summary=Canada 50% tariffs (09:40) had no price impact; back to normal 0.8x; EUR 0.3 (ECB hike), CAD -0.3 (tariffs+oil), await PCE 12:29 UTC
-summary_ar=تعرفة كندا 50% (09:40) لم تحرّك الأسعار؛ عودة إلى normal 0.8x؛ EUR 0.3 (رفع ECB)، CAD -0.3 (تعرفة+نفط)، ننتظر PCE 12:29 UTC
-mind=calm
-psyche_flags=awareness,fear,prudence
+s,fear,prudence
 intuition=none
 
 
@@ -3376,3 +3277,84 @@ summary_ar=الأسواق متجمدة ساعتين قبل ورش Jackson Hole؛
 mind=calm
 psyche_flags=prudence,intuition
 intuition=أشعر أن ورش سيفاجئ بتشدد أكثر من المتوقع — USD قد يقفز، XAU قد يهبط حاداً
+
+
+# 2026-08-28 13:08 UTC
+## Council debate
+
+**Chief Macro Economist:**
+خطاب ورش بعد 51 دقيقة — الأسواق متجمدة تماماً. مراجعة الرواتب (Benchmark Payrolls Revision) قد تكشف ضعفاً أكبر في سوق العمل الأمريكي (-911K سابقاً). إذا كانت المراجعة أسوأ، USD قد يضعف؛ إذا كان ورش متشدداً، USD يقفز. التضخم لا يزال 4.3% (UoM) — الـFed عالق.
+
+**Central-Bank Watcher:**
+ورش سيتكلم عن التضخم والنمو. السوق يتوقع تشدداً معتدلاً (الفائدة ثابتة لكن لا تخفيض قريب). إذا فاجأ بتشدد أكثر (رفع محتمل أو تأخير التخفيض لـ2027)، USD يرتفع 0.5-1% في دقائق. ECB متشدد (محاضر الأمس) — EUR قوي نسبياً. BoJ أنفق $96.5 مليار في شهر لدعم JPY — التدخل مستمر لكن الأثر يتلاشى.
+
+**Geopolitical & Crisis Analyst:**
+الحرب مع إيران 6 أشهر — السوق تعود على الجمود (OIL ثابت $83، لا صدمة جديدة). لا تصعيد جديد منذ 48 ساعة. روسيا/أوكرانيا هادئ (زيارة CIA سرية لكن لا اتفاق). ترامب يقول "لا قلق من هجوم روسي على NATO" — risk-on خفيف. لا محفز جيوسياسي الآن.
+
+**FX Strategist:**
+EUR الأقوى (ECB متشدد، EURUSD ثابت 1.165)؛ GBP قوي (BoE قد يرد على أسعار الطاقة نهاية العام)؛ JPY مدعوم بالتدخل لكن USDJPY لا يزال 159.6 (ضعيف)؛ NZD الأضعف (لا محفز، RBNZ حمائمي)؛ CAD محايد (GDP اليوم 0.2% متوقع، ضعيف لكن مسعّر). USD محايد حتى ورش يتكلم — بعدها إما قفزة أو هبوط حسب التشدد.
+
+**Gold & Oil Trader:**
+XAU ثابت $4604 (قرب قمة تاريخية) — ينتظر ورش. إذا تشدد ورش، XAU يهبط $30-60 سريعاً (yields ترتفع)؛ إذا حمائمي، XAU يكسر $4650. OIL $83 راكد (الحرب مسعّرة، لا صدمة إمداد جديدة) — محايد. XAG يتبع XAU.
+
+**Equity / Risk-Sentiment Desk:**
+SPX 7746، NDX 29614 — قرب قمم تاريخية لكن متجمد قبل ورش. مقال NYT يقول "rally الـAI قد يكون بدايته فقط" — sentiment متفائل. إذا ورش متشدد جداً، indices تهبط 0.5-1%؛ إذا معتدل، rally يستمر. VIX منخفض — لا خوف.
+
+**Risk Manager:**
+51 دقيقة لورش — **يجب تفعيل news_block الآن** (USD:0:120 على الأقل). الحساب -0.06% اليوم (مستقر)، لكن INTRADAY خسر -2.37$ قبل ساعة (دخل قبل ورش بـ3 ساعات — خطأ). **أزل INTRADAY من allow_books حتى بعد ورش بساعة** (يصطاد ستوبات في التقلب). BREAKOUT أُزيل بالأمس (صحيح). risk_mult يبقى 0.85، لكن conf ينخفض لـ0.3 (عدم يقين كامل قبل ورش).
+
+**Market Historian:**
+آخر 5 خطابات Jackson Hole كبيرة (Powell 2022 تشدد، USD قفز 1.2% في يوم؛ Powell 2023 حمائمي، USD هبط 0.8%). **النمط**: الـ15 دقيقة الأولى تحدد الاتجاه لـ4-12 ساعة، ثم reversal جزئي في اليوم التالي. XAU عادة يتحرك عكس USD (2022: XAU هبط $40 بعد Powell المتشدد). **اليوم**: XAU عند $4604 (أعلى 98% من نطاق السنة)، USDJPY 159.6 (أعلى 92%)، EUR 1.165 (أعلى 78%) — **كلها ممتدة**. إذا فاجأ ورش بتشدد، reversals ستكون عنيفة (XAU -$50-80، USDJPY +2-3 big figures). لا تطارد الحركة الأولى — انتظر 30-60 دقيقة.
+
+**Chairman:**
+الإجماع واضح: **الأسواق متجمدة تماماً قبل ورش**. التوجيهات السابقة (EUR 0.2، NZD -0.1) صحيحة لكن **لا معنى لها الآن** — لا أحد يتداول. القرار: **news_block فوري** (USD:0:120)، **أزل INTRADAY** (خسر -2.37$ قبل ساعة بدخول أحمق قبل ورش)، **conf ينخفض لـ0.25** (عدم يقين كامل)، **كل الـbiases تبقى كما هي** (EUR 0.2، NZD -0.1 صحيحة لكن مجمدة). بعد ورش بـ60-90 دقيقة، نعيد التقييم حسب ما قال. risk_mult يبقى 0.85 (لا داعي للتغيير). allow_books: SWING,COUNCIL,REVERT فقط (SHOCK مسموح لكن لا صدمة متوقعة من خطاب مجدول).
+
+---
+
+## Psyche
+
+**Awareness (الوعي الذاتي):** fired=yes — قارنت التوجيهات السابقة (EUR 0.2، conf 0.4) مع الأسعار: EUR ثابت 1.165 (لم يتحرك)، XAU ثابت $4604 (لم يتحرك) — **لا flip-flopping، لكن لا حركة أصلاً**. أزلنا BREAKOUT بالأمس (صحيح: خسر -3.39$)، وأزلنا INTRADAY اليوم (صحيح: خسر -2.37$ قبل ساعة). القرار متسق.
+
+**Greed (كاشف الطمع):** fired=no — conf منخفض (0.25)، لا "easy money"، risk_mult 0.85 (معتدل). لا طمع.
+
+**Fear (كاشف الخوف):** fired=no — news_block منطقي (حدث مجدول كبير)، لا over-reaction. إزالة INTRADAY مبررة (خسائر متكررة في أسواق راكدة). لا خوف مبالغ.
+
+**Prudence (الحذر):** fired=yes — كل الـbiases القوية (EUR 0.2) مدعومة بمصدرين (محاضر ECB + استقرار EURUSD)، لكن **conf يجب أن ينخفض لـ0.25** (عدم يقين كامل قبل ورش). Market Historian حذّر من reversals عنيفة إذا فاجأ ورش — الحذر يوافق.
+
+**Intuition (الحدس):** fired=yes — أشعر أن ورش **لن** يفاجئ بتشدد كبير (السوق متوقع ذلك)؛ بل قد يكون **أكثر حمائمية** من المتوقع (يذكر ضعف سوق العمل). إذا حدث ذلك، USD يهبط، XAU يقفز. لكن هذا حدس — لا أغير الأرقام.
+
+**الحالة الذهنية:** calm — المجلس هادئ، ينتظر الحدث، لا قرارات متهورة.
+
+---
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.85
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.2
+bias_GBP=0.1
+bias_JPY=0.1
+bias_AUD=0.05
+bias_NZD=-0.1
+bias_CAD=0.0
+bias_CHF=0.0
+bias_XAU=0.0
+bias_XAG=0.0
+bias_OIL=0.0
+bias_US500=0.1
+bias_US100=0.15
+bias_US30=0.1
+bias_GER40=0.1
+conf=0.25
+allow_books=SWING,COUNCIL,REVERT,SHOCK
+news_block=USD:0:120
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=Markets frozen 51min pre-Warsh Jackson Hole; removed INTRADAY (lost in dead markets); EUR 0.2 (ECB hawkish), NZD -0.1; conf 0.25; wait 60-90min post-speech
+summary_ar=الأسواق متجمدة 51 دقيقة قبل ورش Jackson Hole؛ أزلنا INTRADAY (خسر في أسواق ميتة)؛ EUR 0.2 (ECB متشدد)، NZD -0.1؛ ثقة 0.25؛ ننتظر 60-90 دقيقة بعد الخطاب
+mind=calm
+psyche_flags=awareness,prudence,intuition
+intuition=أشعر أن ورش قد يكون أكثر حمائمية من المتوقع (يذكر ضعف سوق العمل) — USD قد يهبط، XAU يقفز
