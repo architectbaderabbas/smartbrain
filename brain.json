@@ -1,5 +1,5 @@
 {
- "ts": 1787922531,
+ "ts": 1787923432,
  "council_ts": 1787922531,
  "directives": {
   "risk_mode": "normal",
@@ -22,7 +22,7 @@
   "bias_US30": 0.1,
   "bias_GER40": 0.1,
   "allow_books": "SWING,COUNCIL,REVERT,SHOCK",
-  "news_block": "USD:0:120",
+  "news_block": "USD:-15:105",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
@@ -34,6 +34,7 @@
   "news_events": "USD:1787925600:Fed_Chairman_Warsh_Speaks;USD:1787925600:Prelim_Benchmark_Payrolls_Revision;All:1787933700:Jackson_Hole_Symposium"
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787695950,
