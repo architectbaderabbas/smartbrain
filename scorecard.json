@@ -2,8 +2,8 @@
  "decisions_scored": 45,
  "overall_hit_rate%": {
   "4h": 54,
-  "12h": 66,
-  "24h": 36
+  "12h": 65,
+  "24h": 38
  },
  "per_asset_hit_rate%": {
   "EUR": {
@@ -23,7 +23,7 @@
   },
   "AUD": {
    "4h": 58,
-   "12h": 90,
+   "12h": 86,
    "24h": 92
   }
  },
