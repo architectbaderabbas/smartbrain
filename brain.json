@@ -1,5 +1,5 @@
 {
- "ts": 1787909930,
+ "ts": 1787910828,
  "council_ts": 1787909930,
  "directives": {
   "risk_mode": "normal",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "ALL",
-  "news_block": "CAD:171:201;USD:261:321",
+  "news_block": "CAD:157:187;USD:247:307",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
@@ -34,6 +34,7 @@
   "news_events": "CAD:1787920200:GDP_mm"
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787673451,
