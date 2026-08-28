@@ -1,5 +1,5 @@
-ts=1787927031
-generated=2026-08-28 14:23 UTC
+ts=1787927929
+generated=2026-08-28 14:38 UTC (watchman heartbeat; council 14 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.85
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=awareness,prudence,intuition
 intuition=أشعر أن غياب ردة الفعل يعني خطاب ورش كان محايداً تماماً — الأسواق قد تبقى راكدة حتى نهاية الأسبوع؛ REVERT قد يكون الكتاب الوحيد المفيد
 news_events=All:1787933700:Jackson_Hole_Symposium
+watchman=quiet (sev0)
