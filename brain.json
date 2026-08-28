@@ -1,5 +1,5 @@
 {
- "ts": 1787920729,
+ "ts": 1787920998,
  "council_ts": 1787918039,
  "directives": {
   "risk_mode": "normal",
@@ -22,7 +22,7 @@
   "bias_US30": 0.1,
   "bias_GER40": 0.1,
   "allow_books": "INTRADAY,SWING,POSITION,SHOCK,COUNCIL,REVERT",
-  "news_block": "CAD:-23:7;USD:67:107",
+  "news_block": "CAD:-27:3;USD:63:103",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
@@ -31,7 +31,7 @@
   "intuition": "أشعر أن ورش سيفاجئ بتشدد أكثر من المتوقع — USD قد يقفز، XAU قد يهبط حاداً",
   "summary": "Markets frozen 2h pre-Warsh Jackson Hole; EUR 0.2 (ECB hawkish), NZD -0.1 weak; removed BREAKOUT (2 losses); normal 0.85x, conf 0.4",
   "summary_ar": "الأسواق متجمدة ساعتين قبل ورش Jackson Hole؛ EUR 0.2 (ECB متشدد)، NZD -0.1 ضعيف؛ أزلنا BREAKOUT (خسارتين)؛ normal 0.85x، ثقة 0.4",
-  "news_events": "CAD:1787920200:GDP_mm;USD:1787925600:Fed_Chairman_Warsh_Speaks;USD:1787925600:Prelim_Benchmark_Payrolls_Revision;All:1787933700:Jackson_Hole_Symposium"
+  "news_events": "USD:1787925600:Fed_Chairman_Warsh_Speaks;USD:1787925600:Prelim_Benchmark_Payrolls_Revision;All:1787933700:Jackson_Hole_Symposium"
  },
  "error": null,
  "watchman": "quiet (sev0)",
