@@ -1,46 +1,40 @@
 {
- "ts": 1787918100,
- "council_ts": 1787914429,
+ "ts": 1787918039,
+ "council_ts": 1787918039,
  "directives": {
   "risk_mode": "normal",
-  "risk_mult": 1.0,
+  "risk_mult": 0.85,
   "regime": "mixed",
-  "conf": 0.3,
+  "conf": 0.4,
   "bias_USD": 0.0,
-  "bias_EUR": 0.0,
-  "bias_GBP": 0.0,
-  "bias_JPY": 0.0,
-  "bias_AUD": 0.0,
-  "bias_NZD": 0.0,
+  "bias_EUR": 0.2,
+  "bias_GBP": 0.1,
+  "bias_JPY": 0.1,
+  "bias_AUD": 0.05,
+  "bias_NZD": -0.1,
   "bias_CAD": 0.0,
   "bias_CHF": 0.0,
   "bias_XAU": 0.0,
   "bias_XAG": 0.0,
   "bias_OIL": 0.0,
-  "bias_US500": 0.0,
-  "bias_US100": 0.0,
-  "bias_US30": 0.0,
-  "bias_GER40": 0.0,
-  "allow_books": "ALL",
-  "news_block": "none",
+  "bias_US500": 0.1,
+  "bias_US100": 0.15,
+  "bias_US30": 0.1,
+  "bias_GER40": 0.1,
+  "allow_books": "INTRADAY,SWING,POSITION,SHOCK,COUNCIL,REVERT",
+  "news_block": "CAD:20:50;USD:110:150",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "none",
-  "intuition": "none",
-  "summary": "",
-  "summary_ar": "",
+  "psyche_flags": "prudence,intuition",
+  "intuition": "أشعر أن ورش سيفاجئ بتشدد أكثر من المتوقع — USD قد يقفز، XAU قد يهبط حاداً",
+  "summary": "Markets frozen 2h pre-Warsh Jackson Hole; EUR 0.2 (ECB hawkish), NZD -0.1 weak; removed BREAKOUT (2 losses); normal 0.85x, conf 0.4",
+  "summary_ar": "الأسواق متجمدة ساعتين قبل ورش Jackson Hole؛ EUR 0.2 (ECB متشدد)، NZD -0.1 ضعيف؛ أزلنا BREAKOUT (خسارتين)؛ normal 0.85x، ثقة 0.4",
   "news_events": "CAD:1787920200:GDP_mm;USD:1787925600:Fed_Chairman_Warsh_Speaks;USD:1787925600:Prelim_Benchmark_Payrolls_Revision"
  },
  "error": null,
- "watchman": "صفقة NZDCAD INTRADAY 1.86$ ← تحليل مكتوب",
  "alerts": [
-  {
-   "ts": 1787673451,
-   "what": "U.S. Consumer Confidence falls to 89.4 (lowest since January); home sales miss estimates—soft demand signal amid trade war/geopolitical stress",
-   "sev": 2
-  },
   {
    "ts": 1787695950,
    "what": "BOJ to accelerate tightening, raise key rate to 1.25% in September (announced 22:05 UTC)",
@@ -84,6 +78,11 @@
   {
    "ts": 1787829205,
    "what": "Russian ruble plummeting amid new Ukraine war escalation fears; geopolitical shock pre-Jackson Hole",
+   "sev": 2
+  },
+  {
+   "ts": 1787918028,
+   "what": "PayPal stock crashes 18% after $50B Stripe/Advent buyout collapse; major fintech shock",
    "sev": 2
   }
  ]

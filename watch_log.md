@@ -1513,4 +1513,5 @@
 - 2026-08-28 11:08 UTC · heartbeat · quiet (sev0)
 - 2026-08-28 11:23 UTC · heartbeat · quiet (sev0)
 - 2026-08-28 11:38 UTC · heartbeat · quiet (sev0)
-- 2026-08-28 11:55 UTC · heartbeat · صفقة NZDCAD INTRADAY 1.86$ ← تحليل مكتوب
+- 2026-08-28 11:53 UTC · heartbeat · ALERT sev2: PayPal stock crashes 18% after $50B Stripe/Advent buyout collapse; major fintech shock -> protocol applied, council convening
+- 2026-08-28 11:53 UTC · FULL COUNCIL triggered: ALERT sev2: PayPal stock crashes 18% after $50B Stripe/Advent buyout collapse; major fintech shock

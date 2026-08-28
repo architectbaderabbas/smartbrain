@@ -1,20 +1,20 @@
 {
- "decisions_scored": 46,
+ "decisions_scored": 45,
  "overall_hit_rate%": {
-  "4h": 53,
-  "12h": 66,
-  "24h": 40
+  "4h": 54,
+  "12h": 67,
+  "24h": 44
  },
  "per_asset_hit_rate%": {
-  "EUR": {
-   "4h": 47,
-   "12h": 33,
-   "24h": 20
-  },
   "OIL": {
    "4h": 14,
    "12h": 14,
    "24h": 0
+  },
+  "EUR": {
+   "4h": 50,
+   "12h": 36,
+   "24h": 21
   },
   "CAD": {
    "4h": 75,
@@ -24,12 +24,12 @@
   "AUD": {
    "4h": 58,
    "12h": 83,
-   "24h": 93
+   "24h": 94
   }
  },
  "by_mind_state%": {
-  "calm": 50,
-  "?": 82,
+  "calm": 51,
+  "?": 83,
   "fearful": 100
  },
  "note": "hit = price moved in the direction of a bias with |bias|>=0.3 after the horizon; None = not enough data yet"
