@@ -1,24 +1,5 @@
 # SmartBrain lessons (post-mortems on real trades, newest last)
 
-### 2026-08-19 19:38 UTC
-**US100 other:0 SELL 0.04 lots · 3 min · exit EA · P/L 0.29$ · council bias 0.2 (CAUTION)**
-## POST-MORTEM ANALYSIS
-
-**TRADE SUMMARY:**
-Independent robot "other:0" (magic 0) sold US100 at 29491.8 (0.04 lots), held 3 minutes, closed by EA logic at 29484.45 for +$0.29. Council was in CAUTION mode with +0.2 US100 bias (bullish). This is the **third "other:0" trade today, all winners** (+$6.75 silver, +$0.45 Brent, +$0.29 now) = +$7.49 net, 100% win rate. Robot operates independently of council directives by design.
-
-**ALIGNMENT & BIAS ACCURACY:**
-Robot sold US100 **against council's +0.2 bullish bias**. Council bias was **CORRECT**: NDX now 29506.17 vs 29491.8 entry = +14.37 points, confirming the bullish call (Treasury buyback supporting tech, risk-on intact). The robot's SELL captured a 7.35-point dip (25 ticks) in 3 minutes, then price reversed exactly as council predicted. **This was luck, not edge** – fading a correct bullish regime worked only because the robot caught a micro-pullback and exited before the bounce. Price is now +21 points above the exit level.
-
-**ROOT CAUSE OF WIN:**
-**Scalping variance in the right direction.** The 3-minute hold and 7.35-point capture suggest the robot trades ultra-short-term mean-reversion or momentum exhaustion – it happened to sell a local top at 29491.8 and exit the dip at 29484.45 before the bullish regime reasserted. Root cause: **tight profit-taking in thin liquidity** (19:38 UTC = post-NY close). The 25.62-point stop and 37.18-point TP show 1.45R setup, but the EA closed early (likely time-based or volatility filter). This is **not repeatable edge** – selling into a +0.2 bias regime will lose over time; today's 3/3 wins are statistical noise.
-
-**CONCRETE LESSON:**
-**"Independent scalping robots (other:0) with 100% short-term win rates in low-volume hours are curve-fit to noise, not edge – operator must review magic-0 logic for overfitting and consider disabling outside major session hours (06:00-18:00 UTC) when liquidity supports genuine scalping."** Three 1-3 minute trades, all closed by EA (not SL/TP), all in post-session deadzone = the robot is optimized for specific conditions that won't persist. The +$7.49 today masks structural risk.
-
-**DIRECTIVE CHANGE:**
-None. "other:0" is independent (council has no authority), but **operator should audit this robot immediately**: 0.04-lot US100 position = $116 notional risk on $463 balance (25%
-
 ### 2026-08-19 20:39 UTC
 **US100 SHOCK BUY 0.21 lots · 5 min · exit SL · P/L -1.43$ · council bias 0.2 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -300,4 +281,17 @@ INTRADAY باع NZDCAD عند 0.8244 (0.03 لوت)، أُغلق بعد 174 دق�
 
 **4) الدرس المحدد:**
 **في الأسواق الراكدة، mean reversion من حواف النطاق أفضل من مطاردة الاتج
+
+### 2026-08-28 12:56 UTC
+**EURNZD INTRADAY BUY 0.03 lots · 56 min · exit EA · P/L -2.37$ · council bias 0.15 (NORMAL)**
+# تحليل ما بعد الصفقة
+
+**1) ما فعله الروبوت:**
+INTRADAY اشترى EURNZD عند 1.95899 (0.03 لوت)، أُغلق بعد 56 دقيقة عند 1.95766 بخسارة -2.37$. الدخول 10:00 UTC، الخروج 10:56 UTC (إغلاق EA). السعر الآن 1.95809 – أي الزوج هبط 13.3 نقطة ضد الصفقة ثم ارتد قليلاً بعد الخروج.
+
+**2) التوافق مع توجه المجلس:**
+الصفقة **مخالفة** لتوجه المجلس: bias_EUR=0.2 (قوي)، bias_NZD=-0.1 (ضعيف) – المجلس يدعم شراء EUR/بيع NZD، أي **شراء EURNZD منطقي**. لكن توجه المجلس **خاطئ توقيتاً**: EURNZD في نطاق 1.957-1.962 منذ يومين، والشراء من 1.95899 (وسط النطاق) **قبل ساعتين من خطاب ورش Jackson Hole** (13:00 UTC) = دخول في **منطقة تجميد تام**. الأسواق متوقفة تماماً قبل الحدث الأكبر.
+
+**3) السبب الجذري للخسارة:**
+**تجاهل news_block + دخول في سوق متجمد قبل حدث كبير.** التوجيهات تقول "news_block: USD:53:93" (أي حظر 53 دقيقة قبل و93 دقيقة بعد أحداث USD)، لكن INTRADAY دخل صفقة EUR/NZD في **10:00 UTC = قبل 180 دقيقة من ورش** – السوق ميت تماماً (EURNZD تحرك 9 نقاط فقط في ساعة). الخسارة -2.37$ من 0.03 لوت = **ضعف الخسارة العادية** لأن الحجم مضاعف. **هذه الصفقة رقم 13 من SmartMulti منذ 21 أغسطس
 

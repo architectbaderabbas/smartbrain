@@ -1,5 +1,5 @@
 {
- "ts": 1787921631,
+ "ts": 1787921810,
  "council_ts": 1787918039,
  "directives": {
   "risk_mode": "normal",
@@ -22,7 +22,7 @@
   "bias_US30": 0.1,
   "bias_GER40": 0.1,
   "allow_books": "INTRADAY,SWING,POSITION,SHOCK,COUNCIL,REVERT",
-  "news_block": "USD:53:93",
+  "news_block": "USD:49:89",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
@@ -34,7 +34,7 @@
   "news_events": "USD:1787925600:Fed_Chairman_Warsh_Speaks;USD:1787925600:Prelim_Benchmark_Payrolls_Revision;All:1787933700:Jackson_Hole_Symposium"
  },
  "error": null,
- "watchman": "quiet (sev0)",
+ "watchman": "صفقة EURNZD INTRADAY -2.37$ ← تحليل مكتوب",
  "alerts": [
   {
    "ts": 1787695950,
