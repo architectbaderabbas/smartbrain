@@ -1,5 +1,5 @@
-ts=1787999028
-generated=2026-08-29 10:23 UTC
+ts=1787999929
+generated=2026-08-29 10:38 UTC (watchman heartbeat; council 15 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.85
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=awareness,prudence
 intuition=الأسواق جامدة تنتظر NFP الجمعة – الانفجار قادم الجمعة، اليوم للصبر
 news_events=none
+watchman=quiet (sev0)
