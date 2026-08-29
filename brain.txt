@@ -1,5 +1,5 @@
-ts=1787987328
-generated=2026-08-29 07:08 UTC
+ts=1787988229
+generated=2026-08-29 07:23 UTC (watchman heartbeat; council 15 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.85
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=prudence,intuition
 intuition=الجمود سينكسر بعد NFP غداً – الصبر الآن أحكم من المراهنة على حركة وهمية
 news_events=none
+watchman=quiet (sev0)
