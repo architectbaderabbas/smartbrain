@@ -1,5 +1,5 @@
-ts=1788002628
-generated=2026-08-29 11:23 UTC
+ts=1788003529
+generated=2026-08-29 11:38 UTC (watchman heartbeat; council 15 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.9
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=awareness,prudence,intuition
 intuition=الجمعة ستكون يوم الانفجار – NFP سيحرك كل شيء. اليوم للصبر، الجمعة للحصاد. EUR/JPY الرهان الأنظف.
 news_events=none
+watchman=quiet (sev0)
