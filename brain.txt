@@ -1,5 +1,5 @@
-ts=1788010729
-generated=2026-08-29 13:38 UTC
+ts=1788011629
+generated=2026-08-29 13:53 UTC (watchman heartbeat; council 15 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.9
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=prudence,intuition
 intuition=اليوم الأخير قبل العاصفة – NFP الجمعة سيحرك كل شي
 news_events=none
+watchman=quiet (sev0)
