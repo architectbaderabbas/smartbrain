@@ -1,29 +1,29 @@
 {
- "decisions_scored": 41,
+ "decisions_scored": 40,
  "overall_hit_rate%": {
-  "4h": 44,
+  "4h": 50,
   "12h": 50,
   "24h": 0
  },
  "per_asset_hit_rate%": {
   "AUD": {
-   "4h": 25,
+   "4h": 50,
    "12h": 50,
    "24h": 0
   },
   "EUR": {
    "4h": 0,
-   "12h": null,
+   "12h": 0,
    "24h": null
   },
   "JPY": {
    "4h": 100,
-   "12h": null,
+   "12h": 100,
    "24h": null
   }
  },
  "by_mind_state%": {
-  "calm": 38
+  "calm": 46
  },
  "note": "hit = price moved in the direction of a bias with |bias|>=0.3 after the horizon; None = not enough data yet"
 }
