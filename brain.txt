@@ -1,5 +1,5 @@
-ts=1788022429
-generated=2026-08-29 16:53 UTC
+ts=1788023330
+generated=2026-08-29 17:08 UTC (watchman heartbeat; council 15 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.9
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=prudence,intuition
 intuition=الأسواق جامدة 27 ساعة لكن التوتر يتراكم تحت السطح – أول حركة حقيقية ستكون عنيفة، استعدوا للإغلاق السريع
 news_events=none
+watchman=quiet (sev0)
