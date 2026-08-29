@@ -1,6 +1,6 @@
 {
- "ts": 1788013428,
- "council_ts": 1788010729,
+ "ts": 1788014332,
+ "council_ts": 1788014332,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.9,
@@ -28,13 +28,12 @@
   "prefer_symbols": "EURJPY,EURNZD",
   "mind": "calm",
   "psyche_flags": "prudence,intuition",
-  "intuition": "اليوم الأخير قبل العاصفة – NFP الجمعة سيحرك كل شي",
-  "summary": "EUR strong (ECB hawkish, Spain CPI 4.3%), JPY weak (BoJ intervention failed, 160.1), markets frozen 24h awaiting NFP Friday; normal 0.9x, conf 0.5",
-  "summary_ar": "اليورو قوي (ECB متشدد، تضخم إسبانيا 4.3%)، الين ضعيف (تدخل BoJ فشل، 160.1)، الأسواق جامدة 24 ساعة تنتظر NFP الجمعة؛ عادي 0.9x، ثقة 0.5",
+  "intuition": "الهدوء الحالي مؤقت – NFP الجمعة سيفجّر التقلب، كونوا جاهزين للإغلاق السريع",
+  "summary": "EUR strong (ECB hawkish, Spain CPI 4.3%), JPY weak (BoJ intervention failed, 160.1), markets frozen 25h awaiting NFP Friday; normal 0.9x, conf 0.5",
+  "summary_ar": "اليورو قوي (ECB متشدد، تضخم إسبانيا 4.3%)، الين ضعيف (تدخل BoJ فشل، 160.1)، الأسواق جامدة 25 ساعة تنتظر NFP الجمعة؛ عادي 0.9x، ثقة 0.5",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787705848,

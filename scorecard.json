@@ -1,19 +1,18 @@
 {
  "decisions_scored": 39,
  "overall_hit_rate%": {
-  "4h": 60,
-  "12h": 80,
-  "24h": 40
+  "4h": 56,
+  "12h": 78,
+  "24h": 33
  },
  "per_asset_hit_rate%": {
   "AUD": {
-   "4h": 60,
-   "12h": 80,
-   "24h": 40
+   "4h": 56,
+   "12h": 78,
+   "24h": 33
   }
  },
  "by_mind_state%": {
-  "?": 100,
   "fearful": 100,
   "calm": 50
  },
