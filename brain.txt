@@ -1,5 +1,5 @@
-ts=1787972031
-generated=2026-08-29 02:53 UTC
+ts=1787972929
+generated=2026-08-29 03:08 UTC (watchman heartbeat; council 14 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.6
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=awareness,prudence,intuition
 intuition=إذا فُتح هرمز فعلاً الذهب ينهار مع النفط – علاوة الحرب تختفي في أسبوع
 news_events=none
+watchman=quiet (sev0)
