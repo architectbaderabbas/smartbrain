@@ -1,11 +1,11 @@
 {
- "ts": 1788037727,
- "council_ts": 1788034130,
+ "ts": 1788038328,
+ "council_ts": 1788038328,
  "directives": {
   "risk_mode": "normal",
-  "risk_mult": 1.0,
+  "risk_mult": 0.9,
   "regime": "mixed",
-  "conf": 0.6,
+  "conf": 0.55,
   "bias_USD": 0.0,
   "bias_EUR": 0.5,
   "bias_GBP": 0.0,
@@ -29,12 +29,11 @@
   "mind": "calm",
   "psyche_flags": "none",
   "intuition": "none",
-  "summary": "EUR strong (ECB hawkish, Spain CPI 4.5%), JPY weak (BoJ intervention failed, 160.1); EURJPY at 185.4 near breakout 186; normal 1.0x, conf 0.6",
-  "summary_ar": "اليورو قوي (ECB متشدد، تضخم إسبانيا 4.5%)، الين ضعيف (تدخل Bo",
+  "summary": "EUR strong (ECB hawkish, Spain CPI 4.5%), JPY weak (BoJ intervention failed 96B$, 160.1); EURJPY at 185.4, waiting for 186 break or NFP Friday; normal 0.9x, conf 0.55",
+  "summary_ar": "اليورو قوي (ECB متشدد، تضخم إسبانيا 4.5%)، الين ضعيف (تدخل BoJ فشل 96 مليار$، 160.1)؛ EURJPY عند 185.",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787705848,
