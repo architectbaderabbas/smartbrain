@@ -1,5 +1,5 @@
-ts=1788014332
-generated=2026-08-29 14:38 UTC
+ts=1788015228
+generated=2026-08-29 14:53 UTC (watchman heartbeat; council 14 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.9
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=prudence,intuition
 intuition=الهدوء الحالي مؤقت – NFP الجمعة سيفجّر التقلب، كونوا جاهزين للإغلاق السريع
 news_events=none
+watchman=quiet (sev0)
