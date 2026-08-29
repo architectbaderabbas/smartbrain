@@ -1,5 +1,5 @@
-ts=1787990929
-generated=2026-08-29 08:08 UTC
+ts=1787991830
+generated=2026-08-29 08:23 UTC (watchman heartbeat; council 15 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.85
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=awareness,prudence,intuition
 intuition=الجمود سينكسر بعد NFP غداً أو عند افتتاح لندن (ساعة واحدة من الآن) – إذا لم يتحرك السوق عند لندن، فالانتظار حتى الجمعة هو الأحكم
 news_events=none
+watchman=quiet (sev0)
