@@ -1,6 +1,6 @@
 {
- "ts": 1787986430,
- "council_ts": 1787983728,
+ "ts": 1787987328,
+ "council_ts": 1787987328,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.85,
@@ -17,8 +17,8 @@
   "bias_XAU": 0.0,
   "bias_XAG": 0.0,
   "bias_OIL": 0.0,
-  "bias_US500": 0.05,
-  "bias_US100": 0.05,
+  "bias_US500": 0.0,
+  "bias_US100": 0.0,
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "SHOCK,SWING,REVERT,INTRADAY",
@@ -28,13 +28,12 @@
   "prefer_symbols": "EURUSD,NZDUSD",
   "mind": "calm",
   "psyche_flags": "prudence,intuition",
-  "intuition": "صفقة فنزويلا ستحرك النفط خلال 12-24 ساعة عندما تتضح – الآن الانتظار أحكم من المراهنة",
-  "summary": "Markets frozen 17h post-Warsh/Venezuela; EUR strong (ECB), JPY weak (intervention failed), NZD weak; normal 0.85x, conf 0.4; wait NFP Friday",
-  "summary_ar": "الأسواق متجمدة 17 ساعة بعد Warsh/فنزويلا؛ EUR قوي (ECB)، JPY ضعيف (تدخل فشل)، NZD ضعيف؛ عادي 0.85x، ثقة 0.4؛ انتظار NFP الجمعة",
+  "intuition": "الجمود سينكسر بعد NFP غداً – الصبر الآن أحكم من المراهنة على حركة وهمية",
+  "summary": "Markets frozen 18h post-Warsh/Venezuela; EUR strong (ECB), JPY weak (intervention failed), NZD weak; normal 0.85x, conf 0.4; wait NFP Friday",
+  "summary_ar": "الأسواق متجمدة 18 ساعة بعد Warsh/فنزويلا؛ EUR قوي (ECB)، JPY ضعيف (تدخل فشل)، NZD ضعيف؛ عادي 0.85x، ثقة 0.4؛ انتظار NFP الجمعة",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787705848,
