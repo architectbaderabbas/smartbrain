@@ -1,6 +1,6 @@
 {
- "ts": 1787990028,
- "council_ts": 1787987328,
+ "ts": 1787990929,
+ "council_ts": 1787990929,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.85,
@@ -27,14 +27,13 @@
   "shock": "none",
   "prefer_symbols": "EURUSD,NZDUSD",
   "mind": "calm",
-  "psyche_flags": "prudence,intuition",
-  "intuition": "الجمود سينكسر بعد NFP غداً – الصبر الآن أحكم من المراهنة على حركة وهمية",
-  "summary": "Markets frozen 18h post-Warsh/Venezuela; EUR strong (ECB), JPY weak (intervention failed), NZD weak; normal 0.85x, conf 0.4; wait NFP Friday",
-  "summary_ar": "الأسواق متجمدة 18 ساعة بعد Warsh/فنزويلا؛ EUR قوي (ECB)، JPY ضعيف (تدخل فشل)، NZD ضعيف؛ عادي 0.85x، ثقة 0.4؛ انتظار NFP الجمعة",
+  "psyche_flags": "awareness,prudence,intuition",
+  "intuition": "الجمود سينكسر بعد NFP غداً أو عند افتتاح لندن (ساعة واحدة من الآن) – إذا لم يتحرك السوق عند لندن، فالانتظار حتى الجمعة هو الأحكم",
+  "summary": "Markets frozen 19h post-Warsh/Venezuela; EUR strong (ECB), JPY weak (intervention failed), NZD weak; normal 0.85x, conf 0.4; wait London open or NFP",
+  "summary_ar": "الأسواق متجمدة 19 ساعة بعد Warsh/فنزويلا؛ EUR قوي (ECB)، JPY ضعيف (تدخل فشل)، NZD ضعيف؛ عادي 0.85x، ثقة 0.4؛ انتظار لندن أو NFP",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787705848,
