@@ -1,6 +1,6 @@
 {
- "ts": 1788005329,
- "council_ts": 1788002628,
+ "ts": 1788006231,
+ "council_ts": 1788006231,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.9,
@@ -28,13 +28,12 @@
   "prefer_symbols": "EURJPY,USDJPY,EURNZD",
   "mind": "calm",
   "psyche_flags": "awareness,prudence,intuition",
-  "intuition": "الجمعة ستكون يوم الانفجار – NFP سيحرك كل شيء. اليوم للصبر، الجمعة للحصاد. EUR/JPY الرهان الأنظف.",
-  "summary": "EUR strong (ECB hawkish, CPI high), JPY weak (BoJ intervention failed, 160.1), NZD weak; markets frozen 22h awaiting NFP Friday; normal 0.9x, conf 0.5",
-  "summary_ar": "اليورو قوي (ECB متشدد، تضخم مرتفع)، الين ضعيف (تدخل BoJ فشل، 160.1)، الكيوي ضعيف؛ الأسواق جامدة 22 ساعة تنتظر NFP الجمعة؛ عادي 0.9x، ثقة 0.5",
+  "intuition": "الجمعة يوم الانفجار – NFP سيحرك كل شيء. اليوم آخر يوم هدوء قبل العاصفة. EUR/JPY النجم، لكن اليوم للانتظار فقط.",
+  "summary": "EUR strong (ECB hawkish, CPI high), JPY weak (BoJ intervention failed, 160.1), markets frozen 23h awaiting NFP Friday; normal 0.9x, conf 0.5",
+  "summary_ar": "اليورو قوي (ECB متشدد، تضخم مرتفع)، الين ضعيف (تدخل BoJ فشل، 160.1)، الأسواق جامدة 23 ساعة تنتظر NFP الجمعة؛ عادي 0.9x، ثقة 0.5",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787705848,
