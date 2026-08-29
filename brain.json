@@ -1,46 +1,40 @@
 {
- "ts": 1787973831,
- "council_ts": 1787972031,
+ "ts": 1787974739,
+ "council_ts": 1787974739,
  "directives": {
   "risk_mode": "normal",
-  "risk_mult": 0.6,
+  "risk_mult": 0.8,
   "regime": "mixed",
-  "conf": 0.35,
+  "conf": 0.4,
   "bias_USD": 0.05,
-  "bias_EUR": 0.2,
+  "bias_EUR": 0.25,
   "bias_GBP": 0.0,
-  "bias_JPY": -0.15,
+  "bias_JPY": -0.2,
   "bias_AUD": 0.0,
-  "bias_NZD": -0.1,
+  "bias_NZD": -0.15,
   "bias_CAD": 0.0,
   "bias_CHF": 0.0,
   "bias_XAU": 0.0,
   "bias_XAG": 0.0,
-  "bias_OIL": -0.1,
+  "bias_OIL": 0.0,
   "bias_US500": 0.05,
   "bias_US100": 0.05,
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
-  "allow_books": "SHOCK,REVERT",
+  "allow_books": "SHOCK,SWING,REVERT",
   "news_block": "none",
   "block_symbols": "none",
   "shock": "none",
-  "prefer_symbols": "none",
+  "prefer_symbols": "EURJPY,EURUSD,NZDUSD",
   "mind": "calm",
-  "psyche_flags": "awareness,prudence,intuition",
-  "intuition": "إذا فُتح هرمز فعلاً الذهب ينهار مع النفط – علاوة الحرب تختفي في أسبوع",
-  "summary": "Markets frozen 12h post-Warsh; EUR strong (ECB), JPY weak (intervention failed), oil down on Hormuz rumor (unconfirmed); wait NFP Friday",
-  "summary_ar": "الأسواق متجمدة 12 ساعة بعد ورش؛ اليورو قوي (ECB)، الين ضعيف (التدخل فشل)، النفط هابط (شائعات هرمز غير مؤكدة)؛ ننتظر NFP الجمعة",
+  "psyche_flags": "awareness,fear",
+  "intuition": "none",
+  "summary": "Markets frozen 15h post-Venezuela/Warsh; EUR strong (ECB hawkish), JPY weak (intervention failed), NZD weak; back to normal 0.8x, conf 0.4; wait NFP Friday",
+  "summary_ar": "الأسواق متجمدة 15 ساعة بعد فنزويلا/Warsh؛ EUR قوي (ECB متشدد)، JPY ضعيف (تدخل فشل)، NZD ضعيف؛ عودة لوضع عادي 0.8x، ثقة 0.4؛ انتظار NFP الجمعة",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
-  {
-   "ts": 1787695950,
-   "what": "BOJ to accelerate tightening, raise key rate to 1.25% in September (announced 22:05 UTC)",
-   "sev": 2
-  },
   {
    "ts": 1787705848,
    "what": "US conducts lethal kinetic strike (southcom.mil 00:56 UTC); Iran president signals openness to US memorandum—potential de-escalation signal vs. prior \"full-scale war\" rhetoric",
@@ -84,6 +78,11 @@
   {
    "ts": 1787918028,
    "what": "PayPal stock crashes 18% after $50B Stripe/Advent buyout collapse; major fintech shock",
+   "sev": 2
+  },
+  {
+   "ts": 1787974728,
+   "what": "Trump announces major Venezuela oil deal (65B barrels); potential supply shock and geopolitical shift",
    "sev": 2
   }
  ]

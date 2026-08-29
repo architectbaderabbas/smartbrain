@@ -1580,3 +1580,5 @@
 - 2026-08-29 02:53 UTC · FULL COUNCIL triggered: scheduled full council (last 75 min ago)
 - 2026-08-29 03:08 UTC · heartbeat · quiet (sev0)
 - 2026-08-29 03:23 UTC · heartbeat · quiet (sev0)
+- 2026-08-29 03:38 UTC · heartbeat · ALERT sev2: Trump announces major Venezuela oil deal (65B barrels); potential supply shock and geopolitical shift -> protocol applied, council convening
+- 2026-08-29 03:38 UTC · FULL COUNCIL triggered: ALERT sev2: Trump announces major Venezuela oil deal (65B barrels); potential supply shock and geopolitical shift
