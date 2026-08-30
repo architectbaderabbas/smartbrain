@@ -1,6 +1,6 @@
 {
- "ts": 1788118817,
- "council_ts": 1788116118,
+ "ts": 1788119718,
+ "council_ts": 1788119718,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.8,
@@ -22,19 +22,18 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "ALL",
-  "news_block": "none",
+  "news_block": "EUR:603:663",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
   "psyche_flags": "awareness,prudence",
   "intuition": "none",
-  "summary": "Sunday pre-data freeze: all pairs flat <10 pips, no new catalysts since 3h; ISM Mon 14:30 UTC, German CPI Mon 06:00 UTC; stay neutral until data",
-  "summary_ar": "تجمد الأحد قبل البيانات: كل الأزواج ثابتة <10 نقاط، لا محفزات جديدة منذ 3 ساعات؛ ISM الاثنين 14:30 UTC، CPI ألماني 06:00 UTC؛ ابقَ محايداً حتى البيانات",
+  "summary": "Sunday freeze continues: all pairs flat, no new catalysts; German CPI Mon 06:00 UTC, ISM Mon 14:30 UTC; stay neutral until data",
+  "summary_ar": "تجمد الأحد مستمر: كل الأزواج ثابتة، لا محفزات جديدة؛ CPI ألماني الاثنين 06:00 UTC، ISM 14:30 UTC؛ ابقَ محايداً حتى البيانات",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787737470,
