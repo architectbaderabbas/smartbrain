@@ -1767,3 +1767,4 @@
 - 2026-08-30 22:10 UTC · heartbeat · quiet (sev0)
 - 2026-08-30 22:25 UTC · heartbeat · ALERT sev2: Oil surges 2.47% post-US strike on Larak Island; Hormuz strait tension escalates with explosions reported in Jordan -> protocol applied, council convening
 - 2026-08-30 22:25 UTC · FULL COUNCIL triggered: ALERT sev2: Oil surges 2.47% post-US strike on Larak Island; Hormuz strait tension escalates with explosions reported in Jordan
+- 2026-08-30 22:28 UTC · heartbeat · quiet (sev0)
