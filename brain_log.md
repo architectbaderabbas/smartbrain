@@ -1,74 +1,4 @@
- الآن** (USD:0:120 على الأقل). الحساب -0.06% اليوم (مستقر)، لكن INTRADAY خسر -2.37$ قبل ساعة (دخل قبل ورش بـ3 ساعات — خطأ). **أزل INTRADAY من allow_books حتى بعد ورش بساعة** (يصطاد ستوبات في التقلب). BREAKOUT أُزيل بالأمس (صحيح). risk_mult يبقى 0.85، لكن conf ينخفض لـ0.3 (عدم يقين كامل قبل ورش).
-
-**Market Historian:**
-آخر 5 خطابات Jackson Hole كبيرة (Powell 2022 تشدد، USD قفز 1.2% في يوم؛ Powell 2023 حمائمي، USD هبط 0.8%). **النمط**: الـ15 دقيقة الأولى تحدد الاتجاه لـ4-12 ساعة، ثم reversal جزئي في اليوم التالي. XAU عادة يتحرك عكس USD (2022: XAU هبط $40 بعد Powell المتشدد). **اليوم**: XAU عند $4604 (أعلى 98% من نطاق السنة)، USDJPY 159.6 (أعلى 92%)، EUR 1.165 (أعلى 78%) — **كلها ممتدة**. إذا فاجأ ورش بتشدد، reversals ستكون عنيفة (XAU -$50-80، USDJPY +2-3 big figures). لا تطارد الحركة الأولى — انتظر 30-60 دقيقة.
-
-**Chairman:**
-الإجماع واضح: **الأسواق متجمدة تماماً قبل ورش**. التوجيهات السابقة (EUR 0.2، NZD -0.1) صحيحة لكن **لا معنى لها الآن** — لا أحد يتداول. القرار: **news_block فوري** (USD:0:120)، **أزل INTRADAY** (خسر -2.37$ قبل ساعة بدخول أحمق قبل ورش)، **conf ينخفض لـ0.25** (عدم يقين كامل)، **كل الـbiases تبقى كما هي** (EUR 0.2، NZD -0.1 صحيحة لكن مجمدة). بعد ورش بـ60-90 دقيقة، نعيد التقييم حسب ما قال. risk_mult يبقى 0.85 (لا داعي للتغيير). allow_books: SWING,COUNCIL,REVERT فقط (SHOCK مسموح لكن لا صدمة متوقعة من خطاب مجدول).
-
----
-
-## Psyche
-
-**Awareness (الوعي الذاتي):** fired=yes — قارنت التوجيهات السابقة (EUR 0.2، conf 0.4) مع الأسعار: EUR ثابت 1.165 (لم يتحرك)، XAU ثابت $4604 (لم يتحرك) — **لا flip-flopping، لكن لا حركة أصلاً**. أزلنا BREAKOUT بالأمس (صحيح: خسر -3.39$)، وأزلنا INTRADAY اليوم (صحيح: خسر -2.37$ قبل ساعة). القرار متسق.
-
-**Greed (كاشف الطمع):** fired=no — conf منخفض (0.25)، لا "easy money"، risk_mult 0.85 (معتدل). لا طمع.
-
-**Fear (كاشف الخوف):** fired=no — news_block منطقي (حدث مجدول كبير)، لا over-reaction. إزالة INTRADAY مبررة (خسائر متكررة في أسواق راكدة). لا خوف مبالغ.
-
-**Prudence (الحذر):** fired=yes — كل الـbiases القوية (EUR 0.2) مدعومة بمصدرين (محاضر ECB + استقرار EURUSD)، لكن **conf يجب أن ينخفض لـ0.25** (عدم يقين كامل قبل ورش). Market Historian حذّر من reversals عنيفة إذا فاجأ ورش — الحذر يوافق.
-
-**Intuition (الحدس):** fired=yes — أشعر أن ورش **لن** يفاجئ بتشدد كبير (السوق متوقع ذلك)؛ بل قد يكون **أكثر حمائمية** من المتوقع (يذكر ضعف سوق العمل). إذا حدث ذلك، USD يهبط، XAU يقفز. لكن هذا حدس — لا أغير الأرقام.
-
-**الحالة الذهنية:** calm — المجلس هادئ، ينتظر الحدث، لا قرارات متهورة.
-
----
-
-## DIRECTIVES
-
-risk_mode=normal
-risk_mult=0.85
-regime=mixed
-bias_USD=0.0
-bias_EUR=0.2
-bias_GBP=0.1
-bias_JPY=0.1
-bias_AUD=0.05
-bias_NZD=-0.1
-bias_CAD=0.0
-bias_CHF=0.0
-bias_XAU=0.0
-bias_XAG=0.0
-bias_OIL=0.0
-bias_US500=0.1
-bias_US100=0.15
-bias_US30=0.1
-bias_GER40=0.1
-conf=0.25
-allow_books=SWING,COUNCIL,REVERT,SHOCK
-news_block=USD:0:120
-block_symbols=none
-shock=none
-prefer_symbols=none
-summary=Markets frozen 51min pre-Warsh Jackson Hole; removed INTRADAY (lost in dead markets); EUR 0.2 (ECB hawkish), NZD -0.1; conf 0.25; wait 60-90min post-speech
-summary_ar=الأسواق متجمدة 51 دقيقة قبل ورش Jackson Hole؛ أزلنا INTRADAY (خسر في أسواق ميتة)؛ EUR 0.2 (ECB متشدد)، NZD -0.1؛ ثقة 0.25؛ ننتظر 60-90 دقيقة بعد الخطاب
-mind=calm
-psyche_flags=awareness,prudence,intuition
-intuition=أشعر أن ورش قد يكون أكثر حمائمية من المتوقع (يذكر ضعف سوق العمل) — USD قد يهبط، XAU يقفز
-
-
-# 2026-08-28 14:23 UTC
-## Council debate
-
-**Chief Macro Economist:** خطاب ورش انتهى منذ 23 دقيقة؛ لا نملك النص بعد لكن الأسواق لم تتحرك بعنف (EURUSD ثابت 1.1606، USDJPY 159.92، XAU 4553) — إما محايد أو الأسواق تنتظر التفاصيل. Prelim Benchmark Payrolls Revision صدر أيضاً لكن لا رقم فعلي في البيانات. نبقى حذرين 30-60 دقيقة حتى تتضح ردة الفعل.
-
-**Central-Bank Watcher:** ورش تكلم لكن لا نص ولا عناوين واضحة بعد؛ الأسواق هادئة = إما لا مفاجآت أو التفاصيل لم تُهضم. ECB لا يزال متشدداً (محاضر يوليو أمس أكدت احتمال رفع آخر)، BoJ أنفق 96.5 مليار دولار تدخلاً في شهر (رقم قياسي) — JPY قوي هيكلياً رغم USDJPY فوق 159. نبقى bias_JPY=0.1 حتى نرى نص ورش.
-
-**Geopolitical & Crisis Analyst:** الحرب مع إيران دخلت الشهر السادس؛ العناوين اليوم تقول "الأسواق اعتادت على الجمود، لا نهاية في الأفق" و"ترامب يقول لا يستعجل" — علاوة الحرب تتلاشى (OIL 83.3، هبط من 85+ الأسبوع الماضي). لا تصعيد جديد، لا صدمة — OIL محايد 0.0، XAU محايد 0.0 (الذهب 4553 ثابت رغم الحرب).
-
-**FX Strategist:** EUR قوي (ECB متشدد، sentiment منطقة اليورو تحسن في أغسطس رغم الحرب)، bias_EUR=0.2 يبقى. GBP محايد (BoE ينتظر نهاية العام)، bias_GBP=0.1. JPY قوي (تدخل ضخم، ين safe-haven)، bias_JPY=0.1. NZD ضعيف (لا محفزات)، bias_NZD=-0.1. USD محايد تماماً حتى نرى نص ورش، bias_USD=0.0.
-
-**Gold & Oil Trader:** XAU 4553 ثابت منذ 24 ساعة (نطاق 4550-4560)؛ لا حركة بعد ورش = لا مفاجأة. OIL 83.3 هابط (علاوة الحرب تتلاشى، مضيق هرمز مفتوح، دبلوماسية بطيئة) — bias_OIL=0.0. الذهب في قمة تاريخية لكن momentum خامد، bias_XAU=0.0 حتى يظهر محفز.
+يظهر محفز.
 
 **Equity / Risk-Sentiment Desk:** SPX 7741، NDX 29610، DAX 26543 — كلها ثابتة تماماً منذ 12 ساعة (الأسواق كانت متجمدة قبل ورش ولا تزال). لا risk-off، لا risk-on — mixed. bias_US500=0.1، bias_US100=0.15، bias_GER40=0.1 نبقيها (اتجاه صاعد طويل الأمد لكن لا momentum اليوم).
 
@@ -3396,3 +3326,85 @@ S&P 7719 (+0.1% اليوم)، Nasdaq 29472 (+0.2%)، DAX 26570 (+0.3%) – **ق�
 ---
 
 **الحالة الذهنية:** calm — لا طمع، لا خوف،
+
+
+# 2026-08-30 16:40 UTC
+## Council debate
+
+**Chief Macro Economist:**
+الاقتصاد العالمي في مرحلة انتقالية: التضخم الأوروبي يتسارع (إسبانيا 4.3%، ألمانيا CPI غداً متوقع 0.3%)، أميركا تنتظر ISM Manufacturing الاثنين (متوقع 55.2 = قوي). لا ركود، لكن التضخم لم يمت. EUR قوي بسبب توقعات ECB المتشددة، USD محايد حتى بيانات الاثنين.
+
+**Central-Bank Watcher:**
+ECB متشدد (محاضر يوليو أكدت القلق من التضخم)، BoJ فاشل (أنفق 15.4 تريليون ين تدخل ولم يوقف ضعف JPY)، Fed ينتظر البيانات. Bessent يحذر من تقلبات الين لكن لا إجراءات فورية. لا مفاجآت قريبة، لكن EUR/JPY الفارق يتسع.
+
+**Geopolitical & Crisis Analyst:**
+إيران: الحرب مستمرة (38 قتيل في أوكرانيا، طوابير بنزين في إيران، قادة عسكريون يحذرون Hegseth)، لكن لا تصعيد جديد منذ 48 ساعة. فنزويلا: صفقة نفط ترامب (65 مليار برميل) ستملأ الاحتياطي الاستراتيجي لكن التأثير بعيد المدى. XAU/OIL مستقران، لا صدمة فورية.
+
+**FX Strategist:**
+EUR الأقوى (CPI إسبانيا 4.3%، ECB متشدد)، JPY الأضعف (تدخل BoJ فشل، USDJPY عند 160.1 = قرب أعلى مستوى 2026)، USD محايد (ينتظر ISM الاثنين). EURJPY عالق 40 ساعة عند 185.4 = انفجار قريب صعوداً. AUD/NZD/CAD محايدون، GBP/CHF هادئون.
+
+**Gold & Oil Trader:**
+XAU عند 4454 = قرب ATH لكن راكد 3 أيام (نطاق 4440-4460)، لا زخم. صفقة فنزويلا نفطية طويلة الأجل، WTI 83.87 مستقر. لا محفز فوري للذهب أو النفط، انتظار بيانات أميركا الاثنين.
+
+**Equity / Risk-Sentiment Desk:**
+SPX 7719 = ATH جديد، لكن المقالات تحذر: "فقط Microsoft وNvidia يحملان السوق"، "نمط 2000 يتكرر" (فقاعة تقنية). VIX منخفض، risk-on سطحي. الاثنين: Broadcom earnings + ISM = اختبار حقيقي. الآن هدوء قبل العاصفة.
+
+**Risk Manager:**
+لا خطر فوري: لا أحداث severity-2/3، الحساب +0.84$ اليوم (INTRADAY 2 فوز من 3)، لا خسائر متتالية. لكن نهاية الأسبوع = سيولة ميتة، EURJPY عالق 40 ساعة = انفجار محتمل الاثنين صباحاً (طوكيو). German CPI غداً 13:48 UTC (828 دقيقة) = news_block EUR. risk_mode=normal، risk_mult 0.9 (حذر قليلاً قبل الأحداث).
+
+**Market Historian:**
+EURJPY عالق 40 ساعة عند 185.4 يشبه أغسطس 2024 (قبل انفجار yen-carry): الهدوء الطويل ينتهي بحركة عنيفة 100+ نقطة في ساعات. آخر مرة BoJ فشل بالتدخل (2022): USDJPY واصل الصعود 3 أسابيع. EUR قوي بالتضخم (مثل 2022): EURUSD صعد من 1.05 إلى 1.10 في شهرين. الآن: EURJPY عند 185.4، المدى السنوي 160-190، موقع 67% = مجال صعود. لكن نهاية الأسبوع = حركات كاذبة، انتظار طوكيو الاثنين.
+
+**Chairman:**
+الأدلة واضحة: EUR قوي (CPI 4.3%، ECB متشدد)، JPY ضعيف (تدخل فاشل)، EURJPY مضغوط 40 ساعة = انفجار محتمل. لكن التوقيت سيء: نهاية أسبوع ميتة، German CPI غداً، ISM الاثنين. القرار: bias_EUR=0.3، bias_JPY=-0.35 (نفس الاتجاه لكن أخفض من 0.4 السابق لأن لا حدث جديد منذ 6 ساعات)، risk_mult=0.9 (حذر قبل الأحداث)، conf=0.5 (أدلة قوية لكن توقيت غير مثالي)، news_block EUR غداً. allow_books=INTRADAY,SWING,COUNCIL,REVERT (إزالة SHOCK: لا صدمة، إزالة BREAKOUT: 0% فوز). prefer_symbols=EURJPY,EURUSD.
+
+---
+
+## Psyche
+
+**Awareness (fired=yes):** نحن نكرر نفس التوجه منذ 9 ساعات (bias_EUR قوي، bias_JPY ضعيف، EURJPY مفضل) بلا حقائق جديدة منذ 07:38 UTC (CPI إسبانيا). السعر لم يتحرك (EURJPY ثابت 185.4، EURUSD ثابت 1.158). هذا تجميد، ليس flip-flop. لكن رفع conf من 0.45 إلى 0.6 في 14:10 UTC بلا سبب = ثقة زائفة. الآن نخفض conf إلى 0.5 وnews_block EUR غداً = توازن.
+
+**Greed (fired=no):** conf=0.5، معظم biases صفر أو ضعيفة، prefer_symbols قصير (EURJPY,EURUSD فقط). لا علامات جشع.
+
+**Fear (fired=no):** risk_mode=normal، risk_mult=0.9 (حذر معقول قبل German CPI وISM)، لا هلع. متوازن.
+
+**Prudence (fired=yes):** bias_EUR=0.3 وbias_JPY=-0.35 مدعومان بمصدرين (CPI إسبانيا 4.3%، تدخل BoJ الفاشل 15.4 تريليون ين) + تاريخ (EUR قوي بالتضخم 2022، BoJ فشل 2022 = JPY ضعيف أسابيع). لكن |bias| >= 0.3 يحتاج حدث طازج < 90 دقيقة، وآخر حدث كان قبل 33 ساعة. نخفض إلى 0.3/-0.35 (حد الحذر).
+
+**Intuition (fired=yes):** EURJPY سينفجر صعوداً الاثنين صباحاً (طوكيو 00:00-02:00 UTC) بـ80-120 نقطة. الضغط 40 ساعة + فارق EUR/JPY الأساسي = زنبرك مضغوط.
+
+**Mind state:** calm  
+**Psyche flags:** awareness,prudence,intuition
+
+---
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.9
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=0.0
+bias_JPY=-0.35
+bias_AUD=0.0
+bias_NZD=0.0
+bias_CAD=0.0
+bias_CHF=0.0
+bias_XAU=0.0
+bias_XAG=0.0
+bias_OIL=0.0
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.5
+allow_books=INTRADAY,SWING,COUNCIL,REVERT
+news_block=EUR:828:858
+block_symbols=none
+shock=none
+prefer_symbols=EURJPY,EURUSD
+summary=EUR strong (Spain CPI 4.3%, ECB hawkish), JPY weak (BoJ intervention failed); EURJPY coiled 40h at 185.4, breakout likely Monday Tokyo open; normal 0.9x, conf 0.5, German CPI tomorrow
+summary_ar=يورو قوي (تضخم إسبانيا 4.3%، ECB متشدد)، ين ضعيف (تدخل BoJ فشل)؛ EURJPY مضغوط 40 ساعة عند 185.4، انفجار محتمل الاثنين صباحاً طوكيو؛ عادي 0.9x، ثقة 0.5، CPI ألمانيا غداً
+mind=calm
+psyche_flags=awareness,prudence,intuition
+intuition=EURJPY سينفجر صعوداً الاثنين صباحاً طوكيو بـ80-120 نقطة - الضغط 40 ساعة والفارق الأساسي EUR/JPY زنبرك مضغوط
