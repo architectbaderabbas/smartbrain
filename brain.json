@@ -1,6 +1,6 @@
 {
- "ts": 1788127819,
- "council_ts": 1788126018,
+ "ts": 1788128730,
+ "council_ts": 1788128730,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.75,
@@ -21,26 +21,20 @@
   "bias_US100": 0.0,
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
-  "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT",
-  "news_block": "EUR:454:499;USD:1319:1379",
+  "allow_books": "ALL",
+  "news_block": "EUR:366:411;USD:1231:1291",
   "block_symbols": "none",
-  "shock": "USOIL:1:30:US_Iran_strike_80min_ago_no_retaliation_yet_oil_stable",
+  "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
   "psyche_flags": "awareness,fear,prudence",
-  "intuition": "إيران لن ترد الليلة؛ الرد سيأتي خلال 24-72 ساعة لكن ليس الآن — السوق يعرف هذا",
-  "summary": "US-Iran strike 80min ago, no retaliation yet; oil +0.5% stable, gold flat, FX dead; caution 0.75x until Mon 06:00 CPI or retaliation",
-  "summary_ar": "ضربة أميركا-إيران قبل 80 دقيقة، لا انتقام بعد؛ النفط +0.5% مستقر، الذهب ثابت، الفوركس ميت؛ حذر 0.75x حتى الاثنين 06:00 CPI أو انتقام",
+  "intuition": "none",
+  "summary": "US-Iran strike 105min ago, no retaliation yet; oil stable 85.31, gold/FX flat; caution 0.75x until Mon 06:00 CPI or Iran response",
+  "summary_ar": "ضربة أميركا-إيران منذ 105 دقائق، لا رد بعد؛ النفط مستقر 85.31، الذهب وFX ميتة؛ حذر 0.75x حتى CPI ألمانيا 06:00 أو رد إيران",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
-  {
-   "ts": 1787752770,
-   "what": "US Q2 GDP Deflator Revised Up to 6.4%; July Real Consumer Spending Stagnates—stagflation signal ahead of Jackson Hole",
-   "sev": 2
-  },
   {
    "ts": 1787771674,
    "what": "Chinese state hackers breached DOJ, NASA, Federal Reserve, Senate systems (19:00 UTC)",
@@ -84,6 +78,11 @@
   {
    "ts": 1788123317,
    "what": "US strikes Iranian military targets on Larak Island; Iran vows response; Hormuz strait tension escalates",
+   "sev": 2
+  },
+  {
+   "ts": 1788128718,
+   "what": "Oil surges 2.47% post-US strike on Larak Island; Hormuz strait tension escalates with explosions reported in Jordan",
    "sev": 2
   }
  ]

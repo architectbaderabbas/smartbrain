@@ -1,5 +1,5 @@
 {
- "decisions_scored": 42,
+ "decisions_scored": 43,
  "overall_hit_rate%": {
   "4h": 52,
   "12h": 49,
@@ -14,7 +14,7 @@
   "JPY": {
    "4h": 100,
    "12h": 100,
-   "24h": 90
+   "24h": 91
   }
  },
  "by_mind_state%": {
