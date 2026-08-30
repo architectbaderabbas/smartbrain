@@ -1,13 +1,13 @@
 {
- "ts": 1788056629,
- "council_ts": 1788053928,
+ "ts": 1788057528,
+ "council_ts": 1788057528,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.8,
   "regime": "mixed",
-  "conf": 0.45,
+  "conf": 0.4,
   "bias_USD": 0.0,
-  "bias_EUR": 0.5,
+  "bias_EUR": 0.4,
   "bias_GBP": 0.0,
   "bias_JPY": -0.4,
   "bias_AUD": 0.0,
@@ -28,13 +28,12 @@
   "prefer_symbols": "EURJPY,CHFJPY,GBPJPY",
   "mind": "calm",
   "psyche_flags": "fear,prudence",
-  "intuition": "EURJPY سيحاول كس",
-  "summary": "EUR strong (ECB hawkish, Spain CPI 4.5%), JPY weak (BoJ intervention failed); EURJPY stuck 33h under 186, weekend illiquidity; normal 0.8x, conf 0.45, BREAKOUT restored",
-  "summary_ar": "اليورو قوي (ECB متشدد، تضخم إسبانيا 4.5%)، الين ضعيف (تدخل BoJ فشل)؛ EURJPY عالق 33 ساعة تحت 186، سيولة نهاية أسبوع ضعيفة؛ عادي 0.8x، ثقة 0.45، BREAKOUT أُعيد",
+  "intuition": "none",
+  "summary": "EUR strong (ECB hawkish), JPY weak (BoJ failed); EURJPY stuck 34h at 185.4, weekend dead liquidity; normal 0.8x, conf 0.4, wait for Monday open",
+  "summary_ar": "اليورو قوي (ECB متشدد)، الين ضعيف (BoJ فشل)؛ EURJPY عالق 34 ساعة عند 185.4، سيولة نهاية أسبوع ميتة؛ عادي 0.8x، ثقة 0.4، ننتظر فتح الاثنين",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787705848,
