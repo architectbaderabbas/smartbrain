@@ -1,12 +1,12 @@
-ts=1788090932
-generated=2026-08-30 11:55 UTC
+ts=1788091818
+generated=2026-08-30 12:10 UTC (watchman heartbeat; council 14 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.9
 regime=mixed
 conf=0.5
 allow_books=INTRADAY,SWING,POSITION,SHOCK,COUNCIL,REVERT
-news_block=EUR:1098:1128
+news_block=EUR:1084:1114
 block_symbols=none
 shock=none
 prefer_symbols=EURJPY
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=awareness,fear
 intuition=EURJPY سينفجر صعوداً +40-60 نقطة في أول ساعتين من فتح طوكيو (00:00-02:00 UTC الاثنين)، لأن 40 ساعة ضغط + ين ضعيف + يورو قوي = زنبرك مشدود
 news_events=none
+watchman=quiet (sev0)

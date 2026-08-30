@@ -1721,3 +1721,4 @@
 - 2026-08-30 11:40 UTC · FULL COUNCIL triggered: scheduled full council (last 60 min ago)
 - 2026-08-30 11:55 UTC · heartbeat · ALERT sev2: Venezuela potentially breaking from OPEC; US Treasury conducting surprise Euro sales and Yen purchases, rattling ECB -> protocol applied, council convening
 - 2026-08-30 11:55 UTC · FULL COUNCIL triggered: ALERT sev2: Venezuela potentially breaking from OPEC; US Treasury conducting surprise Euro sales and Yen purchases, rattling ECB
+- 2026-08-30 12:10 UTC · heartbeat · quiet (sev0)
