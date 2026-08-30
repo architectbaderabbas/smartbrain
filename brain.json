@@ -1,6 +1,6 @@
 {
- "ts": 1788074630,
- "council_ts": 1788071929,
+ "ts": 1788075530,
+ "council_ts": 1788075530,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.85,
@@ -22,19 +22,18 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "INTRADAY,SWING,POSITION,SHOCK,COUNCIL,REVERT",
-  "news_block": "EUR:1349:1379",
+  "news_block": "EUR:1330:1360",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
   "psyche_flags": "prudence",
   "intuition": "none",
-  "summary": "EUR strong (ECB hawkish, Spain CPI 4.5%), JPY weak (BoJ intervention failed); weekend dead liquidity, EURJPY stuck 37h at 185.4; normal 0.85x, conf 0.4, wait for Monday open",
-  "summary_ar": "اليورو قوي (ECB متشدد، تضخم إسبانيا 4.5%)، الين ضعيف (تدخل BoJ فشل)؛ سيولة ميتة نهاية أسبوع، EURJPY عالق 37 ساعة عند 185.4؛ عادي 0.85x، ثقة 0.4، انتظار فتح الاثنين",
+  "summary": "EUR strong (ECB hawkish, Spain CPI 4.5%), JPY weak (BoJ intervention failed 15.4tn yen); weekend dead liquidity, EURJPY stuck 38h at 185.4; normal 0.85x, conf 0.4, German CPI in 22h",
+  "summary_ar": "اليورو قوي (ECB متشدد، تضخم إسبانيا 4.5%)، الين ضعيف (تدخل BoJ فشل 15.4 تريليون)؛ سيولة ميتة نهاية أسبوع، EURJPY عالق 38 ساعة عند 185.4؛ عادي 0.85x، ثقة 0.4، CPI ألمانيا خلال 22 ساعة",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787722169,

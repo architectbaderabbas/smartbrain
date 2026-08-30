@@ -1,113 +1,4 @@
-ر**.
-
----
-
-## DIRECTIVES
-
-risk_mode=normal
-risk_mult=0.7
-regime=mixed
-bias_USD=0.0
-bias_EUR=0.2
-bias_GBP=0.0
-bias_JPY=0.0
-bias_AUD=0.1
-bias_NZD=0.0
-bias_CAD=-0.25
-bias_CHF=0.0
-bias_XAU=0.0
-bias_XAG=0.0
-bias_OIL=0.0
-bias_US500=0.0
-bias_US100=0.2
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.15
-allow_books=INTRADAY,SWING,COUNCIL,REVERT
-news_block=USD:711:777;CAD:621:707
-block_symbols=none
-shock=none
-prefer_symbols=none
-summary=Markets frozen 12h pre-Warsh; EUR 0.2 (ECB hawkish), AUD 0.1 (stalled at 0.72), US100 0.2 (Nvidia); CAD -0.25; risk_mult raised to 0.7 for post-Warsh opportunities; conf 0.15
-summary_ar=الأسواق متجمدة 12 ساعة قبل Warsh؛ EUR 0.2 (ECB متشدد)، AUD 0.1 (متوقف عند 0.72)، US100 0.2 (Nvidia)؛ CAD -0.25؛ risk_mult رُفع إلى 0.7 استعداداً لفرص ما بعد Warsh؛ conf 0.15
-mind=calm
-psyche_flags=prudence,intuition
-intuition=أشع
-
-
-# 2026-08-28 03:08 UTC
-## Council debate
-
-**Chief Macro Economist:**
-الأسواق متجمدة 11 ساعة قبل خطاب Warsh في Jackson Hole. لا بيانات جديدة منذ آخر اجتماع. النمو الأمريكي قوي (PCE أمس)، التضخم مرتفع 4.3%، الاقتصاد الأوروبي ضعيف لكن ECB متشدد. الوضع كما كان قبل ساعة.
-
-**Central-Bank Watcher:**
-Warsh يتكلم بعد 10 ساعات و 51 دقيقة – هذا الحدث الوحيد المهم. السوق ينتظر إشارات عن المسار المقبل للفائدة. ECB أكد احتمال رفع سبتمبر في المحاضر أمس. BoJ لا جديد بعد Tokyo CPI 1.8% (متوقع). كل شيء معلق حتى Warsh.
-
-**Geopolitical & Crisis Analyst:**
-حرب إيران دخلت شهرها السادس في طريق مسدود مكلف – Reuters وWashington Post يؤكدان. مخزون Patriot في أوروبا "أبعد من حرج" حسب AP. لكن لا تصعيد جديد منذ 24 ساعة، الأسواق هضمت الوضع. النفط ثابت 83.5$، الذهب 4585$ – لا حركة.
-
-**FX Strategist:**
-كل العملات متجمدة: EURUSD 1.1650 (±5 نقاط منذ 12 ساعة)، USDJPY 159.45 (±10 نقاط)، AUDUSD 0.7203 (توقف عند مقاومة 0.72 منذ يومين). لا اتجاهات، لا تقلب. EUR لا يزال الأقوى نسبياً (ECB متشدد)، CAD الأضعف (ينتظر GDP غداً).
-
-**Gold & Oil Trader:**
-XAUUSD 4585$ (ثابت منذ 18 ساعة)، USOIL 83.5$ (نطاق 83-84$ منذ يومين). فنزويلا قد تخرج من OPEC وتعمق العلاقات مع أمريكا (Bloomberg) – لكن السوق تجاهل الخبر. الذهب والنفط ينتظران Warsh مثل الجميع.
-
-**Equity / Risk-Sentiment Desk:**
-US500 7738، US100 29645 – ثابتان منذ إغلاق نيويورك. Nvidia رفعت التوقعات أمس ودفعت Nasdaq، لكن الزخم توقف. لا خوف، لا طمع – السوق في وضع "انتظار" كامل.
-
-**Risk Manager:**
-11 ساعة حتى Warsh، 9 ساعات حتى CAD GDP. SmartMulti خسر -2.22$ من 10 صفقات منذ 20 أغسطس في أسواق ميتة؛ الروبوت القديم ربح +2.16$ من 3 صفقات. المشكلة: INTRADAY/SWING يصطادان ستوبات في الضوضاء. أقترح إبقاء risk_mult 0.7، إزالة INTRADAY حتى يعود التقلب.
-
-**Market Historian:**
-آخر 5 مرات قبل خطاب رئيس Fed في Jackson Hole: الأسواق تجمدت 12-24 ساعة قبل الحدث، ثم تحركت ±1-2% في ساعة بعد الخطاب. 2022 Powell (متشدد): USD +1.5%، ذهب -2%، أسهم -3%. 2020 Powell (تضخم متوسط): USD -0.8%، ذهب +1%. الآن: التجمد الحالي طبيعي تماماً. التحذير: أي bias قوي الآن سيُختبر بعنف بعد 11 ساعة – الأفضل البقاء محايدين.
-
-**Chairman:**
-الوضع واضح: سوق متجمد ينتظر Warsh. لا أحداث جديدة، لا بيانات، لا تصعيد. EUR 0.2 (ECB متشدد) صحيح لكن السعر لا يتحرك. AUD 0.1 توقف عند 0.72. US100 0.2 من Nvidia لكن بلا زخم. المشكلة الحقيقية: SmartMulti يخسر في أسواق ميتة. القرار: **أزيل INTRADAY** (1 فوز من 6، -1.99$)، أبقي SWING (7 أفواز من 10 لكن +2.64$ فقط)، أبقي risk_mult 0.7، أخفض كل biases إلى 0.1-0.15 (لا معنى لـ0.2-0.35 في سوق لا يتحرك)، conf 0.1. news_block لـUSD وCAD كما هو.
-
----
-
-## Psyche
-
-**Awareness:** fired=yes. قارنت آخر 8 قرارات: نفس biases (EUR 0.2، AUD 0.1-0.35، US100 0.2) منذ 6 ساعات، لكن الأسعار لم تتحرك (EURUSD ±5 نقاط، AUDUSD ±8 نقاط). هذا **تمسك بلا دليل جديد**. الدروس تقول: في أسواق ميتة، خفّض biases وأوقف الكتب الخاسرة. Chairman استجاب جزئياً (أزال INTRADAY)، لكن يجب خفض كل biases إلى 0.1 أو 0.
-
-**Greed:** fired=no. لا ثقة عالية، لا biases قوية، لا prefer_symbols. المجلس حذر.
-
-**Fear:** fired=no. لا رد فعل مبالغ، لا halt بلا سبب. الحذر مبرر (Warsh بعد 11 ساعة).
-
-**Prudence:** fired=yes. كل bias >= 0.2 يحتاج مصدرين + تاريخ. EUR 0.2: محاضر ECB أمس (مصدر واحد فقط)، لا حركة سعر. AUD 0.1: لا مصادر جديدة منذ 12 ساعة. US100 0.2: Nvidia أمس (قديم 18 ساعة). **أخفض الكل إلى 0.1 أو 0**.
-
-**Intuition:** fired=yes. أشعر أن السوق سيتحرك بعنف بعد Warsh، لكن الاتجاه غير واضح الآن. الأفضل الانتظار بـbiases صفرية وrisk_mult 0.7، ثم الاستجابة السريعة بعد الخطاب.
-
----
-
-## DIRECTIVES
-
-risk_mode=normal
-risk_mult=0.7
-regime=mixed
-bias_USD=0.0
-bias_EUR=0.1
-bias_GBP=0.0
-bias_JPY=0.0
-bias_AUD=0.05
-bias_NZD=0.0
-bias_CAD=-0.2
-bias_CHF=0.0
-bias_XAU=0.0
-bias_XAG=0.0
-bias_OIL=0.0
-bias_US500=0.0
-bias_US100=0.1
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.1
-allow_books=SWING,COUNCIL,REVERT
-news_block=USD:643:709;CAD:553:639
-block_symbols=none
-shock=none
-prefer_symbols=none
-summary=Markets frozen 11h pre-Warsh; all biases cut to 0.0-0.1 (no price action); removed INTRADAY (losing in dead markets); SWING/COUNCIL/REVERT only; risk_mult 0.7; conf 0.1
+1
 summary_ar=الأسواق متجمدة 11 ساعة قبل Warsh؛ كل التوجهات خُفضت إلى 0.0-0.1 (لا حركة سعر)؛ أُزيل INTRADAY (يخسر في أسواق ميتة)؛ SWING/COUNCIL/REVERT فقط؛ risk_mult 0.7؛ conf 0.1
 mind=calm
 psyche_flags=awareness,prudence,intuition
@@ -3390,6 +3281,87 @@ shock=none
 prefer_symbols=none
 summary=EUR strong (ECB hawkish, Spain CPI 4.5%), JPY weak (BoJ intervention failed); weekend dead liquidity, EURJPY stuck 37h at 185.4; normal 0.85x, conf 0.4, wait for Monday open
 summary_ar=اليورو قوي (ECB متشدد، تضخم إسبانيا 4.5%)، الين ضعيف (تدخل BoJ فشل)؛ سيولة ميتة نهاية أسبوع، EURJPY عالق 37 ساعة عند 185.4؛ عادي 0.85x، ثقة 0.4، انتظار فتح الاثنين
+mind=calm
+psyche_flags=prudence
+intuition=none
+
+
+# 2026-08-30 07:38 UTC
+## Council debate
+
+**Chief Macro Economist:**
+نهاية أسبوع هادئة، لا بيانات جديدة. الاقتصاد الأوروبي يظهر زخماً (تضخم إسبانيا 4.5%، معنويات قوية)، أميركا مستقرة (عوائد 10 سنوات 4.73%)، اليابان تعاني (تدخل BoJ فشل، 15.4 تريليون ين مهدور). الدورة: نمو أوروبي معتدل، تضخم عنيد، أسعار فائدة مرتفعة لفترة أطول.
+
+**Central-Bank Watcher:**
+ورش (Fed) قال الأسبوع الماضي التضخم أهم من سوق العمل – متشدد. ECB أظهر محاضر متشددة (كوشر حذّر من توقعات خفض مبالغ فيها). BoJ فشل في وقف ضعف الين رغم 15.4 تريليون تدخل – مصداقيته صفر. الخطوة التالية: Fed ثابت، ECB قد يبطئ الخفض، BoJ عاجز.
+
+**Geopolitical & Crisis Analyst:**
+حرب إيران: WSJ تقول ذخيرة أميركا تستنزف، مخاوف من الصين/روسيا. أوكرانيا: ضربة روسية قتلت 37 (الأسوأ هذا العام)، محطة نووية بلا كهرباء. فنزويلا: ترامب أعلن صفقة نفط 25 سنة (35% حصة أميركية) – قد تخفض أسعار النفط متوسط الأجل. المستفيدون الآن: USD (ملاذ آمن)، النفط مستقر (83.87 WTI)، الذهب هادئ (4454).
+
+**FX Strategist:**
+EUR الأقوى (ECB متشدد، تضخم مرتفع، EURUSD 1.1582 ثابت فوق 1.15). JPY الأضعف (USDJPY 160.1، تدخل BoJ فاشل، بيسنت حذّر من تقلبات الين). GBP/AUD/NZD/CAD/CHF محايدون (نطاقات ضيقة، لا محفزات). للـ4-24 ساعة القادمة: EUR +0.3، JPY -0.3، الباقي 0.
+
+**Gold & Oil Trader:**
+الذهب 4454 (قرب قمم تاريخية، +0.3% من أمس) – مستقر رغم حروب، لا زخم صعودي جديد. الفضة 66.32 هادئة. النفط 83.87 WTI / 89.83 برنت – صفقة فنزويلا ضغط هبوطي متوسط الأجل لكن حرب إيران تدعم. OPEC صامت. التحيز: ذهب 0، نفط 0 (متوازن).
+
+**Equity / Risk-Sentiment Desk:**
+S&P500 7719 (+0.1% من الجمعة)، Nasdaq 29472، DAX 26570 – كلها قرب قمم. VIX منخفض (بيانات مفقودة لكن المؤشرات هادئة). المخاطر: مقال Spectator يحذر من فقاعة، لكن لا محفز فوري. الوضع: risk-on خفيف، لا نشوة ولا ذعر. التحيز: مؤشرات 0.
+
+**Risk Manager:**
+لا أحداث severity-2/3. الحساب: 453.91$ (+0.84$ أمس من INTRADAY)، يوم -0.06$، أسبوع -0.11$ – مستقر. لا خسائر متتالية اليوم. BREAKOUT 0% نجاح (خسر -3.39$ من صفقتين) – يبقى محظوراً. السيولة: نهاية أسبوع ميتة (07:38 UTC الأحد)، الأسواق تفتح خلال ساعات. التوصية: normal، risk_mult 0.85، حظر EUR قبل CPI ألمانيا (22 ساعة من الآن).
+
+**Market Historian:**
+نهايات أسبوع بعد خطابات Jackson Hole: عادةً هادئة، الاتجاهات تتأكد يوم الاثنين. EURJPY عالق 38 ساعة عند 185.4 – آخر مرة حدث هذا (يوليو 2026 قبل بيانات تضخم): انفجر ±80 نقطة خلال 12 ساعة بعد البيانات. JPY ضعيف رغم تدخل BoJ – تاريخياً (2022، 2024) التدخلات تفشل إذا لم تتغير الأساسيات؛ USDJPY عاد لـ160 بعد كل تدخل. EUR قوي بتضخم 4.5% – يشبه 2023 (تضخم عنيد أبقى EUR فوق 1.10 لشهور). النفط 83$ مع صفقة فنزويلا – يشبه 2023 (عودة إيران دفعت النفط -10% في شهرين). التحيز: EUR +0.3 يستمر، JPY -0.3 يستمر، نفط حذر.
+
+**Chairman:**
+الأدلة متسقة: EUR قوي (ECB + تضخم)، JPY ضعيف (BoJ فاشل)، الباقي محايد. السيولة ميتة (نهاية أسبوع)، لا صدمات جديدة. SCORECARD ضعيف (50% دقة 4/12 ساعة) – نخفض الثقة. BREAKOUT يبقى محظوراً (0% نجاح). CPI ألمانيا غداً 22 ساعة – نحظر EUR قبلها. القرار: normal 0.85x، conf 0.4، EUR +0.3، JPY -0.3، الباقي 0، allow_books كلها إلا BREAKOUT.
+
+---
+
+## Psyche
+
+**Awareness (الوعي الذاتي):** fired=no. التوجيهات الحالية مطابقة للسابقة (EUR +0.3، JPY -0.3، normal 0.85x منذ 4 ساعات) – لا تقلب، لا عناد. الأسعار تؤكد: EURJPY ثابت عند 185.4 (لا دحض). SCORECARD ضعيف (50%) لكن العينة صغيرة (41 قرار فقط). لا إنذارات.
+
+**Greed (الطمع):** fired=no. الثقة 0.4 منخفضة، تحيز واحد فقط قوي (EUR +0.3)، risk_mult 0.85 معتدل، لا رموز مفضلة، لا لغة "مال سهل". لا علامات طمع.
+
+**Fear (الخوف):** fired=no. لا رد فعل مبالغ على عنوان واحد، لا انهيار تحيزات بعد خسارة (آخر صفقة ربح +0.84$)، normal منطقي (لا صدمات نشطة، سيولة ضعيفة فقط). لا ذعر.
+
+**Prudence (الحذر):** fired=yes. التحيزات القوية (EUR +0.3، JPY -0.3) مدعومة بمصدرين (ECB + تضخم إسبانيا؛ BoJ فشل + USDJPY 160) ولها نظير تاريخي (2023 EUR، 2022/2024 JPY) – تمر. لكن SCORECARD 50% يفرض خفض الثقة إلى 0.4 – تم. الحذر راضٍ.
+
+**Intuition (الحدس):** fired=no. لا حدس هذه الجولة – الأدلة كافية، السوق ميت، ننتظر فتح الاثنين.
+
+**الحالة الذهنية:** calm (هادئ). لا طمع، لا خوف، لا تشتت – قرار محافظ بأدلة متسقة في سوق راكد.
+
+---
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.85
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.3
+bias_GBP=0.0
+bias_JPY=-0.3
+bias_AUD=0.0
+bias_NZD=0.0
+bias_CAD=0.0
+bias_CHF=0.0
+bias_XAU=0.0
+bias_XAG=0.0
+bias_OIL=0.0
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.4
+allow_books=INTRADAY,SWING,POSITION,SHOCK,COUNCIL,REVERT
+news_block=EUR:1330:1360
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=EUR strong (ECB hawkish, Spain CPI 4.5%), JPY weak (BoJ intervention failed 15.4tn yen); weekend dead liquidity, EURJPY stuck 38h at 185.4; normal 0.85x, conf 0.4, German CPI in 22h
+summary_ar=اليورو قوي (ECB متشدد، تضخم إسبانيا 4.5%)، الين ضعيف (تدخل BoJ فشل 15.4 تريليون)؛ سيولة ميتة نهاية أسبوع، EURJPY عالق 38 ساعة عند 185.4؛ عادي 0.85x، ثقة 0.4، CPI ألمانيا خلال 22 ساعة
 mind=calm
 psyche_flags=prudence
 intuition=none
