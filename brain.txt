@@ -1,5 +1,5 @@
-ts=1788053928
-generated=2026-08-30 01:38 UTC
+ts=1788054828
+generated=2026-08-30 01:53 UTC (watchman heartbeat; council 15 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.8
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=fear,prudence
 intuition=EURJPY سيحاول كس
 news_events=none
+watchman=quiet (sev0)
