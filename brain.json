@@ -1,5 +1,5 @@
 {
- "ts": 1788126919,
+ "ts": 1788127819,
  "council_ts": 1788126018,
  "directives": {
   "risk_mode": "caution",
@@ -22,9 +22,9 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT",
-  "news_block": "EUR:469:514;USD:1334:1394",
+  "news_block": "EUR:454:499;USD:1319:1379",
   "block_symbols": "none",
-  "shock": "USOIL:1:45:US_Iran_strike_80min_ago_no_retaliation_yet_oil_stable",
+  "shock": "USOIL:1:30:US_Iran_strike_80min_ago_no_retaliation_yet_oil_stable",
   "prefer_symbols": "none",
   "mind": "calm",
   "psyche_flags": "awareness,fear,prudence",
