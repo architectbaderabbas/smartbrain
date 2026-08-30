@@ -1,12 +1,12 @@
-ts=1788101718
-generated=2026-08-30 14:55 UTC (watchman heartbeat; council 15 min ago)
+ts=1788102617
+generated=2026-08-30 15:10 UTC (watchman heartbeat; council 14 min ago)
 version=1
 risk_mode=normal
 risk_mult=1.0
 regime=mixed
 conf=0.6
 allow_books=INTRADAY,SWING,POSITION,SHOCK,COUNCIL,REVERT
-news_block=EUR:933:958;USD:2825:2855
+news_block=EUR:919:944;USD:2811:2841
 block_symbols=none
 shock=none
 prefer_symbols=EURJPY
