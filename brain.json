@@ -1,5 +1,5 @@
 {
- "ts": 1788119726,
+ "ts": 1788120617,
  "council_ts": 1788119726,
  "directives": {
   "risk_mode": "normal",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "ALL",
-  "news_block": "EUR:600:645;USD:1465:1525",
+  "news_block": "EUR:586:631;USD:1451:1511",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
@@ -34,6 +34,7 @@
   "news_events": "none"
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787737470,
