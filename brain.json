@@ -1,6 +1,6 @@
 {
- "ts": 1788071028,
- "council_ts": 1788067429,
+ "ts": 1788071929,
+ "council_ts": 1788071929,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.85,
@@ -22,19 +22,18 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "INTRADAY,SWING,POSITION,SHOCK,COUNCIL,REVERT",
-  "news_block": "EUR:1422:1452",
+  "news_block": "EUR:1392:1422",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
   "psyche_flags": "prudence",
   "intuition": "none",
-  "summary": "EUR strong (ECB hawkish, Spain CPI 4.5%), JPY weak (BoJ intervention failed); weekend dead liquidity, EURJPY stuck 36h at 185.4; normal 0.85x, conf 0.4, BREAKOUT removed (0% win rate)",
-  "summary_ar": "اليورو قوي (ECB متشدد، تضخم إسبانيا 4.5%)، الين ضعيف (تدخل BoJ فشل)؛ سيولة ميتة نهاية أسبوع، EURJPY عالق 36 ساعة عند 185.4؛ عادي 0.85x، ثقة 0.4، BREAKOUT مُزال (0% نجاح)",
+  "summary": "EUR strong (ECB hawkish, Spain CPI 4.5%), JPY weak (BoJ intervention failed); weekend dead liquidity, EURJPY stuck 37h at 185.4; normal 0.85x, conf 0.4, wait for Monday open",
+  "summary_ar": "اليورو قوي (ECB متشدد، تضخم إسبانيا 4.5%)، الين ضعيف (تدخل BoJ فشل)؛ سيولة ميتة نهاية أسبوع، EURJPY عالق 37 ساعة عند 185.4؛ عادي 0.85x، ثقة 0.4، انتظار فتح الاثنين",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787722169,
