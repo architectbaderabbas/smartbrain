@@ -1,5 +1,5 @@
 {
- "ts": 1788132529,
+ "ts": 1788133217,
  "council_ts": 1788132529,
  "directives": {
   "risk_mode": "danger",
@@ -22,9 +22,9 @@
   "bias_US30": -0.3,
   "bias_GER40": -0.3,
   "allow_books": "SHOCK",
-  "news_block": "EUR:308:353;USD:1173:1233",
+  "news_block": "EUR:297:342;USD:1162:1222",
   "block_symbols": "EURUSD,GBPUSD,AUDUSD,NZDUSD,USDCAD,EURGBP,EURJPY,GBPJPY,AUDJPY,NZDJPY,EURNZD",
-  "shock": "XAUUSD:1:120:Iran_missiles_on_Jordan_US_bases;USOIL:1:120:Iran_retaliation_escalates;USDJPY:-1:120:JPY_safe-haven_bid",
+  "shock": "XAUUSD:1:109:Iran_missiles_on_Jordan_US_bases;USOIL:1:109:Iran_retaliation_escalates;USDJPY:-1:109:JPY_safe-haven_bid",
   "prefer_symbols": "USDCHF,USDJPY",
   "mind": "fearful",
   "psyche_flags": "awareness,fear,prudence,intuition",
@@ -34,6 +34,7 @@
   "news_events": "none"
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787771674,
