@@ -1,5 +1,5 @@
-ts=1788050328
-generated=2026-08-30 00:38 UTC
+ts=1788051230
+generated=2026-08-30 00:53 UTC (watchman heartbeat; council 15 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.75
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=fear,prudence
 intuition=EURJPY سيكسر 186 يوم الاثنين (افتتاح آسيا) إذا لم تأتِ أخبار سلبية عن EUR – لكن ننتظر تأكيد السعر
 news_events=none
+watchman=quiet (sev0)
