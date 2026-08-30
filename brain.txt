@@ -1,5 +1,5 @@
-ts=1788086418
-generated=2026-08-30 10:40 UTC
+ts=1788087320
+generated=2026-08-30 10:55 UTC (watchman heartbeat; council 15 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.9
@@ -31,3 +31,4 @@ mind=calm
 psyche_flags=prudence,intuition
 intuition=EURJPY سينفجر صعوداً عند فتح طوكيو (الاثنين 00:00 UTC) بـ40-60 نقطة، لأن تدخل BoJ الفاشل كسر مصداقيتهم وEUR قوي فعلاً
 news_events=none
+watchman=quiet (sev0)
