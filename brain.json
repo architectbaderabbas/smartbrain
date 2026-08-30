@@ -1,9 +1,9 @@
 {
- "ts": 1788090018,
- "council_ts": 1788090018,
+ "ts": 1788090932,
+ "council_ts": 1788090932,
  "directives": {
   "risk_mode": "normal",
-  "risk_mult": 0.95,
+  "risk_mult": 0.9,
   "regime": "mixed",
   "conf": 0.5,
   "bias_USD": 0.0,
@@ -22,24 +22,19 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "INTRADAY,SWING,POSITION,SHOCK,COUNCIL,REVERT",
-  "news_block": "none",
+  "news_block": "EUR:1098:1128",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "EURJPY",
   "mind": "calm",
-  "psyche_flags": "prudence,intuition",
-  "intuition": "EURJPY سينفجر صعوداً +40 نقطة في ساعتي فتح طوكيو الأوليين (00:00-02:00 UTC الاثنين)، لأن 40 ساعة ضغط + ين ضعيف + يورو قوي = زنبرك مشدود",
-  "summary": "EUR strong (Spain CPI 4.5%, ECB hawkish), JPY weak (BoJ intervention failed 15.4tn yen); EURJPY coiled 40h at 185.4, breakout likely Monday Tokyo open; normal 0.95x, conf 0.5",
-  "summary_ar": "اليورو قوي (تضخم إسبانيا 4.5%، ECB متشدد)، الين ضعيف (تدخل BoJ فشل 15.4 تريليون ين)؛ EURJPY عالق 40 ساعة عند 185.4، انفجار محتمل فتح طوكيو الاثنين؛ عادي 0.95x، ثقة 0.5",
+  "psyche_flags": "awareness,fear",
+  "intuition": "EURJPY سينفجر صعوداً +40-60 نقطة في أول ساعتين من فتح طوكيو (00:00-02:00 UTC الاثنين)، لأن 40 ساعة ضغط + ين ضعيف + يورو قوي = زنبرك مشدود",
+  "summary": "EUR strong (Spain CPI 4.3%, ECB hawkish), JPY weak (BoJ intervention failed 15.4tn yen); EURJPY coiled 40h at 185.4, breakout likely Monday Tokyo open; normal 0.9x, BREAKOUT removed (0% win rate)",
+  "summary_ar": "يورو قوي (تضخم إسبانيا 4.3%، ECB متشدد)، ين ضعيف (تدخل BoJ فشل 15.4 تريليون ين)؛ EURJPY مضغوط 40 ساعة عند 185.4، انفجار محتمل عند فتح طوكيو الاثنين؛ وضع عادي 0.9x، BREAKOUT مُزال (0% نجاح)",
   "news_events": "none"
  },
  "error": null,
  "alerts": [
-  {
-   "ts": 1787722169,
-   "what": "U.S.-Japan FX intervention sold euros without ECB coordination; ECB fury over broken trust signals major policy rift",
-   "sev": 2
-  },
   {
    "ts": 1787737470,
    "what": "Canada imposes 50% retaliatory tariffs on hundreds of US products (09:40 UTC)",
@@ -83,6 +78,11 @@
   {
    "ts": 1788062927,
    "what": "Japan conducts record ¥15.4tn FX intervention; yen volatility spike amid Fed policy uncertainty pre-Jackson Hole",
+   "sev": 2
+  },
+  {
+   "ts": 1788090918,
+   "what": "Venezuela potentially breaking from OPEC; US Treasury conducting surprise Euro sales and Yen purchases, rattling ECB",
    "sev": 2
   }
  ]

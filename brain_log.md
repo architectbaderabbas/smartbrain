@@ -1,105 +1,4 @@
-s_OIL=0.0
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.35
-allow_books=ALL
-news_block=CAD:280:310;USD:430:490
-block_symbols=none
-shock=none
-prefer_symbols=none
-summary=Markets frozen 7h pre-Warsh Jackson Hole; EUR 0.1 (ECB hawkish), AUD 0.05 (fading); CAD GDP 4:51h, Warsh 7:21h; normal 0.8x, conf 0.35
-summary_ar=الأسواق متجمدة 7 ساعات قبل Warsh؛ EUR 0.1 (ECB متشدد)، AUD 0.05 (يتلاشى)؛ GDP كندا 4:51 ساعة، Warsh 7:21 ساعة؛ عادي 0.8x، ثقة 0.35
-mind=calm
-psyche_flags=prudence
-intuition=none
-
-
-# 2026-08-28 08:38 UTC
-## Council debate
-
-**كبير الاقتصاديين الكلي:** الأسواق متجمدة 5 ساعات قبل Warsh في Jackson Hole. GDP كندا بعد 231 دقيقة (توقع 0.2% vs 0.3% سابق) – إذا جاء ضعيفاً CAD ينزل. لا تغيير في الدورة العالمية منذ ساعة.
-
-**مراقب البنوك المركزية:** Warsh يتكلم بعد 321 دقيقة – هذا الحدث الوحيد المهم اليوم. التوقعات: إما تأكيد التشدد (USD صاعد، ذهب نازل) أو مفاجأة حمائمية (عكس ذلك). ECB محاضر أمس متشددة تدعم EUR، لكن السوق ينتظر Warsh فقط.
-
-**محلل الجيوسياسيا والأزمات:** حرب إيران 6 أشهر – الأسواق تعودت على الجمود (مضيق هرمز مفاوضات لإعادة فتحه، لا تصعيد جديد). زلزال كاليفورنيا 5.6 أمس – محلي، لا تأثير على الأسواق. لا خطر فوري.
-
-**استراتيجي العملات:** كل العملات متجمدة في نطاقات ضيقة منذ 48 ساعة. EUR عند 1.1645 (مقاومة 1.165 صامدة)، JPY عند 159.5 (لا حركة رغم تضخم طوكيو 1.8%)، AUD عند 0.7194 (عالق تحت 0.72)، CAD عند 1.3857 (ينتظر GDP). لا إشارة واضحة – الجميع ينتظر Warsh.
-
-**متداول الذهب والنفط:** ذهب عند 4607$ (ثابت 24 ساعة)، نفط WTI 83.1$ (هابط أسبوعياً رغم إيران – علامة أن السوق يرى تهدئة). فنزويلا تفاوض أمريكا على حصة نفطية – إذا نجح الاتفاق النفط ينزل. لا bias قوي الآن.
-
-**مكتب الأسهم ومعنويات المخاطرة:** S&P 7738، Nasdaq 29585 (ثابتان منذ أمس). Nvidia قاد صعوداً أمس لكن توقف اليوم. VIX بيانات مفقودة لكن الأسواق هادئة جداً – risk-on خفيف لكن بلا قناعة. الجميع ينتظر Warsh.
-
-**مدير المخاطر:** لا خطر فوري. news_block لـCAD (231-261 دقيقة) وUSD (321-381 دقيقة) ضروري. السوق ميت منذ أيام – SmartMulti خسر لأنه يتاجر في ضوضاء. risk_mult يبقى 0.8، لكن بعد Warsh إذا جاء تقلب نرفعه إلى 1.0.
-
-**المؤرخ السوقي:** آخر مرة Fed chair تكلم في Jackson Hole وفاجأ السوق (Powell 2022 "pain" speech): USD صعد 1.5% في يوم، ذهب نزل 2%، الحركة استمرت أسبوعين. إذا Warsh متشدد اليوم: نفس النمط محتمل (USD فوق، XAU تحت). لكن إذا حمائمي: عكس حاد (USD تحت، XAU فوق). السعر الحالي: كل الأصول في منتصف نطاقات 1y – لا امتداد، جاهزة للكسر في أي اتجاه. **تحذير:** EURUSD عند 1.1645 اصطدم بمقاومة 1.165 ثلاث مرات في 48 ساعة – إذا كسرها بعد Warsh يستهدف 1.175؛ إذا فشل ينزل لـ1.155.
-
-**الرئيس:** الصورة واضحة: سوق متجمد ينتظر Warsh. لا حدث آخر مهم. نبقى محايدين (biases قرب 0.0)، نحجب CAD وUSD في نوافذ البيانات، نرفع risk_mult قليلاً إلى 0.85 (السوق هادئ، scorecard 64% على 12 ساعة، لا سبب للبقاء في 0.8)، conf نرفعها إلى 0.4 (واثقون أن لا شيء يحدث قبل Warsh). بعد Warsh نعيد التقييم فوراً.
-
----
-
-## Psyche
-
-**الوعي (Awareness):** fired=no. المجلس ثابت منذ 3 ساعات (biases قرب 0.0، ينتظر Warsh) – لا تقلب، لا عناد. التوجه السابق صحيح والأسعار لم تتحرك. لا مشكلة.
-
-**كاشف الطمع (Greed):** fired=no. كل biases قرب 0.0، conf 0.4، risk_mult 0.85 – لا طمع، حذر معقول.
-
-**كاشف الخوف (Fear):** fired=no. risk_mode=normal صحيح (لا أزمة، لا تقلب، scorecard 64%)، المجلس هادئ بلا مبالغة.
-
-**الحكمة (Prudence):** fired=yes. رفع risk_mult من 0.8 إلى 0.85 في سوق ميت منذ أيام يحتاج سبباً أقوى – لكن scorecard 64% على 12 ساعة يدعمه. مقبول بشرط عدم تجاوز 0.85 قبل Warsh.
-
-**الحدس (Intuition):** Warsh سيفاجئ بنبرة أكثر حمائمية مما يتوقع السوق – USD ينزل، ذهب يصعد بعد الخطاب.
-
----
-
-## DIRECTIVES
-
-risk_mode=normal
-risk_mult=0.85
-regime=mixed
-bias_USD=0.0
-bias_EUR=0.1
-bias_GBP=0.0
-bias_JPY=0.0
-bias_AUD=0.05
-bias_NZD=0.0
-bias_CAD=0.0
-bias_CHF=0.0
-bias_XAU=0.0
-bias_XAG=0.0
-bias_OIL=0.0
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.4
-allow_books=ALL
-news_block=CAD:226:256;USD:316:376
-block_symbols=none
-shock=none
-prefer_symbols=none
-summary=Markets frozen 5h pre-Warsh Jackson Hole; EUR 0.1 (ECB hawkish), AUD 0.05; CAD GDP 3:51h, Warsh 5:21h; normal 0.85x, conf 0.4
-summary_ar=الأسواق متجمدة 5 ساعات قبل Warsh؛ EUR 0.1 (ECB متشدد)، AUD 0.05؛ GDP كندا 3:51 ساعة، Warsh 5:21 ساعة؛ عادي 0.85x، ثقة 0.4
-mind=calm
-psyche_flags=prudence
-intuition=Warsh سيفاجئ بنبرة حمائمية – USD ينزل، ذهب يصعد بعد الخطاب
-
-
-# 2026-08-28 09:38 UTC
-## Council debate
-
-**Chief Macro Economist:**
-الاقتصاد العالمي معلّق 4 ساعات قبل Warsh في Jackson Hole. التضخم الأميركي مرتفع (UoM 4.3%)، النمو الكندي يتباطأ (GDP متوقع 0.2% vs 0.3% سابق). لا تغيير حقيقي منذ 15 دقيقة – الأسواق تنتظر.
-
-**Central-Bank Watcher:**
-Warsh يتكلم بعد 4:21 ساعة – هذا الحدث الوحيد المهم اليوم. محاضر ECB أمس متشددة (رفع آخر محتمل)، EUR يستحق 0.1-0.15. BoJ: تضخم طوكيو قوي يدعم رفع سبتمبر، لكن JPY لم يتحرك (USDJPY 159.65 ثابت). لا جديد منذ الساعة الماضية.
-
-**Geopolitical & Crisis Analyst:**
-حرب إيران: مخزون Patriot في أوروبا "أبعد من حرج" حسب AP (18 ساعة مضت)، دبلوماسية إعادة فتح Hormuz مستمرة (Reuters 8 ساعات). النفط 83.75$ هابط رغم التوتر – السوق يراهن على حل. لا تصعيد جديد منذ 12 ساعة. زلزال كاليفورنيا 5.6 (10 ساعات) محلي، لا تأثير على الأسواق.
-
-**FX Strategist:**
-كل العملات متجمدة: EURUSD 1.1642 (ثابت)، USDJPY 159.65 (ثابت)، AUDUSD 0.7195 (ثابت عند مقاومة 0.72). EUR الوحيد بقصة (ECB متشدد) يستحق 0.1. AUD عالق، NZD ضعيف (0.5949 قرب قاع). CAD ينتظر GDP بعد 2:51 ساعة. لا حركة حقيقية منذ 24 ساعة.
+ لا حركة حقيقية منذ 24 ساعة.
 
 **Gold & Oil Trader:**
 ذهب 4602$ ثابت (+0.1% من أمس)، فضة 70.41$ ثابتة. النفط 83.75$ هابط (-0.5% اليوم) رغم إيران – السوق يتجاهل التوتر. Morgan Stanley يتوقع ذهب 5000$ في 2027 (6 ساعات مضت)، لكن اليوم لا محفز. كل شيء ينتظر Warsh.
@@ -3411,3 +3310,82 @@ summary_ar=اليورو قوي (تضخم إسبانيا 4.5%، ECB متشدد)،
 mind=calm
 psyche_flags=prudence,intuition
 intuition=EURJPY سينفجر صعوداً +40 نقطة في ساعتي فتح طوكيو الأوليين (00:00-02:00 UTC الاثنين)، لأن 40 ساعة ضغط + ين ضعيف + يورو قوي = زنبرك مشدود
+
+
+# 2026-08-30 11:55 UTC
+## Council debate
+
+**Chief Macro Economist:**
+عناوين فنزويلا/OPEC وعمليات الخزانة الأميركية **قديمة 12 ساعة ولم تحرّك الأسعار** – النفط ثابت عند 83.87$، EURUSD عند 1.1582 بلا تغيير. إسبانيا CPI 4.3% (ليس 4.5%) يدعم يورو قوي، لكن الحدث عمره 36 ساعة والسوق هضمه. لا صدمة حقيقية الآن.
+
+**Central-Bank Watcher:**
+ورش Jackson Hole انتهى منذ 48 ساعة بنبرة متشددة (رفع 2-year Treasury إلى 4.35%)، لكن لا خطابات جديدة اليوم. BoJ تدخّل بـ15.4 تريليون ين وفشل (USDJPY عند 160.1 الآن)، الين ضعيف فعلاً. German CPI غداً 18:29 UTC (في 1113 دقيقة) – حدث متوسط، ليس سبباً لـdanger الآن.
+
+**Geopolitical & Crisis Analyst:**
+حرب إيران مستمرة 6 أشهر (عناوين استنزاف الذخيرة الأميركية، طوابير البنزين في طهران) لكن **لا تصعيد جديد منذ 24 ساعة**. فنزويلا/OPEC عنوان تحليلي لا حدث طارئ. لا severity-2/3 الآن – danger mode **بلا سبب ملموس حالي**.
+
+**FX Strategist:**
+EURJPY عند 185.41 منذ 40 ساعة (نطاق 185.3-185.5) – الضغط حقيقي لكن **لم ينفجر بعد**. EUR قوي (Spain CPI، ECB متشدد)، JPY ضعيف (تدخل فاشل). bias_EUR=0.25، bias_JPY=-0.35 صحيحان. لكن 40 ساعة انتظار في سوق ميت (عطلة نهاية أسبوع) ليست سبباً لـdanger.
+
+**Gold & Oil Trader:**
+ذهب 4454$ ثابت، نفط 83.87$ ثابت، فضة 66.32$ ثابت – **لا حركة منذ 12 ساعة**. عناوين فنزويلا/OPEC لم تحرّك النفط (+0 منذ أمس). حرب إيران مسعّرة بالكامل (war premium موجود لكن مستقر). bias=0 لكل الثلاثة صحيح.
+
+**Equity / Risk-Sentiment Desk:**
+S&P500 عند 7719، Nasdaq 29472، DAX 26570 – كلها ثابتة منذ إغلاق الجمعة. لا VIX data (feed error) لكن لا علامات panic. risk-on/risk-off **محايد تماماً** (mixed صحيح). لا سبب لـdanger.
+
+**Risk Manager:**
+**EMERGENCY PROTOCOL VIOLATION:** danger mode يتطلب severity-2 event أو خسارة يومية <=-3% أو 3 خسائر متتالية لكتاب واحد. **لا شيء من هذا موجود الآن**: daily P/L=-0.06% فقط، آخر 3 صفقات INTRADAY: فوز/خسارة/فوز (ليس 3 خسائر). عناوين فنزويلا/Treasury **قديمة ولم تحرّك الأسعار** – ليست severity-2. يجب العودة إلى normal فوراً، risk_mult 0.9-1.0.
+
+**Market Historian:**
+**HISTORICAL ANALOG:** EURJPY ضغط 40 ساعة في نطاق 30 نقطة يشبه يناير 2023 (قبل BoJ pivot) ومارس 2024 (قبل تدخل BoJ) – في كلا الحالتين انفجر الزوج +50-80 نقطة في 4-8 ساعات عند فتح طوكيو. **لكن** التوقيت الآن 11:55 UTC يوم أحد – طوكيو يفتح في 12 ساعة (00:00 UTC الاثنين). الانفجار **لم يحدث بعد**، والانتظار في danger mode يشلّ الروبوتات بلا سبب. **PRICE CONTEXT:** EURJPY عند 185.41 (وسط نطاق 1y: 175-195)، momentum محايد، volatility منخفضة – ليس extended.
+
+**Chairman:**
+أستمع. **الحقائق:** 1) عناوين فنزويلا/Treasury قديمة 12 ساعة ولم تحرّك الأسعار (النفط/اليورو ثابتان). 2) لا severity-2 event الآن. 3) daily P/L=-0.06% فقط، لا 3 خسائر متتالية. 4) EURJPY مضغوط 40 ساعة لكن لم ينفجر بعد (طوكيو يفتح في 12 ساعة). 5) SCORECARD 24h=50% (محايد). **danger mode انتهك EMERGENCY PROTOCOL** – لا سبب ملموس حالي. أعود إلى normal، risk_mult=0.9 (ليس 1.0 لأن BREAKOUT فشل 0% win rate ويجب إزالته). أبقي bias_EUR=0.25، bias_JPY=-0.35، prefer_symbols=EURJPY (الإعداد صحيح لكن التوقيت مبكر). allow_books: أزيل BREAKOUT نهائياً (0 فوز من 11 صفقة منذ 20 أغسطس = 0% hit rate).
+
+---
+
+## Psyche
+
+**Awareness (fired=yes):** قارنت التوجيهات السابقة بـPRICE CONTEXT – danger mode منذ 15 دقيقة **بلا سبب ملموس**: الأسعار لم تتحرك (EURJPY 185.41 ثابت، ذهب/نفط/مؤشرات ثابتة)، عناوين فنزويلا/Treasury قديمة 12 ساعة. **هذا خوف زائد** (over-reaction لعناوين روتينية). DECISION MEMORY يظهر تصعيداً تدريجياً من normal 0.85x إلى danger 0.6x بلا حدث جديد – **flip-flopping عكسي** (تشديد بلا سبب). أوصي بالعودة إلى normal فوراً.
+
+**Greed (fired=no):** conf=0.5 معتدل، معظم biases صفر أو ضعيفة، prefer_symbols رمز واحد فقط – لا علامات جشع.
+
+**Fear (fired=yes):** danger mode **رد فعل مبالغ** لعناوين تحليلية (فنزويلا/OPEC، Treasury/Euro) لم تحرّك الأسواق. لا صدمة حقيقية، لا severity-2، لا خسائر كبيرة (daily P/L=-0.06% فقط). **هذا خوف يشلّ الروبوتات بلا داعٍ** – يجب العودة إلى normal.
+
+**Prudence (fired=no):** bias_EUR=0.25 وbias_JPY=-0.35 مدعومان بمصدرين (Spain CPI 4.3%، BoJ intervention فشل 15.4tn yen) + analog تاريخي (EURJPY ضغط 40 ساعة قبل انفجار) – لا حاجة لتخفيض.
+
+**Intuition (fired=yes):** EURJPY سينفجر صعوداً +40-60 نقطة في أول ساعتين من فتح طوكيو (00:00-02:00 UTC الاثنين)، لأن 40 ساعة ضغط + ين ضعيف + يورو قوي = زنبرك مشدود. لكن **الآن 11:55 UTC يوم أحد** – طوكيو يفتح في 12 ساعة، والانتظار في danger mode يضيّع الفرصة.
+
+---
+
+## DIRECTIVES
+
+risk_mode=normal
+risk_mult=0.9
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.25
+bias_GBP=0.0
+bias_JPY=-0.35
+bias_AUD=0.0
+bias_NZD=0.0
+bias_CAD=0.0
+bias_CHF=0.0
+bias_XAU=0.0
+bias_XAG=0.0
+bias_OIL=0.0
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.5
+allow_books=INTRADAY,SWING,POSITION,SHOCK,COUNCIL,REVERT
+news_block=EUR:1098:1128
+block_symbols=none
+shock=none
+prefer_symbols=EURJPY
+summary=EUR strong (Spain CPI 4.3%, ECB hawkish), JPY weak (BoJ intervention failed 15.4tn yen); EURJPY coiled 40h at 185.4, breakout likely Monday Tokyo open; normal 0.9x, BREAKOUT removed (0% win rate)
+summary_ar=يورو قوي (تضخم إسبانيا 4.3%، ECB متشدد)، ين ضعيف (تدخل BoJ فشل 15.4 تريليون ين)؛ EURJPY مضغوط 40 ساعة عند 185.4، انفجار محتمل عند فتح طوكيو الاثنين؛ وضع عادي 0.9x، BREAKOUT مُزال (0% نجاح)
+mind=calm
+psyche_flags=awareness,fear
+intuition=EURJPY سينفجر صعوداً +40-60 نقطة في أول ساعتين من فتح طوكيو (00:00-02:00 UTC الاثنين)، لأن 40 ساعة ضغط + ين ضعيف + يورو قوي = زنبرك مشدود
