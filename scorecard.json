@@ -1,7 +1,7 @@
 {
  "decisions_scored": 41,
  "overall_hit_rate%": {
-  "4h": 49,
+  "4h": 50,
   "12h": 50,
   "24h": 50
  },
@@ -18,7 +18,7 @@
   }
  },
  "by_mind_state%": {
-  "calm": 50,
+  "calm": 51,
   "?": 45
  },
  "note": "hit = price moved in the direction of a bias with |bias|>=0.3 after the horizon; None = not enough data yet"
