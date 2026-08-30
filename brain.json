@@ -1,5 +1,5 @@
 {
- "ts": 1788128914,
+ "ts": 1788129617,
  "council_ts": 1788128730,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "ALL",
-  "news_block": "EUR:363:408;USD:1228:1288",
+  "news_block": "EUR:352:397;USD:1217:1277",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
