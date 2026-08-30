@@ -1762,3 +1762,4 @@
 - 2026-08-30 20:55 UTC · FULL COUNCIL triggered: ALERT sev2: US strikes Iranian military targets on Larak Island; Iran vows response; Hormuz strait tension escalates
 - 2026-08-30 21:10 UTC · heartbeat · quiet (sev0)
 - 2026-08-30 21:25 UTC · heartbeat · quiet (sev0)
+- 2026-08-30 21:40 UTC · FULL COUNCIL triggered: re-assess emergency mode (danger, council 44 min ago)
