@@ -1,15 +1,15 @@
 {
- "ts": 1788062029,
- "council_ts": 1788062029,
+ "ts": 1788062938,
+ "council_ts": 1788062938,
  "directives": {
   "risk_mode": "normal",
-  "risk_mult": 0.8,
+  "risk_mult": 0.85,
   "regime": "mixed",
-  "conf": 0.3,
+  "conf": 0,
   "bias_USD": 0.0,
-  "bias_EUR": 0.4,
+  "bias_EUR": 0.3,
   "bias_GBP": 0.0,
-  "bias_JPY": 0.0,
+  "bias_JPY": -0.3,
   "bias_AUD": 0.0,
   "bias_NZD": 0.0,
   "bias_CAD": 0.0,
@@ -35,11 +35,6 @@
  },
  "error": null,
  "alerts": [
-  {
-   "ts": 1787705848,
-   "what": "US conducts lethal kinetic strike (southcom.mil 00:56 UTC); Iran president signals openness to US memorandum—potential de-escalation signal vs. prior \"full-scale war\" rhetoric",
-   "sev": 2
-  },
   {
    "ts": 1787722169,
    "what": "U.S.-Japan FX intervention sold euros without ECB coordination; ECB fury over broken trust signals major policy rift",
@@ -83,6 +78,11 @@
   {
    "ts": 1787974728,
    "what": "Trump announces major Venezuela oil deal (65B barrels); potential supply shock and geopolitical shift",
+   "sev": 2
+  },
+  {
+   "ts": 1788062927,
+   "what": "Japan conducts record ¥15.4tn FX intervention; yen volatility spike amid Fed policy uncertainty pre-Jackson Hole",
    "sev": 2
   }
  ]
