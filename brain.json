@@ -1,11 +1,11 @@
 {
- "ts": 1788089122,
- "council_ts": 1788086418,
+ "ts": 1788090018,
+ "council_ts": 1788090018,
  "directives": {
   "risk_mode": "normal",
-  "risk_mult": 0.9,
+  "risk_mult": 0.95,
   "regime": "mixed",
-  "conf": 0.45,
+  "conf": 0.5,
   "bias_USD": 0.0,
   "bias_EUR": 0.25,
   "bias_GBP": 0.0,
@@ -28,13 +28,12 @@
   "prefer_symbols": "EURJPY",
   "mind": "calm",
   "psyche_flags": "prudence,intuition",
-  "intuition": "EURJPY سينفجر صعوداً عند فتح طوكيو (الاثنين 00:00 UTC) بـ40-60 نقطة، لأن تدخل BoJ الفاشل كسر مصداقيتهم وEUR قوي فعلاً",
-  "summary": "EUR strong (Spain CPI 4.5%, ECB hawkish), JPY weak (BoJ intervention failed); EURJPY coiled 40h at 185.4, breakout likely Monday open; normal 0.9x, conf 0.45, BREAKOUT removed (0% win)",
-  "summary_ar": "اليورو قوي (تضخم إسبانيا 4.5%، ECB متشدد)، الين ضعيف (تدخل BoJ فشل)؛ EURJPY عالق 40 ساعة عند 185.4، انفجار محتمل فتح الاثنين؛ عادي 0.9x، ثقة 0.45، BREAKOUT مُزال (0% نجاح)",
+  "intuition": "EURJPY سينفجر صعوداً +40 نقطة في ساعتي فتح طوكيو الأوليين (00:00-02:00 UTC الاثنين)، لأن 40 ساعة ضغط + ين ضعيف + يورو قوي = زنبرك مشدود",
+  "summary": "EUR strong (Spain CPI 4.5%, ECB hawkish), JPY weak (BoJ intervention failed 15.4tn yen); EURJPY coiled 40h at 185.4, breakout likely Monday Tokyo open; normal 0.95x, conf 0.5",
+  "summary_ar": "اليورو قوي (تضخم إسبانيا 4.5%، ECB متشدد)، الين ضعيف (تدخل BoJ فشل 15.4 تريليون ين)؛ EURJPY عالق 40 ساعة عند 185.4، انفجار محتمل فتح طوكيو الاثنين؛ عادي 0.95x، ثقة 0.5",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787722169,

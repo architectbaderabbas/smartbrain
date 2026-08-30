@@ -3,18 +3,18 @@
  "overall_hit_rate%": {
   "4h": 49,
   "12h": 50,
-  "24h": null
+  "24h": 50
  },
  "per_asset_hit_rate%": {
   "EUR": {
    "4h": 0,
    "12h": 0,
-   "24h": null
+   "24h": 0
   },
   "JPY": {
    "4h": 100,
    "12h": 100,
-   "24h": null
+   "24h": 100
   }
  },
  "by_mind_state%": {
