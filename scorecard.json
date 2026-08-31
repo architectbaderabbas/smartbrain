@@ -1,20 +1,20 @@
 {
- "decisions_scored": 41,
+ "decisions_scored": 40,
  "overall_hit_rate%": {
   "4h": 53,
-  "12h": 59,
-  "24h": 48
+  "12h": 60,
+  "24h": 47
  },
  "per_asset_hit_rate%": {
   "EUR": {
    "4h": 0,
-   "12h": 15,
-   "24h": 65
+   "12h": 17,
+   "24h": 72
   },
   "JPY": {
    "4h": 96,
-   "12h": 88,
-   "24h": 32
+   "12h": 86,
+   "24h": 25
   },
   "XAU": {
    "4h": 0,
