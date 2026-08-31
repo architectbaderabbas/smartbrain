@@ -1,11 +1,11 @@
 {
- "ts": 1788150317,
- "council_ts": 1788149420,
+ "ts": 1788151235,
+ "council_ts": 1788151235,
  "directives": {
   "risk_mode": "normal",
-  "risk_mult": 1.0,
+  "risk_mult": 0.85,
   "regime": "mixed",
-  "conf": 0.3,
+  "conf": 0.5,
   "bias_USD": 0.0,
   "bias_EUR": 0.0,
   "bias_GBP": 0.0,
@@ -21,26 +21,20 @@
   "bias_US100": 0.0,
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
-  "allow_books": "ALL",
-  "news_block": "none",
+  "allow_books": "INTRADAY,SWING,POSITION,SHOCK,COUNCIL,REVERT",
+  "news_block": "EUR:48:78;USD:1939:2059;AUD:2629:2749;NZD:2659:2779",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "none",
+  "psyche_flags": "awareness,fear,prudence",
   "intuition": "none",
-  "summary": "",
-  "summary_ar": "",
+  "summary": "Iran-US strikes ended 5h ago with no escalation, markets ignored event; back to normal 0.85x, all biases zero until German CPI (108min) or Mon US data",
+  "summary_ar": "ضربات إيران-أميركا انتهت قبل 5 ساعات بلا تصعيد، الأسواق تجاهلت الحدث؛ عودة لوضع عادي 0.85x، كل التحيزات صفر حتى CPI ألماني (108 دقيقة) أو بيانات أميركا الاثنين",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
-  {
-   "ts": 1787771674,
-   "what": "Chinese state hackers breached DOJ, NASA, Federal Reserve, Senate systems (19:00 UTC)",
-   "sev": 2
-  },
   {
    "ts": 1787780673,
    "what": "Oil prices cross $100/bbl amid Iran war escalation; UK energy exposure warning signals systemic risk",
@@ -84,6 +78,11 @@
   {
    "ts": 1788128718,
    "what": "Oil surges 2.47% post-US strike on Larak Island; Hormuz strait tension escalates with explosions reported in Jordan",
+   "sev": 2
+  },
+  {
+   "ts": 1788151220,
+   "what": "Iran launches missiles at Jordan bases in retaliation for US Larak Island strike; escalation beyond prior strikes",
    "sev": 2
   }
  ]
