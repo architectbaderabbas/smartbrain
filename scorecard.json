@@ -2,7 +2,7 @@
  "decisions_scored": 44,
  "overall_hit_rate%": {
   "4h": 53,
-  "12h": 57,
+  "12h": 58,
   "24h": 48
  },
  "per_asset_hit_rate%": {
@@ -18,7 +18,7 @@
   },
   "XAU": {
    "4h": 0,
-   "12h": 100,
+   "12h": 50,
    "24h": null
   },
   "XAG": {
@@ -63,7 +63,7 @@
   }
  },
  "by_mind_state%": {
-  "calm": 52,
+  "calm": 53,
   "?": 43,
   "fearful": 70
  },

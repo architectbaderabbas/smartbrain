@@ -1,6 +1,6 @@
 {
- "ts": 1788180019,
- "council_ts": 1788177317,
+ "ts": 1788180917,
+ "council_ts": 1788180917,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 1.0,
@@ -21,7 +21,7 @@
   "bias_US100": 0.0,
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
-  "allow_books": "INTRADAY,SWING,POSITION,SHOCK,COUNCIL,REVERT",
+  "allow_books": "ALL",
   "news_block": "none",
   "block_symbols": "none",
   "shock": "none",
@@ -29,12 +29,11 @@
   "mind": "calm",
   "psyche_flags": "none",
   "intuition": "none",
-  "summary": "Sunday freeze: Iran-US strikes ended 9h ago with no escalation, markets ignored event; all biases zero until Mon data (EU CPI 21h, US ISM 26h)",
-  "summary_ar": "تجميد الأحد: الضربات الأميركية-الإيرانية انتهت منذ 9 ساعات بلا تصعيد، الأسواق تجاهلت الحدث؛ كل التوجهات صفر حتى بيانات الاثنين (CPI أوروبا 21 ساعة، ISM أميركا 26 ساعة)",
+  "summary": "",
+  "summary_ar": "",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787780673,
