@@ -1,5 +1,5 @@
-ts=1788177317
-generated=2026-08-31 11:55 UTC
+ts=1788178217
+generated=2026-08-31 12:10 UTC (watchman heartbeat; council 15 min ago)
 version=1
 risk_mode=normal
 risk_mult=1.0
@@ -28,6 +28,7 @@ bias_GER40=0.0
 summary=Sunday freeze: Iran-US strikes ended 9h ago with no escalation, markets ignored event; all biases zero until Mon data (EU CPI 21h, US ISM 26h)
 summary_ar=تجميد الأحد: الضربات الأميركية-الإيرانية انتهت منذ 9 ساعات بلا تصعيد، الأسواق تجاهلت الحدث؛ كل التوجهات صفر حتى بيانات الاثنين (CPI أوروبا 21 ساعة، ISM أميركا 26 ساعة)
 mind=calm
-psyche_flags=awareness,fear,intuition
-intuition=الهدوء الحالي كاذب – الانفجار سيأتي بعد ISM الاثنين، لا قبله. الذهب عند 4454$ سيختبر 4400$ قبل أي صعود جديد.
+psyche_flags=none
+intuition=none
 news_events=none
+watchman=quiet (sev0)
