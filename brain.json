@@ -1,6 +1,6 @@
 {
- "ts": 1788154819,
- "council_ts": 1788151235,
+ "ts": 1788155719,
+ "council_ts": 1788155719,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.85,
@@ -22,19 +22,18 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "INTRADAY,SWING,POSITION,SHOCK,COUNCIL,REVERT",
-  "news_block": "EUR:-11:19;USD:1880:2000;AUD:2570:2690;NZD:2600:2720",
+  "news_block": "EUR:",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "awareness,fear,prudence",
+  "psyche_flags": "none",
   "intuition": "none",
-  "summary": "Iran-US strikes ended 5h ago with no escalation, markets ignored event; back to normal 0.85x, all biases zero until German CPI (108min) or Mon US data",
-  "summary_ar": "ضربات إيران-أميركا انتهت قبل 5 ساعات بلا تصعيد، الأسواق تجاهلت الحدث؛ عودة لوضع عادي 0.85x، كل التحيزات صفر حتى CPI ألماني (108 دقيقة) أو بيانات أميركا الاثنين",
+  "summary": "",
+  "summary_ar": "",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787780673,
