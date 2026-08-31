@@ -1,12 +1,12 @@
-ts=1788213976
-generated=2026-08-31 22:06 UTC (watchman heartbeat; council 3 min ago)
+ts=1788214718
+generated=2026-08-31 22:18 UTC (watchman heartbeat; council 12 min ago)
 version=1
 risk_mode=caution
 risk_mult=0.7
 regime=risk_off
 conf=0.5
 allow_books=SWING,COUNCIL,SHOCK
-news_block=EUR:644:704;USD:944:1004;NZD:1664:1724;CAD:2369:2429
+news_block=EUR:632:692;USD:932:992;NZD:1652:1712;CAD:2357:2417
 block_symbols=XAUUSD,XAGUSD,USOIL,UKOIL
 shock=none
 prefer_symbols=USDJPY,USDCHF
