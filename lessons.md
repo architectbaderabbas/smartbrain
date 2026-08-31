@@ -1,26 +1,5 @@
 # SmartBrain lessons (post-mortems on real trades, newest last)
 
-### 2026-08-19 20:39 UTC
-**US100 SHOCK BUY 0.21 lots · 5 min · exit SL · P/L -1.43$ · council bias 0.2 (CAUTION)**
-## POST-MORTEM ANALYSIS
-
-**TRADE SUMMARY:**
-SHOCK book bought US100 at 29465.03 (0.21 lots), held 5 minutes, hit stop-loss at 29458.72 for -$1.43. Council-approved book operating in CAUTION mode with +0.2 US100 bias (bullish tech on Treasury buyback/risk-on). Position size (0.21 lots = ~$620 notional on $463 balance) indicates shock-volatility sizing. Price now 29458.97 – essentially at the stop level, confirming tight stop was hit by noise.
-
-**ALIGNMENT & BIAS ACCURACY:**
-SHOCK bought US100 **perfectly aligned with council's +0.2 bullish bias**. Council bias was **CORRECT in direction but wrong on timing**: NDX recovered to entry level within minutes of stop-out, validating the bullish call (risk-on intact, tech supported). The +0.2 bias reflects Treasury buyback regime holding yields down. SHOCK read the right macro but got killed by 6.81-point (0.023%) intra-candle whipsaw at 20:32 UTC – classic post-NY-close thin-market noise.
-
-**ROOT CAUSE OF LOSS:**
-**Entry logic sound, stop placement fatal.** SHOCK deployed 3x normal size (0.21 vs typical 0.07 lots) detecting volatility, but the 6.31-point stop was **absurdly tight for US100's 15-25 point normal range**. At 20:32 UTC (post-session deadzone, 1.5 hours after NY close), spreads widen and algos create false moves. This is **SHOCK's 6th stop-loss in 8 trades today** (75% SL hit rate, -$1.35 net) – clear pattern of **false volatility signals in event-less CAUTION regime**. The robot is bleeding on noise, not losing on bad macro calls. Genuine shock-edge requires catalysts (data, headlines); today had none after 18:00 UTC.
-
-**CONCRETE LESSON:**
-**"SHOCK must not trade indices after 19:00 UTC in CAUTION mode – post-session illiquidity creates false volatility that triggers oversized positions into noise. Require shock!='none' OR <30min since top-tier event OR major session hours (06:00-19:00 UTC) to enable SHOCK on US100/US500."** Eight SHOCK trades today, six stopped out, all in low-conviction environment with no fresh catalyst. The edge exists (see 19:06 oil TP) but activates only with genuine events, not random spikes.
-
-**DIRECTIVE CHANGE:**
-SHOCK bleeding in CAUTION deadzone (6/8 SL, -$1.35 net). Temporarily restrict to high-conviction periods.
-
-**LESSON:** SHOCK edge requires volatility catalysts – disable indices trading after 19:00 UTC in CAUTION mode to avoid false signals in
-
 ### 2026-08-20 00:08 UTC
 **GBPJPY SWING SELL 0.01 lots · 653 min · exit SL · P/L 1.52$ · council bias 0.05 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -294,4 +273,17 @@ INTRADAY اشترى EURNZD عند 1.95899 (0.03 لوت)، أُغلق بعد 56 �
 
 **3) السبب الجذري للخسارة:**
 **تجاهل news_block + دخول في سوق متجمد قبل حدث كبير.** التوجيهات تقول "news_block: USD:53:93" (أي حظر 53 دقيقة قبل و93 دقيقة بعد أحداث USD)، لكن INTRADAY دخل صفقة EUR/NZD في **10:00 UTC = قبل 180 دقيقة من ورش** – السوق ميت تماماً (EURNZD تحرك 9 نقاط فقط في ساعة). الخسارة -2.37$ من 0.03 لوت = **ضعف الخسارة العادية** لأن الحجم مضاعف. **هذه الصفقة رقم 13 من SmartMulti منذ 21 أغسطس
+
+### 2026-08-31 22:02 UTC
+**US100 SHOCK SELL 0.2 lots · 0 min · exit EA · P/L -0.71$ · council bias -0.2 (CAUTION)**
+# تحليل ما بعد الصفقة
+
+**1) ما فعله الروبوت:**
+SHOCK باع US100 عند 29479.27 (0.2 لوت)، أُغلق بعد **9 ثوانٍ فقط** عند 29482.83 بخسارة -0.71$. الدخول 22:02 UTC، الخروج 22:02 UTC (إغلاق EA فوري). السعر الآن 29487.17 – أي المؤشر ارتفع 7.9 نقطة ضد الصفقة واستمر صعوداً.
+
+**2) التوافق مع توجه المجلس:**
+الصفقة **متوافقة** مع المجلس: bias_US100=-0.2 (هابط)، وضع CAUTION، SHOCK مسموح، risk_mult=0.7. لكن توجه المجلس **خاطئ تماماً**: المجلس يتوقع هبوط المؤشرات بسبب "US strikes Iran 1h ago" (ضربة أمريكية لإيران منذ ساعة)، لكن **السوق يتجاهل الحدث تماماً** – US100 صاعد من 29450 إلى 29487 في الساعة الأخيرة، SPX عند 7699 (قرب القمة). **السوق في وضع risk-on كامل، والمجلس عالق في سيناريو risk-off وهمي**.
+
+**3) السبب الجذري للخسارة:**
+**SHOCK يتاجر في حدث انتهى تأثيره + سوق راكد بلا تقلب.** الضربة الإيرانية حدثت منذ ساعة (21:00 UTC تقريباً)، والسوق **هضم الخبر بالفعل** – لا spike في VIX، لا هبوط حاد في المؤشرات. SHOCK دخل بيعاً في **22:02 UTC = جلسة نيويورك المتأخرة الميتة** (بعد إغلاق وول ستريت 21:00 UTC)، حيث السيولة صفر والحركة عشوائية. الستوب 6.81 نقطة ضُرب في **9 ثوانٍ** بحركة 3.56 نقطة فقط –
 
