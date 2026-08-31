@@ -1,12 +1,12 @@
-ts=1788137242
-generated=2026-08-31 00:47 UTC (watchman heartbeat; council 7 min ago)
+ts=1788137719
+generated=2026-08-31 00:55 UTC (watchman heartbeat; council 7 min ago)
 version=1
 risk_mode=caution
 risk_mult=0.75
 regime=mixed
 conf=0.4
 allow_books=INTRADAY,SWING,REVERT
-news_block=EUR:251:296;USD:1116:1176
+news_block=EUR:244:289;USD:1109:1169
 block_symbols=none
 shock=none
 prefer_symbols=none
