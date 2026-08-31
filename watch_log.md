@@ -1776,3 +1776,4 @@
 - 2026-08-30 23:40 UTC · heartbeat · quiet (sev0)
 - 2026-08-30 23:43 UTC · heartbeat · quiet (sev0)
 - 2026-08-30 23:55 UTC · heartbeat · quiet (sev0)
+- 2026-08-30 23:58 UTC · FULL COUNCIL triggered: re-assess emergency mode (danger, council 30 min ago)
