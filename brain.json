@@ -1,5 +1,5 @@
 {
- "ts": 1788214877,
+ "ts": 1788215620,
  "council_ts": 1788212175,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": -0.2,
   "bias_GER40": -0.1,
   "allow_books": "SWING,COUNCIL,SHOCK",
-  "news_block": "EUR:630:690;USD:930:990;NZD:1650:1710;CAD:2355:2415",
+  "news_block": "EUR:618:678;USD:918:978;NZD:1638:1698;CAD:2343:2403",
   "block_symbols": "XAUUSD,XAGUSD,USOIL,UKOIL",
   "shock": "none",
   "prefer_symbols": "USDJPY,USDCHF",
