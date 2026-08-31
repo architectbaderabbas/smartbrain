@@ -1,5 +1,5 @@
 {
- "ts": 1788206119,
+ "ts": 1788206535,
  "council_ts": 1788204322,
  "directives": {
   "risk_mode": "normal",
@@ -22,7 +22,7 @@
   "bias_US30": -0.15,
   "bias_GER40": 0.0,
   "allow_books": "ALL",
-  "news_block": "EUR:781:841;USD:1081:1141;NZD:1801:1921;CAD:2506:2611",
+  "news_block": "EUR:775:835;USD:1075:1135;NZD:1795:1915;CAD:2500:2605",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "XAUUSD,USDJPY",
