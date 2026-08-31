@@ -1,70 +1,70 @@
 {
  "decisions_scored": 40,
  "overall_hit_rate%": {
-  "4h": 48,
+  "4h": 46,
   "12h": 60,
-  "24h": 47
+  "24h": 55
  },
  "per_asset_hit_rate%": {
   "EUR": {
    "4h": 0,
-   "12h": 20,
-   "24h": 87
+   "12h": 21,
+   "24h": 93
   },
   "JPY": {
-   "4h": 87,
-   "12h": 80,
-   "24h": 12
+   "4h": 83,
+   "12h": 79,
+   "24h": 18
   },
   "XAU": {
    "4h": 0,
    "12h": 50,
-   "24h": null
+   "24h": 0
   },
   "XAG": {
    "4h": 0,
    "12h": 100,
-   "24h": null
+   "24h": 100
   },
   "OIL": {
    "4h": 67,
    "12h": 100,
-   "24h": null
+   "24h": 100
   },
   "US500": {
    "4h": 100,
    "12h": 0,
-   "24h": null
+   "24h": 100
   },
   "US100": {
    "4h": 100,
    "12h": 0,
-   "24h": null
+   "24h": 0
   },
   "GER40": {
    "4h": 100,
    "12h": 100,
-   "24h": null
+   "24h": 100
   },
   "AUD": {
    "4h": 0,
    "12h": 100,
-   "24h": null
+   "24h": 0
   },
   "NZD": {
    "4h": 0,
    "12h": 100,
-   "24h": null
+   "24h": 100
   },
   "CHF": {
    "4h": 33,
    "12h": 100,
-   "24h": null
+   "24h": 100
   }
  },
  "by_mind_state%": {
-  "?": 41,
-  "calm": 50,
+  "calm": 49,
+  "?": 45,
   "fearful": 70
  },
  "note": "hit = price moved in the direction of a bias with |bias|>=0.3 after the horizon; None = not enough data yet"
