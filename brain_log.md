@@ -1,10 +1,4 @@
-تقالية: التضخم الأوروبي مرتفع (إسبانيا 4.5%)، الفيد يركز على التضخم أكثر من سوق العمل (خطاب ورش Jackson Hole)، اليابان تحارب ضعف الين بلا نتيجة. النمو مختلط، الدورة غير واضحة.
-
-**Central-Bank Watcher:**
-ECB متشدد (كوشر: الزخم الاقتصادي قوي، مخاطر التضخم قائمة، توقعات خفض الفائدة مبالغ فيها)، الفيد متشدد (ورش: التضخم أهم من سوق العمل، عوائد 10 سنوات تتجه لـ5%)، BoJ فاشل (تدخل 96 مليار$ في يوليو-أغسطس لكن USDJPY عاد لـ160.1). اليورو صاعد، الين هابط.
-
-**Geopolitical & Crisis Analyst:**
-حرب إيران: تهديدات اقتصادية تتصاعد (Time Magazine)، روسيا ضربت مستودع ذخيرة أوكراني (37 قتيل)، انقلاب عسكري في النيجر، ترامب يعلن صفقة نفط فنزويلا (65 مليار برميل). الذهب هبط 3% بعد ورش لكن الحروب مستمرة – safe-haven demand ضعيف الآن، USD/JPY/CHF ليسوا ملاذاً.
+نزويلا (65 مليار برميل). الذهب هبط 3% بعد ورش لكن الحروب مستمرة – safe-haven demand ضعيف الآن، USD/JPY/CHF ليسوا ملاذاً.
 
 **FX Strategist:**
 EUR الأقوى (EURUSD 1.158، EURJPY 185.4 صاعد ببطء منذ 28 ساعة)، JPY الأضعف (USDJPY 160.1، تدخل BoJ فشل، Bessent يحذر من فوضى الين)، NZD ضعيف (NZDUSD 0.591)، باقي العملات محايدة. EURJPY الفرصة الأنظف: اتجاه واضح، تأكيد من مصدرين (ECB+BoJ).
@@ -3374,3 +3368,42 @@ summary_ar=عوائد 4.75%، ورش متشدد: دولار/ين/فرنك أقو
 mind=calm
 psyche_flags=awareness,prudence,intuition
 intuition=أشعر أن ISM سيفاجئ بالضعف (54.5 بدلاً من 55.2) لأن yields 4
+
+
+# 2026-08-31 20:29 UTC
+_error: council failed: HTTP Error 400: Bad Request_
+```
+ts=1788208164
+generated=2026-08-31 20:29 UTC
+version=1
+risk_mode=normal
+risk_mult=1.0
+regime=mixed
+conf=0.0
+allow_books=ALL
+news_block=none
+block_symbols=none
+shock=none
+prefer_symbols=none
+bias_USD=0.0
+bias_EUR=0.0
+bias_GBP=0.0
+bias_JPY=0.0
+bias_AUD=0.0
+bias_NZD=0.0
+bias_CAD=0.0
+bias_CHF=0.0
+bias_XAU=0.0
+bias_XAG=0.0
+bias_OIL=0.0
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+summary=council offline - calendar-only mode
+summary_ar=المجلس غير متصل - وضع التقويم فقط
+mind=calm
+psyche_flags=none
+intuition=none
+news_events=none
+```

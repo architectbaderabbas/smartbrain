@@ -1865,3 +1865,4 @@
 - 2026-08-31 20:02 UTC · heartbeat · quiet (sev0)
 - 2026-08-31 20:10 UTC · heartbeat · watch error: HTTP Error 400: Bad Request
 - 2026-08-31 20:25 UTC · heartbeat · watch error: HTTP Error 400: Bad Request
+- 2026-08-31 20:29 UTC · FULL COUNCIL triggered: scheduled full council (last 64 min ago)
