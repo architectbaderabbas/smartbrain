@@ -1,12 +1,12 @@
-ts=1788207023
-generated=2026-08-31 20:10 UTC (watchman heartbeat; council 8 min ago)
+ts=1788207920
+generated=2026-08-31 20:25 UTC (watchman heartbeat; council 14 min ago)
 version=1
 risk_mode=normal
 risk_mult=1.0
 regime=mixed
 conf=0.5
 allow_books=ALL
-news_block=EUR:767:827;USD:1067:1127;NZD:1787:1907;CAD:2492:2597
+news_block=EUR:753:813;USD:1053:1113;NZD:1773:1893;CAD:2478:2583
 block_symbols=none
 shock=none
 prefer_symbols=XAUUSD,USDJPY
