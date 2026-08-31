@@ -1,6 +1,6 @@
 {
- "ts": 1788177318,
- "council_ts": 1788177318,
+ "ts": 1788177317,
+ "council_ts": 1788177317,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 1.0,
@@ -27,10 +27,10 @@
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "awareness,fear,intuition",
-  "intuition": "الهدوء الحالي كاذب – الانفجار سيأتي بعد ISM الاثنين، لا قبله. الذهب عند 4454$ سيختبر 4400$ قبل أي صعود جديد.",
-  "summary": "Iran-US strikes ended 9h ago, markets ignored event; back to normal 1.0x, all biases zero until Mon data (EU CPI 21h, US ISM 26h); scorecard weak 53%",
-  "summary_ar": "ضربات إيران-أميركا انتهت قبل 9 ساعات، الأسواق تجاهلت الحدث؛ عودة إلى normal 1.0x، كل التحيزات صفر حتى بيانات الاثنين (CPI أوروبا 21 ساعة، ISM أميركا 26 ساعة)؛ سجل الأداء ضعيف 53%",
+  "psyche_flags": "none",
+  "intuition": "none",
+  "summary": "Sunday freeze: Iran-US strikes ended 9h ago with no escalation, markets ignored event; all biases zero until Mon data (EU CPI 21h, US ISM 26h)",
+  "summary_ar": "تجميد الأحد: الضربات الأميركية-الإيرانية انتهت منذ 9 ساعات بلا تصعيد، الأسواق تجاهلت الحدث؛ كل التوجهات صفر حتى بيانات الاثنين (CPI أوروبا 21 ساعة، ISM أميركا 26 ساعة)",
   "news_events": "none"
  },
  "error": null,
