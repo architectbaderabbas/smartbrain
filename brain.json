@@ -1,5 +1,5 @@
 {
- "ts": 1788197118,
+ "ts": 1788198021,
  "council_ts": 1788197118,
  "directives": {
   "risk_mode": "normal",
@@ -22,7 +22,7 @@
   "bias_US30": -0.1,
   "bias_GER40": 0.0,
   "allow_books": "INTRADAY,SWING,SHOCK,COUNCIL",
-  "news_block": "EUR:904:964;USD:1204:1264",
+  "news_block": "EUR:889:949;USD:1189:1249",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "USDJPY,XAUUSD",
@@ -34,6 +34,7 @@
   "news_events": "none"
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787780673,
