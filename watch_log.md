@@ -1801,3 +1801,4 @@
 - 2026-08-31 04:40 UTC · FULL COUNCIL triggered: ALERT sev2: Iran launches missiles at Jordan bases in retaliation for US Larak Island strike; escalation beyond prior strikes
 - 2026-08-31 04:55 UTC · heartbeat · quiet (sev0)
 - 2026-08-31 05:10 UTC · heartbeat · quiet (sev0)
+- 2026-08-31 05:25 UTC · heartbeat · quiet (sev0)
