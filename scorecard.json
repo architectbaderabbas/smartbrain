@@ -1,8 +1,8 @@
 {
  "decisions_scored": 40,
  "overall_hit_rate%": {
-  "4h": 53,
-  "12h": 60,
+  "4h": 51,
+  "12h": 59,
   "24h": 47
  },
  "per_asset_hit_rate%": {
@@ -12,8 +12,8 @@
    "24h": 81
   },
   "JPY": {
-   "4h": 95,
-   "12h": 85,
+   "4h": 91,
+   "12h": 81,
    "24h": 17
   },
   "XAU": {
@@ -64,7 +64,7 @@
  },
  "by_mind_state%": {
   "?": 43,
-  "calm": 53,
+  "calm": 52,
   "fearful": 70
  },
  "note": "hit = price moved in the direction of a bias with |bias|>=0.3 after the horizon; None = not enough data yet"
