@@ -1,21 +1,5 @@
 # SmartBrain lessons (post-mortems on real trades, newest last)
 
-### 2026-08-20 00:08 UTC
-**GBPJPY SWING SELL 0.01 lots · 653 min · exit SL · P/L 1.52$ · council bias 0.05 (CAUTION)**
-## POST-MORTEM ANALYSIS
-
-**TRADE SUMMARY:**
-SWING book sold GBPJPY at 215.571 (0.01 lots), held 653 minutes (~11 hours), hit stop-loss at 216.051 for +$1.52. Council was in CAUTION mode with +0.05 bias (neutral-to-slightly-bullish GBP). Trade opened 2026-08-19 13:00 UTC, stopped out 2026-08-20 00:08 UTC. Price now 215.21 – **36 pips below the stop**, meaning the SL was hit at local top before reversal validated the SELL thesis.
-
-**ALIGNMENT & BIAS ACCURACY:**
-SWING sold GBPJPY **against council's +0.05 bullish GBP bias** (GBP +0.1, JPY 0.0 = net +0.1 bullish). Council bias was **WRONG**: current price 215.21 vs entry 215.571 = -36 pips, confirming the SELL direction was correct. The +0.1 GBP bias reflected carry-trade optimism and risk-on, but GBPJPY peaked at 216.05 (the stop level) then reversed sharply. **SWING's edge beat the council's call** – this was a valid swing setup that got stopped at the exact high before the 84-pip collapse. Root cause: **council over-weighted risk-on sentiment, under-weighted JPY safe-haven bid** emerging overnight.
-
-**ROOT CAUSE OF WIN (PARADOXICAL):**
-**Profit Guard converted a losing trade into a win.** The 48-pip stop was hit (trade should have lost ~$4.80), but Profit Guard had moved SL to breakeven +15 pips after favorable movement, locking +$1.52 instead. The "SL" exit reason with positive P/L confirms BE activation. **True root cause: SWING read GBP exhaustion correctly, but council's bullish bias delayed entry or widened stop, allowing the 48-pip adverse move to hit before the 96-pip favorable move materialized.** This is **edge vs timing** – SWING's H4/D1 logic was right (price now -36 pips proves it), but the 11-hour hold through the counter-move required better stop placement or council bias alignment.
-
-**CONCRETE LESSON:**
-**"In CAUTION mode with conflicting signals (risk-on vs safe-haven), SWING must tighten stops to 30-35 pips on JPY crosses – the 48-pip stop allowed a full retracement that only Profit Guard rescued. When council bias opposes SWING direction by >0.05, reduce stop to 0.7x normal or skip the trade."** The +$1.52 win masks a structural issue: SWING is fighting the council's macro view. Either the council's GBP bias was stale (no update for CHF downgrade to 0.4 suggests
-
 ### 2026-08-20 11:45 UTC
 **NZDUSD BREAKOUT BUY 0.01 lots · 105 min · exit SL · P/L -1.16$ · council bias 0 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -286,4 +270,17 @@ SHOCK باع US100 عند 29479.27 (0.2 لوت)، أُغلق بعد **9 ثوان
 
 **3) السبب الجذري للخسارة:**
 **SHOCK يتاجر في حدث انتهى تأثيره + سوق راكد بلا تقلب.** الضربة الإيرانية حدثت منذ ساعة (21:00 UTC تقريباً)، والسوق **هضم الخبر بالفعل** – لا spike في VIX، لا هبوط حاد في المؤشرات. SHOCK دخل بيعاً في **22:02 UTC = جلسة نيويورك المتأخرة الميتة** (بعد إغلاق وول ستريت 21:00 UTC)، حيث السيولة صفر والحركة عشوائية. الستوب 6.81 نقطة ضُرب في **9 ثوانٍ** بحركة 3.56 نقطة فقط –
+
+### 2026-08-31 23:57 UTC
+**USOIL SHOCK SELL 0.05 lots · 10 min · exit EA · P/L -0.6$ · council bias -0.2 (NORMAL)**
+# تحليل ما بعد الصفقة
+
+**1) ما فعله الروبوت:**
+SHOCK باع USOIL عند 86.774 (0.05 لوت)، أُغلق بعد 10 دقائق عند 86.786 بخسارة -0.60$. الدخول 23:47 UTC، الخروج 23:57 UTC (إغلاق EA). السعر الآن 86.754 – أي النفط ارتفع 1.2 نقطة ضد الصفقة ثم عاد إلى ما دون سعر الدخول.
+
+**2) التوافق مع توجه المجلس:**
+الصفقة **متوافقة** مع المجلس: bias_OIL=-0.2 (هابط)، وضع NORMAL (عاد من CAUTION)، SHOCK مسموح، risk_mult=1.0. توجه المجلس **صحيح جزئياً**: النفط فعلاً في اتجاه هابط (من 87.2 إلى 86.7 خلال الساعات الأخيرة)، لكن البيع جاء في **23:47 UTC = آخر 13 دقيقة من اليوم** – سوق ميت تماماً بلا سيولة، والحركة عشوائية بحتة.
+
+**3) السبب الجذري للخسارة:**
+**توقيت كارثي: SHOCK يتاجر في آخر دقائق اليوم بلا سيولة.** الدخول 23:47 UTC والخروج 23:57 UTC = **10 دقائق قبل إغلاق اليوم** – أسوأ وقت للتداول (spread واسع، حركة عشوائية، لا اتجاه). الستوب 4.5 نقطة فقط، والسعر تحرك 1.2 نقطة ضده في ضوضاء نهاية اليوم. **هذه الصفقة الثانية لـSHOCK في يومين (الأولى US100 خسرت -0.71$ في 9 ثوانٍ)**: SHOCK الآن 0 فوز من 2 صفقات بصافي -1.31$ – **كلا الصفقتين في أوقات ميتة (22:02 و23:47 UTC) بلا تقل
 

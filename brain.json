@@ -1,5 +1,5 @@
 {
- "ts": 1788220276,
+ "ts": 1788220654,
  "council_ts": 1788219376,
  "directives": {
   "risk_mode": "normal",
@@ -22,7 +22,7 @@
   "bias_US30": -0.1,
   "bias_GER40": 0.0,
   "allow_books": "ALL",
-  "news_block": "EUR:519:579;USD:819:909;NZD:1539:1659;AUD:1539:1599",
+  "news_block": "EUR:507:567;USD:807:897;NZD:1527:1647;AUD:1527:1587",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
@@ -34,7 +34,7 @@
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
+ "watchman": "صفقة USOIL SHOCK -0.6$ ← تحليل مكتوب",
  "alerts": [
   {
    "ts": 1787780673,
