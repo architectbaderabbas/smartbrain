@@ -1,24 +1,5 @@
 # SmartBrain lessons (post-mortems on real trades, newest last)
 
-### 2026-08-20 11:45 UTC
-**NZDUSD BREAKOUT BUY 0.01 lots · 105 min · exit SL · P/L -1.16$ · council bias 0 (CAUTION)**
-## POST-MORTEM ANALYSIS
-
-**TRADE SUMMARY:**
-BREAKOUT book bought NZDUSD at 0.59596 (0.01 lots), held 105 minutes, hit stop-loss at 0.59477 for -$1.16. Independent robot (does not read council). Council was in CAUTION mode with 0.0 bias (neutral NZD/USD). Entry 08:00 UTC, stopped 09:45 UTC. Price now 0.5953 – **5 pips below stop**, confirming the SL caught a local low before minor recovery.
-
-**ALIGNMENT & BIAS ACCURACY:**
-BREAKOUT operates independently – council bias irrelevant by design. Council's 0.0 NZD/USD bias was **CORRECT for neutrality**: price chopped 11.9 pips (0.59477-0.59596) in 105 minutes with no directional conviction. The "pre-data void" summary (84 minutes to Philly Fed/Claims) warned of range-bound conditions. BREAKOUT bought into a **13-hour consolidation** the council explicitly flagged as requiring a catalyst to break. The robot's breakout logic fired on noise, not genuine momentum.
-
-**ROOT CAUSE OF LOSS:**
-**Entry logic failure in event-less chop.** BREAKOUT detected a false breakout during the exact window council warned about ("wait for print, don't guess direction"). The 11.9-pip stop and 17.7-pip TP show 1.49R setup, but in a 0.2% ATR environment (NZDUSD typical daily range ~50 pips), this is **scalping masquerading as breakout trading**. Root cause: **BREAKOUT has no event-awareness filter** – it triggered 84 minutes before the only scheduled catalyst, guaranteeing it traded noise not signal. The -$1.16 loss is **pure variance in a structural edge vacuum**. Independent design is valid, but this robot needs a "no trade within 2 hours of tier-1 data" rule.
-
-**CONCRETE LESSON:**
-**"BREAKOUT must not trade 2 hours before/1 hour after tier-1 USD events (Philly Fed, NFP, CPI, FOMC) – pre-event consolidation creates false breakouts that bleed capital. Operator should add time-based filter: if news_block active on symbol's currencies, disable BREAKOUT entries."** One trade, one loss, textbook example of trading the wrong market state. The robot's edge exists (see historical stats presumably), but activating in a flagged void is -EV.
-
-**DIRECTIVE CHANGE:**
-None (BREAKOUT is independent, council has no authority). **Operator action required:** Review BREAKOUT's event-awareness logic. If it lacks news filters, either add them or accept that 15-20% of trades will be donations to the market during pre-data deadzones. The -$1.16 is acceptable variance IF the robot has positive long-term edge – but if this
-
 ### 2026-08-20 12:48 UTC
 **NZDCAD BREAKOUT SELL 0.02 lots · 48 min · exit SL · P/L -2.23$ · council bias 0 (CAUTION)**
 ## POST-MORTEM ANALYSIS
@@ -283,4 +264,17 @@ SHOCK باع USOIL عند 86.774 (0.05 لوت)، أُغلق بعد 10 دقائق
 
 **3) السبب الجذري للخسارة:**
 **توقيت كارثي: SHOCK يتاجر في آخر دقائق اليوم بلا سيولة.** الدخول 23:47 UTC والخروج 23:57 UTC = **10 دقائق قبل إغلاق اليوم** – أسوأ وقت للتداول (spread واسع، حركة عشوائية، لا اتجاه). الستوب 4.5 نقطة فقط، والسعر تحرك 1.2 نقطة ضده في ضوضاء نهاية اليوم. **هذه الصفقة الثانية لـSHOCK في يومين (الأولى US100 خسرت -0.71$ في 9 ثوانٍ)**: SHOCK الآن 0 فوز من 2 صفقات بصافي -1.31$ – **كلا الصفقتين في أوقات ميتة (22:02 و23:47 UTC) بلا تقل
+
+### 2026-09-01 00:01 UTC
+**UKOIL SHOCK SELL 0.03 lots · 0 min · exit EA · P/L -1.47$ · council bias -0.2 (NORMAL)**
+# تحليل ما بعد الصفقة
+
+**1) ما فعله الروبوت:**
+SHOCK باع UKOIL عند 92.353 (0.03 لوت)، أُغلق بعد **ثانيتين فقط** عند 92.402 بخسارة -1.47$. الدخول 00:01:33 UTC، الخروج 00:01:35 UTC (إغلاق EA فوري). السعر الآن 92.186 – أي برنت ارتفع 4.9 نقطة ضد الصفقة ثم هبط لاحقاً.
+
+**2) التوافق مع توجه المجلس:**
+الصفقة **متوافقة** مع المجلس: bias_OIL=-0.2 (هابط)، وضع NORMAL، SHOCK مسموح. توجه المجلس **صحيح على المدى الطويل** (برنت هبط من 92.4 إلى 92.2 خلال الساعة)، لكن البيع جاء في **00:01 UTC = أول دقيقتين من اليوم الجديد** – لحظة فوضى السيولة وإعادة تسعير الفجوة.
+
+**3) السبب الجذري للخسارة:**
+**SHOCK يتاجر في أسوأ لحظة ممكنة: أول ثانيتين من اليوم.** الدخول 00:01:33 والخروج 00:01:35 = **ثانيتان في فوضى rollover** (spread واسع، سيولة صفر، حركة عشوائية). الستوب 8 نقاط فقط، ضُرب في ثانيتين بحركة 4.9 نقطة = **ضوضاء محضة**. **هذه الصفقة الثالثة لـSHOCK في 24 ساعة**: US100 خسرت في 9 ثوانٍ (22:02)، USOIL خسرت في 10 دقائق (23:47)، UKOIL خسرت في ثانيتين (00:01) – **كل الصفقات في أوقات ميتة بلا تقلب حقيقي**. SHOCK مصمم لاصطياد الصدمات الكبيرة (أحداث، أخبار)، لكنه
 

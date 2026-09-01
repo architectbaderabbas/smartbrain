@@ -1,5 +1,5 @@
 {
- "ts": 1788220654,
+ "ts": 1788220907,
  "council_ts": 1788219376,
  "directives": {
   "risk_mode": "normal",
@@ -21,8 +21,8 @@
   "bias_US100": -0.1,
   "bias_US30": -0.1,
   "bias_GER40": 0.0,
-  "allow_books": "ALL",
-  "news_block": "EUR:507:567;USD:807:897;NZD:1527:1647;AUD:1527:1587",
+  "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT",
+  "news_block": "EUR:499:559;USD:799:889;NZD:1519:1639;AUD:1519:1579",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
@@ -34,7 +34,7 @@
   "news_events": "none"
  },
  "error": null,
- "watchman": "صفقة USOIL SHOCK -0.6$ ← تحليل مكتوب",
+ "watchman": "صفقة UKOIL SHOCK -1.47$ ← تحليل مكتوب؛ SHOCK ثلاث خسائر متتالية ← أوقف لباقي اليوم",
  "alerts": [
   {
    "ts": 1787780673,

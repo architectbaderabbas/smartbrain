@@ -1889,3 +1889,4 @@
 - 2026-08-31 23:46 UTC · heartbeat · quiet (sev0)
 - 2026-08-31 23:51 UTC · heartbeat · quiet (sev0)
 - 2026-08-31 23:57 UTC · heartbeat · صفقة USOIL SHOCK -0.6$ ← تحليل مكتوب
+- 2026-09-01 00:01 UTC · heartbeat · صفقة UKOIL SHOCK -1.47$ ← تحليل مكتوب؛ SHOCK ثلاث خسائر متتالية ← أوقف لباقي اليوم
