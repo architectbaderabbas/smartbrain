@@ -1,5 +1,5 @@
 {
- "ts": 1788281953,
+ "ts": 1788282637,
  "council_ts": 1788281740,
  "directives": {
   "risk_mode": "normal",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT",
-  "news_block": "AUD:512:632;NZD:542:722;CAD:1247:1367",
+  "news_block": "AUD:501:621;NZD:531:711;CAD:1236:1356",
   "block_symbols": "USDJPY",
   "shock": "none",
   "prefer_symbols": "none",
