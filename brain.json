@@ -1,6 +1,6 @@
 {
- "ts": 1788269856,
- "council_ts": 1788266344,
+ "ts": 1788269954,
+ "council_ts": 1788269954,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.8,
@@ -28,13 +28,12 @@
   "prefer_symbols": "EURUSD",
   "mind": "calm",
   "psyche_flags": "awareness,prudence,intuition",
-  "intuition": "USDJPY سيُضرب بتدخل BoJ خلال 24 ساعة عند 160 - التاريخ يقول 75% احتمال",
-  "summary": "Eurozone CPI 3.3% (3y high) supports EUR +0.4; USDJPY at 160 (BoJ intervention risk); hold 0.8x before US ISM (80min); SHOCK removed after 3 losses",
-  "summary_ar": "تضخم أوروبا 3.3% (أعلى 3 سنوات) يدعم EUR +0.4؛ USDJPY عند 160 (خطر تدخل BoJ)؛ حذر 0.8 قبل ISM أمريكي (80 دقيقة)؛ SHOCK مُزال بعد 3 خسائر",
+  "intuition": "أشعر أن ISM سيأتي أضعف (54.8) ويدفع USD هبوطاً 30 دقيقة ثم يرتد - لكن هذا حدس فقط",
+  "summary": "Eurozone CPI 3.3% supports EUR +0.4; USDJPY at 160 (BoJ intervention risk); gold weak on 4.76% yields; hold 0.8x before US ISM (20min)",
+  "summary_ar": "تضخم أوروبا 3.3% يدعم EUR +0.4؛ USDJPY عند 160 (خطر تدخل BoJ)؛ ذهب ضعيف بسبب عوائد 4.76%؛ حذر 0.8 قبل ISM (20 دقيقة)",
   "news_events": "USD:1788271200:ISM_Manufacturing_PMI"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787824802,
