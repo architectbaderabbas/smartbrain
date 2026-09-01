@@ -1,9 +1,9 @@
 {
- "ts": 1788302538,
- "council_ts": 1788299842,
+ "ts": 1788303031,
+ "council_ts": 1788303031,
  "directives": {
-  "risk_mode": "normal",
-  "risk_mult": 0.9,
+  "risk_mode": "caution",
+  "risk_mult": 0.7,
   "regime": "mixed",
   "conf": 0.5,
   "bias_USD": 0.0,
@@ -14,33 +14,27 @@
   "bias_NZD": 0.0,
   "bias_CAD": 0.0,
   "bias_CHF": 0.0,
-  "bias_XAU": -0.3,
-  "bias_XAG": -0.3,
+  "bias_XAU": -0.2,
+  "bias_XAG": -0.2,
   "bias_OIL": 0.0,
   "bias_US500": 0.0,
   "bias_US100": 0.0,
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT",
-  "news_block": "AUD:171:231;NZD:201:291;USD:816:856;CAD:906:981",
+  "news_block": "AUD:155:215;NZD:185:275;USD:800:840;CAD:890:965",
   "block_symbols": "USDJPY,EURJPY,GBPJPY,AUDJPY,NZDJPY,CADJPY,CHFJPY",
   "shock": "none",
   "prefer_symbols": "EURUSD",
   "mind": "calm",
-  "psyche_flags": "awareness,prudence",
-  "intuition": "السوق سيتجاهل الأحداث الأربعة إذا جاءت in-line؛ الفرصة الحقيقية بعد 12 ساعة في تسريع fade الذهب إلى 4250 إذا لم يرد إيران",
-  "summary": "EUR +0.4 on 3.3% CPI; USDJPY at 160 (BoJ intervention risk, all JPY blocked); gold -0.3 on 4.76% yields; 0.9x before 4 major events; SHOCK removed (3 losses)",
-  "summary_ar": "EUR +0.4 بسبب تضخم 3.3%؛ USDJPY عند 160 (خطر تدخل BoJ، كل JPY محظور)؛ الذهب -0.3 بسبب عوائد 4.76%؛ 0.9x قبل 4 أحداث؛ SHOCK مُزال (3 خسائر)",
+  "psyche_flags": "awareness,fear,prudence",
+  "intuition": "السوق سيتجاهل الأحداث الأربعة إذا جاءت in-line؛ الفرصة الحقيقية بعد 6-12 ساعة: إذا لم ترد إيران، الذهب يتسارع إلى 4250؛ إذا ردت، نعود إلى danger",
+  "summary": "Iran drone attack on Bahrain base ignored by markets (1h, no reaction); EUR strong on 3.3% CPI; all JPY blocked (160 intervention risk); caution before 4 events; SHOCK removed",
+  "summary_ar": "هجوم إيران بالطائرات المسيّرة على البحرين تجاهله السوق (ساعة، لا رد فعل)؛ EUR قوي على CPI 3.3%؛ كل JPY محظور (خطر تدخل عند 160)؛ حذر قبل 4 أحداث؛ SHOCK محذوف",
   "news_events": "AUD:1788312600:GDP_qq;NZD:1788314400:Official_Cash_Rate;NZD:1788314400:RBNZ_Monetary_Policy_Statement;NZD:1788314400:RBNZ_Rate_Statement"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
-  {
-   "ts": 1787974728,
-   "what": "Trump announces major Venezuela oil deal (65B barrels); potential supply shock and geopolitical shift",
-   "sev": 2
-  },
   {
    "ts": 1788062927,
    "what": "Japan conducts record ¥15.4tn FX intervention; yen volatility spike amid Fed policy uncertainty pre-Jackson Hole",
@@ -84,6 +78,11 @@
   {
    "ts": 1788283537,
    "what": "US launches new strikes against Iran; escalation beyond prior Larak Island strike",
+   "sev": 2
+  },
+  {
+   "ts": 1788303018,
+   "what": "Iran launches drone attack on US base in Bahrain; new escalation beyond prior strikes",
    "sev": 2
   }
  ]

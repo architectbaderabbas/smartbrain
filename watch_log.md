@@ -1968,3 +1968,5 @@
 - 2026-09-01 22:27 UTC · heartbeat · quiet (sev0)
 - 2026-09-01 22:35 UTC · heartbeat · quiet (sev0)
 - 2026-09-01 22:42 UTC · heartbeat · quiet (sev0)
+- 2026-09-01 22:50 UTC · heartbeat · ALERT sev2: Iran launches drone attack on US base in Bahrain; new escalation beyond prior strikes -> protocol applied, council convening
+- 2026-09-01 22:50 UTC · FULL COUNCIL triggered: ALERT sev2: Iran launches drone attack on US base in Bahrain; new escalation beyond prior strikes
