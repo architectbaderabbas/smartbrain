@@ -1,13 +1,13 @@
 {
- "ts": 1788282743,
- "council_ts": 1788281740,
+ "ts": 1788283550,
+ "council_ts": 1788283550,
  "directives": {
-  "risk_mode": "normal",
-  "risk_mult": 0.9,
+  "risk_mode": "danger",
+  "risk_mult": 0.6,
   "regime": "mixed",
-  "conf": 0.4,
+  "conf": 0.35,
   "bias_USD": 0.0,
-  "bias_EUR": 0.0,
+  "bias_EUR": 0.3,
   "bias_GBP": 0.0,
   "bias_JPY": 0.3,
   "bias_AUD": 0.0,
@@ -16,31 +16,25 @@
   "bias_CHF": 0.0,
   "bias_XAU": 0.0,
   "bias_XAG": 0.0,
-  "bias_OIL": 0.0,
+  "bias_OIL": 0.3,
   "bias_US500": 0.0,
   "bias_US100": 0.0,
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
-  "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT",
-  "news_block": "AUD:500:620;NZD:530:710;CAD:1235:1355",
-  "block_symbols": "USDJPY",
-  "shock": "none",
+  "allow_books": "SWING,COUNCIL,REVERT",
+  "news_block": "AUD:474:594;NZD:504:684;CAD:1209:1329",
+  "block_symbols": "USDJPY,XAUUSD,XAGUSD,US500,US100,US30,GER40",
+  "shock": "USOIL:1:60:US_strikes_Iran_Hormuz_22min_ago;UKOIL:1:60:US_strikes_Iran_Hormuz_22min_ago",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "awareness,fear,prudence",
+  "psyche_flags": "none",
   "intuition": "none",
-  "summary": "Markets frozen before 4 major events (AUD/NZD/CAD/US jobs); USDJPY at 160 (intervention risk, blocked); risk_mult raised to 0.9 (fear correction)",
-  "summary_ar": "الأسواق متجمدة قبل 4 أحداث كبرى (AUD/NZD/CAD/وظائف US)؛ USDJPY عند 160 (خطر تدخل، محظور)؛ risk_mult رُفع إلى 0.9 (تصحيح الخوف)",
+  "summary": "US strikes Iran (",
+  "summary_ar": "",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
-  {
-   "ts": 1787918028,
-   "what": "PayPal stock crashes 18% after $50B Stripe/Advent buyout collapse; major fintech shock",
-   "sev": 2
-  },
   {
    "ts": 1787974728,
    "what": "Trump announces major Venezuela oil deal (65B barrels); potential supply shock and geopolitical shift",
@@ -84,6 +78,11 @@
   {
    "ts": 1788280839,
    "what": "Germany hit by Russian drone attack (Leipzig airport) + Brandenburg substation power line damage; escalation of Russia-Ukraine proxy strikes into critical infrastructure",
+   "sev": 2
+  },
+  {
+   "ts": 1788283537,
+   "what": "US launches new strikes against Iran; escalation beyond prior Larak Island strike",
    "sev": 2
   }
  ]

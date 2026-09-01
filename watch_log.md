@@ -1935,3 +1935,5 @@
 - 2026-09-01 16:59 UTC · heartbeat · quiet (sev0)
 - 2026-09-01 17:10 UTC · heartbeat · quiet (sev0)
 - 2026-09-01 17:12 UTC · heartbeat · quiet (sev0)
+- 2026-09-01 17:25 UTC · heartbeat · ALERT sev2: US launches new strikes against Iran; escalation beyond prior Larak Island strike -> protocol applied, council convening
+- 2026-09-01 17:25 UTC · FULL COUNCIL triggered: ALERT sev2: US launches new strikes against Iran; escalation beyond prior Larak Island strike
