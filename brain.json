@@ -1,5 +1,5 @@
 {
- "ts": 1788303031,
+ "ts": 1788303441,
  "council_ts": 1788303031,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT",
-  "news_block": "AUD:155:215;NZD:185:275;USD:800:840;CAD:890:965",
+  "news_block": "AUD:149:209;NZD:179:269;USD:794:834;CAD:884:959",
   "block_symbols": "USDJPY,EURJPY,GBPJPY,AUDJPY,NZDJPY,CADJPY,CHFJPY",
   "shock": "none",
   "prefer_symbols": "EURUSD",
@@ -34,6 +34,7 @@
   "news_events": "AUD:1788312600:GDP_qq;NZD:1788314400:Official_Cash_Rate;NZD:1788314400:RBNZ_Monetary_Policy_Statement;NZD:1788314400:RBNZ_Rate_Statement"
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1788062927,
