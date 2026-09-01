@@ -1,28 +1,28 @@
 {
- "ts": 1788220907,
- "council_ts": 1788219376,
+ "ts": 1788221190,
+ "council_ts": 1788221190,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 1.0,
   "regime": "mixed",
-  "conf": 0.55,
-  "bias_USD": 0.25,
+  "conf": 0.3,
+  "bias_USD": 0.0,
   "bias_EUR": 0.0,
-  "bias_GBP": -0.1,
-  "bias_JPY": 0.2,
+  "bias_GBP": 0.0,
+  "bias_JPY": 0.0,
   "bias_AUD": 0.0,
-  "bias_NZD": 0.25,
+  "bias_NZD": 0.0,
   "bias_CAD": 0.0,
   "bias_CHF": 0.0,
-  "bias_XAU": -0.4,
-  "bias_XAG": -0.3,
-  "bias_OIL": -0.2,
-  "bias_US500": -0.1,
-  "bias_US100": -0.1,
-  "bias_US30": -0.1,
+  "bias_XAU": 0.0,
+  "bias_XAG": 0.0,
+  "bias_OIL": 0.0,
+  "bias_US500": 0.0,
+  "bias_US100": 0.0,
+  "bias_US30": 0.0,
   "bias_GER40": 0.0,
-  "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT",
-  "news_block": "EUR:499:559;USD:799:889;NZD:1519:1639;AUD:1519:1579",
+  "allow_books": "ALL",
+  "news_block": "none",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
@@ -34,13 +34,7 @@
   "news_events": "none"
  },
  "error": null,
- "watchman": "صفقة UKOIL SHOCK -1.47$ ← تحليل مكتوب؛ SHOCK ثلاث خسائر متتالية ← أوقف لباقي اليوم",
  "alerts": [
-  {
-   "ts": 1787780673,
-   "what": "Oil prices cross $100/bbl amid Iran war escalation; UK energy exposure warning signals systemic risk",
-   "sev": 2
-  },
   {
    "ts": 1787824802,
    "what": "Mexican peso hits record low 61.88/USD; currency crisis signal amid trade war/geopolitical stress",
@@ -84,6 +78,11 @@
   {
    "ts": 1788151220,
    "what": "Iran launches missiles at Jordan bases in retaliation for US Larak Island strike; escalation beyond prior strikes",
+   "sev": 2
+  },
+  {
+   "ts": 1788221176,
+   "what": "US Army Secretary Dan Driscoll resigns amid active Iran war; command instability during Hormuz escalation",
    "sev": 2
   }
  ]
