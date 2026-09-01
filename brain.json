@@ -1,5 +1,5 @@
 {
- "ts": 1788299842,
+ "ts": 1788300317,
  "council_ts": 1788299842,
  "directives": {
   "risk_mode": "normal",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT",
-  "news_block": "AUD:212:272;NZD:242:332;USD:857:897;CAD:947:1022",
+  "news_block": "AUD:205:265;NZD:235:325;USD:850:890;CAD:940:1015",
   "block_symbols": "USDJPY,EURJPY,GBPJPY,AUDJPY,NZDJPY,CADJPY,CHFJPY",
   "shock": "none",
   "prefer_symbols": "EURUSD",
@@ -31,9 +31,10 @@
   "intuition": "السوق سيتجاهل الأحداث الأربعة إذا جاءت in-line؛ الفرصة الحقيقية بعد 12 ساعة في تسريع fade الذهب إلى 4250 إذا لم يرد إيران",
   "summary": "EUR +0.4 on 3.3% CPI; USDJPY at 160 (BoJ intervention risk, all JPY blocked); gold -0.3 on 4.76% yields; 0.9x before 4 major events; SHOCK removed (3 losses)",
   "summary_ar": "EUR +0.4 بسبب تضخم 3.3%؛ USDJPY عند 160 (خطر تدخل BoJ، كل JPY محظور)؛ الذهب -0.3 بسبب عوائد 4.76%؛ 0.9x قبل 4 أحداث؛ SHOCK مُزال (3 خسائر)",
-  "news_events": "AUD:1788312600:GDP_qq"
+  "news_events": "AUD:1788312600:GDP_qq;NZD:1788314400:Official_Cash_Rate;NZD:1788314400:RBNZ_Monetary_Policy_Statement;NZD:1788314400:RBNZ_Rate_Statement"
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787974728,
