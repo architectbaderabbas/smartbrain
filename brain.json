@@ -1,6 +1,6 @@
 {
- "ts": 1788283550,
- "council_ts": 1788283550,
+ "ts": 1788283638,
+ "council_ts": 1788281740,
  "directives": {
   "risk_mode": "danger",
   "risk_mult": 0.6,
@@ -21,10 +21,10 @@
   "bias_US100": 0.0,
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
-  "allow_books": "SWING,COUNCIL,REVERT",
-  "news_block": "AUD:474:594;NZD:504:684;CAD:1209:1329",
-  "block_symbols": "USDJPY,XAUUSD,XAGUSD,US500,US100,US30,GER40",
-  "shock": "USOIL:1:60:US_strikes_Iran_Hormuz_22min_ago;UKOIL:1:60:US_strikes_Iran_Hormuz_22min_ago",
+  "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT",
+  "news_block": "AUD:486:606;NZD:516:696;CAD:1221:1341",
+  "block_symbols": "USDJPY",
+  "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
   "psyche_flags": "none",
