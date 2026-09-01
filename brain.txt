@@ -1,12 +1,12 @@
-ts=1788272652
-generated=2026-09-01 14:24 UTC (watchman heartbeat; council 1 min ago)
+ts=1788273466
+generated=2026-09-01 14:37 UTC (watchman heartbeat; council 13 min ago)
 version=1
 risk_mode=normal
 risk_mult=0.8
 regime=mixed
 conf=0.5
 allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT
-news_block=USD:-31:89;AUD:659:779;NZD:689:869;CAD:1394:1514
+news_block=USD:-44:76;AUD:646:766;NZD:676:856;CAD:1381:1501
 block_symbols=none
 shock=none
 prefer_symbols=EURUSD
