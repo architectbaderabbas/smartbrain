@@ -1,5 +1,5 @@
 {
- "ts": 1788271754,
+ "ts": 1788272556,
  "council_ts": 1788269954,
  "directives": {
   "risk_mode": "normal",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT",
-  "news_block": "USD:-17:103;AUD:673:793;NZD:703:883;CAD:1408:1528",
+  "news_block": "USD:-30:90;AUD:660:780;NZD:690:870;CAD:1395:1515",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "EURUSD",
@@ -31,7 +31,7 @@
   "intuition": "أشعر أن ISM سيأتي أضعف (54.8) ويدفع USD هبوطاً 30 دقيقة ثم يرتد - لكن هذا حدس فقط",
   "summary": "Eurozone CPI 3.3% supports EUR +0.4; USDJPY at 160 (BoJ intervention risk); gold weak on 4.76% yields; hold 0.8x before US ISM (20min)",
   "summary_ar": "تضخم أوروبا 3.3% يدعم EUR +0.4؛ USDJPY عند 160 (خطر تدخل BoJ)؛ ذهب ضعيف بسبب عوائد 4.76%؛ حذر 0.8 قبل ISM (20 دقيقة)",
-  "news_events": "USD:1788271200:ISM_Manufacturing_PMI"
+  "news_events": "none"
  },
  "error": null,
  "watchman": "quiet (sev0)",
