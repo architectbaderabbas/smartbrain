@@ -1,6 +1,6 @@
 {
- "ts": 1788273536,
- "council_ts": 1788269954,
+ "ts": 1788273640,
+ "council_ts": 1788273640,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.8,
@@ -21,20 +21,19 @@
   "bias_US100": 0.0,
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
-  "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT",
-  "news_block": "USD:-45:75;AUD:645:765;NZD:675:855;CAD:1380:1500",
-  "block_symbols": "none",
+  "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT,SHOCK",
+  "news_block": "AUD:645:765;NZD:675:855;CAD:1380:1500",
+  "block_symbols": "USDJPY,EURJPY,GBPJPY,AUDJPY,NZDJPY,CHFJPY",
   "shock": "none",
   "prefer_symbols": "EURUSD",
   "mind": "calm",
   "psyche_flags": "awareness,prudence,intuition",
-  "intuition": "أشعر أن ISM سيأتي أضعف (54.8) ويدفع USD هبوطاً 30 دقيقة ثم يرتد - لكن هذا حدس فقط",
-  "summary": "Eurozone CPI 3.3% supports EUR +0.4; USDJPY at 160 (BoJ intervention risk); gold weak on 4.76% yields; hold 0.8x before US ISM (20min)",
-  "summary_ar": "تضخم أوروبا 3.3% يدعم EUR +0.4؛ USDJPY عند 160 (خطر تدخل BoJ)؛ ذهب ضعيف بسبب عوائد 4.76%؛ حذر 0.8 قبل ISM (20 دقيقة)",
+  "intuition": "أشعر أن RBNZ غداً سيفاجئ برفع 50 نقطة (ليس 25) - NZD سيقفز 1% لكن هذا حدس بلا دليل",
+  "summary": "EUR strong on 3.3% CPI; USDJPY at 160 (BoJ red line); gold weak on yields; 0.8x caution before AUD/NZD/CAD events; SHOCK re-enabled for tomorrow's volatility",
+  "summary_ar": "EUR قوي بسبب تضخم 3.3%؛ USDJPY عند 160 (خط أحمر BoJ)؛ ذهب ضعيف بسبب العوائد؛ حذر 0.8 قبل أحداث AUD/NZD/CAD؛ SHOCK مُعاد للتقلبات غداً",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787824802,

@@ -1,14 +1,14 @@
 {
  "decisions_scored": 39,
  "overall_hit_rate%": {
-  "4h": 40,
-  "12h": 67,
-  "24h": 56
+  "4h": 41,
+  "12h": 68,
+  "24h": 54
  },
  "per_asset_hit_rate%": {
   "EUR": {
    "4h": 0,
-   "12h": 33,
+   "12h": 38,
    "24h": 100
   },
   "JPY": {
@@ -63,7 +63,7 @@
   }
  },
  "by_mind_state%": {
-  "?": 43,
+  "?": 45,
   "calm": 49,
   "fearful": 70
  },
