@@ -1922,5 +1922,4 @@
 - 2026-09-01 15:12 UTC · heartbeat · quiet (sev0)
 - 2026-09-01 15:25 UTC · heartbeat · quiet (sev0)
 - 2026-09-01 15:27 UTC · heartbeat · quiet (sev0)
-- 2026-09-01 15:40 UTC · heartbeat · ALERT sev2: Two supertankers struck in Strait of Hormuz; Hormuz blockage ongoing with LNG prices at 5-month highs -> protocol applied, council convening
-- 2026-09-01 15:40 UTC · FULL COUNCIL triggered: ALERT sev2: Two supertankers struck in Strait of Hormuz; Hormuz blockage ongoing with LNG prices at 5-month highs
+- 2026-09-01 15:42 UTC · FULL COUNCIL triggered: scheduled full council (last 60 min ago)
