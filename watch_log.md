@@ -1976,4 +1976,5 @@
 - 2026-09-01 23:20 UTC · heartbeat · quiet (sev0)
 - 2026-09-01 23:27 UTC · heartbeat · quiet (sev0)
 - 2026-09-01 23:35 UTC · heartbeat · quiet (sev0)
-- 2026-09-01 23:37 UTC · heartbeat · quiet (sev0)
+- 2026-09-01 23:36 UTC · heartbeat · ALERT sev2: Bond yields surge to 2-decade highs; global sell-off deepens (23:28 UTC) -> protocol applied, council convening
+- 2026-09-01 23:36 UTC · FULL COUNCIL triggered: ALERT sev2: Bond yields surge to 2-decade highs; global sell-off deepens (23:28 UTC)
