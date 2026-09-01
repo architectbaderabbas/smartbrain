@@ -1,5 +1,5 @@
 {
- "ts": 1788269954,
+ "ts": 1788270757,
  "council_ts": 1788269954,
  "directives": {
   "risk_mode": "normal",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT",
-  "news_block": "USD:11:131;AUD:701:821;NZD:731:911;CAD:1436:1556",
+  "news_block": "USD:-2:118;AUD:688:808;NZD:718:898;CAD:1423:1543",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "EURUSD",
@@ -34,6 +34,7 @@
   "news_events": "USD:1788271200:ISM_Manufacturing_PMI"
  },
  "error": null,
+ "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787824802,
