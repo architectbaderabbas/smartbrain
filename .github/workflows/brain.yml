@@ -1,7 +1,7 @@
 name: SmartBrain council
 on:
   schedule:
-    - cron: "*/5 * * * *"      # watchman every 5 min; full council hourly or on alert
+    - cron: "*/30 * * * *"     # watchman every 30 min (was 5); full council every FULL_EVERY_MIN (repo variable, now 360) or on alert
   repository_dispatch:
     types: [account, trade, journal_rebuild]    # the robots post the account report / closed trades / a corrected history rebuild
   workflow_dispatch:
@@ -75,12 +75,12 @@ jobs:
 
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - name: Watchman (every run) / council (hourly, on alert, or after a loss)
+      - name: Watchman (every run) / council (every FULL_EVERY_MIN, on alert, or after a loss)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           BRAIN_MODEL: ${{ vars.BRAIN_MODEL || 'claude-sonnet-4-5' }}
           WATCH_MODEL: ${{ vars.WATCH_MODEL || 'claude-haiku-4-5' }}
-          FULL_EVERY_MIN: ${{ vars.FULL_EVERY_MIN || '60' }}
+          FULL_EVERY_MIN: ${{ vars.FULL_EVERY_MIN || '360' }}
           FORCE_FULL: ${{ github.event.inputs.full || (github.event.action == 'journal_rebuild' && '1') || '0' }}
           EVENT: ${{ github.event.action || github.event_name }}
         run: python watchman.py
