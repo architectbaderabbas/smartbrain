@@ -1,6 +1,6 @@
 {
- "ts": 1788295339,
- "council_ts": 1788292281,
+ "ts": 1788296242,
+ "council_ts": 1788296242,
  "directives": {
   "risk_mode": "normal",
   "risk_mult": 0.9,
@@ -14,8 +14,8 @@
   "bias_NZD": 0.0,
   "bias_CAD": 0.0,
   "bias_CHF": 0.0,
-  "bias_XAU": -0.2,
-  "bias_XAG": -0.2,
+  "bias_XAU": -0.3,
+  "bias_XAG": -0.3,
   "bias_OIL": 0.0,
   "bias_US500": 0.0,
   "bias_US100": 0.0,
@@ -27,14 +27,13 @@
   "shock": "none",
   "prefer_symbols": "EURUSD,EURGBP",
   "mind": "calm",
-  "psyche_flags": "awareness,fear,prudence,intuition",
-  "intuition": "السوق مُشبع من أخبار الحرب؛ الفرصة في EUR قبل رفع ECB وfade علاوة النفط خلال 48 ساعة",
-  "summary": "Eurozone CPI 3.3% (3y high) supports EUR +0.4; USDJPY at 160 (BoJ intervention risk, all JPY pairs blocked); gold weak on 4.76% yields; 0.9x before 4 major events; SHOCK removed (3 losses)",
-  "summary_ar": "تضخم أوروبا 3.3% (أعلى مستوى منذ 3 سنوات) يدعم EUR؛ USDJPY عند 160 (خطر تدخل BoJ، كل أزواج JPY محظورة)؛ الذهب ضعيف بسبب عوائد 4.76%؛ حذر 0.9x قبل 4 أحداث كبرى؛ SHOCK مُزال (3 خسائر)",
+  "psyche_flags": "awareness,fear,prudence",
+  "intuition": "السوق سيتجاهل الأحداث الأربعة إذا جاءت in-line؛ الفرصة الحقيقية بعد 18 ساعة في fade الذهب والنفط",
+  "summary": "Eurozone CPI 3.3% supports EUR +0.4; USDJPY at 160 (BoJ intervention risk, all JPY blocked); gold weakens to -0.3 on 4.76% yields; 0.9x before 4 major events",
+  "summary_ar": "تضخم أوروبا 3.3% يدعم EUR؛ USDJPY عند 160 (خطر تدخل BoJ، كل JPY محظور)؛ الذهب يضعف إلى -0.3 بسبب عوائد 4.76%؛ حذر 0.9x قبل 4 أحداث كبرى",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
   {
    "ts": 1787974728,
