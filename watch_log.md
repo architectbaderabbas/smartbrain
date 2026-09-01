@@ -1929,3 +1929,5 @@
 - 2026-09-01 16:12 UTC · heartbeat · quiet (sev0)
 - 2026-09-01 16:25 UTC · heartbeat · quiet (sev0)
 - 2026-09-01 16:27 UTC · heartbeat · quiet (sev0)
+- 2026-09-01 16:40 UTC · heartbeat · ALERT sev2: Germany hit by Russian drone attack (Leipzig airport) + Brandenburg substation power line damage; escalation of Russia-Ukraine proxy strikes into critical infrastructure -> protocol applied, council convening
+- 2026-09-01 16:40 UTC · FULL COUNCIL triggered: ALERT sev2: Germany hit by Russian drone attack (Leipzig airport) + Brandenburg substation power line damage; escalation of Russia-Ukraine proxy strikes into critical infrastructure

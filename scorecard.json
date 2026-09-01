@@ -1,5 +1,5 @@
 {
- "decisions_scored": 39,
+ "decisions_scored": 40,
  "overall_hit_rate%": {
   "4h": 40,
   "12h": 69,
@@ -63,7 +63,7 @@
   }
  },
  "by_mind_state%": {
-  "calm": 49,
+  "calm": 48,
   "fearful": 70,
   "?": 43
  },
