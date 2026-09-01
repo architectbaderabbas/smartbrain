@@ -1936,3 +1936,4 @@
 - 2026-09-01 17:10 UTC · heartbeat · quiet (sev0)
 - 2026-09-01 17:12 UTC · heartbeat · quiet (sev0)
 - 2026-09-01 17:27 UTC · heartbeat · quiet (sev0)
+- 2026-09-01 17:40 UTC · FULL COUNCIL triggered: re-assess emergency mode (danger, council 44 min ago)
