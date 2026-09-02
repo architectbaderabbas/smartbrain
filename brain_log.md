@@ -1,73 +1,4 @@
-k_mult=0.9 (حذر معقول قبل German CPI وISM)، لا هلع. متوازن.
-
-**Prudence (fired=yes):** bias_EUR=0.3 وbias_JPY=-0.35 مدعومان بمصدرين (CPI إسبانيا 4.3%، تدخل BoJ الفاشل 15.4 تريليون ين) + تاريخ (EUR قوي بالتضخم 2022، BoJ فشل 2022 = JPY ضعيف أسابيع). لكن |bias| >= 0.3 يحتاج حدث طازج < 90 دقيقة، وآخر حدث كان قبل 33 ساعة. نخفض إلى 0.3/-0.35 (حد الحذر).
-
-**Intuition (fired=yes):** EURJPY سينفجر صعوداً الاثنين صباحاً (طوكيو 00:00-02:00 UTC) بـ80-120 نقطة. الضغط 40 ساعة + فارق EUR/JPY الأساسي = زنبرك مضغوط.
-
-**Mind state:** calm  
-**Psyche flags:** awareness,prudence,intuition
-
----
-
-## DIRECTIVES
-
-risk_mode=normal
-risk_mult=0.9
-regime=mixed
-bias_USD=0.0
-bias_EUR=0.3
-bias_GBP=0.0
-bias_JPY=-0.35
-bias_AUD=0.0
-bias_NZD=0.0
-bias_CAD=0.0
-bias_CHF=0.0
-bias_XAU=0.0
-bias_XAG=0.0
-bias_OIL=0.0
-bias_US500=0.0
-bias_US100=0.0
-bias_US30=0.0
-bias_GER40=0.0
-conf=0.5
-allow_books=INTRADAY,SWING,COUNCIL,REVERT
-news_block=EUR:828:858
-block_symbols=none
-shock=none
-prefer_symbols=EURJPY,EURUSD
-summary=EUR strong (Spain CPI 4.3%, ECB hawkish), JPY weak (BoJ intervention failed); EURJPY coiled 40h at 185.4, breakout likely Monday Tokyo open; normal 0.9x, conf 0.5, German CPI tomorrow
-summary_ar=يورو قوي (تضخم إسبانيا 4.3%، ECB متشدد)، ين ضعيف (تدخل BoJ فشل)؛ EURJPY مضغوط 40 ساعة عند 185.4، انفجار محتمل الاثنين صباحاً طوكيو؛ عادي 0.9x، ثقة 0.5، CPI ألمانيا غداً
-mind=calm
-psyche_flags=awareness,prudence,intuition
-intuition=EURJPY سينفجر صعوداً الاثنين صباحاً طوكيو بـ80-120 نقطة - الضغط 40 ساعة والفارق الأساسي EUR/JPY زنبرك مضغوط
-
-
-# 2026-08-30 17:40 UTC
-## Council debate
-
-**Chief Macro Economist:**
-الوضع الكلي ثابت منذ 9 ساعات: إسبانيا CPI 4.3% (أعلى من 2.9%)، فرنسا أسعار الطاقة ترفع التضخم، ألمانيا CPI غداً 12:48 UTC (متوقع 0.3% شهري). منطقة اليورو تضخم فلاش 3.3% متوقع غداً 15:19 UTC. أميركا ISM Manufacturing غداً 18:19 UTC (متوقع 55.2 من 55.6) + JOLTS نفس الوقت. دورة النمو/التضخم: أوروبا تضخم صاعد يدعم EUR، أميركا بيانات قوية تدعم USD لكن لا أحداث اليوم. bias_EUR=0.3 صحيح، bias_USD=0.0 صحيح.
-
-**Central-Bank Watcher:**
-ECB محاضر 22-23 يوليو (أمس) أظهرت تشدداً، Schnabel خطاب أمس عن blockchain (لا تأثير نقدي). BoJ تدخل بـ15.4 تريليون ين وفشل (USDJPY الآن 160.1 = نفس مستوى الأسبوع الماضي)، الين ضعيف هيكلياً. Fed: Warsh Jackson Hole انتهى الجمعة (أثره في الأسعار)، لا خطابات اليوم. bias_JPY=-0.35 صحيح (تدخل فاشل = ضعف مؤكد)، bias_EUR=0.3 صحيح (ECB متشدد).
-
-**Geopolitical & Crisis Analyst:**
-إيران: حرب مستمرة، طوابير بنزين طويلة (عنوان NYT اليوم) = حصار أميركي يضغط الإمدادات، لكن لا تصعيد جديد منذ 48 ساعة. أوكرانيا: روسيا قتلت 38 (أسوأ هجوم 2026)، لكن الأسواق تجاهلت (XAU ثابت 4454، OIL ثابت 83.87). كندا-أميركا: حرب تعريفات معادن (عنوان CNBC)، لكن لا تأثير فوري على CAD. فنزويلا-أميركا: ترامب صفقة نفط (عنوان Forbes/Time) = أميركا تسيطر 7.1% احتياطي عالمي، إيجابي طويل الأجل لـOIL supply لكن لا أثر اليوم. bias_XAU=0.0، bias_OIL=0.0 صحيحان (لا محفز جديد).
-
-**FX Strategist:**
-EURJPY الآن 185.41 (ثابت 40 ساعة في نطاق 185.3-185.5)، EUR قوي أساسياً (تضخم)، JPY ضعيف (تدخل فاشل) = **الزنبرك مضغوط**. EURUSD 1.15821 (ثابت فوق 1.158 منذ يومين) = EUR قوي vs USD أيضاً. USDJPY 160.1 (ثابت رغم تدخل BoJ) = JPY ضعيف جداً. GBPUSD 1.35334، AUDUSD 0.71625، NZDUSD 0.59129 = كلها مستقرة (لا اتجاه). bias_EUR=0.3، bias_JPY=-0.35 صحيحان؛ باقي العملات 0.0. prefer_symbols=EURJPY,EURUSD صحيح.
-
-**Gold & Oil Trader:**
-XAU 4454.28 (ثابت منذ 24 ساعة، -0.3% من أعلى مستوى تاريخي 4467)، لا محفز جديد (إيران/أوكرانيا أخبار قديمة). XAG 66.317 (ثابت). OIL 83.872 (ثابت رغم إيران/فنزويلا لأن الإمدادات لم تتغير فعلياً اليوم). bias_XAU=0.0، bias_OIL=0.0 صحيحان. لا صفقات.
-
-**Equity / Risk-Sentiment Desk:**
-US500=7719 (+0.1% اليوم، قرب أعلى مستوى تاريخي)، US100=29472، GER40=26570 = **risk-on هادئ**. عناوين "السوق يكرر نمط 2000" (Motley Fool) و"الرافعة تحول السوق" (MarketWatch) = تحذيرات فقاعة، لكن لا انهيار اليوم. regime=mixed (ليس risk-on قوي، ليس risk-off). bias_US500=0.0 صحيح.
-
-**Risk Manager:**
-الحساب 453.91$ (يوم -0.06$، أسبوع -0.11$ = **مستقر تماماً**). INTRADAY آخر صفقة ربح +0.84$ أمس (أول ربح منذ 5 أيام)، لا خسائر متتالية اليوم. allow_books=INTRADAY,SWING,COUNCIL,REVERT صحيح (BREAKOUT محذوف لأنه 0% فوز). risk_mode=normal صحيح (لا أزمة، لا حدث كبير اليوم، scorecard 52% = فوق 50%). risk_mult=0.9 **محافظ جداً بلا سبب**: لا خسائر اليوم، لا حدث خطر، السوق هادئ، scorecard 52%. **يجب رفعه إلى 1.0**. news_block=EUR:785:815 (CPI ألمانيا غداً) صحيح.
-
-**Market Historian:**
-EURJPY مضغوط 40 ساعة في نطاق 20 نقطة (185.3-185.5) = **coiled spring**. آخر مرة حدث هذا: يوليو 2024 (EURJPY ثابت 72 ساعة عند 174، ثم انفجر +180 نقطة في 36 ساعة بعد بيانات BoJ). **النمط التاريخي**: ضغط EUR/JPY الأساسي (فارق تضخم/فائدة) + نطاق ضيق = انفجار 80-150 نقطة خلال 24-48 ساعة، الاتجاه يتبع الأساسيات (EUR قوي الآن). **لكن**: السعر الآن 185.41 = **74% من نطاق السنة** (أدنى 140، أعلى 198)، ليس ممتداً. التقلب المحقق منخفض (20 نقطة/40 ساعة = 0.5 نقطة/ساعة)، الانفجار وشيك. **التحذير**: الانفجارات تحدث عند محفز (بيانات، خطاب)، لا يوجد محفز اليوم (CPI ألمانيا غداً فقط). bias_EUR=0.3، bias_JPY=-0.35 صحيحان، لكن conf=0.5 مناسب (ليس 0.6+) لأن التوقيت غير مؤكد.
+المحقق منخفض (20 نقطة/40 ساعة = 0.5 نقطة/ساعة)، الانفجار وشيك. **التحذير**: الانفجارات تحدث عند محفز (بيانات، خطاب)، لا يوجد محفز اليوم (CPI ألمانيا غداً فقط). bias_EUR=0.3، bias_JPY=-0.35 صحيحان، لكن conf=0.5 مناسب (ليس 0.6+) لأن التوقيت غير مؤكد.
 
 **Chairman (مؤقت):**
 الإجماع: EUR قوي (تضخم)، JPY ضعيف (تدخل فاشل)، EURJPY مضغوط 40 ساعة، انفجار محتمل لكن **لا محفز اليوم**. risk_mode=normal، risk_mult يجب رفعه من 0.9 إلى 1.0 (لا سبب للحذر)، conf=0.5 (صحيح لكن ليس أعلى)، allow_books كما هو، news_block=EUR:785:815. ننتظر الـPsyche قبل القرار النهائي.
@@ -3192,6 +3123,74 @@ shock=none
 prefer_symbols=none
 summary=Geopolitical escalation (Iran attacks US bases, Germany-Russia) ignored by markets (90+ min, no reaction); caution before BoC/ADP; NZD weak post-RBNZ; gold weak on 4.76% yields
 summary_ar=التصعيد الجيوسياسي (إيران تهاجم قواعد أمريكية، ألمانيا-روسيا) تجاهلته الأسواق (90+ دقيقة، لا رد فعل)؛ حذر قبل BoC/ADP؛ NZD ضعيف بعد RBNZ؛ الذهب ضعيف على عوائد 4.76%
+mind=calm
+psyche_flags=awareness,fear,prudence
+intuition=none
+
+
+# 2026-09-02 09:54 UTC
+## Council debate
+
+**Chief Macro Economist:** الأزمة السندية العالمية تتفاقم: عوائد 10 سنوات أمريكية تقترب من 5%، الصين-أمريكا فجوة عوائد قياسية، التضخم الأوروبي 3.3% يدفع ECB للتشديد. النمو الأمريكي قوي (ADP اليوم متوقع 47K)، لكن تكلفة الديون ترتفع بسرعة خطيرة. دورة التضخم لم تنته بعد.
+
+**Central-Bank Watcher:** BOJ أكّد قبل ساعتين استعداده لرفع الفائدة في سبتمبر (Takata/Ueda)، USDJPY عند 159.85 (قرب 160 = خط أحمر للتدخل). BoC خلال 3.5 ساعات (متوقع تثبيت 2.25%)، لكن التصريحات قد تفاجئ. ECB Schnabel أمس: "يجب رفع الفائدة أكثر". كل البنوك المركزية في وضع تشديد متزامن = ضغط هائل على السيولة.
+
+**Geopolitical & Crisis Analyst:** الضربات الأمريكية-الإيرانية منذ 2.5 ساعة (إيران هاجمت قواعد أمريكية في البحرين/الأردن/العراق، أمريكا ردّت) + ألمانيا تتهم روسيا بهجوم درون على مطار. الأسواق تجاهلت الأخبار تماماً (لا spike في النفط/الذهب/المؤشرات منذ 90 دقيقة). هذا **ليس** حدث severity-3؛ السوق يرى تصعيداً روتينياً لا يهدد الإمدادات. النفط عند 90.6$ مستقر.
+
+**FX Strategist:** USD محايد (DXY مستقر)، EUR قوي على تضخم 3.3%، JPY تحت ضغط عند 159.85 (BOJ hawkish لكن السوق يشك)، NZD ضعيف بعد RBNZ رفع 25bp كما متوقع (sell-the-fact)، CAD ينتظر BoC. لا اتجاهات واضحة قبل ADP/BoC. EURUSD عند 1.157 (قرب قمة 6 أشهر)، GBPUSD 1.348 قوي.
+
+**Gold & Oil Trader:** الذهب 4308$ (هبط 21% من القمة، قرب أدنى 3 أسابيع) ضعيف على عوائد 4.76% + دولار قوي؛ الحرب لم تدعمه = safe-haven demand ميت. الفضة 63.6$ تتبع الذهب. النفط 90.6$ مستقر رغم الضربات (السوق يرى premium حرب 2-3$ فقط، قابل للتلاشي). لا إشارات شراء.
+
+**Equity / Risk-Sentiment Desk:** SPX 7623، NDX 28934، DAX 25787 كلها قرب القمم = risk-on كامل رغم الحرب والعوائد 5%. هذا تناقض خطير: الأسهم تتجاهل تكلفة الديون المرتفعة. VIX منخفض. السوق في حالة إنكار؛ أي صدمة (ADP ضعيف، BoC متشدد) قد تكسر هذا.
+
+**Risk Manager:** وضع danger الحالي **مبالغ فيه**: لا حدث severity-2 نشط الآن (الضربات منذ 2.5 ساعة والسوق تجاهلها)، الحساب +0.14$ اليوم (لا خسائر)، SHOCK خسر 3 صفقات لكن في أوقات ميتة (22:02، 23:47، 00:01 UTC) = خطأ توقيت لا فشل استراتيجي. BoC خلال 3.5 ساعات = news_block صحيح، لكن danger يجب أن ينزل إلى caution الآن.
+
+**Market Historian:** آخر مرة BOJ أشار لرفع وشيك (يوليو 2024): USDJPY هبط 5 big figures في 3 أيام، لكن السوق الآن عند 159.85 = **لا رد فعل بعد** (Ueda تكلم قبل 6 ساعات). النمط: السوق ينتظر الفعل لا الكلام. عوائد 5% تاريخياً = نقطة تحول (2007، 2018): الأسهم تصححت 10-20% خلال شهرين. الذهب في هبوط 21% = **extended** لكن لا إشارة انعكاس بعد (يحتاج ضعف دولار أو pivot من Fed). BoC آخر 3 مرات ثبّت: CAD هبط 0.3-0.5% في يوم القرار (sell-the-news).
+
+**Chairman:** يستمع، يزن. الأدلة: (1) BOJ hawkish حقيقي لكن السوق لم يتفاعل بعد، (2) الحرب تُتجاهل منذ 2.5 ساعة = ليست صدمة نشطة، (3) عوائد 5% + أسهم قرب القمم = فقاعة هشة، (4) BoC/ADP خلال ساعات قليلة = حذر مبرر. القرار: **خفض من danger إلى caution** (لا حدث نشط الآن)، risk_mult 0.7، إزالة shock (انتهى)، الإبقاء على news_block لـCAD/USD، bias_NZD=-0.2 (ضعيف بعد RBNZ)، bias_XAU=-0.3 (الهبوط مستمر)، conf=0.45 (أدلة متوسطة الجودة).
+
+## Psyche
+
+**Awareness (الوعي الذاتي):** fired=yes — قبل 15 دقيقة وضعنا danger بسبب "BOJ signals imminent rate rise"، لكن ذلك كان قبل 6 ساعات والسوق لم يتفاعل؛ danger الآن **بلا سبب نشط** (الحرب تُتجاهل، الحساب لا يخسر). هذا **خوف متأخر** من حدث قديم. يجب خفض إلى caution.
+
+**Greed (كاشف الطمع):** fired=no — لا ثقة عالية، معظم biases صفر أو ضعيفة، risk_mult منخفض. لا علامات طمع.
+
+**Fear (كاشف الخوف):** fired=yes — danger mode بلا تهديد ملموس حالي = رد فعل مبالغ. الحرب منذ 2.5 ساعة والسوق مستقر تماماً؛ BOJ تكلم قبل 6 ساعات بلا رد فعل. نعيد التوازن: caution كافٍ قبل BoC/ADP.
+
+**Prudence (الحذر):** fired=yes — bias_XAU=-0.3 يحتاج دليلين مستقلين: (1) عوائد 4.76% قرب 5% تاريخياً تضغط الذهب، (2) Market Historian يؤكد الهبوط 21% extended لكن بلا إشارة انعكاس. مقبول. bias_NZD=-0.2 مدعوم بـRBNZ رفع كما متوقع (sell-the-fact) + NZDUSD 0.58 ضعيف. مقبول.
+
+**Intuition (الحدس):** fired=no — لا حدس قوي الآن؛ السوق في انتظار بيانات.
+
+**الحالة الذهنية:** calm (هادئ) — لا طمع، الخوف السابق يُصحّح الآن، ننتظر BoC/ADP بحذر معقول.
+
+## DIRECTIVES
+
+risk_mode=caution
+risk_mult=0.7
+regime=mixed
+bias_USD=0.0
+bias_EUR=0.0
+bias_GBP=0.0
+bias_JPY=0.0
+bias_AUD=0.0
+bias_NZD=-0.2
+bias_CAD=0.0
+bias_CHF=0.0
+bias_XAU=-0.3
+bias_XAG=-0.3
+bias_OIL=0.0
+bias_US500=0.0
+bias_US100=0.0
+bias_US30=0.0
+bias_GER40=0.0
+conf=0.45
+allow_books=INTRADAY,SWING,POSITION,COUNCIL,REVERT
+news_block=CAD:196:256;USD:106:166
+block_symbols=none
+shock=none
+prefer_symbols=none
+summary=US-Iran strikes ignored (2.5h, no reaction); BOJ hawkish (6h ago, no USDJPY move); 5% yields+ATH stocks=fragile; caution before BoC/ADP; XAU weak on yields
+summary_ar=ضربات أمريكا-إيران تُتجاهل (2.5 ساعة، لا رد فعل)؛ BOJ متشدد (6 ساعات، USDJPY لم يتحرك)؛ عوائد 5% + أسهم قمم = هش؛ حذر قبل BoC/ADP؛ ذهب ضعيف
 mind=calm
 psyche_flags=awareness,fear,prudence
 intuition=none

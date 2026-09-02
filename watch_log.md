@@ -2033,3 +2033,5 @@
 - 2026-09-02 09:28 UTC · heartbeat · quiet (sev0)
 - 2026-09-02 09:39 UTC · heartbeat · quiet (sev0)
 - 2026-09-02 09:43 UTC · heartbeat · quiet (sev0)
+- 2026-09-02 09:54 UTC · heartbeat · ALERT sev2: BOJ signals imminent rate rise; Japan bond rout accelerating capital flows globally -> protocol applied, council convening
+- 2026-09-02 09:54 UTC · FULL COUNCIL triggered: ALERT sev2: BOJ signals imminent rate rise; Japan bond rout accelerating capital flows globally

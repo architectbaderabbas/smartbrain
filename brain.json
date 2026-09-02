@@ -1,11 +1,11 @@
 {
- "ts": 1788342216,
- "council_ts": 1788334444,
+ "ts": 1788342898,
+ "council_ts": 1788342898,
  "directives": {
   "risk_mode": "caution",
   "risk_mult": 0.7,
   "regime": "mixed",
-  "conf": 0.4,
+  "conf": 0.45,
   "bias_USD": 0.0,
   "bias_EUR": 0.0,
   "bias_GBP": 0.0,
@@ -14,33 +14,27 @@
   "bias_NZD": -0.2,
   "bias_CAD": 0.0,
   "bias_CHF": 0.0,
-  "bias_XAU": -0.2,
-  "bias_XAG": -0.2,
+  "bias_XAU": -0.3,
+  "bias_XAG": -0.3,
   "bias_OIL": 0.0,
   "bias_US500": 0.0,
   "bias_US100": 0.0,
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT",
-  "news_block": "CAD:218:278;USD:128:188",
+  "news_block": "CAD:196:256;USD:106:166",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
   "psyche_flags": "awareness,fear,prudence",
   "intuition": "none",
-  "summary": "Geopolitical escalation (Iran attacks US bases, Germany-Russia) ignored by markets (90+ min, no reaction); caution before BoC/ADP; NZD weak post-RBNZ; gold weak on 4.76% yields",
-  "summary_ar": "التصعيد الجيوسياسي (إيران تهاجم قواعد أمريكية، ألمانيا-روسيا) تجاهلته الأسواق (90+ دقيقة، لا رد فعل)؛ حذر قبل BoC/ADP؛ NZD ضعيف بعد RBNZ؛ الذهب ضعيف على عوائد 4.76%",
-  "news_events": "none"
+  "summary": "US-Iran strikes ignored (2.5h, no reaction); BOJ hawkish (6h ago, no USDJPY move); 5% yields+ATH stocks=fragile; caution before BoC/ADP; XAU weak on yields",
+  "summary_ar": "ضربات أمريكا-إيران تُتجاهل (2.5 ساعة، لا رد فعل)؛ BOJ متشدد (6 ساعات، USDJPY لم يتحرك)؛ عوائد 5% + أسهم قمم = هش؛ حذر قبل BoC/ADP؛ ذهب ضعيف",
+  "news_events": "CAD:1788356700:BOC_Rate_Statement;CAD:1788356700:Overnight_Rate"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
-  {
-   "ts": 1788123317,
-   "what": "US strikes Iranian military targets on Larak Island; Iran vows response; Hormuz strait tension escalates",
-   "sev": 2
-  },
   {
    "ts": 1788128718,
    "what": "Oil surges 2.47% post-US strike on Larak Island; Hormuz strait tension escalates with explosions reported in Jordan",
@@ -84,6 +78,11 @@
   {
    "ts": 1788334430,
    "what": "Germany tests Israeli ballistic missile; Russia-Ukraine escalation signal amid active Middle East conflict",
+   "sev": 2
+  },
+  {
+   "ts": 1788342884,
+   "what": "BOJ signals imminent rate rise; Japan bond rout accelerating capital flows globally",
    "sev": 2
   }
  ]
