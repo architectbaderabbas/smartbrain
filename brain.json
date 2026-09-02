@@ -1,5 +1,5 @@
 {
- "ts": 1788312829,
+ "ts": 1788313726,
  "council_ts": 1788305788,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT,SHOCK",
-  "news_block": "AUD:2:62;NZD:32:122;USD:647:687;CAD:737:812",
+  "news_block": "AUD:-12:48;NZD:18:108;USD:633:673;CAD:723:798",
   "block_symbols": "USDJPY,EURJPY,GBPJPY,AUDJPY,NZDJPY,CADJPY,CHFJPY",
   "shock": "none",
   "prefer_symbols": "EURUSD",
@@ -31,7 +31,7 @@
   "intuition": "إذا لم ترد إيران خلال 12 ساعة، الذهب يهبط إلى 4250؛ إذا ردت، نعود إلى danger وذهب 4400+؛ الفرصة الحقيقية بعد RBNZ/BoC",
   "summary": "US-Iran strikes ignored by markets (1h, no reaction); EUR strong on 3.3% CPI; 5% yields stable; caution (0.7x) before 4 major events; SHOCK restored",
   "summary_ar": "ضربات أمريكا-إيران تجاهلها السوق (ساعة، لا رد فعل)؛ يورو قوي على تضخم 3.3%؛ عوائد 5% مستقرة؛ حذر (0.7x) قبل 4 أحداث كبرى؛ SHOCK أُعيد",
-  "news_events": "AUD:1788312600:GDP_qq;NZD:1788314400:Official_Cash_Rate;NZD:1788314400:RBNZ_Monetary_Policy_Statement;NZD:1788314400:RBNZ_Rate_Statement;NZD:1788318000:RBNZ_Press_Conference"
+  "news_events": "NZD:1788314400:Official_Cash_Rate;NZD:1788314400:RBNZ_Monetary_Policy_Statement;NZD:1788314400:RBNZ_Rate_Statement;NZD:1788318000:RBNZ_Press_Conference"
  },
  "error": null,
  "watchman": "quiet (sev0)",
