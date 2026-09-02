@@ -2018,3 +2018,5 @@
 - 2026-09-02 06:48 UTC · heartbeat · quiet (sev0)
 - 2026-09-02 07:03 UTC · heartbeat · quiet (sev0)
 - 2026-09-02 07:18 UTC · heartbeat · quiet (sev0)
+- 2026-09-02 07:33 UTC · heartbeat · ALERT sev2: Germany tests Israeli ballistic missile; Russia-Ukraine escalation signal amid active Middle East conflict -> protocol applied, council convening
+- 2026-09-02 07:33 UTC · FULL COUNCIL triggered: ALERT sev2: Germany tests Israeli ballistic missile; Russia-Ukraine escalation signal amid active Middle East conflict

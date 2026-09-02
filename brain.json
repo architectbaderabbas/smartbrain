@@ -1,46 +1,40 @@
 {
- "ts": 1788333528,
- "council_ts": 1788328126,
+ "ts": 1788334444,
+ "council_ts": 1788334444,
  "directives": {
-  "risk_mode": "normal",
-  "risk_mult": 1.0,
+  "risk_mode": "caution",
+  "risk_mult": 0.7,
   "regime": "mixed",
-  "conf": 0.3,
+  "conf": 0.4,
   "bias_USD": 0.0,
   "bias_EUR": 0.0,
   "bias_GBP": 0.0,
   "bias_JPY": 0.0,
   "bias_AUD": 0.0,
-  "bias_NZD": 0.0,
+  "bias_NZD": -0.2,
   "bias_CAD": 0.0,
   "bias_CHF": 0.0,
-  "bias_XAU": 0.0,
-  "bias_XAG": 0.0,
+  "bias_XAU": -0.2,
+  "bias_XAG": -0.2,
   "bias_OIL": 0.0,
   "bias_US500": 0.0,
   "bias_US100": 0.0,
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
-  "allow_books": "ALL",
-  "news_block": "none",
+  "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT",
+  "news_block": "CAD:340:400;USD:250:310",
   "block_symbols": "none",
   "shock": "none",
   "prefer_symbols": "none",
   "mind": "calm",
-  "psyche_flags": "none",
+  "psyche_flags": "awareness,fear,prudence",
   "intuition": "none",
-  "summary": "",
-  "summary_ar": "",
+  "summary": "Geopolitical escalation (Iran attacks US bases, Germany-Russia) ignored by markets (90+ min, no reaction); caution before BoC/ADP; NZD weak post-RBNZ; gold weak on 4.76% yields",
+  "summary_ar": "التصعيد الجيوسياسي (إيران تهاجم قواعد أمريكية، ألمانيا-روسيا) تجاهلته الأسواق (90+ دقيقة، لا رد فعل)؛ حذر قبل BoC/ADP؛ NZD ضعيف بعد RBNZ؛ الذهب ضعيف على عوائد 4.76%",
   "news_events": "none"
  },
  "error": null,
- "watchman": "quiet (sev0)",
  "alerts": [
-  {
-   "ts": 1788090918,
-   "what": "Venezuela potentially breaking from OPEC; US Treasury conducting surprise Euro sales and Yen purchases, rattling ECB",
-   "sev": 2
-  },
   {
    "ts": 1788123317,
    "what": "US strikes Iranian military targets on Larak Island; Iran vows response; Hormuz strait tension escalates",
@@ -84,6 +78,11 @@
   {
    "ts": 1788305777,
    "what": "Bond yields surge to 2-decade highs; global sell-off deepens (23:28 UTC)",
+   "sev": 2
+  },
+  {
+   "ts": 1788334430,
+   "what": "Germany tests Israeli ballistic missile; Russia-Ukraine escalation signal amid active Middle East conflict",
    "sev": 2
   }
  ]
