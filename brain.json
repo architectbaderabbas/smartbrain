@@ -1,5 +1,5 @@
 {
- "ts": 1788324526,
+ "ts": 1788324936,
  "council_ts": 1788305788,
  "directives": {
   "risk_mode": "caution",
@@ -22,7 +22,7 @@
   "bias_US30": 0.0,
   "bias_GER40": 0.0,
   "allow_books": "INTRADAY,SWING,POSITION,COUNCIL,REVERT,SHOCK",
-  "news_block": "USD:459:499;CAD:549:624",
+  "news_block": "USD:453:493;CAD:543:618",
   "block_symbols": "USDJPY,EURJPY,GBPJPY,AUDJPY,NZDJPY,CADJPY,CHFJPY",
   "shock": "none",
   "prefer_symbols": "EURUSD",
