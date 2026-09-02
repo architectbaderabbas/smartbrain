@@ -1,7 +1,8 @@
 name: SmartBrain council
+# 2026-09-02 (Pedro): council OFF. No cron any more. The workflow now only stores what the robots post
+# (account.json / trades.json / journal rebuild). The watchman/council step runs only when the repo
+# variable BRAIN_ENABLED is '1' or when a human starts the workflow by hand (workflow_dispatch).
 on:
-  schedule:
-    - cron: "*/30 * * * *"     # watchman every 30 min (was 5); full council every FULL_EVERY_MIN (repo variable, now 360) or on alert
   repository_dispatch:
     types: [account, trade, journal_rebuild]    # the robots post the account report / closed trades / a corrected history rebuild
   workflow_dispatch:
@@ -74,8 +75,10 @@ jobs:
           PY
 
       - uses: actions/setup-python@v5
+        if: vars.BRAIN_ENABLED == '1' || github.event_name == 'workflow_dispatch'
         with: { python-version: "3.12" }
-      - name: Watchman (every run) / council (every FULL_EVERY_MIN, on alert, or after a loss)
+      - name: Watchman / council (ONLY if BRAIN_ENABLED=1 or started by hand)
+        if: vars.BRAIN_ENABLED == '1' || github.event_name == 'workflow_dispatch'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           BRAIN_MODEL: ${{ vars.BRAIN_MODEL || 'claude-sonnet-4-5' }}
